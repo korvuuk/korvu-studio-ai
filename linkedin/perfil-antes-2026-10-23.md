@@ -2,7 +2,7 @@
 
 - Nome: Carlos (korvu) Mendes Pereira · Título: Videomaker & Gestor de Trafego · Local: Montijo, Setúbal, Portugal
 - Idioma do perfil: Português · URL: /in/carlos-mendes-pereira-302573a6
-- Capa: foto escura com "Carlos M. Pereira · Videomaker & Gestor de Trafego · cmpereira50@gmail.com · +55(32)99132-1179"
+- Capa: foto escura com "Carlos M. Pereira · Videomaker & Gestor de Trafego · [e-mail pessoal redigido] · [telefone redigido]"
 - Sobre: "Sou formado em Sistemas de Informação pela Faculdade Metodista Granbery e um videomaker apaixonado por contar
   histórias por meio das lentes da minha câmera. Possuo 4 anos de experiência na indústria de produção de vídeo e ao
   longo da minha carreira, tive a oportunidade de colaborar com diversas Organizações Não Governamentais (ONGs) de
