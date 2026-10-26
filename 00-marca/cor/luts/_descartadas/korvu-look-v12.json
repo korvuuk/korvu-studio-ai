@@ -1,0 +1,28 @@
+{
+  "versao": "v12",
+  "tipo": "parametrico",
+  "nome": "WAY v5 + pele recuperada (1.5 stop)",
+  "aprovada": false,
+  "criado_em": "2026-09-17",
+  "parametros": {
+    "nome": "WAY v5 + pele recuperada (1.5 stop)",
+    "sat": 0.72,
+    "pele_sat": 1.0,
+    "pele_calor": 0.012,
+    "pele_centro": 35.0,
+    "pele_sigma": 28.0,
+    "sombra": "-0.030,0.012,0.004",
+    "alta": "0.010,0.004,-0.010",
+    "pele_croma_min": 0.015,
+    "pele_croma_rampa": 0.06,
+    "neutro": "0,0,0",
+    "neutro_croma": 0.06,
+    "exposicao": 1.5,
+    "contraste": 1.0,
+    "pivo": 0.42,
+    "preto": 0.0,
+    "branco": 1.0,
+    "base": "00-marca/cor/luts/korvu-look-v5.cube"
+  },
+  "motivo": "+1,5 stop: branco em 100,3 IRE — estoura a luminária"
+}

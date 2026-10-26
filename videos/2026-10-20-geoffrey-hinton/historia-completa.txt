@@ -1,0 +1,199 @@
+A história completa de Geoffrey Hinton.
+Um texto para ouvir antes de gravar, enquanto você trabalha.
+O nome se fala assim: Jéf-ri Hín-ton.
+A ideia não é decorar nada. É você conhecer a história inteira, para contar do seu jeito.
+Vamos lá.
+
+Parte um. O menino de Londres e o pai dos besouros.
+
+Geoffrey Hinton nasceu em Londres, em dezembro de mil novecentos e quarenta e sete. Hoje ele tem setenta e oito anos.
+
+Ele vem de uma família de cientistas. Um dos antepassados dele é George Boole, o matemático cuja lógica virou a base de como os computadores funcionam. O Hinton é tataraneto dele. Outro antepassado é George Everest, o homem que deu nome ao monte Everest. Tanto que o nome do meio do Hinton é Everest.
+
+O pai, Howard Hinton, estudava insetos. Mais exatamente, besouros. Era uma autoridade no assunto.
+
+E tem uma história que o próprio Hinton contou na televisão americana, no programa Sixty Minutes, em dois mil e vinte e três.
+
+Todo dia de manhã, quando o menino saía para a escola, o pai dizia para ele, ali na calçada: vai lá, se esforça, e talvez, quando você tiver o dobro da minha idade, você seja metade tão bom quanto eu.
+
+Todo dia. Imagina crescer ouvindo isso.
+
+Quando o pai morreu, a família foi até a sala dele na universidade. Tinha caixas e caixas de papéis, cada uma sobre um tipo de besouro. E, perto da porta, uma caixa menor com a etiqueta: "não são insetos". Era ali que ele guardava tudo sobre a família.
+
+O Hinton conta isso com humor. E, também com humor, já comentou que hoje tem mais citações em trabalhos científicos do que o pai. O filho que talvez fosse metade tão bom acabou ganhando um Nobel.
+
+Parte dois. Os estudos.
+
+O Hinton estudou na Universidade de Cambridge, no fim dos anos sessenta. Segundo as biografias, ele passou por ciências naturais, história da arte e filosofia antes de se formar em psicologia experimental, em mil novecentos e setenta.
+
+Repara: ele não começou como cara de computador. Começou querendo entender a mente humana. Como a gente pensa, como a gente aprende.
+
+Em mil novecentos e setenta e dois, ele foi para a Universidade de Edimburgo, na Escócia, fazer doutorado em inteligência artificial. Daqui pra frente, vou chamar só de IA.
+
+Parte três. A ideia em que ninguém acreditava.
+
+Em Edimburgo, nos anos setenta, o Hinton cismou com uma ideia.
+
+Naquela época, a maioria achava que, para fazer um computador inteligente, era preciso escrever regras. Muitas regras. Se acontecer isso, faça aquilo. O programador colocava o conhecimento lá dentro, à mão.
+
+O Hinton pensava diferente. Ele queria uma máquina que aprendesse imitando o cérebro. O nome técnico é rede neural.
+
+Como funciona? Do jeito mais simples possível.
+
+O seu cérebro tem bilhões de células ligadas umas às outras. Quando você aprende alguma coisa, algumas ligações ficam mais fortes e outras ficam mais fracas.
+
+Pensa numa trilha no mato. Na primeira vez que alguém passa, é só mato. Mas, se as pessoas passam sempre pelo mesmo caminho, ele vai ficando marcado. E os caminhos que ninguém usa, o mato cobre de novo.
+
+A rede neural é isso dentro do computador. Você mostra um monte de exemplos. Quando ela acerta, o caminho que levou ao acerto fica mais forte. Quando erra, o caminho do erro fica mais fraco. Ninguém escreve as regras. A máquina aprende de tanto ver exemplo.
+
+Hoje parece óbvio. Mas, naquela época, quase ninguém achava que um programa de computador pudesse imitar o cérebro.
+
+O próprio orientador do Hinton, o professor que acompanhava o doutorado dele, mandou largar a ideia. Segundo o Hinton, o conselho foi: larga isso antes que acabe com a sua carreira.
+
+Ele não largou.
+
+Anos depois, no Sixty Minutes, perguntaram quando ele percebeu que estava certo e quase todo mundo estava errado. E ele respondeu, simples assim: eu sempre achei que estava certo.
+
+E ele mesmo faz a conta: levou uns cinquenta anos para essa ideia funcionar bem de verdade.
+
+Parte quatro. Os anos difíceis.
+
+Segundo as biografias, era muito difícil conseguir dinheiro para pesquisar redes neurais na Grã-Bretanha. Então ele foi trabalhar em universidades dos Estados Unidos.
+
+Nesses anos, ele fez duas coisas que mais tarde iam pesar muito.
+
+A primeira, na primeira metade dos anos oitenta: criou a chamada máquina de Boltzmann. Usou ferramentas da física para fazer uma rede neural que aprende a reconhecer padrões nos dados. Guarda isso, porque é um dos motivos do Nobel de Física, lá na frente.
+
+A segunda, em mil novecentos e oitenta e seis: junto com dois colegas, David Rumelhart e Ronald Williams, mostrou como treinar redes neurais de várias camadas. A máquina olha para o próprio erro e vai ajustando cada ligação, um pouquinho de cada vez. Atenção: isso foi feito com colegas. Não foi invenção só dele.
+
+Em mil novecentos e oitenta e sete, ele se mudou para o Canadá, para a Universidade de Toronto. E tem um motivo. Nos Estados Unidos, boa parte do dinheiro para pesquisa em IA vinha do Departamento de Defesa, dos militares. No Canadá, era mais fácil conseguir verba sem essa ligação.
+
+Toronto virou a casa dele. Até hoje ele é professor emérito lá.
+
+Parte cinco. Dois mil e doze: o quarto do aluno.
+
+Aí chega dois mil e doze. E tudo muda.
+
+O Hinton tinha dois alunos em Toronto: Alex Krizhevsky e Ilya Sutskever. Os três fizeram juntos um programa para reconhecer imagens.
+
+E inscreveram o programa numa competição chamada ImageNet. Deixa eu explicar.
+
+A ImageNet é um banco gigante de fotos, cada uma com uma etiqueta dizendo o que tem nela: cachorro, carro, cogumelo, barco. E todo ano tinha uma competição: quem faz o programa que mais acerta o que aparece numa foto que ele nunca viu? O programa dá cinco palpites por foto. Se a resposta certa não estiver entre os cinco, conta como erro.
+
+O resultado foi um choque. O programa do Hinton e dos alunos errou quinze por cento. O segundo colocado errou vinte e seis por cento.
+
+E tem um detalhe ótimo. Segundo o Museu de História do Computador, nos Estados Unidos, o programa foi treinado em duas placas de vídeo, dessas de videogame, num computador que ficava no quarto do Alex, na casa dos pais dele.
+
+Ou seja: a virada da IA moderna não veio de um gênio sozinho num laboratório milionário. Veio de uma ideia teimosa, de um banco de fotos bem organizado e de placas de videogame, num quarto de estudante.
+
+Parte seis. O Google.
+
+Logo depois, no fim de dois mil e doze, o Hinton e os dois alunos abriram uma empresa pequena. E grandes empresas de tecnologia disputaram quem ia ficar com ela.
+
+Quem levou foi o Google, em março de dois mil e treze. A imprensa falou em quarenta e quatro milhões de dólares, mas o Google nunca confirmou o valor.
+
+A partir daí, o Hinton passou dez anos dividindo o tempo entre a universidade e o Google. Ele mesmo chama esse período de dez anos felizes.
+
+Nesse tempo, ganhou o Prêmio Turing, que é chamado de o Nobel da computação, junto com outros dois pesquisadores, Yoshua Bengio e Yann LeCun. E é por tudo isso que a imprensa chama o Hinton de padrinho da IA. É um apelido, não um título.
+
+Parte sete. A saída do Google.
+
+No começo de maio de dois mil e vinte e três, saiu a notícia: o Hinton estava deixando o Google, depois de dez anos.
+
+E aqui é importante contar certo, porque muita gente conta errado. Ele não saiu em protesto. Não saiu brigado.
+
+O que ele disse, numa entrevista a uma revista de tecnologia americana, foi isso: eu quero falar sobre segurança na IA sem ter que me preocupar com como isso afeta o negócio do Google. E, enquanto o Google me pagar, eu não posso.
+
+E fez questão de dizer que o Google agiu com muita responsabilidade. Ou seja, saiu e ainda elogiou a empresa.
+
+Mais tarde, ele próprio contou que também pesou a idade: tinha setenta e cinco anos e queria se aposentar. E brinca que fez um péssimo trabalho nisso, porque nunca deu tanta entrevista.
+
+Em outubro daquele ano, deu a entrevista ao Sixty Minutes. Falou dos benefícios, principalmente na saúde, e falou dos riscos. Mas deixou claro: eu não estou dizendo que isso vai acontecer. A mensagem principal dele é que existe uma incerteza enorme. Ninguém sabe ao certo o que vem por aí.
+
+Parte oito. A ligação das duas da manhã.
+
+Agora, a cena que abre o vídeo.
+
+Oito de outubro de dois mil e vinte e quatro. O Hinton estava num hotel barato na Califórnia. Sem internet, com o sinal do telefone ruim. Duas da manhã.
+
+O telefone toca. Do outro lado, várias pessoas falando inglês com um sotaque sueco forte.
+
+Era o comitê do Nobel. Ele tinha ganhado o Prêmio Nobel de Física.
+
+E a primeira reação dele foi desconfiar. Na entrevista por telefone que o Nobel publicou, ele disse: como é que eu ia ter certeza de que não era um trote?
+
+Ele contou que nem sabia que estava indicado. E que naquele dia ia fazer um exame de ressonância. Segundo a imprensa, dormiu umas duas horas e depois deu entrevista coletiva.
+
+O Nobel foi dividido com o americano John Hopfield. O motivo oficial: descobertas e invenções fundamentais que permitem o aprendizado de máquina com redes neurais artificiais. Lembra da máquina de Boltzmann, com as ferramentas da física? Está aí a ligação.
+
+Repara também: entre a saída do Google, em maio de dois mil e vinte e três, e essa ligação, passou mais ou menos um ano e meio.
+
+Parte nove. O discurso no banquete do Nobel.
+
+Em dezembro de dois mil e vinte e quatro, ele foi a Estocolmo. E no dia dez falou no banquete, aquele jantar de gala com a família real sueca.
+
+O discurso foi curto. E ele disse duas coisas que importam muito para quem tem um negócio.
+
+A primeira, a parte boa. Essa nova IA vai criar assistentes muito inteligentes, que vão aumentar a produtividade em quase todos os setores. E isso pode ser um avanço maravilhoso para toda a humanidade, desde que os ganhos sejam divididos igualmente.
+
+A segunda, o alerta. Ele citou riscos que já estão acontecendo. E um deles foi bem pé no chão: golpes por e-mail feitos por criminosos digitais. Aquele e-mail falso que finge ser o banco, a loja, o fornecedor, para você clicar num link ou passar uma senha.
+
+Ele também pediu pesquisa urgente sobre como manter essas IAs sob controle. E segue defendendo mais pesquisa em segurança e mais regras.
+
+Parte dez. O recado para quem usa IA hoje.
+
+Então, juntando tudo: qual é o recado para quem está começando agora?
+
+Não é pânico. E não é deslumbramento.
+
+A IA pode, sim, te deixar mais produtivo. Quem diz isso é ele, no discurso do Nobel. Vale usar.
+
+Mas a mesma tecnologia deixou os golpes mais bem feitos. Antigamente, e-mail de golpe vinha cheio de erro de português. Agora pode vir perfeito, educado, com o seu nome.
+
+E aqui tem uma ligação bonita com o começo da história. O próprio Hinton, quando o Nobel ligou, desconfiou. Até o Nobel ele conferiu.
+
+Então a lição é: usa a IA, mas desconfia de mensagem bonita demais. Antes de clicar, confere. E quem clica em tudo que chega é quem mais precisa ouvir isso.
+
+Essa é a história.
+
+Os momentos que estão no vídeo.
+
+Agora, as falas do roteiro, na ordem. O texto desta vez é o seu, quase igual ao que você escreveu. Os exemplos são só outro jeito de dizer, se travar. Fale do seu jeito.
+
+O que não muda: os anos (mil novecentos e quarenta e sete, dois mil e doze, dois mil e vinte e três, dois mil e vinte e quatro), "dois alunos", "dez anos", "um ano e meio depois", "duas da manhã", "Nobel de Física", a palavra NOBEL no final e o pedido "manda pra alguém que tá desistindo de uma ideia".
+
+O gancho. Falas um a três. "Imagina você passar quase cinquenta anos acreditando numa ideia que ninguém levava a sério… E, no final, essa ideia mudar o mundo e ainda te dar um Prêmio Nobel. Pois é. Essa é a história de Geoffrey Hinton." Emoção primeiro: é um convite pra pessoa se imaginar no lugar dele. Não diga que ele inventou a IA.
+
+A história. Falas quatro a oito. Londres, mil novecentos e quarenta e sete, família de cientistas. Por exemplo: "Ele não começou mexendo com computador. O que ele queria era entender como a mente humana funciona." E a pergunta dos anos setenta, que fecha o bloco: "E se a gente conseguisse criar máquinas capazes de aprender como o cérebro humano?" Faça a pergunta como pergunta mesmo, e deixe ela no ar um instante.
+
+O desafio. Falas nove a onze. Quase ninguém acreditava. Por exemplo: "Até o orientador dele disse pra largar essa pesquisa, que ia acabar com a carreira dele." E fecha seco: "Mas Hinton não desistiu."
+
+A revolução. Falas doze a dezesseis. Dois mil e doze, dois alunos, um sistema que reconhece imagens com uma precisão impressionante. Os números da competição aparecem só na tela, você não precisa dizer. Por exemplo: "Pouco depois, o Google comprou a empresa deles, e ele ficou dez anos trabalhando lá." Não fale o valor da compra.
+
+O Nobel. Falas dezessete a vinte e dois. "Mas olha que interessante…" é a virada: dê uma respirada antes. Em dois mil e vinte e três, saiu do Google pra poder falar livremente dos riscos. Nunca diga protesto ou briga. Depois, a cena: "Um ano e meio depois, o telefone toca às duas da manhã. Era o comitê do Nobel."
+
+A reflexão. Falas vinte e três a vinte e sete. O padrinho da inteligência artificial. "E o mais curioso" é que quem ajudou a criar essa tecnologia é um dos que mais alertam sobre os riscos dela. A lição fica pro fim, devagar: "Às vezes, uma ideia em que ninguém acredita pode mudar o mundo."
+
+O fim. Falas vinte e oito e vinte e nove. "Comenta NOBEL que eu te mando o link oficial da entrevista dele." Não muda: a palavra NOBEL, e a promessa é só o link oficial. Não prometa legenda em português. E fecha: "E manda pra alguém que tá desistindo de uma ideia."
+
+Ganchos alternativos, se gravar: "Imagina ouvir que a sua ideia vai acabar com a sua carreira…" Ou: "Imagina você defender uma ideia que todo mundo achava impossível…" Os dois continuam com a fala dois, igual.
+
+Pronto. Boa gravação.
+
+
+Fontes (não precisa ler em voz alta)
+
+Programa 60 Minutes, CBS, transcrição da entrevista de 2023: https://www.cbsnews.com/news/geoffrey-hinton-ai-dangers-60-minutes-transcript/
+Vídeo do 60 Minutes: https://www.youtube.com/watch?v=qrvK_KuIeJk
+Nobel, ficha oficial: https://www.nobelprize.org/prizes/physics/2024/hinton/facts/
+Nobel, entrevistas (telefone e oficial): https://www.nobelprize.org/prizes/physics/2024/hinton/interview/
+Nobel, discurso do banquete: https://www.nobelprize.org/prizes/physics/2024/hinton/speech/
+Fortune, 09/10/2024 (a noite da ligação): https://fortune.com/2024/10/09/openai-sam-altman-geoffrey-hinton-nobel-prize-physics-ilya-sutskever-toronto
+ImageNet 2012, resultados oficiais: https://image-net.org/challenges/LSVRC/2012/results.html
+Computer History Museum, AlexNet: https://computerhistory.org/blog/chm-releases-alexnet-source-code/
+MIT Technology Review, 01/05/2023 (saída do Google): https://www.technologyreview.com/2023/05/01/1072478/deep-learning-pioneer-geoffrey-hinton-quits-google/
+AP, 02/05/2023: https://ny1.com/nyc/all-boroughs/ap-top-news/2023/05/02/godfather-of-ai-leaves-google-warns-of-techs-dangers
+Universidade de Toronto: https://www.utoronto.ca/news/u-t-s-geoffrey-hinton-toronto-life-looks-man-behind-machines
+George Boole 200 (UCC, tataraneto e Prêmio Turing): https://georgeboole.com/news/george-booles-great-great-grandson-prof-geoffrey-hinton-wins-nobel-prize-of-computing-.html
+Wikipedia (Cambridge, Edimburgo, anos nos EUA; 1 fonte, dito como "segundo as biografias"): https://en.wikipedia.org/wiki/Geoffrey_Hinton
+"Também pesou a idade (75 anos)": podcast Diary of a CEO, junho de 2025, citado pela imprensa (episódio não aberto pela equipe; dito como fala dele).

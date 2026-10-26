@@ -1,0 +1,44 @@
+[ingest] projeto: 25 fps · yuv422p10le · câmera vlog · 8 principal, 7 extra(s)
+[ingest] brutos/principal/PRAQ0987.MOV -> fontes/praq0987.mp4  (camera, 2160x4096, rot -90, h264 High 4:2:2 Intra yuv422p10le, 25 fps, SDR, perfil vlog, 1201.0s)
+   áudio: faixa a:0 (fala -31.0 dB, piso -82.9 dB, SNR 51.9 dB) -> edicao/audio48k/praq0987.wav 48 kHz 24-bit · highpass=f=60:poles=2 (sem redução de ruído)
+[ingest] brutos/principal/PRAQ0988.MOV -> fontes/praq0988.mp4  (camera, 2160x4096, rot -90, h264 High 4:2:2 Intra yuv422p10le, 25 fps, SDR, perfil vlog, 81.6s)
+   áudio: faixa a:0 (fala -34.0 dB, piso -83.1 dB, SNR 49.1 dB) -> edicao/audio48k/praq0988.wav 48 kHz 24-bit · highpass=f=60:poles=2 (sem redução de ruído)
+[ingest] brutos/principal/PRAQ0989.MOV -> fontes/praq0989.mp4  (camera, 2160x4096, rot -90, h264 High 4:2:2 Intra yuv422p10le, 25 fps, SDR, perfil vlog, 81.6s)
+   áudio: faixa a:0 (fala -32.4 dB, piso -82.5 dB, SNR 50.1 dB) -> edicao/audio48k/praq0989.wav 48 kHz 24-bit · highpass=f=60:poles=2 (sem redução de ruído)
+[ingest] brutos/principal/PRAQ0990.MOV -> fontes/praq0990.mp4  (camera, 2160x4096, rot -90, h264 High 4:2:2 Intra yuv422p10le, 25 fps, SDR, perfil vlog, 82.1s)
+   áudio: faixa a:0 (fala -33.2 dB, piso -81.6 dB, SNR 48.4 dB) -> edicao/audio48k/praq0990.wav 48 kHz 24-bit · highpass=f=60:poles=2 (sem redução de ruído)
+[ingest] brutos/principal/PRAQ0991.MOV -> fontes/praq0991.mp4  (camera, 2160x4096, rot -90, h264 High 4:2:2 Intra yuv422p10le, 25 fps, SDR, perfil vlog, 82.1s)
+   áudio: faixa a:0 (fala -33.2 dB, piso -82.5 dB, SNR 49.2 dB) -> edicao/audio48k/praq0991.wav 48 kHz 24-bit · highpass=f=60:poles=2 (sem redução de ruído)
+[ingest] brutos/principal/PRAQ0992.MOV -> fontes/praq0992.mp4  (camera, 2160x4096, rot -90, h264 High 4:2:2 Intra yuv422p10le, 25 fps, SDR, perfil vlog, 82.1s)
+   áudio: faixa a:0 (fala -30.3 dB, piso -83.4 dB, SNR 53.1 dB) -> edicao/audio48k/praq0992.wav 48 kHz 24-bit · highpass=f=60:poles=2 (sem redução de ruído)
+[ingest] brutos/principal/PRAQ0993.MOV -> fontes/praq0993.mp4  (camera, 2160x4096, rot -90, h264 High 4:2:2 Intra yuv422p10le, 25 fps, SDR, perfil vlog, 82.1s)
+   áudio: faixa a:0 (fala -30.9 dB, piso -82.8 dB, SNR 51.9 dB) -> edicao/audio48k/praq0993.wav 48 kHz 24-bit · highpass=f=60:poles=2 (sem redução de ruído)
+[ingest] brutos/principal/PRAQ0994.MOV -> fontes/praq0994.mp4  (camera, 2160x4096, rot -90, h264 High 4:2:2 Intra yuv422p10le, 25 fps, SDR, perfil vlog, 36.5s)
+   áudio: faixa a:0 (fala -32.8 dB, piso -81.6 dB, SNR 48.9 dB) -> edicao/audio48k/praq0994.wav 48 kHz 24-bit · highpass=f=60:poles=2 (sem redução de ruído)
+[ingest] extra E01 (brutos/extras/E01-sfpl-rosto.mp4) -> extras/E01.mp4  (video, 1920x1080, rot 0, 25 fps, perfil sdr, 8-bit, 8.0s)
+[ingest] extra E02 (brutos/extras/E02-sfpl-chegada.mp4) -> extras/E02.mp4  (video, 1920x1080, rot 0, 25 fps, perfil sdr, 8-bit, 5.0s)
+[ingest] extra E03 (brutos/extras/E03-ted-crianca.mp4) -> extras/E03.mp4  (video, 1280x720, rot 0, 25 fps, perfil sdr, 8-bit, 9.0s)
+[ingest] extra E04 (brutos/extras/E04-ted-lavanderia.mp4) -> extras/E04.mp4  (video, 1280x720, rot 0, 25 fps, perfil sdr, 8-bit, 12.0s)
+   [AVISO] E04 não está na tabela 'Cenas extras' do roteiro (tipo 'video' deduzido do nome)
+[ingest] extra E05 (brutos/extras/E05-ted-50mil.mp4) -> extras/E05.mp4  (video, 1280x720, rot 0, 25 fps, perfil sdr, 8-bit, 8.0s)
+[ingest] extra E08 (brutos/extras/E08-ted-faculdade.mp4) -> extras/E08.mp4  (video, 1280x720, rot 0, 25 fps, perfil sdr, 8-bit, 5.0s)
+[ingest] extra E09 (brutos/extras/E09-ted-degraca.mp4) -> extras/E09.mp4  (video, 1280x720, rot 0, 25 fps, perfil sdr, 8-bit, 8.0s)
+   [AVISO] extra E06 (print) está no roteiro mas não há arquivo em brutos/extras/E06-* — entra como placeholder FALTANDO (o QA reprova até chegar)
+[ingest] 8 fonte(s) principal + 8 extra(s) -> edicao/fontes.json
+   praq0987       camera       1200.96s  1440x2560 25 fps yuv422p10le perfil vlog
+   praq0988       camera         81.60s  1440x2560 25 fps yuv422p10le perfil vlog
+   praq0989       camera         81.60s  1440x2560 25 fps yuv422p10le perfil vlog
+   praq0990       camera         82.08s  1440x2560 25 fps yuv422p10le perfil vlog
+   praq0991       camera         82.08s  1440x2560 25 fps yuv422p10le perfil vlog
+   praq0992       camera         82.08s  1440x2560 25 fps yuv422p10le perfil vlog
+   praq0993       camera         82.08s  1440x2560 25 fps yuv422p10le perfil vlog
+   praq0994       camera         36.48s  1440x2560 25 fps yuv422p10le perfil vlog
+   E01            extra/video     edicao/extras/E01.mp4  1080x608 yuv420p
+   E02            extra/video     edicao/extras/E02.mp4  1080x608 yuv420p
+   E03            extra/video     edicao/extras/E03.mp4  1080x608 yuv420p
+   E04            extra/video     edicao/extras/E04.mp4  1080x608 yuv420p
+   E05            extra/video     edicao/extras/E05.mp4  1080x608 yuv420p
+   E08            extra/video     edicao/extras/E08.mp4  1080x608 yuv420p
+   E09            extra/video     edicao/extras/E09.mp4  1080x608 yuv420p
+   E06            extra/print     FALTANDO
+exit 0

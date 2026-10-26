@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Card de pessoa · korvu. painel — design system</title>
+<link rel="stylesheet" href="../tokens.css">
+<link rel="stylesheet" href="../componentes.css">
+<link rel="stylesheet" href="../acrescimos.css">
+<link rel="stylesheet" href="previa.css">
+<script src="../korvu.js"></script>
+<script src="previa.js" defer></script>
+</head>
+<body>
+<main class="pv">
+<header class="pv-head">
+<p class="k-cap">Pessoas · <span class="k-mono">k-card k-member</span></p>
+<h1 class="k-h2">Card de pessoa</h1>
+<p class="pv-lead">Uma pessoa da equipe: quem é, o que faz, com que modelo.</p>
+</header>
+<section class="pv-sec">
+<h2 class="pv-sec-t k-cap">Nome, cargo e modelo reais · métricas de exemplo <span class="pv-tag">exemplo · sem dado real hoje</span></h2>
+<a class="k-card k-member is-interactive" href="#" style="text-decoration:none;color:inherit;max-width:620px"><span class="k-avatar" aria-hidden="true">MC</span><div class="k-member-id"><div class="k-member-name-row"><span class="k-member-name">Marina Costa</span><span class="k-chip k-chip--opus">Opus</span></div><div class="k-member-role">Roteirista · Roteiro</div></div><div class="k-member-stats"><div><div class="k-member-stat-value">6</div><span class="k-member-stat-label">vídeos</span></div><div><div class="k-member-stat-value">1,9M</div><span class="k-member-stat-label">tokens</span></div><div><div class="k-member-stat-value">€ 21</div><span class="k-member-stat-label">custo</span></div></div></a>
+</section>
+<section class="pv-sec">
+<h2 class="pv-sec-t k-cap">Sem dado (como fica hoje) <span class="pv-tag pv-tag--real">dados reais · banco do painel</span></h2>
+<a class="k-card k-member is-interactive" href="#" style="text-decoration:none;color:inherit;max-width:620px"><span class="k-avatar" aria-hidden="true">LR</span><div class="k-member-id"><div class="k-member-name-row"><span class="k-member-name">Lívia Rocha</span><span class="k-chip k-chip--model">Sonnet</span></div><div class="k-member-role">Produtora de material · Roteiro</div></div><div class="k-member-stats"><div><div class="k-member-stat-value"><span aria-label="sem dado">—</span></div><span class="k-member-stat-label">vídeos</span></div><div><div class="k-member-stat-value"><span aria-label="sem dado">—</span></div><span class="k-member-stat-label">tokens</span></div><div><div class="k-member-stat-value"><span aria-label="sem dado">—</span></div><span class="k-member-stat-label">custo</span></div></div></a>
+</section>
+<section class="pv-sec">
+<h2 class="pv-sec-t k-cap">Regras</h2>
+<ul class="pv-lista"><li>Card clicável (o card inteiro abre a ficha), padding 16, avatar 56 raio 10.</li><li>Nome, chip do modelo, cargo · departamento (do banco, com a 1.ª letra maiúscula).</li><li>As três métricas do desenho (vídeos ativos, tokens, custo do mês) <b>não têm fonte de dados hoje</b>: sem dado, o card mostra “—” (como no 2.º card), nunca um número inventado.</li><li>Na página Equipe: 3 por linha (span 4); 2 abaixo de 1024px; 1 abaixo de 640px, com as métricas na linha de baixo.</li></ul>
+</section>
+<footer class="pv-foot"><span>Dados: dados-2026-10-23.json → agentes</span> <span>Regras: <a href="../design-system.md">design-system.md</a></span> <a href="index.html">Todas as prévias</a></footer>
+</main>
+</body>
+</html>

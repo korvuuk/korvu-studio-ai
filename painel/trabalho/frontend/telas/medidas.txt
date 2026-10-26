@@ -1,0 +1,10 @@
+# capturar.sh · 2026-10-24T06:46:59.345Z
+# alvo	largura pedida	innerWidth	scrollWidth	altura	HTTP	png	passa da borda
+/producao	1440	1440	1440	1390	200	/Users/teste/Documents/CONTENT AI/painel/trabalho/frontend/telas/producao-1440.png	
+/producao	375	375	375	2248	200	/Users/teste/Documents/CONTENT AI/painel/trabalho/frontend/telas/producao-375.png	
+/calendario	1440	1440	1440	1628	200	/Users/teste/Documents/CONTENT AI/painel/trabalho/frontend/telas/calendario-1440.png	
+/calendario	375	375	375	2558	200	/Users/teste/Documents/CONTENT AI/painel/trabalho/frontend/telas/calendario-375.png	
+/calendario?vista=semana&dia=2026-10-21	1440	1440	1440	1207	200	/Users/teste/Documents/CONTENT AI/painel/trabalho/frontend/telas/calendario-vista-semana-dia-2026-10-21-1440.png	
+/calendario?vista=semana&dia=2026-10-21	375	375	375	2628	200	/Users/teste/Documents/CONTENT AI/painel/trabalho/frontend/telas/calendario-vista-semana-dia-2026-10-21-375.png	
+/biblioteca	1440	1440	1440	1594	200	/Users/teste/Documents/CONTENT AI/painel/trabalho/frontend/telas/biblioteca-1440.png	
+/biblioteca	375	375	375	4010	200	/Users/teste/Documents/CONTENT AI/painel/trabalho/frontend/telas/biblioteca-375.png	

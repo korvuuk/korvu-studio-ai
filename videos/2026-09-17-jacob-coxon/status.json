@@ -1,0 +1,15 @@
+{
+  "slug": "2026-09-17-jacob-coxon",
+  "estado": "roteiro",
+  "atualizado": "2026-09-17T01:59:54+01:00",
+  "historico": [
+    {
+      "estado": "roteiro",
+      "em": "2026-09-17T01:59:54+01:00"
+    }
+  ],
+  "material": {
+    "dossie": "material/dossie.md",
+    "fontes": "material/fontes.json"
+  }
+}

@@ -1,0 +1,1593 @@
+{
+ "versao": 17,
+ "slug": "2026-09-17-demis-hassabis",
+ "fps": 25,
+ "sr": 48000,
+ "largura": 1080,
+ "altura": 1920,
+ "aprovado": true,
+ "aprovado_em": "2026-09-19T00:36:05+01:00",
+ "fontes": {
+  "praq0969": "edicao/fontes/praq0969.mp4",
+  "praq0970": "edicao/fontes/praq0970.mp4",
+  "praq0971": "edicao/fontes/praq0971.mp4",
+  "praq0972": "edicao/fontes/praq0972.mp4",
+  "praq0973": "edicao/fontes/praq0973.mp4",
+  "praq0974": "edicao/fontes/praq0974.mp4",
+  "praq0975": "edicao/fontes/praq0975.mp4",
+  "praq0976": "edicao/fontes/praq0976.mp4",
+  "praq0977": "edicao/fontes/praq0977.mp4"
+ },
+ "segmentos": [
+  {
+   "n": 1,
+   "linha": "L01",
+   "take": "L01-T3",
+   "fonte": "praq0969",
+   "in": 158.61,
+   "out": 163.24,
+   "cortes_internos": [
+    [
+     161.05,
+     161.35
+    ],
+    [
+     161.12,
+     161.32
+    ]
+   ],
+   "saida_inicio": 0.0,
+   "saida_fim": 4.32,
+   "layout": "split",
+   "zoom": null,
+   "zoom_origem": "50% 38%",
+   "zoom_pecas": [
+    1.0,
+    1.12
+   ],
+   "voz_ia": 0.0
+  },
+  {
+   "n": 2,
+   "linha": "L02",
+   "take": "L02-T1",
+   "fonte": "praq0969",
+   "in": 198.8,
+   "out": 202.79,
+   "cortes_internos": [
+    [
+     200.02,
+     200.88
+    ]
+   ],
+   "saida_inicio": 4.32,
+   "saida_fim": 7.44,
+   "layout": "split",
+   "zoom": null,
+   "zoom_origem": "54.8% 33.4%",
+   "zoom_pecas": [
+    1.0,
+    1.12
+   ],
+   "voz_ia": 0.0
+  },
+  {
+   "n": 3,
+   "linha": "L03",
+   "take": "L03-T2",
+   "fonte": "praq0969",
+   "in": 259.06,
+   "out": 285.32,
+   "cortes_internos": [
+    [
+     260.92,
+     261.26
+    ],
+    [
+     262.13,
+     282.5
+    ],
+    [
+     282.03,
+     282.5
+    ],
+    [
+     283.88,
+     284.21
+    ]
+   ],
+   "saida_inicio": 7.44,
+   "saida_fim": 12.68,
+   "layout": "split",
+   "zoom": null,
+   "zoom_origem": "62.6% 30.2%",
+   "zoom_pecas": [
+    1.0,
+    1.12,
+    1.12,
+    1.0
+   ],
+   "voz_ia": 0.0
+  },
+  {
+   "n": 4,
+   "linha": "L04",
+   "take": "L04-T2",
+   "fonte": "praq0969",
+   "in": 309.17,
+   "out": 313.35,
+   "cortes_internos": [
+    [
+     311.45,
+     311.72
+    ],
+    [
+     311.48,
+     311.72
+    ]
+   ],
+   "saida_inicio": 12.68,
+   "saida_fim": 16.6,
+   "layout": "split",
+   "zoom": null,
+   "zoom_origem": "55.1% 33.0%",
+   "zoom_pecas": [
+    1.12,
+    1.0
+   ],
+   "voz_ia": 0.0
+  },
+  {
+   "n": 5,
+   "linha": "L05",
+   "take": "L05-T2",
+   "fonte": "praq0969",
+   "in": 342.59,
+   "out": 348.73,
+   "cortes_internos": [
+    [
+     344.11,
+     344.37
+    ],
+    [
+     346.04,
+     346.34
+    ]
+   ],
+   "saida_inicio": 16.6,
+   "saida_fim": 22.2,
+   "layout": "split",
+   "zoom": null,
+   "zoom_origem": "43.8% 32.9%",
+   "zoom_pecas": [
+    1.12,
+    1.0,
+    1.12
+   ],
+   "voz_ia": 0.0
+  },
+  {
+   "n": 6,
+   "linha": "L06",
+   "take": "L06-T2",
+   "fonte": "praq0970",
+   "in": 8.59,
+   "out": 15.43,
+   "cortes_internos": [
+    [
+     10.14,
+     10.46
+    ],
+    [
+     10.16,
+     10.44
+    ]
+   ],
+   "saida_inicio": 22.2,
+   "saida_fim": 28.72,
+   "layout": "split",
+   "zoom": null,
+   "zoom_origem": "60.3% 31.5%",
+   "zoom_pecas": [
+    1.0,
+    1.12
+   ],
+   "voz_ia": 0.0
+  },
+  {
+   "n": 7,
+   "linha": "L07",
+   "take": "L07-T2",
+   "fonte": "praq0971",
+   "in": 8.14,
+   "out": 14.95,
+   "cortes_internos": [
+    [
+     9.55,
+     10.25
+    ],
+    [
+     9.56,
+     10.24
+    ],
+    [
+     12.35,
+     12.81
+    ],
+    [
+     12.4,
+     12.8
+    ],
+    [
+     13.96,
+     14.33
+    ],
+    [
+     14.0,
+     14.32
+    ]
+   ],
+   "saida_inicio": 28.72,
+   "saida_fim": 34.04,
+   "layout": "split",
+   "zoom": null,
+   "zoom_origem": "49.6% 32.6%",
+   "zoom_pecas": [
+    1.0,
+    1.12,
+    1.0,
+    1.12
+   ],
+   "voz_ia": 0.0
+  },
+  {
+   "n": 8,
+   "linha": "L08",
+   "take": "L08-T1",
+   "fonte": "praq0971",
+   "in": 53.22,
+   "out": 57.96,
+   "cortes_internos": [
+    [
+     52.96,
+     53.24
+    ]
+   ],
+   "saida_inicio": 34.04,
+   "saida_fim": 38.76,
+   "layout": "split",
+   "zoom": null,
+   "zoom_origem": "43.0% 30.6%",
+   "zoom_pecas": [
+    1.12
+   ],
+   "voz_ia": 0.0
+  },
+  {
+   "n": 9,
+   "linha": "L09",
+   "take": "L09-T6",
+   "fonte": "praq0974",
+   "in": 47.26,
+   "out": 55.6,
+   "cortes_internos": [
+    [
+     49.99,
+     50.57
+    ],
+    [
+     50.04,
+     50.56
+    ],
+    [
+     52.23,
+     52.55
+    ],
+    [
+     52.28,
+     52.52
+    ]
+   ],
+   "saida_inicio": 38.76,
+   "saida_fim": 46.2,
+   "layout": "split",
+   "zoom": null,
+   "zoom_origem": "46.9% 30.4%",
+   "zoom_pecas": [
+    1.0,
+    1.12,
+    1.0
+   ],
+   "voz_ia": 0.0
+  },
+  {
+   "n": 10,
+   "linha": "L10",
+   "take": "L10-T2",
+   "fonte": "praq0975",
+   "in": 19.34,
+   "out": 24.75,
+   "cortes_internos": [
+    [
+     21.87,
+     22.21
+    ],
+    [
+     21.92,
+     22.2
+    ],
+    [
+     22.91,
+     23.35
+    ],
+    [
+     22.96,
+     23.32
+    ]
+   ],
+   "saida_inicio": 46.2,
+   "saida_fim": 50.12,
+   "layout": "split",
+   "zoom": null,
+   "zoom_origem": "55.3% 31.4%",
+   "zoom_pecas": [
+    1.12,
+    1.0
+   ],
+   "voz_ia": 0.0
+  },
+  {
+   "n": 11,
+   "linha": "L12",
+   "take": "L12-T2",
+   "fonte": "praq0975",
+   "in": 53.8,
+   "out": 61.45,
+   "cortes_internos": [
+    [
+     54.6,
+     55.12
+    ],
+    [
+     54.68,
+     55.12
+    ],
+    [
+     56.99,
+     57.35
+    ],
+    [
+     57.04,
+     57.32
+    ]
+   ],
+   "saida_inicio": 50.12,
+   "saida_fim": 56.88,
+   "layout": "full",
+   "zoom": null,
+   "zoom_origem": "54.0% 32.2%",
+   "zoom_pecas": [
+    1.12,
+    1.12,
+    1.0
+   ],
+   "voz_ia": 0.0
+  },
+  {
+   "n": 12,
+   "linha": "L13",
+   "take": "L13-T1",
+   "fonte": "praq0976",
+   "in": 7.15,
+   "out": 11.91,
+   "cortes_internos": [
+    [
+     8.84,
+     9.0
+    ],
+    [
+     10.02,
+     10.24
+    ],
+    [
+     10.04,
+     10.28
+    ]
+   ],
+   "saida_inicio": 56.88,
+   "saida_fim": 61.2,
+   "layout": "full",
+   "zoom": null,
+   "zoom_origem": "39.6% 30.1%",
+   "zoom_pecas": [
+    1.12,
+    1.0,
+    1.12
+   ],
+   "voz_ia": 0.0
+  }
+ ],
+ "overlays": [
+  {
+   "linhas": [
+    "L01",
+    "L02"
+   ],
+   "tipo": "extra",
+   "extra": "E24",
+   "extra_tipo": "video",
+   "arquivo": "edicao/extras/E24.mp4",
+   "modo": "split",
+   "in": 0.0,
+   "out": 7.44,
+   "som": false,
+   "credito": "The Thinking Game (Google DeepMind / Greg Kohs)",
+   "descricao": "Torneio de xadrez e o menino em P&B (22:59–23:07) — corta antes da entrevista do pai",
+   "faltando": false,
+   "saida_inicio": 0.0,
+   "saida_fim": 7.44
+  },
+  {
+   "linhas": [
+    "L03"
+   ],
+   "tipo": "extra",
+   "extra": "E02",
+   "extra_tipo": "video",
+   "arquivo": "edicao/extras/E02.mp4",
+   "modo": "split",
+   "in": 0.0,
+   "out": 2.24,
+   "som": false,
+   "credito": "The Thinking Game (Google DeepMind / Greg Kohs)",
+   "descricao": "",
+   "faltando": false,
+   "saida_inicio": 7.44,
+   "saida_fim": 9.68
+  },
+  {
+   "linhas": [
+    "L03"
+   ],
+   "tipo": "extra",
+   "extra": "E05",
+   "extra_tipo": "video",
+   "arquivo": "edicao/extras/E05.mp4",
+   "modo": "split",
+   "in": 0.0,
+   "out": 3.0,
+   "som": false,
+   "credito": "idem",
+   "descricao": "Adolescente jogando videogame em TV antiga",
+   "faltando": false,
+   "saida_inicio": 9.68,
+   "saida_fim": 12.68
+  },
+  {
+   "linhas": [
+    "L04"
+   ],
+   "tipo": "extra",
+   "extra": "E11",
+   "extra_tipo": "video",
+   "arquivo": "edicao/extras/E11.mp4",
+   "modo": "split",
+   "in": 0.0,
+   "out": 3.52,
+   "som": false,
+   "credito": "idem",
+   "descricao": "Demis jovem pensando + placa do UCL Institute of Cognitive Neuroscience",
+   "faltando": false,
+   "saida_inicio": 12.68,
+   "saida_fim": 16.2
+  },
+  {
+   "linhas": [
+    "L05"
+   ],
+   "tipo": "extra",
+   "extra": "E23",
+   "extra_tipo": "video",
+   "arquivo": "edicao/extras/E23.mp4",
+   "modo": "split",
+   "in": 0.0,
+   "out": 6.0,
+   "som": false,
+   "credito": "idem",
+   "descricao": "Hassabis → rua de Londres com o letreiro \"2010\" → o prédio onde a DeepMind começou",
+   "faltando": false,
+   "saida_inicio": 16.2,
+   "saida_fim": 22.2
+  },
+  {
+   "linhas": [
+    "L06"
+   ],
+   "tipo": "extra",
+   "extra": "E06",
+   "extra_tipo": "video",
+   "arquivo": "edicao/extras/E06.mp4",
+   "modo": "split",
+   "in": 0.0,
+   "out": 4.0,
+   "som": false,
+   "credito": "idem",
+   "descricao": "Data center do Google com o letreiro 2014",
+   "faltando": false,
+   "saida_inicio": 22.2,
+   "saida_fim": 26.2
+  },
+  {
+   "linhas": [
+    "L06"
+   ],
+   "tipo": "extra",
+   "extra": "E13",
+   "extra_tipo": "video",
+   "arquivo": "edicao/extras/E13.mp4",
+   "modo": "split",
+   "in": 0.0,
+   "out": 2.52,
+   "som": false,
+   "credito": "The Thinking Game (Google DeepMind / Greg Kohs)",
+   "descricao": "",
+   "faltando": false,
+   "saida_inicio": 26.2,
+   "saida_fim": 28.72
+  },
+  {
+   "linhas": [
+    "L07",
+    "L08"
+   ],
+   "tipo": "extra",
+   "extra": "E22",
+   "extra_tipo": "video",
+   "arquivo": "edicao/extras/E22.mp4",
+   "modo": "split",
+   "in": 0.0,
+   "out": 8.0,
+   "som": false,
+   "credito": "idem",
+   "descricao": "Lee Sedol pensando → o placar → a desistência (18:09–18:17, sem legenda embutida)",
+   "faltando": false,
+   "saida_inicio": 28.72,
+   "saida_fim": 36.72
+  },
+  {
+   "linhas": [
+    "L08"
+   ],
+   "tipo": "extra",
+   "extra": "E08",
+   "extra_tipo": "video",
+   "arquivo": "edicao/extras/E08.mp4",
+   "modo": "split",
+   "in": 0.0,
+   "out": 2.04,
+   "som": false,
+   "credito": "The Thinking Game (Google DeepMind / Greg Kohs)",
+   "descricao": "",
+   "faltando": false,
+   "saida_inicio": 36.72,
+   "saida_fim": 38.76
+  },
+  {
+   "linhas": [
+    "L09",
+    "L10"
+   ],
+   "tipo": "extra",
+   "extra": "E21",
+   "extra_tipo": "video",
+   "arquivo": "edicao/extras/E21.mp4",
+   "modo": "split",
+   "in": 0.0,
+   "out": 11.36,
+   "som": false,
+   "credito": "idem",
+   "descricao": "A cadeia de aminoácidos dobrando na estrutura 3D (46:29–…)",
+   "faltando": false,
+   "saida_inicio": 38.76,
+   "saida_fim": 50.12
+  },
+  {
+   "linhas": [
+    "L12"
+   ],
+   "tipo": "extra",
+   "extra": "E04",
+   "extra_tipo": "video",
+   "arquivo": "edicao/extras/E04.mp4",
+   "modo": "split",
+   "in": 0.0,
+   "out": 3.0,
+   "som": false,
+   "credito": "The Thinking Game (Google DeepMind / Greg Kohs)",
+   "descricao": "",
+   "faltando": false,
+   "saida_inicio": 50.12,
+   "saida_fim": 53.12
+  },
+  {
+   "linhas": [
+    "L12"
+   ],
+   "tipo": "extra",
+   "extra": "E09",
+   "extra_tipo": "video",
+   "arquivo": "edicao/extras/E09.mp4",
+   "modo": "split",
+   "in": 0.0,
+   "out": 4.0,
+   "som": false,
+   "credito": "The Thinking Game (Google DeepMind / Greg Kohs)",
+   "descricao": "",
+   "faltando": false,
+   "saida_inicio": 53.12,
+   "saida_fim": 57.12
+  }
+ ],
+ "palavras_saida": [
+  {
+   "texto": "Aprendeu",
+   "inicio": 0.095,
+   "fim": 0.836,
+   "linha": "L01",
+   "destaque": false
+  },
+  {
+   "texto": "xadrez",
+   "inicio": 0.836,
+   "fim": 1.296,
+   "linha": "L01",
+   "destaque": false
+  },
+  {
+   "texto": "aos",
+   "inicio": 1.296,
+   "fim": 1.456,
+   "linha": "L01",
+   "destaque": false
+  },
+  {
+   "texto": "quatro",
+   "inicio": 1.456,
+   "fim": 1.756,
+   "linha": "L01",
+   "destaque": false
+  },
+  {
+   "texto": "anos.",
+   "inicio": 1.756,
+   "fim": 2.096,
+   "linha": "L01",
+   "destaque": false
+  },
+  {
+   "texto": "E",
+   "inicio": 2.096,
+   "fim": 2.58,
+   "linha": "L01",
+   "destaque": false
+  },
+  {
+   "texto": "ganhou",
+   "inicio": 2.58,
+   "fim": 3.0,
+   "linha": "L01",
+   "destaque": false
+  },
+  {
+   "texto": "um",
+   "inicio": 3.0,
+   "fim": 3.2,
+   "linha": "L01",
+   "destaque": false
+  },
+  {
+   "texto": "Nobel",
+   "inicio": 3.2,
+   "fim": 3.5,
+   "linha": "L01",
+   "destaque": true
+  },
+  {
+   "texto": "com",
+   "inicio": 3.5,
+   "fim": 3.84,
+   "linha": "L01",
+   "destaque": false
+  },
+  {
+   "texto": "IA.",
+   "inicio": 4.02,
+   "fim": 4.2,
+   "linha": "L01",
+   "destaque": false
+  },
+  {
+   "texto": "Demis",
+   "inicio": 4.405,
+   "fim": 4.72,
+   "linha": "L02",
+   "destaque": false
+  },
+  {
+   "texto": "Hassabis,",
+   "inicio": 4.72,
+   "fim": 5.4,
+   "linha": "L02",
+   "destaque": false
+  },
+  {
+   "texto": "nascido",
+   "inicio": 5.52,
+   "fim": 6.22,
+   "linha": "L02",
+   "destaque": false
+  },
+  {
+   "texto": "aqui",
+   "inicio": 6.22,
+   "fim": 6.62,
+   "linha": "L02",
+   "destaque": false
+  },
+  {
+   "texto": "em",
+   "inicio": 6.62,
+   "fim": 6.8,
+   "linha": "L02",
+   "destaque": false
+  },
+  {
+   "texto": "Londres.",
+   "inicio": 6.8,
+   "fim": 7.3,
+   "linha": "L02",
+   "destaque": false
+  },
+  {
+   "texto": "Aos",
+   "inicio": 7.555,
+   "fim": 7.8,
+   "linha": "L03",
+   "destaque": false
+  },
+  {
+   "texto": "treze",
+   "inicio": 7.8,
+   "fim": 8.06,
+   "linha": "L03",
+   "destaque": false
+  },
+  {
+   "texto": "já",
+   "inicio": 8.48,
+   "fim": 8.92,
+   "linha": "L03",
+   "destaque": false
+  },
+  {
+   "texto": "era",
+   "inicio": 8.92,
+   "fim": 9.2,
+   "linha": "L03",
+   "destaque": false
+  },
+  {
+   "texto": "mestre",
+   "inicio": 9.2,
+   "fim": 9.76,
+   "linha": "L03",
+   "destaque": false
+  },
+  {
+   "texto": "de",
+   "inicio": 9.76,
+   "fim": 9.88,
+   "linha": "L03",
+   "destaque": false
+  },
+  {
+   "texto": "xadrez.",
+   "inicio": 9.88,
+   "fim": 10.34,
+   "linha": "L03",
+   "destaque": false
+  },
+  {
+   "texto": "Aos",
+   "inicio": 10.34,
+   "fim": 10.58,
+   "linha": "L03",
+   "destaque": false
+  },
+  {
+   "texto": "dezessete,",
+   "inicio": 10.58,
+   "fim": 11.02,
+   "linha": "L03",
+   "destaque": false
+  },
+  {
+   "texto": "criava",
+   "inicio": 11.52,
+   "fim": 12.0,
+   "linha": "L03",
+   "destaque": false
+  },
+  {
+   "texto": "videogame.",
+   "inicio": 12.0,
+   "fim": 12.6,
+   "linha": "L03",
+   "destaque": false
+  },
+  {
+   "texto": "Estudou",
+   "inicio": 12.785,
+   "fim": 13.3,
+   "linha": "L04",
+   "destaque": false
+  },
+  {
+   "texto": "computação",
+   "inicio": 13.3,
+   "fim": 13.98,
+   "linha": "L04",
+   "destaque": false
+  },
+  {
+   "texto": "em",
+   "inicio": 13.98,
+   "fim": 14.36,
+   "linha": "L04",
+   "destaque": false
+  },
+  {
+   "texto": "Cambridge",
+   "inicio": 14.36,
+   "fim": 14.66,
+   "linha": "L04",
+   "destaque": false
+  },
+  {
+   "texto": "e",
+   "inicio": 14.66,
+   "fim": 15.08,
+   "linha": "L04",
+   "destaque": false
+  },
+  {
+   "texto": "depois",
+   "inicio": 15.08,
+   "fim": 15.44,
+   "linha": "L04",
+   "destaque": false
+  },
+  {
+   "texto": "neurociência.",
+   "inicio": 15.72,
+   "fim": 16.5,
+   "linha": "L04",
+   "destaque": false
+  },
+  {
+   "texto": "Em",
+   "inicio": 16.681,
+   "fim": 17.02,
+   "linha": "L05",
+   "destaque": false
+  },
+  {
+   "texto": "dois",
+   "inicio": 17.02,
+   "fim": 17.82,
+   "linha": "L05",
+   "destaque": false
+  },
+  {
+   "texto": "mil",
+   "inicio": 17.02,
+   "fim": 17.82,
+   "linha": "L05",
+   "destaque": false
+  },
+  {
+   "texto": "e",
+   "inicio": 17.02,
+   "fim": 17.82,
+   "linha": "L05",
+   "destaque": false
+  },
+  {
+   "texto": "dez",
+   "inicio": 17.02,
+   "fim": 17.82,
+   "linha": "L05",
+   "destaque": false
+  },
+  {
+   "texto": "juntou",
+   "inicio": 18.195,
+   "fim": 18.62,
+   "linha": "L05",
+   "destaque": false
+  },
+  {
+   "texto": "tudo",
+   "inicio": 18.62,
+   "fim": 18.9,
+   "linha": "L05",
+   "destaque": false
+  },
+  {
+   "texto": "numa",
+   "inicio": 18.9,
+   "fim": 18.96,
+   "linha": "L05",
+   "destaque": false
+  },
+  {
+   "texto": "empresa",
+   "inicio": 18.96,
+   "fim": 19.02,
+   "linha": "L05",
+   "destaque": false
+  },
+  {
+   "texto": "aqui",
+   "inicio": 18.9,
+   "fim": 19.1,
+   "linha": "L05",
+   "destaque": false
+  },
+  {
+   "texto": "em",
+   "inicio": 19.1,
+   "fim": 19.26,
+   "linha": "L05",
+   "destaque": false
+  },
+  {
+   "texto": "Londres:",
+   "inicio": 19.26,
+   "fim": 19.68,
+   "linha": "L05",
+   "destaque": false
+  },
+  {
+   "texto": "a",
+   "inicio": 21.34,
+   "fim": 21.4,
+   "linha": "L05",
+   "destaque": false
+  },
+  {
+   "texto": "DeepMind.",
+   "inicio": 21.36,
+   "fim": 21.98,
+   "linha": "L05",
+   "destaque": true
+  },
+  {
+   "texto": "Quatro",
+   "inicio": 22.36,
+   "fim": 22.88,
+   "linha": "L06",
+   "destaque": false
+  },
+  {
+   "texto": "anos",
+   "inicio": 22.88,
+   "fim": 23.16,
+   "linha": "L06",
+   "destaque": false
+  },
+  {
+   "texto": "depois,",
+   "inicio": 23.16,
+   "fim": 23.54,
+   "linha": "L06",
+   "destaque": false
+  },
+  {
+   "texto": "o",
+   "inicio": 23.805,
+   "fim": 23.92,
+   "linha": "L06",
+   "destaque": false
+  },
+  {
+   "texto": "Google",
+   "inicio": 23.92,
+   "fim": 24.24,
+   "linha": "L06",
+   "destaque": false
+  },
+  {
+   "texto": "comprou",
+   "inicio": 24.24,
+   "fim": 24.92,
+   "linha": "L06",
+   "destaque": false
+  },
+  {
+   "texto": "por",
+   "inicio": 24.92,
+   "fim": 25.19,
+   "linha": "L06",
+   "destaque": false
+  },
+  {
+   "texto": "cerca",
+   "inicio": 25.19,
+   "fim": 25.46,
+   "linha": "L06",
+   "destaque": false
+  },
+  {
+   "texto": "de",
+   "inicio": 25.46,
+   "fim": 25.84,
+   "linha": "L06",
+   "destaque": false
+  },
+  {
+   "texto": "400",
+   "inicio": 26.32,
+   "fim": 26.98,
+   "linha": "L06",
+   "destaque": true
+  },
+  {
+   "texto": "milhões",
+   "inicio": 26.98,
+   "fim": 27.74,
+   "linha": "L06",
+   "destaque": true
+  },
+  {
+   "texto": "de",
+   "inicio": 27.74,
+   "fim": 28.08,
+   "linha": "L06",
+   "destaque": false
+  },
+  {
+   "texto": "libras.",
+   "inicio": 28.08,
+   "fim": 28.54,
+   "linha": "L06",
+   "destaque": false
+  },
+  {
+   "texto": "Em",
+   "inicio": 28.791,
+   "fim": 28.92,
+   "linha": "L07",
+   "destaque": false
+  },
+  {
+   "texto": "dezesseis,",
+   "inicio": 28.92,
+   "fim": 29.74,
+   "linha": "L07",
+   "destaque": false
+  },
+  {
+   "texto": "a",
+   "inicio": 30.195,
+   "fim": 30.34,
+   "linha": "L07",
+   "destaque": false
+  },
+  {
+   "texto": "IA",
+   "inicio": 30.34,
+   "fim": 30.68,
+   "linha": "L07",
+   "destaque": false
+  },
+  {
+   "texto": "deles",
+   "inicio": 30.68,
+   "fim": 31.08,
+   "linha": "L07",
+   "destaque": false
+  },
+  {
+   "texto": "venceu",
+   "inicio": 31.08,
+   "fim": 32.06,
+   "linha": "L07",
+   "destaque": false
+  },
+  {
+   "texto": "um",
+   "inicio": 32.06,
+   "fim": 32.23,
+   "linha": "L07",
+   "destaque": false
+  },
+  {
+   "texto": "dos",
+   "inicio": 32.23,
+   "fim": 32.4,
+   "linha": "L07",
+   "destaque": false
+  },
+  {
+   "texto": "maiores",
+   "inicio": 32.4,
+   "fim": 32.7,
+   "linha": "L07",
+   "destaque": false
+  },
+  {
+   "texto": "nomes",
+   "inicio": 32.7,
+   "fim": 33.18,
+   "linha": "L07",
+   "destaque": false
+  },
+  {
+   "texto": "do",
+   "inicio": 33.18,
+   "fim": 33.56,
+   "linha": "L07",
+   "destaque": false
+  },
+  {
+   "texto": "Go.",
+   "inicio": 33.56,
+   "fim": 33.8,
+   "linha": "L07",
+   "destaque": true
+  },
+  {
+   "texto": "Um",
+   "inicio": 34.04,
+   "fim": 34.28,
+   "linha": "L08",
+   "destaque": false
+  },
+  {
+   "texto": "jogo",
+   "inicio": 34.28,
+   "fim": 34.7,
+   "linha": "L08",
+   "destaque": false
+  },
+  {
+   "texto": "com",
+   "inicio": 34.7,
+   "fim": 35.24,
+   "linha": "L08",
+   "destaque": false
+  },
+  {
+   "texto": "mais",
+   "inicio": 35.24,
+   "fim": 35.62,
+   "linha": "L08",
+   "destaque": false
+  },
+  {
+   "texto": "posições",
+   "inicio": 35.62,
+   "fim": 36.4,
+   "linha": "L08",
+   "destaque": false
+  },
+  {
+   "texto": "possíveis",
+   "inicio": 36.4,
+   "fim": 36.5,
+   "linha": "L08",
+   "destaque": false
+  },
+  {
+   "texto": "do",
+   "inicio": 36.5,
+   "fim": 36.6,
+   "linha": "L08",
+   "destaque": false
+  },
+  {
+   "texto": "que",
+   "inicio": 36.6,
+   "fim": 36.7,
+   "linha": "L08",
+   "destaque": false
+  },
+  {
+   "texto": "átomos",
+   "inicio": 36.7,
+   "fim": 37.36,
+   "linha": "L08",
+   "destaque": false
+  },
+  {
+   "texto": "no",
+   "inicio": 37.36,
+   "fim": 37.86,
+   "linha": "L08",
+   "destaque": false
+  },
+  {
+   "texto": "universo.",
+   "inicio": 37.86,
+   "fim": 38.44,
+   "linha": "L08",
+   "destaque": false
+  },
+  {
+   "texto": "Mas",
+   "inicio": 38.831,
+   "fim": 38.96,
+   "linha": "L09",
+   "destaque": false
+  },
+  {
+   "texto": "o",
+   "inicio": 38.96,
+   "fim": 39.14,
+   "linha": "L09",
+   "destaque": false
+  },
+  {
+   "texto": "maior",
+   "inicio": 39.14,
+   "fim": 39.38,
+   "linha": "L09",
+   "destaque": false
+  },
+  {
+   "texto": "feito",
+   "inicio": 39.38,
+   "fim": 39.86,
+   "linha": "L09",
+   "destaque": false
+  },
+  {
+   "texto": "veio",
+   "inicio": 39.86,
+   "fim": 40.68,
+   "linha": "L09",
+   "destaque": false
+  },
+  {
+   "texto": "depois:",
+   "inicio": 40.68,
+   "fim": 41.34,
+   "linha": "L09",
+   "destaque": false
+  },
+  {
+   "texto": "o",
+   "inicio": 41.76,
+   "fim": 42.26,
+   "linha": "L09",
+   "destaque": false
+  },
+  {
+   "texto": "AlphaFold",
+   "inicio": 42.26,
+   "fim": 42.88,
+   "linha": "L09",
+   "destaque": true
+  },
+  {
+   "texto": "passou",
+   "inicio": 42.88,
+   "fim": 43.54,
+   "linha": "L09",
+   "destaque": false
+  },
+  {
+   "texto": "a",
+   "inicio": 43.54,
+   "fim": 44.02,
+   "linha": "L09",
+   "destaque": false
+  },
+  {
+   "texto": "prever",
+   "inicio": 44.02,
+   "fim": 44.36,
+   "linha": "L09",
+   "destaque": false
+  },
+  {
+   "texto": "o",
+   "inicio": 44.36,
+   "fim": 44.58,
+   "linha": "L09",
+   "destaque": false
+  },
+  {
+   "texto": "formato",
+   "inicio": 44.58,
+   "fim": 45.16,
+   "linha": "L09",
+   "destaque": false
+  },
+  {
+   "texto": "das",
+   "inicio": 45.16,
+   "fim": 45.48,
+   "linha": "L09",
+   "destaque": false
+  },
+  {
+   "texto": "proteínas.",
+   "inicio": 45.48,
+   "fim": 46.06,
+   "linha": "L09",
+   "destaque": false
+  },
+  {
+   "texto": "Um",
+   "inicio": 46.275,
+   "fim": 46.4,
+   "linha": "L10",
+   "destaque": false
+  },
+  {
+   "texto": "problema",
+   "inicio": 46.4,
+   "fim": 46.96,
+   "linha": "L10",
+   "destaque": false
+  },
+  {
+   "texto": "que",
+   "inicio": 46.96,
+   "fim": 47.28,
+   "linha": "L10",
+   "destaque": false
+  },
+  {
+   "texto": "travava",
+   "inicio": 47.28,
+   "fim": 47.9,
+   "linha": "L10",
+   "destaque": false
+  },
+  {
+   "texto": "a",
+   "inicio": 47.9,
+   "fim": 48.12,
+   "linha": "L10",
+   "destaque": false
+  },
+  {
+   "texto": "ciência",
+   "inicio": 48.12,
+   "fim": 48.62,
+   "linha": "L10",
+   "destaque": false
+  },
+  {
+   "texto": "havia",
+   "inicio": 48.62,
+   "fim": 48.72,
+   "linha": "L10",
+   "destaque": false
+  },
+  {
+   "texto": "cinquenta",
+   "inicio": 48.72,
+   "fim": 49.16,
+   "linha": "L10",
+   "destaque": false
+  },
+  {
+   "texto": "anos.",
+   "inicio": 49.16,
+   "fim": 49.88,
+   "linha": "L10",
+   "destaque": false
+  },
+  {
+   "texto": "Quer",
+   "inicio": 50.12,
+   "fim": 50.34,
+   "linha": "L12",
+   "destaque": false
+  },
+  {
+   "texto": "dizer:",
+   "inicio": 50.34,
+   "fim": 50.72,
+   "linha": "L12",
+   "destaque": false
+  },
+  {
+   "texto": "o",
+   "inicio": 51.0,
+   "fim": 51.08,
+   "linha": "L12",
+   "destaque": false
+  },
+  {
+   "texto": "menino",
+   "inicio": 51.08,
+   "fim": 51.58,
+   "linha": "L12",
+   "destaque": false
+  },
+  {
+   "texto": "do",
+   "inicio": 51.58,
+   "fim": 52.12,
+   "linha": "L12",
+   "destaque": false
+  },
+  {
+   "texto": "xadrez",
+   "inicio": 52.12,
+   "fim": 52.62,
+   "linha": "L12",
+   "destaque": false
+  },
+  {
+   "texto": "virou",
+   "inicio": 52.62,
+   "fim": 53.28,
+   "linha": "L12",
+   "destaque": false
+  },
+  {
+   "texto": "um",
+   "inicio": 53.28,
+   "fim": 53.6,
+   "linha": "L12",
+   "destaque": false
+  },
+  {
+   "texto": "dos",
+   "inicio": 53.6,
+   "fim": 53.74,
+   "linha": "L12",
+   "destaque": false
+  },
+  {
+   "texto": "nomes",
+   "inicio": 53.74,
+   "fim": 54.24,
+   "linha": "L12",
+   "destaque": false
+  },
+  {
+   "texto": "mais",
+   "inicio": 54.24,
+   "fim": 54.9,
+   "linha": "L12",
+   "destaque": false
+  },
+  {
+   "texto": "importantes",
+   "inicio": 54.9,
+   "fim": 55.7,
+   "linha": "L12",
+   "destaque": false
+  },
+  {
+   "texto": "da",
+   "inicio": 55.7,
+   "fim": 56.16,
+   "linha": "L12",
+   "destaque": false
+  },
+  {
+   "texto": "IA.",
+   "inicio": 56.16,
+   "fim": 56.46,
+   "linha": "L12",
+   "destaque": false
+  },
+  {
+   "texto": "Para",
+   "inicio": 56.955,
+   "fim": 57.08,
+   "linha": "L13",
+   "destaque": false
+  },
+  {
+   "texto": "mais",
+   "inicio": 57.08,
+   "fim": 57.32,
+   "linha": "L13",
+   "destaque": false
+  },
+  {
+   "texto": "vídeos",
+   "inicio": 57.32,
+   "fim": 57.8,
+   "linha": "L13",
+   "destaque": false
+  },
+  {
+   "texto": "como",
+   "inicio": 57.8,
+   "fim": 58.02,
+   "linha": "L13",
+   "destaque": false
+  },
+  {
+   "texto": "esse,",
+   "inicio": 58.02,
+   "fim": 58.32,
+   "linha": "L13",
+   "destaque": false
+  },
+  {
+   "texto": "é",
+   "inicio": 58.615,
+   "fim": 58.74,
+   "linha": "L13",
+   "destaque": false
+  },
+  {
+   "texto": "só",
+   "inicio": 58.74,
+   "fim": 58.92,
+   "linha": "L13",
+   "destaque": false
+  },
+  {
+   "texto": "me",
+   "inicio": 58.92,
+   "fim": 59.06,
+   "linha": "L13",
+   "destaque": false
+  },
+  {
+   "texto": "seguir.",
+   "inicio": 59.06,
+   "fim": 59.4,
+   "linha": "L13",
+   "destaque": true
+  }
+ ],
+ "duracao_saida": 61.2,
+ "zoom_no_corte": true,
+ "audio": {
+  "loudnorm_lufs": -14,
+  "true_peak": -1.5,
+  "musica": null,
+  "ducking": true
+ },
+ "variantes": [
+  {
+   "linha": "L01B",
+   "alternativa_de": "L01",
+   "take": "L01B-T1",
+   "fonte": "praq0976",
+   "in": 20.28,
+   "out": 24.04,
+   "cortes_internos": [],
+   "status": "ok"
+  },
+  {
+   "linha": "L01C",
+   "alternativa_de": "L01",
+   "take": "L01C-T2",
+   "fonte": "praq0976",
+   "in": 52.68,
+   "out": 58.24,
+   "cortes_internos": [
+    [
+     56.32,
+     56.84
+    ]
+   ],
+   "status": "ok"
+  }
+ ],
+ "gerado_em": "2026-09-19T06:50:21+01:00"
+}

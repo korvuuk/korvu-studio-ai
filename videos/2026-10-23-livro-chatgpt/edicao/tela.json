@@ -1,0 +1,125 @@
+{
+ "video": "material/screnn record/Screen Recording 2026-10-21 at 16.55.58.mov",
+ "comentario": "v3 (21/10, Carlos: 'a cena extra tem que ficar abaixo do meu rosto, no peito'): recorte 1100x363 só da miniatura + texto digitado (sem a barra de botões), saída 1000x330 para o card no PEITO (brand.ts card 1000x330, centro y 1085: topo 920, pé 1250; o queixo fica em ~900). Legendas somem enquanto o card está na tela (o comando digitado já aparece nele). v2 (900x820 sobre o rosto) descartada.",
+ "recorte_padrao": {
+  "x": 12,
+  "y": 1520,
+  "w": 1100,
+  "h": 363
+ },
+ "largura_saida": 1000,
+ "cenas": [
+  {
+   "id": "E02",
+   "nome": "tela-mindmap",
+   "livro": "Como Fazer Amigos e Influenciar Pessoas",
+   "comando": "/mindmap",
+   "trechos": [
+    {
+     "inicio": 24.5,
+     "fim": 25.6,
+     "velocidade": 1.0,
+     "o_que": "a capa aparece no campo"
+    },
+    {
+     "inicio": 25.8,
+     "fim": 28.4,
+     "velocidade": 1.0,
+     "o_que": "digita / (menu) + mindmap e envia (28.0)"
+    }
+   ],
+   "modo": "card"
+  },
+  {
+   "id": "E04",
+   "nome": "tela-sketchnote",
+   "livro": "A Única Coisa",
+   "comando": "/sketchnote",
+   "trechos": [
+    {
+     "inicio": 81.0,
+     "fim": 82.1,
+     "velocidade": 1.0,
+     "o_que": "a capa aparece no campo"
+    },
+    {
+     "inicio": 95.0,
+     "fim": 98.4,
+     "velocidade": 1.0,
+     "o_que": "digita /sketchnote e envia (98.25)"
+    }
+   ],
+   "modo": "card"
+  },
+  {
+   "id": "E06",
+   "nome": "tela-flashcards",
+   "livro": "Hábitos Atômicos",
+   "comando": "/flashcards",
+   "trechos": [
+    {
+     "inicio": 146.5,
+     "fim": 147.6,
+     "velocidade": 1.0,
+     "o_que": "a capa aparece no campo"
+    },
+    {
+     "inicio": 156.8,
+     "fim": 159.6,
+     "velocidade": 1.0,
+     "o_que": "digita /flashcards e envia (159.5)"
+    }
+   ],
+   "modo": "card"
+  },
+  {
+   "id": "E08",
+   "nome": "tela-fluxograma",
+   "livro": "O Poder do Hábito",
+   "comando": "/fluxograma",
+   "trechos": [
+    {
+     "inicio": 239.0,
+     "fim": 240.1,
+     "velocidade": 1.0,
+     "o_que": "a capa aparece no campo"
+    },
+    {
+     "inicio": 251.5,
+     "fim": 254.6,
+     "velocidade": 1.0,
+     "o_que": "digita /fluxograma e envia (254.5)"
+    }
+   ],
+   "modo": "card"
+  },
+  {
+   "id": "E10",
+   "nome": "tela-quadrinhos",
+   "livro": "Os Segredos da Mente Milionária",
+   "comando": "/quadrinhos",
+   "trechos": [
+    {
+     "inicio": 330.0,
+     "fim": 331.1,
+     "velocidade": 1.0,
+     "o_que": "a capa aparece no campo"
+    },
+    {
+     "inicio": 345.3,
+     "fim": 347.4,
+     "velocidade": 1.0,
+     "o_que": "digita /quadrinhos e envia (347.25)"
+    }
+   ],
+   "modo": "card"
+  }
+ ],
+ "resultados": {
+  "E03": "material/img/E03.png",
+  "E05": "material/img/E05.png",
+  "E07": "material/img/E07.png",
+  "E09": "material/img/E09.png",
+  "E11": "material/img/E11.png"
+ }
+}

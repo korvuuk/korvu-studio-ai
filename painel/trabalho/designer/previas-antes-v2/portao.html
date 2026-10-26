@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Portão de aprovação · korvu. painel — design system</title>
+<link rel="stylesheet" href="../tokens.css">
+<link rel="stylesheet" href="../componentes.css">
+<link rel="stylesheet" href="../acrescimos.css">
+<link rel="stylesheet" href="previa.css">
+<script src="../korvu.js"></script>
+<script src="previa.js" defer></script>
+</head>
+<body>
+<main class="pv">
+<header class="pv-head">
+<p class="k-cap">Fluxo · <span class="k-mono">k-gate · k-check</span></p>
+<h1 class="k-h2">Portão de aprovação</h1>
+<p class="pv-lead">Onde o vídeo para até a decisão do Carlos — e, fora disso, o estado de cada portão.</p>
+</header>
+<section class="pv-sec">
+<h2 class="pv-sec-t k-cap">Modo Decisão (exemplo) <span class="pv-tag">exemplo · sem dado real hoje</span></h2>
+<div class="k-card k-gate" style="max-width:460px"><div class="k-gate-head"><span class="k-gate-icon"><span data-icon="lock" data-size="18"></span></span><div><div class="k-cap k-gate-step">4 de 4 portões aprovados · sua decisão</div><b class="k-gate-title">Seu primeiro agente de IA em três passos</b></div><span class="k-chip k-chip--portao">Aguarda</span></div><ul class="k-gate-checks" style="margin:0;padding:0;list-style:none"><li class="k-check is-on"><b aria-hidden="true"><span data-icon="check" data-size="12"></span></b><span>Pauta</span><small class="k-chip k-chip--aprovado">Aprovado</small></li><li class="k-check is-on"><b aria-hidden="true"><span data-icon="check" data-size="12"></span></b><span>Roteiro</span><small class="k-chip k-chip--aprovado">Aprovado</small></li><li class="k-check is-on"><b aria-hidden="true"><span data-icon="check" data-size="12"></span></b><span>Imagem</span><small class="k-chip k-chip--aprovado">Aprovado</small></li><li class="k-check is-on"><b aria-hidden="true"><span data-icon="check" data-size="12"></span></b><span>Corte</span><small class="k-chip k-chip--aprovado">Aprovado</small></li></ul><div class="k-gate-actions"><button class="k-btn k-btn-primary">Aprovar e agendar</button><button class="k-btn k-btn-secondary">Pedir ajustes</button></div></div>
+</section>
+<section class="pv-sec">
+<h2 class="pv-sec-t k-cap">Modo Portões do vídeo · estado real <span class="pv-tag pv-tag--real">dados reais · banco do painel</span></h2>
+<div class="k-card k-gate" style="max-width:460px"><div class="k-gate-head"><span class="k-gate-icon"><span data-icon="lock" data-size="18"></span></span><div><div class="k-cap k-gate-step">Portões do vídeo · 0 de 4 aprovados</div><b class="k-gate-title">Joga o livro no ChatGPT e escreve isso</b></div><span class="k-chip k-chip--agendado">Agendado</span></div><ul class="k-gate-checks" style="margin:0;padding:0;list-style:none"><li class="k-check"><b aria-hidden="true"></b><span>Pauta</span><small class="k-chip k-chip--agendado">Ainda não rodou</small></li><li class="k-check"><b aria-hidden="true"></b><span>Roteiro</span><small class="k-chip k-chip--agendado">Ainda não rodou</small></li><li class="k-check"><b aria-hidden="true"></b><span>Imagem</span><small class="k-chip k-chip--agendado">Ainda não rodou</small></li><li class="k-check"><b aria-hidden="true"></b><span>Corte</span><small class="k-chip k-chip--agendado">Ainda não rodou</small></li></ul><div class="k-cap k-gate-step">Posts na fila · 3 · fora da conta dos 4</div><ul class="k-gate-checks" style="margin:0;padding:0;list-style:none"><li class="k-check"><span>27 out, 21:00</span><small class="k-chip k-chip--agendado no-dot">Legado · sem selo</small></li><li class="k-check"><span>28 out, 21:00 · l01c</span><small class="k-chip k-chip--agendado no-dot">Legado · sem selo</small></li><li class="k-check"><span>1 nov, 19:00 · l01c-a</span><small class="k-chip k-chip--agendado no-dot">Legado · sem selo</small></li></ul></div>
+</section>
+<section class="pv-sec">
+<h2 class="pv-sec-t k-cap">Hoje · 0 vídeos esperando decisão <span class="pv-tag pv-tag--real">dados reais · banco do painel</span></h2>
+<div class="k-empty" style="max-width:460px"><span class="k-empty-icon"><span data-icon="lock" data-size="22"></span></span><h4>Nenhum vídeo esperando a sua decisão</h4><p>Quando os portões de um vídeo aprovarem tudo, ele aparece aqui com “Aprovar e agendar”.</p></div>
+</section>
+<section class="pv-sec">
+<h2 class="pv-sec-t k-cap">Regras</h2>
+<ul class="pv-lista"><li><b>Dois modos, um componente.</b> <b>Decisão</b>: só quando todos os portões que se aplicam ao vídeo aprovaram e o vídeo ainda não está agendado nem publicado — chip de decisão “Aguarda” (ou “Ajustes”, se ele já pediu) e as ações. <b>Portões do vídeo</b>: em qualquer outro caso — só leitura, sem ações, com o chip do estado do vídeo.</li><li>Cada critério é um portão do vídeo, com o estado pelo <b>mapa único</b> (prévia chip.html); feito = aprovado, riscado em ink-2. A conta “N de 4” é só dessas quatro linhas.</li><li><b>Posts na fila</b> (só no modo Portões do vídeo): um por post, fora da conta, com o que o publicar.py confere na hora de sair — o pior estado entre o portão da publicação e os portões do vídeo; <b>legado vence</b> (“Legado · sem selo”). Se algo segura o post: o chip do pior estado + “&lt;portão&gt; · não sai”.</li><li>“Aguarda · Ajustes” é a <b>decisão do Carlos</b>, não o estado de um portão-agente. “Aprovado” não vira chip laranja: aprovar = agendar, e o vídeo passa a <b>Agendado</b>.</li><li>Vídeo <b>agendado ou publicado não oferece “Aprovar e agendar”</b>.</li><li>O painel só lê: as ações ficam desativadas no app até existir um fluxo de escrita aprovado pelo Carlos (handoff.md §7).</li><li>Os critérios além dos portões (ex.: “capa aprovada”) não estão no banco — ver handoff.md.</li></ul>
+</section>
+<footer class="pv-foot"><span>Dados: dados-2026-10-23.json → portoes_livro_chatgpt, portoes_fila, fila, portoes_por_status, portoes_painel, videos</span> <span>Regras: <a href="../design-system.md">design-system.md</a></span> <a href="index.html">Todas as prévias</a></footer>
+</main>
+</body>
+</html>

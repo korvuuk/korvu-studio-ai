@@ -1,0 +1,62 @@
+[
+  {
+    "id": "E07",
+    "tipo": "video",
+    "o_que": "maos com celular e TikTok/Instagram, depois teclado: a voz copiada de videos publicos",
+    "url": "https://www.youtube.com/watch?v=vmzuNHFnzac",
+    "licenca": "todos os direitos reservados",
+    "autor": "DW Shift",
+    "credito": "Warning! Beware of AI Voice Cloning Scams (DW Shift)",
+    "permitido": true,
+    "uso": "comentario",
+    "duracao_s": 6.0,
+    "motivo": "trecho citado em Reel de comentário/análise (docs/decisoes.md §5, decisão de 2026-10-01)",
+    "como_obter": "scripts/buscar_youtube.py trecho 2026-10-21-golpes-com-ia E07 vmzuNHFnzac 0:43 0:49",
+    "quem_baixa": "buscador-de-videos"
+  },
+  {
+    "id": "E08",
+    "tipo": "video",
+    "o_que": "chamada MAMA no celular e luz de viatura: golpe do familiar em apuros",
+    "url": "https://www.youtube.com/watch?v=vmzuNHFnzac",
+    "licenca": "todos os direitos reservados",
+    "autor": "DW Shift",
+    "credito": "Warning! Beware of AI Voice Cloning Scams (DW Shift)",
+    "permitido": true,
+    "uso": "comentario",
+    "duracao_s": 7.0,
+    "motivo": "trecho citado em Reel de comentário/análise (docs/decisoes.md §5, decisão de 2026-10-01)",
+    "como_obter": "scripts/buscar_youtube.py trecho 2026-10-21-golpes-com-ia E08 vmzuNHFnzac 0:24 0:31",
+    "quem_baixa": "buscador-de-videos"
+  },
+  {
+    "id": "E09",
+    "tipo": "video",
+    "o_que": "icone neon gerente do banco com selo voz modificada por IA",
+    "url": "https://www.youtube.com/watch?v=y_SsYor1tsA",
+    "licenca": "todos os direitos reservados",
+    "autor": "g1",
+    "credito": "Fantástico: Como funciona o golpe da 'falsa central bancária' (g1)",
+    "permitido": true,
+    "uso": "comentario",
+    "duracao_s": 5.0,
+    "motivo": "trecho citado em Reel de comentário/análise (docs/decisoes.md §5, decisão de 2026-10-01)",
+    "como_obter": "scripts/buscar_youtube.py trecho 2026-10-21-golpes-com-ia E09 y_SsYor1tsA 0:47.5 0:52.5",
+    "quem_baixa": "buscador-de-videos"
+  },
+  {
+    "id": "E10",
+    "tipo": "video",
+    "o_que": "celular Unknown, Dont Send Money, call to verify",
+    "url": "https://www.youtube.com/watch?v=vmzuNHFnzac",
+    "licenca": "todos os direitos reservados",
+    "autor": "DW Shift",
+    "credito": "Warning! Beware of AI Voice Cloning Scams (DW Shift)",
+    "permitido": true,
+    "uso": "comentario",
+    "duracao_s": 8.0,
+    "motivo": "trecho citado em Reel de comentário/análise (docs/decisoes.md §5, decisão de 2026-10-01)",
+    "como_obter": "scripts/buscar_youtube.py trecho 2026-10-21-golpes-com-ia E10 vmzuNHFnzac 1:04 1:12",
+    "quem_baixa": "buscador-de-videos"
+  }
+]

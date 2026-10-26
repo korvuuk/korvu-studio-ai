@@ -1,0 +1,20 @@
+# capturar.sh · 2026-10-24T04:23:55.909Z
+# alvo	largura pedida	innerWidth	scrollWidth	altura	HTTP	png	passa da borda
+/	1440	1440	1440	1731	200	/Users/teste/Documents/CONTENT AI/painel/portoes/capturas-5159c93d1a0e/inicio-1440.png	
+/	375	375	375	3924	200	/Users/teste/Documents/CONTENT AI/painel/portoes/capturas-5159c93d1a0e/inicio-375.png	
+/equipe	1440	1440	1440	1773	200	/Users/teste/Documents/CONTENT AI/painel/portoes/capturas-5159c93d1a0e/equipe-1440.png	
+/equipe	375	375	375	4173	200	/Users/teste/Documents/CONTENT AI/painel/portoes/capturas-5159c93d1a0e/equipe-375.png	
+/producao	1440	1440	1440	1584	200	/Users/teste/Documents/CONTENT AI/painel/portoes/capturas-5159c93d1a0e/producao-1440.png	
+/producao	375	375	375	2492	200	/Users/teste/Documents/CONTENT AI/painel/portoes/capturas-5159c93d1a0e/producao-375.png	
+/calendario	1440	1440	1440	1628	200	/Users/teste/Documents/CONTENT AI/painel/portoes/capturas-5159c93d1a0e/calendario-1440.png	
+/calendario	375	375	375	2418	200	/Users/teste/Documents/CONTENT AI/painel/portoes/capturas-5159c93d1a0e/calendario-375.png	
+/desempenho	1440	1440	1440	1681	200	/Users/teste/Documents/CONTENT AI/painel/portoes/capturas-5159c93d1a0e/desempenho-1440.png	
+/desempenho	375	375	375	3078	200	/Users/teste/Documents/CONTENT AI/painel/portoes/capturas-5159c93d1a0e/desempenho-375.png	
+/tokens	1440	1440	1440	2181	200	/Users/teste/Documents/CONTENT AI/painel/portoes/capturas-5159c93d1a0e/tokens-1440.png	
+/tokens	375	375	375	3797	200	/Users/teste/Documents/CONTENT AI/painel/portoes/capturas-5159c93d1a0e/tokens-375.png	
+/biblioteca	1440	1440	1440	900	200	/Users/teste/Documents/CONTENT AI/painel/portoes/capturas-5159c93d1a0e/biblioteca-1440.png	
+/biblioteca	375	375	375	812	200	/Users/teste/Documents/CONTENT AI/painel/portoes/capturas-5159c93d1a0e/biblioteca-375.png	
+/equipe/roteirista	1440	1440	1440	901	200	/Users/teste/Documents/CONTENT AI/painel/portoes/capturas-5159c93d1a0e/equipe-roteirista-1440.png	
+/equipe/roteirista	375	375	375	1269	200	/Users/teste/Documents/CONTENT AI/painel/portoes/capturas-5159c93d1a0e/equipe-roteirista-375.png	
+/equipe/contratar	1440	1440	1440	965	200	/Users/teste/Documents/CONTENT AI/painel/portoes/capturas-5159c93d1a0e/equipe-contratar-1440.png	
+/equipe/contratar	375	375	375	1629	200	/Users/teste/Documents/CONTENT AI/painel/portoes/capturas-5159c93d1a0e/equipe-contratar-375.png	

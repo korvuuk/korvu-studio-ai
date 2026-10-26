@@ -1,0 +1,4 @@
+# capturar.sh · 2026-10-25T22:31:44.933Z
+# alvo	largura pedida	innerWidth	scrollWidth	altura	HTTP	png	passa da borda
+/biblioteca	1440	1440	1440	1823	200	/Users/teste/Documents/CONTENT AI/painel/trabalho/frontend/telas-v5/biblioteca-1440.png	
+/biblioteca	375	375	375	3716	200	/Users/teste/Documents/CONTENT AI/painel/trabalho/frontend/telas-v5/biblioteca-375.png	

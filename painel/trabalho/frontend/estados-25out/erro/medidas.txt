@@ -1,0 +1,16 @@
+# capturar.sh · 2026-10-25T21:33:26.384Z
+# alvo	largura pedida	innerWidth	scrollWidth	altura	HTTP	png	passa da borda
+/	1440	1440	1440	1134	200	/Users/teste/Documents/CONTENT AI/painel/trabalho/frontend/estados-25out/erro/inicio-1440.png	
+/	375	375	375	1611	200	/Users/teste/Documents/CONTENT AI/painel/trabalho/frontend/estados-25out/erro/inicio-375.png	
+/equipe	1440	1440	1440	900	200	/Users/teste/Documents/CONTENT AI/painel/trabalho/frontend/estados-25out/erro/equipe-1440.png	
+/equipe	375	375	375	812	200	/Users/teste/Documents/CONTENT AI/painel/trabalho/frontend/estados-25out/erro/equipe-375.png	
+/producao	1440	1440	1440	900	200	/Users/teste/Documents/CONTENT AI/painel/trabalho/frontend/estados-25out/erro/producao-1440.png	
+/producao	375	375	375	1171	200	/Users/teste/Documents/CONTENT AI/painel/trabalho/frontend/estados-25out/erro/producao-375.png	
+/calendario	1440	1440	1440	900	200	/Users/teste/Documents/CONTENT AI/painel/trabalho/frontend/estados-25out/erro/calendario-1440.png	
+/calendario	375	375	375	1207	200	/Users/teste/Documents/CONTENT AI/painel/trabalho/frontend/estados-25out/erro/calendario-375.png	
+/desempenho	1440	1440	1440	923	200	/Users/teste/Documents/CONTENT AI/painel/trabalho/frontend/estados-25out/erro/desempenho-1440.png	
+/desempenho	375	375	375	1283	200	/Users/teste/Documents/CONTENT AI/painel/trabalho/frontend/estados-25out/erro/desempenho-375.png	
+/biblioteca	1440	1440	1440	917	200	/Users/teste/Documents/CONTENT AI/painel/trabalho/frontend/estados-25out/erro/biblioteca-1440.png	
+/biblioteca	375	375	375	1635	200	/Users/teste/Documents/CONTENT AI/painel/trabalho/frontend/estados-25out/erro/biblioteca-375.png	
+/tokens	1440	1440	1440	1089	200	/Users/teste/Documents/CONTENT AI/painel/trabalho/frontend/estados-25out/erro/tokens-1440.png	
+/tokens	375	375	375	1639	200	/Users/teste/Documents/CONTENT AI/painel/trabalho/frontend/estados-25out/erro/tokens-375.png	

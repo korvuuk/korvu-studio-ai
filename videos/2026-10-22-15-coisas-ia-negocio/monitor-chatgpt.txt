@@ -1,0 +1,46 @@
+Você vai ser o meu monitor de gravação por voz. Eu vou gravar um vídeo repetindo este roteiro, linha por linha, olhando para a câmera.
+
+REGRAS (siga sempre):
+1. Leia UMA linha de cada vez, EXATAMENTE como está escrita. Não mude, não resuma, não acrescente nenhuma palavra. Não leia o código da linha (L01, L02…).
+2. Depois de ler, fique em silêncio total e espere eu repetir a linha inteira.
+3. Se eu repetir certo, diga só "próxima" e leia a linha seguinte.
+4. Se eu errar, trocar ou esquecer uma palavra, diga só "de novo" e leia a MESMA linha outra vez. Não explique o erro.
+5. Se eu disser "de novo", leia a mesma linha outra vez.
+6. Nunca fale enquanto eu estiver falando. Espere eu terminar e conte 1 segundo de silêncio antes de falar.
+7. Nada de comentários, elogios ou perguntas. Frases suas sempre curtas.
+8. Quando terminar as linhas principais, leia os hooks alternativos do mesmo jeito.
+9. No fim, diga só "fim do roteiro".
+
+10. Quando eu disser "começar", **leia em voz alta a linha POSE DA CAPA** (abaixo), exatamente como está escrita. Depois **espere 4 segundos em silêncio** — é quando eu faço a pose para a capa do vídeo — e só então leia a L01. Não comente nada.
+
+Quando eu disser "começar", leia a POSE DA CAPA, espere 4 segundos e leia a linha L01.
+
+POSE DA CAPA (ler em voz alta antes da L01)
+Faça a pose da capa: mão aberta mostrando os cinco dedos, sobrancelha erguida. Segure três segundos.
+
+ROTEIRO — LINHAS PRINCIPAIS
+L01: Quinze coisas que a IA já faz no seu negócio.
+L02: Espera a quinze, que é pra quem mora fora, e no final eu te mando tudo.
+L03: Responder cliente no WhatsApp.
+L04: Responder em inglês, sem travar.
+L05: O cardápio, já traduzido.
+L06: Legenda de post.
+L07: Descrição de produto.
+L08: Trocar o fundo da foto do produto.
+L09: Orçamento bem organizado.
+L10: Aí a parte chata: cobrança educada.
+L11: Escala da equipe.
+L12: Fórmula de planilha que você nunca lembra.
+L13: Ideia de promoção pra semana fraca.
+L14: Roteiro de vídeo.
+L15: Resposta pras perguntas que todo cliente repete.
+L16: Anúncio de vaga.
+L17: E a quinze, pra quem mora fora: a carta oficial em inglês que chegou em casa.
+L18: Tira uma foto, e ela te explica em português.
+L19: Tudo no ChatGPT ou no Gemini, até na versão grátis, com limite por dia.
+L20: Ela ainda erra, tá? Confere antes de mandar, e tapa seus dados na carta.
+L21: Comenta LISTA pros quinze pedidos, e salva pra fazer um por dia.
+
+HOOKS ALTERNATIVOS (ler depois das principais)
+L01B: Tem negócio? Salva essa lista de quinze coisas pra IA.
+L01C: Quinze tarefas do seu negócio que a IA já faz com você.

@@ -1,0 +1,150 @@
+{
+ "video": "material/screnn record/Screen Recording 2026-10-21 at 16.55.58.mov",
+ "comentario": "Gravação de tela do ChatGPT no Mac (1716x1982, 120 fps, 459 s). Recorte 16:9 da parte de baixo da janela: caixa de digitação + menu de barra + placeholder 'gerando'. Tempos marcados em 21/10 com momentos.py + folhas a 4 fps. Cada cena = anexar a capa (2x) -> digitar o comando e enviar (tempo real) -> 1 s do 'gerando'. O RESULTADO é o PNG baixado (E03/E05/E07/E09/E11), não a tela.",
+ "recorte_padrao": {
+  "x": 0,
+  "y": 1017,
+  "w": 1716,
+  "h": 965
+ },
+ "largura_saida": 1080,
+ "cenas": [
+  {
+   "id": "E02",
+   "nome": "tela-mindmap",
+   "livro": "Como Fazer Amigos e Influenciar Pessoas",
+   "comando": "/mindmap",
+   "trechos": [
+    {
+     "inicio": 14.0,
+     "fim": 16.5,
+     "velocidade": 2.0,
+     "o_que": "arrasta a capa para a caixa"
+    },
+    {
+     "inicio": 25.8,
+     "fim": 28.4,
+     "velocidade": 1.0,
+     "o_que": "digita / (menu) + mindmap e envia (28.0)"
+    },
+    {
+     "inicio": 34.0,
+     "fim": 35.0,
+     "velocidade": 1.0,
+     "o_que": "gerando (placeholder cinza já visível)"
+    }
+   ]
+  },
+  {
+   "id": "E04",
+   "nome": "tela-sketchnote",
+   "livro": "A Única Coisa",
+   "comando": "/sketchnote",
+   "trechos": [
+    {
+     "inicio": 79.8,
+     "fim": 81.8,
+     "velocidade": 2.0,
+     "o_que": "arrasta a capa"
+    },
+    {
+     "inicio": 95.0,
+     "fim": 98.4,
+     "velocidade": 1.0,
+     "o_que": "digita /sketchnote e envia (98.25)"
+    },
+    {
+     "inicio": 115.0,
+     "fim": 116.0,
+     "velocidade": 1.0,
+     "o_que": "gerando (placeholder cinza já visível)"
+    }
+   ]
+  },
+  {
+   "id": "E06",
+   "nome": "tela-flashcards",
+   "livro": "Hábitos Atômicos",
+   "comando": "/flashcards",
+   "trechos": [
+    {
+     "inicio": 143.3,
+     "fim": 147.3,
+     "velocidade": 2.0,
+     "o_que": "arrasta a capa"
+    },
+    {
+     "inicio": 156.8,
+     "fim": 159.6,
+     "velocidade": 1.0,
+     "o_que": "digita /flashcards e envia (159.5)"
+    },
+    {
+     "inicio": 172.0,
+     "fim": 173.0,
+     "velocidade": 1.0,
+     "o_que": "gerando (placeholder cinza já visível)"
+    }
+   ]
+  },
+  {
+   "id": "E08",
+   "nome": "tela-fluxograma",
+   "livro": "O Poder do Hábito",
+   "comando": "/fluxograma",
+   "trechos": [
+    {
+     "inicio": 237.8,
+     "fim": 239.8,
+     "velocidade": 2.0,
+     "o_que": "arrasta a capa"
+    },
+    {
+     "inicio": 251.5,
+     "fim": 254.6,
+     "velocidade": 1.0,
+     "o_que": "digita /fluxograma e envia (254.5)"
+    },
+    {
+     "inicio": 262.0,
+     "fim": 263.0,
+     "velocidade": 1.0,
+     "o_que": "gerando (placeholder cinza já visível)"
+    }
+   ]
+  },
+  {
+   "id": "E10",
+   "nome": "tela-quadrinhos",
+   "livro": "Os Segredos da Mente Milionária",
+   "comando": "/quadrinhos",
+   "trechos": [
+    {
+     "inicio": 329.0,
+     "fim": 331.0,
+     "velocidade": 2.0,
+     "o_que": "anexa a capa"
+    },
+    {
+     "inicio": 345.3,
+     "fim": 347.4,
+     "velocidade": 1.0,
+     "o_que": "digita /quadrinhos e envia (347.25)"
+    },
+    {
+     "inicio": 362.0,
+     "fim": 363.0,
+     "velocidade": 1.0,
+     "o_que": "gerando (placeholder cinza já visível)"
+    }
+   ]
+  }
+ ],
+ "resultados": {
+  "E03": "material/img/E03.png",
+  "E05": "material/img/E05.png",
+  "E07": "material/img/E07.png",
+  "E09": "material/img/E09.png",
+  "E11": "material/img/E11.png"
+ }
+}

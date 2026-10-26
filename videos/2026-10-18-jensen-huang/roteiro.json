@@ -1,0 +1,673 @@
+{
+  "slug": "2026-10-18-jensen-huang",
+  "versao": 1,
+  "tema": "Quem é Jensen Huang: lavou prato numa lanchonete, planejou a Nvidia numa mesa de outra, quase quebrou, e a empresa virou a primeira de 5 trilhões de dólares",
+  "pilar": "perfil",
+  "estrutura": "narrativo (00-marca/modelo-roteiro-narrativo.md) com a 1.ª virada e a 1.ª palavra nos primeiros ~22 s (estratégia de alcance §2): gancho → 1.ª virada → história → desafio → virada → clímax → reflexão → CTA",
+  "hook_template": "antes-depois",
+  "duracao_alvo": 90.0,
+  "wps_ref": 2.1,
+  "hooks": {
+    "A": {
+      "fala": "Imagina você lavar prato numa lanchonete…",
+      "tela": "DO PRATO SUJO AOS 5 TRILHÕES",
+      "visual": "abertura com o CONTEÚDO em tela cheia (extra `full`: vídeo do Denny's e dos 5 trilhões), voz do Carlos por cima; par A/B (decisões 17/10): B = conteúdo em tela cheia até o fim do gancho (L01–L02), o Carlos entra na L03 (~9 s); A = o Carlos desde o quadro 0"
+    },
+    "B": {
+      "fala": "Imagina limpar banheiro num internato, ainda criança, longe de casa…",
+      "tela": "LIMPAVA BANHEIRO AINDA CRIANÇA",
+      "visual": "abertura com o CONTEÚDO em tela cheia (extra `full` do assunto), voz do Carlos por cima; par A/B (decisões 17/10): B = conteúdo em tela cheia até o fim do gancho (L01–L02), o Carlos entra na L03 (~9 s); A = o Carlos desde o quadro 0"
+    },
+    "C": {
+      "fala": "Imagina ser o melhor lavador de pratos da lanchonete…",
+      "tela": "O MELHOR LAVADOR DE PRATOS",
+      "visual": "abertura com o CONTEÚDO em tela cheia (extra `full`: vídeo do Denny's), voz do Carlos por cima; par A/B (decisões 17/10): B = conteúdo em tela cheia até o fim do gancho (L01–L02), o Carlos entra na L03 (~9 s); A = o Carlos desde o quadro 0"
+    }
+  },
+  "hook_escolhido": "A",
+  "titulo": {
+    "contexto": "Lavava prato e criou",
+    "impacto": "a primeira empresa de 5 trilhões",
+    "cinza": 3,
+    "rabisco": "trilhões"
+  },
+  "pose_capa": "segurando um prato branco ao lado do rosto, sobrancelha erguida",
+  "cta_tipo": "palavra-material",
+  "cta_palavra": "PRATO",
+  "material": "PDF de 2 páginas com o link oficial do discurso de formatura do Jensen Huang na Carnegie Mellon (10/05/2026, 18 min, canal oficial da CMU; de 2:32 a 5:45 ele conta o internato, o Denny's, a fundação e o quase fim da Nvidia), em inglês, com o passo a passo para ligar a tradução automática da legenda no YouTube; de bônus, o link da entrevista dele em Stanford (56 min)",
+  "material_titulo": "o link do discurso do Jensen Huang",
+  "total_palavras": 182,
+  "duracao_estimada": 92.8,
+  "extras": [],
+  "linhas": [
+    {
+      "id": "L01",
+      "secao": "hook",
+      "bloco": "gancho",
+      "fala": "Imagina você lavar prato numa lanchonete…",
+      "fala_original": "Imagina você lavar prato / numa **lanchonete**…",
+      "palavras": [
+        "imagina",
+        "você",
+        "lavar",
+        "prato",
+        "numa",
+        "lanchonete"
+      ],
+      "destaques": [
+        "lanchonete"
+      ],
+      "pausa_depois": "normal",
+      "tela": "",
+      "animacao": null,
+      "extras_ref": [],
+      "alternativa_de": null,
+      "tempo_estimado": [
+        0.0,
+        3.06
+      ]
+    },
+    {
+      "id": "L02",
+      "secao": "hook",
+      "bloco": "gancho",
+      "fala": "e, anos depois, criar a primeira empresa de 5 trilhões de dólares.",
+      "fala_original": "e, anos depois, / criar a primeira empresa / de **5 trilhões** de dólares. [pausa]",
+      "palavras": [
+        "e",
+        "anos",
+        "depois",
+        "criar",
+        "a",
+        "primeira",
+        "empresa",
+        "de",
+        "5",
+        "trilhões",
+        "de",
+        "dólares"
+      ],
+      "destaques": [
+        "5 trilhões"
+      ],
+      "pausa_depois": "pausa",
+      "tela": "",
+      "animacao": null,
+      "extras_ref": [],
+      "alternativa_de": null,
+      "tempo_estimado": [
+        3.06,
+        9.37
+      ]
+    },
+    {
+      "id": "L03",
+      "secao": "hook",
+      "bloco": "gancho",
+      "fala": "Pois é. Essa é a história do Jensen Huang, da Nvidia.",
+      "fala_original": "Pois é. / Essa é a história do **Jensen Huang**, / da Nvidia.",
+      "palavras": [
+        "pois",
+        "é",
+        "essa",
+        "é",
+        "a",
+        "história",
+        "do",
+        "jensen",
+        "huang",
+        "da",
+        "nvidia"
+      ],
+      "destaques": [
+        "Jensen Huang"
+      ],
+      "pausa_depois": "normal",
+      "tela": "",
+      "animacao": null,
+      "extras_ref": [],
+      "alternativa_de": null,
+      "tempo_estimado": [
+        9.37,
+        14.81
+      ]
+    },
+    {
+      "id": "L04",
+      "secao": "corpo",
+      "bloco": "virada",
+      "fala": "E olha só que interessante: ela nasceu numa mesa de lanchonete.",
+      "fala_original": "E olha só que interessante: / ela nasceu numa **mesa de lanchonete**. [pausa]",
+      "palavras": [
+        "e",
+        "olha",
+        "só",
+        "que",
+        "interessante",
+        "ela",
+        "nasceu",
+        "numa",
+        "mesa",
+        "de",
+        "lanchonete"
+      ],
+      "destaques": [
+        "mesa de lanchonete"
+      ],
+      "pausa_depois": "pausa",
+      "tela": "",
+      "animacao": null,
+      "extras_ref": [],
+      "alternativa_de": null,
+      "tempo_estimado": [
+        14.81,
+        20.65
+      ]
+    },
+    {
+      "id": "L05",
+      "secao": "corpo",
+      "bloco": "virada",
+      "fala": "Se quiser ver ele contando, comenta PRATO.",
+      "fala_original": "Se quiser ver ele contando, / comenta **PRATO**.",
+      "palavras": [
+        "se",
+        "quiser",
+        "ver",
+        "ele",
+        "contando",
+        "comenta",
+        "prato"
+      ],
+      "destaques": [
+        "PRATO"
+      ],
+      "pausa_depois": "normal",
+      "tela": "",
+      "animacao": null,
+      "extras_ref": [],
+      "alternativa_de": null,
+      "tempo_estimado": [
+        20.65,
+        24.18
+      ]
+    },
+    {
+      "id": "L06",
+      "secao": "corpo",
+      "bloco": "historia",
+      "fala": "Ele nasceu em Taiwan e, ainda criança, foi parar num internato no Kentucky.",
+      "fala_original": "Ele nasceu em Taiwan / e, ainda criança, / foi parar num internato no **Kentucky**.",
+      "palavras": [
+        "ele",
+        "nasceu",
+        "em",
+        "taiwan",
+        "e",
+        "ainda",
+        "criança",
+        "foi",
+        "parar",
+        "num",
+        "internato",
+        "no",
+        "kentucky"
+      ],
+      "destaques": [
+        "Kentucky"
+      ],
+      "pausa_depois": "normal",
+      "tela": "",
+      "animacao": null,
+      "extras_ref": [],
+      "alternativa_de": null,
+      "tempo_estimado": [
+        24.18,
+        30.57
+      ]
+    },
+    {
+      "id": "L07",
+      "secao": "corpo",
+      "bloco": "historia",
+      "fala": "A família achava que era escola boa… mas ele limpava os banheiros.",
+      "fala_original": "A família achava que era escola boa… / mas ele limpava os **banheiros**.",
+      "palavras": [
+        "a",
+        "família",
+        "achava",
+        "que",
+        "era",
+        "escola",
+        "boa",
+        "mas",
+        "ele",
+        "limpava",
+        "os",
+        "banheiros"
+      ],
+      "destaques": [
+        "banheiros"
+      ],
+      "pausa_depois": "normal",
+      "tela": "",
+      "animacao": null,
+      "extras_ref": [],
+      "alternativa_de": null,
+      "tempo_estimado": [
+        30.57,
+        36.49
+      ]
+    },
+    {
+      "id": "L08",
+      "secao": "corpo",
+      "bloco": "historia",
+      "fala": "Depois, ele foi lavar prato num Denny's.",
+      "fala_original": "Depois, / ele foi lavar prato num **Denny's**.",
+      "palavras": [
+        "depois",
+        "ele",
+        "foi",
+        "lavar",
+        "prato",
+        "num",
+        "denny's"
+      ],
+      "destaques": [
+        "Denny's"
+      ],
+      "pausa_depois": "normal",
+      "tela": "",
+      "animacao": null,
+      "extras_ref": [],
+      "alternativa_de": null,
+      "tempo_estimado": [
+        36.49,
+        40.02
+      ]
+    },
+    {
+      "id": "L09",
+      "secao": "corpo",
+      "bloco": "historia",
+      "fala": "Em 1993, num outro Denny's, ele e dois amigos planejaram a Nvidia.",
+      "fala_original": "Em **1993**, / num outro Denny's, / ele e dois amigos planejaram a Nvidia.",
+      "palavras": [
+        "em",
+        "1993",
+        "num",
+        "outro",
+        "denny's",
+        "ele",
+        "e",
+        "dois",
+        "amigos",
+        "planejaram",
+        "a",
+        "nvidia"
+      ],
+      "destaques": [
+        "1993"
+      ],
+      "pausa_depois": "normal",
+      "tela": "",
+      "animacao": null,
+      "extras_ref": [],
+      "alternativa_de": null,
+      "tempo_estimado": [
+        40.02,
+        45.93
+      ]
+    },
+    {
+      "id": "L10",
+      "secao": "corpo",
+      "bloco": "desafio",
+      "fala": "Só que a empresa quase quebrou.",
+      "fala_original": "Só que a empresa quase **quebrou**. [pausa]",
+      "palavras": [
+        "só",
+        "que",
+        "a",
+        "empresa",
+        "quase",
+        "quebrou"
+      ],
+      "destaques": [
+        "quebrou"
+      ],
+      "pausa_depois": "pausa",
+      "tela": "",
+      "animacao": null,
+      "extras_ref": [],
+      "alternativa_de": null,
+      "tempo_estimado": [
+        45.93,
+        49.39
+      ]
+    },
+    {
+      "id": "L11",
+      "secao": "corpo",
+      "bloco": "virada",
+      "fala": "Anos depois, chegou a inteligência artificial.",
+      "fala_original": "Anos depois, / chegou a **inteligência artificial**.",
+      "palavras": [
+        "anos",
+        "depois",
+        "chegou",
+        "a",
+        "inteligência",
+        "artificial"
+      ],
+      "destaques": [
+        "inteligência artificial"
+      ],
+      "pausa_depois": "normal",
+      "tela": "",
+      "animacao": null,
+      "extras_ref": [],
+      "alternativa_de": null,
+      "tempo_estimado": [
+        49.39,
+        52.45
+      ]
+    },
+    {
+      "id": "L12",
+      "secao": "corpo",
+      "bloco": "virada",
+      "fala": "Se o ChatGPT é o carro, a Nvidia faz o motor.",
+      "fala_original": "Se o ChatGPT é o carro, / a Nvidia faz o **motor**.",
+      "palavras": [
+        "se",
+        "o",
+        "chatgpt",
+        "é",
+        "o",
+        "carro",
+        "a",
+        "nvidia",
+        "faz",
+        "o",
+        "motor"
+      ],
+      "destaques": [
+        "motor"
+      ],
+      "pausa_depois": "normal",
+      "tela": "",
+      "animacao": null,
+      "extras_ref": [],
+      "alternativa_de": null,
+      "tempo_estimado": [
+        52.45,
+        57.89
+      ]
+    },
+    {
+      "id": "L13",
+      "secao": "payoff",
+      "bloco": "climax",
+      "fala": "Aqui em Londres, ele recebeu do Rei Charles o mesmo prêmio",
+      "fala_original": "Aqui em **Londres**, / ele recebeu do **Rei Charles** o mesmo prêmio",
+      "palavras": [
+        "aqui",
+        "em",
+        "londres",
+        "ele",
+        "recebeu",
+        "do",
+        "rei",
+        "charles",
+        "o",
+        "mesmo",
+        "prêmio"
+      ],
+      "destaques": [
+        "Londres",
+        "Rei Charles"
+      ],
+      "pausa_depois": "normal",
+      "tela": "",
+      "animacao": null,
+      "extras_ref": [],
+      "alternativa_de": null,
+      "tempo_estimado": [
+        57.89,
+        63.32
+      ]
+    },
+    {
+      "id": "L14",
+      "secao": "payoff",
+      "bloco": "climax",
+      "fala": "do Hinton e da Fei-Fei Li, de quem eu já falei aqui.",
+      "fala_original": "do Hinton e da Fei-Fei Li, / de quem eu já falei aqui.",
+      "palavras": [
+        "do",
+        "hinton",
+        "e",
+        "da",
+        "fei-fei",
+        "li",
+        "de",
+        "quem",
+        "eu",
+        "já",
+        "falei",
+        "aqui"
+      ],
+      "destaques": [],
+      "pausa_depois": "normal",
+      "tela": "",
+      "animacao": null,
+      "extras_ref": [],
+      "alternativa_de": null,
+      "tempo_estimado": [
+        63.32,
+        69.24
+      ]
+    },
+    {
+      "id": "L15",
+      "secao": "payoff",
+      "bloco": "reflexao",
+      "fala": "A história dele mostra uma coisa:",
+      "fala_original": "A história dele mostra uma coisa: [pausa]",
+      "palavras": [
+        "a",
+        "história",
+        "dele",
+        "mostra",
+        "uma",
+        "coisa"
+      ],
+      "destaques": [],
+      "pausa_depois": "pausa",
+      "tela": "",
+      "animacao": null,
+      "extras_ref": [],
+      "alternativa_de": null,
+      "tempo_estimado": [
+        69.24,
+        72.7
+      ]
+    },
+    {
+      "id": "L16",
+      "secao": "payoff",
+      "bloco": "reflexao",
+      "fala": "o seu Denny's pode ser onde você está agora.",
+      "fala_original": "o seu **Denny's** pode ser / onde você está agora. [pausa longa]",
+      "palavras": [
+        "o",
+        "seu",
+        "denny's",
+        "pode",
+        "ser",
+        "onde",
+        "você",
+        "está",
+        "agora"
+      ],
+      "destaques": [
+        "Denny's"
+      ],
+      "pausa_depois": "pausa_longa",
+      "tela": "",
+      "animacao": null,
+      "extras_ref": [],
+      "alternativa_de": null,
+      "tempo_estimado": [
+        72.7,
+        77.88
+      ]
+    },
+    {
+      "id": "L17",
+      "secao": "cta",
+      "bloco": "cta",
+      "fala": "Salva pra rever quando achar que começou pequeno demais.",
+      "fala_original": "Salva pra rever / quando achar que começou **pequeno demais**.",
+      "palavras": [
+        "salva",
+        "pra",
+        "rever",
+        "quando",
+        "achar",
+        "que",
+        "começou",
+        "pequeno",
+        "demais"
+      ],
+      "destaques": [
+        "pequeno demais"
+      ],
+      "pausa_depois": "normal",
+      "tela": "",
+      "animacao": null,
+      "extras_ref": [],
+      "alternativa_de": null,
+      "tempo_estimado": [
+        77.88,
+        82.37
+      ]
+    },
+    {
+      "id": "L18",
+      "secao": "cta",
+      "bloco": "cta",
+      "fala": "Comenta a palavra PRATO que eu vou te enviar o discurso dele.",
+      "fala_original": "Comenta a palavra **PRATO** / que eu vou te enviar o discurso dele.",
+      "palavras": [
+        "comenta",
+        "a",
+        "palavra",
+        "prato",
+        "que",
+        "eu",
+        "vou",
+        "te",
+        "enviar",
+        "o",
+        "discurso",
+        "dele"
+      ],
+      "destaques": [
+        "PRATO"
+      ],
+      "pausa_depois": "normal",
+      "tela": "",
+      "animacao": null,
+      "extras_ref": [],
+      "alternativa_de": null,
+      "tempo_estimado": [
+        82.37,
+        88.28
+      ]
+    },
+    {
+      "id": "L19",
+      "secao": "cta",
+      "bloco": "cta",
+      "fala": "E manda pra quem tá recomeçando aqui na Europa.",
+      "fala_original": "E manda pra quem tá **recomeçando** / aqui na Europa.",
+      "palavras": [
+        "e",
+        "manda",
+        "pra",
+        "quem",
+        "tá",
+        "recomeçando",
+        "aqui",
+        "na",
+        "europa"
+      ],
+      "destaques": [
+        "recomeçando"
+      ],
+      "pausa_depois": "normal",
+      "tela": "",
+      "animacao": null,
+      "extras_ref": [],
+      "alternativa_de": null,
+      "tempo_estimado": [
+        88.28,
+        92.77
+      ]
+    },
+    {
+      "id": "L01B",
+      "secao": "hook-alt",
+      "bloco": "gancho-alt",
+      "fala": "Imagina limpar banheiro num internato, ainda criança, longe de casa…",
+      "fala_original": "Imagina limpar banheiro num internato, / ainda criança, / longe de casa…",
+      "palavras": [
+        "imagina",
+        "limpar",
+        "banheiro",
+        "num",
+        "internato",
+        "ainda",
+        "criança",
+        "longe",
+        "de",
+        "casa"
+      ],
+      "destaques": [],
+      "pausa_depois": "normal",
+      "tela": "",
+      "animacao": null,
+      "extras_ref": [],
+      "alternativa_de": "L01",
+      "tempo_estimado": null
+    },
+    {
+      "id": "L01C",
+      "secao": "hook-alt",
+      "bloco": "gancho-alt",
+      "fala": "Imagina ser o melhor lavador de pratos da lanchonete…",
+      "fala_original": "Imagina ser o melhor lavador de pratos / da lanchonete…",
+      "palavras": [
+        "imagina",
+        "ser",
+        "o",
+        "melhor",
+        "lavador",
+        "de",
+        "pratos",
+        "da",
+        "lanchonete"
+      ],
+      "destaques": [],
+      "pausa_depois": "normal",
+      "tela": "",
+      "animacao": null,
+      "extras_ref": [],
+      "alternativa_de": "L01",
+      "tempo_estimado": null
+    }
+  ]
+}

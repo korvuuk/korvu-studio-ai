@@ -1,0 +1,1175 @@
+"""Gera as prévias HTML do design system em painel/design/previas/ a partir de:
+  - painel/design/tokens.json            (fundamentos)
+  - painel/design/icones/icones.json     (ícones)
+  - painel/design/dados-2026-10-23.json  (todo número, nome e título que aparece — nada digitado à mão)
+Rodar:  uv run python -I painel/trabalho/designer/gerar_previas.py
+"""
+import datetime as dt
+import html
+import json
+import pathlib
+import re
+from zoneinfo import ZoneInfo
+
+RAIZ = pathlib.Path(__file__).resolve().parents[3]
+D = RAIZ / "painel/design"
+P = D / "previas"
+TOK = json.loads((D / "tokens.json").read_text(encoding="utf-8"))
+ICO = json.loads((D / "icones/icones.json").read_text(encoding="utf-8"))
+DADOS = json.loads((D / "dados-2026-10-23.json").read_text(encoding="utf-8"))
+B = {k: v["linhas"] for k, v in DADOS["blocos"].items()}
+ARQ_DADOS = "dados-2026-10-23.json"
+
+LON = ZoneInfo("Europe/London")
+MES = ["jan", "fev", "mar", "abr", "mai", "jun", "jul", "ago", "set", "out", "nov", "dez"]
+SEM = ["Seg", "Ter", "Qua", "Qui", "Sex", "Sáb", "Dom"]
+
+
+def lon(s):
+    return dt.datetime.fromisoformat(s).astimezone(LON)
+
+
+def dm(s):
+    d = lon(s)
+    return f"{d.day} {MES[d.month - 1]}"
+
+
+def hm(s):
+    return lon(s).strftime("%H:%M")
+
+
+def n(x):
+    return f"{x:,}".replace(",", ".")
+
+
+def dec(x, casas=1):
+    return f"{x:.{casas}f}".replace(".", ",")
+
+
+def moeda(h):
+    """Espaço inseparável entre £/US$ e o valor (PI46): a moeda nunca fica sozinha no fim da linha."""
+    return re.sub(r"(£|US\$) (?=[0-9])", "\\1\u00a0", h)
+
+
+def esc(s):
+    return html.escape(str(s), quote=True)
+
+
+def ic(nome, tam=16, cls=""):
+    c = f' class="{cls}"' if cls else ""
+    return f'<span{c} data-icon="{nome}" data-size="{tam}"></span>'
+
+
+VIDEOS = {v["slug"]: v for v in B["videos"]}
+ROT_MODELO = {m["alias"]: m["rotulo"] for m in B["telas_modelos"]}  # opus → "Opus 5.5" (decisão de 23/10: sempre com a versão)
+TOKIA = B["telas_tokens"][0]
+
+
+def tok_agente(agid):
+    alvo = ("principal", "general-purpose", "workflow-subagent", "claude", "Explore", "Plan") if agid == "diretor" else (agid,)
+    linhas = [r for r in TOKIA["por_agente"] if r["agente"] in alvo]
+    if not linhas:
+        return None
+    return {"tokens": sum(r["tokens"] for r in linhas), "us": sum(r["us"] for r in linhas), "tarefas": sum(r["tarefas"] for r in linhas)}
+
+
+def compacto(x):
+    return n(x) if x < 10000 else (dec(x / 1e3) + "K" if x < 1e6 else dec(x / 1e6) + "M")
+AGENTES = {a["id"]: a for a in B["agentes"]}
+CONT = B["contagens"][0]
+FILA = {f["slug"]: f for f in B["fila"]}
+PUBS = {p["slug"]: p for p in B["publicacoes"]}
+
+
+def titulo(slug):
+    """Título de exibição = o tema do vídeo (tabela videos) até o primeiro ' — ' ou ' (' (o resto são notas internas)."""
+    t = VIDEOS[slug]["tema"]
+    for sep in (" — ", " ("):
+        if sep in t:
+            t = t.split(sep)[0]
+    return t
+
+
+def cap1(s):
+    return s[:1].upper() + s[1:]
+
+
+TAG_EX = '<span class="pv-tag">exemplo · sem dado real hoje</span>'
+TAG_PROP = '<span class="pv-tag pv-tag--proposta">proposta · vai ao Carlos</span>'
+TAG_REAL = '<span class="pv-tag pv-tag--real">dados reais · banco do painel</span>'
+TAG_FONTE = '<span class="pv-tag pv-tag--real">como o Carlos desenhou</span>'
+
+
+def head(nome):
+    return f"""<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{esc(nome)} · korvu. painel — design system</title>
+<link rel="stylesheet" href="../tokens.css">
+<link rel="stylesheet" href="../componentes.css">
+<link rel="stylesheet" href="../acrescimos.css">
+<link rel="stylesheet" href="previa.css">
+<script src="../korvu.js"></script>
+<script src="previa.js" defer></script>
+</head>
+"""
+
+
+def sec(t, conteudo, tags=""):
+    return f'<section class="pv-sec">\n<h2 class="pv-sec-t k-cap">{esc(t)}{(" " + tags) if tags else ""}</h2>\n{conteudo}\n</section>'
+
+
+def nota(t):
+    return f'<p class="pv-nota">{t}</p>'
+
+
+PAGINAS = []  # (arquivo, nome, grupo, descrição curta) para o índice
+
+
+def pagina(arq, nome, grupo, classe, lead, secoes, fonte=None, curta=None):
+    foot = []
+    if fonte:
+        foot.append(f"<span>Dados: {fonte}</span>")
+    foot.append('<span>Regras: <a href="../design-system.md">design-system.md</a></span>')
+    foot.append('<a href="index.html">Todas as prévias</a>')
+    corpo = "\n".join(secoes)
+    doc = head(nome) + f"""<body>
+<main class="pv">
+<header class="pv-head">
+<p class="k-cap">{esc(grupo)} · <span class="k-mono">{esc(classe)}</span></p>
+<h1 class="k-h2">{esc(nome)}</h1>
+<p class="pv-lead">{lead}</p>
+</header>
+{corpo}
+<footer class="pv-foot">{" ".join(foot)}</footer>
+</main>
+</body>
+</html>
+"""
+    (P / arq).write_text(moeda(doc), encoding="utf-8")
+    PAGINAS.append((arq, nome, grupo, curta or lead))
+
+
+# ---------------------------------------------------------------- peças reutilizadas
+
+NAV = [
+    ("visao-geral", "Visão geral", None, True),
+    ("equipe", "Equipe", (CONT["agentes"], "pessoas"), True),
+    ("videos-portoes", "Produção de conteúdo", None, True),  # decisão de 23/10 (antes "Vídeos e portões")
+    ("calendario", "Calendário", None, True),
+    ("desempenho", "Desempenho", None, True),
+    ("biblioteca", "Biblioteca", None, True),
+    ("tokens-custos", "Tokens e custos", None, True),
+]
+
+
+def barra_lateral(ativo="visao-geral", proposta=True, ident="menu", estilo="", sem_pagina=()):
+    out = [f'<nav class="k-sidebar" id="{ident}" aria-label="Menu principal"{estilo}>',
+           '<a class="k-sidebar-logo" href="index.html" aria-label="korvu. painel — início"><span data-logo="ivory" data-h="19"></span></a>']
+    for chave, rotulo, cont, existe in NAV:
+        conta = f'<span class="k-nav-count">{n(cont[0])}<span class="k-sr-only"> {cont[1]}</span></span>' if cont else ""
+        if proposta and (not existe or chave in sem_pagina):
+            out.append(f'<span class="k-nav-item" aria-disabled="true" data-dica="Ainda não tem página">{ic(chave, 18)}{rotulo}<span class="k-sr-only"> — ainda sem página</span></span>')
+        else:
+            atual = ' is-active" aria-current="page' if chave == ativo else ""
+            out.append(f'<a class="k-nav-item{atual}" href="#">{ic(chave, 18)}<span>{rotulo}</span>{conta}</a>')
+    out.append('<div class="k-sidebar-foot"><div class="k-sidebar-owner">@korvu_oficial<small>Instagram · Facebook</small></div></div>')
+    out.append("</nav>")
+    return "\n".join(out)
+
+
+def casca(nome, conteudo, menu_aberto=False, ativo="visao-geral"):
+    return head(nome) + f"""<body>
+<a class="k-skip" href="#conteudo">Pular para o conteúdo</a>
+<div class="k-shell{' is-menu-open' if menu_aberto else ''}">
+<header class="k-topbar"><a href="index.html" aria-label="korvu. painel — início"><span data-logo="ivory" data-h="19"></span></a><button class="k-menu-btn" type="button" aria-expanded="false" aria-controls="menu">Menu{ic('chevron-down')}</button></header>
+{barra_lateral(ativo)}
+<main class="k-main" id="conteudo">
+{conteudo}
+</main>
+</div>
+</body>
+</html>
+"""
+
+
+# KPIs reais (perfil_snapshots: 16/10 e 22/10)
+S0, S1 = B["perfil_snapshots"][0], B["perfil_snapshots"][1]
+ANT = dm(S0["lido_em"])
+DEMIS = B["metricas_demis"]
+
+
+def delta(valor_txt, tipo, sr, seta=None):
+    """tipo = significado (up = bom/verde, down = ruim/vermelho); seta = direção do número (▲ subiu, ▼ caiu)."""
+    seta = seta or ("▲" if tipo == "up" else "▼")
+    return (f'<span class="k-delta k-delta--{tipo}"><span aria-hidden="true">{seta}</span> {valor_txt}'
+            f'<span class="k-sr-only"> {sr}</span></span>')
+
+
+def kpis_reais():
+    seg = S1["seguidores"] - S0["seguidores"]
+    alc = (S1["alcance"] - S0["alcance"]) / S0["alcance"] * 100
+    vis = (S1["views"] - S0["views"]) / S0["views"] * 100
+    d_seg = delta(n(abs(seg)), "up" if seg > 0 else "down", "a mais" if seg > 0 else "a menos")
+    d_alc = delta(dec(abs(alc)) + "%", "up" if alc > 0 else "down", "de aumento" if alc > 0 else "de queda")
+    d_vis = delta(dec(abs(vis)) + "%", "up" if vis > 0 else "down", "de aumento" if vis > 0 else "de queda")
+    ult = DEMIS[-1]
+    spark = json.dumps({"x": [m["dias"] for m in DEMIS], "y": [m["views"] for m in DEMIS]})
+    spark_lbl = "Visualizações nas " + str(len(DEMIS)) + " leituras: " + ", ".join(n(m["views"]) for m in DEMIS)
+    janela = S1["janela_dias"]
+    cards = [
+        ("Seguidores no Instagram", n(S1["seguidores"]), d_seg, f'<span class="k-kpi-note">desde {ANT}</span>'),
+        (f"Contas alcançadas · {janela} dias", n(S1["alcance"]), d_alc, f'<span class="k-kpi-note">vs. {ANT}</span>'),
+        (f"Visualizações · {janela} dias", n(S1["views"]), d_vis, f'<span class="k-kpi-note">vs. {ANT}</span>'),
+        (f"Vídeo mais visto · {dm(ult['lido_em'])}", n(ult["views"]), '<span class="k-kpi-note">Demis Hassabis</span>',
+         f"<svg class=\"k-chart\" width=\"120\" height=\"28\" data-spark='{spark}' role=\"img\" aria-label=\"{esc(spark_lbl)}\"></svg>"),
+    ]
+    out = []
+    for cap, val, a, b in cards:
+        out.append(f'<div class="k-card k-kpi k-span-3"><span class="k-cap">{esc(cap)}</span>'
+                   f'<div class="k-kpi-value">{val}</div><div class="k-kpi-foot">{a}{b}</div></div>')
+    return '<div class="k-grid k-grid--tiles">\n' + "\n".join(out) + "\n</div>"
+
+
+ESTADO = {"roteiro": "Roteiro", "gravacao": "Gravação", "edicao": "Edição", "edl_aprovada": "EDL aprovada",
+          "revisao": "Revisão", "cor": "Cor", "legendas": "Legendas", "capa": "Capa", "qa": "QA", "pronto": "Pronto",
+          "agendado": "Agendado", "publicado": "Publicado"}
+GRUPO = {"roteiro": 0, "gravacao": 1, "edicao": 2, "edl_aprovada": 2, "revisao": 3, "cor": 3, "legendas": 3,
+         "capa": 3, "qa": 3, "pronto": 4, "agendado": 4, "publicado": 5}
+ETAPAS = ["Roteiro", "Gravação", "Edição", "Revisão", "Publicar"]
+
+
+def etapas(estado):
+    g = GRUPO[estado]
+    seg = "".join(f'<i class="{"on" if i < g else ("now" if i == g else "")}"></i>'.replace(' class=""', "") for i in range(5))
+    lbl = "Todas as 5 etapas feitas" if g == 5 else f"Etapa {g + 1} de 5: {ETAPAS[g]}"
+    return f'<div class="k-steps" role="img" aria-label="{lbl}">{seg}</div>'
+
+
+def chip_estado(estado):
+    if estado == "publicado":
+        return '<span class="k-chip k-chip--publicado">Publicado</span>'
+    if estado == "agendado":
+        return '<span class="k-chip k-chip--agendado">Agendado</span>'
+    return '<span class="k-chip k-chip--producao">Em produção</span>'
+
+
+def publicacao(slug, estado):
+    if estado == "publicado" and slug in PUBS:
+        p = PUBS[slug]["publicado_em"]
+        return f"{dm(p)} · {hm(p)}"
+    if slug in FILA:
+        p = FILA[slug]["publicar_em"]
+        return f"{dm(p)} · {hm(p)}"
+    return '<span aria-label="sem data">—</span>'
+
+
+LINHAS_VIDEO = ["2026-10-23-livro-chatgpt", "2026-09-16-chatgpt-contexto", "2026-10-22-agente-3-passos",
+                "2026-09-17-demis-hassabis"]
+
+
+def tabela_videos(hover=None):
+    rows = []
+    for slug in LINHAS_VIDEO:
+        v = VIDEOS[slug]
+        e = v["estado"]
+        cls = ' class="is-hover"' if slug == hover else ""
+        rows.append(
+            f'<tr{cls}><td><div class="k-video"><span class="k-thumb">{ic("play", 14)}</span><div>'
+            f'<div class="k-video-title">{esc(titulo(slug))}</div><div class="k-video-meta k-mono">{slug}</div></div></div></td>'
+            f'<td class="k-ink2">{ESTADO[e]}</td><td>{etapas(e)}</td><td class="k-ink2 k-num">{publicacao(slug, e)}</td>'
+            f'<td>{chip_estado(e)}</td></tr>')
+    return ('<div class="k-card" style="overflow:hidden">\n'
+            '<div class="k-table-wrap" role="region" aria-label="Vídeos (a tabela rola para o lado)" tabindex="0" style="--table-min:720px">\n'
+            '<table class="k-table">\n<thead><tr><th>Vídeo</th><th>Etapa</th><th style="width:140px">Progresso</th>'
+            '<th>Publicação</th><th>Estado</th></tr></thead>\n<tbody>\n' + "\n".join(rows) + "\n</tbody>\n</table>\n</div>\n</div>")
+
+
+# ---------------------------------------------------------------- 1. fundamentos
+
+def gerar_fundamentos():
+    cor = TOK["cor"]
+    grupos = [
+        ("Superfícies", ["bg", "surface", "surface-sunken", "surface-hover", "line", "line-strong"]),
+        ("Texto", ["ink", "ink-2", "ink-3"]),
+        ("Barra lateral e dica", ["sidebar", "sidebar-raised", "sidebar-line", "sidebar-ink", "sidebar-ink-2"]),
+        ("Laranja Korvu", ["accent", "accent-hover", "accent-soft", "accent-ink", "on-accent"]),
+        ("Significado (só estado e métrica)", ["positive", "positive-soft", "danger", "danger-soft"]),
+        ("Gráficos (nesta ordem) e foco", ["chart-1", "chart-2", "chart-3", "chart-4", "chart-5", "chart-grid", "focus", "focus-on-dark"]),
+    ]
+    blocos = []
+    for g, nomes in grupos:
+        sws = []
+        for nm in nomes:
+            t = cor[nm]
+            alias = f" = {t['alias']}" if t.get("alias") else ""
+            sws.append(f'<div class="pv-sw"><i style="background:var(--{nm})"></i><div><b>{nm}</b>'
+                       f'<span>{t["valor"].upper()}{alias}</span></div></div>')
+        blocos.append(f'<h3 class="k-small" style="margin:var(--space-16) 0 var(--space-8)">{esc(g)}</h3>'
+                      f'<div class="pv-grade pv-grade-4">{"".join(sws)}</div>')
+    s_cor = sec("Cor — não alterar sem decisão do Carlos", "\n".join(blocos) + nota(
+        "Fundo de toda tela é <b>bg</b> (nunca branco puro). Cards, tabelas, campos e popovers em <b>surface</b> com borda "
+        "1px <b>line</b>. Texto sobre o laranja é sempre <b>on-accent</b> (#111). Verde só para métrica positiva e "
+        "Aprovado; vermelho só para alerta e Bloqueado. <b>Decisão do Carlos, 23/10:</b> <b>line-strong</b> #928874 (borda "
+        "dos controles, 3,13:1 sobre bg) e <b>focus</b> = accent-ink nos fundos claros (5,1–5,8:1), com <b>focus-on-dark</b> = "
+        "accent na barra lateral escura (5,68:1) — as únicas cores que divergem da fonte. Contraste medido de cada par em "
+        '<a href="../contraste.md">contraste.md</a>.'))
+    linhas = []
+    classes = {"display": "k-display", "h1": "k-h1", "h2": "k-h2", "h3": "k-h3", "body": "k-body",
+               "body-strong": "k-body-strong", "small": "k-small", "caption": "k-cap", "metric-xl": "k-metric-xl",
+               "metric-l": "k-metric-l", "mono": "k-mono"}
+    for nm, s in TOK["tipografia"].items():
+        trk = "" if s["letterSpacing"] == "normal" else f" · {s['letterSpacing']}"
+        rot = f"{nm}<br>{s['fontSize'].replace('px', '')}/{s['lineHeight'].replace('px', '')} · {s['fontWeight']}{trk}"
+        linhas.append(f'<div class="pv-tipo"><span>{rot}</span><div class="{classes[nm]}">{esc(s["amostra"])}</div></div>')
+    s_tipo = sec("Tipografia — Geist e Geist Mono", "\n".join(linhas) + nota(
+        "Família única <b>Geist</b>; <b>Geist Mono</b> só para modelos, IDs, HEX e contagens de tokens. Títulos com "
+        "tracking negativo. Números com algarismos tabulares (<span class=\"k-mono\">k-num</span>). Uma página = um h1."))
+    esp = "".join(f'<div><i style="width:{t["valor"]};height:{t["valor"]}"></i><span>{t["valor"].replace("px", "")}</span></div>'
+                  for t in TOK["espaco"].values())
+    s_esp = sec("Espaçamento — base 4", f'<div class="pv-esp">{esp}</div>' + nota(
+        "Entre seções 48 · entre cards 24 · dentro de cards 16/24 · do topo ao h1 64. Medidas internas de alguns "
+        "componentes (14, 20, 10, 6…) vêm assim da fonte — a escala vale para o layout entre blocos."))
+    raios = "".join(f'<div><i style="border-top-left-radius:{"22px" if nm == "radius-pill" else t["valor"]}"></i>'
+                    f'<span>{nm.replace("radius-", "")}<br>{t["valor"]}</span></div>' for nm, t in TOK["raio"].items())
+    s_raio = sec("Raios", f'<div class="pv-raio">{raios}</div>')
+    somb = "".join(f'<div class="pv-sombra" style="box-shadow:var(--{nm})">{nm}</div>' for nm in TOK["sombra"])
+    s_somb = sec("Sombras — quase não existem", f'<div class="pv-grade pv-grade-3">{somb}</div>' + nota(
+        "A borda faz o trabalho. <b>shadow-card</b> em repouso, <b>shadow-hover</b> no hover de card clicável (com "
+        "borda line-strong), <b>shadow-pop</b> só em dropdown e notificação flutuante. Proibido: degradê, vidro, "
+        "borda colorida à esquerda em card, card dentro de card."))
+    lay = TOK["layout"]
+    s_grade = sec("Grade e casca", nota(
+        f"Referência desktop <b>{lay['viewport-desktop']['valor']}</b>. Barra lateral fixa de <b>{lay['sidebar-width']['valor']}</b>; "
+        f"área principal fluida com padding <b>{lay['content-padding']['valor']}</b>; <b>{lay['grid-columns']['valor']} colunas</b>, "
+        f"gutter <b>{lay['grid-gutter']['valor']}</b> (20px abaixo de 1280px). Linha de tabela <b>{lay['row-height']['valor']}</b>; "
+        f"controles <b>{lay['control-height']['valor']}</b>. Em tela estreita: "
+        '<a href="casca.html">casca.html</a> (proposta).'))
+    pagina("fundamentos.html", "Fundamentos", "Tokens", "tokens.css",
+           "Cor, tipografia, espaçamento, raios, sombras e grade do korvu. painel — os valores exatos do Claude Design.",
+           [s_cor, s_tipo, s_esp, s_raio, s_somb, s_grade], fonte="painel/design/tokens.json",
+           curta="Cor, tipografia, espaço, raio, sombra e grade.")
+
+
+# ---------------------------------------------------------------- 2. logo
+
+def gerar_logo():
+    c = ('<div class="pv-fila">'
+         '<div><div style="padding:22px 28px;background:var(--surface);border:1px solid var(--line);border-radius:var(--radius-card)"><span data-logo="ink" data-h="28"></span></div><span class="pv-cap">ink · sobre bg e surface</span></div>'
+         '<div><div style="padding:22px 28px;background:var(--sidebar);border-radius:var(--radius-card)"><span data-logo="ivory" data-h="28"></span></div><span class="pv-cap">ivory · barra lateral e fundos escuros</span></div>'
+         '<div><div style="padding:16px;background:var(--surface);border:1px solid var(--line);border-radius:var(--radius-card)"><span data-logo="ink" data-h="16"></span></div><span class="pv-cap">altura mínima: 16px</span></div>'
+         '</div>')
+    regras = ('<ul class="pv-lista"><li><b>korvu.</b> em Geist 800 + <b>painel</b> em Geist 500, num tom mais apagado.</li>'
+              '<li>Respiro em volta = a altura do “k”.</li><li>Nunca em laranja; nunca separar “korvu.” de “painel” dentro do produto.</li>'
+              '<li>Arquivos: <span class="k-mono">marca/korvu-painel-ink.svg</span> e <span class="k-mono">marca/korvu-painel-ivory.svg</span> (contornos, não dependem da fonte).</li>'
+              '<li>Logotipo é isento da regra de contraste (o “painel” fica a 5,22:1 e 6,19:1 de qualquer forma).</li></ul>')
+    pagina("logo.html", "Logotipo", "Marca", "Korvu.logo()", "O logotipo “korvu. painel” nas duas versões.",
+           [sec("Versões", c), sec("Regras", regras)])
+
+
+# ---------------------------------------------------------------- 3. ícones
+
+def gerar_icones():
+    rot = ICO["rotulos"]
+    nav = "".join(f'<div class="pv-icone">{ic(nm, 24)}<b>{esc(rot[nm])}</b><span>{nm}</span></div>' for nm in ICO["navegacao"])
+    ui = "".join(f'<div class="pv-icone">{ic(nm, 20)}<b>{esc(rot[nm])}</b><span>{nm}</span></div>'
+                 for nm in ICO["icones"] if nm not in ICO["navegacao"])
+    tam = ('<div class="pv-fila" style="color:var(--ink-2)">'
+           + "".join(f'<div style="text-align:center">{ic("lock", t)}<span class="pv-cap">{t}px · {lbl}</span></div>'
+                     for t, lbl in [(18, "barra lateral"), (16, "botões e campos"), (14, "chips e tabelas"), (24, "estado vazio")])
+           + "</div>")
+    pagina("icones.html", "Ícones", "Marca", "Korvu.icon()",
+           "Conjunto próprio, outline, grade 24, traço 1,5px, pontas arredondadas, cor do texto (currentColor). "
+           "O portão é sempre o cadeado. Canais (Instagram, Facebook) por extenso — nada de logotipo de terceiros.",
+           [sec("Navegação (7) — ordem fixa", f'<div class="pv-icones">{nav}</div>'),
+            sec(f"Interface ({len(ICO['icones']) - len(ICO['navegacao'])})", f'<div class="pv-icones">{ui}</div>'),
+            sec("Tamanhos", tam + nota('Arquivos: <span class="k-mono">icones/&lt;nome&gt;.svg</span> (31, currentColor) e '
+                                       '<span class="k-mono">icones/icones.json</span>; os 7 da navegação com traço #111 em '
+                                       '<span class="k-mono">icones/navegacao/</span>. Ícone decorativo: aria-hidden; ícone '
+                                       'sozinho num botão: aria-label no botão.'))],
+           curta="31 ícones outline (7 da navegação + 24 de interface).")
+
+
+# ---------------------------------------------------------------- 4. botão
+
+def gerar_botao():
+    foco = 'style="outline:2px solid var(--focus);outline-offset:2px"'
+    variantes = ('<div class="k-row">'
+                 f'<button class="k-btn k-btn-primary">Ação principal</button>'
+                 '<button class="k-btn k-btn-secondary">Exportar</button>'
+                 '<button class="k-btn k-btn-ghost">Cancelar</button>'
+                 f'<button class="k-btn k-btn-secondary k-btn-icon" aria-label="Filtrar">{ic("filter")}</button>'
+                 f'<button class="k-btn k-btn-ghost k-btn-icon" aria-label="Mais ações">{ic("more", 18)}</button>'
+                 f'<button class="k-btn k-btn-dark">{ic("check")}Aprovar portão</button>'
+                 '</div>')
+    estados = ('<div class="pv-fila">'
+               f'<div><button class="k-btn k-btn-primary is-hover">Ação principal</button><span class="pv-cap">primário · hover</span></div>'
+               '<div><button class="k-btn k-btn-secondary is-hover">Exportar</button><span class="pv-cap">secundário · hover</span></div>'
+               '<div><button class="k-btn k-btn-ghost is-hover">Cancelar</button><span class="pv-cap">fantasma · hover</span></div>'
+               f'<div><button class="k-btn k-btn-primary" {foco}>Ação principal</button><span class="pv-cap">foco pelo teclado (anel 2px + 2px, accent-ink — decisão de 23/10)</span></div>'
+               '<div><button class="k-btn k-btn-primary" disabled>Ação principal</button><span class="pv-cap">desativado</span></div>'
+               '<div><button class="k-btn k-btn-secondary k-btn-sm">Ver todos</button><span class="pv-cap">pequeno · 28px</span></div>'
+               '</div>')
+    regras = ('<ul class="pv-lista">'
+              '<li><b>O painel só informa, não age</b> (decisão de 24/10): nenhuma tela tem botão que cria coisa (“Novo vídeo”, “Adicionar”, “Contratar”, “Copiar o pedido” saíram). Ficam os botões que levam a outra tela ou mudam a vista (Ver…, Hoje, Tentar de novo). Primário e escuro ficam no sistema sem uso hoje.</li>'
+              '<li><b>Primário</b> (k-btn-primary): UMA ação principal por vista. Fundo accent, texto on-accent (#111) — 5,68:1; branco daria 3,33:1 e é proibido.</li>'
+              '<li><b>Secundário</b>: ações de apoio (Exportar). <b>Fantasma</b>: terciárias e cancelar. '
+              '<b>Escuro</b>: confirmação de portão — a decisão do Carlos.</li>'
+              '<li><b>Só ícone</b>: k-btn-icon com ícone 16px e <b>aria-label</b> sempre.</li>'
+              '<li><b>k-btn-sm</b> (28px) só em tabelas e barras densas.</li></ul>')
+    pagina("botao.html", "Botão", "Ações", "k-btn", "Botões de 36px, raio 8, rótulo 13px semibold.",
+           [sec("Variantes", variantes), sec("Estados", estados), sec("Quando usar", regras)],
+           curta="Primário, secundário, fantasma, escuro, só ícone, pequeno.")
+
+
+# ---------------------------------------------------------------- 5. chip
+
+# UM mapa só para o estado de cada portão do GAUNTLET (design-system.md §11.3). Usado no chip, no portão e no calendário.
+MAPA_PORTAO = {
+    "aprovado": ("k-chip--aprovado", "Aprovado"),
+    "bloqueado": ("k-chip--bloqueado", "Bloqueado"),
+    "escalado": ("k-chip--bloqueado", "Escalado"),
+    "vencido": ("k-chip--bloqueado", "Vencido"),
+    "pendente": ("k-chip--agendado", "Ainda não rodou"),
+    "nao_se_aplica": ("k-chip--agendado no-dot", "Não se aplica"),
+    "legado": ("k-chip--agendado no-dot", "Legado · sem selo"),
+}
+# A decisão do Carlos (só no ApprovalGate, modo Decisão). "Aprovado" não vira chip laranja: aprovar = agendar, e o
+# vídeo passa a "Agendado" (estado do vídeo). Assim cada palavra tem um desenho só.
+MAPA_DECISAO = {"aguarda": "Aguarda", "ajustes": "Ajustes"}
+NOME_PORTAO_PV = {"pauta": "pauta", "roteiro": "roteiro", "imagem": "imagem", "corte": "corte", "publicacao": "publicação"}
+# Do pior para o menos ruim — o que o publicar.py recusa (scripts/portoes.py: exigir() + conferir_pacote()).
+ORDEM_PIOR = ["escalado", "bloqueado", "vencido", "pendente", "nao_se_aplica"]
+
+
+def estado_portao(status, legado=False):
+    """Estado exibido de um portão. Na fila, fila.legado = true vence o 'pendente' do banco: o pacote publica sem selo."""
+    return "legado" if legado else status
+
+
+def estado_post(legado, publicacao, origem):
+    """O que o publicar.py confere para um post da fila → (estado do mapa único, portões que seguram).
+    Legado: nenhuma exigência (conferir_pacote devolve [] antes de olhar a origem). Senão: o portão da publicação e os
+    portões da origem (pauta só se aplicar — OPCIONAIS); vale o PIOR."""
+    if legado:
+        return "legado", []
+    checa = {p: s for p, s in origem.items() if not (p == "pauta" and s == "nao_se_aplica")}
+    checa["publicacao"] = publicacao
+    seguram = [(p, s) for p, s in checa.items() if s != "aprovado"]
+    if not seguram:
+        return "aprovado", []
+    pior = min((s for _, s in seguram), key=ORDEM_PIOR.index)
+    return pior, [p for p, s in seguram if s == pior]
+
+
+def chip_portao(estado, tag="span"):
+    cls, palavra = MAPA_PORTAO[estado]
+    return f'<{tag} class="k-chip {cls}">{palavra}</{tag}>'
+
+
+def segura_txt(nomes):
+    if not nomes:
+        return ""
+    quem = NOME_PORTAO_PV[nomes[0]] + (f" e mais {len(nomes) - 1}" if len(nomes) > 1 else "")
+    return f'<span>{quem} ·</span><span class="k-segura">não sai</span>'
+
+
+def gerar_chip():
+    base = ('<div class="k-row" style="gap:6px">'
+            '<span class="k-chip k-chip--aprovado">Aprovado</span>'
+            '<span class="k-chip k-chip--producao">Em produção</span>'
+            '<span class="k-chip k-chip--bloqueado">Bloqueado</span>'
+            '<span class="k-chip k-chip--agendado">Agendado</span>'
+            '<span class="k-chip k-chip--publicado">Publicado</span>'
+            f'<span class="k-chip k-chip--portao">{ic("lock", 12)}Portão</span></div>'
+            + nota("O conjunto do Claude Design. Cada chip pertence a uma das três famílias abaixo — “Aprovado” é o estado de "
+                   "um portão (família 1); os outros cinco, o estado do vídeo (família 3)."))
+    video = ('<div class="pv-grade pv-grade-3">'
+             '<div><span class="k-chip k-chip--bloqueado">Bloqueado</span><span class="pv-cap">1 · algum portão do vídeo bloqueado, escalado ou vencido — vem antes de tudo</span></div>'
+             '<div><span class="k-chip k-chip--publicado">Publicado</span><span class="pv-cap">2 · status publicado</span></div>'
+             '<div><span class="k-chip k-chip--agendado">Agendado</span><span class="pv-cap">3 · status agendado</span></div>'
+             f'<div><span class="k-chip k-chip--portao">{ic("lock", 12)}Portão</span><span class="pv-cap">4 · todos os portões aprovaram e falta a decisão do Carlos</span></div>'
+             '<div><span class="k-chip k-chip--producao">Em produção</span><span class="pv-cap">5 · o resto</span></div>'
+             '</div>' + nota("Lido <b>em ordem</b>: vale a primeira linha verdadeira. Um vídeo agendado com o portão da imagem "
+                            "vencido é <b>Bloqueado</b>, não Agendado."))
+    mod = (f'<div class="k-row" style="gap:6px"><span class="k-chip k-chip--model">{ROT_MODELO["sonnet"]}</span>'
+           f'<span class="k-chip k-chip--opus">{ROT_MODELO["opus"]}</span></div>'
+           + nota("O chip mostra o <b>modelo que rodou</b> (registros do Claude Code, 30 dias), não o configurado — quem escolhe o "
+                  "modelo são os orquestradores, pela tarefa (decisão de 24/10). Com mais de um modelo: o chip do principal e, embaixo, "
+                  "a fatia dele e “+N” (tela Equipe); sem registro: “ainda não rodou”. <b>Sempre com a versão</b> (decisão de 23/10) — "
+                  "nunca “Opus” sozinho. Opus em fundo sólido, Sonnet em contorno, como a fonte desenhou."))
+    descr = {"aprovado": "o portão aprovou", "bloqueado": "o portão achou S0/S1 — volta ao construtor",
+             "escalado": "3.ª volta bloqueada — decisão do Carlos", "vencido": "arquivo mudou depois do APROVADO — rodar de novo",
+             "pendente": "o portão ainda não rodou", "nao_se_aplica": "a etapa não existe para este item",
+             "legado": "pacote da lista congelada (fila.legado): publica sem selo, não espera portão"}
+    gaunt = ('<div class="pv-grade pv-grade-3">'
+             + "".join(f'<div>{chip_portao(e)}<span class="pv-cap">{e.replace("nao_se_aplica", "não se aplica")} — {descr[e]}</span></div>'
+                       for e in MAPA_PORTAO)
+             + '</div>' + nota("<b>Um mapa só</b> — o mesmo no chip, no card do portão (ApprovalGate) e no calendário. "
+                              "A palavra carrega o estado (a cor nunca sozinha); o vermelho fica para o que pede ação. "
+                              "<b>Legado</b> vem de <span class=\"k-mono\">fila.legado</span> e vence o “pendente” do banco."))
+    decisao = ('<div class="k-row" style="gap:6px">'
+               + "".join(f'<span class="k-chip k-chip--portao">{p}</span>' for p in MAPA_DECISAO.values()) + '</div>'
+               + nota("A <b>decisão do Carlos</b>, não o estado de um portão: aparece só no card do portão em modo Decisão "
+                      "(todos os portões do vídeo aprovados), no contorno laranja que a fonte desenhou. Das três palavras da "
+                      "fonte (Aguarda · Aprovado · Ajustes), “Aprovado” não vira chip: agendar (no Claude Code) "
+                      "leva o vídeo a <b>Agendado</b> e sai do modo Decisão — assim “Aprovado” tem um desenho só (o verde)."))
+    pagina("chip.html", "Chip de estado", "Estado", "k-chip",
+           "Chips de 24px, totalmente arredondados, sempre com palavra — a cor nunca é a única pista.",
+           [sec("Os chips do sistema (como o Carlos desenhou)", base), sec("Modelos", mod, TAG_REAL),
+            sec("Família 1 · estado de cada portão do GAUNTLET — um mapa só", gaunt, TAG_PROP),
+            sec("Família 2 · decisão do Carlos (card do portão)", decisao, TAG_PROP),
+            sec("Família 3 · estado do vídeo — em ordem", video, TAG_PROP)],
+           curta="Aprovado, Em produção, Bloqueado, Agendado, Publicado, Portão, modelos com versão.")
+
+
+# ---------------------------------------------------------------- 6. card
+
+def gerar_card():
+    c = ('<div class="pv-grade pv-grade-2">'
+         '<div class="k-card k-pad"><div class="k-card-head"><h3 class="k-card-title">Card em repouso</h3><span class="k-cap">12px</span></div>'
+         '<p class="k-ink2" style="margin:8px 0 0;font-size:13px;line-height:18px">surface · borda 1px line · shadow-card</p></div>'
+         f'<div class="k-card k-pad is-interactive is-hover"><div class="k-card-head"><h3 class="k-card-title">Card em hover</h3>{ic("chevron-right")}</div>'
+         '<p class="k-ink2" style="margin:8px 0 0;font-size:13px;line-height:18px">borda line-strong · shadow-hover</p></div></div>')
+    regras = ('<ul class="pv-lista"><li>Padding padrão 24 (k-pad); cards densos 16–20.</li>'
+              '<li>Clicável: <span class="k-mono">is-interactive</span> — o card inteiro é o link (um &lt;a&gt;), com foco visível.</li>'
+              '<li>Nunca: borda colorida à esquerda, degradê, sombra forte, card dentro de card.</li></ul>')
+    pagina("card.html", "Card", "Superfícies", "k-card", "O contêiner base de todo o painel.",
+           [sec("Repouso e hover", c), sec("Regras", regras)], curta="O contêiner base: repouso e hover.")
+
+
+# ---------------------------------------------------------------- 7. KPI
+
+def gerar_kpi():
+    us = TOKIA["total_us"]
+    ex = ('<div class="k-grid k-grid--tiles"><div class="k-card k-kpi k-span-4"><span class="k-cap">Custo de IA · 30 dias</span>'
+          f'<div class="k-kpi-value"><small class="k-prefixo">US$</small>{n(round(us))}</div><div class="k-kpi-foot">'
+          '<span class="k-kpi-note">equivalente na API, preço de tabela</span></div></div></div>'
+          + nota(f"Dado real: registros das sessões do Claude Code, corte em 23/10 16:02:49 ({compacto(TOKIA['total_tokens'])} tokens, o "
+                 "mesmo número do banco; tela <a class=\"k-link\" href=\"../telas/tokens-e-custos.html\">Tokens e custos</a>). "
+                 "<b>Custo em US$, a moeda da tabela da Anthropic, sem câmbio</b> (decisão de 24/10, que substitui a de 23/10 em £). "
+                 "A projeção mensal usa a média dos <b>últimos 30 dias</b> × 30 (não 7). Quando houver delta de custo, custo subindo é "
+                 "<span class=\"k-mono\">k-delta--down</span> (vermelho) com a seta ▲ — a cor segue o significado, não a direção."))
+    regras = ('<ul class="pv-lista"><li>Rótulo em caption (k-cap) → valor 40px/700 → rodapé com delta + contexto ou sparkline.</li>'
+              '<li>Unidades (K, M, US$) em &lt;small&gt; 18px ink-2; o US$ vem antes do valor. Custo de IA em US$, preço de tabela, sem câmbio (24/10). Até 9.999 o número inteiro; de 10.000 em diante, compacto com uma casa (482,6K) — <b>proposta</b>; a dica e a tabela mostram sempre o número exato.</li>'
+              '<li>Delta com seta e palavra para leitor de tela (“▼ 3 a menos”); o período comparado sempre escrito (“desde 16 out”).</li>'
+              '<li>Linha de KPIs: 3 ou 4 cards (span 4 ou 3). Em tela estreita: 2 por linha abaixo de 1024px, 1 abaixo de 640px.</li></ul>')
+    pagina("kpi.html", "KPI", "Dados", "k-card k-kpi", "O número que responde “como estamos” — rótulo, valor e o que mudou.",
+           [sec("Com dados reais", kpis_reais(), TAG_REAL),
+            nota(f"Leituras do perfil de {dm(S0['lido_em'])} e {dm(S1['lido_em'])} (perfil_snapshots); “Vídeo mais visto” = "
+                 f"maior número de visualizações na última leitura confiável (metricas), com a curva das {len(DEMIS)} leituras."),
+            sec("Custo de IA (dado real, em US$)", ex, TAG_REAL), sec("Regras", regras)],
+           fonte=f"{ARQ_DADOS} → perfil_snapshots, metricas_demis, telas_tokens", curta="Rótulo, valor 40px e delta — com números reais.")
+
+
+# ---------------------------------------------------------------- 8. gráficos
+
+def gerar_graficos():
+    dias = [m["dias"] for m in DEMIS]
+    cfg = {"x": dias, "xMax": 9, "xTicks": [0, 3, 6, 9], "yMax": 500, "yTicks": [0, 250, 500],
+           "rotulos": [f"Dia {dec(d, 2)} · leitura de {dm(m['lido_em'])}" for d, m in zip(dias, DEMIS)],
+           "series": [{"nome": "Instagram", "v": [m["views"] for m in DEMIS]},
+                      {"nome": "Facebook", "v": [m["plays_fb"] for m in DEMIS]}]}
+    linha = ('<div class="k-card k-span-8" style="padding:16px">'
+             '<div class="k-card-head" style="margin-bottom:8px"><div><span class="k-card-title">Visualizações por leitura</span>'
+             '<div class="k-kpi-note">Demis Hassabis · dias desde a publicação</div></div>'
+             '<div class="k-legend"><span><i style="background:var(--chart-1)"></i>Instagram</span><span><i style="background:var(--chart-2)"></i>Facebook</span></div></div>'
+             f"<div><svg class=\"k-chart\" data-linha='{json.dumps(cfg)}' role=\"img\" aria-label=\"Visualizações no Instagram e reproduções no Facebook em {len(DEMIS)} leituras; números na tabela abaixo\"></svg></div>"
+             '<details class="k-details"><summary class="k-btn k-btn-ghost k-btn-sm">Ver os números</summary>'
+             '<div class="k-table-wrap" role="region" aria-label="Números do gráfico" tabindex="0" style="--table-min:360px"><table class="k-table">'
+             '<thead><tr><th>Leitura</th><th>Dias</th><th>Instagram</th><th>Facebook</th></tr></thead><tbody>'
+             + "".join(f'<tr><td>{dm(m["lido_em"])}</td><td class="k-num">{dec(m["dias"], 2)}</td><td class="k-num">{n(m["views"])}</td><td class="k-num">{n(m["plays_fb"])}</td></tr>' for m in DEMIS)
+             + '</tbody></table></div></details></div>')
+    ult = sorted(B["ultima_leitura_confiavel"], key=lambda r: -r["alcance"])
+    nomes = {"2026-09-17-demis-hassabis": "Demis Hassabis", "2026-10-20-fei-fei-li": "Fei-Fei Li",
+             "2026-10-20-geoffrey-hinton": "Geoffrey Hinton", "2026-10-20-fei-fei-li-a": "Fei-Fei Li · A"}
+    susp = {r["slug"]: r for r in B["leituras_suspeitas"]}
+    mx = max(r["alcance"] for r in ult)
+    barras = []
+    for i, r in enumerate(ult):
+        extra = f" (a de {dm(susp[r['slug']]['lido_em'])} foi descartada: suspeita)" if r["slug"] in susp else ""
+        dica = f"{nomes[r['slug']]}|{n(r['alcance'])} contas alcançadas · leitura de {dm(r['lido_em'])}{extra}"
+        barras.append(f'<div class="k-bar-row" tabindex="0" data-dica="{esc(dica)}"><span>{nomes[r["slug"]]}</span>'
+                      f'<span class="k-bar-track"><i class="k-bar-fill{" is-focus" if i == 0 else ""}" style="width:{r["alcance"] / mx * 100:.1f}%"></i></span>'
+                      f'<b class="k-bar-value">{n(r["alcance"])}</b></div>')
+    bar = ('<div class="k-card k-span-4" style="padding:16px"><div class="k-card-head" style="margin-bottom:12px"><div>'
+           '<span class="k-card-title">Alcance por vídeo</span><div class="k-kpi-note">última leitura confiável de cada Reel</div></div></div>'
+           f'<div style="display:flex;flex-direction:column;gap:10px">{"".join(barras)}</div>'
+           '<details class="k-details"><summary class="k-btn k-btn-ghost k-btn-sm">Ver os números</summary><table class="k-table">'
+           '<thead><tr><th>Vídeo</th><th>Alcance</th><th>Leitura</th></tr></thead><tbody>'
+           + "".join(f'<tr><td>{nomes[r["slug"]]}</td><td class="k-num">{n(r["alcance"])}</td><td>{dm(r["lido_em"])}</td></tr>' for r in ult)
+           + '</tbody></table></details></div>')
+    papeis = {}
+    for a in B["agentes"]:
+        papeis[a["papel"]] = papeis.get(a["papel"], 0) + 1
+    rot = {"construtor": "Construtores", "portao": "Portões", "analista": "Analistas", "diretor": "Direção"}
+    fat = sorted(papeis.items(), key=lambda kv: -kv[1])
+    cores = ["chart-1", "chart-2", "chart-3", "chart-4"]
+    rosca_cfg = {"rotulo": "pessoas", "fatias": [{"v": v, "cor": cores[i]} for i, (k, v) in enumerate(fat)]}
+    leg = "".join(f'<span><i style="display:inline-block;width:8px;height:8px;border-radius:2px;background:var(--{cores[i]});margin-right:6px"></i>'
+                  f'{rot[k]} <b class="k-num" style="margin-left:4px">{v}</b></span>' for i, (k, v) in enumerate(fat))
+    rosca = ('<div class="k-card k-span-4" style="padding:16px;display:flex;flex-direction:column;gap:12px">'
+             '<div><span class="k-card-title">Equipe por papel</span><div class="k-kpi-note">quem constrói, quem audita</div></div>'
+             '<div style="display:flex;align-items:center;gap:16px;flex-wrap:wrap">'
+             f"<svg class=\"k-chart\" width=\"104\" height=\"104\" viewBox=\"0 0 104 104\" data-rosca='{json.dumps(rosca_cfg)}' role=\"img\" "
+             f"aria-label=\"Equipe por papel: {', '.join(f'{rot[k]} {v}' for k, v in fat)}\"></svg>"
+             f'<div style="display:flex;flex-direction:column;gap:6px;font-size:12px">{leg}</div></div></div>')
+    spark = json.dumps({"x": dias, "y": [m["views"] for m in DEMIS]})
+    spk = ('<div class="k-card k-span-4" style="padding:16px;display:flex;flex-direction:column;gap:12px">'
+           '<span class="k-card-title">Sparkline</span>'
+           f"<div style=\"display:flex;align-items:center;justify-content:space-between;gap:12px\"><span class=\"k-cap\">Demis Hassabis</span>"
+           f"<svg class=\"k-chart\" width=\"120\" height=\"28\" data-spark='{spark}' role=\"img\" aria-label=\"Tendência das visualizações: {', '.join(n(m['views']) for m in DEMIS)}\"></svg></div>"
+           '<p class="k-kpi-note" style="margin:0">120×28, sem eixos, ponto final marcado. Só dentro de KPI.</p></div>')
+    val = ('<div class="k-card k-span-4" style="padding:16px"><span class="k-card-title">Paleta no validador</span>'
+           '<p class="k-ink2" style="margin:8px 0 0;font-size:13px;line-height:18px">chart-1 e chart-2 passam em tudo (ΔE 39,5 em daltonismo; 3,16:1 e 17,95:1). '
+           'chart-3 (2,62:1) e chart-4 (1,52:1) ficam abaixo de 3:1 contra o card: só com legenda + rótulo + tabela. '
+           'Detalhe em <a class="k-link" href="../contraste.md">contraste.md</a>.</p></div>')
+    pagina("graficos.html", "Gráficos", "Dados", "k-chart",
+           "Linha/área para o tempo, barras para ranking, rosca para partes de um todo (≤ 4), sparkline dentro de KPI. "
+           "Cores só chart-1 → chart-5, nesta ordem; um eixo só; legenda com 2+ séries; texto nunca na cor da série.",
+           [sec("Com dados reais", f'<div class="k-grid">{linha}{bar}{rosca}{spk}{val}</div>', TAG_REAL),
+            nota("Passe o mouse (ou o Tab) nos pontos e nas barras: a dica mostra o valor exato. Toda série tem a tabela "
+                 "gêmea em “Ver os números”. A leitura marcada como suspeita (número impossível da API) nunca entra.")],
+           fonte=f"{ARQ_DADOS} → metricas_demis, ultima_leitura_confiavel, leituras_suspeitas, agentes",
+           curta="Linha, barras, rosca e sparkline — com números reais e tabela gêmea.")
+
+
+# ---------------------------------------------------------------- 9. progresso
+
+def gerar_progresso():
+    pub, tot = CONT["videos_publicados"], CONT["videos"]
+    slug = "2026-10-23-livro-chatgpt"
+    g = GRUPO[VIDEOS[slug]["estado"]]
+    labels = "".join(f'<span class="{"is-now" if i == g else ""}">{e}</span>'.replace(' class=""', "") for i, e in enumerate(ETAPAS))
+    real = ('<div class="k-card k-pad pv-largura" style="display:flex;flex-direction:column;gap:12px;max-width:520px">'
+            f'<div style="display:flex;justify-content:space-between;gap:12px;font-size:13px"><b>Vídeos publicados</b>'
+            f'<span class="k-num k-ink2">{pub} de {tot} · {round(pub / tot * 100)}%</span></div>'
+            f'<div class="k-progress" role="img" aria-label="{pub} de {tot} vídeos publicados"><span style="width:{pub / tot * 100:.0f}%"></span></div>'
+            f'<div style="display:flex;justify-content:space-between;gap:12px;font-size:13px;margin-top:8px"><b style="min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap">{esc(titulo(slug))}</b></div>'
+            f'<div class="k-steps-labels k-cap">{labels}</div>{etapas(VIDEOS[slug]["estado"])}</div>')
+    ex = ('<div class="k-card k-pad" style="display:flex;flex-direction:column;gap:12px;max-width:520px">'
+          '<div class="k-row" style="gap:16px"><div class="k-progress is-done" style="flex:1"><span style="width:100%"></span></div>'
+          '<div class="k-progress is-blocked" style="flex:1"><span style="width:35%"></span></div></div>'
+          '<span class="pv-cap" style="margin:0">is-done (verde) · is-blocked (vermelho)</span></div>')
+    regras = ('<ul class="pv-lista"><li><b>Barra</b>: 6px, trilho surface-sunken, preenchimento accent; is-done → positive; is-blocked → danger. Sempre com o número ao lado.</li>'
+              '<li><b>Etapas</b>: Roteiro · Gravação · Edição · Revisão · Publicar. Feita = ink, atual = accent, bloqueada = danger, futura vazia.</li>'
+              '<li>Os 12 estados do projeto entram nas 5 etapas assim (<b>proposta</b>): roteiro → Roteiro; gravação → Gravação; '
+              'edição e EDL aprovada → Edição; revisão, cor, legendas, capa e QA → Revisão; pronto e agendado → Publicar; publicado = todas feitas.</li>'
+              '<li>As etapas futuras ficam a 1,13:1 do card (contraste.md G12): dê sempre o texto da etapa (coluna Etapa ou aria-label “Etapa 4 de 5: Revisão”).</li></ul>')
+    pagina("progresso.html", "Progresso", "Dados", "k-progress · k-steps", "Barra com número e etapas de produção.",
+           [sec("Com dados reais", real, TAG_REAL), sec("Variantes de cor", ex, TAG_EX), sec("Regras", regras)],
+           fonte=f"{ARQ_DADOS} → contagens, videos", curta="Barra com número e as 5 etapas de produção.")
+
+
+# ---------------------------------------------------------------- 10. linha de vídeo
+
+def gerar_linha():
+    regras = ('<ul class="pv-lista"><li>Linha de 56px dentro de k-table num k-card; cabeçalho em caption; divisórias line; hover surface-hover.</li>'
+              '<li>Miniatura 56×36: frame real quando existe; senão k-thumb neutro com play. As variantes is-dark e is-accent existem '
+              'no CSS mas a fonte não diz quando usar — use o neutro até o Carlos dizer.</li>'
+              '<li>Título corta com reticências, nunca quebra. Aqui o título é o tema do vídeo até o primeiro “ — ” ou “ (” '
+              '(o banco não tem um campo de título limpo — ver handoff.md).</li>'
+              '<li>Coluna <b>Responsável</b> (do desenho do Carlos) <b>não aparece</b>: nenhum dado diz quem está com cada vídeo.</li>'
+              '<li>Em tela estreita a tabela rola dentro do card (região com foco e nome para leitor de tela); a página não.</li></ul>')
+    pagina("linha-de-video.html", "Linha de vídeo", "Dados", "k-table · k-thumb",
+           "Cada vídeo, a etapa, o progresso, a data de publicação e o estado — numa linha de 56px.",
+           [sec("Com dados reais", tabela_videos(hover="2026-09-16-chatgpt-contexto"), TAG_REAL), sec("Regras", regras)],
+           fonte=f"{ARQ_DADOS} → videos, fila, publicacoes (horários no fuso do painel, o de formato.ts)", curta="A tabela de vídeos (VideoRow).")
+
+
+# ---------------------------------------------------------------- 11. avatar
+
+def ini(nome):
+    p = nome.split()
+    return (p[0][0] + p[-1][0]).upper() if len(p) > 1 else nome[:2].upper()
+
+
+def gerar_avatar():
+    a = AGENTES
+    mc, orr, lr, at = a["roteirista"], a["revisor-de-roteiro"], a["produtor-de-material"], a["diretor"]
+    pilha = [a["portao-interface"], a["portao-dados"], a["designer-de-produto"]]
+    resto = CONT["agentes"] - len(pilha)
+    c = ('<div class="pv-fila" style="align-items:flex-end">'
+         f'<div><span class="k-avatar" style="--s:72px;border-radius:12px"><img src="../telas/img/retratos/marina.jpg" alt="Retrato de {esc(mc["nome"])}, trabalhando agora"><i class="k-presence"></i></span><span class="pv-cap">72 · foto, com presença</span></div>'
+         f'<div>{avatar_de(orr, estilo=" style=" + chr(34) + "--s:56px;border-radius:10px" + chr(34))}<span class="pv-cap">56 · card de equipe (foto)</span></div>'
+         f'<div>{avatar_de(lr)}<span class="pv-cap">40 · listas (foto)</span></div>'
+         f'<div>{avatar_de(at, estilo=" style=" + chr(34) + "--s:32px" + chr(34), redondo=True)}<span class="pv-cap">32 · redondo (foto)</span></div>'
+         f'<div>{avatar_de(a["portao-dados"], estilo=" style=" + chr(34) + "--s:56px;border-radius:10px" + chr(34))}<span class="pv-cap">56 · sem foto: iniciais</span></div>'
+         '<div><div class="k-avatar-stack" role="img" aria-label="' + esc(", ".join(p["nome"] for p in pilha)) + f' e mais {resto}">'
+         + "".join(f'<span class="k-avatar is-round" style="--s:28px">{ini(p["nome"])}</span>' for p in pilha)
+         + f'<span class="k-avatar is-round" style="--s:28px;background:var(--ink);color:var(--bg)">+{resto}</span></div><span class="pv-cap">pilha 28 · +{resto} da equipe</span></div>'
+         '</div>')
+    regras = ('<ul class="pv-lista"><li><b>Retrato = foto realista</b> (decisão do Carlos de 23/10): as 10 fotos que ele mandou, em '
+              '<span class="k-mono">painel/web/public/equipe/&lt;id&gt;.jpg</span>; recorte com o rosto no alto (object-position 50% 22–24%).</li>'
+              '<li>Sem foto: <b>iniciais</b> (2 letras) em ink-2 sobre surface-sunken, no mesmo quadro e tamanho — hoje 16 das 26 pessoas.</li>'
+              '<li>Tamanhos: card de equipe 56 raio 10; listas 40 raio 8; pilhas 28 redondas.</li>'
+              '<li>Presença (ponto verde) só para quem está trabalhando agora — e com texto para leitor de tela. '
+              'Hoje nenhum dado diz quem está trabalhando: a presença aqui é exemplo.</li></ul>')
+    pagina("avatar.html", "Avatar", "Pessoas", "k-avatar", "Quem é quem, em quadrado 1:1.",
+           [sec("Tamanhos (fotos e iniciais da equipe real)", c, TAG_REAL + " " + '<span class="pv-tag">presença = exemplo</span>'),
+            sec("Regras", regras)], fonte=f"{ARQ_DADOS} → agentes, contagens", curta="Foto ou iniciais, em 5 tamanhos.")
+
+
+# ---------------------------------------------------------------- 12. pessoa
+
+RETRATO = {"diretor": "atlas", "portao-pauta": "vera", "revisor-de-roteiro": "otavio", "portao-imagem": "iris",
+           "estrategista": "helena", "pesquisador-de-material": "rafael", "buscador-de-videos": "tiago",
+           "curador-de-obra": "beatriz", "roteirista": "marina", "produtor-de-material": "livia"}  # = painel/web/public/equipe/<id>.jpg
+
+
+def avatar_de(a, estilo="", redondo=False):
+    cls = "k-avatar is-round" if redondo else "k-avatar"
+    r = RETRATO.get(a["id"])
+    if r:
+        return f'<span class="{cls}"{estilo}><img src="../telas/img/retratos/{r}.jpg" alt="Retrato de {esc(a["nome"])}"></span>'
+    return f'<span class="{cls}"{estilo} role="img" aria-label="{esc(a["nome"])}">{ini(a["nome"])}</span>'
+
+
+ROTULO_ID = {m["modelo"]: m["rotulo"] for m in B["telas_modelos"]} if all("modelo" in m for m in B["telas_modelos"]) else {}
+ROTULO_ID.update({"claude-opus-5-5": "Opus 5.5", "claude-sonnet-5-5": "Sonnet 5.5", "claude-fable-5-1": "Fable 5.1"})
+
+
+def membro(a, valores, exemplo):
+    # 24/10: o modelo que RODOU (registros), não o configurado
+    alvo = ("principal", "general-purpose", "workflow-subagent", "claude", "Explore", "Plan") if a["id"] == "diretor" else (a["id"],)
+    mods = {}
+    for r in TOKIA["por_agente"]:
+        if r["agente"] in alvo:
+            for m, v in r["modelos"].items():
+                mods[m] = mods.get(m, 0) + v
+    if not mods:
+        chip = '<span class="k-modelo-nada">ainda não rodou</span>'
+    else:
+        top = ROTULO_ID[max(mods, key=mods.get)]
+        chip = f'<span class="k-chip {"k-chip--opus" if not top.startswith("Sonnet") else "k-chip--model"}">{top}</span>'
+    dep = {d: d for d in []}
+    stats = "".join(f'<div><div class="k-member-stat-value">{v}</div><span class="k-member-stat-label">{lbl}</span></div>'
+                    for v, lbl in valores)
+    return (f'<a class="k-card k-member is-interactive" href="#" style="text-decoration:none;color:inherit;max-width:620px">'
+            f'{avatar_de(a)}'
+            f'<div class="k-member-id"><div class="k-member-name-row"><span class="k-member-name">{esc(a["nome"])}</span>{chip}</div>'
+            f'<div class="k-member-role">{esc(cap1(a["cargo"]))} · {esc(cap1(DEPS[a["departamento_id"]]))}</div></div>'
+            f'<div class="k-member-stats">{stats}</div></a>')
+
+
+DEPS = {"direcao": "direção", "pesquisa": "estratégia e pesquisa", "roteiro": "roteiro", "arte": "arte e cor",
+        "pos": "pós-produção", "distribuicao": "distribuição e dados", "tecnologia": "tecnologia"}
+
+
+def gerar_pessoa():
+    def metricas(agid):
+        t = tok_agente(agid)
+        if not t:
+            sem = '<span aria-label="sem consumo">—</span>'
+            return [(sem, "tokens"), (sem, "custo"), ("não rodou", "tarefas")]
+        return [(f'<span class="k-tokens">{compacto(t["tokens"])}</span>', "tokens"),
+                (f'US$ {dec(t["us"], 2)}', "custo"), (str(t["tarefas"]), "tarefas")]
+    mc, lr, cm = AGENTES["roteirista"], AGENTES["produtor-de-material"], AGENTES["produtor-de-extras"]
+    c1 = membro(mc, metricas("roteirista"), False) + '<div style="height:12px"></div>' + membro(lr, metricas("produtor-de-material"), False)
+    c2 = membro(cm, metricas("produtor-de-extras"), False)
+    regras = ('<ul class="pv-lista"><li>Card clicável (o card inteiro abre a ficha), padding 16, avatar 56 raio 10 — com a <b>foto</b> '
+              '(retrato = foto realista, decisão de 23/10); sem foto, as iniciais no mesmo quadro.</li>'
+              '<li>Nome, chip do <b>modelo que rodou</b> nos 30 dias (registros; decisão de 24/10), <b>com a versão</b> (“Opus 5.5”, “Sonnet 5.5”); quem não rodou mostra “ainda não rodou”; cargo · departamento (do banco, com a 1.ª letra maiúscula).</li>'
+              f'<li>As três métricas são dos <b>últimos 30 dias</b> e têm fonte: os registros das sessões do Claude Code (livro §15.3) — '
+              f'tokens (em destaque, <span class="k-mono">accent-ink</span>), custo em US$ (preço de tabela da API, sem câmbio — 24/10) e tarefas (execuções). '
+              '“Vídeos ativos”, do desenho original, saiu: não tem fonte.</li>'
+              '<li>Quem não rodou nos 30 dias: “—” e “não rodou” (3.º card), nunca um número inventado.</li>'
+              '<li>Na página Equipe: 3 por linha (span 4); 2 abaixo de 1024px; 1 abaixo de 640px, com as métricas na linha de baixo.</li></ul>')
+    pagina("pessoa.html", "Card de pessoa", "Pessoas", "k-card k-member", "Uma pessoa da equipe: quem é, o que faz, com que modelo, quanto consumiu.",
+           [sec("Dados reais · 30 dias", c1, TAG_REAL), sec("Quem não rodou nos 30 dias", c2, TAG_REAL), sec("Regras", regras)],
+           fonte=f"{ARQ_DADOS} → agentes, telas_tokens, telas_modelos", curta="TeamMemberCard: foto, nome, cargo, modelo com versão, consumo.")
+
+
+# ---------------------------------------------------------------- 13. portão
+
+def bloqueios_de_video():
+    """Portões de VÍDEO bloqueados/escalados/vencidos = total − os do painel − os da fila. O chip_estado das prévias só
+    trata publicado/agendado/resto; isso só é a ordem completa do §11.3 (família 3) enquanto este número for zero."""
+    ruins = ("bloqueado", "escalado", "vencido")
+    total = sum(r["n"] for r in B["portoes_por_status"] if r["status"] in ruins)
+    fora = (sum(1 for r in B["portoes_painel"] if r["status"] in ruins)
+            + sum(1 for r in B["portoes_fila"] if r["status"] in ruins))
+    return total - fora
+
+
+def gerar_portao():
+    if bloqueios_de_video():
+        raise SystemExit("há portão de vídeo bloqueado/escalado/vencido: exporte os portões por vídeo e aplique a ordem da família 3")
+    nomes = {"pauta": "Pauta", "roteiro": "Roteiro", "imagem": "Imagem", "corte": "Corte"}
+
+    def crit(nome, estado):
+        ok = estado == "aprovado"
+        b = f'<b aria-hidden="true">{ic("check", 12) if ok else ""}</b>'
+        return (f'<li class="k-check{" is-on" if ok else ""}">{b}<span>{esc(nome)}</span>'
+                f'{chip_portao(estado, "small")}</li>')
+
+    # 1) Modo Decisão — exemplo: todos os portões aprovados, o vídeo espera o Carlos
+    ex = ('<div class="k-card k-gate" style="max-width:460px"><div class="k-gate-head">'
+          f'<span class="k-gate-icon">{ic("lock", 18)}</span><div><div class="k-cap k-gate-step">4 de 4 portões aprovados · sua decisão</div>'
+          f'<b class="k-gate-title">{esc(titulo("2026-10-22-agente-3-passos"))}</b></div>'
+          f'<span class="k-chip k-chip--portao">{MAPA_DECISAO["aguarda"]}</span></div>'
+          '<ul class="k-gate-checks" style="margin:0;padding:0;list-style:none">'
+          + "".join(crit(nomes[p], "aprovado") for p in nomes) + '</ul>'
+          '<p class="k-fonte" style="margin:12px 0 0">Tudo aprovado: falta a sua decisão — agendar ou pedir ajustes é no Claude Code.</p></div>')
+    # 2) Modo Portões do vídeo — só leitura, dados reais: livro-chatgpt (agendado; os posts dele na fila são legado)
+    slug = "2026-10-23-livro-chatgpt"
+    v = VIDEOS[slug]
+    pe = {r["portao"]: r["status"] for r in B["portoes_livro_chatgpt"] if r["alvo"] == f"videos/{slug}"}
+    pf = {r["slug"]: r["status"] for r in B["portoes_fila"]}
+    ok = sum(1 for p in nomes if pe[p] == "aprovado")
+    linhas_fila = []
+    for f in B["fila"]:
+        if not (f["slug"] == slug or f["slug"].startswith(slug + "-")):
+            continue
+        est, seguram = estado_post(f["legado"], pf[f["slug"]], pe)
+        var = f["slug"][len(slug) + 1:]
+        rot = f"{dm(f['publicar_em'])}, {hm(f['publicar_em'])}" + (f" · {var}" if var else "")
+        linhas_fila.append(f'<li class="k-check"><span>{esc(rot)}</span>{segura_txt(seguram)}{chip_portao(est, "small")}</li>')
+    real = ('<div class="k-card k-gate" style="max-width:460px"><div class="k-gate-head">'
+            f'<span class="k-gate-icon">{ic("lock", 18)}</span><div><div class="k-cap k-gate-step">Portões do vídeo · {ok} de 4 aprovados</div>'
+            f'<b class="k-gate-title">{esc(titulo(slug))}</b></div>{chip_estado(v["estado"])}</div>'
+            '<ul class="k-gate-checks" style="margin:0;padding:0;list-style:none">'
+            + "".join(crit(nomes[p], pe[p]) for p in nomes) + '</ul>'
+            f'<div class="k-cap k-gate-step">Posts na fila · {len(linhas_fila)} · fora da conta dos 4</div>'
+            '<ul class="k-gate-checks" style="margin:0;padding:0;list-style:none">' + "".join(linhas_fila) + '</ul></div>')
+    # 3) Hoje: quantos vídeos esperam a decisão do Carlos (todos os portões que se aplicam aprovados)
+    aprov_total = sum(r["n"] for r in B["portoes_por_status"] if r["status"] == "aprovado")
+    aprov_fora = (sum(1 for r in B["portoes_painel"] if r["status"] == "aprovado")
+                  + sum(1 for r in B["portoes_fila"] if r["status"] == "aprovado"))
+    if aprov_total - aprov_fora:
+        raise SystemExit("há portão de vídeo aprovado: exporte os portões por vídeo antes de contar quem espera decisão")
+    esperando = 0
+    vazio = (f'<div class="k-empty" style="max-width:460px"><span class="k-empty-icon">{ic("lock", 22)}</span>'
+             '<h4>Nenhum vídeo esperando a sua decisão</h4>'
+             '<p>Quando os portões de um vídeo aprovarem tudo, ele aparece aqui, esperando a sua decisão.</p></div>')
+    regras = ('<ul class="pv-lista">'
+              '<li><b>Dois modos, um componente.</b> <b>Decisão</b>: só quando todos os portões que se aplicam ao vídeo '
+              'aprovaram e o vídeo ainda não está agendado nem publicado — chip de decisão “Aguarda” (ou “Ajustes”, se ele já pediu) '
+              'e a frase “falta a sua decisão” — <b>sem botões</b> (24/10: o painel só informa; agendar ou pedir ajustes é no Claude Code). <b>Portões do vídeo</b>: em qualquer outro caso — só leitura, com o chip do estado do vídeo.</li>'
+              '<li>Cada critério é um portão do vídeo, com o estado pelo <b>mapa único</b> (prévia chip.html); feito = aprovado, riscado em ink-2. '
+              'A conta “N de 4” é só dessas quatro linhas.</li>'
+              '<li><b>Posts na fila</b> (só no modo Portões do vídeo): um por post, fora da conta, com o que o publicar.py confere na hora '
+              'de sair — o pior estado entre o portão da publicação e os portões do vídeo; <b>legado vence</b> (“Legado · sem selo”). '
+              'Se algo segura o post: o chip do pior estado + “&lt;portão&gt; · não sai”.</li>'
+              '<li>“Aguarda · Ajustes” é a <b>decisão do Carlos</b>, não o estado de um portão-agente. “Aprovado” não vira chip laranja: '
+              'agendar (no Claude Code) tira o vídeo do modo Decisão, e ele passa a <b>Agendado</b>.</li>'
+              '<li>Vídeo <b>agendado ou publicado nunca fica no modo Decisão</b>.</li>'
+              '<li>O painel só informa (decisão de 24/10): nenhum botão de aprovar, agendar ou pedir ajustes.</li>'
+              '<li>Os critérios além dos portões (ex.: “capa aprovada”) não estão no banco — ver handoff.md.</li></ul>')
+    pagina("portao.html", "Portão de aprovação", "Fluxo", "k-gate · k-check", "Onde o vídeo para até a decisão do Carlos — e, fora disso, o estado de cada portão.",
+           [sec("Modo Decisão (exemplo)", ex, TAG_EX),
+            sec("Modo Portões do vídeo · estado real", real, TAG_REAL),
+            sec(f"Hoje · {esperando} vídeos esperando decisão", vazio, TAG_REAL),
+            sec("Regras", regras)],
+           fonte=f"{ARQ_DADOS} → portoes_livro_chatgpt, portoes_fila, fila, portoes_por_status, portoes_painel, videos",
+           curta="ApprovalGate: critérios e decisão.")
+
+
+# ---------------------------------------------------------------- 14. calendário
+
+def linha_portao(estado, seguram):
+    return f'<div class="k-event-portao"><span>Portões:</span>{chip_portao(estado, "small")}{segura_txt(seguram)}</div>'
+
+
+def gerar_calendario():
+    pf = {r["slug"]: r["status"] for r in B["portoes_fila"]}
+    origem_livro = {r["portao"]: r["status"] for r in B["portoes_livro_chatgpt"] if r["alvo"].startswith("videos/")}
+
+    def ev(f):
+        base = f["slug"]
+        while base not in VIDEOS:
+            base = base.rsplit("-", 1)[0]
+        var = f["slug"][len(base) + 1:]
+        canais = " + ".join(cap1(p) for p in f["plataformas"])
+        cls = "k-event--ig" if f["plataformas"] == ["instagram"] else ("k-event--fb" if f["plataformas"] == ["facebook"] else "")
+        extra = f" · {var}" if var else ""
+        if not f["legado"] and base != "2026-10-23-livro-chatgpt":
+            raise SystemExit(f"post não legado de {base}: exporte os portões da origem dele")
+        est, seguram = estado_post(f["legado"], pf[f["slug"]], origem_livro if base == "2026-10-23-livro-chatgpt" else {})
+        return (lon(f["publicar_em"]), f'<div class="k-event {cls}"><b>{esc(titulo(base))}</b>'
+                f'<span>{hm(f["publicar_em"])} · {canais}{extra}</span>{linha_portao(est, seguram)}</div>')
+    evs = [ev(f) for f in B["fila"]]
+    dias = {}
+    for d, h in evs:
+        dias.setdefault(d.date(), []).append(h)
+    cols = "".join(f'<div class="k-cal-day"><span>{SEM[d.weekday()]} {d.day}</span>{"".join(hs)}</div>' for d, hs in sorted(dias.items()))
+    ini_, fim = min(dias), max(dias)
+    faixa = (f"{ini_.day}–{fim.day} {MES[fim.month - 1].upper()}" if ini_.month == fim.month
+             else f"{ini_.day} {MES[ini_.month - 1].upper()} – {fim.day} {MES[fim.month - 1].upper()}")
+    n_leg = sum(1 for f in B["fila"] if f["legado"])
+    real = ('<div class="k-card" style="padding:14px 16px"><div class="k-card-head" style="margin-bottom:10px">'
+            f'<span class="k-card-title">Fila de publicação</span><span class="k-mono k-muted">{faixa}</span></div>'
+            f'<div class="k-cal">{cols}</div></div>'
+            + nota(f"Os {len(B['fila'])} posts da fila, cada um com o que o publicar.py confere: {n_leg} de {len(B['fila'])} são "
+                   "legado (<span class=\"k-mono\">fila.legado</span>, lista congelada de 22/10) — publicam sem selo, e nesse caso o "
+                   "publicar.py não olha portão nenhum."))
+    # Exemplo: os casos que a fila de hoje não tem (estados inventados, regra real)
+    ex_cfg = [
+        ("k-event--ig", "Reel com a cor refeita na fila", "21:00 · Instagram", estado_post(False, "aprovado", {"pauta": "aprovado", "roteiro": "aprovado", "imagem": "vencido", "corte": "aprovado"})),
+        ("k-event--fb", "Reel recém-posto na fila", "18:30 · Facebook", estado_post(False, "pendente", {"pauta": "nao_se_aplica", "roteiro": "aprovado", "imagem": "aprovado", "corte": "aprovado"})),
+        ("", "Reel nos dois canais", "20:00 · Instagram + Facebook", estado_post(False, "aprovado", {"pauta": "aprovado", "roteiro": "aprovado", "imagem": "aprovado", "corte": "aprovado"})),
+    ]
+    ex = ('<div class="k-cal">'
+          + "".join(f'<div class="k-cal-day"><div class="k-event {c}"><b>{t}</b><span>{l}</span>{linha_portao(*e)}</div></div>' for c, t, l, e in ex_cfg)
+          + '<div class="k-cal-day"><div class="k-event k-event--gate"><b>Portão · publicação</b><span>marcado para hoje</span></div></div></div>')
+    regras = ('<ul class="pv-lista"><li>Canal pela barra de 3px <b>e</b> pelo nome escrito: Instagram = accent, Facebook = chart-5, os dois = ink.</li>'
+              '<li><b>“Portões:” em todos os posts</b>, com o que o publicar.py confere na hora de sair: o portão da publicação e os portões '
+              'do vídeo de origem (pauta só se aplicar). Mostra o <b>pior</b> estado, com o chip do mapa único. <b>Legado vence</b>: '
+              '“Legado · sem selo” (o publicar.py não confere nada).</li>'
+              '<li>Se algo segura o post, o chip vem seguido de “&lt;portão&gt; · <span class="k-segura">não sai</span>” '
+              '(ex.: “Vencido · imagem · não sai” — o caso de 21/10, a cor refeita com o post na fila). Nunca só em alguns posts.</li>'
+              '<li>O que o banco não sabe (arquivo trocado depois do selo) aparece só no log do publicar.py.</li>'
+              '<li>Evento de portão (fundo accent-soft, texto accent-ink, sem barra) para um portão marcado num dia.</li>'
+              '<li>Cada linha com reticências; a linha “Portões:” quebra em duas se precisar. Em tela estreita: 2 dias por linha abaixo de 768px, 1 abaixo de 640px.</li>'
+              '<li>A fila de hoje só tem Instagram e só legado; os outros casos aparecem como exemplo.</li>'
+              '<li>A página Calendário ainda não existe; o componente já serve para a fila.</li></ul>')
+    pagina("calendario.html", "Evento do calendário", "Fluxo", "k-event", "O que sai, quando, onde — e se o portão segura.",
+           [sec("Com dados reais (fila de publicação)", real, TAG_REAL), sec("Casos sem dado real hoje", ex, TAG_EX), sec("Regras", regras)],
+           fonte=f"{ARQ_DADOS} → fila, portoes_fila, portoes_livro_chatgpt, videos (horários no fuso do painel, o de formato.ts)", curta="CalendarEvent: canal, hora e portão.")
+
+
+# ---------------------------------------------------------------- 15. notificação
+
+def gerar_notificacao():
+    pi = {r["portao"]: r for r in B["portoes_painel"]}
+    n_int = len(pi["interface"]["motivos"][0].split(":", 1)[1].split(",")) if pi["interface"]["motivos"] else 0
+    ver = [v for v in B["veredictos_painel"] if v["portao"] == "dados" and v["resultado"] == "APROVADO"][-1]
+    livro = FILA["2026-10-23-livro-chatgpt"]
+    itens = []
+    if pi["interface"]["status"] == "vencido":
+        itens.append(("alert", "alert", "Portão da interface vencido", f"{n_int} arquivos do painel mudaram depois do APROVADO.", True))
+    itens.append(("gate", "lock", "Portão da publicação ainda não rodou",
+                  f"“{titulo('2026-10-23-livro-chatgpt')}” · publica em {dm(livro['publicar_em'])}, {hm(livro['publicar_em'])}", True))
+    itens.append(("ok", "check", "Dados do painel aprovados",
+                  f"Portão dos dados ({AGENTES['portao-dados']['nome']}) · {dm(ver['em'])}, {hm(ver['em'])}", False))
+    sep = '<div style="height:1px;background:var(--line)"></div>'
+    html_ = sep.join(
+        f'<div class="k-note k-note--{m}"><span class="k-note-icon">{ic(i)}</span><div style="flex:1;min-width:0">'
+        f'<div class="k-note-title">{esc(t)}</div><div class="k-note-body">{esc(b)}</div></div>'
+        + ('<span class="k-unread"></span><span class="k-sr-only">não lida</span>' if u else "") + "</div>"
+        for m, i, t, b, u in itens)
+    c = f'<div class="k-card" style="overflow:hidden;max-width:520px">{html_}</div>'
+    neutra = ('<div class="k-card" style="overflow:hidden;max-width:520px"><div class="k-note"><span class="k-note-icon">' + ic("info") +
+              '</span><div style="flex:1;min-width:0"><div class="k-note-title">Sincronizado</div>'
+              f'<div class="k-note-body">Banco do painel atualizado em {dm(B["ultima_sincronizacao"][0]["em"])}, {hm(B["ultima_sincronizacao"][0]["em"])}</div></div></div></div>')
+    regras = ('<ul class="pv-lista"><li>Ícone 32px num quadrado raio 8: alerta (danger), portão (accent), sucesso (positive), informação neutra.</li>'
+              '<li>Título 13px/600 + corpo 13px ink-2 com contexto e tempo.</li>'
+              '<li>Não lida = ponto laranja à direita + “não lida” para leitor de tela.</li>'
+              '<li>Em lista dentro de k-card (divisória line) ou flutuante com shadow-pop.</li></ul>')
+    pagina("notificacao.html", "Notificação", "Feedback", "k-note", "Avisos curtos: o que aconteceu, onde e quando.",
+           [sec("Com dados reais", c, TAG_REAL), sec("Neutra", neutra, TAG_REAL), sec("Regras", regras)],
+           fonte=f"{ARQ_DADOS} → portoes_painel, veredictos_painel, fila, ultima_sincronizacao", curta="Alerta, portão, sucesso e neutra.")
+
+
+# ---------------------------------------------------------------- 16–19. busca, dropdown, dica, vazio
+
+def gerar_busca():
+    c = ('<div class="pv-fila">'
+         f'<div><label class="k-search">{ic("search")}<input placeholder="Buscar vídeos, agentes…" aria-label="Buscar vídeos e agentes"><span class="k-kbd">⌘K</span></label><span class="pv-cap">repouso</span></div>'
+         f'<div><label class="k-search is-focus">{ic("search")}<input value="portão" aria-label="Buscar vídeos e agentes"><span class="k-kbd">esc</span></label><span class="pv-cap">em foco: borda ink + halo accent-soft</span></div>'
+         '</div>')
+    regras = ('<ul class="pv-lista"><li>36px, raio 8, borda line-strong. Placeholder em ink-3: “Buscar vídeos, agentes…”. Atalho ⌘K em k-kbd.</li>'
+              '<li>Fica no topo da área principal, à direita do h1. Abaixo de 768px vai para a linha de baixo, na largura toda.</li>'
+              '<li>A borda line-strong (#928874, decisão do Carlos de 23/10) mede 3,13:1 sobre o fundo e 3,33:1 sobre o card — ver contraste.md G01/G02. Nunca sobre surface-sunken (2,94).</li>'
+              '<li>O símbolo ⌘ não existe na Geist: aparece na fonte do sistema.</li></ul>')
+    pagina("busca.html", "Busca", "Entradas", "k-search", "O campo de busca global.", [sec("Estados", c), sec("Regras", regras)],
+           curta="Campo de busca com atalho.")
+
+
+def gerar_dropdown():
+    c = ('<div style="display:flex;flex-direction:column;gap:4px;width:240px;max-width:100%">'
+         f'<div class="k-select" style="border-color:var(--ink)" role="button" aria-expanded="true" tabindex="0">Últimos 30 dias{ic("chevron-down")}</div>'
+         '<div class="k-menu" role="listbox"><div class="k-menu-item" role="option">Últimos 7 dias</div>'
+         f'<div class="k-menu-item is-selected is-hover" role="option" aria-selected="true">Últimos 30 dias<span class="k-tick">{ic("check", 14)}</span></div>'
+         '<div class="k-menu-item" role="option">Este trimestre</div><div class="k-menu-sep"></div><div class="k-menu-item" role="option">Personalizado…</div></div></div>')
+    regras = ('<ul class="pv-lista"><li>Gatilho k-select (36px) + menu k-menu 4px abaixo (shadow-pop, raio 12). Aberto: borda ink.</li>'
+              '<li>Itens 32px; hover surface-sunken; selecionado em 600 com ✓ em accent-ink. Separador para opções especiais.</li>'
+              '<li>As opções do período têm de bater com as janelas que os dados têm: as métricas do perfil vêm em <b>28 dias</b> (Meta). '
+              'Os rótulos aqui são os do desenho do Carlos.</li>'
+              '<li>Teclado: setas movem, Enter escolhe, Esc fecha e devolve o foco ao gatilho.</li></ul>')
+    pagina("dropdown.html", "Dropdown", "Entradas", "k-select · k-menu", "Filtro de período e escolhas curtas.",
+           [sec("Aberto", c), sec("Regras", regras)], curta="Gatilho e menu flutuante.")
+
+
+def gerar_dica():
+    m = DEMIS[-1]
+    c = ('<div style="display:flex;flex-direction:column;align-items:flex-start;gap:8px;padding-left:20px">'
+         f'<div class="k-tooltip"><b>{n(m["views"])} visualizações</b><small>Demis Hassabis · leitura de {dm(m["lido_em"])}</small></div>'
+         f'<button class="k-btn k-btn-secondary k-btn-icon k-btn-sm" style="margin-left:52px" aria-label="O que é visualização" '
+         f'data-dica="Visualizações|quantas vezes o Reel começou a tocar (Instagram)">{ic("info", 14)}</button></div>')
+    regras = ('<ul class="pv-lista"><li>Fundo sidebar, texto sidebar-ink, 2.ª linha sidebar-ink-2, raio 6, seta de 8px. Máximo 2 linhas.</li>'
+              '<li>Aparece depois de 300ms de hover <b>ou foco</b>; fecha ao sair, ao tocar fora e com Esc.</li>'
+              '<li><b>Nunca sai da janela</b>: aberta, fica presa a 8px das bordas (no celular inclusive). Passe o mouse no botão ⓘ para ver.</li>'
+              '<li>A dica complementa, nunca é o único jeito de ler um valor (há rótulo ou tabela).</li></ul>')
+    pagina("dica.html", "Dica (tooltip)", "Feedback", "k-tooltip", "O valor exato e a explicação curta, ao passar o mouse ou com o Tab.",
+           [sec("Estática e ao vivo", c, TAG_REAL), sec("Regras", regras)], fonte=f"{ARQ_DADOS} → metricas_demis",
+           curta="Dica escura que nunca sai da janela.")
+
+
+def gerar_vazio():
+    c = ('<div class="pv-grade pv-grade-2">'
+         f'<div class="k-empty"><span class="k-empty-icon">{ic("inbox", 22)}</span><h4>Nenhum vídeo bloqueado</h4>'
+         '<p>Quando um portão parar um vídeo, ele aparece aqui com o motivo.</p>'
+         '<button class="k-btn k-btn-secondary k-btn-sm" style="margin-top:6px">Ver todos os vídeos</button></div>'
+         f'<div class="k-empty"><span class="k-empty-icon">{ic("clock", 22)}</span><h4>Nada na fila de publicação</h4>'
+         '<p>Quando um pacote pronto entrar em 06-publicar, ele aparece aqui com a data.</p></div></div>')
+    bloq = sum(r["n"] for r in B["portoes_por_status"] if r["status"] in ("bloqueado", "escalado"))
+    regras = ('<ul class="pv-lista"><li>Contorno tracejado line-strong, sem fundo, centrado. Ícone 22px num quadrado de 48px.</li>'
+              '<li>Título 15px/600 + UMA frase em ink-2 que diz <b>o que vai aparecer aqui</b>. Ação opcional k-btn-secondary k-btn-sm.</li>'
+              '<li>Nunca ilustração nem emoji.</li>'
+              + (f'<li>O 1.º é verdade hoje: {bloq} portões bloqueados ou escalados no banco (bloco portoes_por_status).</li></ul>' if bloq
+                 else '<li>O 1.º é verdade hoje: nenhum portão bloqueado ou escalado no banco (bloco portoes_por_status).</li></ul>'))
+    pagina("vazio.html", "Estado vazio", "Feedback", "k-empty", "Quando ainda não há nada: o que vai aparecer aqui.",
+           [sec("Exemplos", c), sec("Regras", regras)], fonte=f"{ARQ_DADOS} → portoes_por_status", curta="O que aparece quando não há nada.")
+
+
+# ---------------------------------------------------------------- 20. barra lateral
+
+def gerar_barra():
+    c = ('<div class="pv-fila">'
+         f'<div>{barra_lateral(proposta=False, ident="menu-a", estilo=" style=\"height:520px;border-radius:var(--radius-panel)\"")}<span class="pv-cap">Como o Carlos desenhou (contagens reais)</span></div>'
+         f'<div>{barra_lateral(ativo="videos-portoes", proposta=True, ident="menu-b", estilo=" style=\"height:520px;border-radius:var(--radius-panel)\"", sem_pagina=("biblioteca",))}<span class="pv-cap">Exemplo: "Produção de conteúdo" ativo (duas linhas) e a regra de item sem página (hoje nenhum)</span></div>'
+         '</div>')
+    regras = ('<ul class="pv-lista"><li>208px, fundo sidebar, em toda a altura. Logotipo ivory a 19px no topo.</li>'
+              '<li>Item 34px: ícone 18 + rótulo 13px. Inativo sidebar-ink-2 (6,19:1); hover sidebar-raised + sidebar-ink.</li>'
+              '<li>Ativo: fundo sidebar-raised, texto sidebar-ink, <b>ícone laranja</b> e ponto laranja de 6px à direita; aria-current="page". Nunca barra lateral colorida.</li>'
+              '<li>Ordem fixa: Visão geral · Equipe · <b>Produção de conteúdo</b> (antes “Vídeos e portões”, decisão de 23/10) · Calendário · Desempenho · Biblioteca · Tokens e custos. Desde 23/10 os 7 têm tela (<a class="k-link" href="../telas/visao-geral.html">telas/</a>).</li>'
+              '<li>“Produção de conteúdo” ocupa duas linhas: linha de 15px e, ativo, 24px de folga para o ponto laranja.</li>'
+              '<li><b>Item sem página</b> (regra para o futuro; hoje nenhum): fica no lugar, sem link, apagado com a opacidade do botão desativado (.45), '
+              'sem contagem e sem acender no hover; o leitor de tela ouve “ainda sem página”.</li>'
+              '<li>Rodapé “@korvu_oficial · Instagram · Facebook”, como o Carlos desenhou nas telas de 23/10; o dono (“Carlos · Proprietário”) fica na barra do app. '
+              'Não há login nem troca de usuário.</li>'
+              '<li>O bloco “Orçamento IA” da prancha não entra: o custo existe (tela Tokens e custos), orçamento não.</li>'
+              '<li>Abaixo de 1024px vira barra de topo + menu: veja <a class="k-link" href="casca.html">casca.html</a> a 375px.</li></ul>')
+    pagina("barra-lateral.html", "Barra lateral", "Navegação", "k-sidebar · k-nav-item", "A navegação fixa do painel.",
+           [sec("Desktop", c, TAG_REAL), sec("Regras", regras)], fonte=f"{ARQ_DADOS} → contagens",
+           curta="A navegação fixa de 208px.")
+
+
+# ---------------------------------------------------------------- 21–25. casca e estados de página
+
+def cabeca_pagina(h1):
+    # 24/10: sem título de página (o menu já diz onde se está); o h1 fica para leitor de tela; a barra fina leva busca e período
+    return (f'<h1 class="k-sr-only">{esc(h1)}</h1><div class="k-page-barra">'
+            f'<label class="k-search">{ic("search")}<input placeholder="Buscar vídeos, agentes…" aria-label="Buscar vídeos e agentes"><span class="k-kbd">⌘K</span></label>'
+            f'<button class="k-select" type="button" aria-haspopup="listbox">Últimos 28 dias{ic("chevron-down")}</button></div>')
+
+
+def gerar_casca():
+    conteudo = (cabeca_pagina("Visão geral")
+                + '<section class="k-section">' + kpis_reais() + '</section>'
+                + '<section class="k-section"><div class="k-grid"><div class="pv-quadro k-span-8">span 8 · gráfico principal</div>'
+                '<div class="pv-quadro k-span-4">span 4 · lateral</div></div></section>'
+                + '<section class="k-section"><div class="k-section-head"><h2 class="k-h2">Vídeos</h2></div>' + tabela_videos() + '</section>'
+                + '<footer class="pv-foot"><span>Demonstração da <b>casca e da grade</b> — não é a tela da visão geral (as telas vêm do Carlos). '
+                'KPIs e vídeos com dados reais.</span><a href="casca-menu.html">Menu aberto (tela estreita)</a><a href="index.html">Todas as prévias</a></footer>')
+    (P / "casca.html").write_text(moeda(casca("Casca", conteudo)), encoding="utf-8")
+    PAGINAS.append(("casca.html", "Casca e grade", "Navegação", "Barra lateral + área principal; em 375px, barra de topo + menu."))
+    (P / "casca-menu.html").write_text(moeda(casca("Casca · menu aberto", conteudo, menu_aberto=True)), encoding="utf-8")
+    PAGINAS.append(("casca-menu.html", "Casca · menu aberto", "Navegação", "O menu em tela cheia abaixo da barra de topo (abaixo de 1024px)."))
+
+
+def gerar_carregando():
+    kpi = "".join('<div class="k-card k-kpi k-span-3" aria-hidden="true"><span class="k-skel k-skel-cap"></span>'
+                  '<span class="k-skel k-skel-metric" style="margin-top:6px"></span><span class="k-skel k-skel-line" style="width:40%;margin-top:6px"></span></div>'
+                  for _ in range(4))
+    linhas = "".join('<tr><td><div class="k-video"><span class="k-skel k-skel-thumb"></span><div style="flex:1"><span class="k-skel k-skel-line" style="width:70%"></span>'
+                     '<span class="k-skel k-skel-line" style="width:40%;margin-top:6px;height:11px"></span></div></div></td>'
+                     '<td><span class="k-skel k-skel-line" style="width:60%"></span></td><td><span class="k-skel k-skel-chip"></span></td></tr>' for _ in range(4))
+    conteudo = ('<div role="status" aria-live="polite"><span class="k-sr-only">Carregando os dados do painel…</span>'
+                '<div class="k-page-barra" aria-hidden="true"><span class="k-skel" style="width:240px;height:36px;border-radius:var(--radius-btn)"></span></div>'
+                f'<section class="k-section" aria-hidden="true"><div class="k-grid k-grid--tiles">{kpi}</div></section>'
+                '<section class="k-section" aria-hidden="true"><div class="k-card" style="overflow:hidden"><div class="k-table-wrap" style="--table-min:640px"><table class="k-table"><thead><tr>'
+                '<th><span class="k-skel k-skel-cap"></span></th><th><span class="k-skel k-skel-cap" style="width:56px"></span></th>'
+                f'<th><span class="k-skel k-skel-cap" style="width:56px"></span></th></tr></thead><tbody>{linhas}</tbody></table></div></div></section></div>'
+                '<footer class="pv-foot"><span><b>Carregando</b> (proposta): esqueleto em surface-sunken no lugar exato do conteúdo, '
+                'dentro da casca; respiração lenta de opacidade só se a pessoa não pediu menos movimento. Em app/loading.tsx.</span>'
+                '<a href="index.html">Todas as prévias</a></footer>')
+    (P / "carregando.html").write_text(moeda(casca("Carregando", conteudo)), encoding="utf-8")
+    PAGINAS.append(("carregando.html", "Carregando", "Feedback", "Esqueleto da página enquanto o servidor lê o banco (proposta)."))
+
+
+COMO_LIGAR = "cd painel && supabase start"           # painel/web/src/lib/db.ts → COMO_LIGAR
+COMO_SINCRONIZAR = "uv run python painel/sync/sincronizar.py"  # db.ts → COMO_SINCRONIZAR
+
+
+def gerar_erro():
+    conteudo = (f'<section class="k-section"><div class="k-state k-state--erro" role="alert"><span class="k-state-icon">{ic("alert", 22)}</span>'
+                '<h1 class="k-h1">Não deu para ler os dados</h1>'
+                '<p class="k-state-text">O banco do painel não respondeu. Isso costuma acontecer depois de reiniciar o Mac, quando o Docker ainda não subiu.</p>'
+                '<div class="k-card k-pad" style="width:100%"><p class="k-cap" style="margin:0 0 12px">Como resolver</p><ol class="k-passos">'
+                f'<li><span>Abra o Docker e ligue o banco do painel: <code class="k-code">{esc(COMO_LIGAR)}</code></span></li>'
+                f'<li><span>Sincronize os arquivos com o banco: <code class="k-code">{esc(COMO_SINCRONIZAR)}</code></span></li>'
+                '<li><span>Tente de novo.</span></li></ol></div>'
+                '<div class="k-state-actions"><button class="k-btn k-btn-primary" type="button">Tentar de novo</button></div>'
+                '<p class="k-mono k-muted" style="margin:0">Código do erro (aparece no terminal do painel): 1928374650 '
+                '<span class="pv-tag">exemplo</span></p></div></section>'
+                '<section class="k-section"><div class="k-section-head"><h2 class="k-h2">Erro de bloco</h2></div>'
+                '<div class="k-grid"><div class="k-card k-span-6"><div class="k-note k-note--alert" role="alert">'
+                f'<span class="k-note-icon">{ic("alert")}</span><div style="flex:1;min-width:0"><div class="k-note-title">Não deu para carregar esta parte</div>'
+                '<div class="k-note-body">O resto da página continua valendo. Se repetir, veja se o banco do painel está ligado.</div>'
+                '<div class="k-note-actions"><button class="k-btn k-btn-secondary k-btn-sm" type="button">Tentar de novo</button></div></div></div></div></div></section>'
+                '<footer class="pv-foot"><span><b>Erro</b> (proposta), no estilo k-note--alert: de página (app/error.tsx, dentro da casca) e de bloco. '
+                'Comandos = as constantes COMO_LIGAR e COMO_SINCRONIZAR de painel/web/src/lib/db.ts.</span><a href="index.html">Todas as prévias</a></footer>')
+    (P / "erro.html").write_text(moeda(casca("Erro", conteudo)), encoding="utf-8")
+    PAGINAS.append(("erro.html", "Erro", "Feedback", "Erro de página e de bloco, com o que fazer (proposta)."))
+
+
+def gerar_nao_encontrado():
+    conteudo = (f'<div class="k-state"><span class="k-state-icon">{ic("search", 22)}</span>'
+                '<h1 class="k-h1">Página não encontrada</h1>'
+                '<p class="k-state-text">Este endereço não existe no painel. Se era a ficha de alguém da equipe, a pessoa pode ter saído ou mudado de nome.</p>'
+                '<div class="k-state-actions"><a class="k-btn k-btn-primary" href="#" style="text-decoration:none">Ir para a visão geral</a>'
+                '<a class="k-btn k-btn-ghost" href="#" style="text-decoration:none">Ver a equipe</a></div></div>'
+                '<footer class="pv-foot"><span><b>Não encontrado</b> (proposta): app/not-found.tsx, dentro da casca.</span>'
+                '<a href="index.html">Todas as prévias</a></footer>')
+    (P / "nao-encontrado.html").write_text(moeda(casca("Página não encontrada", conteudo)), encoding="utf-8")
+    PAGINAS.append(("nao-encontrado.html", "Não encontrado", "Feedback", "Endereço que não existe, com o caminho de volta (proposta)."))
+
+
+# ---------------------------------------------------------------- índice
+
+def gerar_indice():
+    ordem = ["Tokens", "Marca", "Ações", "Estado", "Superfícies", "Dados", "Pessoas", "Fluxo", "Navegação", "Entradas", "Feedback"]
+    blocos = []
+    for g in ordem:
+        itens = [p for p in PAGINAS if p[2] == g]
+        if not itens:
+            continue
+        cards = "".join(f'<a class="k-card is-interactive" href="{a}"><b class="k-body-strong">{esc(nm)}</b><span>{esc(d)}</span></a>'
+                        for a, nm, _, d in itens)
+        blocos.append(sec(g, f'<div class="pv-indice">{cards}</div>'))
+    doc = head("Prévias") + f"""<body>
+<main class="pv">
+<header class="pv-head">
+<span data-logo="ink" data-h="22"></span>
+<h1 class="k-h2" style="margin-top:var(--space-16)">Design system · prévias</h1>
+<p class="pv-lead">O sistema “korvu. painel” que o Carlos fez no Claude Design (23/10/2026), em PT-BR, com os números reais do
+banco do painel. Cada prévia abre sem internet. Selos: <span class="pv-tag pv-tag--real">dados reais</span>
+<span class="pv-tag">exemplo · sem dado real hoje</span> <span class="pv-tag pv-tag--proposta">proposta · vai ao Carlos</span></p>
+</header>
+{chr(10).join(blocos)}
+<section class="pv-sec"><h2 class="pv-sec-t k-cap">Telas (23/10)</h2><div class="pv-indice">{"".join(f'<a class="k-card is-interactive" href="../telas/{a}.html"><b class="k-body-strong">{nm}</b><span>maquete com dados reais + especificação ({a}.md)</span></a>' for a, nm in (("visao-geral", "Visão geral"), ("equipe", "Equipe"), ("producao", "Produção de conteúdo"), ("calendario", "Calendário"), ("desempenho", "Desempenho"), ("biblioteca", "Biblioteca"), ("tokens-e-custos", "Tokens e custos")))}</div></section>
+<footer class="pv-foot"><span>Livro: <a href="../design-system.md">design-system.md</a></span><span>Contraste: <a href="../contraste.md">contraste.md</a></span>
+<span>Para o front-end: <a href="../handoff.md">handoff.md</a></span><span>Vista inteira do original (com os exemplos fictícios dele): referencias/claude-design/…/assets/Prancha/</span></footer>
+</main>
+</body>
+</html>
+"""
+    (P / "index.html").write_text(moeda(doc), encoding="utf-8")
+
+
+def main():
+    for f in P.glob("*.html"):
+        f.unlink()
+    gerar_fundamentos(); gerar_logo(); gerar_icones(); gerar_botao(); gerar_chip(); gerar_card(); gerar_kpi()
+    gerar_graficos(); gerar_progresso(); gerar_linha(); gerar_avatar(); gerar_pessoa(); gerar_portao()
+    gerar_calendario(); gerar_notificacao(); gerar_busca(); gerar_dropdown(); gerar_dica(); gerar_vazio()
+    gerar_barra(); gerar_casca(); gerar_carregando(); gerar_erro(); gerar_nao_encontrado(); gerar_indice()
+    print(len(list(P.glob("*.html"))), "prévias em", P)
+
+
+if __name__ == "__main__":
+    main()

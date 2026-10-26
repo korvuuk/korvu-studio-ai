@@ -1,0 +1,156 @@
+{
+ "nome": "WAY v5 — ATIVO (escolhido pelo Carlos em 2026-09-18, comparação v5 x v11)",
+ "versao": "v5",
+ "criado_em": "2026-09-15T23:03:13+01:00",
+ "aprovada": true,
+ "aprovada_em": "2026-09-18",
+ "cube": "00-marca/cor/luts/korvu-look-v5.cube",
+ "tamanho": 33,
+ "interp": "tetrahedral",
+ "espaco": "Rec.709 / gamma 2.4 (SDR), valores 0–1",
+ "metodo": "mkl",
+ "intensidade": 0.7,
+ "proteger_pele": 0.0,
+ "referencias": [
+  {
+   "arquivo": "ref-way-01a.jpg",
+   "sha1": "781bc1620c48"
+  },
+  {
+   "arquivo": "ref-way-01b.jpg",
+   "sha1": "097643eb976f"
+  },
+  {
+   "arquivo": "ref-way-01c.jpg",
+   "sha1": "46ce44457153"
+  }
+ ],
+ "amostra": {
+  "arquivo": "videos/2026-09-16-chatgpt-contexto/brutos/principal/PRAQ0967.MOV",
+  "transformacao_entrada": "camera: V-Log/V-Gamut (yuv422p10le, yuv full range (Lumix V-Log 0–1023) → gbrp16le) → Rec.709 via 00-marca/cor/luts/entrada-camera.cube (gerada, provisória)",
+  "frames": [
+   "25.61s",
+   "41.51s",
+   "57.41s",
+   "73.31s",
+   "89.20s",
+   "105.10s",
+   "121.00s",
+   "136.90s",
+   "152.79s",
+   "168.69s",
+   "184.59s",
+   "200.49s",
+   "216.38s",
+   "232.28s",
+   "248.18s",
+   "264.08s",
+   "279.97s",
+   "295.87s",
+   "311.77s",
+   "327.67s"
+  ],
+  "dimensoes_frame": [
+   540,
+   1024
+  ]
+ },
+ "dominio_entrada": "Rec.709 depois da LUT de entrada (câmera V-Log passa primeiro por V-Log→709; o aplicar_cor aplica a mesma entrada antes desta LUT)",
+ "alvo_primaria": {
+  "luma": 0.44657,
+  "rgb_neutro": [
+   0.22375,
+   0.14511,
+   0.08111
+  ],
+  "frac_meios_tons": 0.0463,
+  "frac_recortado": 0.0003,
+  "frac_pele": 0.932,
+  "confiavel": true,
+  "nota": "domínio de entrada da LUT: é a exposição/neutro que a LUT leva até à média da referência. aplicar_cor.py ajusta cada take para cá."
+ },
+ "estatisticas": {
+  "referencia": {
+   "luma_media": 0.2621,
+   "contraste_std": 0.1818,
+   "p02": 0.0224,
+   "p98": 0.5743,
+   "saturacao_media": 0.3348,
+   "rgb_medio": [
+    0.246,
+    0.2675,
+    0.256
+   ],
+   "pretos_esmagados_pct": 0.0,
+   "brancos_estourados_pct": 0.0
+  },
+  "amostra": {
+   "luma_media": 0.4467,
+   "contraste_std": 0.2197,
+   "p02": 0.1189,
+   "p98": 0.7925,
+   "saturacao_media": 0.496,
+   "rgb_medio": [
+    0.5645,
+    0.4248,
+    0.3165
+   ],
+   "pretos_esmagados_pct": 0.0,
+   "brancos_estourados_pct": 0.0
+  },
+  "amostra_com_lut": {
+   "luma_media": 0.301,
+   "contraste_std": 0.1871,
+   "p02": 0.0296,
+   "p98": 0.5982,
+   "saturacao_media": 0.3704,
+   "rgb_medio": [
+    0.3331,
+    0.2958,
+    0.2575
+   ],
+   "pretos_esmagados_pct": 0.0,
+   "brancos_estourados_pct": 0.0
+  }
+ },
+ "cinza_saida": {
+  "0%": 0.0017,
+  "18%": 0.0897,
+  "50%": 0.3553,
+  "100%": 0.7801
+ },
+ "avisos": [],
+ "antes_depois": "00-marca/cor/analises/v5-antes-depois.png",
+ "parametros": {
+  "mkl": {
+   "M": [
+    [
+     0.924022,
+     -0.13572,
+     -0.069853
+    ],
+    [
+     -0.13572,
+     0.881075,
+     0.072799
+    ],
+    [
+     -0.069853,
+     0.072799,
+     0.653743
+    ]
+   ],
+   "mu_s": [
+    0.564956,
+    0.425521,
+    0.317272
+   ],
+   "mu_r": [
+    0.23298,
+    0.241123,
+    0.232775
+   ]
+  }
+ },
+ "grao_recomendado": 0.3
+}

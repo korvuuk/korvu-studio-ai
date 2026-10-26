@@ -1,0 +1,1 @@
+Logótipo **korvu. painel** em contornos vetoriais (Geist 800 + 500). `korvu-painel-ink.svg`: `korvu.` em `ink` (#111111) e `painel` em `ink-2` (#6B6458), para `bg` e `surface`. `korvu-painel-ivory.svg`: `korvu.` em `sidebar-ink` (#F5F2E8) e `painel` em `sidebar-ink-2` (#9A9385), para a sidebar e fundos escuros.

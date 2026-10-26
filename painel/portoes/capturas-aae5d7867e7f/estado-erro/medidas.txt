@@ -1,0 +1,6 @@
+# capturar.sh · 2026-10-22T23:26:48.844Z
+# alvo	largura pedida	innerWidth	scrollWidth	altura	HTTP	png	passa da borda
+/	1440	1440	1440	900	200	/Users/teste/Documents/CONTENT AI/painel/portoes/capturas-aae5d7867e7f/estado-erro/inicio-1440.png	
+/	375	375	375	812	200	/Users/teste/Documents/CONTENT AI/painel/portoes/capturas-aae5d7867e7f/estado-erro/inicio-375.png	
+/equipe/portao-imagem	1440	1440	1440	900	200	/Users/teste/Documents/CONTENT AI/painel/portoes/capturas-aae5d7867e7f/estado-erro/equipe-portao-imagem-1440.png	
+/equipe/portao-imagem	375	375	375	812	200	/Users/teste/Documents/CONTENT AI/painel/portoes/capturas-aae5d7867e7f/estado-erro/equipe-portao-imagem-375.png	

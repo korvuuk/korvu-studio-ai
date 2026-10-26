@@ -1,0 +1,220 @@
+{
+ "destino": "/Volumes/KORVU V01/CONTENT AI - originais 4K",
+ "inicio": "2026-10-23T22:37:21+0100",
+ "arquivos": [
+  {
+   "slug": "2026-09-17-demis-hassabis",
+   "nome": "PRAQ0969.MOV",
+   "bytes": 18981247010,
+   "sha256_origem": "dbfeaaf5d5635d7ed6ee2895b8c607c678eabe0cbbca8215f799add22ad0ce47",
+   "mtime": 1721389790.0,
+   "destino": "/Volumes/KORVU V01/CONTENT AI - originais 4K/2026-09-17-demis-hassabis/brutos/principal/PRAQ0969.MOV",
+   "passada_anterior": true,
+   "bytes_destino": 18981247010,
+   "sha256_destino": "dbfeaaf5d5635d7ed6ee2895b8c607c678eabe0cbbca8215f799add22ad0ce47",
+   "confere": true
+  },
+  {
+   "slug": "2026-09-17-demis-hassabis",
+   "nome": "PRAQ0970.MOV",
+   "bytes": 4137551936,
+   "sha256_origem": "16e7e555ccc8a753b306693e296f36f67afd6ac9088917768d4b1749d449e6c4",
+   "mtime": 1721389872.0,
+   "destino": "/Volumes/KORVU V01/CONTENT AI - originais 4K/2026-09-17-demis-hassabis/brutos/principal/PRAQ0970.MOV",
+   "passada_anterior": true,
+   "bytes_destino": 4137551936,
+   "sha256_destino": "16e7e555ccc8a753b306693e296f36f67afd6ac9088917768d4b1749d449e6c4",
+   "confere": true
+  },
+  {
+   "slug": "2026-09-17-demis-hassabis",
+   "nome": "PRAQ0971.MOV",
+   "bytes": 4140540928,
+   "sha256_origem": "4af14da8d0bbb8ff87b4dd41952db5bc0648a22e06526db6eb5cc87bf4f90e20",
+   "mtime": 1721389952.0,
+   "destino": "/Volumes/KORVU V01/CONTENT AI - originais 4K/2026-09-17-demis-hassabis/brutos/principal/PRAQ0971.MOV",
+   "passada_anterior": true,
+   "bytes_destino": 4140540928,
+   "sha256_destino": "4af14da8d0bbb8ff87b4dd41952db5bc0648a22e06526db6eb5cc87bf4f90e20",
+   "confere": true
+  },
+  {
+   "slug": "2026-09-17-demis-hassabis",
+   "nome": "PRAQ0972.MOV",
+   "bytes": 4145152472,
+   "sha256_origem": "54d3893e5fd3cf6b64ccd11a061d3c57439a41ae5cfd21ee527dca4ce1463f6c",
+   "mtime": 1721390034.0,
+   "destino": "/Volumes/KORVU V01/CONTENT AI - originais 4K/2026-09-17-demis-hassabis/brutos/principal/PRAQ0972.MOV",
+   "bytes_destino": 4145152472,
+   "sha256_destino": "54d3893e5fd3cf6b64ccd11a061d3c57439a41ae5cfd21ee527dca4ce1463f6c",
+   "confere": true
+  },
+  {
+   "slug": "2026-09-17-demis-hassabis",
+   "nome": "PRAQ0973.MOV",
+   "bytes": 1927500404,
+   "sha256_origem": "d14bde4776e8311431ea61064885aef24cab4e1ff7fe55b4233cbcb047545cf8",
+   "mtime": 1721390070.0,
+   "destino": "/Volumes/KORVU V01/CONTENT AI - originais 4K/2026-09-17-demis-hassabis/brutos/principal/PRAQ0973.MOV",
+   "bytes_destino": 1927500404,
+   "sha256_destino": "d14bde4776e8311431ea61064885aef24cab4e1ff7fe55b4233cbcb047545cf8",
+   "confere": true
+  },
+  {
+   "slug": "2026-09-17-demis-hassabis",
+   "nome": "PRAQ0974.MOV",
+   "bytes": 4139372992,
+   "sha256_origem": "b64eea5f81553b679fd905c2fc6b34344f99654e39807eedcdb2ab8016f41a4b",
+   "mtime": 1721391004.0,
+   "destino": "/Volumes/KORVU V01/CONTENT AI - originais 4K/2026-09-17-demis-hassabis/brutos/principal/PRAQ0974.MOV",
+   "bytes_destino": 4139372992,
+   "sha256_destino": "b64eea5f81553b679fd905c2fc6b34344f99654e39807eedcdb2ab8016f41a4b",
+   "confere": true
+  },
+  {
+   "slug": "2026-09-17-demis-hassabis",
+   "nome": "PRAQ0975.MOV",
+   "bytes": 4138384365,
+   "sha256_origem": "c82ecf7933b0a68cc1deb2578688f445e54c29eba7634dfb3a9a5510860fbfa7",
+   "mtime": 1721391086.0,
+   "destino": "/Volumes/KORVU V01/CONTENT AI - originais 4K/2026-09-17-demis-hassabis/brutos/principal/PRAQ0975.MOV",
+   "bytes_destino": 4138384365,
+   "sha256_destino": "c82ecf7933b0a68cc1deb2578688f445e54c29eba7634dfb3a9a5510860fbfa7",
+   "confere": true
+  },
+  {
+   "slug": "2026-09-17-demis-hassabis",
+   "nome": "PRAQ0976.MOV",
+   "bytes": 4140259110,
+   "sha256_origem": "8a4261da374707c757a17c1bf286a50715de278f03580b2f3964e3063f98cf03",
+   "mtime": 1721391168.0,
+   "destino": "/Volumes/KORVU V01/CONTENT AI - originais 4K/2026-09-17-demis-hassabis/brutos/principal/PRAQ0976.MOV",
+   "bytes_destino": 4140259110,
+   "sha256_destino": "8a4261da374707c757a17c1bf286a50715de278f03580b2f3964e3063f98cf03",
+   "confere": true
+  },
+  {
+   "slug": "2026-09-17-demis-hassabis",
+   "nome": "PRAQ0977.MOV",
+   "bytes": 1200435230,
+   "sha256_origem": "15fb82cbc94a1581b0eb069849a4bb310f59baa7fdc31ec7ee0dc3ddccb5e7f8",
+   "mtime": 1721391188.0,
+   "destino": "/Volumes/KORVU V01/CONTENT AI - originais 4K/2026-09-17-demis-hassabis/brutos/principal/PRAQ0977.MOV",
+   "bytes_destino": 1200435230,
+   "sha256_destino": "15fb82cbc94a1581b0eb069849a4bb310f59baa7fdc31ec7ee0dc3ddccb5e7f8",
+   "confere": true
+  },
+  {
+   "slug": "2026-09-17-demis-hassabis",
+   "nome": "camera-00-cor.mov",
+   "bytes": 15785740,
+   "sha256_origem": "f11f503b0a5040fdae91a1e7a9e1561947e122f0e1947d7c62f4c5c4fd59e41d",
+   "mtime": 1789769673.3030667,
+   "destino": "/Volumes/KORVU V01/CONTENT AI - originais 4K/2026-09-17-demis-hassabis/brutos/principal/camera-00-cor.mov",
+   "bytes_destino": 15785740,
+   "sha256_destino": "f11f503b0a5040fdae91a1e7a9e1561947e122f0e1947d7c62f4c5c4fd59e41d",
+   "confere": true
+  },
+  {
+   "slug": "2026-10-20-geoffrey-hinton",
+   "nome": "PRAQ0978.MOV",
+   "bytes": 4153821771,
+   "sha256_origem": "cb6e5d816b37dd789721e457fc8c452631cc2ae1bcd166f298e6ee7962ca0657",
+   "mtime": 1723637106.0,
+   "destino": "/Volumes/KORVU V01/CONTENT AI - originais 4K/2026-10-20-geoffrey-hinton/brutos/principal/PRAQ0978.MOV",
+   "bytes_destino": 4153821771,
+   "sha256_destino": "cb6e5d816b37dd789721e457fc8c452631cc2ae1bcd166f298e6ee7962ca0657",
+   "confere": true
+  },
+  {
+   "slug": "2026-10-20-geoffrey-hinton",
+   "nome": "PRAQ0979.MOV",
+   "bytes": 4137452568,
+   "sha256_origem": "d809d1bda37e93fb5a058c55e1ab98e3cdbcfc2fc4d9d1272aaae82293c4a5b2",
+   "mtime": 1723637188.0,
+   "destino": "/Volumes/KORVU V01/CONTENT AI - originais 4K/2026-10-20-geoffrey-hinton/brutos/principal/PRAQ0979.MOV",
+   "bytes_destino": 4137452568,
+   "sha256_destino": "d809d1bda37e93fb5a058c55e1ab98e3cdbcfc2fc4d9d1272aaae82293c4a5b2",
+   "confere": true
+  },
+  {
+   "slug": "2026-10-20-geoffrey-hinton",
+   "nome": "PRAQ0980.MOV",
+   "bytes": 4137397035,
+   "sha256_origem": "92436fe214c0b7f76dceb1f68b30a99d6f5561f14d7285a4e091fb46adb82ef8",
+   "mtime": 1723637268.0,
+   "destino": "/Volumes/KORVU V01/CONTENT AI - originais 4K/2026-10-20-geoffrey-hinton/brutos/principal/PRAQ0980.MOV",
+   "bytes_destino": 4137397035,
+   "sha256_destino": "92436fe214c0b7f76dceb1f68b30a99d6f5561f14d7285a4e091fb46adb82ef8",
+   "confere": true
+  },
+  {
+   "slug": "2026-10-20-geoffrey-hinton",
+   "nome": "PRAQ0981.MOV",
+   "bytes": 4138939659,
+   "sha256_origem": "ea197305ad1b736c3ede06628acf6820a5556179f8d34e9f089e601653b39ff1",
+   "mtime": 1723637350.0,
+   "destino": "/Volumes/KORVU V01/CONTENT AI - originais 4K/2026-10-20-geoffrey-hinton/brutos/principal/PRAQ0981.MOV",
+   "bytes_destino": 4138939659,
+   "sha256_destino": "ea197305ad1b736c3ede06628acf6820a5556179f8d34e9f089e601653b39ff1",
+   "confere": true
+  },
+  {
+   "slug": "2026-10-20-geoffrey-hinton",
+   "nome": "PRAQ0982.MOV",
+   "bytes": 4139251760,
+   "sha256_origem": "6a743f350e46d78d9b6929653cd193744f048012b5058d91ac76b28dff3ed4f6",
+   "mtime": 1723637432.0,
+   "destino": "/Volumes/KORVU V01/CONTENT AI - originais 4K/2026-10-20-geoffrey-hinton/brutos/principal/PRAQ0982.MOV",
+   "bytes_destino": 4139251760,
+   "sha256_destino": "6a743f350e46d78d9b6929653cd193744f048012b5058d91ac76b28dff3ed4f6",
+   "confere": true
+  },
+  {
+   "slug": "2026-10-20-geoffrey-hinton",
+   "nome": "PRAQ0983.MOV",
+   "bytes": 4138188239,
+   "sha256_origem": "821c795b7e4c9afc200d344d42cdcf6c75f255fc7dada9fb4941001af753791e",
+   "mtime": 1723637514.0,
+   "destino": "/Volumes/KORVU V01/CONTENT AI - originais 4K/2026-10-20-geoffrey-hinton/brutos/principal/PRAQ0983.MOV",
+   "bytes_destino": 4138188239,
+   "sha256_destino": "821c795b7e4c9afc200d344d42cdcf6c75f255fc7dada9fb4941001af753791e",
+   "confere": true
+  },
+  {
+   "slug": "2026-10-20-geoffrey-hinton",
+   "nome": "PRAQ0984.MOV",
+   "bytes": 4137333892,
+   "sha256_origem": "75b497d103aed391a65f85e20b7445456043cb95f63e6a36a015d3e196691e7d",
+   "mtime": 1723637596.0,
+   "destino": "/Volumes/KORVU V01/CONTENT AI - originais 4K/2026-10-20-geoffrey-hinton/brutos/principal/PRAQ0984.MOV",
+   "bytes_destino": 4137333892,
+   "sha256_destino": "75b497d103aed391a65f85e20b7445456043cb95f63e6a36a015d3e196691e7d",
+   "confere": true
+  },
+  {
+   "slug": "2026-10-20-geoffrey-hinton",
+   "nome": "PRAQ0985.MOV",
+   "bytes": 1663967951,
+   "sha256_origem": "bd468676655f0b543798f3b669bfea95e8186676f1bb569c46ecb4ccf052fff4",
+   "mtime": 1723637628.0,
+   "destino": "/Volumes/KORVU V01/CONTENT AI - originais 4K/2026-10-20-geoffrey-hinton/brutos/principal/PRAQ0985.MOV",
+   "bytes_destino": 1663967951,
+   "sha256_destino": "bd468676655f0b543798f3b669bfea95e8186676f1bb569c46ecb4ccf052fff4",
+   "confere": true
+  },
+  {
+   "slug": "2026-10-20-geoffrey-hinton",
+   "nome": "PRAQ0986.MOV",
+   "bytes": 21586673656,
+   "sha256_origem": "a3c3503086d6fe81c2c9298d84bd6a3f06d928b63ece247737e2ab6784bf19b8",
+   "mtime": 1723638052.0,
+   "destino": "/Volumes/KORVU V01/CONTENT AI - originais 4K/2026-10-20-geoffrey-hinton/brutos/principal/PRAQ0986.MOV",
+   "bytes_destino": 21586673656,
+   "sha256_destino": "a3c3503086d6fe81c2c9298d84bd6a3f06d928b63ece247737e2ab6784bf19b8",
+   "confere": true
+  }
+ ],
+ "fim": "2026-10-23T22:46:53+0100",
+ "tudo_confere": true
+}

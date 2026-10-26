@@ -1,0 +1,963 @@
+[
+  {
+    "id": "40riCqvRoMs",
+    "url": "https://www.youtube.com/watch?v=40riCqvRoMs",
+    "titulo": "How we teach computers to understand pictures | Fei Fei Li",
+    "canal": "TED",
+    "publicado_em": "2015-03-23",
+    "duracao_s": 1082.0,
+    "visualizacoes": 1241321,
+    "licenca": "todos os direitos reservados",
+    "fps": 24.0,
+    "arquivo": "videos/2026-10-20-fei-fei-li/material/youtube/40riCqvRoMs-How_we_teach_computers_to_understand_pictures_Fei_Fei_Li.mp4",
+    "proxy": null,
+    "credito": "How we teach computers to understand pictures | Fei Fei Li (TED)",
+    "uso": "comentario",
+    "baixado_em": "2026-10-14",
+    "linhas": [
+      "L05",
+      "L06",
+      "L07",
+      "L08",
+      "L09",
+      "L10",
+      "L11"
+    ],
+    "motivo": "TED2015 oficial: ela no palco",
+    "momentos": [
+      {
+        "inicio": "5:44",
+        "fim": "5:53",
+        "inicio_s": 344.0,
+        "fim_s": 353.0,
+        "linha": "L06",
+        "o_que": "Ela no palco: a criança aprende a ver"
+      },
+      {
+        "inicio": "7:36",
+        "fim": "7:44",
+        "inicio_s": 456.0,
+        "fim_s": 464.0,
+        "linha": "L10",
+        "o_que": "48.940 trabalhadores, 167 países"
+      },
+      {
+        "inicio": "8:25",
+        "fim": "8:37",
+        "inicio_s": 505.0,
+        "fim_s": 517.0,
+        "linha": "L08",
+        "o_que": "Colegas: algo mais útil; piada da lavanderia"
+      },
+      {
+        "inicio": "8:36",
+        "fim": "8:41",
+        "inicio_s": 516.0,
+        "fim_s": 521.0,
+        "linha": "L05",
+        "o_que": "Foi assim que paguei a faculdade"
+      },
+      {
+        "inicio": "9:25",
+        "fim": "9:33",
+        "inicio_s": 565.0,
+        "fim_s": 573.0,
+        "linha": "L11",
+        "o_que": "Abriu o banco de graça"
+      }
+    ],
+    "trechos": [
+      {
+        "id": "E03",
+        "inicio": "5:44",
+        "fim": "5:53",
+        "inicio_s": 344.0,
+        "fim_s": 353.0,
+        "duracao_s": 8.64,
+        "o_que": "Ela no palco do TED2015 explicando como a criança aprende a ver",
+        "som": false,
+        "arquivo": "videos/2026-10-20-fei-fei-li/brutos/extras/E03-ted-crianca.mp4"
+      },
+      {
+        "id": "E04",
+        "inicio": "8:25",
+        "fim": "8:37",
+        "inicio_s": 505.0,
+        "fim_s": 517.0,
+        "duracao_s": 11.52,
+        "o_que": "Colegas aconselham algo mais útil; piada de reabrir a lavanderia",
+        "som": false,
+        "arquivo": "videos/2026-10-20-fei-fei-li/brutos/extras/E04-ted-lavanderia.mp4"
+      },
+      {
+        "id": "E05",
+        "inicio": "7:36",
+        "fim": "7:44",
+        "inicio_s": 456.0,
+        "fim_s": 464.0,
+        "duracao_s": 7.68,
+        "o_que": "quase 50 mil pessoas de 167 países etiquetaram",
+        "som": false,
+        "arquivo": "videos/2026-10-20-fei-fei-li/brutos/extras/E05-ted-50mil.mp4"
+      },
+      {
+        "id": "E08",
+        "inicio": "8:36",
+        "fim": "8:41",
+        "inicio_s": 516.0,
+        "fim_s": 521.0,
+        "duracao_s": 4.8,
+        "o_que": "'foi assim que paguei a faculdade' (TED2015)",
+        "som": false,
+        "arquivo": "videos/2026-10-20-fei-fei-li/brutos/extras/E08-ted-faculdade.mp4"
+      },
+      {
+        "id": "E09",
+        "inicio": "9:25",
+        "fim": "9:33",
+        "inicio_s": 565.0,
+        "fim_s": 573.0,
+        "duracao_s": 7.68,
+        "o_que": "abriu o banco inteiro de graça",
+        "som": false,
+        "arquivo": "videos/2026-10-20-fei-fei-li/brutos/extras/E09-ted-degraca.mp4"
+      }
+    ],
+    "inserts": [
+      {
+        "id": "Y10",
+        "arquivo": "videos/2026-10-20-fei-fei-li/material/youtube/cortes/Y10-crianca-3-anos.mp4",
+        "origem_s": [
+          166.3,
+          169.8
+        ],
+        "assunto": "ideia-crianca"
+      },
+      {
+        "id": "Y11",
+        "arquivo": "videos/2026-10-20-fei-fei-li/material/youtube/cortes/Y11-crianca-leo-foto.mp4",
+        "origem_s": [
+          245.05,
+          248.8
+        ],
+        "assunto": "ideia-crianca"
+      },
+      {
+        "id": "Y12",
+        "arquivo": "videos/2026-10-20-fei-fei-li/material/youtube/cortes/Y12-crianca-leo-anotada.mp4",
+        "origem_s": [
+          249.5,
+          259.3
+        ],
+        "assunto": "ideia-crianca"
+      },
+      {
+        "id": "Y13",
+        "arquivo": "videos/2026-10-20-fei-fei-li/material/youtube/cortes/Y13-gatos-fotos.mp4",
+        "origem_s": [
+          324.6,
+          331.3
+        ],
+        "assunto": "ideia-crianca"
+      },
+      {
+        "id": "Y14",
+        "arquivo": "videos/2026-10-20-fei-fei-li/material/youtube/cortes/Y14-criancas-brincando-gatinho.mp4",
+        "origem_s": [
+          363.6,
+          373.6
+        ],
+        "assunto": "ideia-crianca"
+      },
+      {
+        "id": "Y16",
+        "arquivo": "videos/2026-10-20-fei-fei-li/material/youtube/cortes/Y16-grade-fotos-gatos.mp4",
+        "origem_s": [
+          545.6,
+          555.0
+        ],
+        "assunto": "imagenet"
+      },
+      {
+        "id": "Y22",
+        "arquivo": "videos/2026-10-20-fei-fei-li/material/youtube/cortes/Y22-imagenet-15-milhoes.mp4",
+        "origem_s": [
+          527.4,
+          534.2
+        ],
+        "assunto": "imagenet"
+      },
+      {
+        "id": "Y23",
+        "arquivo": "videos/2026-10-20-fei-fei-li/material/youtube/cortes/Y23-mapa-167-paises.mp4",
+        "origem_s": [
+          452.3,
+          456.2
+        ],
+        "assunto": "50mil-pessoas"
+      }
+    ]
+  },
+  {
+    "id": "qQrEZ0X4nEY",
+    "url": "https://www.youtube.com/watch?v=qQrEZ0X4nEY",
+    "titulo": "SFPL's 2025 One City One Book : The Worlds I See  Dr. Fei-Fei Li in Conversation with Adam Lashinsky",
+    "canal": "San Francisco Public Library",
+    "publicado_em": "2026-01-01",
+    "duracao_s": 3771.0,
+    "visualizacoes": 2016,
+    "licenca": "Creative Commons Attribution license (reuse allowed)",
+    "fps": 29.97,
+    "arquivo": "videos/2026-10-20-fei-fei-li/material/youtube/qQrEZ0X4nEY-SFPL_s_2025_One_City_One_Book_-_The_Worlds_I_See_Dr._Fei-Fei_Li_in_Conversation.mp4",
+    "proxy": null,
+    "credito": "SFPL's 2025 One City One Book : The Worlds I See  Dr. Fei-Fei Li in Conversation with Adam Lashinsky (San Francisco Public Library)",
+    "uso": "comentario",
+    "baixado_em": "2026-10-14",
+    "linhas": [
+      "L01",
+      "L02",
+      "L03",
+      "L04",
+      "L05"
+    ],
+    "motivo": "SFPL The Worlds I See",
+    "momentos": [
+      {
+        "inicio": "11:44",
+        "fim": "11:52",
+        "inicio_s": 704.0,
+        "fim_s": 712.0,
+        "linha": "L01",
+        "o_que": "Fei-Fei Li em plano fechado, calma, falando"
+      },
+      {
+        "inicio": "14:48",
+        "fim": "14:53",
+        "inicio_s": 888.0,
+        "fim_s": 893.0,
+        "linha": "L03",
+        "o_que": "Chegou aos 15 anos sem inglês (ela conta)"
+      }
+    ],
+    "trechos": [
+      {
+        "id": "E01",
+        "inicio": "11:44",
+        "fim": "11:52",
+        "inicio_s": 704.0,
+        "fim_s": 712.0,
+        "duracao_s": 8.0,
+        "o_que": "Fei-Fei Li, plano fechado, falando na conversa da SFPL",
+        "som": false,
+        "arquivo": "videos/2026-10-20-fei-fei-li/brutos/extras/E01-sfpl-rosto.mp4"
+      },
+      {
+        "id": "E02",
+        "inicio": "14:48",
+        "fim": "14:53",
+        "inicio_s": 888.0,
+        "fim_s": 893.0,
+        "duracao_s": 5.0,
+        "o_que": "Ela conta a chegada aos 15 anos, sem inglês",
+        "som": false,
+        "arquivo": "videos/2026-10-20-fei-fei-li/brutos/extras/E02-sfpl-chegada.mp4"
+      }
+    ],
+    "inserts": []
+  },
+  {
+    "id": "yUE7H2Ux7YY",
+    "url": "https://www.youtube.com/watch?v=yUE7H2Ux7YY",
+    "titulo": "\"Godparents\" of artificial intelligence on the impact of AI",
+    "canal": "CBS Mornings",
+    "publicado_em": "2023-11-09",
+    "duracao_s": 615.0,
+    "visualizacoes": 4946,
+    "licenca": "todos os direitos reservados",
+    "fps": 30.0,
+    "arquivo": "videos/2026-10-20-fei-fei-li/material/youtube/yUE7H2Ux7YY-Godparents_of_artificial_intelligence_on_the_impact_of_AI.mp4",
+    "proxy": null,
+    "credito": "\"Godparents\" of artificial intelligence on the impact of AI (CBS Mornings)",
+    "uso": "comentario",
+    "baixado_em": "2026-10-14",
+    "linhas": [
+      "L02",
+      "L12",
+      "L14"
+    ],
+    "motivo": "CBS Mornings godparents of AI",
+    "momentos": [],
+    "trechos": [],
+    "inserts": [
+      {
+        "id": "Y02",
+        "arquivo": "videos/2026-10-20-fei-fei-li/material/youtube/cortes/Y02-familia-foto-pais-cbs.mp4",
+        "origem_s": [
+          477.2,
+          481.8
+        ],
+        "assunto": "familia"
+      },
+      {
+        "id": "Y06",
+        "arquivo": "videos/2026-10-20-fei-fei-li/material/youtube/cortes/Y06-formatura-cbs.mp4",
+        "origem_s": [
+          508.0,
+          512.2
+        ],
+        "assunto": "princeton"
+      },
+      {
+        "id": "Y08",
+        "arquivo": "videos/2026-10-20-fei-fei-li/material/youtube/cortes/Y08-escritorio-stanford.mp4",
+        "origem_s": [
+          360.6,
+          363.1
+        ],
+        "assunto": "stanford"
+      },
+      {
+        "id": "Y32",
+        "arquivo": "videos/2026-10-20-fei-fei-li/material/youtube/cortes/Y32-biden-evento.mp4",
+        "origem_s": [
+          452.3,
+          459.8
+        ],
+        "assunto": "hoje"
+      },
+      {
+        "id": "Y33",
+        "arquivo": "videos/2026-10-20-fei-fei-li/material/youtube/cortes/Y33-evento-stanford-ai.mp4",
+        "origem_s": [
+          448.0,
+          451.8
+        ],
+        "assunto": "hoje"
+      },
+      {
+        "id": "Y36",
+        "arquivo": "videos/2026-10-20-fei-fei-li/material/youtube/cortes/Y36-alunas-ai4all.mp4",
+        "origem_s": [
+          533.1,
+          538.0
+        ],
+        "assunto": "alunos"
+      },
+      {
+        "id": "Y37",
+        "arquivo": "videos/2026-10-20-fei-fei-li/material/youtube/cortes/Y37-sala-de-aula.mp4",
+        "origem_s": [
+          539.7,
+          543.0
+        ],
+        "assunto": "alunos"
+      },
+      {
+        "id": "Y38",
+        "arquivo": "videos/2026-10-20-fei-fei-li/material/youtube/cortes/Y38-lab-stanford-robos.mp4",
+        "origem_s": [
+          279.6,
+          283.9
+        ],
+        "assunto": "laboratorio"
+      },
+      {
+        "id": "Y39",
+        "arquivo": "videos/2026-10-20-fei-fei-li/material/youtube/cortes/Y39-lab-conversa-com-aluno.mp4",
+        "origem_s": [
+          293.0,
+          297.4
+        ],
+        "assunto": "laboratorio"
+      },
+      {
+        "id": "Y40",
+        "arquivo": "videos/2026-10-20-fei-fei-li/material/youtube/cortes/Y40-vr-headset-lab.mp4",
+        "origem_s": [
+          321.2,
+          330.4
+        ],
+        "assunto": "laboratorio"
+      },
+      {
+        "id": "Y41",
+        "arquivo": "videos/2026-10-20-fei-fei-li/material/youtube/cortes/Y41-em-pe-entre-robos.mp4",
+        "origem_s": [
+          419.2,
+          423.2
+        ],
+        "assunto": "retrato-calmo"
+      }
+    ]
+  },
+  {
+    "id": "y8NtMZ7VGmU",
+    "url": "https://www.youtube.com/watch?v=y8NtMZ7VGmU",
+    "titulo": "With Spatial Intelligence, AI Will Understand the Real World | Fei-Fei Li | TED",
+    "canal": "TED",
+    "publicado_em": "2024-05-16",
+    "duracao_s": 912.0,
+    "visualizacoes": 844275,
+    "licenca": "todos os direitos reservados",
+    "fps": 23.976,
+    "arquivo": "videos/2026-10-20-fei-fei-li/material/youtube/y8NtMZ7VGmU-With_Spatial_Intelligence_AI_Will_Understand_the_Real_World_Fei-Fei_Li_TED.mp4",
+    "proxy": null,
+    "credito": "With Spatial Intelligence, AI Will Understand the Real World | Fei-Fei Li | TED (TED)",
+    "uso": "comentario",
+    "baixado_em": "2026-10-15",
+    "linhas": [],
+    "motivo": "TED 2024 Spatial Intelligence: mundos 3D e World Labs",
+    "momentos": [],
+    "trechos": [],
+    "inserts": [
+      {
+        "id": "Y58",
+        "arquivo": "videos/2026-10-20-fei-fei-li/material/youtube/cortes/Y58-explosao-cambriana-visao.mp4",
+        "origem_s": [
+          68.2,
+          77.8
+        ],
+        "assunto": "ideia-visao"
+      },
+      {
+        "id": "Y59",
+        "arquivo": "videos/2026-10-20-fei-fei-li/material/youtube/cortes/Y59-foto-cavalo-anotada-imagenet.mp4",
+        "origem_s": [
+          182.2,
+          188.5
+        ],
+        "assunto": "imagenet"
+      },
+      {
+        "id": "Y60",
+        "arquivo": "videos/2026-10-20-fei-fei-li/material/youtube/cortes/Y60-grafico-imagenet-alexnet-resnet.mp4",
+        "origem_s": [
+          189.0,
+          198.0
+        ],
+        "assunto": "imagenet"
+      },
+      {
+        "id": "Y61",
+        "arquivo": "videos/2026-10-20-fei-fei-li/material/youtube/cortes/Y61-montagem-usos-da-ia.mp4",
+        "origem_s": [
+          137.2,
+          145.4
+        ],
+        "assunto": "hoje"
+      },
+      {
+        "id": "Y62",
+        "arquivo": "videos/2026-10-20-fei-fei-li/material/youtube/cortes/Y62-texto-para-video-astronauta.mp4",
+        "origem_s": [
+          251.9,
+          261.0
+        ],
+        "assunto": "hoje"
+      },
+      {
+        "id": "Y63",
+        "arquivo": "videos/2026-10-20-fei-fei-li/material/youtube/cortes/Y63-robo-gaveta-sanduiche.mp4",
+        "origem_s": [
+          615.2,
+          624.5
+        ],
+        "assunto": "hoje"
+      },
+      {
+        "id": "Y64",
+        "arquivo": "videos/2026-10-20-fei-fei-li/material/youtube/cortes/Y64-hospital-fotos.mp4",
+        "origem_s": [
+          672.1,
+          681.0
+        ],
+        "assunto": "hoje"
+      },
+      {
+        "id": "Y65",
+        "arquivo": "videos/2026-10-20-fei-fei-li/material/youtube/cortes/Y65-robo-cozinha-cadeira-de-rodas.mp4",
+        "origem_s": [
+          755.8,
+          765.0
+        ],
+        "assunto": "hoje"
+      }
+    ]
+  },
+  {
+    "id": "ITxsc3mgqts",
+    "url": "https://www.youtube.com/watch?v=ITxsc3mgqts",
+    "titulo": "What's Beyond ChatGPT? The 'Godmother of AI' Has a Plan | The Circuit | Bloomberg Originals",
+    "canal": "Bloomberg Originals",
+    "publicado_em": "2026",
+    "duracao_s": 1443.5,
+    "fps": 23.976,
+    "arquivo": "videos/2026-10-20-fei-fei-li/material/youtube/ITxsc3mgqts-Whats_Beyond_ChatGPT_The_Godmother_of_AI_Has_a_Plan_The_Circuit.mp4",
+    "credito": "The Circuit with Emily Chang (Bloomberg Originals)",
+    "motivo": "Vídeo enviado pelo Carlos: entrevista com muitos inserts de arquivo (família, jornal, formatura, lavanderia, ImageNet, TIME, World Labs). Fonte principal dos inserts Y01-Y57.",
+    "visualizacoes": null,
+    "licenca": "todos os direitos reservados",
+    "proxy": null,
+    "uso": "comentario",
+    "baixado_em": "2026-10-15",
+    "linhas": [],
+    "momentos": [],
+    "trechos": [],
+    "inserts": [
+      {
+        "id": "Y01",
+        "arquivo": "videos/2026-10-20-fei-fei-li/material/youtube/cortes/Y01-familia-foto-pais-bb.mp4",
+        "origem_s": [
+          133.3,
+          135.95
+        ],
+        "assunto": "familia"
+      },
+      {
+        "id": "Y03",
+        "arquivo": "videos/2026-10-20-fei-fei-li/material/youtube/cortes/Y03-jornal-american-dream.mp4",
+        "origem_s": [
+          190.65,
+          192.6
+        ],
+        "assunto": "chegada"
+      },
+      {
+        "id": "Y04",
+        "arquivo": "videos/2026-10-20-fei-fei-li/material/youtube/cortes/Y04-lavanderia-foto.mp4",
+        "origem_s": [
+          195.55,
+          197.85
+        ],
+        "assunto": "lavanderia"
+      },
+      {
+        "id": "Y05",
+        "arquivo": "videos/2026-10-20-fei-fei-li/material/youtube/cortes/Y05-formatura-bb.mp4",
+        "origem_s": [
+          193.05,
+          195.1
+        ],
+        "assunto": "princeton"
+      },
+      {
+        "id": "Y07",
+        "arquivo": "videos/2026-10-20-fei-fei-li/material/youtube/cortes/Y07-retrato-jovem-mao-queixo.mp4",
+        "origem_s": [
+          198.4,
+          202.6
+        ],
+        "assunto": "retrato-jovem"
+      },
+      {
+        "id": "Y09",
+        "arquivo": "videos/2026-10-20-fei-fei-li/material/youtube/cortes/Y09-jovem-mesa-slide-rede.mp4",
+        "origem_s": [
+          1322.0,
+          1323.75
+        ],
+        "assunto": "stanford"
+      },
+      {
+        "id": "Y15",
+        "arquivo": "videos/2026-10-20-fei-fei-li/material/youtube/cortes/Y15-mosaico-imagens.mp4",
+        "origem_s": [
+          29.9,
+          35.2
+        ],
+        "assunto": "imagenet"
+      },
+      {
+        "id": "Y17",
+        "arquivo": "videos/2026-10-20-fei-fei-li/material/youtube/cortes/Y17-imagenet-categorias-arvore.mp4",
+        "origem_s": [
+          269.8,
+          277.3
+        ],
+        "assunto": "imagenet"
+      },
+      {
+        "id": "Y18",
+        "arquivo": "videos/2026-10-20-fei-fei-li/material/youtube/cortes/Y18-laboratorio-alunos-robo.mp4",
+        "origem_s": [
+          266.95,
+          269.35
+        ],
+        "assunto": "imagenet"
+      },
+      {
+        "id": "Y19",
+        "arquivo": "videos/2026-10-20-fei-fei-li/material/youtube/cortes/Y19-urso-de-pelucia-anotado.mp4",
+        "origem_s": [
+          277.9,
+          281.6
+        ],
+        "assunto": "imagenet"
+      },
+      {
+        "id": "Y20",
+        "arquivo": "videos/2026-10-20-fei-fei-li/material/youtube/cortes/Y20-mosaicos-milhoes.mp4",
+        "origem_s": [
+          291.1,
+          295.0
+        ],
+        "assunto": "imagenet"
+      },
+      {
+        "id": "Y21",
+        "arquivo": "videos/2026-10-20-fei-fei-li/material/youtube/cortes/Y21-conchas-sinos-dificeis.mp4",
+        "origem_s": [
+          295.4,
+          302.0
+        ],
+        "assunto": "imagenet"
+      },
+      {
+        "id": "Y24",
+        "arquivo": "videos/2026-10-20-fei-fei-li/material/youtube/cortes/Y24-hinton-ilya-alex-foto.mp4",
+        "origem_s": [
+          302.4,
+          309.0
+        ],
+        "assunto": "2012-toronto"
+      },
+      {
+        "id": "Y25",
+        "arquivo": "videos/2026-10-20-fei-fei-li/material/youtube/cortes/Y25-artigo-alexnet.mp4",
+        "origem_s": [
+          309.4,
+          312.0
+        ],
+        "assunto": "2012-toronto"
+      },
+      {
+        "id": "Y26",
+        "arquivo": "videos/2026-10-20-fei-fei-li/material/youtube/cortes/Y26-dados-redes-gpu-ia.mp4",
+        "origem_s": [
+          312.4,
+          320.9
+        ],
+        "assunto": "2012-toronto"
+      },
+      {
+        "id": "Y27",
+        "arquivo": "videos/2026-10-20-fei-fei-li/material/youtube/cortes/Y27-capa-time-pessoa-do-ano.mp4",
+        "origem_s": [
+          323.6,
+          329.95
+        ],
+        "assunto": "2012-toronto"
+      },
+      {
+        "id": "Y28",
+        "arquivo": "videos/2026-10-20-fei-fei-li/material/youtube/cortes/Y28-almoco-no-arranha-ceu.mp4",
+        "origem_s": [
+          334.3,
+          337.8
+        ],
+        "assunto": "2012-toronto"
+      },
+      {
+        "id": "Y29",
+        "arquivo": "videos/2026-10-20-fei-fei-li/material/youtube/cortes/Y29-bloomberg-tech-entrevista.mp4",
+        "origem_s": [
+          360.3,
+          366.2
+        ],
+        "assunto": "stanford"
+      },
+      {
+        "id": "Y30",
+        "arquivo": "videos/2026-10-20-fei-fei-li/material/youtube/cortes/Y30-bloomberg-google-cloud.mp4",
+        "origem_s": [
+          1066.0,
+          1070.1
+        ],
+        "assunto": "google"
+      },
+      {
+        "id": "Y31",
+        "arquivo": "videos/2026-10-20-fei-fei-li/material/youtube/cortes/Y31-audiencia-congresso.mp4",
+        "origem_s": [
+          1077.0,
+          1084.7
+        ],
+        "assunto": "hoje"
+      },
+      {
+        "id": "Y34",
+        "arquivo": "videos/2026-10-20-fei-fei-li/material/youtube/cortes/Y34-cupula-ia-paris.mp4",
+        "origem_s": [
+          22.9,
+          25.7
+        ],
+        "assunto": "hoje"
+      },
+      {
+        "id": "Y35",
+        "arquivo": "videos/2026-10-20-fei-fei-li/material/youtube/cortes/Y35-premio-webby.mp4",
+        "origem_s": [
+          35.7,
+          37.8
+        ],
+        "assunto": "hoje"
+      },
+      {
+        "id": "Y42",
+        "arquivo": "videos/2026-10-20-fei-fei-li/material/youtube/cortes/Y42-mundo-gerado-robo-simulacao.mp4",
+        "origem_s": [
+          467.4,
+          473.9
+        ],
+        "assunto": "world-labs"
+      },
+      {
+        "id": "Y43",
+        "arquivo": "videos/2026-10-20-fei-fei-li/material/youtube/cortes/Y43-inteligencia-espacial-render-simular-planejar.mp4",
+        "origem_s": [
+          520.0,
+          526.8
+        ],
+        "assunto": "world-labs"
+      },
+      {
+        "id": "Y44",
+        "arquivo": "videos/2026-10-20-fei-fei-li/material/youtube/cortes/Y44-mundos-submarino-panda-urso.mp4",
+        "origem_s": [
+          527.3,
+          537.0
+        ],
+        "assunto": "world-labs"
+      },
+      {
+        "id": "Y45",
+        "arquivo": "videos/2026-10-20-fei-fei-li/material/youtube/cortes/Y45-robo-cozinha-simulacao.mp4",
+        "origem_s": [
+          543.8,
+          552.6
+        ],
+        "assunto": "world-labs"
+      },
+      {
+        "id": "Y46",
+        "arquivo": "videos/2026-10-20-fei-fei-li/material/youtube/cortes/Y46-poster-explore-marble.mp4",
+        "origem_s": [
+          575.95,
+          579.1
+        ],
+        "assunto": "world-labs"
+      },
+      {
+        "id": "Y47",
+        "arquivo": "videos/2026-10-20-fei-fei-li/material/youtube/cortes/Y47-marble-mundos-3d.mp4",
+        "origem_s": [
+          579.6,
+          586.3
+        ],
+        "assunto": "world-labs"
+      },
+      {
+        "id": "Y48",
+        "arquivo": "videos/2026-10-20-fei-fei-li/material/youtube/cortes/Y48-marble-no-laptop.mp4",
+        "origem_s": [
+          591.4,
+          599.0
+        ],
+        "assunto": "world-labs"
+      },
+      {
+        "id": "Y49",
+        "arquivo": "videos/2026-10-20-fei-fei-li/material/youtube/cortes/Y49-producao-virtual-cinema.mp4",
+        "origem_s": [
+          623.2,
+          627.2
+        ],
+        "assunto": "world-labs"
+      },
+      {
+        "id": "Y50",
+        "arquivo": "videos/2026-10-20-fei-fei-li/material/youtube/cortes/Y50-castelo-salao-3d.mp4",
+        "origem_s": [
+          664.9,
+          670.0
+        ],
+        "assunto": "world-labs"
+      },
+      {
+        "id": "Y51",
+        "arquivo": "videos/2026-10-20-fei-fei-li/material/youtube/cortes/Y51-robos-simulacao-3d.mp4",
+        "origem_s": [
+          788.8,
+          795.2
+        ],
+        "assunto": "world-labs"
+      },
+      {
+        "id": "Y52",
+        "arquivo": "videos/2026-10-20-fei-fei-li/material/youtube/cortes/Y52-retrato-calmo-parque-sorrindo.mp4",
+        "origem_s": [
+          136.45,
+          139.4
+        ],
+        "assunto": "retrato-calmo"
+      },
+      {
+        "id": "Y53",
+        "arquivo": "videos/2026-10-20-fei-fei-li/material/youtube/cortes/Y53-retrato-calmo-parque-falando.mp4",
+        "origem_s": [
+          207.8,
+          211.4
+        ],
+        "assunto": "retrato-calmo"
+      },
+      {
+        "id": "Y54",
+        "arquivo": "videos/2026-10-20-fei-fei-li/material/youtube/cortes/Y54-retrato-calmo-sofa.mp4",
+        "origem_s": [
+          817.3,
+          822.6
+        ],
+        "assunto": "retrato-calmo"
+      },
+      {
+        "id": "Y55",
+        "arquivo": "videos/2026-10-20-fei-fei-li/material/youtube/cortes/Y55-retrato-calmo-sofa-2.mp4",
+        "origem_s": [
+          1301.05,
+          1306.7
+        ],
+        "assunto": "retrato-calmo"
+      },
+      {
+        "id": "Y56",
+        "arquivo": "videos/2026-10-20-fei-fei-li/material/youtube/cortes/Y56-andando-parque-sf.mp4",
+        "origem_s": [
+          16.6,
+          19.2
+        ],
+        "assunto": "retrato-calmo"
+      },
+      {
+        "id": "Y57",
+        "arquivo": "videos/2026-10-20-fei-fei-li/material/youtube/cortes/Y57-tweet-livro-chegou.mp4",
+        "origem_s": [
+          1324.15,
+          1326.5
+        ],
+        "assunto": "hoje"
+      }
+    ]
+  },
+  {
+    "id": "FECZcSjOkRE",
+    "url": "https://www.youtube.com/watch?v=FECZcSjOkRE",
+    "titulo": "How One Woman Is Pushing the Boundaries of A.I. | Fei-Fei Li",
+    "canal": "National Geographic Society",
+    "publicado_em": "",
+    "duracao_s": 89.8,
+    "fps": 23.976,
+    "arquivo": "videos/2026-10-20-fei-fei-li/material/youtube/FECZcSjOkRE-How_One_Woman_Is_Pushing_the_Boundaries_of_A.I._Fei-Fei_Li.mp4",
+    "credito": "National Geographic (fotos de Philip Montgomery)",
+    "motivo": "Ensaio de fotos P&B dela no laboratório e com robôs (verticais, 'retrato calmo').",
+    "visualizacoes": null,
+    "licenca": "todos os direitos reservados",
+    "proxy": null,
+    "uso": "comentario",
+    "baixado_em": "2026-10-15",
+    "linhas": [],
+    "momentos": [],
+    "trechos": [],
+    "inserts": [
+      {
+        "id": "Y66",
+        "arquivo": "videos/2026-10-20-fei-fei-li/material/youtube/cortes/Y66-retrato-mao-no-rosto.mp4",
+        "origem_s": [
+          3.6,
+          8.7
+        ],
+        "assunto": "retrato-calmo"
+      },
+      {
+        "id": "Y67",
+        "arquivo": "videos/2026-10-20-fei-fei-li/material/youtube/cortes/Y67-retrato-olhos-fechados.mp4",
+        "origem_s": [
+          9.1,
+          14.3
+        ],
+        "assunto": "retrato-calmo"
+      },
+      {
+        "id": "Y68",
+        "arquivo": "videos/2026-10-20-fei-fei-li/material/youtube/cortes/Y68-quadro-branco-bracos-cruzados.mp4",
+        "origem_s": [
+          14.7,
+          17.2
+        ],
+        "assunto": "laboratorio"
+      },
+      {
+        "id": "Y69",
+        "arquivo": "videos/2026-10-20-fei-fei-li/material/youtube/cortes/Y69-escrevendo-no-quadro.mp4",
+        "origem_s": [
+          17.5,
+          20.0
+        ],
+        "assunto": "laboratorio"
+      },
+      {
+        "id": "Y70",
+        "arquivo": "videos/2026-10-20-fei-fei-li/material/youtube/cortes/Y70-lendo-papeis-no-laboratorio.mp4",
+        "origem_s": [
+          20.3,
+          22.8
+        ],
+        "assunto": "laboratorio"
+      },
+      {
+        "id": "Y71",
+        "arquivo": "videos/2026-10-20-fei-fei-li/material/youtube/cortes/Y71-bracos-roboticos-pensativa.mp4",
+        "origem_s": [
+          23.1,
+          25.6
+        ],
+        "assunto": "laboratorio"
+      },
+      {
+        "id": "Y72",
+        "arquivo": "videos/2026-10-20-fei-fei-li/material/youtube/cortes/Y72-laboratorio-robos-plano-aberto.mp4",
+        "origem_s": [
+          25.9,
+          31.2
+        ],
+        "assunto": "laboratorio"
+      },
+      {
+        "id": "Y73",
+        "arquivo": "videos/2026-10-20-fei-fei-li/material/youtube/cortes/Y73-duas-fotos-com-robo.mp4",
+        "origem_s": [
+          31.6,
+          36.9
+        ],
+        "assunto": "laboratorio"
+      },
+      {
+        "id": "Y74",
+        "arquivo": "videos/2026-10-20-fei-fei-li/material/youtube/cortes/Y74-com-robo-grande.mp4",
+        "origem_s": [
+          37.2,
+          42.5
+        ],
+        "assunto": "laboratorio"
+      },
+      {
+        "id": "Y75",
+        "arquivo": "videos/2026-10-20-fei-fei-li/material/youtube/cortes/Y75-grupo-de-alunos.mp4",
+        "origem_s": [
+          45.7,
+          50.3
+        ],
+        "assunto": "alunos"
+      }
+    ]
+  }
+]

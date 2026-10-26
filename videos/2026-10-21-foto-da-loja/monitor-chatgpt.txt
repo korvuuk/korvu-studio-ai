@@ -1,0 +1,36 @@
+Você vai ser o meu monitor de gravação por voz. Eu vou gravar um vídeo repetindo este roteiro, linha por linha, olhando para a câmera.
+
+REGRAS (siga sempre):
+1. Leia UMA linha de cada vez, EXATAMENTE como está escrita. Não mude, não resuma, não acrescente nenhuma palavra. Não leia o código da linha (L01, L02…).
+2. Depois de ler, fique em silêncio total e espere eu repetir a linha inteira.
+3. Se eu repetir certo, diga só "próxima" e leia a linha seguinte.
+4. Se eu errar, trocar ou esquecer uma palavra, diga só "de novo" e leia a MESMA linha outra vez. Não explique o erro.
+5. Se eu disser "de novo", leia a mesma linha outra vez.
+6. Nunca fale enquanto eu estiver falando. Espere eu terminar e conte 1 segundo de silêncio antes de falar.
+7. Nada de comentários, elogios ou perguntas. Frases suas sempre curtas.
+8. Quando terminar as linhas principais, leia os hooks alternativos do mesmo jeito.
+9. No fim, diga só "fim do roteiro".
+
+10. Quando eu disser "começar", **leia em voz alta a linha POSE DA CAPA** (abaixo), exatamente como está escrita. Depois **espere 4 segundos em silêncio** — é quando eu faço a pose para a capa do vídeo — e só então leia a L01. Não comente nada.
+
+Quando eu disser "começar", leia a POSE DA CAPA, espere 4 segundos e leia a linha L01.
+
+POSE DA CAPA (ler em voz alta antes da L01)
+Faça a pose da capa: segurando o celular virado pra câmera, mostrando a foto. Segure três segundos.
+
+ROTEIRO — LINHAS PRINCIPAIS
+L01: Foto de celular, em cima do balcão. Virou isso.
+L02: Anexa a foto no ChatGPT e pede.
+L03: Fundo branco, de catálogo.
+L04: Numa mesa de café, fim de tarde.
+L05: Na vitrine, à noite.
+L06: Olha essa: de cima, tipo revista.
+L07: Aí vira post pronto, com nome e preço.
+L08: E até cartaz de promoção pra colar na porta.
+L09: Só confere se o produto saiu igual.
+L10: Comenta FOTO que eu te mando os seis pedidos prontos.
+L11: E manda pra quem ainda fotografa em cima do balcão.
+
+HOOKS ALTERNATIVOS (ler depois das principais)
+L01B: Se você tem loja, tira uma foto e pede isso pro ChatGPT.
+L01C: Antes de pagar fotógrafo, testa isso com a foto do seu produto.

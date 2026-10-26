@@ -1,0 +1,14 @@
+# capturar.sh · 2026-10-23T15:58:01.756Z
+# alvo	largura pedida	innerWidth	scrollWidth	altura	HTTP	png	passa da borda
+/	1440	1440	1440	1738	200	/Users/teste/Documents/CONTENT AI/painel/trabalho/engenheiro-backend/capturas-tokens-2026-10-23/inicio-1440.png	
+/	375	375	375	3014	200	/Users/teste/Documents/CONTENT AI/painel/trabalho/engenheiro-backend/capturas-tokens-2026-10-23/inicio-375.png	
+/equipe	1440	1440	1440	1941	200	/Users/teste/Documents/CONTENT AI/painel/trabalho/engenheiro-backend/capturas-tokens-2026-10-23/equipe-1440.png	
+/equipe	375	375	375	4085	200	/Users/teste/Documents/CONTENT AI/painel/trabalho/engenheiro-backend/capturas-tokens-2026-10-23/equipe-375.png	
+/equipe/portao-imagem	1440	1440	1440	2114	200	/Users/teste/Documents/CONTENT AI/painel/trabalho/engenheiro-backend/capturas-tokens-2026-10-23/equipe-portao-imagem-1440.png	
+/equipe/portao-imagem	375	375	375	2693	200	/Users/teste/Documents/CONTENT AI/painel/trabalho/engenheiro-backend/capturas-tokens-2026-10-23/equipe-portao-imagem-375.png	
+/equipe/contratar	1440	1440	1440	989	200	/Users/teste/Documents/CONTENT AI/painel/trabalho/engenheiro-backend/capturas-tokens-2026-10-23/equipe-contratar-1440.png	
+/equipe/contratar	375	375	375	1645	200	/Users/teste/Documents/CONTENT AI/painel/trabalho/engenheiro-backend/capturas-tokens-2026-10-23/equipe-contratar-375.png	
+/videos	1440	1440	1440	1594	200	/Users/teste/Documents/CONTENT AI/painel/trabalho/engenheiro-backend/capturas-tokens-2026-10-23/videos-1440.png	
+/videos	375	375	375	1634	200	/Users/teste/Documents/CONTENT AI/painel/trabalho/engenheiro-backend/capturas-tokens-2026-10-23/videos-375.png	
+/desempenho	1440	1440	1440	2729	200	/Users/teste/Documents/CONTENT AI/painel/trabalho/engenheiro-backend/capturas-tokens-2026-10-23/desempenho-1440.png	
+/desempenho	375	375	375	4429	200	/Users/teste/Documents/CONTENT AI/painel/trabalho/engenheiro-backend/capturas-tokens-2026-10-23/desempenho-375.png	

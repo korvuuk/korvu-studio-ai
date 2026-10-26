@@ -1,0 +1,8 @@
+# capturar.sh · 2026-10-23T14:49:04.619Z
+# alvo	largura pedida	innerWidth	scrollWidth	altura	HTTP	png	passa da borda
+painel/design/previas/chip.html	1440	1440	1440	1314	200	/Users/teste/Documents/CONTENT AI/painel/trabalho/designer/capturas-v6-volta3/chip-1440.png	
+painel/design/previas/chip.html	375	375	375	2075	200	/Users/teste/Documents/CONTENT AI/painel/trabalho/designer/capturas-v6-volta3/chip-375.png	
+painel/design/previas/portao.html	1440	1440	1440	1668	200	/Users/teste/Documents/CONTENT AI/painel/trabalho/designer/capturas-v6-volta3/portao-1440.png	
+painel/design/previas/portao.html	375	375	375	2064	200	/Users/teste/Documents/CONTENT AI/painel/trabalho/designer/capturas-v6-volta3/portao-375.png	
+painel/design/previas/calendario.html	1440	1440	1440	1178	200	/Users/teste/Documents/CONTENT AI/painel/trabalho/designer/capturas-v6-volta3/calendario-1440.png	
+painel/design/previas/calendario.html	375	375	375	2053	200	/Users/teste/Documents/CONTENT AI/painel/trabalho/designer/capturas-v6-volta3/calendario-375.png	

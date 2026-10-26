@@ -1,0 +1,20 @@
+# capturar.sh · 2026-10-25T22:02:41.745Z
+# alvo	largura pedida	innerWidth	scrollWidth	altura	HTTP	png	passa da borda
+/	1440	1440	1440	1685	200	/Users/teste/Documents/CONTENT AI/painel/portoes/capturas-f466c89d6bff/inicio-1440.png	
+/	375	375	375	3534	200	/Users/teste/Documents/CONTENT AI/painel/portoes/capturas-f466c89d6bff/inicio-375.png	
+/equipe	1440	1440	1440	1751	200	/Users/teste/Documents/CONTENT AI/painel/portoes/capturas-f466c89d6bff/equipe-1440.png	
+/equipe	375	375	375	4087	200	/Users/teste/Documents/CONTENT AI/painel/portoes/capturas-f466c89d6bff/equipe-375.png	
+/producao	1440	1440	1440	1534	200	/Users/teste/Documents/CONTENT AI/painel/portoes/capturas-f466c89d6bff/producao-1440.png	
+/producao	375	375	375	2322	200	/Users/teste/Documents/CONTENT AI/painel/portoes/capturas-f466c89d6bff/producao-375.png	
+/calendario	1440	1440	1440	1512	200	/Users/teste/Documents/CONTENT AI/painel/portoes/capturas-f466c89d6bff/calendario-1440.png	
+/calendario	375	375	375	2331	200	/Users/teste/Documents/CONTENT AI/painel/portoes/capturas-f466c89d6bff/calendario-375.png	
+/desempenho	1440	1440	1440	1635	200	/Users/teste/Documents/CONTENT AI/painel/portoes/capturas-f466c89d6bff/desempenho-1440.png	
+/desempenho	375	375	375	2992	200	/Users/teste/Documents/CONTENT AI/painel/portoes/capturas-f466c89d6bff/desempenho-375.png	
+/biblioteca	1440	1440	1440	1823	200	/Users/teste/Documents/CONTENT AI/painel/portoes/capturas-f466c89d6bff/biblioteca-1440.png	
+/biblioteca	375	375	375	3687	200	/Users/teste/Documents/CONTENT AI/painel/portoes/capturas-f466c89d6bff/biblioteca-375.png	
+/tokens	1440	1440	1440	2129	200	/Users/teste/Documents/CONTENT AI/painel/portoes/capturas-f466c89d6bff/tokens-1440.png	
+/tokens	375	375	375	3683	200	/Users/teste/Documents/CONTENT AI/painel/portoes/capturas-f466c89d6bff/tokens-375.png	
+/equipe/diretor	1440	1440	1440	900	200	/Users/teste/Documents/CONTENT AI/painel/portoes/capturas-f466c89d6bff/equipe-diretor-1440.png	
+/equipe/diretor	375	375	375	1189	200	/Users/teste/Documents/CONTENT AI/painel/portoes/capturas-f466c89d6bff/equipe-diretor-375.png	
+/nao-existe	1440	1440	1440	900	404	/Users/teste/Documents/CONTENT AI/painel/portoes/capturas-f466c89d6bff/nao-existe-1440.png	
+/nao-existe	375	375	375	812	404	/Users/teste/Documents/CONTENT AI/painel/portoes/capturas-f466c89d6bff/nao-existe-375.png	

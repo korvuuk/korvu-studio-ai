@@ -1,0 +1,8 @@
+# capturar.sh · 2026-10-24T22:11:39.441Z
+# alvo	largura pedida	innerWidth	scrollWidth	altura	HTTP	png	passa da borda
+/biblioteca	1440	1440	1440	900	200	/Users/teste/Documents/CONTENT AI/painel/trabalho/frontend/telas-v3/biblioteca-1440.png	
+/biblioteca	375	375	375	1102	200	/Users/teste/Documents/CONTENT AI/painel/trabalho/frontend/telas-v3/biblioteca-375.png	
+/calendario	1440	1440	1440	1512	200	/Users/teste/Documents/CONTENT AI/painel/trabalho/frontend/telas-v3/calendario-1440.png	
+/calendario	375	375	375	2355	200	/Users/teste/Documents/CONTENT AI/painel/trabalho/frontend/telas-v3/calendario-375.png	
+/producao	1440	1440	1440	1552	200	/Users/teste/Documents/CONTENT AI/painel/trabalho/frontend/telas-v3/producao-1440.png	
+/producao	375	375	375	2340	200	/Users/teste/Documents/CONTENT AI/painel/trabalho/frontend/telas-v3/producao-375.png	

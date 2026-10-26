@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!--
+  TEMPLATE — não copiar à mão. `scripts/launchd/instalar.sh` substitui __UV__, __PROJETO__ e __HOME__
+  e instala em ~/Library/LaunchAgents/uk.korvu.metricas.plist.
+  Corre "uv run python scripts/metricas.py" 1×/dia às 09:30 na pasta do projeto: lê as métricas
+  (só leitura) dos Reels publicados há ≥ 5 dias que ainda não têm leitura completa.
+-->
+<plist version="1.0">
+<dict>
+  <key>Label</key>
+  <string>uk.korvu.metricas</string>
+
+  <key>ProgramArguments</key>
+  <array>
+    <string>__UV__</string>
+    <string>run</string>
+    <string>--quiet</string>
+    <string>python</string>
+    <string>scripts/metricas.py</string>
+  </array>
+
+  <key>WorkingDirectory</key>
+  <string>__PROJETO__</string>
+
+  <key>StartCalendarInterval</key>
+  <dict>
+    <key>Hour</key>
+    <integer>9</integer>
+    <key>Minute</key>
+    <integer>30</integer>
+  </dict>
+
+  <key>RunAtLoad</key>
+  <false/>
+
+  <key>ProcessType</key>
+  <string>Background</string>
+
+  <key>EnvironmentVariables</key>
+  <dict>
+    <key>PATH</key>
+    <string>/opt/homebrew/bin:/usr/local/bin:/usr/bin:/bin:__HOME__/bin:__HOME__/.local/bin</string>
+    <key>LANG</key>
+    <string>pt_BR.UTF-8</string>
+    <key>PYTHONUNBUFFERED</key>
+    <string>1</string>
+  </dict>
+
+  <key>StandardOutPath</key>
+  <string>__PROJETO__/_controle/logs/metricas.log</string>
+  <key>StandardErrorPath</key>
+  <string>__PROJETO__/_controle/logs/metricas.log</string>
+</dict>
+</plist>

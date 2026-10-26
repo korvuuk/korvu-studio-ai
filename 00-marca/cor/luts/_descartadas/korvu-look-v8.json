@@ -1,0 +1,27 @@
+{
+  "versao": "v8",
+  "tipo": "parametrico",
+  "nome": "WAY v5 + pele corrigida",
+  "aprovada": false,
+  "criado_em": "2026-09-16",
+  "parametros": {
+    "nome": "WAY v5 + pele corrigida",
+    "sat": 1.0,
+    "pele_sat": 1.06,
+    "pele_calor": 0.022,
+    "pele_centro": 35.0,
+    "pele_sigma": 34.0,
+    "sombra": "0,0,0",
+    "alta": "0,0,0",
+    "pele_croma_min": 0.006,
+    "pele_croma_rampa": 0.03,
+    "neutro": "0,0,0",
+    "neutro_croma": 0.06,
+    "exposicao": 0.0,
+    "contraste": 1.0,
+    "pivo": 0.42,
+    "preto": 0.0,
+    "branco": 1.0,
+    "base": "00-marca/cor/luts/korvu-look-v5.cube"
+  }
+}

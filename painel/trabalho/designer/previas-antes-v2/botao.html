@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Botão · korvu. painel — design system</title>
+<link rel="stylesheet" href="../tokens.css">
+<link rel="stylesheet" href="../componentes.css">
+<link rel="stylesheet" href="../acrescimos.css">
+<link rel="stylesheet" href="previa.css">
+<script src="../korvu.js"></script>
+<script src="previa.js" defer></script>
+</head>
+<body>
+<main class="pv">
+<header class="pv-head">
+<p class="k-cap">Ações · <span class="k-mono">k-btn</span></p>
+<h1 class="k-h2">Botão</h1>
+<p class="pv-lead">Botões de 36px, raio 8, rótulo 13px semibold.</p>
+</header>
+<section class="pv-sec">
+<h2 class="pv-sec-t k-cap">Variantes</h2>
+<div class="k-row"><button class="k-btn k-btn-primary"><span data-icon="plus" data-size="16"></span>Novo vídeo</button><button class="k-btn k-btn-secondary">Exportar</button><button class="k-btn k-btn-ghost">Cancelar</button><button class="k-btn k-btn-secondary k-btn-icon" aria-label="Filtrar"><span data-icon="filter" data-size="16"></span></button><button class="k-btn k-btn-ghost k-btn-icon" aria-label="Mais ações"><span data-icon="more" data-size="18"></span></button><button class="k-btn k-btn-dark"><span data-icon="check" data-size="16"></span>Aprovar portão</button></div>
+</section>
+<section class="pv-sec">
+<h2 class="pv-sec-t k-cap">Estados</h2>
+<div class="pv-fila"><div><button class="k-btn k-btn-primary is-hover"><span data-icon="plus" data-size="16"></span>Novo vídeo</button><span class="pv-cap">primário · hover</span></div><div><button class="k-btn k-btn-secondary is-hover">Exportar</button><span class="pv-cap">secundário · hover</span></div><div><button class="k-btn k-btn-ghost is-hover">Cancelar</button><span class="pv-cap">fantasma · hover</span></div><div><button class="k-btn k-btn-primary" style="outline:2px solid var(--focus);outline-offset:2px">Novo vídeo</button><span class="pv-cap">foco pelo teclado (anel 2px + 2px)</span></div><div><button class="k-btn k-btn-primary" disabled>Aprovar e agendar</button><span class="pv-cap">desativado</span></div><div><button class="k-btn k-btn-secondary k-btn-sm">Ver todos</button><span class="pv-cap">pequeno · 28px</span></div></div>
+</section>
+<section class="pv-sec">
+<h2 class="pv-sec-t k-cap">Quando usar</h2>
+<ul class="pv-lista"><li><b>Primário</b> (k-btn-primary): UMA ação principal por vista. Fundo accent, texto on-accent (#111) — 5,68:1; branco daria 3,33:1 e é proibido.</li><li><b>Secundário</b>: ações de apoio (Exportar, Pedir ajustes). <b>Fantasma</b>: terciárias e cancelar. <b>Escuro</b>: confirmação de portão — a decisão do Carlos.</li><li><b>Só ícone</b>: k-btn-icon com ícone 16px e <b>aria-label</b> sempre.</li><li><b>k-btn-sm</b> (28px) só em tabelas e barras densas.</li></ul>
+</section>
+<footer class="pv-foot"><span>Regras: <a href="../design-system.md">design-system.md</a></span> <a href="index.html">Todas as prévias</a></footer>
+</main>
+</body>
+</html>

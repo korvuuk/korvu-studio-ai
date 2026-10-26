@@ -1,0 +1,3 @@
+# capturar.sh · 2026-10-23T14:19:29.864Z
+# alvo	largura pedida	innerWidth	scrollWidth	altura	HTTP	png	passa da borda
+painel/design/previas/fundamentos.html	375	375	375	6077	200	/Users/teste/Documents/CONTENT AI/painel/portoes/capturas-d796febb374e/fatias/fundamentos-375.png	

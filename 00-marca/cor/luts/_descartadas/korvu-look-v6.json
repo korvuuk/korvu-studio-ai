@@ -1,0 +1,21 @@
+{
+  "versao": "v6",
+  "tipo": "parametrico",
+  "nome": "WAY interpretado",
+  "aprovada": false,
+  "criado_em": "2026-09-15",
+  "parametros": {
+    "nome": "WAY interpretado",
+    "sat": 0.72,
+    "pele_sat": 1.0,
+    "pele_calor": 0.012,
+    "pele_centro": 35.0,
+    "pele_sigma": 28.0,
+    "sombra": "-0.030,0.012,0.004",
+    "alta": "0.010,0.004,-0.010",
+    "contraste": 1.18,
+    "pivo": 0.42,
+    "preto": 0.025,
+    "branco": 0.95
+  }
+}

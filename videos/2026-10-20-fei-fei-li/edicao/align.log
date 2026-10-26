@@ -1,0 +1,134 @@
+locutores: local · IA identificada (confiança 0.927) · 212.92s de fala da IA fora dos takes · sobreposições 0
+LINHA  STATUS       ESCOLHIDO    SIM TAKES  IA  DETALHES
+L01    [OK]         L01-T1      0.82     1   2  escolhido:muleta
+L02    [OK]         L02-T1      1.00     1   1  
+L03    [OK]         L03-T2      1.00     2   1  T1:0.86
+L04    [OK]         L04-T1      0.83     1   2  escolhido:muleta,pausa_interna
+L05    [OK]         L05-T1      1.00     1   1  
+L06    [PARAFRASE]  L06-T2      0.50     2   2  escolhido:muleta,pausa_interna | T1:0.53(muleta,pausa_interna,final_cortado)
+L07    [OK]         L07-T1      1.00     1   1  
+L08    [PARAFRASE]  L08-T1      0.60     1   1  escolhido:muleta,pausa_interna,sem_ancora
+L09    [PARAFRASE]  L09-T2      0.77     2   2  escolhido:muleta | T1:0.77(muleta,pausa_interna)
+L10    [PARAFRASE]  L10-T1      0.70     1   3  
+L11    [OK]         L11-T6      1.00     6   2  escolhido:pausa_interna | T1:0.46(pausa_interna,final_cortado) | T2:0.75 | T3:0.75(pausa_interna) | T4:0.83(pausa_interna,fala_ia_interna) | T5:1.00
+L12    [PARAFRASE]  L12-T2      0.67     2   2  escolhido:pausa_interna | T1:0.56
+L13    [OK]         L13-T3      1.00     3   2  T1:0.75(muleta) | T2:0.91
+L14    [PARAFRASE]  L14-T3      0.55     3   2  escolhido:pausa_interna | T1:0.42(final_cortado) | T2:0.16(false_start)
+L15    [PARAFRASE]  L15-T4      0.67     4   1  escolhido:pausa_interna | T1:0.60(pausa_interna,sem_ancora) | T2:0.73(pausa_interna,sem_ancora) | T3:0.53(pausa_interna)
+L16    [OK]         L16-T1      1.00     1   1  
+L17    [OK]         L17-T1      0.88     1   2  
+L18    [OK]         L18-T1      0.86     1   1  
+L19    [OK]         L19-T2      0.81     4   1  escolhido:muleta,pausa_interna | T1:0.55(muleta,final_cortado) | T3:0.45(muleta,pausa_interna,final_cortado) | T4:0.76(muleta,pausa_interna)
+L20    [OK]         L20-T1      1.00     1   1  
+L21    [OK]         L21-T1      1.00     1   2  
+L22    [OK]         L22-T4      0.83     4   1  escolhido:muleta | T1:0.56(pausa_interna) | T2:0.72(muleta) | T3:0.78(muleta)
+L23    [OK]         L23-T1      0.80     1   1  
+L24    [OK]         L24-T1      1.00     1   1  
+L25    [PARAFRASE]  L25-T1      0.75     1   1  
+L26    [OK]         L26-T1      0.83     1   1  escolhido:muleta
+L27    [OK]         L27-T1      1.00     1   1  
+L28    [OK]         L28-T2      0.80     2   2  T1:0.57(muleta)
+L29    [PARAFRASE]  L29-T5      0.53     5   2  escolhido:pausa_interna | T1:0.53 | T2:0.58(muleta,pausa_interna) | T3:0.79(pausa_interna,sem_ancora) | T4:0.26(false_start)
+L30    [OK]         L30-T1      1.00     1   1  
+L31    [OK]         L31-T7      0.92     7   2  escolhido:pausa_interna | T1:0.54 | T2:0.69 | T3:0.23(false_start) | T4:0.61(final_cortado) | T5:1.00 | T6:0.93(pausa_interna)
+L32    [PARAFRASE]  L32-T3      0.46     3   1  escolhido:pausa_interna,final_cortado | T1:0.46(false_start) | T2:0.55(final_cortado)
+L33    [PARAFRASE]  L33-T1      0.78     1   1  escolhido:muleta,sem_ancora
+L34    [OK]         L34-T1      1.00     1   1  
+L01B   [PARAFRASE]  L01B-T1     0.67     1   1  escolhido:pausa_interna,sem_ancora (alt de L01)
+L01C   [PARAFRASE]  L01C-T1     0.40     1   1  escolhido:sem_ancora (alt de L01)
+resumo: ok 23 · revisar 0 · parafrase 11 · faltando 0 · trechos não mapeados 42 · separadores 0 · leituras da IA 51 · fala da IA (monitor) 52
+   não mapeado [praq0987 0.28-1.98]: Você já tem o roteiro, ok?
+   não mapeado [praq0987 5.58-6.44]: Tá com o roteiro pronto?
+   não mapeado [praq0987 10.16-11.36]: Ok. Hum.
+   não mapeado [praq0987 21.74-24.11]: Ok, podemos começar? Tudo pronto?
+   não mapeado [praq0987 60.50-60.60]: Ok.
+   não mapeado [praq0987 62.14-63.04]: Pronto, podemos ir.
+   não mapeado [praq0987 71.60-72.30]: Imagina--
+   não mapeado [praq0987 178.58-179.20]: os ficais.
+   não mapeado [praq0987 257.90-261.46]: Fei-Fei Li estudou Física em Princeton.
+   não mapeado [praq0987 272.56-274.88]: Fei-Fei estudou em Princeton.
+   não mapeado [praq0987 329.66-330.12]: E a partir
+   não mapeado [praq0987 507.36-516.30]: Foi aí que ela tem uma sacada. Ela pensou assim: "Por que, então, que um computador não pode fazer o mesmo?"
+   não mapeado [praq0987 522.72-530.58]: Então, foi aí que ela teve uma sacada. Por que, então, que um computador não pode fazer o mesmo?
+   não mapeado [praq0987 542.38-544.94]: Foi aí que ela teve uma sacada.
+   não mapeado [praq0987 576.98-579.22]: E aí, em 2027-
+   não mapeado [praq0987 620.24-620.88]: ImageMed.
+   não mapeado [praq0987 685.36-689.28]: o computador reconhecer cada uma delas.
+   não mapeado [praq0987 776.51-778.29]: e reconhecer cada uma delas.
+   não mapeado [praq0987 803.35-806.33]: imagem para reconhecer cada uma delas.
+   não mapeado [praq0987 844.93-845.79]: E sabe qual a ma-
+   não mapeado [praq0987 938.37-938.89]: imagem.
+   não mapeado [praq0987 1006.75-1007.19]: Próximo.
+   não mapeado [praq0987 1026.77-1028.35]: Ninguém mais de que o
+   não mapeado [praq0987 1030.05-1035.81]: Geoffrey Hinton. Foi a pessoa que eu falei anteriormente no vídeo passado.
+   não mapeado [praq0987 1055.29-1055.88]: no meu canal.
+   não mapeado [praq0987 1100.65-1101.15]: Os resulta--
+   não mapeado [praq0987 1158.19-1158.55]: Agora,
+   não mapeado [praq0987 1164.77-1165.21]: Próximo.
+   não mapeado [praq0988 26.42-26.64]: As
+   não mapeado [praq0988 38.64-39.94]: A inteligência artificial
+   não mapeado [praq0990 43.26-43.72]: e como,
+   não mapeado [praq0990 45.14-47.40]: como identificar. Caramba
+   não mapeado [praq0991 3.50-5.74]: Ela aprende porque? Caramba.
+   não mapeado [praq0991 8.50-8.94]: Próximo.
+   não mapeado [praq0991 37.18-39.30]: que um dia mudava o mundo.
+   não mapeado [praq0992 0.64-4.58]: Que precisava traduzir tudo para sua família.
+   não mapeado [praq0993 0.00-4.58]: eu te mando no seu direct a entrevista completo da Fei Fei Li.
+   não mapeado [praq0993 14.46-18.43]: no seu direct uma entrevista completa sobre a Fei Fei Li.
+   não mapeado [praq0993 29.86-33.60]: enviar no seu direct a entrevista completo sobre a Fei Fei Li.
+   não mapeado [praq0993 37.32-37.76]: Próximo.
+   não mapeado [praq0994 21.26-21.62]: Tá bom.
+   não mapeado [praq0994 23.98-25.62]: Tchau. Cansado.
+   fala da IA  [praq0987 00:33.10]: Segure três segundos.
+   fala da IA  [praq0987 01:13.84]: não.
+   fala da IA  [praq0987 01:15.78]: De novo.
+   fala da IA  [praq0987 01:29.66]: Próximo.
+   fala da IA  [praq0987 01:40.11]: Próximo.
+   fala da IA  [praq0987 01:49.90]: Próximo.
+   fala da IA  [praq0987 02:02.46]: De novo.
+   fala da IA  [praq0987 02:17.26]: Próximo.
+   fala da IA  [praq0987 02:31.78]: Próximo.
+   fala da IA  [praq0987 03:00.62]: De novo.
+   fala da IA  [praq0987 03:33.58]: Próximo.
+   fala da IA  [praq0987 03:40.72]: Próximo.
+   fala da IA  [praq0987 03:53.59]: Próximo.
+   fala da IA  [praq0987 04:23.02]: De novo.
+   fala da IA  [praq0987 04:36.55]: Próximo.
+   fala da IA  [praq0987 05:01.70]: De novo.
+   fala da IA  [praq0987 05:21.86]: De novo.
+   fala da IA  [praq0987 05:37.54]: Próximo.
+   fala da IA  [praq0987 05:54.20]: De novo.
+   fala da IA  [praq0987 06:14.16]: Próxima.
+   fala da IA  [praq0987 06:41.26]: De novo.
+   fala da IA  [praq0987 09:29.62]: Próxima.
+   fala da IA  [praq0987 09:42.80]: De novo.
+   fala da IA  [praq0987 09:57.12]: Próxima.
+   fala da IA  [praq0987 11:47.35]: De novo.
+   fala da IA  [praq0987 12:15.05]: Quase 50 mil pessoas ajudaram pela internet a organizar e identificar essas imagens.
+   fala da IA  [praq0987 12:35.05]: De novo.
+   fala da IA  [praq0987 13:00.09]: Próximo.
+   fala da IA  [praq0987 14:08.73]: Próximo.
+   fala da IA  [praq0987 14:25.39]: De novo.
+   fala da IA  [praq0987 14:39.60]: Próximo.
+   fala da IA  [praq0987 14:49.50]: Próximo.
+   fala da IA  [praq0987 16:59.07]: Próximo.
+   fala da IA  [praq0987 17:17.63]: De novo.
+   fala da IA  [praq0987 17:39.61]: Próximo.
+   fala da IA  [praq0987 18:00.38]: Próximo.
+   fala da IA  [praq0987 19:38.65]: Próximo.
+   fala da IA  [praq0987 19:47.08]: Próximo.
+   fala da IA  [praq0988 00:02.12]: Próxima.
+   fala da IA  [praq0988 00:15.06]: Próxima.
+   fala da IA  [praq0988 00:33.42]: De novo.
+   fala da IA  [praq0988 00:45.46]: Próxima.
+   fala da IA  [praq0988 01:14.26]: De novo.
+   fala da IA  [praq0989 00:00.00]: ação e ensinar o que cada coisa significa.
+   fala da IA  [praq0991 00:23.70]: Próximo.
+   fala da IA  [praq0991 00:40.78]: De novo.
+   fala da IA  [praq0991 00:56.56]: Próximo.
+   fala da IA  [praq0992 00:19.72]: fuck now.
+   fala da IA  [praq0993 00:51.86]: Próxima.
+   fala da IA  [praq0993 01:03.28]: Agora vamos para os looks alternativos. Primeiro,
+   fala da IA  [praq0993 01:21.14]: Próxima
+   fala da IA  [praq0994 00:14.91]: Fim do roteiro. Se quiser gravar de novo ou ajustar algo, é só falar
+[align] -> edicao/alinhamento.json

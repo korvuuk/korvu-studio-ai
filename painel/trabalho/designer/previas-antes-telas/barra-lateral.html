@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Barra lateral · korvu. painel — design system</title>
+<link rel="stylesheet" href="../tokens.css">
+<link rel="stylesheet" href="../componentes.css">
+<link rel="stylesheet" href="../acrescimos.css">
+<link rel="stylesheet" href="previa.css">
+<script src="../korvu.js"></script>
+<script src="previa.js" defer></script>
+</head>
+<body>
+<main class="pv">
+<header class="pv-head">
+<p class="k-cap">Navegação · <span class="k-mono">k-sidebar · k-nav-item</span></p>
+<h1 class="k-h2">Barra lateral</h1>
+<p class="pv-lead">A navegação fixa do painel.</p>
+</header>
+<section class="pv-sec">
+<h2 class="pv-sec-t k-cap">Desktop <span class="pv-tag pv-tag--real">dados reais · banco do painel</span></h2>
+<div class="pv-fila"><div><nav class="k-sidebar" id="menu-a" aria-label="Menu principal" style="height:520px;border-radius:var(--radius-panel)">
+<a class="k-sidebar-logo" href="index.html" aria-label="korvu. painel — início"><span data-logo="ivory" data-h="19"></span></a>
+<a class="k-nav-item is-active" aria-current="page" href="#"><span data-icon="visao-geral" data-size="18"></span>Visão geral</a>
+<a class="k-nav-item" href="#"><span data-icon="equipe" data-size="18"></span>Equipe<span class="k-nav-count">26<span class="k-sr-only"> pessoas</span></span></a>
+<a class="k-nav-item" href="#"><span data-icon="videos-portoes" data-size="18"></span>Vídeos e portões<span class="k-nav-count">12<span class="k-sr-only"> vídeos</span></span></a>
+<a class="k-nav-item" href="#"><span data-icon="calendario" data-size="18"></span>Calendário</a>
+<a class="k-nav-item" href="#"><span data-icon="desempenho" data-size="18"></span>Desempenho</a>
+<a class="k-nav-item" href="#"><span data-icon="biblioteca" data-size="18"></span>Biblioteca</a>
+<a class="k-nav-item" href="#"><span data-icon="tokens-custos" data-size="18"></span>Tokens e custos</a>
+<div class="k-sidebar-foot"><span class="k-avatar" aria-hidden="true">C</span><div class="k-sidebar-owner">Carlos<small>Proprietário</small></div></div>
+</nav><span class="pv-cap">Como o Carlos desenhou (contagens reais)</span></div><div><nav class="k-sidebar" id="menu-b" aria-label="Menu principal" style="height:520px;border-radius:var(--radius-panel)">
+<a class="k-sidebar-logo" href="index.html" aria-label="korvu. painel — início"><span data-logo="ivory" data-h="19"></span></a>
+<a class="k-nav-item is-active" aria-current="page" href="#"><span data-icon="visao-geral" data-size="18"></span>Visão geral</a>
+<a class="k-nav-item" href="#"><span data-icon="equipe" data-size="18"></span>Equipe<span class="k-nav-count">26<span class="k-sr-only"> pessoas</span></span></a>
+<a class="k-nav-item" href="#"><span data-icon="videos-portoes" data-size="18"></span>Vídeos e portões<span class="k-nav-count">12<span class="k-sr-only"> vídeos</span></span></a>
+<span class="k-nav-item" aria-disabled="true" data-dica="Ainda não tem página"><span data-icon="calendario" data-size="18"></span>Calendário<span class="k-sr-only"> — ainda sem página</span></span>
+<a class="k-nav-item" href="#"><span data-icon="desempenho" data-size="18"></span>Desempenho</a>
+<span class="k-nav-item" aria-disabled="true" data-dica="Ainda não tem página"><span data-icon="biblioteca" data-size="18"></span>Biblioteca<span class="k-sr-only"> — ainda sem página</span></span>
+<span class="k-nav-item" aria-disabled="true" data-dica="Ainda não tem página"><span data-icon="tokens-custos" data-size="18"></span>Tokens e custos<span class="k-sr-only"> — ainda sem página</span></span>
+<div class="k-sidebar-foot"><span class="k-avatar" aria-hidden="true">C</span><div class="k-sidebar-owner">Carlos<small>Proprietário</small></div></div>
+</nav><span class="pv-cap">Proposta: item sem página apagado, sem link</span></div></div>
+</section>
+<section class="pv-sec">
+<h2 class="pv-sec-t k-cap">Regras</h2>
+<ul class="pv-lista"><li>208px, fundo sidebar, em toda a altura. Logotipo ivory a 19px no topo.</li><li>Item 34px: ícone 18 + rótulo 13px. Inativo sidebar-ink-2 (6,19:1); hover sidebar-raised + sidebar-ink.</li><li>Ativo: fundo sidebar-raised, texto sidebar-ink, <b>ícone laranja</b> e ponto laranja de 6px à direita; aria-current="page". Nunca barra lateral colorida.</li><li>Ordem fixa: Visão geral · Equipe · Vídeos e portões · Calendário · Desempenho · Biblioteca · Tokens e custos.</li><li><b>Calendário, Biblioteca e Tokens e custos não têm página nem dados</b> (23/10). Proposta: ficam no lugar que o Carlos desenhou, mas sem link, apagados com a opacidade do botão desativado (.45), sem contagem e sem acender no hover; o leitor de tela ouve “ainda sem página”. Alternativa: esconder até existirem.</li><li>Rodapé “Carlos · Proprietário”, como o Carlos desenhou: o painel é privado (só abre no Mac dele). Não há login nem troca de usuário.</li><li>O bloco “Orçamento IA” da prancha não entra: não há fonte de custo.</li><li>Abaixo de 1024px vira barra de topo + menu: veja <a class="k-link" href="casca.html">casca.html</a> a 375px.</li></ul>
+</section>
+<footer class="pv-foot"><span>Dados: dados-2026-10-23.json → contagens</span> <span>Regras: <a href="../design-system.md">design-system.md</a></span> <a href="index.html">Todas as prévias</a></footer>
+</main>
+</body>
+</html>

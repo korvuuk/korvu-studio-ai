@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Progresso · korvu. painel — design system</title>
+<link rel="stylesheet" href="../tokens.css">
+<link rel="stylesheet" href="../componentes.css">
+<link rel="stylesheet" href="../acrescimos.css">
+<link rel="stylesheet" href="previa.css">
+<script src="../korvu.js"></script>
+<script src="previa.js" defer></script>
+</head>
+<body>
+<main class="pv">
+<header class="pv-head">
+<p class="k-cap">Dados · <span class="k-mono">k-progress · k-steps</span></p>
+<h1 class="k-h2">Progresso</h1>
+<p class="pv-lead">Barra com número e etapas de produção.</p>
+</header>
+<section class="pv-sec">
+<h2 class="pv-sec-t k-cap">Com dados reais <span class="pv-tag pv-tag--real">dados reais · banco do painel</span></h2>
+<div class="k-card k-pad pv-largura" style="display:flex;flex-direction:column;gap:12px;max-width:520px"><div style="display:flex;justify-content:space-between;gap:12px;font-size:13px"><b>Vídeos publicados</b><span class="k-num k-ink2">3 de 12 · 25%</span></div><div class="k-progress" role="img" aria-label="3 de 12 vídeos publicados"><span style="width:25%"></span></div><div style="display:flex;justify-content:space-between;gap:12px;font-size:13px;margin-top:8px"><b style="min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap">Joga o livro no ChatGPT e escreve isso</b></div><div class="k-steps-labels k-cap"><span>Roteiro</span><span>Gravação</span><span>Edição</span><span>Revisão</span><span class="is-now">Publicar</span></div><div class="k-steps" role="img" aria-label="Etapa 5 de 5: Publicar"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="now"></i></div></div>
+</section>
+<section class="pv-sec">
+<h2 class="pv-sec-t k-cap">Variantes de cor <span class="pv-tag">exemplo · sem dado real hoje</span></h2>
+<div class="k-card k-pad" style="display:flex;flex-direction:column;gap:12px;max-width:520px"><div class="k-row" style="gap:16px"><div class="k-progress is-done" style="flex:1"><span style="width:100%"></span></div><div class="k-progress is-blocked" style="flex:1"><span style="width:35%"></span></div></div><span class="pv-cap" style="margin:0">is-done (verde) · is-blocked (vermelho)</span></div>
+</section>
+<section class="pv-sec">
+<h2 class="pv-sec-t k-cap">Regras</h2>
+<ul class="pv-lista"><li><b>Barra</b>: 6px, trilho surface-sunken, preenchimento accent; is-done → positive; is-blocked → danger. Sempre com o número ao lado.</li><li><b>Etapas</b>: Roteiro · Gravação · Edição · Revisão · Publicar. Feita = ink, atual = accent, bloqueada = danger, futura vazia.</li><li>Os 12 estados do projeto entram nas 5 etapas assim (<b>proposta</b>): roteiro → Roteiro; gravação → Gravação; edição e EDL aprovada → Edição; revisão, cor, legendas, capa e QA → Revisão; pronto e agendado → Publicar; publicado = todas feitas.</li><li>As etapas futuras ficam a 1,13:1 do card (contraste.md G12): dê sempre o texto da etapa (coluna Etapa ou aria-label “Etapa 4 de 5: Revisão”).</li></ul>
+</section>
+<footer class="pv-foot"><span>Dados: dados-2026-10-23.json → contagens, videos</span> <span>Regras: <a href="../design-system.md">design-system.md</a></span> <a href="index.html">Todas as prévias</a></footer>
+</main>
+</body>
+</html>

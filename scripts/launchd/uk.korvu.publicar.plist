@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!--
+  TEMPLATE — não copiar à mão. `scripts/launchd/instalar.sh` substitui __UV__, __PROJETO__ e __HOME__
+  e instala em ~/Library/LaunchAgents/uk.korvu.publicar.plist.
+  Corre "uv run python scripts/publicar.py (due)" a cada 15 min (900 s) na pasta do projeto.
+-->
+<plist version="1.0">
+<dict>
+  <key>Label</key>
+  <string>uk.korvu.publicar</string>
+
+  <key>ProgramArguments</key>
+  <array>
+    <string>__UV__</string>
+    <string>run</string>
+    <string>--quiet</string>
+    <string>python</string>
+    <string>scripts/publicar.py</string>
+    <string>--due</string>
+  </array>
+
+  <key>WorkingDirectory</key>
+  <string>__PROJETO__</string>
+
+  <key>StartInterval</key>
+  <integer>900</integer>
+
+  <key>RunAtLoad</key>
+  <false/>
+
+  <key>ProcessType</key>
+  <string>Background</string>
+
+  <key>EnvironmentVariables</key>
+  <dict>
+    <key>PATH</key>
+    <string>/opt/homebrew/bin:/usr/local/bin:/usr/bin:/bin:__HOME__/bin:__HOME__/.local/bin</string>
+    <key>LANG</key>
+    <string>pt_BR.UTF-8</string>
+    <key>PYTHONUNBUFFERED</key>
+    <string>1</string>
+  </dict>
+
+  <key>StandardOutPath</key>
+  <string>__PROJETO__/_controle/logs/publicar.log</string>
+  <key>StandardErrorPath</key>
+  <string>__PROJETO__/_controle/logs/publicar.log</string>
+</dict>
+</plist>

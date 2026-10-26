@@ -1,0 +1,48 @@
+{
+  "slug": "2026-10-20-geoffrey-hinton-r2",
+  "publicar_em": "2026-10-25T19:00:00+00:00",
+  "plataformas": [
+    "instagram"
+  ],
+  "estado": "publicado",
+  "confirmar": false,
+  "instagram": {
+    "legenda_arquivo": "legenda-instagram.txt",
+    "capa": "capa/capa.png",
+    "share_to_feed": true,
+    "trial": null,
+    "container_id": "18641032912014052",
+    "media_id": "18208260325372117",
+    "permalink": "https://www.instagram.com/reel/De7buitES3H/",
+    "container_impressao": "8defb963f71f"
+  },
+  "facebook": {
+    "legenda_arquivo": "legenda-facebook.txt",
+    "tipo": null,
+    "video_id": null,
+    "permalink": null
+  },
+  "material": {
+    "palavra": "NOBEL",
+    "arquivo": "material/entrevista-geoffrey-hinton.pdf",
+    "titulo": "o link da entrevista do Hinton",
+    "url": "https://media.korvuai.com/reels/2026-10-20-geoffrey-hinton-r2/material/entrevista-geoffrey-hinton.pdf"
+  },
+  "publicado_em": "2026-10-25T19:15:11+00:00",
+  "erros": [],
+  "anterior": {
+    "instagram": {
+      "media_id": "18019839653734429",
+      "permalink": "https://www.instagram.com/reel/Degr_FiEwkh/"
+    },
+    "facebook": {
+      "video_id": "1096621502974365",
+      "permalink": "https://www.facebook.com/reel/1096621502974365/"
+    },
+    "publicado_em": "2026-10-15T11:08:42+01:00",
+    "motivo": "cor errada (WB pela folha); FB apagado via API, IG apagar no app"
+  },
+  "notas": [
+    "22/10 (Carlos): repost do Hinton (Trial de 15/10, 11 de alcance) como Reel NORMAL, dom 25/10 19:00, só Instagram — o FB já tem este vídeo; objetivo: os seguidores comentarem NOBEL e testarem a automação"
+  ]
+}

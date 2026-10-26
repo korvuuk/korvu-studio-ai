@@ -1,0 +1,3131 @@
+{
+ "o_que_e": "Números reais usados nas prévias de painel/design/previas/ (o painel não inventa nada). Lido do banco do painel (Supabase local, 127.0.0.1:55322) em transação só de leitura.",
+ "exportado_em": "2026-10-23T14:06:15+00:00",
+ "como_gerar": "uv run python -I painel/trabalho/designer/exportar_dados.py",
+ "fuso_das_previas": "Europe/London (o mesmo de painel/web/src/lib/formato.ts)",
+ "sem_fonte_de_dados": [
+  "custos e tokens de IA (KPI 'Custo de IA', 'Tokens por departamento', 'Custo por modelo', bloco 'Orçamento IA')",
+  "responsável por vídeo (coluna 'Responsável' da VideoRow)",
+  "presença ('agente a trabalhar agora')",
+  "vídeos ativos, tokens e custo por pessoa (métricas do TeamMemberCard)",
+  "critérios de cada portão para o Carlos (a checklist do ApprovalGate)"
+ ],
+ "blocos": {
+  "contagens": {
+   "consulta": "select (select count(*) from agentes) as agentes, (select count(*) from videos) as videos, (select count(*) from videos where estado = 'publicado') as videos_publicados",
+   "linhas": [
+    {
+     "agentes": 26,
+     "videos": 12,
+     "videos_publicados": 3
+    }
+   ]
+  },
+  "agentes_por_modelo": {
+   "consulta": "select modelo, count(*) as n from agentes group by modelo order by n desc",
+   "linhas": [
+    {
+     "modelo": "opus",
+     "n": 15
+    },
+    {
+     "modelo": "sonnet",
+     "n": 11
+    }
+   ]
+  },
+  "agentes": {
+   "consulta": "select id, nome, cargo, departamento_id, papel, modelo from agentes order by departamento_id, id",
+   "linhas": [
+    {
+     "id": "animador",
+     "nome": "Nina Alves",
+     "cargo": "animadora",
+     "departamento_id": "arte",
+     "papel": "construtor",
+     "modelo": "opus"
+    },
+    {
+     "id": "colorista",
+     "nome": "Sofia Lima",
+     "cargo": "colorista",
+     "departamento_id": "arte",
+     "papel": "construtor",
+     "modelo": "sonnet"
+    },
+    {
+     "id": "designer-de-capas",
+     "nome": "Bruno Teixeira",
+     "cargo": "designer de capas",
+     "departamento_id": "arte",
+     "papel": "construtor",
+     "modelo": "sonnet"
+    },
+    {
+     "id": "portao-imagem",
+     "nome": "Íris Moura",
+     "cargo": "gerente de arte · portão da imagem",
+     "departamento_id": "arte",
+     "papel": "portao",
+     "modelo": "opus"
+    },
+    {
+     "id": "produtor-de-extras",
+     "nome": "Caio Martins",
+     "cargo": "produtor de cenas extras",
+     "departamento_id": "arte",
+     "papel": "construtor",
+     "modelo": "sonnet"
+    },
+    {
+     "id": "diretor",
+     "nome": "Atlas",
+     "cargo": "diretor de operações",
+     "departamento_id": "direcao",
+     "papel": "diretor",
+     "modelo": "opus"
+    },
+    {
+     "id": "analista-de-metricas",
+     "nome": "Júlia Ramos",
+     "cargo": "analista de dados",
+     "departamento_id": "distribuicao",
+     "papel": "analista",
+     "modelo": "sonnet"
+    },
+    {
+     "id": "auditor-de-perfil",
+     "nome": "André Fontes",
+     "cargo": "auditor de perfil",
+     "departamento_id": "distribuicao",
+     "papel": "analista",
+     "modelo": "opus"
+    },
+    {
+     "id": "portao-publicacao",
+     "nome": "Henrique Sales",
+     "cargo": "gerente de distribuição · portão da publicação",
+     "departamento_id": "distribuicao",
+     "papel": "portao",
+     "modelo": "opus"
+    },
+    {
+     "id": "publicador",
+     "nome": "Pedro Almeida",
+     "cargo": "publicador",
+     "departamento_id": "distribuicao",
+     "papel": "construtor",
+     "modelo": "sonnet"
+    },
+    {
+     "id": "buscador-de-videos",
+     "nome": "Tiago Lopes",
+     "cargo": "caçador de vídeos",
+     "departamento_id": "pesquisa",
+     "papel": "construtor",
+     "modelo": "sonnet"
+    },
+    {
+     "id": "curador-de-obra",
+     "nome": "Beatriz Santos",
+     "cargo": "curadora de obras",
+     "departamento_id": "pesquisa",
+     "papel": "construtor",
+     "modelo": "sonnet"
+    },
+    {
+     "id": "estrategista",
+     "nome": "Helena Prado",
+     "cargo": "estrategista de conteúdo",
+     "departamento_id": "pesquisa",
+     "papel": "construtor",
+     "modelo": "sonnet"
+    },
+    {
+     "id": "pesquisador-de-material",
+     "nome": "Rafael Nunes",
+     "cargo": "pesquisador",
+     "departamento_id": "pesquisa",
+     "papel": "construtor",
+     "modelo": "sonnet"
+    },
+    {
+     "id": "portao-pauta",
+     "nome": "Vera Campos",
+     "cargo": "gerente de pesquisa · portão da pauta",
+     "departamento_id": "pesquisa",
+     "papel": "portao",
+     "modelo": "opus"
+    },
+    {
+     "id": "editor-de-video",
+     "nome": "Diego Ferraz",
+     "cargo": "editor",
+     "departamento_id": "pos",
+     "papel": "construtor",
+     "modelo": "opus"
+    },
+    {
+     "id": "produtor-musical",
+     "nome": "Lucas Barros",
+     "cargo": "produtor musical",
+     "departamento_id": "pos",
+     "papel": "construtor",
+     "modelo": "sonnet"
+    },
+    {
+     "id": "revisor-de-video",
+     "nome": "Clara Duarte",
+     "cargo": "gerente de pós-produção · portão do corte",
+     "departamento_id": "pos",
+     "papel": "portao",
+     "modelo": "opus"
+    },
+    {
+     "id": "produtor-de-material",
+     "nome": "Lívia Rocha",
+     "cargo": "produtora de material",
+     "departamento_id": "roteiro",
+     "papel": "construtor",
+     "modelo": "sonnet"
+    },
+    {
+     "id": "revisor-de-roteiro",
+     "nome": "Otávio Reis",
+     "cargo": "gerente de roteiro · portão do roteiro",
+     "departamento_id": "roteiro",
+     "papel": "portao",
+     "modelo": "opus"
+    },
+    {
+     "id": "roteirista",
+     "nome": "Marina Costa",
+     "cargo": "roteirista",
+     "departamento_id": "roteiro",
+     "papel": "construtor",
+     "modelo": "opus"
+    },
+    {
+     "id": "designer-de-produto",
+     "nome": "Lia Monteiro",
+     "cargo": "designer de produto (UI/UX)",
+     "departamento_id": "tecnologia",
+     "papel": "construtor",
+     "modelo": "opus"
+    },
+    {
+     "id": "engenheiro-backend",
+     "nome": "Mateus Pacheco",
+     "cargo": "engenheiro back-end e dados",
+     "departamento_id": "tecnologia",
+     "papel": "construtor",
+     "modelo": "opus"
+    },
+    {
+     "id": "engenheiro-frontend",
+     "nome": "Gabriel Torres",
+     "cargo": "engenheiro front-end",
+     "departamento_id": "tecnologia",
+     "papel": "construtor",
+     "modelo": "opus"
+    },
+    {
+     "id": "portao-dados",
+     "nome": "Sérgio Lemos",
+     "cargo": "portão dos dados",
+     "departamento_id": "tecnologia",
+     "papel": "portao",
+     "modelo": "opus"
+    },
+    {
+     "id": "portao-interface",
+     "nome": "Camila Freitas",
+     "cargo": "gerente de tecnologia · portão da interface",
+     "departamento_id": "tecnologia",
+     "papel": "portao",
+     "modelo": "opus"
+    }
+   ]
+  },
+  "videos": {
+   "consulta": "select slug, tema, estado, atualizado from videos order by slug",
+   "linhas": [
+    {
+     "slug": "2026-09-16-chatgpt-contexto",
+     "tema": "Você tá usando o ChatGPT errado: dê contexto antes de pedir",
+     "estado": "edl_aprovada",
+     "atualizado": "2026-09-18T20:15:51+01:00"
+    },
+    {
+     "slug": "2026-09-17-demis-hassabis",
+     "tema": "Quem é Demis Hassabis: do xadrez ao Nobel com IA",
+     "estado": "publicado",
+     "atualizado": "2026-10-13T17:03:58+01:00"
+    },
+    {
+     "slug": "2026-09-17-jacob-coxon",
+     "tema": "Pesquisador sai da Anthropic e alerta sobre IA: o que muda pra você",
+     "estado": "roteiro",
+     "atualizado": "2026-09-17T01:59:54+01:00"
+    },
+    {
+     "slug": "2026-10-18-jensen-huang",
+     "tema": "Jensen Huang: lavou prato, planejou a Nvidia numa mesa de lanchonete, quase quebrou, 1.ª empresa de 5 trilhões (perfil)",
+     "estado": "roteiro",
+     "atualizado": "2026-10-17T16:20:54+01:00"
+    },
+    {
+     "slug": "2026-10-20-fei-fei-li",
+     "tema": "Chegou sem falar inglês e ajudou a IA a enxergar",
+     "estado": "publicado",
+     "atualizado": "2026-10-18T19:14:09+01:00"
+    },
+    {
+     "slug": "2026-10-20-geoffrey-hinton",
+     "tema": "Geoffrey Hinton: quase 50 anos numa ideia que ninguém levava a sério, até o Nobel (perfil, 90 s)",
+     "estado": "publicado",
+     "atualizado": "2026-10-15T11:44:34+01:00"
+    },
+    {
+     "slug": "2026-10-21-foto-da-loja",
+     "tema": "Tira uma foto do seu produto com o celular e pede isso pro ChatGPT",
+     "estado": "roteiro",
+     "atualizado": "2026-10-14T02:51:49+01:00"
+    },
+    {
+     "slug": "2026-10-21-golpes-com-ia",
+     "tema": "Metade desse vídeo é falsa nem a minha voz",
+     "estado": "roteiro",
+     "atualizado": "2026-10-14T02:48:01+01:00"
+    },
+    {
+     "slug": "2026-10-22-15-coisas-ia-negocio",
+     "tema": "15 coisas que a IA já faz no seu negócio",
+     "estado": "roteiro",
+     "atualizado": "2026-10-14T02:47:56+01:00"
+    },
+    {
+     "slug": "2026-10-22-agente-3-passos",
+     "tema": "Seu primeiro agente de IA em três passos",
+     "estado": "roteiro",
+     "atualizado": "2026-10-14T02:48:45+01:00"
+    },
+    {
+     "slug": "2026-10-23-livro-chatgpt",
+     "tema": "Joga o livro no ChatGPT e escreve isso — 5 comandos de barra, 5 livros (rápido ~35 s, réplica do molde @oluizsampaio; v1 'contrato de aluguel' descartada)",
+     "estado": "agendado",
+     "atualizado": "2026-10-22T16:11:52+01:00"
+    },
+    {
+     "slug": "2026-10-24-comando-secreto",
+     "tema": "O comando secreto do ChatGPT pra foto… que não é secreto — 3 comandos de estilo na mesma foto + virada (a barra não muda nada) (rápido ~35 s, molde @cauetgurgell)",
+     "estado": "roteiro",
+     "atualizado": "2026-10-22T02:57:45+01:00"
+    }
+   ]
+  },
+  "fila": {
+   "consulta": "select slug, publicar_em, plataformas, estado, trial, palavra, legado from fila order by publicar_em",
+   "linhas": [
+    {
+     "slug": "2026-10-20-fei-fei-li-r2",
+     "publicar_em": "2026-10-24T18:00:00+00:00",
+     "plataformas": [
+      "instagram"
+     ],
+     "estado": "agendado",
+     "trial": null,
+     "palavra": "AULA",
+     "legado": true
+    },
+    {
+     "slug": "2026-10-20-geoffrey-hinton-r2",
+     "publicar_em": "2026-10-25T19:00:00+00:00",
+     "plataformas": [
+      "instagram"
+     ],
+     "estado": "agendado",
+     "trial": null,
+     "palavra": "NOBEL",
+     "legado": true
+    },
+    {
+     "slug": "2026-10-23-livro-chatgpt",
+     "publicar_em": "2026-10-27T21:00:00+00:00",
+     "plataformas": [
+      "instagram"
+     ],
+     "estado": "agendado",
+     "trial": "MANUAL",
+     "palavra": "LIVRO",
+     "legado": true
+    },
+    {
+     "slug": "2026-10-23-livro-chatgpt-l01c",
+     "publicar_em": "2026-10-28T21:00:00+00:00",
+     "plataformas": [
+      "instagram"
+     ],
+     "estado": "agendado",
+     "trial": "MANUAL",
+     "palavra": "LIVRO",
+     "legado": true
+    },
+    {
+     "slug": "2026-10-23-livro-chatgpt-l01c-a",
+     "publicar_em": "2026-11-01T19:00:00+00:00",
+     "plataformas": [
+      "instagram"
+     ],
+     "estado": "agendado",
+     "trial": "MANUAL",
+     "palavra": "LIVRO",
+     "legado": true
+    }
+   ]
+  },
+  "publicacoes": {
+   "consulta": "select slug, publicado_em, tema from publicacoes order by publicado_em",
+   "linhas": [
+    {
+     "slug": "2026-09-17-demis-hassabis",
+     "publicado_em": "2026-10-13T16:03:58+00:00",
+     "tema": "Quem é Demis Hassabis: do menino do xadrez ao Nobel com IA, criando a DeepMind em Londres"
+    },
+    {
+     "slug": "2026-10-20-geoffrey-hinton",
+     "publicado_em": "2026-10-15T10:44:34+00:00",
+     "tema": "Quem é Geoffrey Hinton: quase 50 anos numa ideia que ninguém levava a sério, até ela mudar o mundo e virar um Nobel"
+    },
+    {
+     "slug": "2026-10-20-fei-fei-li",
+     "publicado_em": "2026-10-18T18:14:09+00:00",
+     "tema": "Quem é Fei-Fei Li: a adolescente que chegou sem falar inglês, era a voz da família na lavanderia e montou o banco de fotos que ajudou a IA a enxergar"
+    },
+    {
+     "slug": "2026-10-20-fei-fei-li-a",
+     "publicado_em": "2026-10-20T20:14:31+00:00",
+     "tema": "Quem é Fei-Fei Li: a adolescente que chegou sem falar inglês, era a voz da família na lavanderia e montou o banco de fotos que ajudou a IA a enxergar"
+    }
+   ]
+  },
+  "metricas_demis": {
+   "consulta": "select lido_em, dias, views, alcance, plays_fb, suspeito from metricas where slug = '2026-09-17-demis-hassabis' and views is not null order by lido_em",
+   "linhas": [
+    {
+     "lido_em": "2026-10-13T17:37:26+00:00",
+     "dias": 0.06,
+     "views": 136,
+     "alcance": 70,
+     "plays_fb": 7,
+     "suspeito": false
+    },
+    {
+     "lido_em": "2026-10-16T10:11:53+00:00",
+     "dias": 2.76,
+     "views": 415,
+     "alcance": 312,
+     "plays_fb": 29,
+     "suspeito": false
+    },
+    {
+     "lido_em": "2026-10-19T08:30:02+00:00",
+     "dias": 5.68,
+     "views": 444,
+     "alcance": 332,
+     "plays_fb": 29,
+     "suspeito": false
+    },
+    {
+     "lido_em": "2026-10-22T13:00:16+00:00",
+     "dias": 8.87,
+     "views": 450,
+     "alcance": 338,
+     "plays_fb": 30,
+     "suspeito": false
+    }
+   ]
+  },
+  "ultima_leitura_confiavel": {
+   "consulta": "select distinct on (slug) slug, lido_em, dias, views, alcance from metricas where not suspeito and alcance is not null order by slug, lido_em desc",
+   "linhas": [
+    {
+     "slug": "2026-09-17-demis-hassabis",
+     "lido_em": "2026-10-22T13:00:16+00:00",
+     "dias": 8.87,
+     "views": 450,
+     "alcance": 338
+    },
+    {
+     "slug": "2026-10-20-fei-fei-li",
+     "lido_em": "2026-10-22T12:59:51+00:00",
+     "dias": 3.78,
+     "views": 45,
+     "alcance": 40
+    },
+    {
+     "slug": "2026-10-20-fei-fei-li-a",
+     "lido_em": "2026-10-22T13:00:01+00:00",
+     "dias": 1.7,
+     "views": 8,
+     "alcance": 4
+    },
+    {
+     "slug": "2026-10-20-geoffrey-hinton",
+     "lido_em": "2026-10-21T08:30:04+00:00",
+     "dias": 5.91,
+     "views": 11,
+     "alcance": 11
+    }
+   ]
+  },
+  "leituras_suspeitas": {
+   "consulta": "select slug, lido_em, tempo_medio_s from metricas where suspeito order by lido_em",
+   "linhas": [
+    {
+     "slug": "2026-10-20-geoffrey-hinton",
+     "lido_em": "2026-10-22T13:00:07+00:00",
+     "tempo_medio_s": 1512.69
+    }
+   ]
+  },
+  "perfil_snapshots": {
+   "consulta": "select lido_em, seguidores, janela_dias, alcance, views, alcance_seguidores, alcance_nao_seguidores from perfil_snapshots order by lido_em",
+   "linhas": [
+    {
+     "lido_em": "2026-10-16T10:09:19+00:00",
+     "seguidores": 3634,
+     "janela_dias": 28,
+     "alcance": 476,
+     "views": 2677,
+     "alcance_seguidores": 203,
+     "alcance_nao_seguidores": 263
+    },
+    {
+     "lido_em": "2026-10-22T13:00:32+00:00",
+     "seguidores": 3631,
+     "janela_dias": 28,
+     "alcance": 529,
+     "views": 2448,
+     "alcance_seguidores": 206,
+     "alcance_nao_seguidores": 307
+    }
+   ]
+  },
+  "portoes_painel": {
+   "consulta": "select alvo, portao, agente, status, motivos from portoes_estado where alvo = 'painel' order by portao",
+   "linhas": [
+    {
+     "alvo": "painel",
+     "portao": "dados",
+     "agente": "portao-dados",
+     "status": "aprovado",
+     "motivos": []
+    },
+    {
+     "alvo": "painel",
+     "portao": "design",
+     "agente": "portao-interface",
+     "status": "pendente",
+     "motivos": [
+      "o portão ainda não rodou"
+     ]
+    },
+    {
+     "alvo": "painel",
+     "portao": "interface",
+     "agente": "portao-interface",
+     "status": "vencido",
+     "motivos": [
+      "mudou depois do APROVADO: web/src/app/equipe/img equipe/08 — LÍVIA ROCHA · Produtora de Material.png, web/src/app/equipe/img equipe/09 — MARINA COSTA · Roteirista.png, web/src/app/equipe/img equipe/10 — ÍRIS MOURA · Diretora de Arte.png, web/src/app/equipe/img equipe/ATLAS · Diretor de Operações.png, web/src/app/equipe/img equipe/BEATRIZ SANTOS · Curadora de Obras.png, web/src/app/equipe/img equipe/HELENA PRADO · Estrategista de Conteúdo.png, web/src/app/equipe/img equipe/OTÁVIO REIS · Gerente de Roteiro.png, web/src/app/equipe/img equipe/RAFAEL NUNES · Pesquisador.png, web/src/app/equipe/img equipe/TIAGO LOPES · Caçador de Vídeos.png, web/src/app/equipe/img equipe/VERA CAMPOS · Gerente de Pesquisa.png"
+     ]
+    }
+   ]
+  },
+  "portoes_livro_chatgpt": {
+   "consulta": "select alvo, portao, agente, status from portoes_estado where slug = '2026-10-23-livro-chatgpt' order by alvo, portao",
+   "linhas": [
+    {
+     "alvo": "06-publicar/2026-10-23-livro-chatgpt",
+     "portao": "publicacao",
+     "agente": "portao-publicacao",
+     "status": "pendente"
+    },
+    {
+     "alvo": "videos/2026-10-23-livro-chatgpt",
+     "portao": "corte",
+     "agente": "revisor-de-video",
+     "status": "pendente"
+    },
+    {
+     "alvo": "videos/2026-10-23-livro-chatgpt",
+     "portao": "imagem",
+     "agente": "portao-imagem",
+     "status": "pendente"
+    },
+    {
+     "alvo": "videos/2026-10-23-livro-chatgpt",
+     "portao": "pauta",
+     "agente": "portao-pauta",
+     "status": "pendente"
+    },
+    {
+     "alvo": "videos/2026-10-23-livro-chatgpt",
+     "portao": "roteiro",
+     "agente": "revisor-de-roteiro",
+     "status": "pendente"
+    }
+   ]
+  },
+  "portoes_por_status": {
+   "consulta": "select status, count(*) as n from portoes_estado group by status order by n desc",
+   "linhas": [
+    {
+     "status": "pendente",
+     "n": 43
+    },
+    {
+     "status": "nao_se_aplica",
+     "n": 11
+    },
+    {
+     "status": "vencido",
+     "n": 1
+    },
+    {
+     "status": "aprovado",
+     "n": 1
+    }
+   ]
+  },
+  "veredictos_painel": {
+   "consulta": "select portao, agente, resultado, em, volta from veredictos where alvo = 'painel' order by em",
+   "linhas": [
+    {
+     "portao": "dados",
+     "agente": "portao-dados",
+     "resultado": "BLOQUEADO",
+     "em": "2026-10-22T22:41:20+00:00",
+     "volta": 1
+    },
+    {
+     "portao": "interface",
+     "agente": "portao-interface",
+     "resultado": "BLOQUEADO",
+     "em": "2026-10-22T22:45:18+00:00",
+     "volta": 1
+    },
+    {
+     "portao": "dados",
+     "agente": "portao-dados",
+     "resultado": "APROVADO",
+     "em": "2026-10-22T23:25:56+00:00",
+     "volta": 2
+    },
+    {
+     "portao": "interface",
+     "agente": "portao-interface",
+     "resultado": "BLOQUEADO",
+     "em": "2026-10-22T23:37:57+00:00",
+     "volta": 2
+    },
+    {
+     "portao": "interface",
+     "agente": "portao-interface",
+     "resultado": "APROVADO",
+     "em": "2026-10-23T00:03:47+00:00",
+     "volta": 3
+    },
+    {
+     "portao": "dados",
+     "agente": "portao-dados",
+     "resultado": "APROVADO",
+     "em": "2026-10-23T09:48:30+00:00",
+     "volta": 1
+    },
+    {
+     "portao": "interface",
+     "agente": "portao-interface",
+     "resultado": "APROVADO",
+     "em": "2026-10-23T12:21:46+00:00",
+     "volta": 1
+    }
+   ]
+  },
+  "ultima_sincronizacao": {
+   "consulta": "select em from sincronizacoes order by em desc limit 1",
+   "linhas": [
+    {
+     "em": "2026-10-23T13:52:26.933779+00:00"
+    }
+   ]
+  },
+  "portoes_fila": {
+   "consulta": "select alvo, slug, portao, agente, status from portoes_estado where alvo like '06-publicar/%' order by alvo",
+   "linhas": [
+    {
+     "alvo": "06-publicar/2026-10-20-fei-fei-li-r2",
+     "slug": "2026-10-20-fei-fei-li-r2",
+     "portao": "publicacao",
+     "agente": "portao-publicacao",
+     "status": "pendente"
+    },
+    {
+     "alvo": "06-publicar/2026-10-20-geoffrey-hinton-r2",
+     "slug": "2026-10-20-geoffrey-hinton-r2",
+     "portao": "publicacao",
+     "agente": "portao-publicacao",
+     "status": "pendente"
+    },
+    {
+     "alvo": "06-publicar/2026-10-23-livro-chatgpt",
+     "slug": "2026-10-23-livro-chatgpt",
+     "portao": "publicacao",
+     "agente": "portao-publicacao",
+     "status": "pendente"
+    },
+    {
+     "alvo": "06-publicar/2026-10-23-livro-chatgpt-l01c",
+     "slug": "2026-10-23-livro-chatgpt-l01c",
+     "portao": "publicacao",
+     "agente": "portao-publicacao",
+     "status": "pendente"
+    },
+    {
+     "alvo": "06-publicar/2026-10-23-livro-chatgpt-l01c-a",
+     "slug": "2026-10-23-livro-chatgpt-l01c-a",
+     "portao": "publicacao",
+     "agente": "portao-publicacao",
+     "status": "pendente"
+    }
+   ],
+   "lido_em": "2026-10-23T14:31:07+00:00"
+  },
+  "telas_perfil": {
+   "fonte": "banco do painel (Supabase local)",
+   "consulta": "select lido_em, seguidores, seguindo, janela_dias, alcance, views, contas_engajadas, interacoes, visitas_perfil, alcance_seguidores, alcance_nao_seguidores from perfil_snapshots order by lido_em",
+   "lido_em": "2026-10-23T16:22:59+00:00",
+   "linhas": [
+    {
+     "lido_em": "2026-10-16T10:09:19+00:00",
+     "seguidores": 3634,
+     "seguindo": 7495,
+     "janela_dias": 28,
+     "alcance": 476,
+     "views": 2677,
+     "contas_engajadas": 30,
+     "interacoes": 107,
+     "visitas_perfil": 54,
+     "alcance_seguidores": 203,
+     "alcance_nao_seguidores": 263
+    },
+    {
+     "lido_em": "2026-10-22T13:00:32+00:00",
+     "seguidores": 3631,
+     "seguindo": 7505,
+     "janela_dias": 28,
+     "alcance": 529,
+     "views": 2448,
+     "contas_engajadas": 34,
+     "interacoes": 99,
+     "visitas_perfil": 56,
+     "alcance_seguidores": 206,
+     "alcance_nao_seguidores": 307
+    }
+   ]
+  },
+  "telas_paises": {
+   "fonte": "banco do painel (Supabase local)",
+   "consulta": "select publico, chave, valor from perfil_demografia where dimensao = 'country' and lido_em = (select max(lido_em) from perfil_snapshots) order by publico, valor desc",
+   "lido_em": "2026-10-23T16:22:59+00:00",
+   "linhas": [
+    {
+     "publico": "alcancados",
+     "chave": "BR",
+     "valor": 197
+    },
+    {
+     "publico": "alcancados",
+     "chave": "GB",
+     "valor": 58
+    },
+    {
+     "publico": "alcancados",
+     "chave": "PT",
+     "valor": 52
+    },
+    {
+     "publico": "alcancados",
+     "chave": "GW",
+     "valor": 22
+    },
+    {
+     "publico": "alcancados",
+     "chave": "FR",
+     "valor": 8
+    },
+    {
+     "publico": "alcancados",
+     "chave": "AO",
+     "valor": 6
+    },
+    {
+     "publico": "alcancados",
+     "chave": "DE",
+     "valor": 5
+    },
+    {
+     "publico": "alcancados",
+     "chave": "US",
+     "valor": 4
+    },
+    {
+     "publico": "alcancados",
+     "chave": "CH",
+     "valor": 3
+    },
+    {
+     "publico": "alcancados",
+     "chave": "LU",
+     "valor": 2
+    },
+    {
+     "publico": "alcancados",
+     "chave": "NL",
+     "valor": 2
+    },
+    {
+     "publico": "alcancados",
+     "chave": "CV",
+     "valor": 2
+    },
+    {
+     "publico": "alcancados",
+     "chave": "ES",
+     "valor": 2
+    },
+    {
+     "publico": "alcancados",
+     "chave": "MZ",
+     "valor": 2
+    },
+    {
+     "publico": "alcancados",
+     "chave": "IT",
+     "valor": 2
+    },
+    {
+     "publico": "alcancados",
+     "chave": "AU",
+     "valor": 1
+    },
+    {
+     "publico": "alcancados",
+     "chave": "ST",
+     "valor": 1
+    },
+    {
+     "publico": "alcancados",
+     "chave": "CA",
+     "valor": 1
+    },
+    {
+     "publico": "alcancados",
+     "chave": "IE",
+     "valor": 1
+    },
+    {
+     "publico": "alcancados",
+     "chave": "DZ",
+     "valor": 1
+    },
+    {
+     "publico": "alcancados",
+     "chave": "RU",
+     "valor": 1
+    },
+    {
+     "publico": "alcancados",
+     "chave": "NO",
+     "valor": 1
+    },
+    {
+     "publico": "alcancados",
+     "chave": "IN",
+     "valor": 1
+    },
+    {
+     "publico": "alcancados",
+     "chave": "PK",
+     "valor": 1
+    },
+    {
+     "publico": "alcancados",
+     "chave": "NG",
+     "valor": 1
+    },
+    {
+     "publico": "alcancados",
+     "chave": "PH",
+     "valor": 1
+    },
+    {
+     "publico": "alcancados",
+     "chave": "TH",
+     "valor": 1
+    },
+    {
+     "publico": "seguidores",
+     "chave": "GW",
+     "valor": 1741
+    },
+    {
+     "publico": "seguidores",
+     "chave": "BR",
+     "valor": 504
+    },
+    {
+     "publico": "seguidores",
+     "chave": "PT",
+     "valor": 230
+    },
+    {
+     "publico": "seguidores",
+     "chave": "AO",
+     "valor": 185
+    },
+    {
+     "publico": "seguidores",
+     "chave": "GB",
+     "valor": 127
+    },
+    {
+     "publico": "seguidores",
+     "chave": "MZ",
+     "valor": 88
+    },
+    {
+     "publico": "seguidores",
+     "chave": "SN",
+     "valor": 44
+    },
+    {
+     "publico": "seguidores",
+     "chave": "CV",
+     "valor": 37
+    },
+    {
+     "publico": "seguidores",
+     "chave": "US",
+     "valor": 34
+    },
+    {
+     "publico": "seguidores",
+     "chave": "FR",
+     "valor": 29
+    },
+    {
+     "publico": "seguidores",
+     "chave": "ES",
+     "valor": 19
+    },
+    {
+     "publico": "seguidores",
+     "chave": "LU",
+     "valor": 15
+    },
+    {
+     "publico": "seguidores",
+     "chave": "GN",
+     "valor": 14
+    },
+    {
+     "publico": "seguidores",
+     "chave": "IN",
+     "valor": 12
+    },
+    {
+     "publico": "seguidores",
+     "chave": "CH",
+     "valor": 9
+    },
+    {
+     "publico": "seguidores",
+     "chave": "CA",
+     "valor": 9
+    },
+    {
+     "publico": "seguidores",
+     "chave": "MA",
+     "valor": 8
+    },
+    {
+     "publico": "seguidores",
+     "chave": "NL",
+     "valor": 8
+    },
+    {
+     "publico": "seguidores",
+     "chave": "RU",
+     "valor": 7
+    },
+    {
+     "publico": "seguidores",
+     "chave": "NG",
+     "valor": 7
+    },
+    {
+     "publico": "seguidores",
+     "chave": "DE",
+     "valor": 6
+    },
+    {
+     "publico": "seguidores",
+     "chave": "IR",
+     "valor": 5
+    },
+    {
+     "publico": "seguidores",
+     "chave": "AR",
+     "valor": 4
+    },
+    {
+     "publico": "seguidores",
+     "chave": "TR",
+     "valor": 4
+    },
+    {
+     "publico": "seguidores",
+     "chave": "VE",
+     "valor": 4
+    },
+    {
+     "publico": "seguidores",
+     "chave": "GM",
+     "valor": 4
+    },
+    {
+     "publico": "seguidores",
+     "chave": "ST",
+     "valor": 4
+    },
+    {
+     "publico": "seguidores",
+     "chave": "BJ",
+     "valor": 4
+    },
+    {
+     "publico": "seguidores",
+     "chave": "BE",
+     "valor": 4
+    },
+    {
+     "publico": "seguidores",
+     "chave": "MX",
+     "valor": 3
+    },
+    {
+     "publico": "seguidores",
+     "chave": "IQ",
+     "valor": 3
+    },
+    {
+     "publico": "seguidores",
+     "chave": "UA",
+     "valor": 3
+    },
+    {
+     "publico": "seguidores",
+     "chave": "CI",
+     "valor": 3
+    },
+    {
+     "publico": "seguidores",
+     "chave": "GH",
+     "valor": 3
+    },
+    {
+     "publico": "seguidores",
+     "chave": "SL",
+     "valor": 2
+    },
+    {
+     "publico": "seguidores",
+     "chave": "IE",
+     "valor": 2
+    },
+    {
+     "publico": "seguidores",
+     "chave": "VN",
+     "valor": 2
+    },
+    {
+     "publico": "seguidores",
+     "chave": "CN",
+     "valor": 2
+    },
+    {
+     "publico": "seguidores",
+     "chave": "IT",
+     "valor": 2
+    },
+    {
+     "publico": "seguidores",
+     "chave": "CD",
+     "valor": 2
+    },
+    {
+     "publico": "seguidores",
+     "chave": "BY",
+     "valor": 2
+    },
+    {
+     "publico": "seguidores",
+     "chave": "AU",
+     "valor": 2
+    },
+    {
+     "publico": "seguidores",
+     "chave": "PK",
+     "valor": 2
+    },
+    {
+     "publico": "seguidores",
+     "chave": "ML",
+     "valor": 2
+    },
+    {
+     "publico": "seguidores",
+     "chave": "LR",
+     "valor": 1
+    }
+   ]
+  },
+  "telas_departamentos": {
+   "fonte": "banco do painel (Supabase local)",
+   "consulta": "select id, nome, ordem, descricao, gerente_id from departamentos order by ordem",
+   "lido_em": "2026-10-23T16:22:59+00:00",
+   "linhas": [
+    {
+     "id": "direcao",
+     "nome": "direção",
+     "ordem": 0,
+     "descricao": "Organiza o pipeline, chama cada especialista e cada portão, e fala com o Carlos só com tudo aprovado.",
+     "gerente_id": "diretor"
+    },
+    {
+     "id": "pesquisa",
+     "nome": "estratégia e pesquisa",
+     "ordem": 1,
+     "descricao": "Acha o tema, os fatos com fonte e o material (vídeo do YouTube, obra, fotos) de cada Reel.",
+     "gerente_id": "portao-pauta"
+    },
+    {
+     "id": "roteiro",
+     "nome": "roteiro",
+     "ordem": 2,
+     "descricao": "Escreve o roteiro narrativo na voz do Carlos e o PDF da palavra-chave.",
+     "gerente_id": "revisor-de-roteiro"
+    },
+    {
+     "id": "arte",
+     "nome": "arte e cor",
+     "ordem": 3,
+     "descricao": "Cor da marca, capas, cenas extras e animações — tudo o que é imagem.",
+     "gerente_id": "portao-imagem"
+    },
+    {
+     "id": "pos",
+     "nome": "pós-produção",
+     "ordem": 4,
+     "descricao": "Corte pelo roteiro, música e acabamento de áudio até o vídeo final.",
+     "gerente_id": "revisor-de-video"
+    },
+    {
+     "id": "distribuicao",
+     "nome": "distribuição e dados",
+     "ordem": 5,
+     "descricao": "Publica no Instagram e no Facebook, lê as métricas e cuida do perfil.",
+     "gerente_id": "portao-publicacao"
+    },
+    {
+     "id": "tecnologia",
+     "nome": "tecnologia",
+     "ordem": 6,
+     "descricao": "Constrói o próprio painel — design do produto, telas e banco de dados — com o mesmo GAUNTLET do conteúdo.",
+     "gerente_id": "portao-interface"
+    }
+   ]
+  },
+  "telas_agentes": {
+   "fonte": "banco do painel (Supabase local)",
+   "consulta": "select id, nome, cargo, departamento_id, papel, resumo, modelo, fiscalizado_por, fiscaliza from agentes order by departamento_id, papel desc, nome",
+   "lido_em": "2026-10-23T16:22:59+00:00",
+   "linhas": [
+    {
+     "id": "portao-imagem",
+     "nome": "Íris Moura",
+     "cargo": "gerente de arte · portão da imagem",
+     "departamento_id": "arte",
+     "papel": "portao",
+     "resumo": "Confere a cor da marca, se a capa foi feita sobre a cor atual e se nada no quadro sai errado.",
+     "modelo": "opus",
+     "fiscalizado_por": null,
+     "fiscaliza": [
+      "colorista",
+      "designer-de-capas",
+      "produtor-de-extras",
+      "animador"
+     ]
+    },
+    {
+     "id": "designer-de-capas",
+     "nome": "Bruno Teixeira",
+     "cargo": "designer de capas",
+     "departamento_id": "arte",
+     "papel": "construtor",
+     "resumo": "Escolhe o frame e cria as capas com headline própria, uma por variante.",
+     "modelo": "sonnet",
+     "fiscalizado_por": "portao-imagem",
+     "fiscaliza": []
+    },
+    {
+     "id": "produtor-de-extras",
+     "nome": "Caio Martins",
+     "cargo": "produtor de cenas extras",
+     "departamento_id": "arte",
+     "papel": "construtor",
+     "resumo": "Organiza as cenas extras, tira prints e prepara o que o Carlos precisa gravar.",
+     "modelo": "sonnet",
+     "fiscalizado_por": "portao-imagem",
+     "fiscaliza": []
+    },
+    {
+     "id": "animador",
+     "nome": "Nina Alves",
+     "cargo": "animadora",
+     "departamento_id": "arte",
+     "papel": "construtor",
+     "resumo": "Transforma a fala em animação explicativa sincronizada (Claude Design → Remotion).",
+     "modelo": "opus",
+     "fiscalizado_por": "portao-imagem",
+     "fiscaliza": []
+    },
+    {
+     "id": "colorista",
+     "nome": "Sofia Lima",
+     "cargo": "colorista",
+     "departamento_id": "arte",
+     "papel": "construtor",
+     "resumo": "Aplica a cor da marca (V-Log, primária por trecho, look v5) em todo vídeo.",
+     "modelo": "sonnet",
+     "fiscalizado_por": "portao-imagem",
+     "fiscaliza": []
+    },
+    {
+     "id": "diretor",
+     "nome": "Atlas",
+     "cargo": "diretor de operações",
+     "departamento_id": "direcao",
+     "papel": "diretor",
+     "resumo": "O Claude principal. Recebe o pedido do Carlos, aciona os especialistas e os portões, e só entrega com tudo aprovado.",
+     "modelo": "opus",
+     "fiscalizado_por": null,
+     "fiscaliza": []
+    },
+    {
+     "id": "portao-publicacao",
+     "nome": "Henrique Sales",
+     "cargo": "gerente de distribuição · portão da publicação",
+     "departamento_id": "distribuicao",
+     "papel": "portao",
+     "resumo": "Último olhar antes do público — legenda, palavra-chave, PDF, capa da variante e Trial × normal.",
+     "modelo": "opus",
+     "fiscalizado_por": null,
+     "fiscaliza": [
+      "publicador"
+     ]
+    },
+    {
+     "id": "publicador",
+     "nome": "Pedro Almeida",
+     "cargo": "publicador",
+     "departamento_id": "distribuicao",
+     "papel": "construtor",
+     "resumo": "Escreve as legendas do post e agenda a publicação no Instagram e no Facebook.",
+     "modelo": "sonnet",
+     "fiscalizado_por": "portao-publicacao",
+     "fiscaliza": []
+    },
+    {
+     "id": "auditor-de-perfil",
+     "nome": "André Fontes",
+     "cargo": "auditor de perfil",
+     "departamento_id": "distribuicao",
+     "papel": "analista",
+     "resumo": "Audita bio, grade e público do perfil e traça o plano para sair da bolha.",
+     "modelo": "opus",
+     "fiscalizado_por": null,
+     "fiscaliza": []
+    },
+    {
+     "id": "analista-de-metricas",
+     "nome": "Júlia Ramos",
+     "cargo": "analista de dados",
+     "departamento_id": "distribuicao",
+     "papel": "analista",
+     "resumo": "Lê as métricas de cada Reel aos 5 dias e escreve o que funcionou para o próximo roteiro.",
+     "modelo": "sonnet",
+     "fiscalizado_por": null,
+     "fiscaliza": []
+    },
+    {
+     "id": "portao-pauta",
+     "nome": "Vera Campos",
+     "cargo": "gerente de pesquisa · portão da pauta",
+     "departamento_id": "pesquisa",
+     "papel": "portao",
+     "resumo": "Confere se cada fato tem fonte, se a pessoa da foto é quem diz ser e se o material pode ir para a tela.",
+     "modelo": "opus",
+     "fiscalizado_por": null,
+     "fiscaliza": [
+      "estrategista",
+      "pesquisador-de-material",
+      "buscador-de-videos",
+      "curador-de-obra"
+     ]
+    },
+    {
+     "id": "curador-de-obra",
+     "nome": "Beatriz Santos",
+     "cargo": "curadora de obras",
+     "departamento_id": "pesquisa",
+     "papel": "construtor",
+     "resumo": "Traz a obra comentada (documentário, palestra), escolhe e recorta os trechos a citar.",
+     "modelo": "sonnet",
+     "fiscalizado_por": "portao-pauta",
+     "fiscaliza": []
+    },
+    {
+     "id": "estrategista",
+     "nome": "Helena Prado",
+     "cargo": "estrategista de conteúdo",
+     "departamento_id": "pesquisa",
+     "papel": "construtor",
+     "resumo": "Pesquisa notícias e tendências de IA e alimenta o banco de ideias com temas pontuados.",
+     "modelo": "sonnet",
+     "fiscalizado_por": "portao-pauta",
+     "fiscaliza": []
+    },
+    {
+     "id": "pesquisador-de-material",
+     "nome": "Rafael Nunes",
+     "cargo": "pesquisador",
+     "departamento_id": "pesquisa",
+     "papel": "construtor",
+     "resumo": "Monta o dossiê com fatos verificados e a lista de material com licença e link.",
+     "modelo": "sonnet",
+     "fiscalizado_por": "portao-pauta",
+     "fiscaliza": []
+    },
+    {
+     "id": "buscador-de-videos",
+     "nome": "Tiago Lopes",
+     "cargo": "caçador de vídeos",
+     "departamento_id": "pesquisa",
+     "papel": "construtor",
+     "resumo": "Acha no YouTube os vídeos da pessoa ou do assunto, assiste, marca os momentos e corta os trechos.",
+     "modelo": "sonnet",
+     "fiscalizado_por": "portao-pauta",
+     "fiscaliza": []
+    },
+    {
+     "id": "revisor-de-video",
+     "nome": "Clara Duarte",
+     "cargo": "gerente de pós-produção · portão do corte",
+     "departamento_id": "pos",
+     "papel": "portao",
+     "resumo": "Assiste cada vídeo final por quadros, mede o áudio e confere o corte contra o roteiro.",
+     "modelo": "opus",
+     "fiscalizado_por": null,
+     "fiscaliza": [
+      "editor-de-video",
+      "produtor-musical"
+     ]
+    },
+    {
+     "id": "editor-de-video",
+     "nome": "Diego Ferraz",
+     "cargo": "editor",
+     "departamento_id": "pos",
+     "papel": "construtor",
+     "resumo": "Corta o bruto pelo roteiro, escolhe o take de cada linha e monta a EDL.",
+     "modelo": "opus",
+     "fiscalizado_por": "revisor-de-video",
+     "fiscaliza": []
+    },
+    {
+     "id": "produtor-musical",
+     "nome": "Lucas Barros",
+     "cargo": "produtor musical",
+     "departamento_id": "pos",
+     "papel": "construtor",
+     "resumo": "Cria a trilha cinematográfica de cada Reel e mistura sob a voz.",
+     "modelo": "sonnet",
+     "fiscalizado_por": "revisor-de-video",
+     "fiscaliza": []
+    },
+    {
+     "id": "revisor-de-roteiro",
+     "nome": "Otávio Reis",
+     "cargo": "gerente de roteiro · portão do roteiro",
+     "departamento_id": "roteiro",
+     "papel": "portao",
+     "resumo": "Pontua os hooks, cobra o arco narrativo e as regras de alcance, e confere o PDF antes do Carlos.",
+     "modelo": "opus",
+     "fiscalizado_por": null,
+     "fiscaliza": [
+      "roteirista",
+      "produtor-de-material"
+     ]
+    },
+    {
+     "id": "produtor-de-material",
+     "nome": "Lívia Rocha",
+     "cargo": "produtora de material",
+     "departamento_id": "roteiro",
+     "papel": "construtor",
+     "resumo": "Faz o PDF de até duas páginas que o direct entrega a quem comenta a palavra.",
+     "modelo": "sonnet",
+     "fiscalizado_por": "revisor-de-roteiro",
+     "fiscaliza": []
+    },
+    {
+     "id": "roteirista",
+     "nome": "Marina Costa",
+     "cargo": "roteirista",
+     "departamento_id": "roteiro",
+     "papel": "construtor",
+     "resumo": "Escreve o roteiro narrativo na voz do Carlos, com três hooks e a palavra-chave falada.",
+     "modelo": "opus",
+     "fiscalizado_por": "revisor-de-roteiro",
+     "fiscaliza": []
+    },
+    {
+     "id": "portao-interface",
+     "nome": "Camila Freitas",
+     "cargo": "gerente de tecnologia · portão da interface",
+     "departamento_id": "tecnologia",
+     "papel": "portao",
+     "resumo": "Abre cada tela no computador e no celular e confere se o que o Carlos vê está certo, legível e igual ao design aprovado.",
+     "modelo": "opus",
+     "fiscalizado_por": null,
+     "fiscaliza": [
+      "engenheiro-frontend"
+     ]
+    },
+    {
+     "id": "portao-dados",
+     "nome": "Sérgio Lemos",
+     "cargo": "portão dos dados",
+     "departamento_id": "tecnologia",
+     "papel": "portao",
+     "resumo": "Confere se o banco do painel é a cópia fiel dos arquivos do projeto e se nada lê ou escreve o que não devia.",
+     "modelo": "opus",
+     "fiscalizado_por": null,
+     "fiscaliza": [
+      "engenheiro-backend"
+     ]
+    },
+    {
+     "id": "engenheiro-frontend",
+     "nome": "Gabriel Torres",
+     "cargo": "engenheiro front-end",
+     "departamento_id": "tecnologia",
+     "papel": "construtor",
+     "resumo": "Implementa as telas aprovadas em Next.js — componentes, gráficos, estados e celular — com os dados lidos só pelo servidor.",
+     "modelo": "opus",
+     "fiscalizado_por": "portao-interface",
+     "fiscaliza": []
+    },
+    {
+     "id": "designer-de-produto",
+     "nome": "Lia Monteiro",
+     "cargo": "designer de produto (UI/UX)",
+     "departamento_id": "tecnologia",
+     "papel": "construtor",
+     "resumo": "Transforma as referências do Carlos no design system do painel e desenha cada tela antes de alguém programar.",
+     "modelo": "opus",
+     "fiscalizado_por": "portao-interface",
+     "fiscaliza": []
+    },
+    {
+     "id": "engenheiro-backend",
+     "nome": "Mateus Pacheco",
+     "cargo": "engenheiro back-end e dados",
+     "departamento_id": "tecnologia",
+     "papel": "construtor",
+     "resumo": "Cuida do banco do painel, das migrações e do sincronizador que copia os arquivos do projeto para o painel.",
+     "modelo": "opus",
+     "fiscalizado_por": "portao-dados",
+     "fiscaliza": []
+    }
+   ]
+  },
+  "telas_portoes_por_area": {
+   "fonte": "banco do painel (Supabase local)",
+   "consulta": "select portao, status, count(*) as n from portoes_estado where alvo like 'videos/%' or alvo like '06-publicar/%' group by portao, status order by portao, status",
+   "lido_em": "2026-10-23T16:22:59+00:00",
+   "linhas": [
+    {
+     "portao": "corte",
+     "status": "nao_se_aplica",
+     "n": 7
+    },
+    {
+     "portao": "corte",
+     "status": "pendente",
+     "n": 5
+    },
+    {
+     "portao": "imagem",
+     "status": "nao_se_aplica",
+     "n": 2
+    },
+    {
+     "portao": "imagem",
+     "status": "pendente",
+     "n": 10
+    },
+    {
+     "portao": "pauta",
+     "status": "nao_se_aplica",
+     "n": 2
+    },
+    {
+     "portao": "pauta",
+     "status": "pendente",
+     "n": 10
+    },
+    {
+     "portao": "publicacao",
+     "status": "pendente",
+     "n": 5
+    },
+    {
+     "portao": "roteiro",
+     "status": "pendente",
+     "n": 12
+    }
+   ]
+  },
+  "telas_portoes_videos": {
+   "fonte": "banco do painel (Supabase local)",
+   "consulta": "select slug, portao, status from portoes_estado where alvo like 'videos/%' order by slug, portao",
+   "lido_em": "2026-10-23T16:22:59+00:00",
+   "linhas": [
+    {
+     "slug": "2026-09-16-chatgpt-contexto",
+     "portao": "corte",
+     "status": "pendente"
+    },
+    {
+     "slug": "2026-09-16-chatgpt-contexto",
+     "portao": "imagem",
+     "status": "pendente"
+    },
+    {
+     "slug": "2026-09-16-chatgpt-contexto",
+     "portao": "pauta",
+     "status": "nao_se_aplica"
+    },
+    {
+     "slug": "2026-09-16-chatgpt-contexto",
+     "portao": "roteiro",
+     "status": "pendente"
+    },
+    {
+     "slug": "2026-09-17-demis-hassabis",
+     "portao": "corte",
+     "status": "pendente"
+    },
+    {
+     "slug": "2026-09-17-demis-hassabis",
+     "portao": "imagem",
+     "status": "pendente"
+    },
+    {
+     "slug": "2026-09-17-demis-hassabis",
+     "portao": "pauta",
+     "status": "pendente"
+    },
+    {
+     "slug": "2026-09-17-demis-hassabis",
+     "portao": "roteiro",
+     "status": "pendente"
+    },
+    {
+     "slug": "2026-09-17-jacob-coxon",
+     "portao": "corte",
+     "status": "nao_se_aplica"
+    },
+    {
+     "slug": "2026-09-17-jacob-coxon",
+     "portao": "imagem",
+     "status": "pendente"
+    },
+    {
+     "slug": "2026-09-17-jacob-coxon",
+     "portao": "pauta",
+     "status": "pendente"
+    },
+    {
+     "slug": "2026-09-17-jacob-coxon",
+     "portao": "roteiro",
+     "status": "pendente"
+    },
+    {
+     "slug": "2026-10-18-jensen-huang",
+     "portao": "corte",
+     "status": "nao_se_aplica"
+    },
+    {
+     "slug": "2026-10-18-jensen-huang",
+     "portao": "imagem",
+     "status": "nao_se_aplica"
+    },
+    {
+     "slug": "2026-10-18-jensen-huang",
+     "portao": "pauta",
+     "status": "pendente"
+    },
+    {
+     "slug": "2026-10-18-jensen-huang",
+     "portao": "roteiro",
+     "status": "pendente"
+    },
+    {
+     "slug": "2026-10-20-fei-fei-li",
+     "portao": "corte",
+     "status": "pendente"
+    },
+    {
+     "slug": "2026-10-20-fei-fei-li",
+     "portao": "imagem",
+     "status": "pendente"
+    },
+    {
+     "slug": "2026-10-20-fei-fei-li",
+     "portao": "pauta",
+     "status": "pendente"
+    },
+    {
+     "slug": "2026-10-20-fei-fei-li",
+     "portao": "roteiro",
+     "status": "pendente"
+    },
+    {
+     "slug": "2026-10-20-geoffrey-hinton",
+     "portao": "corte",
+     "status": "pendente"
+    },
+    {
+     "slug": "2026-10-20-geoffrey-hinton",
+     "portao": "imagem",
+     "status": "pendente"
+    },
+    {
+     "slug": "2026-10-20-geoffrey-hinton",
+     "portao": "pauta",
+     "status": "pendente"
+    },
+    {
+     "slug": "2026-10-20-geoffrey-hinton",
+     "portao": "roteiro",
+     "status": "pendente"
+    },
+    {
+     "slug": "2026-10-21-foto-da-loja",
+     "portao": "corte",
+     "status": "nao_se_aplica"
+    },
+    {
+     "slug": "2026-10-21-foto-da-loja",
+     "portao": "imagem",
+     "status": "pendente"
+    },
+    {
+     "slug": "2026-10-21-foto-da-loja",
+     "portao": "pauta",
+     "status": "pendente"
+    },
+    {
+     "slug": "2026-10-21-foto-da-loja",
+     "portao": "roteiro",
+     "status": "pendente"
+    },
+    {
+     "slug": "2026-10-21-golpes-com-ia",
+     "portao": "corte",
+     "status": "nao_se_aplica"
+    },
+    {
+     "slug": "2026-10-21-golpes-com-ia",
+     "portao": "imagem",
+     "status": "pendente"
+    },
+    {
+     "slug": "2026-10-21-golpes-com-ia",
+     "portao": "pauta",
+     "status": "pendente"
+    },
+    {
+     "slug": "2026-10-21-golpes-com-ia",
+     "portao": "roteiro",
+     "status": "pendente"
+    },
+    {
+     "slug": "2026-10-22-15-coisas-ia-negocio",
+     "portao": "corte",
+     "status": "nao_se_aplica"
+    },
+    {
+     "slug": "2026-10-22-15-coisas-ia-negocio",
+     "portao": "imagem",
+     "status": "pendente"
+    },
+    {
+     "slug": "2026-10-22-15-coisas-ia-negocio",
+     "portao": "pauta",
+     "status": "pendente"
+    },
+    {
+     "slug": "2026-10-22-15-coisas-ia-negocio",
+     "portao": "roteiro",
+     "status": "pendente"
+    },
+    {
+     "slug": "2026-10-22-agente-3-passos",
+     "portao": "corte",
+     "status": "nao_se_aplica"
+    },
+    {
+     "slug": "2026-10-22-agente-3-passos",
+     "portao": "imagem",
+     "status": "pendente"
+    },
+    {
+     "slug": "2026-10-22-agente-3-passos",
+     "portao": "pauta",
+     "status": "pendente"
+    },
+    {
+     "slug": "2026-10-22-agente-3-passos",
+     "portao": "roteiro",
+     "status": "pendente"
+    },
+    {
+     "slug": "2026-10-23-livro-chatgpt",
+     "portao": "corte",
+     "status": "pendente"
+    },
+    {
+     "slug": "2026-10-23-livro-chatgpt",
+     "portao": "imagem",
+     "status": "pendente"
+    },
+    {
+     "slug": "2026-10-23-livro-chatgpt",
+     "portao": "pauta",
+     "status": "pendente"
+    },
+    {
+     "slug": "2026-10-23-livro-chatgpt",
+     "portao": "roteiro",
+     "status": "pendente"
+    },
+    {
+     "slug": "2026-10-24-comando-secreto",
+     "portao": "corte",
+     "status": "nao_se_aplica"
+    },
+    {
+     "slug": "2026-10-24-comando-secreto",
+     "portao": "imagem",
+     "status": "nao_se_aplica"
+    },
+    {
+     "slug": "2026-10-24-comando-secreto",
+     "portao": "pauta",
+     "status": "nao_se_aplica"
+    },
+    {
+     "slug": "2026-10-24-comando-secreto",
+     "portao": "roteiro",
+     "status": "pendente"
+    }
+   ]
+  },
+  "telas_fila_legado": {
+   "fonte": "banco do painel (Supabase local)",
+   "consulta": "select slug, legado, publicar_em, trial from fila order by publicar_em",
+   "lido_em": "2026-10-23T16:22:59+00:00",
+   "linhas": [
+    {
+     "slug": "2026-10-20-fei-fei-li-r2",
+     "legado": true,
+     "publicar_em": "2026-10-24T18:00:00+00:00",
+     "trial": null
+    },
+    {
+     "slug": "2026-10-20-geoffrey-hinton-r2",
+     "legado": true,
+     "publicar_em": "2026-10-25T19:00:00+00:00",
+     "trial": null
+    },
+    {
+     "slug": "2026-10-23-livro-chatgpt",
+     "legado": true,
+     "publicar_em": "2026-10-27T21:00:00+00:00",
+     "trial": "MANUAL"
+    },
+    {
+     "slug": "2026-10-23-livro-chatgpt-l01c",
+     "legado": true,
+     "publicar_em": "2026-10-28T21:00:00+00:00",
+     "trial": "MANUAL"
+    },
+    {
+     "slug": "2026-10-23-livro-chatgpt-l01c-a",
+     "legado": true,
+     "publicar_em": "2026-11-01T19:00:00+00:00",
+     "trial": "MANUAL"
+    }
+   ]
+  },
+  "telas_sincronizacao": {
+   "fonte": "banco do painel (Supabase local)",
+   "consulta": "select em from sincronizacoes order by em desc limit 1",
+   "lido_em": "2026-10-23T16:22:59+00:00",
+   "linhas": [
+    {
+     "em": "2026-10-23T16:20:44.672456+00:00"
+    }
+   ]
+  },
+  "telas_perfil_arquivo": {
+   "fonte": "_controle/perfil/2026-10-16.json e 2026-10-22.json (o snapshot da Meta, janela de 28 dias)",
+   "como": "instagram.conta.followers_count; instagram.metricas_conta.{reach,views,profile_views,profile_links_taps}.valor; reach_por_follow_type (NON_FOLLOWER / FOLLOWER)",
+   "lido_em": "2026-10-23T16:22:59+00:00",
+   "linhas": [
+    {
+     "arquivo": "_controle/perfil/2026-10-16.json",
+     "lido_em": "2026-10-16T11:09:19+01:00",
+     "janela": {
+      "dias": 28,
+      "desde": "2026-09-18",
+      "ate": "2026-10-16"
+     },
+     "seguidores": 3634,
+     "alcance": 476,
+     "views": 2677,
+     "visitas_perfil": 54,
+     "toques_no_link": 0,
+     "alcance_nao_seguidores": 263,
+     "alcance_seguidores": 203
+    },
+    {
+     "arquivo": "_controle/perfil/2026-10-22.json",
+     "lido_em": "2026-10-22T14:00:32+01:00",
+     "janela": {
+      "dias": 28,
+      "desde": "2026-09-24",
+      "ate": "2026-10-22"
+     },
+     "seguidores": 3631,
+     "alcance": 529,
+     "views": 2448,
+     "visitas_perfil": 56,
+     "toques_no_link": 0,
+     "alcance_nao_seguidores": 307,
+     "alcance_seguidores": 206
+    }
+   ]
+  },
+  "telas_fila": {
+   "fonte": "06-publicar/<slug>/post.json + pacote.json",
+   "como": "publicar_em, plataformas, estado, instagram.trial.graduation_strategy, material.palavra; pacote.duracao, pacote.qa, 'gauntlet' em pacote.json (selo); capa/capa.png",
+   "lido_em": "2026-10-23T16:22:59+00:00",
+   "linhas": [
+    {
+     "slug": "2026-10-20-fei-fei-li-r2",
+     "publicar_em": "2026-10-24T19:00:00+01:00",
+     "plataformas": [
+      "instagram"
+     ],
+     "estado": "agendado",
+     "trial": null,
+     "palavra": "AULA",
+     "duracao_s": 168.49,
+     "qa": "PASS",
+     "selo": false,
+     "capa": "06-publicar/2026-10-20-fei-fei-li-r2/capa/capa.png"
+    },
+    {
+     "slug": "2026-10-20-geoffrey-hinton-r2",
+     "publicar_em": "2026-10-25T19:00:00+00:00",
+     "plataformas": [
+      "instagram"
+     ],
+     "estado": "agendado",
+     "trial": null,
+     "palavra": "NOBEL",
+     "duracao_s": 158.68,
+     "qa": "PASS",
+     "selo": false,
+     "capa": "06-publicar/2026-10-20-geoffrey-hinton-r2/capa/capa.png"
+    },
+    {
+     "slug": "2026-10-23-livro-chatgpt",
+     "publicar_em": "2026-10-27T21:00:00+00:00",
+     "plataformas": [
+      "instagram"
+     ],
+     "estado": "agendado",
+     "trial": "MANUAL",
+     "palavra": "LIVRO",
+     "duracao_s": 34.44,
+     "qa": "PASS",
+     "selo": false,
+     "capa": "06-publicar/2026-10-23-livro-chatgpt/capa/capa.png"
+    },
+    {
+     "slug": "2026-10-23-livro-chatgpt-l01c",
+     "publicar_em": "2026-10-28T21:00:00+00:00",
+     "plataformas": [
+      "instagram"
+     ],
+     "estado": "agendado",
+     "trial": "MANUAL",
+     "palavra": "LIVRO",
+     "duracao_s": 34.44,
+     "qa": "PASS",
+     "selo": false,
+     "capa": "06-publicar/2026-10-23-livro-chatgpt-l01c/capa/capa.png"
+    },
+    {
+     "slug": "2026-10-23-livro-chatgpt-l01c-a",
+     "publicar_em": "2026-11-01T19:00:00+00:00",
+     "plataformas": [
+      "instagram"
+     ],
+     "estado": "agendado",
+     "trial": "MANUAL",
+     "palavra": "LIVRO",
+     "duracao_s": 34.44,
+     "qa": "PASS",
+     "selo": false,
+     "capa": "06-publicar/2026-10-23-livro-chatgpt-l01c-a/capa/capa.png"
+    }
+   ]
+  },
+  "telas_publicados": {
+   "fonte": "07-publicados/<slug>/post.json + pacote.json + metricas.json (ultima)",
+   "como": "post: publicado_em, plataformas, instagram/facebook.permalink, instagram.trial; pacote.duracao; metricas.ultima.resumo.instagram (views, alcance, curtidas, salvamentos, tempo médio, % assistido) e ultima.instagram.metricas.total_interactions. 'suspeito' = tempo médio maior que a duração (a mesma regra do sincronizar.py). Sem metricas.json = a 1.ª leitura ainda não saiu.",
+   "observacao": "o banco (tabela publicacoes) só tem um post depois da 1.ª leitura de métricas: o 2026-10-23-livro-chatgpt-a (publicado 22/10 21:19) ainda não está nele.",
+   "lido_em": "2026-10-23T16:22:59+00:00",
+   "linhas": [
+    {
+     "slug": "2026-09-17-demis-hassabis",
+     "publicado_em": "2026-10-13T17:03:58+01:00",
+     "plataformas": [
+      "instagram",
+      "facebook"
+     ],
+     "trial": null,
+     "permalink_instagram": "https://www.instagram.com/reel/DecK5CDk34q/",
+     "permalink_facebook": "https://www.facebook.com/reel/1350369576981188/",
+     "permalink_linkedin": null,
+     "palavra": "DOCUMENTARIO",
+     "duracao_s": 57.84,
+     "capa": "07-publicados/2026-09-17-demis-hassabis/capa/capa.png",
+     "metricas": {
+      "lido_em": "2026-10-22T14:00:16+01:00",
+      "dias": 8.87,
+      "views": 450,
+      "alcance": 338,
+      "curtidas": 16,
+      "comentarios": 2,
+      "salvamentos": 1,
+      "compartilhamentos": 1,
+      "interacoes": 21,
+      "tempo_medio_s": 11.88,
+      "pct_assistido": 20.5,
+      "suspeito": false,
+      "fb_plays": 30,
+      "fb_tempo_medio_s": 10.91
+     }
+    },
+    {
+     "slug": "2026-10-20-fei-fei-li",
+     "publicado_em": "2026-10-18T19:14:09+01:00",
+     "plataformas": [
+      "instagram",
+      "facebook"
+     ],
+     "trial": "MANUAL",
+     "permalink_instagram": "https://www.instagram.com/reel/DepSlbLADfM/",
+     "permalink_facebook": "https://www.facebook.com/reel/1636967341113142/",
+     "permalink_linkedin": null,
+     "palavra": "AULA",
+     "duracao_s": 168.44,
+     "capa": "07-publicados/2026-10-20-fei-fei-li/capa/capa.png",
+     "metricas": {
+      "lido_em": "2026-10-22T13:59:51+01:00",
+      "dias": 3.78,
+      "views": 45,
+      "alcance": 40,
+      "curtidas": 1,
+      "comentarios": 0,
+      "salvamentos": 0,
+      "compartilhamentos": 0,
+      "interacoes": 1,
+      "tempo_medio_s": 9.05,
+      "pct_assistido": 5.4,
+      "suspeito": false,
+      "fb_plays": 196,
+      "fb_tempo_medio_s": 2.37
+     }
+    },
+    {
+     "slug": "2026-10-20-fei-fei-li-a",
+     "publicado_em": "2026-10-20T21:14:31+01:00",
+     "plataformas": [
+      "instagram"
+     ],
+     "trial": "MANUAL",
+     "permalink_instagram": "https://www.instagram.com/reel/Deuqi5pDmyf/",
+     "permalink_facebook": null,
+     "permalink_linkedin": null,
+     "palavra": "AULA",
+     "duracao_s": 168.49,
+     "capa": "07-publicados/2026-10-20-fei-fei-li-a/capa/capa.png",
+     "metricas": {
+      "lido_em": "2026-10-22T14:00:01+01:00",
+      "dias": 1.7,
+      "views": 8,
+      "alcance": 4,
+      "curtidas": 0,
+      "comentarios": 0,
+      "salvamentos": 0,
+      "compartilhamentos": 0,
+      "interacoes": 0,
+      "tempo_medio_s": 2.6,
+      "pct_assistido": 1.5,
+      "suspeito": false,
+      "fb_plays": null,
+      "fb_tempo_medio_s": null
+     }
+    },
+    {
+     "slug": "2026-10-20-geoffrey-hinton",
+     "publicado_em": "2026-10-15T11:44:34+01:00",
+     "plataformas": [
+      "instagram",
+      "facebook"
+     ],
+     "trial": "SS_PERFORMANCE",
+     "permalink_instagram": "https://www.instagram.com/reel/Degw3KFDvcO/",
+     "permalink_facebook": "https://www.facebook.com/reel/1033107573077272/",
+     "permalink_linkedin": null,
+     "palavra": "NOBEL",
+     "duracao_s": 158.68,
+     "capa": "07-publicados/2026-10-20-geoffrey-hinton/capa/capa.png",
+     "metricas": {
+      "lido_em": "2026-10-22T14:00:07+01:00",
+      "dias": 7.09,
+      "views": 11,
+      "alcance": 11,
+      "curtidas": 1,
+      "comentarios": 0,
+      "salvamentos": 0,
+      "compartilhamentos": 0,
+      "interacoes": 1,
+      "tempo_medio_s": 1512.69,
+      "pct_assistido": 953.3,
+      "suspeito": true,
+      "fb_plays": 4,
+      "fb_tempo_medio_s": 1.73
+     }
+    },
+    {
+     "slug": "2026-10-23-livro-chatgpt-a",
+     "publicado_em": "2026-10-22T21:19:22+01:00",
+     "plataformas": [
+      "instagram",
+      "facebook"
+     ],
+     "trial": null,
+     "permalink_instagram": "https://www.instagram.com/reel/Dezzw0iimTe/",
+     "permalink_facebook": "https://www.facebook.com/reel/1829716168045842/",
+     "permalink_linkedin": null,
+     "palavra": "LIVRO",
+     "duracao_s": 34.44,
+     "capa": "07-publicados/2026-10-23-livro-chatgpt-a/capa/capa.png",
+     "metricas": null
+    }
+   ]
+  },
+  "telas_videos": {
+   "fonte": "videos/<slug>/roteiro.json + status.json + material/*.pdf + brutos/extras/ + brutos/principal/",
+   "como": "versao, cta_palavra, len(extras) do roteiro; estado e atualizado do status.json; arquivos em brutos/extras/ (prontas) e brutos/principal/ (gravado = tem arquivo); gravação prevista = data do slug (CLAUDE.md, convenção do slug)",
+   "lido_em": "2026-10-23T16:22:59+00:00",
+   "linhas": [
+    {
+     "slug": "2026-09-16-chatgpt-contexto",
+     "versao": 4,
+     "palavra": null,
+     "pdfs": [],
+     "extras_prontas": 1,
+     "extras_planejadas": 1,
+     "gravado": true,
+     "estado": "edl_aprovada",
+     "atualizado": "2026-09-18T20:15:51+01:00",
+     "gravacao_prevista": "2026-09-16"
+    },
+    {
+     "slug": "2026-09-17-demis-hassabis",
+     "versao": 6,
+     "palavra": null,
+     "pdfs": [],
+     "extras_prontas": 31,
+     "extras_planejadas": 9,
+     "gravado": true,
+     "estado": "publicado",
+     "atualizado": "2026-10-13T17:03:58+01:00",
+     "gravacao_prevista": "2026-09-17"
+    },
+    {
+     "slug": "2026-09-17-jacob-coxon",
+     "versao": 3,
+     "palavra": null,
+     "pdfs": [],
+     "extras_prontas": 2,
+     "extras_planejadas": 2,
+     "gravado": false,
+     "estado": "roteiro",
+     "atualizado": "2026-09-17T01:59:54+01:00",
+     "gravacao_prevista": "2026-09-17"
+    },
+    {
+     "slug": "2026-10-18-jensen-huang",
+     "versao": 1,
+     "palavra": "PRATO",
+     "pdfs": [
+      "discurso-jensen-huang-cmu2026.pdf"
+     ],
+     "extras_prontas": 0,
+     "extras_planejadas": 0,
+     "gravado": false,
+     "estado": "roteiro",
+     "atualizado": "2026-10-17T16:20:54+01:00",
+     "gravacao_prevista": "2026-10-18"
+    },
+    {
+     "slug": "2026-10-20-fei-fei-li",
+     "versao": 4,
+     "palavra": "AULA",
+     "pdfs": [
+      "palestra-fei-fei-li-ted2015.pdf"
+     ],
+     "extras_prontas": 7,
+     "extras_planejadas": 7,
+     "gravado": true,
+     "estado": "publicado",
+     "atualizado": "2026-10-18T19:14:09+01:00",
+     "gravacao_prevista": "2026-10-20"
+    },
+    {
+     "slug": "2026-10-20-geoffrey-hinton",
+     "versao": 3,
+     "palavra": "NOBEL",
+     "pdfs": [
+      "entrevista-geoffrey-hinton.pdf"
+     ],
+     "extras_prontas": 9,
+     "extras_planejadas": 12,
+     "gravado": true,
+     "estado": "publicado",
+     "atualizado": "2026-10-15T11:44:34+01:00",
+     "gravacao_prevista": "2026-10-20"
+    },
+    {
+     "slug": "2026-10-21-foto-da-loja",
+     "versao": 1,
+     "palavra": "FOTO",
+     "pdfs": [
+      "6-pedidos-fotos-do-negocio.pdf"
+     ],
+     "extras_prontas": 5,
+     "extras_planejadas": 20,
+     "gravado": false,
+     "estado": "roteiro",
+     "atualizado": "2026-10-14T02:51:49+01:00",
+     "gravacao_prevista": "2026-10-21"
+    },
+    {
+     "slug": "2026-10-21-golpes-com-ia",
+     "versao": 2,
+     "palavra": "GOLPE",
+     "pdfs": [
+      "5-sinais-golpe-ia.pdf"
+     ],
+     "extras_prontas": 4,
+     "extras_planejadas": 6,
+     "gravado": false,
+     "estado": "roteiro",
+     "atualizado": "2026-10-14T02:48:01+01:00",
+     "gravacao_prevista": "2026-10-21"
+    },
+    {
+     "slug": "2026-10-22-15-coisas-ia-negocio",
+     "versao": 1,
+     "palavra": "LISTA",
+     "pdfs": [
+      "15-coisas-ia-negocio.pdf"
+     ],
+     "extras_prontas": 5,
+     "extras_planejadas": 6,
+     "gravado": false,
+     "estado": "roteiro",
+     "atualizado": "2026-10-14T02:47:56+01:00",
+     "gravacao_prevista": "2026-10-22"
+    },
+    {
+     "slug": "2026-10-22-agente-3-passos",
+     "versao": 1,
+     "palavra": "AGENTE",
+     "pdfs": [
+      "agente-3-passos.pdf"
+     ],
+     "extras_prontas": 3,
+     "extras_planejadas": 9,
+     "gravado": false,
+     "estado": "roteiro",
+     "atualizado": "2026-10-14T02:48:45+01:00",
+     "gravacao_prevista": "2026-10-22"
+    },
+    {
+     "slug": "2026-10-23-livro-chatgpt",
+     "versao": 2,
+     "palavra": "LIVRO",
+     "pdfs": [
+      "50-comandos-de-aprendizado.pdf"
+     ],
+     "extras_prontas": 11,
+     "extras_planejadas": 11,
+     "gravado": true,
+     "estado": "agendado",
+     "atualizado": "2026-10-22T16:11:52+01:00",
+     "gravacao_prevista": "2026-10-23"
+    },
+    {
+     "slug": "2026-10-24-comando-secreto",
+     "versao": 2,
+     "palavra": "ESTILO",
+     "pdfs": [
+      "comandos-de-estilo-para-fotos.pdf"
+     ],
+     "extras_prontas": 0,
+     "extras_planejadas": 9,
+     "gravado": false,
+     "estado": "roteiro",
+     "atualizado": "2026-10-22T02:57:45+01:00",
+     "gravacao_prevista": "2026-10-24"
+    }
+   ]
+  },
+  "telas_prontos": {
+   "fonte": "05-render-pronto/<slug>/pacote.json + _controle/CONTINUAR.md (linha do vídeo)",
+   "como": "criado_em, duracao, qa, cta_palavra; nota = a linha do CONTINUAR.md que cita o slug e diz 'não publicar' (texto, não há campo para isso)",
+   "lido_em": "2026-10-23T16:22:59+00:00",
+   "linhas": [
+    {
+     "slug": "2026-09-16-chatgpt-contexto",
+     "criado_em": "2026-09-17T23:54:16+01:00",
+     "duracao_s": 49.4,
+     "qa": "PASS",
+     "palavra": "PROMPT",
+     "selo": false,
+     "capa": "videos/2026-09-16-chatgpt-contexto/capa/capa.png",
+     "nota_continuar": "| **2026-09-16-chatgpt-contexto** | `edicao/final.mp4` 53,7 s, cor v5, capa pronta | era teste de cor; **não publicar**. A L02 não foi gravada e o CTA é o improvisado dele |"
+    }
+   ]
+  },
+  "telas_retratos": {
+   "fonte": "painel/web/public/equipe/<id do agente>.jpg (onde o painel serve os retratos; as 10 fotos que o Carlos mandou estavam em painel/web/src/app/equipe/img equipe/ e foram para cá com o nome do agente). Cópias 512×512 para a maquete: painel/design/telas/img/retratos/ (de painel/referencias/claude-design/telas-2026-10-23/retratos/)",
+   "como": "lista de arquivos; o nome do arquivo é o id do agente (agentes.id)",
+   "lido_em": "2026-10-23T16:22:59+00:00",
+   "linhas": [
+    {
+     "arquivo": "buscador-de-videos.jpg",
+     "agente": "buscador-de-videos"
+    },
+    {
+     "arquivo": "curador-de-obra.jpg",
+     "agente": "curador-de-obra"
+    },
+    {
+     "arquivo": "diretor.jpg",
+     "agente": "diretor"
+    },
+    {
+     "arquivo": "estrategista.jpg",
+     "agente": "estrategista"
+    },
+    {
+     "arquivo": "pesquisador-de-material.jpg",
+     "agente": "pesquisador-de-material"
+    },
+    {
+     "arquivo": "portao-imagem.jpg",
+     "agente": "portao-imagem"
+    },
+    {
+     "arquivo": "portao-pauta.jpg",
+     "agente": "portao-pauta"
+    },
+    {
+     "arquivo": "produtor-de-material.jpg",
+     "agente": "produtor-de-material"
+    },
+    {
+     "arquivo": "revisor-de-roteiro.jpg",
+     "agente": "revisor-de-roteiro"
+    },
+    {
+     "arquivo": "roteirista.jpg",
+     "agente": "roteirista"
+    }
+   ]
+  },
+  "telas_melhores_horarios": {
+   "fonte": "_controle/perfil/prints-2026-10-17/15.jpg (app do Instagram, 'Horários de atividade dos seguidores', fuso GMT+01:00, dia mostrado: quinta-feira) + _controle/calendario.md (vagas_semanais)",
+   "como": "altura de cada barra medida em pixels no print (base y=1562, topo de cada barra) ÷ a mais alta; o app não dá número absoluto. Picos = texto do próprio app no mesmo print ('Terças-feiras 9 PM–12 AM', 'os domingos 6 PM–9 PM', 'Quartas-feiras'…). Vagas = vagas_semanais do calendario.md.",
+   "lido_em": "2026-10-23T16:22:59+00:00",
+   "linhas": [
+    {
+     "faixa": "0h",
+     "pixels": 407,
+     "relativo": 72
+    },
+    {
+     "faixa": "3h",
+     "pixels": 192,
+     "relativo": 34
+    },
+    {
+     "faixa": "6h",
+     "pixels": 187,
+     "relativo": 33
+    },
+    {
+     "faixa": "9h",
+     "pixels": 388,
+     "relativo": 69
+    },
+    {
+     "faixa": "12h",
+     "pixels": 518,
+     "relativo": 92
+    },
+    {
+     "faixa": "15h",
+     "pixels": 559,
+     "relativo": 99
+    },
+    {
+     "faixa": "18h",
+     "pixels": 562,
+     "relativo": 100
+    },
+    {
+     "faixa": "21h",
+     "pixels": 559,
+     "relativo": 99
+    }
+   ],
+   "picos_no_app": [
+    "Dom 18–21 h",
+    "Ter 21–24 h",
+    "Qua à noite"
+   ],
+   "vagas_semanais": {
+    "domingo": "19:00",
+    "terca": "21:00",
+    "quarta": "21:00"
+   }
+  },
+  "telas_analise_trial": {
+   "fonte": "_controle/analise-trial-vs-normal-2026-10-22.md (§1 e item 4 da recomendação)",
+   "como": "copiado do texto da análise (não recalculado)",
+   "lido_em": "2026-10-23T16:22:59+00:00",
+   "linhas": [
+    {
+     "slug": "2026-09-17-demis-hassabis",
+     "nao_seguidores": "~208",
+     "pct_nao_seguidores": 62.2,
+     "base": "62,2 % de 334 contas no app, 17/10"
+    },
+    {
+     "slug": "2026-10-20-fei-fei-li",
+     "nao_seguidores": "~40",
+     "pct_nao_seguidores": null,
+     "base": "Trial: mostrado primeiro a quem não segue"
+    },
+    {
+     "slug": "2026-10-20-geoffrey-hinton",
+     "nao_seguidores": "11",
+     "pct_nao_seguidores": 100,
+     "base": "11 (100 %)"
+    },
+    {
+     "slug": "2026-10-20-fei-fei-li-a",
+     "nao_seguidores": "~4",
+     "pct_nao_seguidores": null,
+     "base": "Trial"
+    }
+   ],
+   "frase": "o único Reel normal (Hassabis) chegou a ~208 NÃO seguidores; os três Trials somados chegaram a 55.",
+   "seis_dias": "+44 não seguidores em 6 dias (16 → 22 out), com 3 Trials no ar"
+  },
+  "telas_modelos": {
+   "fonte": "model: de .claude/agents/*.md (alias 'opus' / 'sonnet'); versão = o modelo que cada alias usa hoje: tabela de modelos da skill claude-api (cache de 06/10/2026: claude-opus-5-5 = Claude Opus 5.5, claude-sonnet-5-5 = Claude Sonnet 5.5) e o message.model das sessões do Claude Code deste projeto (~/.claude/projects/-Users-teste-Documents-CONTENT-AI/*.jsonl: 346 respostas da sessão mais recente, todas claude-opus-5-5)",
+   "como": "alias → rótulo com versão. O banco guarda só o alias (agentes.modelo)",
+   "lido_em": "2026-10-23T16:22:59+00:00",
+   "linhas": [
+    {
+     "alias": "opus",
+     "modelo": "claude-opus-5-5",
+     "rotulo": "Opus 5.5"
+    },
+    {
+     "alias": "sonnet",
+     "modelo": "claude-sonnet-5-5",
+     "rotulo": "Sonnet 5.5"
+    }
+   ]
+  },
+  "telas_exemplos": {
+   "fonte": "nenhuma — pedidos do Carlos no canvas de 23/10 (painel/referencias/claude-design/telas-2026-10-23/)",
+   "como": "valores copiados do renderVals() dos artboards; aparecem nas maquetes com o selo 'exemplo'",
+   "lido_em": "2026-10-23T16:22:59+00:00",
+   "linhas": [
+    {
+     "o_que": "status Ativo agora / Em espera (presença)",
+     "valores": "Atlas e Lia Monteiro 'ativos' no Equipe.dc.html (filtro 'Ativos 2'); Atlas 'Trabalhando agora' no Main.dc.html",
+     "de_onde_viria": "sessão do Claude Code com resposta nos últimos minutos (timestamp do .jsonl) — engenheiro-backend"
+    },
+    {
+     "o_que": "tarefas atuais do Atlas",
+     "valores": "3 · 'Tela Equipe e mais 2'",
+     "de_onde_viria": "não há registro de tarefa em andamento; as 'tarefas' reais (execuções em 30 dias) já vêm dos registros"
+    },
+    {
+     "o_que": "curva diária de visualizações e alcance do Instagram",
+     "valores": "forma desenhada no canvas (Main.dc.html e Desempenho.dc.html); os pontos marcam as datas reais dos Reels",
+     "de_onde_viria": "perfil.py lendo a Meta todo dia (insights da conta com period=day) → uma linha por dia em perfil_snapshots — engenheiro-backend",
+     "pontos_exemplo": {
+      "views": [
+       35.3,
+       40.9,
+       32.6,
+       48.4,
+       43.8,
+       37.2,
+       33.6,
+       45.5,
+       51.1,
+       39.0,
+       35.3,
+       42.8,
+       54.0,
+       47.4,
+       40.9,
+       45.5,
+       57.6,
+       53.0,
+       219.5,
+       253.1,
+       189.9,
+       158.2,
+       133.1,
+       152.6,
+       172.2,
+       148.8,
+       124.6,
+       111.6
+      ],
+      "alcance": [
+       22.0,
+       23.7,
+       21.5,
+       29.0,
+       27.6,
+       22.7,
+       21.5,
+       25.9,
+       30.7,
+       24.2,
+       23.0,
+       25.7,
+       31.4,
+       29.8,
+       25.1,
+       27.3,
+       34.1,
+       32.9,
+       162.4,
+       182.2,
+       132.8,
+       107.6,
+       93.1,
+       100.7,
+       118.8,
+       99.7,
+       84.7,
+       78.2
+      ]
+     },
+     "dias": "25 set … 22 out (28 dias)"
+    },
+    {
+     "o_que": "avisos não lidos",
+     "valores": "o canvas dizia '3 novas'",
+     "de_onde_viria": "o painel não guarda o que você já viu; os 3 avisos em si são calculados dos dados (reais)"
+    }
+   ]
+  },
+  "telas_tokens": {
+   "fonte": "registros das sessões do Claude Code deste projeto: ~/.claude/projects/-Users-teste-Documents-CONTENT-AI/**/*.jsonl (message.usage + message.model por resposta; subagentes: subagents/agent-*.meta.json → agentType)",
+   "como": "a mesma conta de painel/referencias/claude-design/telas-2026-10-23/tokens-custos.py (refeita em painel/trabalho/designer/tokens/ler_tokens.py, que só lê): 30 dias (24 set – 23 out); tokens = entrada + cache gravado + saída; custo = preço de tabela da API em US$ (Opus 5.5 4/20 por milhão, Sonnet 5.5 2/10, Fable 5.1 10/50; cache gravado 1,25× a entrada por 5 min e 2× por 1 h; cache lido 0,20 ou 0,25); tarefa = um arquivo de sessão (execução) com consumo; vídeo = subagente cujo 1.º pedido cita videos/<slug>. Cada resposta conta pela ÚLTIMA linha do seu message.id (as primeiras são provisórias) e cai no dia da 1.ª linha, como o banco (PD21). Cortada no instante 2026-10-23T15:02:49Z (23/10 às 16:02:49 em Londres), o mesmo corte do banco, para não andar com a sessão aberta. É um retrato com hora de corte: no painel, o número vem do banco.",
+   "ressalva": "custo = equivalente na API pelo preço de tabela; com assinatura, a fatura é outra. ElevenLabs (transcrição e música) fica de fora: sem medição.",
+   "lido_em": "2026-10-24T21:29:42+00:00",
+   "linhas": [
+    {
+     "janela": [
+      "2026-09-24",
+      "2026-10-23"
+     ],
+     "ate": "2026-10-23T15:02:49+00:00",
+     "total_tokens": 37909543,
+     "total_us": 539.06,
+     "cache_lido": 1110629514,
+     "por_modelo": [
+      {
+       "modelo": "claude-opus-5-5",
+       "tokens": 31367707,
+       "us": 435.21
+      },
+      {
+       "modelo": "claude-sonnet-5-5",
+       "tokens": 4713480,
+       "us": 23.57
+      },
+      {
+       "modelo": "claude-fable-5-1",
+       "tokens": 1828356,
+       "us": 80.28
+      }
+     ],
+     "por_departamento": [
+      {
+       "departamento": "direcao",
+       "tokens": 23659623,
+       "us": 401.81
+      },
+      {
+       "departamento": "tecnologia",
+       "tokens": 6427611,
+       "us": 87.21
+      },
+      {
+       "departamento": "pos",
+       "tokens": 2661582,
+       "us": 19.91
+      },
+      {
+       "departamento": "roteiro",
+       "tokens": 2108352,
+       "us": 12.32
+      },
+      {
+       "departamento": "pesquisa",
+       "tokens": 1786353,
+       "us": 11.33
+      },
+      {
+       "departamento": "arte",
+       "tokens": 954366,
+       "us": 4.64
+      },
+      {
+       "departamento": "distribuicao",
+       "tokens": 311656,
+       "us": 1.84
+      }
+     ],
+     "por_agente": [
+      {
+       "agente": "principal",
+       "tokens": 17853912,
+       "us": 341.77,
+       "tarefas": 13,
+       "modelos": {
+        "claude-opus-5-5": 16025556,
+        "claude-fable-5-1": 1828356
+       }
+      },
+      {
+       "agente": "general-purpose",
+       "tokens": 4030383,
+       "us": 36.06,
+       "tarefas": 24,
+       "modelos": {
+        "claude-opus-5-5": 4030383
+       }
+      },
+      {
+       "agente": "designer-de-produto",
+       "tokens": 2401343,
+       "us": 28.39,
+       "tarefas": 2,
+       "modelos": {
+        "claude-opus-5-5": 2401343
+       }
+      },
+      {
+       "agente": "portao-interface",
+       "tokens": 2115597,
+       "us": 28.54,
+       "tarefas": 4,
+       "modelos": {
+        "claude-opus-5-5": 2115597
+       }
+      },
+      {
+       "agente": "editor-de-video",
+       "tokens": 1974444,
+       "us": 17.02,
+       "tarefas": 4,
+       "modelos": {
+        "claude-opus-5-5": 1974444
+       }
+      },
+      {
+       "agente": "workflow-subagent",
+       "tokens": 1139745,
+       "us": 16.6,
+       "tarefas": 4,
+       "modelos": {
+        "claude-opus-5-5": 1139745
+       }
+      },
+      {
+       "agente": "roteirista",
+       "tokens": 938657,
+       "us": 7.79,
+       "tarefas": 9,
+       "modelos": {
+        "claude-opus-5-5": 938657
+       }
+      },
+      {
+       "agente": "buscador-de-videos",
+       "tokens": 922638,
+       "us": 6.55,
+       "tarefas": 7,
+       "modelos": {
+        "claude-sonnet-5-5": 922638
+       }
+      },
+      {
+       "agente": "engenheiro-frontend",
+       "tokens": 748801,
+       "us": 11.78,
+       "tarefas": 3,
+       "modelos": {
+        "claude-opus-5-5": 748801
+       }
+      },
+      {
+       "agente": "pesquisador-de-material",
+       "tokens": 739587,
+       "us": 4.35,
+       "tarefas": 7,
+       "modelos": {
+        "claude-sonnet-5-5": 739587
+       }
+      },
+      {
+       "agente": "revisor-de-roteiro",
+       "tokens": 723455,
+       "us": 2.38,
+       "tarefas": 14,
+       "modelos": {
+        "claude-sonnet-5-5": 723455
+       }
+      },
+      {
+       "agente": "portao-dados",
+       "tokens": 606240,
+       "us": 9.81,
+       "tarefas": 2,
+       "modelos": {
+        "claude-opus-5-5": 606240
+       }
+      },
+      {
+       "agente": "revisor-de-video",
+       "tokens": 604523,
+       "us": 2.61,
+       "tarefas": 13,
+       "modelos": {
+        "claude-sonnet-5-5": 604523
+       }
+      },
+      {
+       "agente": "claude",
+       "tokens": 556201,
+       "us": 6.86,
+       "tarefas": 3,
+       "modelos": {
+        "claude-opus-5-5": 556201
+       }
+      },
+      {
+       "agente": "engenheiro-backend",
+       "tokens": 555630,
+       "us": 8.69,
+       "tarefas": 2,
+       "modelos": {
+        "claude-opus-5-5": 555630
+       }
+      },
+      {
+       "agente": "designer-de-capas",
+       "tokens": 482160,
+       "us": 2.21,
+       "tarefas": 3,
+       "modelos": {
+        "claude-sonnet-5-5": 482160
+       }
+      },
+      {
+       "agente": "produtor-de-material",
+       "tokens": 446240,
+       "us": 2.15,
+       "tarefas": 8,
+       "modelos": {
+        "claude-sonnet-5-5": 446240
+       }
+      },
+      {
+       "agente": "colorista",
+       "tokens": 413622,
+       "us": 2.03,
+       "tarefas": 3,
+       "modelos": {
+        "claude-sonnet-5-5": 413622
+       }
+      },
+      {
+       "agente": "auditor-de-perfil",
+       "tokens": 137144,
+       "us": 1.26,
+       "tarefas": 1,
+       "modelos": {
+        "claude-opus-5-5": 137144
+       }
+      },
+      {
+       "agente": "publicador",
+       "tokens": 133485,
+       "us": 0.46,
+       "tarefas": 3,
+       "modelos": {
+        "claude-sonnet-5-5": 133485
+       }
+      },
+      {
+       "agente": "estrategista",
+       "tokens": 124128,
+       "us": 0.43,
+       "tarefas": 1,
+       "modelos": {
+        "claude-sonnet-5-5": 124128
+       }
+      },
+      {
+       "agente": "produtor-musical",
+       "tokens": 82615,
+       "us": 0.28,
+       "tarefas": 3,
+       "modelos": {
+        "claude-sonnet-5-5": 82615
+       }
+      },
+      {
+       "agente": "Explore",
+       "tokens": 79382,
+       "us": 0.52,
+       "tarefas": 1,
+       "modelos": {
+        "claude-opus-5-5": 79382
+       }
+      },
+      {
+       "agente": "animador",
+       "tokens": 58584,
+       "us": 0.39,
+       "tarefas": 1,
+       "modelos": {
+        "claude-opus-5-5": 58584
+       }
+      },
+      {
+       "agente": "analista-de-metricas",
+       "tokens": 41027,
+       "us": 0.12,
+       "tarefas": 1,
+       "modelos": {
+        "claude-sonnet-5-5": 41027
+       }
+      }
+     ],
+     "por_video": [
+      {
+       "slug": "2026-10-20-geoffrey-hinton",
+       "tokens": 4325274,
+       "us": 32.26
+      },
+      {
+       "slug": "2026-10-23-livro-chatgpt",
+       "tokens": 1014475,
+       "us": 6.53
+      },
+      {
+       "slug": "2026-09-17-demis-hassabis",
+       "tokens": 551909,
+       "us": 3.77
+      },
+      {
+       "slug": "2026-10-21-golpes-com-ia",
+       "tokens": 367605,
+       "us": 2.4
+      },
+      {
+       "slug": "2026-10-20-fei-fei-li",
+       "tokens": 389909,
+       "us": 2.12
+      },
+      {
+       "slug": "2026-10-24-comando-secreto",
+       "tokens": 337433,
+       "us": 2.12
+      },
+      {
+       "slug": "2026-10-22-15-coisas-ia-negocio",
+       "tokens": 349445,
+       "us": 2.07
+      },
+      {
+       "slug": "2026-10-22-agente-3-passos",
+       "tokens": 261582,
+       "us": 1.38
+      },
+      {
+       "slug": "2026-10-21-foto-da-loja",
+       "tokens": 194643,
+       "us": 1.31
+      },
+      {
+       "slug": "2026-10-23-contrato-chatgpt",
+       "tokens": 72900,
+       "us": 0.25
+      },
+      {
+       "slug": "2026-10-18-jensen-huang",
+       "tokens": 40877,
+       "us": 0.15
+      }
+     ],
+     "por_dia": [
+      {
+       "dia": "2026-09-24",
+       "tokens": 0,
+       "us": 0
+      },
+      {
+       "dia": "2026-09-25",
+       "tokens": 0,
+       "us": 0
+      },
+      {
+       "dia": "2026-09-26",
+       "tokens": 0,
+       "us": 0
+      },
+      {
+       "dia": "2026-09-27",
+       "tokens": 0,
+       "us": 0
+      },
+      {
+       "dia": "2026-09-28",
+       "tokens": 0,
+       "us": 0
+      },
+      {
+       "dia": "2026-09-29",
+       "tokens": 0,
+       "us": 0
+      },
+      {
+       "dia": "2026-09-30",
+       "tokens": 0,
+       "us": 0
+      },
+      {
+       "dia": "2026-10-01",
+       "tokens": 764270,
+       "us": 18.42
+      },
+      {
+       "dia": "2026-10-02",
+       "tokens": 503266,
+       "us": 6.65
+      },
+      {
+       "dia": "2026-10-03",
+       "tokens": 0,
+       "us": 0
+      },
+      {
+       "dia": "2026-10-04",
+       "tokens": 0,
+       "us": 0
+      },
+      {
+       "dia": "2026-10-05",
+       "tokens": 0,
+       "us": 0
+      },
+      {
+       "dia": "2026-10-06",
+       "tokens": 0,
+       "us": 0
+      },
+      {
+       "dia": "2026-10-07",
+       "tokens": 444086,
+       "us": 4.2
+      },
+      {
+       "dia": "2026-10-08",
+       "tokens": 460937,
+       "us": 5.15
+      },
+      {
+       "dia": "2026-10-09",
+       "tokens": 191001,
+       "us": 2.95
+      },
+      {
+       "dia": "2026-10-10",
+       "tokens": 0,
+       "us": 0
+      },
+      {
+       "dia": "2026-10-11",
+       "tokens": 0,
+       "us": 0
+      },
+      {
+       "dia": "2026-10-12",
+       "tokens": 0,
+       "us": 0
+      },
+      {
+       "dia": "2026-10-13",
+       "tokens": 1775931,
+       "us": 28.06
+      },
+      {
+       "dia": "2026-10-14",
+       "tokens": 7808581,
+       "us": 78.45
+      },
+      {
+       "dia": "2026-10-15",
+       "tokens": 3747451,
+       "us": 44.95
+      },
+      {
+       "dia": "2026-10-16",
+       "tokens": 1054589,
+       "us": 11.9
+      },
+      {
+       "dia": "2026-10-17",
+       "tokens": 2443274,
+       "us": 24.39
+      },
+      {
+       "dia": "2026-10-18",
+       "tokens": 0,
+       "us": 0
+      },
+      {
+       "dia": "2026-10-19",
+       "tokens": 0,
+       "us": 0
+      },
+      {
+       "dia": "2026-10-20",
+       "tokens": 0,
+       "us": 0
+      },
+      {
+       "dia": "2026-10-21",
+       "tokens": 3880764,
+       "us": 90.73
+      },
+      {
+       "dia": "2026-10-22",
+       "tokens": 6163463,
+       "us": 103.31
+      },
+      {
+       "dia": "2026-10-23",
+       "tokens": 8671930,
+       "us": 119.9
+      }
+     ]
+    }
+   ]
+  },
+  "telas_acervo": {
+   "fonte": "canvas aprovado: painel/referencias/claude-design/biblioteca-2026-10-24/ (Biblioteca.dc.html + LEIA-ME.md)",
+   "lido_em": "2026-10-25T22:28:25+00:00",
+   "linhas": [
+    {
+     "looks": {
+      "origem": "CONFIGURAÇÃO: 00-marca/cor/luts/*.json + 00-marca/cor/cor.md (versao_ativa, alternativa_medida, alternativa); fotos = o mesmo quadro da gravação de 16 set (00-marca/cor/amostras/praq0967) com cada LUT, geradas pelo canvas",
+      "versao_ativa": "v5",
+      "alternativa_medida": "v11",
+      "alternativa": "[v4]",
+      "luts": {
+       "entrada-camera": {
+        "nome": "entrada-camera",
+        "versao": null,
+        "criado_em": "2026-09-15T18:28:00+01:00",
+        "aprovada": null,
+        "aprovada_em": null
+       },
+       "korvu-look-v5": {
+        "nome": "WAY v5 — ATIVO (escolhido pelo Carlos em 2026-09-18, comparação v5 x v11)",
+        "versao": "v5",
+        "criado_em": "2026-09-15T23:03:13+01:00",
+        "aprovada": true,
+        "aprovada_em": "2026-09-18"
+       },
+       "korvu-look-v4": {
+        "nome": "korvu-look-v4",
+        "versao": "v4",
+        "criado_em": "2026-09-15T22:40:31+01:00",
+        "aprovada": false,
+        "aprovada_em": null
+       },
+       "korvu-look-v11": {
+        "nome": "WAY v5 + pele recuperada (1.0 stop)",
+        "versao": "v11",
+        "criado_em": "2026-09-17",
+        "aprovada": false,
+        "aprovada_em": "2026-09-17"
+       }
+      }
+     },
+     "capas": {
+      "origem": "CONFIGURAÇÃO/ARQUIVOS: capas de 07-publicados/2026-09-17-demis-hassabis e 06-publicar/2026-10-23-livro-chatgpt (+ -l01c); o estilo é do canvas (Serifa + rabisco; Sublinhado laranja)"
+     },
+     "legendas": {
+      "origem": "CONFIGURAÇÃO: 00-marca/referencias/legendas/estilo-selecao.md (Texto Selecionado); a amostra é desenhada, não quadro de vídeo"
+     },
+     "fontes": {
+      "origem": "CONFIGURAÇÃO: remotion/src/brand.ts (Geist, Bricolage Grotesque, Inter, Playfair Display) + o painel (Geist)"
+     },
+     "animacoes": {
+      "origem": "ARQUIVOS: videos/*/animacoes/*/brief.md",
+      "itens": [
+       {
+        "arquivo": "videos/2026-10-20-geoffrey-hinton/animacoes/E01/brief.md",
+        "titulo": "E01 — A ligação de madrugada (L20)",
+        "duracao_s": "6,76",
+        "video": "2026-10-20-geoffrey-hinton",
+        "renderizada": false
+       },
+       {
+        "arquivo": "videos/2026-10-20-geoffrey-hinton/animacoes/E04/brief.md",
+        "titulo": "E04 — \"Uma máquina que imita a mente humana\" (L08 + L09)",
+        "duracao_s": "10,24",
+        "video": "2026-10-20-geoffrey-hinton",
+        "renderizada": false
+       },
+       {
+        "arquivo": "videos/2026-10-20-geoffrey-hinton/animacoes/E06/brief.md",
+        "titulo": "E06 — 2012: o sistema que reconheceu imagens (L12 + L13)",
+        "duracao_s": "10,68",
+        "video": "2026-10-20-geoffrey-hinton",
+        "renderizada": false
+       }
+      ]
+     },
+     "armazenamento": {
+      "origem": "BANCO: videos.gravacao_bytes_no_mac, biblioteca_arquivos.bytes (só o que está no Mac; decisão de 25/10)",
+      "consulta": "select sum(gravacao_bytes_no_mac) as gravacao_mac from videos; select sum(bytes) as material, count(*) from biblioteca_arquivos",
+      "gravacao_mac_bytes": 117045314891,
+      "material_bytes": 6725597758,
+      "material_arquivos": 639,
+      "sincronizado_em": "2026-10-25T22:25:09.932903+00:00"
+     },
+     "sistema": {
+      "origem": "modelos = BANCO (tokens 30 dias, o mesmo telas_tokens); ferramentas = CONFIGURAÇÃO (lista fixa do canvas); contagens = ARQUIVOS (.claude/agents/*.md, .claude/skills/*/, .claude/commands/*.md)",
+      "modelos": [
+       {
+        "modelo": "claude-opus-5-5",
+        "tokens": 31367707,
+        "pct": 82.7
+       },
+       {
+        "modelo": "claude-sonnet-5-5",
+        "tokens": 4713480,
+        "pct": 12.4
+       },
+       {
+        "modelo": "claude-fable-5-1",
+        "tokens": 1828356,
+        "pct": 4.8
+       }
+      ],
+      "agentes": 25,
+      "habilidades": 24,
+      "comandos": 19
+     }
+    }
+   ]
+  }
+ },
+ "telas": "Blocos telas_* (23/10, 2.ª rodada): os números das 5 telas em painel/design/telas/. Os blocos sem o prefixo são os que o PORTÃO-INTERFACE aprovou na volta 3 e não mudaram: contagens, agentes_por_modelo, agentes, videos, fila, publicacoes, metricas_demis, ultima_leitura_confiavel, leituras_suspeitas, perfil_snapshots, portoes_painel, portoes_livro_chatgpt, portoes_por_status, veredictos_painel, ultima_sincronizacao, portoes_fila",
+ "telas_24out": "24/10: telas_tokens refeito (PD21: última linha de cada message.id, dia da 1.ª, corte 2026-10-23T15:02:49Z = o banco: 37.909.543 tokens, US$ 539,06); telas_cambio retirado (custo em US$, sem câmbio). Gerado por painel/trabalho/designer/atualizar_tokens_24out.py. telas_biblioteca (material) retirado: a Biblioteca virou o acervo de estilos (telas_acervo)."
+}

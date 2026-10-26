@@ -1,0 +1,567 @@
+{
+ "engine": "mlx",
+ "modelo": "mlx-community/whisper-large-v3-turbo",
+ "versao": 2,
+ "lacunas": 6,
+ "palavras": [
+  {
+   "texto": "Para",
+   "inicio": 6.660000000000001,
+   "fim": 7.36,
+   "conf": 0.83056640625
+  },
+  {
+   "texto": "mais",
+   "inicio": 7.36,
+   "fim": 7.6,
+   "conf": 0.9990234375
+  },
+  {
+   "texto": "conteúdos",
+   "inicio": 7.6,
+   "fim": 8.08,
+   "conf": 0.9970703125
+  },
+  {
+   "texto": "como",
+   "inicio": 8.08,
+   "fim": 8.3,
+   "conf": 0.9931640625
+  },
+  {
+   "texto": "esse,",
+   "inicio": 8.3,
+   "fim": 8.6,
+   "conf": 0.904296875
+  },
+  {
+   "texto": "é",
+   "inicio": 8.84,
+   "fim": 9.18,
+   "conf": 0.99755859375
+  },
+  {
+   "texto": "só",
+   "inicio": 9.18,
+   "fim": 9.36,
+   "conf": 0.99951171875
+  },
+  {
+   "texto": "me",
+   "inicio": 9.36,
+   "fim": 9.5,
+   "conf": 0.99755859375
+  },
+  {
+   "texto": "seguir",
+   "inicio": 9.5,
+   "fim": 9.84,
+   "conf": 0.9990234375
+  },
+  {
+   "texto": "e",
+   "inicio": 9.84,
+   "fim": 10.38,
+   "conf": 0.9443359375
+  },
+  {
+   "texto": "te",
+   "inicio": 10.38,
+   "fim": 10.5,
+   "conf": 0.99560546875
+  },
+  {
+   "texto": "vejo",
+   "inicio": 10.5,
+   "fim": 10.92,
+   "conf": 0.998046875
+  },
+  {
+   "texto": "na",
+   "inicio": 10.92,
+   "fim": 11.38,
+   "conf": 0.99462890625
+  },
+  {
+   "texto": "próxima.",
+   "inicio": 11.38,
+   "fim": 11.78,
+   "conf": 0.9990234375
+  },
+  {
+   "texto": "Um",
+   "inicio": 14.216,
+   "fim": 15.056,
+   "conf": 0.62158203125
+  },
+  {
+   "texto": "jogador",
+   "inicio": 15.056,
+   "fim": 15.556,
+   "conf": 0.998046875
+  },
+  {
+   "texto": "de",
+   "inicio": 15.556,
+   "fim": 15.735999999999999,
+   "conf": 0.998046875
+  },
+  {
+   "texto": "xadrez.",
+   "inicio": 15.735999999999999,
+   "fim": 16.195999999999998,
+   "conf": 0.99609375
+  },
+  {
+   "texto": "Que",
+   "inicio": 16.836,
+   "fim": 17.136,
+   "conf": 0.318359375
+  },
+  {
+   "texto": "acabou",
+   "inicio": 17.136,
+   "fim": 17.516,
+   "conf": 0.986328125
+  },
+  {
+   "texto": "vindo",
+   "inicio": 17.516,
+   "fim": 17.915999999999997,
+   "conf": 0.496826171875
+  },
+  {
+   "texto": "lá.",
+   "inicio": 17.915999999999997,
+   "fim": 18.235999999999997,
+   "conf": 0.31103515625
+  },
+  {
+   "texto": "Um",
+   "inicio": 19.839999999999996,
+   "fim": 20.72,
+   "conf": 0.51904296875
+  },
+  {
+   "texto": "jogador",
+   "inicio": 20.72,
+   "fim": 21.1,
+   "conf": 0.99658203125
+  },
+  {
+   "texto": "de",
+   "inicio": 21.1,
+   "fim": 21.22,
+   "conf": 0.96044921875
+  },
+  {
+   "texto": "xadrez",
+   "inicio": 21.22,
+   "fim": 21.66,
+   "conf": 0.9970703125
+  },
+  {
+   "texto": "que",
+   "inicio": 21.66,
+   "fim": 22.02,
+   "conf": 0.93115234375
+  },
+  {
+   "texto": "acabou",
+   "inicio": 22.02,
+   "fim": 22.36,
+   "conf": 0.99560546875
+  },
+  {
+   "texto": "ganhando",
+   "inicio": 22.36,
+   "fim": 23.22,
+   "conf": 0.99853515625
+  },
+  {
+   "texto": "o",
+   "inicio": 23.22,
+   "fim": 23.52,
+   "conf": 0.63330078125
+  },
+  {
+   "texto": "Nobel.",
+   "inicio": 23.52,
+   "fim": 23.86,
+   "conf": 0.9677734375
+  },
+  {
+   "texto": "A",
+   "inicio": 26.286,
+   "fim": 26.786,
+   "conf": 0.88623046875
+  },
+  {
+   "texto": "DeepMind",
+   "inicio": 26.786,
+   "fim": 27.346,
+   "conf": 0.90673828125
+  },
+  {
+   "texto": "nasceu",
+   "inicio": 27.346,
+   "fim": 28.126,
+   "conf": 0.99609375
+  },
+  {
+   "texto": "aqui",
+   "inicio": 28.126,
+   "fim": 28.346,
+   "conf": 0.99853515625
+  },
+  {
+   "texto": "em",
+   "inicio": 28.346,
+   "fim": 28.426000000000002,
+   "conf": 0.99365234375
+  },
+  {
+   "texto": "Londres.",
+   "inicio": 28.426000000000002,
+   "fim": 28.926000000000002,
+   "conf": 0.98046875
+  },
+  {
+   "texto": "Causa",
+   "inicio": 29.816,
+   "fim": 30.355999999999998,
+   "conf": 0.64892578125
+  },
+  {
+   "texto": "curta.",
+   "inicio": 30.355999999999998,
+   "fim": 30.715999999999998,
+   "conf": 0.93603515625
+  },
+  {
+   "texto": "E,",
+   "inicio": 31.136,
+   "fim": 31.535999999999998,
+   "conf": 0.307373046875
+  },
+  {
+   "texto": "modô,",
+   "inicio": 31.616,
+   "fim": 31.936,
+   "conf": 0.09912109375
+  },
+  {
+   "texto": "Aya.",
+   "inicio": 32.076,
+   "fim": 32.176,
+   "conf": 0.382080078125
+  },
+  {
+   "texto": "A",
+   "inicio": 34.04,
+   "fim": 34.92,
+   "conf": 0.5419921875
+  },
+  {
+   "texto": "DeepMind",
+   "inicio": 34.92,
+   "fim": 35.56,
+   "conf": 0.91748046875
+  },
+  {
+   "texto": "que",
+   "inicio": 35.56,
+   "fim": 35.88,
+   "conf": 0.6943359375
+  },
+  {
+   "texto": "nasceu",
+   "inicio": 35.88,
+   "fim": 36.3,
+   "conf": 0.9990234375
+  },
+  {
+   "texto": "aqui",
+   "inicio": 36.3,
+   "fim": 36.58,
+   "conf": 0.99853515625
+  },
+  {
+   "texto": "em",
+   "inicio": 36.58,
+   "fim": 36.72,
+   "conf": 0.9970703125
+  },
+  {
+   "texto": "Londres",
+   "inicio": 36.72,
+   "fim": 37.22,
+   "conf": 0.9990234375
+  },
+  {
+   "texto": "e",
+   "inicio": 37.22,
+   "fim": 37.78,
+   "conf": 0.97265625
+  },
+  {
+   "texto": "mudou",
+   "inicio": 37.78,
+   "fim": 38.3,
+   "conf": 1.0
+  },
+  {
+   "texto": "a",
+   "inicio": 38.3,
+   "fim": 38.9,
+   "conf": 0.970703125
+  },
+  {
+   "texto": "DeepMind.",
+   "inicio": 38.9,
+   "fim": 39.48,
+   "conf": 0.98828125
+  },
+  {
+   "texto": "A",
+   "inicio": 44.196,
+   "fim": 44.635999999999996,
+   "conf": 0.3203125
+  },
+  {
+   "texto": "DeepMind.",
+   "inicio": 44.635999999999996,
+   "fim": 45.156,
+   "conf": 0.62890625
+  },
+  {
+   "texto": "nasceu",
+   "inicio": 45.34,
+   "fim": 45.94,
+   "conf": 0.677734375
+  },
+  {
+   "texto": "aqui",
+   "inicio": 45.94,
+   "fim": 46.16,
+   "conf": 0.9375
+  },
+  {
+   "texto": "em",
+   "inicio": 46.16,
+   "fim": 46.28,
+   "conf": 0.93212890625
+  },
+  {
+   "texto": "Londres.",
+   "inicio": 46.28,
+   "fim": 46.76,
+   "conf": 0.89306640625
+  },
+  {
+   "texto": "Pausa",
+   "inicio": 47.75,
+   "fim": 48.16,
+   "conf": 0.904296875
+  },
+  {
+   "texto": "curta.",
+   "inicio": 48.16,
+   "fim": 48.54,
+   "conf": 0.98583984375
+  },
+  {
+   "texto": "E",
+   "inicio": 49.3,
+   "fim": 49.32,
+   "conf": 0.96435546875
+  },
+  {
+   "texto": "mudou",
+   "inicio": 49.32,
+   "fim": 49.76,
+   "conf": 0.99755859375
+  },
+  {
+   "texto": "a",
+   "inicio": 49.76,
+   "fim": 49.9,
+   "conf": 0.9091796875
+  },
+  {
+   "texto": "AI.",
+   "inicio": 49.9,
+   "fim": 49.98,
+   "conf": 0.6787109375
+  },
+  {
+   "texto": "A",
+   "inicio": 52.2,
+   "fim": 53.02,
+   "conf": 0.92236328125
+  },
+  {
+   "texto": "DeepMind",
+   "inicio": 53.02,
+   "fim": 53.74,
+   "conf": 0.94921875
+  },
+  {
+   "texto": "nasceu",
+   "inicio": 53.74,
+   "fim": 54.56,
+   "conf": 0.9990234375
+  },
+  {
+   "texto": "aqui",
+   "inicio": 54.56,
+   "fim": 55.22,
+   "conf": 0.998046875
+  },
+  {
+   "texto": "em",
+   "inicio": 55.22,
+   "fim": 55.72,
+   "conf": 0.982421875
+  },
+  {
+   "texto": "Londres.",
+   "inicio": 55.72,
+   "fim": 56.18,
+   "conf": 1.0
+  },
+  {
+   "texto": "E",
+   "inicio": 56.52,
+   "fim": 57.08,
+   "conf": 0.9921875
+  },
+  {
+   "texto": "mudou",
+   "inicio": 57.08,
+   "fim": 57.88,
+   "conf": 0.99951171875
+  },
+  {
+   "texto": "a",
+   "inicio": 57.88,
+   "fim": 58.24,
+   "conf": 0.9990234375
+  },
+  {
+   "texto": "história",
+   "inicio": 58.24,
+   "fim": 58.68,
+   "conf": 0.9970703125
+  },
+  {
+   "texto": "da",
+   "inicio": 58.68,
+   "fim": 59.58,
+   "conf": 0.99658203125
+  },
+  {
+   "texto": "AI.",
+   "inicio": 59.58,
+   "fim": 59.96,
+   "conf": 0.99658203125
+  },
+  {
+   "texto": "Fim",
+   "inicio": 61.24,
+   "fim": 61.82,
+   "conf": 0.53076171875
+  },
+  {
+   "texto": "do",
+   "inicio": 61.82,
+   "fim": 61.98,
+   "conf": 0.99755859375
+  },
+  {
+   "texto": "roteiro.",
+   "inicio": 61.98,
+   "fim": 62.34,
+   "conf": 0.99560546875
+  },
+  {
+   "texto": "Se",
+   "inicio": 62.6,
+   "fim": 62.92,
+   "conf": 0.99853515625
+  },
+  {
+   "texto": "precisar",
+   "inicio": 62.92,
+   "fim": 63.4,
+   "conf": 0.9970703125
+  },
+  {
+   "texto": "de",
+   "inicio": 63.4,
+   "fim": 63.5,
+   "conf": 0.99755859375
+  },
+  {
+   "texto": "mais",
+   "inicio": 63.5,
+   "fim": 63.64,
+   "conf": 0.998046875
+  },
+  {
+   "texto": "alguma",
+   "inicio": 63.64,
+   "fim": 63.88,
+   "conf": 0.998046875
+  },
+  {
+   "texto": "repetição",
+   "inicio": 63.88,
+   "fim": 64.44,
+   "conf": 0.998046875
+  },
+  {
+   "texto": "ou",
+   "inicio": 64.44,
+   "fim": 64.66,
+   "conf": 0.990234375
+  },
+  {
+   "texto": "ajuste,",
+   "inicio": 64.66,
+   "fim": 65.14,
+   "conf": 0.91162109375
+  },
+  {
+   "texto": "é",
+   "inicio": 65.42,
+   "fim": 65.68,
+   "conf": 0.998046875
+  },
+  {
+   "texto": "só",
+   "inicio": 65.68,
+   "fim": 65.78,
+   "conf": 0.99951171875
+  },
+  {
+   "texto": "falar.",
+   "inicio": 65.78,
+   "fim": 66.02,
+   "conf": 0.98828125
+  },
+  {
+   "texto": "E",
+   "inicio": 75.34,
+   "fim": 76.12,
+   "conf": 0.2235107421875
+  },
+  {
+   "texto": "aí",
+   "inicio": 76.12,
+   "fim": 76.38,
+   "conf": 0.90380859375
+  }
+ ],
+ "texto": " Para mais conteúdos como esse, é só me seguir e te vejo na próxima. Um jogador de xadrez que acabou ganhando o Nobel. A DeepMind que nasceu aqui em Londres e mudou a DeepMind. nasceu aqui em Londres. Pausa curta. E mudou a AI. A DeepMind nasceu aqui em Londres. E mudou a história da AI. Fim do roteiro. Se precisar de mais alguma repetição ou ajuste, é só falar. E aí"
+}

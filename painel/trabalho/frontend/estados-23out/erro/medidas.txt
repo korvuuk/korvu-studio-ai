@@ -1,0 +1,6 @@
+# capturar.sh · 2026-10-23T21:41:56.515Z
+# alvo	largura pedida	innerWidth	scrollWidth	altura	HTTP	png	passa da borda
+/tokens	1440	1440	1440	1135	200	/Users/teste/Documents/CONTENT AI/painel/trabalho/frontend/estados-23out/erro/tokens-1440.png	
+/tokens	375	375	375	1747	200	/Users/teste/Documents/CONTENT AI/painel/trabalho/frontend/estados-23out/erro/tokens-375.png	
+/producao	1440	1440	1440	900	200	/Users/teste/Documents/CONTENT AI/painel/trabalho/frontend/estados-23out/erro/producao-1440.png	
+/producao	375	375	375	1323	200	/Users/teste/Documents/CONTENT AI/painel/trabalho/frontend/estados-23out/erro/producao-375.png	

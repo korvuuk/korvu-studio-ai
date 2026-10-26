@@ -1,0 +1,103 @@
+A história completa do vídeo: a foto do produto no ChatGPT
+
+Este texto é pra você ouvir antes de gravar. Não é o roteiro. É tudo o que está por trás dele, pra você entender o assunto e depois falar do seu jeito. Quando eu disser IA, é inteligência artificial.
+
+O problema que o vídeo resolve
+
+Quem tem um negócio pequeno sabe: a foto do produto quase sempre é tirada com o celular, em cima do balcão, com a luz que tiver. Fundo bagunçado, sombra, uma caixa no canto. E essa foto vai pro Instagram, pro WhatsApp, pro cardápio, pro site.
+
+Foto profissional custa dinheiro e tempo. Pra quem está começando, ou pra quem tem uma loja, um café, um salão, uma barraca de feira, nem sempre dá pra pagar fotógrafo a cada produto novo.
+
+Pra quem fala português e mora no Reino Unido ou em outro país da Europa, tem ainda o fato de muita gente tocar o negócio sozinha, ou com a família, e fazer tudo: atender, vender, postar. Qualquer coisa que economize uma tarde de produção ajuda.
+
+O que o vídeo mostra é simples: você tira uma foto comum, anexa no ChatGPT e pede, com palavras normais, uma versão nova. Fundo branco de catálogo. Numa mesa de café. Numa vitrine à noite. Vista de cima, tipo revista. Um post pronto, com nome e preço. Um cartaz de promoção pra colar na porta.
+
+Como funciona de verdade
+
+Tem um detalhe importante que muda tudo: o ChatGPT não retoca a sua foto, pixel por pixel, como um editor de fotos faria. Ele olha a sua foto e cria uma imagem nova, inspirada nela. Por isso o produto pode mudar. A cor pode sair um pouco diferente, o rótulo pode mudar uma letra, o formato pode ficar levemente outro.
+
+É por isso que o vídeo termina com o aviso: confere se o produto saiu igual. Não é detalhe. Se você mostra pro cliente uma coisa diferente da que você vende, isso vira problema. O cliente tem que receber o que viu.
+
+Nos pedidos, a gente sempre escreve "mantém o produto exatamente igual". Ajuda, mas não garante. Se mudou muito, pede de novo reforçando isso.
+
+O passo a passo no celular
+
+Abre o aplicativo do ChatGPT e começa uma conversa nova. Toca no sinal de mais e anexa a foto do produto, da galeria ou tirando na hora. Cola o primeiro pedido e envia. A imagem pode levar de alguns segundos a um ou dois minutos pra ficar pronta.
+
+Os outros pedidos você faz na mesma conversa, porque a foto já está lá. Se abrir uma conversa nova, tem que anexar a foto de novo. No fim, toca na imagem e salva no celular.
+
+Os seis pedidos
+
+Um, catálogo: fundo branco liso, luz de estúdio suave, uma sombra leve embaixo.
+
+Dois, mesa de café: o mesmo produto numa mesa de madeira, luz de fim de tarde entrando pela janela, fundo desfocado.
+
+Três, vitrine: o produto numa vitrine de loja à noite, com luz quente e um reflexo leve no vidro.
+
+Quatro, de cima, estilo revista: vista de cima, numa superfície clara, com três ou quatro objetos que combinam em volta.
+
+Cinco, post pronto: um post quadrado pro Instagram, com o produto em destaque, a cor da sua marca, o nome e o preço escritos grandes.
+
+Seis, cartaz de promoção: um cartaz vertical com a palavra promoção no topo, o preço ou o desconto grande, e o nome da loja embaixo.
+
+Esses pedidos foram escritos a partir do que a ferramenta faz hoje. Antes de gravar, o ideal é testar cada um com a foto real, porque o resultado depende da foto. Se algum não ficar bom e você trocar, a fala da linha muda junto, e o guia em PDF também, porque o guia tem que ter exatamente os pedidos que aparecem no vídeo.
+
+Exemplos por tipo de negócio
+
+Restaurante: em vez de produto, o prato. Na mesa do salão com luz quente, ou de cima, com talheres e guardanapo.
+
+Loja de roupa: a peça no cabide ou na arara, na vitrine, ou de cima com acessórios.
+
+Salão de beleza: o shampoo, o esmalte, na bancada, com o espelho desfocado ao fundo.
+
+Produto em geral: o item no balcão, na mesa de café, na prateleira da loja.
+
+Os limites honestos
+
+Primeiro, a versão grátis tem limite. A OpenAI, a empresa do ChatGPT, não publica um número fixo de imagens por dia no plano gratuito. Segundo o site de tecnologia Engadget, em janeiro de 2026, havia relatos de seis ou sete imagens por dia. Seis pedidos, mais as vezes que você refaz, podem não caber num dia de conta grátis. Se acabar, volta no outro dia.
+
+Segundo, o texto dentro da imagem, nos pedidos cinco e seis, pode sair com letra trocada. Nome do produto e preço têm que ser conferidos letra por letra antes de postar.
+
+Terceiro, privacidade. As fotos que você envia podem ser usadas pra treinar os modelos da OpenAI, a não ser que você use o Chat temporário ou desligue a opção "Melhorar o modelo para todos", em Configurações, Controles de dados. E não mande foto com pessoas, clientes, criança, ou dado pessoal: nome, telefone, placa de carro.
+
+Quarto, transparência. As imagens são realistas e foram geradas por IA. O certo é avisar: ligar o rótulo de IA do Instagram e escrever na legenda "imagens geradas com IA".
+
+E, por fim, isso não substitui um fotógrafo quando você precisa de um trabalho de verdade. É um jeito de sair do "foto em cima do balcão" sem gastar nada no começo.
+
+Não é só o ChatGPT
+
+O Gemini, do Google, também edita foto enviada. E a OpenAI mostrou o ChatGPT editando a partir de uma foto nos vídeos de lançamento das versões novas de imagem, em abril e em setembro de 2026. O vídeo foca no ChatGPT porque é o que mais gente já tem no celular.
+
+Os momentos que estão no vídeo
+
+Antes de falar, a pose da capa: segurando o celular virado pra câmera, mostrando a foto, três segundos parado, em silêncio.
+
+Primeiro, o gancho. Foto de celular, em cima do balcão, virou isso. Pode ser: "Essa foto eu tirei com o celular, em cima do balcão. Olha no que virou." Ou: "Foto comum de celular. E agora olha isso." Depois, uma pausa curta pra imagem aparecer.
+
+Segundo, a promessa. Anexa a foto no ChatGPT e pede. Pode ser: "É só mandar a foto pro ChatGPT e pedir." O nome ChatGPT fica.
+
+Terceiro, catálogo. Fundo branco, de catálogo. Pode ser: "Pede fundo branco, tipo catálogo."
+
+Quarto, café. Numa mesa de café, fim de tarde. Pode ser: "Agora numa mesa de café, com a luz do fim da tarde."
+
+Quinto, vitrine. Na vitrine, à noite. Pode ser: "Ou na vitrine, de noite."
+
+Sexto, revista. Olha essa: de cima, tipo revista. Pode ser: "E essa aqui, vista de cima, parece foto de revista."
+
+Sétimo, post. Aí vira post pronto, com nome e preço. Pode ser: "Dá pra virar post pronto, já com nome e preço."
+
+Oitavo, cartaz. E até cartaz de promoção pra colar na porta. Pode ser: "E até um cartaz de promoção pra pôr na porta da loja."
+
+Nono, o aviso. Só confere se o produto saiu igual. Pode ser: "Só presta atenção se o produto ficou igual ao de verdade." Esse aviso não pode sair. Depois, uma pausa.
+
+Por fim, o pedido. Comenta FOTO que eu te mando os seis pedidos prontos, e manda pra quem ainda fotografa em cima do balcão. Pode ser: "Escreve FOTO aqui embaixo que eu te mando os seis pedidos prontinhos." E: "Manda pra aquele amigo que ainda tira foto em cima do balcão." A palavra é FOTO, sem trocar, e são seis pedidos. O pedido de mandar pra alguém também fica.
+
+Fontes (não precisa ler em voz alta)
+
+Engadget, como gerar imagens no ChatGPT (atualizado em 26/01/2026): https://www.engadget.com/ai/how-to-generate-ai-images-using-chatgpt-120000560.html
+OpenAI, perguntas frequentes do plano grátis: https://help.openai.com/en/articles/9275245-chatgpt-free-tier-faq
+OpenAI, Chat temporário: https://help.openai.com/en/articles/7730893-temporary-chat
+OpenAI, Introducing ChatGPT Images 2.5 (08/09/2026): https://www.youtube.com/watch?v=6l7ble9P74o
+OpenAI, This is ChatGPT Images 2.0 (21/04/2026): https://www.youtube.com/watch?v=-7JSa_luc6k
+Google, Meet Nano Banana Pro: https://www.youtube.com/watch?v=AeBOzler4nE
+OpenAI, ChatGPT for Small Business, The Floral Hire: https://www.youtube.com/watch?v=gpj9YWbr3IQ

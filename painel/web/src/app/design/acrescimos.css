@@ -1,0 +1,703 @@
+/* korvu. painel — ACRÉSCIMOS ao sistema do Carlos (23/10/2026).
+   Nada aqui muda componentes.css: são peças que o artefato do Claude Design não trouxe e que o painel precisa.
+   Três origens, marcadas em cada bloco:
+     [TRANSCRITO] estilos que estavam inline nas prévias do Claude Design (TeamMemberCard, ApprovalGate, VideoRow,
+                  gráfico de barras, calendário) viraram classe — MESMOS valores, para o front-end não adivinhar.
+     [TOKEN]      classes que só aplicam tokens que já existem (escala tipográfica, leitor de tela).
+     [PROPOSTA]   decisão da designer-de-produto que vai ao Carlos: casca em tela estreita (375 px), estados
+                  carregando / erro / não encontrado, item de menu sem página, tabela que rola dentro do card.
+   Ordem de carga: tokens.css → componentes.css → acrescimos.css. Só usa var(--…) de tokens.css. */
+
+/* ========== [TOKEN] Escala tipográfica ==========
+   tokens.json → tipografia. Uma página = UM .k-h1. .k-display só em capa e boas-vindas. */
+.k-display{font-size:var(--type-display-size);line-height:var(--type-display-line);font-weight:var(--type-display-weight);letter-spacing:var(--type-display-tracking);margin:0}
+.k-h1{font-size:var(--type-h1-size);line-height:var(--type-h1-line);font-weight:var(--type-h1-weight);letter-spacing:var(--type-h1-tracking);margin:0}
+.k-h2{font-size:var(--type-h2-size);line-height:var(--type-h2-line);font-weight:var(--type-h2-weight);letter-spacing:var(--type-h2-tracking);margin:0}
+.k-h3{font-size:var(--type-h3-size);line-height:var(--type-h3-line);font-weight:var(--type-h3-weight);letter-spacing:var(--type-h3-tracking);margin:0}
+.k-body{font-size:var(--type-body-size);line-height:var(--type-body-line);font-weight:var(--type-body-weight)}
+.k-body-strong{font-size:var(--type-body-strong-size);line-height:var(--type-body-strong-line);font-weight:var(--type-body-strong-weight)}
+.k-small{font-size:var(--type-small-size);line-height:var(--type-small-line);font-weight:var(--type-small-weight)}
+.k-metric-xl{font-size:var(--type-metric-xl-size);line-height:var(--type-metric-xl-line);font-weight:var(--type-metric-xl-weight);letter-spacing:var(--type-metric-xl-tracking);font-variant-numeric:tabular-nums}
+.k-metric-l{font-size:var(--type-metric-l-size);line-height:var(--type-metric-l-line);font-weight:var(--type-metric-l-weight);letter-spacing:var(--type-metric-l-tracking);font-variant-numeric:tabular-nums}
+
+/* ========== [TOKEN] Só para leitor de tela ==========
+   Texto que não aparece mas é lido: presença ("trabalhando agora"), não lida, etapa atual, "carregando". */
+.k-sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
+
+/* ========== [PROPOSTA] Código e comandos no texto ==========
+   Comandos que o Carlos copia (ex.: o que fazer quando o banco está fora do ar). Geist Mono, como modelos e IDs. */
+.k-code{font-family:var(--font-mono);font-size:12px;line-height:16px;font-weight:500;color:var(--ink);background:var(--surface-sunken);padding:2px var(--space-4);border-radius:var(--radius-sm);overflow-wrap:anywhere}
+
+/* ========== [PROPOSTA] Casca: barra lateral + área principal ==========
+   ≥ 1024px: exatamente o sistema — barra lateral fixa de 208px, área fluida com padding 32px, h1 com 64px acima,
+   grade de 12 colunas (gutter 24, 20 abaixo de 1280), 48px entre seções, 24px entre cards. */
+.k-skip{position:absolute;left:var(--space-8);top:var(--space-8);z-index:60;transform:translateY(-200%);background:var(--surface);color:var(--ink);border:1px solid var(--line-strong);border-radius:var(--radius-btn);padding:var(--space-8) var(--space-12);font:600 13px/1 var(--font-sans);text-decoration:none}
+.k-skip:focus{transform:none} /* "Pular para o conteúdo": primeiro Tab da página, antes dos 7 itens do menu (WCAG 2.4.1) */
+.k-shell{display:grid;grid-template-columns:var(--sidebar-width) minmax(0,1fr);min-height:100vh}
+.k-shell > .k-sidebar{position:sticky;top:0;height:100vh;overflow-y:auto}
+.k-topbar{display:none}
+.k-main{min-width:0;padding:var(--space-64) var(--content-padding) var(--space-64)}
+.k-page-head{display:flex;align-items:flex-end;justify-content:space-between;flex-wrap:wrap;gap:var(--space-16) var(--space-24);margin-bottom:var(--space-32)}
+.k-page-tools{display:flex;align-items:center;flex-wrap:wrap;gap:var(--space-8)}
+.k-section + .k-section{margin-top:var(--space-48)}
+.k-section-head{display:flex;align-items:baseline;justify-content:space-between;flex-wrap:wrap;gap:var(--space-8) var(--space-16);margin-bottom:var(--space-16)}
+.k-grid{display:grid;grid-template-columns:repeat(var(--grid-columns),minmax(0,1fr));gap:var(--grid-gutter)}
+.k-span-3{grid-column:span 3}
+.k-span-4{grid-column:span 4}
+.k-span-6{grid-column:span 6}
+.k-span-8{grid-column:span 8}
+.k-span-12{grid-column:1 / -1}
+
+/* Botão "Menu" da barra de topo (tela estreita). Fundo sidebar-raised como o item ativo; nada de ícone novo:
+   rótulo "Menu" + chevron-down, e "Fechar" + x quando aberto. */
+.k-menu-btn{display:inline-flex;align-items:center;gap:var(--space-8);height:var(--control-height);padding:0 var(--space-12);border:0;border-radius:var(--radius-btn);background:var(--sidebar-raised);color:var(--sidebar-ink);font:600 13px/1 var(--font-sans);cursor:pointer;transition:background var(--duracao-padrao)}
+.k-menu-btn:hover{background:var(--sidebar-line)}
+
+/* ========== [PROPOSTA] Item de menu que ainda não tem página ==========
+   Calendário, Biblioteca e Tokens e custos estão no menu do Carlos mas não têm página nem dados (23/10).
+   Não é link: <span class="k-nav-item" aria-disabled="true">ícone + rótulo<span class="k-sr-only"> — ainda sem
+   página</span></span>. Apagado com a MESMA opacidade do botão desativado da fonte (.45), sem contagem, e o hover não
+   acende — nada promete uma página que não existe. (Controle inativo é isento de contraste: WCAG 1.4.3.) */
+.k-nav-item[aria-disabled="true"]{cursor:default;opacity:.45}
+.k-nav-item[aria-disabled="true"]:hover{background:transparent;color:var(--sidebar-ink-2)}
+
+/* ========== [PROPOSTA] Link no meio do texto ==========
+   A fonte não define link de texto. Tinta com sublinhado fino em line-strong; no hover o sublinhado escurece.
+   Nunca laranja como texto sobre o fundo claro (2,97:1 — contraste.md T22). */
+.k-link{color:var(--ink);text-decoration:underline;text-decoration-color:var(--line-strong);text-underline-offset:3px;text-decoration-thickness:1px}
+.k-link:hover{text-decoration-color:var(--ink)}
+
+/* ========== [PROPOSTA] Tabela larga rola DENTRO do card ==========
+   A página nunca rola para o lado; a tabela sim, dentro de .k-table-wrap (role="region" + aria-label + tabindex="0",
+   para dar para rolar pelo teclado). Largura mínima por tabela em --table-min (padrão 640px). */
+.k-table-wrap{position:relative;overflow-x:auto;overscroll-behavior-x:contain} /* position: o texto .k-sr-only (absolute) de uma célula não escapa da rolagem e não alarga a página */
+.k-table-wrap > .k-table{min-width:var(--table-min,640px)}
+.k-table-wrap:focus-visible{outline-offset:-2px}
+
+/* ========== [TRANSCRITO] Detalhes do KPI e do progresso ==========
+   Da prévia KPICard: contexto do rodapé em 12px ink-3; "US$" antes do valor com 4px de folga.
+   Da prévia ProgressIndicator: rótulos das 5 etapas em caption, a atual em accent-ink. */
+.k-kpi-note{font-size:12px;color:var(--ink-3)}
+.k-kpi-value small.k-prefixo{margin:0 4px 0 0}
+.k-steps-labels{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:4px}
+.k-steps-labels > span{white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.k-steps-labels > .is-now{color:var(--accent-ink)}
+
+/* ========== [TRANSCRITO] Célula de vídeo (VideoRow) ==========
+   Da prévia VideoRow/Prancha: miniatura + título 600 (13px, o tamanho da célula) + meta 12px ink-3, com reticências.
+   Obs.: o README da VideoRow diz "título body-strong" (15px); a prévia desenha 13px. Ficou o desenho — ver design-system.md. */
+.k-video{display:flex;gap:12px;align-items:center;min-width:0}
+.k-video > div{min-width:0}
+.k-video-title{font-weight:600;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.k-video-meta{font-size:12px;color:var(--ink-3);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+
+/* ========== [TRANSCRITO] Partes do portão (ApprovalGate) ========== */
+.k-gate-head{display:flex;gap:12px;align-items:center}
+.k-gate-head > div{flex:1;min-width:0}
+.k-gate-step{font-size:10px} /* com .k-cap. 10px vem da prévia (o token caption é 11px) — ver design-system.md */
+.k-gate-title{display:block;font-size:15px;font-weight:700;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.k-gate-checks{display:flex;flex-direction:column;gap:8px}
+.k-gate-actions{display:flex;flex-wrap:wrap;gap:8px}
+.k-gate-actions .k-btn-primary{flex:1}
+.k-check > .k-chip{margin-left:auto;flex:none} /* [PROPOSTA] estado do portão (mapa único, §11.3) à direita do critério; use <small class="k-chip …"> para o riscado do feito não pegar o chip */
+
+/* ========== [TRANSCRITO] Card de pessoa (TeamMemberCard) ========== */
+.k-member{padding:16px;display:flex;gap:14px;align-items:center}
+.k-member > .k-avatar{--s:56px;border-radius:10px}
+.k-member-id{flex:1;min-width:0}
+.k-member-name-row{display:flex;gap:8px;align-items:center;min-width:0}
+.k-member-name{font-size:15px;font-weight:700;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.k-member-role{font-size:12px;line-height:16px;color:var(--ink-2)}
+.k-member-stats{display:flex;gap:22px;font-size:12px;text-align:right}
+.k-member-stat-value{font-size:20px;line-height:24px;font-weight:700;font-variant-numeric:tabular-nums}
+.k-member-stat-label{color:var(--ink-3)}
+
+/* ========== [TRANSCRITO] Linha do gráfico de barras (Charts) ==========
+   Rótulo ink-2 · trilho surface-sunken 10px raio 3 · valor tabular à direita. Destaque chart-1, demais chart-2. */
+.k-bar-row{display:grid;grid-template-columns:84px 1fr 36px;align-items:center;gap:8px;font-size:12px;line-height:16px} /* line-height: acréscimo — nome real que quebra em 2 linhas não estica a linha */
+.k-bar-row > span:first-child{color:var(--ink-2)}
+.k-bar-track{height:10px;border-radius:3px;background:var(--surface-sunken);overflow:hidden}
+.k-bar-fill{display:block;height:100%;border-radius:3px;background:var(--chart-2)}
+.k-bar-fill.is-focus{background:var(--chart-1)}
+.k-bar-value{text-align:right;font-weight:700;font-variant-numeric:tabular-nums}
+
+/* ========== [TRANSCRITO] Grade do calendário (Prancha) ==========
+   Obs.: o rótulo do dia é 10,5px na prancha (abaixo do caption de 11px) — ver design-system.md. */
+.k-cal{display:grid;grid-template-columns:repeat(4,1fr);gap:6px}
+.k-cal-day{display:flex;flex-direction:column;gap:6px;min-width:0}
+.k-cal-day > span{font:600 10.5px/14px var(--font-sans);color:var(--ink-2);letter-spacing:.06em;text-transform:uppercase}
+.k-cal .k-event b,.k-cal .k-event span{white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+
+/* ========== [PROPOSTA] Linha "Portões:" do evento da fila (§11.12) e "não sai" ==========
+   O pior estado do que o publicar.py confere (portão da publicação + portões do vídeo de origem; legado vence), com o
+   chip do mapa único (<small class="k-chip …">, para não herdar a cor do texto do evento) e, se algo segura o post,
+   "<portão> · não sai" — "não sai" em danger. Quebra em duas linhas se precisar (nunca corta o estado). */
+.k-event-portao{display:flex;flex-wrap:wrap;align-items:center;gap:var(--space-4);margin-top:2px;min-width:0}
+.k-cal .k-event .k-event-portao > span{white-space:normal;overflow:visible}
+.k-segura{color:var(--danger);font-weight:600}
+.k-event .k-segura{color:var(--danger)} /* PI38 (23/10): .k-event span (0,1,1) pintava o "não sai" de ink-2 dentro do evento */
+
+/* ========== [PROPOSTA] Gráfico: tabela gêmea ==========
+   Todo gráfico tem os números em tabela (WCAG e skill dataviz): <details class="k-details"><summary class="k-btn
+   k-btn-ghost k-btn-sm">Ver os números</summary><table class="k-table">…</table></details>. */
+.k-details > summary{list-style:none}
+.k-details > summary::-webkit-details-marker{display:none}
+.k-details[open] > summary{color:var(--ink)}
+.k-details > .k-table,.k-details > .k-table-wrap{margin-top:var(--space-8)}
+
+/* ========== [PROPOSTA] Dica que nunca sai da janela ==========
+   Aberta, a dica é position:fixed, presa a 8px das bordas (o painel atual já faz isso em components/Dicas.tsx).
+   A seta acompanha o elemento pelo --seta-x. */
+.k-tooltip.is-floating{position:fixed;z-index:50;max-width:min(22rem,calc(100vw - 16px));white-space:normal;overflow-wrap:anywhere;pointer-events:none}
+.k-tooltip.is-floating::after{left:var(--seta-x,50%)}
+.k-menu{max-width:calc(100vw - 2 * var(--space-16))}
+
+/* ========== [PROPOSTA] Estado CARREGANDO — esqueleto ==========
+   Blocos em surface-sunken no lugar exato do conteúdo (mesma casca, mesmos cards): nada pula quando os dados chegam.
+   Sem brilho correndo; só uma respiração lenta de opacidade, e nenhuma se a pessoa pediu menos movimento.
+   O bloco é aria-hidden; o contêiner leva role="status" + texto .k-sr-only "Carregando os dados do painel…".
+   Ao recarregar dados que já estão na tela, NÃO volte ao esqueleto: mantenha o conteúdo com .is-atualizando. */
+.k-skel{display:block;background:var(--surface-sunken);border-radius:var(--radius-sm)}
+.k-skel-cap{height:11px;width:96px}
+.k-skel-line{height:13px;width:100%}
+.k-skel-title{height:22px;width:60%}
+.k-skel-metric{height:40px;width:55%}
+.k-skel-chip{height:24px;width:88px;border-radius:var(--radius-pill)}
+.k-skel-avatar{width:40px;height:40px;border-radius:var(--radius-btn)}
+.k-skel-thumb{width:56px;height:36px}
+.k-skel-h1{height:44px;width:min(320px,70%)}
+.is-atualizando{opacity:.6;transition:opacity var(--duracao-padrao)}
+@media (prefers-reduced-motion:no-preference){
+  .k-skel{animation:k-respira 1.6s ease-in-out infinite}
+}
+@keyframes k-respira{50%{opacity:.55}}
+
+/* ========== [PROPOSTA] Estado ERRO ==========
+   Erro de BLOCO (uma parte da página não carregou): k-card + k-note k-note--alert + .k-note-actions.
+   Erro de PÁGINA e NÃO ENCONTRADO: .k-state, dentro da casca (a barra lateral continua).
+   Texto: o que aconteceu + por quê + como resolver; ação "Tentar de novo". */
+.k-note-actions{display:flex;flex-wrap:wrap;gap:var(--space-8);margin-top:var(--space-12)}
+.k-state{display:flex;flex-direction:column;align-items:flex-start;gap:var(--space-16);max-width:560px}
+.k-state-icon{width:48px;height:48px;border-radius:var(--radius-card);background:var(--surface);border:1px solid var(--line);display:grid;place-items:center;color:var(--ink-2)}
+.k-state--erro .k-state-icon{background:var(--danger-soft);border-color:transparent;color:var(--danger)}
+.k-state-text{margin:0;font-size:15px;line-height:22px;color:var(--ink-2);max-width:480px}
+.k-state-actions{display:flex;flex-wrap:wrap;gap:var(--space-8);margin-top:var(--space-8)}
+.k-passos{margin:0;padding:0;list-style:none;display:flex;flex-direction:column;gap:var(--space-12);counter-reset:passo}
+.k-passos > li{display:grid;grid-template-columns:24px minmax(0,1fr);gap:var(--space-8);align-items:start;font-size:13px;line-height:18px}
+.k-passos > li::before{counter-increment:passo;content:counter(passo);width:24px;height:24px;border-radius:var(--radius-pill);background:var(--surface-sunken);color:var(--ink);display:grid;place-items:center;font:500 12px/1 var(--font-mono);margin-top:-3px}
+
+/* ========== [PROPOSTA] Tela estreita (o sistema veio só para 1440px) ==========
+   Regra do painel: 375px sem rolagem lateral (fora de tabela larga). */
+
+/* < 1024px — a barra lateral vira barra de topo (56px, fundo sidebar, logotipo ivory) + botão Menu.
+   Menu aberto = a mesma .k-sidebar em tela cheia abaixo da barra de topo (sem véu, sem vidro).
+   Fecha com Esc, ao tocar num item e ao trocar de página. Grade: tudo empilha; KPIs e cards de equipe em 2. */
+@media (max-width:1023px){
+  .k-shell{grid-template-columns:minmax(0,1fr);grid-template-rows:auto 1fr}
+  .k-topbar{display:flex;align-items:center;justify-content:space-between;gap:var(--space-12);position:sticky;top:0;z-index:20;height:var(--topbar-height);padding:0 var(--space-16);background:var(--sidebar);color:var(--sidebar-ink)}
+  .k-shell > .k-sidebar{display:none;position:fixed;top:var(--topbar-height);left:0;right:0;bottom:0;z-index:30;width:auto;height:auto;padding:var(--space-16)}
+  .k-shell.is-menu-open > .k-sidebar{display:flex}
+  .k-shell > .k-sidebar .k-sidebar-logo{display:none}
+  .k-grid > *{grid-column:1 / -1}
+  .k-grid--tiles > *{grid-column:span 6}
+}
+
+/* < 768px — área principal com 16px de lado, h1 no tamanho do h2 (peso 800 mantido), 24px acima do h1,
+   ferramentas do topo (busca, período, ação) numa linha própria, busca na largura toda. */
+@media (max-width:767px){
+  .k-main{padding:var(--space-24) var(--content-padding-estreito) var(--space-48)}
+  .k-main .k-h1{font-size:var(--type-h2-size);line-height:var(--type-h2-line);letter-spacing:var(--type-h2-tracking)}
+  .k-page-head{margin-bottom:var(--space-24)}
+  .k-page-tools{width:100%}
+  .k-page-tools .k-search{flex:1 1 100%;min-width:0}
+  .k-section + .k-section{margin-top:var(--space-32)}
+  .k-grid{gap:var(--space-16)}
+  .k-cal{grid-template-columns:repeat(2,minmax(0,1fr))}
+}
+
+/* < 640px — uma coluna. O card de pessoa joga as métricas para a linha de baixo (alinhadas ao nome). */
+@media (max-width:639px){
+  .k-grid--tiles > *{grid-column:1 / -1}
+  .k-member{flex-wrap:wrap}
+  .k-member-stats{width:100%;padding-left:70px;text-align:left}
+  .k-cal{grid-template-columns:minmax(0,1fr)}
+  .k-steps-labels > span{display:none}
+  .k-steps-labels > span.is-now{display:block;grid-column:1 / -1}
+}
+
+/* =====================================================================================================================
+   TELAS DE 23/10 (2.ª rodada) — os 7 artboards do Carlos (painel/referencias/claude-design/telas-2026-10-23/).
+   Cada peça abaixo está em design-system.md §15, com a origem: [TRANSCRITO] = estava inline no artboard e virou classe,
+   mesmos valores; [PROPOSTA] = acréscimo da designer (375 px, estados, o que o artboard não cobriu) — vai ao Carlos.
+   Só var(--…) de tokens.css. Medidas internas (6, 10, 14, 22…) vêm do artboard, como no resto do sistema.
+   ===================================================================================================================== */
+
+/* ---------- Anel de foco por fundo (decisão do Carlos, 23/10) ----------
+   --focus agora é accent-ink (5,1–5,8:1 nos fundos claros); nos fundos escuros o anel continua accent (--focus-on-dark,
+   5,7:1). A barra lateral já vem do componentes.css (regra do Claude Design v6); a barra de topo escura (< 1024 px) é
+   acréscimo nosso e segue a mesma regra. */
+.k-topbar :focus-visible{outline-color:var(--focus-on-dark)}
+
+/* ---------- [PROPOSTA] Pequenas correções de base que as telas pediram ---------- */
+[hidden]{display:none !important} /* um painel escondido (vista Mês/Semana, fase, aba) some mesmo quando a classe dele define display */
+a.k-btn{text-decoration:none} /* botão que é link (Ver calendário, Ver equipe completa) não ganha o sublinhado do navegador */
+.k-delta{white-space:nowrap}
+
+/* ---------- [TRANSCRITO] Rótulo de duas linhas na barra lateral ("Produção de conteúdo" não cabe em uma) ---------- */
+.k-nav-item{line-height:15px}
+.k-nav-item.is-active{padding-right:24px}
+
+/* ---------- [TRANSCRITO] Área principal com a barra do app em cima ---------- */
+.k-area{min-width:0;display:flex;flex-direction:column}
+.k-appbar{display:flex;align-items:center;gap:var(--space-16);height:var(--space-64);padding:0 var(--content-padding);border-bottom:1px solid var(--line);flex:none}
+.k-appbar > .k-search{flex:0 1 440px}
+.k-appbar-fim{margin-left:auto;display:flex;align-items:center;gap:var(--space-16)}
+.k-appbar-sep{width:1px;height:24px;background:var(--line);flex:none}
+.k-avisos{position:relative;color:var(--ink)}
+.k-avisos.tem-aviso::after{content:"";position:absolute;top:7px;right:8px;width:8px;height:8px;border-radius:50%;background:var(--accent);box-shadow:0 0 0 2px var(--bg)}
+.k-dono{display:flex;align-items:center;gap:10px;padding:4px 6px}
+.k-dono > .k-avatar{--s:32px;border-radius:var(--radius-pill);font-size:12px}
+.k-dono-nome{display:block;font:600 13px/16px var(--font-sans);color:var(--ink)}
+.k-dono-papel{display:block;font:400 11px/14px var(--font-sans);color:var(--ink-3)}
+.k-appbar + .k-main{padding-top:var(--space-24)}
+.k-sidebar > .k-search{display:none}
+.k-topbar-fim{display:flex;align-items:center;gap:var(--space-8)}
+.k-topbar .k-avisos{color:var(--sidebar-ink)}
+.k-topbar .k-avisos:hover{background:var(--sidebar-raised);color:var(--sidebar-ink)}
+.k-topbar .k-avisos.tem-aviso::after{box-shadow:0 0 0 2px var(--sidebar)}
+
+/* ---------- [TRANSCRITO] Topo de página com subtítulo e meta ---------- */
+.k-page-lead{margin:var(--space-4) 0 0;font-size:15px;line-height:22px;color:var(--ink-2);max-width:72ch}
+.k-page-meta{display:inline-flex;align-items:center;gap:6px;font-size:13px;line-height:18px;color:var(--ink-3)}
+.k-main.is-painel .k-page-head{margin-bottom:var(--space-24)}
+.k-main.is-painel .k-section + .k-section{margin-top:var(--space-32)} /* [PROPOSTA] telas de painel: 32 entre seções (artboard: 28) */
+/* 24/10 — sem título de página (decisão do Carlos: o item do menu já diz onde se está). O h1 fica só para leitor de tela;
+   busca, data ou período, quando a tela tem, numa barra fina no alto. Sem barra, o conteúdo começa nos 24 px da área. */
+.k-page-barra{display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:var(--space-12) var(--space-16);margin-bottom:var(--space-16);min-height:var(--control-height)}
+.k-page-barra > .k-page-meta:only-child{margin-left:auto}
+.k-page-barra .k-search{width:300px;max-width:100%}
+@media (max-width:767px){
+  .k-page-barra .k-search{flex:1 1 100%;width:auto}
+  .k-page-barra > .k-page-meta:only-child{margin-left:0}
+}
+/* 24/10 — o modelo que RODOU (registros), não o configurado */
+.k-modelo-nada{font-size:11px;line-height:14px;color:var(--ink-2)}
+.k-modelo-mix{display:inline-flex;flex-direction:column;align-items:flex-start;gap:2px}
+.k-modelo-mix > small{font-family:var(--font-mono);font-size:11px;line-height:14px;color:var(--ink-2)}
+.k-section-sub{font-size:13px;line-height:18px;color:var(--ink-2)}
+.k-section-head > .k-row{gap:var(--space-12);align-items:baseline}
+.k-grid > *{min-width:0} /* item de grade nunca estica por causa de uma tabela larga (ela rola dentro do card) */
+.k-span-5{grid-column:span 5}
+.k-span-7{grid-column:span 7}
+.k-span-9{grid-column:span 9}
+
+/* ---------- [TRANSCRITO] Filtro em pílula ---------- */
+.k-filtros{display:flex;flex-wrap:wrap;gap:6px;min-width:0}
+.k-filtro{display:inline-flex;align-items:center;gap:6px;height:30px;padding:0 12px;border-radius:var(--radius-pill);border:1px solid var(--line);background:transparent;color:var(--ink-2);font:600 12px/1 var(--font-sans);cursor:pointer;white-space:nowrap;transition:background var(--duracao-padrao),color var(--duracao-padrao),border-color var(--duracao-padrao)}
+.k-filtro:hover{background:var(--surface-sunken);color:var(--ink)}
+.k-filtro[aria-pressed="true"]{background:var(--ink);border-color:var(--ink);color:var(--bg)}
+.k-filtro-n{font:500 11px/1 var(--font-mono);color:var(--ink-3)}
+.k-filtro[aria-pressed="true"] .k-filtro-n{color:var(--sidebar-ink-2)} /* sem opacity: o número continua a 4,5:1 */
+
+/* ---------- [TRANSCRITO] Controle segmentado (duas a três vistas do mesmo bloco) ---------- */
+.k-seg{display:inline-flex;gap:2px;padding:2px;border-radius:var(--radius-btn);background:var(--surface-sunken)}
+.k-seg > button{flex:1;height:26px;padding:0 12px;border:0;border-radius:var(--radius-sm);background:transparent;color:var(--ink-2);font:600 12px/1 var(--font-sans);cursor:pointer;white-space:nowrap}
+.k-seg > button:hover{color:var(--ink)}
+.k-seg > button[aria-pressed="true"]{background:var(--surface);color:var(--ink);box-shadow:var(--shadow-card)}
+.k-seg.is-largo{display:flex}
+.k-seg.is-alto > button{height:30px;padding:0 14px}
+
+/* ---------- [TRANSCRITO] Fases da produção (cartão de fase + elo) ---------- */
+.k-fases{display:grid;grid-template-columns:minmax(0,1fr) 64px minmax(0,1fr) 64px minmax(0,1fr) 64px minmax(0,1fr) 64px minmax(0,1fr)}
+.k-fase{position:relative;display:flex;flex-direction:column;align-items:flex-start;gap:4px;min-height:118px;padding:14px 16px;text-align:left;background:var(--surface);border:1px solid var(--line);border-radius:var(--radius-card);box-shadow:var(--shadow-card);font:inherit;color:var(--ink);cursor:pointer;min-width:0;transition:border-color var(--duracao-padrao),box-shadow var(--duracao-padrao)}
+.k-fase:hover{border-color:var(--line-strong);box-shadow:var(--shadow-hover)}
+.k-fase[aria-pressed="true"]{border-color:var(--ink);box-shadow:var(--shadow-hover)}
+.k-fase[aria-pressed="true"]::after{content:"";position:absolute;top:16px;right:16px;width:6px;height:6px;border-radius:50%;background:var(--accent)}
+.k-fase-n{font-size:32px;line-height:36px;font-weight:700;letter-spacing:-.03em;font-variant-numeric:tabular-nums}
+.k-fase-d{font-size:13px;line-height:18px;color:var(--ink-2)}
+.k-fase-m{font-size:12px;line-height:16px;color:var(--ink-3)}
+.k-fase-elo{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:4px;padding:0 4px;color:var(--ink-3);text-align:center;font-size:11px;line-height:14px;font-weight:600;letter-spacing:.06em;text-transform:uppercase}
+
+/* ---------- [TRANSCRITO] Canal (Instagram · Facebook · LinkedIn), palavra-chave, chip pequeno e modo ---------- */
+.k-canais{display:flex;flex-wrap:wrap;gap:4px}
+.k-canal{display:inline-flex;align-items:center;gap:3px;height:22px;padding:0 7px;border-radius:var(--radius-sm);border:1px solid var(--line-strong);background:var(--surface);color:var(--ink);font:600 11px/1 var(--font-sans);white-space:nowrap;text-decoration:none}
+a.k-canal:hover{background:var(--surface-sunken)}
+.k-canal.is-off{border-style:dashed;background:transparent;color:var(--ink-3);font-weight:500}
+.k-palavra{display:inline-flex;align-items:center;height:22px;padding:0 8px;border-radius:var(--radius-sm);background:var(--surface-sunken);font:600 11px/1 var(--font-mono);letter-spacing:.04em;color:var(--ink);white-space:nowrap}
+.k-chip.is-sm{height:20px;padding:0 8px;font-size:11px;gap:4px}
+.k-chip--modo{background:transparent;color:var(--ink-2);border-color:var(--line-strong)}
+.k-chip--modo::before{display:none}
+
+/* ---------- [TRANSCRITO] Capa do vídeo (9:16) em vários tamanhos ---------- */
+.k-capa{display:grid;place-items:center;flex:none;width:27px;height:48px;border-radius:5px;border:1px solid var(--line);background:var(--surface-sunken);color:var(--ink-2);overflow:hidden}
+.k-capa > img{width:100%;height:100%;object-fit:cover;display:block}
+.k-capa--xs{width:18px;height:32px;border-radius:3px;border:0}
+.k-capa--sm{width:24px;height:42px;border-radius:4px}
+.k-capa--md{width:36px;height:64px;border-radius:var(--radius-sm)}
+.k-capa--lg{width:58px;height:103px;border-radius:var(--radius-sm)}
+.k-capa--doc{width:32px;height:40px;border-radius:var(--radius-sm)}
+.k-video-title,.k-video-meta{display:block} /* título e meta da célula de vídeo, um embaixo do outro (com reticências) */
+.k-video-slug{display:block;font:500 11px/15px var(--font-mono);color:var(--ink-3);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+
+/* ---------- [TRANSCRITO] Cartão de publicação (próximas publicações) ---------- */
+.k-posts{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:var(--space-16)}
+.k-post{display:flex;align-items:center;gap:12px;padding:12px;min-width:0;text-decoration:none;color:inherit}
+.k-post-corpo{display:flex;flex-direction:column;gap:3px;min-width:0;flex:1}
+.k-post-quando{display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:0 8px}
+.k-post-quando > span{display:flex;align-items:center;gap:6px;white-space:nowrap}
+.k-post-quando .k-cap{color:var(--ink)}
+.k-post-rel{font-size:11px;line-height:14px;color:var(--ink-3);white-space:nowrap}
+.k-post-rel.is-perto{color:var(--accent-ink);font-weight:600}
+.k-post-titulo{font-size:14px;line-height:20px;font-weight:600;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.k-post-onde{display:flex;align-items:center;flex-wrap:wrap;gap:6px;font-size:12px;line-height:16px;color:var(--ink-2)}
+
+/* ---------- [TRANSCRITO] Cartão de agente com foto (Visão geral) ---------- */
+.k-agentes{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:var(--space-16)}
+.k-agente{display:flex;flex-direction:column;gap:12px;padding:14px;min-width:0;text-decoration:none;color:inherit}
+.k-agente-foto{display:grid;place-items:center;width:100%;aspect-ratio:4 / 3;border-radius:10px;border:1px solid var(--line);background:var(--surface-sunken);overflow:hidden;color:var(--ink-2);font-size:30px;line-height:1;font-weight:600;letter-spacing:-.02em;flex:none}
+.k-agente-foto > img{width:100%;height:100%;object-fit:cover;object-position:50% 24%;display:block}
+.k-agente-txt{display:flex;flex-direction:column;min-width:0;flex:1}
+.k-agente-nome{margin:10px 0 0;font-size:16px;line-height:22px;font-weight:600;letter-spacing:-.01em;overflow-wrap:break-word} /* nunca cortado: a 1600 a coluna do texto tem ~100 px e "Vera Campos" quebra em 2 linhas */
+.k-agente-funcao{margin:2px 0 0;font-size:13px;line-height:18px;color:var(--ink-2)}
+.k-agente-depto{margin:2px 0 0;font-size:12px;line-height:16px;color:var(--ink-3)}
+.k-agente-chips{margin-top:auto;padding-top:10px;display:flex;flex-wrap:wrap;gap:6px}
+.k-agora{display:flex;align-items:center;gap:6px;font-size:12px;line-height:16px;color:var(--ink-2)}
+.k-agora::before{content:"";width:7px;height:7px;border-radius:50%;flex:none;box-sizing:border-box;border:1.5px solid var(--ink-3)}
+.k-agora.is-on::before{border:0;background:var(--positive)}
+@media (min-width:1600px){
+  .k-agente{flex-direction:row}
+  .k-agente-foto{width:112px;aspect-ratio:auto;align-self:stretch;min-height:132px}
+}
+
+/* ---------- [TRANSCRITO] Lista de pessoas do departamento (Equipe) ---------- */
+.k-deptos{display:grid;grid-template-columns:repeat(auto-fit,minmax(510px,1fr));gap:var(--space-16)} /* 3 por linha só quando cada cartão tem 510 px (janela medida em tela/equipe.md): o nome mais longo cabe sem corte */
+.k-depto{padding:12px;display:flex;flex-direction:column;min-width:0}
+.k-depto-head{display:flex;align-items:baseline;justify-content:space-between;flex-wrap:wrap;gap:4px 12px;padding:0 8px}
+.k-depto-head > div{display:flex;align-items:baseline;gap:8px;min-width:0}
+.k-depto-soma{font:500 11px/16px var(--font-mono);color:var(--ink-3);white-space:nowrap}
+.k-pessoas{list-style:none;margin:6px 0 0;padding:0;display:flex;flex-direction:column;gap:2px}
+.k-pessoa-linha{display:grid;grid-template-columns:32px minmax(0,1fr) 76px 86px 64px 54px 14px;column-gap:6px;align-items:center;min-height:44px;padding:6px 8px;border-radius:var(--radius-btn);text-decoration:none;color:inherit;transition:background var(--duracao-linha)}
+.k-pessoa-linha:hover{background:var(--surface-hover)}
+.k-pessoa-linha.is-gerente{background:var(--surface-hover);box-shadow:inset 0 0 0 1px var(--line)}
+.k-pessoa-linha.is-gerente:hover{box-shadow:inset 0 0 0 1px var(--line-strong)}
+.k-pessoa-cab{min-height:0;padding-top:0;padding-bottom:4px}
+.k-pessoa-cab:hover{background:transparent}
+.k-pessoa-cab > span{font-size:11px;line-height:14px;font-weight:600;letter-spacing:.06em;text-transform:uppercase;color:var(--ink-2)}
+.k-pessoa-linha > .k-avatar{--s:32px}
+.k-pessoa-id{display:flex;flex-direction:column;min-width:0}
+.k-pessoa-nome{white-space:nowrap;overflow:hidden;text-overflow:ellipsis} /* só o nome corta (com o title); função e portão quebram em 2 linhas */
+.k-pessoa-nome{display:flex;align-items:center;gap:6px;min-width:0;font-size:13px;line-height:18px;font-weight:600}
+.k-pessoa-nome > b{font-weight:600;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.k-pessoa-funcao{font-size:12px;line-height:16px;color:var(--ink-2);overflow-wrap:anywhere}
+.k-pessoa-portao{font-size:11px;line-height:14px;font-weight:600;color:var(--accent-ink);overflow-wrap:anywhere}
+.k-pessoa-num{display:flex;flex-direction:column;align-items:flex-end;font:500 12px/15px var(--font-mono);font-variant-numeric:tabular-nums;color:var(--ink);white-space:nowrap}
+.k-pessoa-num > small{font-size:11px;line-height:14px;color:var(--ink-3)}
+.k-pessoa-seta{color:var(--ink-3);display:grid;place-items:center}
+.k-dir{text-align:right;justify-self:end}
+
+/* ---------- [TRANSCRITO] Cartão da direção (Atlas) e números lado a lado ---------- */
+.k-direcao{display:flex;align-items:center;flex-wrap:wrap;gap:var(--space-16) 28px;padding:14px 16px 14px 14px;text-decoration:none;color:inherit}
+.k-direcao-quem{display:flex;align-items:center;gap:16px;flex:0 1 auto;min-width:0}
+.k-direcao-quem .k-row{row-gap:4px} /* com flex:0 1 auto o bloco encolhe e o .k-row quebra: a 375 o chip "Claude principal" passava 8 px da borda */
+.k-direcao-quem > .k-avatar{--s:72px;border-radius:10px}
+.k-direcao-texto{margin:0;flex:1 1 260px;min-width:0;max-width:400px;padding-left:28px;border-left:1px solid var(--line);font-size:13px;line-height:19px;color:var(--ink-2)}
+.k-stats{display:flex;align-items:stretch;flex-wrap:wrap;row-gap:var(--space-12)}
+.k-stat{display:flex;flex-direction:column;gap:6px;min-width:0;padding:0 24px;border-left:1px solid var(--line)}
+.k-stats.is-solto > .k-stat:first-child{padding-left:0;border-left:0}
+.k-stat-v{font-size:20px;line-height:22px;font-weight:700;letter-spacing:-.02em;font-variant-numeric:tabular-nums;white-space:nowrap}
+.k-stat-v.is-grande{font-size:24px;line-height:28px}
+.k-stat-v small{font-size:13px;font-weight:600;color:var(--ink-2);margin-right:3px}
+.k-stat-r{font-size:12px;line-height:18px;color:var(--ink-2)}
+
+/* ---------- [TRANSCRITO] Tokens em destaque (decisão de 23/10) ---------- */
+.k-tokens{color:var(--accent-ink);font-weight:600} /* texto pequeno: accent-ink (contraste.md T17/T19) */
+.k-tokens.is-grande{color:var(--accent)} /* só a partir de 24 px: accent (T20/T21) */
+
+/* ---------- [TRANSCRITO] KPI em linha (valor à esquerda, contexto à direita) e KPI com peça ao lado ---------- */
+.k-kpi--linha{padding:16px 20px;gap:4px;justify-content:space-between}
+.k-kpi--linha .k-kpi-value{font-size:36px;line-height:40px}
+.k-kpi-linha{display:flex;align-items:flex-end;justify-content:space-between;gap:12px}
+.k-kpi-linha > :last-child{min-width:0;text-align:right}
+
+.k-kpi-lado{display:flex;flex-direction:column;align-items:flex-end;gap:4px;padding-bottom:2px;text-align:right}
+@media (max-width:1599px){ /* a 1440 o contexto desce para baixo do valor, alinhado à esquerda (no artboard de 1920 fica ao lado) */
+  .k-kpi-linha{flex-direction:column;align-items:flex-start;gap:4px}
+  .k-kpi-linha > :last-child{text-align:left}
+  .k-kpi-lado{align-items:flex-start;text-align:left;flex-direction:row;flex-wrap:wrap;gap:6px 10px}
+}
+.k-kpi.has-aside{position:relative}
+.k-kpi.has-aside > .k-cap,.k-kpi.has-aside > .k-kpi-value{margin-right:76px} /* só o rótulo e o valor dão lugar à peça; o rodapé usa a largura toda */
+.k-kpi-aside{position:absolute;top:16px;right:16px}
+.k-kpi--capa > .k-kpi-foot{margin-right:76px} /* a capa (103 px) desce até o rodapé */
+.k-kpi a.k-kpi-aside{display:block;border-radius:var(--radius-sm)}
+.k-anel{display:block;transform:rotate(-90deg)}
+.k-anel .trilho{stroke:var(--surface-sunken)}
+.k-anel .valor{stroke:var(--chart-1)}
+
+/* ---------- [TRANSCRITO] Barras finas (países, departamentos, vídeos) ---------- */
+.k-barras{display:flex;flex-direction:column;gap:4px}
+.k-bar-row--fino{grid-template-columns:104px minmax(0,1fr) 44px;gap:10px}
+.k-bar-row--fino > span:first-child{color:var(--ink);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.k-bar-row--fino .k-bar-track{height:6px;border-radius:var(--radius-pill)}
+.k-bar-row--fino .k-bar-fill{border-radius:inherit}
+.k-bar-row--fino .k-bar-value{font:500 11px/16px var(--font-mono);color:var(--ink-2)}
+.k-bar-row .k-bar-value.k-tokens{color:var(--accent-ink);font-weight:600} /* tokens em destaque também dentro da barra */
+.k-bar-row--larga{grid-template-columns:minmax(0,150px) minmax(0,1fr) 64px 80px 52px;gap:10px}
+
+/* ---------- [TRANSCRITO] Colunas por faixa de horário (uma série, 3 em foco) ---------- */
+.k-colunas{display:grid;grid-template-columns:repeat(8,minmax(0,1fr));gap:6px;align-items:end;height:120px}
+.k-colunas > span{display:block;border-radius:4px 4px 0 0;background:var(--chart-2)}
+.k-colunas > span.is-foco{background:var(--chart-1)}
+.k-colunas-rot{display:grid;grid-template-columns:repeat(8,minmax(0,1fr));gap:6px;margin-top:6px}
+.k-colunas-rot > span{font:500 11px/14px var(--font-mono);color:var(--ink-3);text-align:center}
+.k-colunas-rot > span.is-foco{color:var(--ink);font-weight:600}
+
+/* ---------- [TRANSCRITO] Ranking e medidor de % assistido ---------- */
+.k-rank-pos{display:inline-flex;align-items:center;justify-content:center;width:24px;height:24px;border-radius:var(--radius-pill);border:1px solid var(--line-strong);font:600 11px/1 var(--font-mono);color:var(--ink)}
+.k-rank-pos.is-1{background:var(--accent);border-color:var(--accent);color:var(--on-accent)}
+.k-rank-pos.is-2,.k-rank-pos.is-3{border-color:var(--ink)}
+.k-table tr.is-top td{background:var(--surface-hover)}
+.k-table td.k-dir,.k-table th.k-dir{text-align:right}
+.k-table .k-sub{display:block;font:500 11px/14px var(--font-mono);color:var(--ink-3)}
+.k-table .k-n{font-family:var(--font-mono);font-size:12px;font-variant-numeric:tabular-nums;white-space:nowrap}
+.k-table--denso td{height:52px}
+.k-table--denso th{padding:8px 12px}
+.k-table--denso td{padding:0 12px}
+.k-valor-foco{color:var(--accent-ink);font-weight:600}
+.k-medidor{display:inline-flex;align-items:center;gap:8px;white-space:nowrap}
+.k-medidor-trilho{width:56px;height:4px;border-radius:var(--radius-pill);background:var(--surface-sunken);overflow:hidden;flex:none}
+.k-medidor-trilho > span{display:block;height:100%;background:var(--chart-1);border-radius:inherit}
+
+/* ---------- [TRANSCRITO] Grade do mês, vaga livre e gravação ---------- */
+.k-cal-topo{display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:var(--space-12) var(--space-16)}
+.k-cal-nav{display:flex;align-items:center;gap:var(--space-8)}
+.k-cal-nav > h2{margin:0 0 0 var(--space-8)}
+.k-cal-legenda{display:flex;flex-wrap:wrap;align-items:center;gap:6px 14px;font-size:12px;line-height:16px;color:var(--ink-2)}
+.k-cal-legenda > span{display:inline-flex;align-items:center;gap:6px}
+.k-cal-legenda i{display:inline-block;width:10px;height:10px;border-radius:2px}
+.k-cal-legenda i.is-contorno{background:var(--surface-hover);box-shadow:inset 0 0 0 1px var(--line-strong)}
+.k-cal-legenda i.is-tracejado{width:14px;border:1px dashed var(--line-strong)}
+.k-mes-cab,.k-mes{display:grid;grid-template-columns:repeat(7,minmax(0,1fr))}
+.k-mes-cab > span{height:34px;display:flex;align-items:center;padding:0 12px;border-bottom:1px solid var(--line)}
+.k-mes-dia{display:flex;flex-direction:column;gap:5px;min-height:132px;padding:8px;border-right:1px solid var(--line);border-bottom:1px solid var(--line);min-width:0}
+.k-mes-dia:nth-child(7n){border-right:0}
+.k-mes-dia:nth-last-child(-n+7){border-bottom:0}
+.k-mes-dia.is-fora{background:var(--surface-hover)}
+.k-mes-n{display:inline-flex;align-items:center;justify-content:center;min-width:24px;height:24px;padding:0 4px;border-radius:var(--radius-pill);font-size:12px;line-height:1;font-weight:600;color:var(--ink);font-variant-numeric:tabular-nums;align-self:flex-start}
+.k-mes-dia.is-fora .k-mes-n{color:var(--ink-3);font-weight:500}
+.k-mes-dia.is-passado .k-mes-n{color:var(--ink-2)}
+.k-mes-dia.is-hoje .k-mes-n,.k-semana-dia.is-hoje .k-mes-n{background:var(--accent);color:var(--on-accent);padding:0 8px}
+.k-mes-dl{display:none}
+.k-event--mes{padding:5px 8px 6px 10px;gap:4px}
+.k-mes-dia.is-hoje .k-mes-nada{color:var(--ink-3);font-size:12px;line-height:16px;font-weight:400;letter-spacing:0;text-transform:none}
+.k-event-linha{display:flex;align-items:flex-start;gap:7px;min-width:0}
+.k-event-txt{display:flex;flex-direction:column;gap:1px;min-width:0}
+.k-event-txt > *{overflow-wrap:break-word} /* nunca reticências: título e canais quebram em 2 linhas (o title do evento fica como apoio) */
+.k-event-txt > span{font-size:11px;line-height:14px}
+.k-event-txt b.k-mono{font-size:11px}
+.k-event.is-publicado{background:var(--surface-hover)}
+.k-event-portao.is-compacto{gap:4px;margin-top:0;color:var(--ink-2)}
+.k-event-portao.is-compacto .k-chip{white-space:normal;height:auto;min-height:20px;padding-top:2px;padding-bottom:2px;line-height:14px}
+.k-vaga{display:flex;align-items:center;justify-content:space-between;gap:6px;min-height:26px;padding:0 8px;border:1px dashed var(--line-strong);border-radius:var(--radius-sm);font-size:11px;line-height:14px;color:var(--ink-2)}
+.k-gravar{display:flex;align-items:center;gap:5px;min-width:0;font-size:11px;line-height:14px;color:var(--ink-2)}
+.k-gravar > span{min-width:0;overflow-wrap:break-word}
+.k-gravar.is-caixa{padding:8px 10px;border:1px solid var(--line);border-radius:var(--radius-sm);background:var(--surface)}
+
+/* ---------- [TRANSCRITO] Semana (7 colunas, capa grande) ---------- */
+.k-semana{display:grid;grid-template-columns:repeat(7,minmax(0,1fr))}
+.k-semana-dia{display:flex;flex-direction:column;gap:10px;padding:12px 10px;border-right:1px solid var(--line);min-width:0}
+.k-semana-dia:last-child{border-right:0}
+.k-semana-dia.is-hoje{background:var(--surface-hover)}
+.k-semana-cab{display:flex;align-items:baseline;justify-content:space-between;gap:6px;padding-bottom:10px;border-bottom:1px solid var(--line)}
+.k-semana-nota{font-size:11px;line-height:14px;color:var(--ink-3)}
+.k-semana-vazio{font-size:12px;line-height:16px;color:var(--ink-3)}
+.k-event--semana{gap:6px;padding:10px 10px 10px 13px}
+.k-event--semana > img{width:100%;height:150px;object-fit:cover;object-position:50% 25%;border-radius:var(--radius-sm);display:block}
+.k-event--semana > b{font-size:14px;line-height:19px}
+
+/* ---------- [TRANSCRITO] Lista chave → valor, atalho e destaque ---------- */
+.k-kv{list-style:none;margin:0;padding:0;display:flex;flex-direction:column}
+.k-kv > li{display:grid;grid-template-columns:minmax(0,1fr) auto;align-items:center;gap:12px;min-height:28px;padding:4px 0;border-bottom:1px solid var(--line);font-size:13px;line-height:18px}
+.k-kv > li:last-child{border-bottom:0}
+.k-kv-v{font-size:12px;line-height:16px;color:var(--ink-2);text-align:right}
+.k-kv--grande > li{padding:10px 0}
+.k-kv-t{display:flex;flex-direction:column;min-width:0}
+.k-kv-t > b{font-size:13px;line-height:18px;font-weight:600}
+.k-kv-t > small{font-size:12px;line-height:16px;color:var(--ink-3)}
+.k-kv-n{font-size:24px;line-height:28px;font-weight:700;letter-spacing:-.02em;font-variant-numeric:tabular-nums}
+.k-kv-n.is-zero{color:var(--ink-3)}
+.k-atalho{display:flex;align-items:center;justify-content:space-between;gap:8px;margin-top:6px;padding:10px 12px;border-radius:var(--radius-btn);background:var(--surface-sunken);font-size:12px;line-height:16px;font-weight:600;color:var(--ink);text-decoration:none}
+.k-atalho:hover{background:var(--line)}
+.k-destaque{display:flex;gap:12px;align-items:flex-start;padding:12px 14px;border-radius:10px;background:var(--accent-soft)}
+.k-destaque > [data-icon],.k-destaque > svg{color:var(--accent-ink);flex:none;margin-top:1px}
+.k-destaque-t{display:block;font-size:13px;line-height:18px;font-weight:600;color:var(--ink)}
+.k-destaque-m{display:block;margin-top:2px;font-size:11px;line-height:14px;color:var(--accent-ink)}
+.k-fonte{margin:0;font-size:12px;line-height:16px;color:var(--ink-3)}
+.k-fonte .k-mono{font-size:11px}
+
+/* ---------- [TRANSCRITO, 24/10] Biblioteca = acervo de estilos (canvas Biblioteca.dc.html, versão 21) ----------
+   Saíram (24/10) o cartão de material, os "recentes", "mais utilizados", a busca grande e "quem adicionou"
+   (.k-material*, .k-materiais, .k-uso*, .k-busca-grande): a Biblioteca não guarda mais material. */
+.k-acervo-sec + .k-acervo-sec,.k-acervo-par + .k-acervo-sec,.k-acervo-sec + .k-acervo-par,.k-acervo-par + .k-acervo-par{margin-top:22px}
+.k-acervo-head{display:flex;align-items:baseline;flex-wrap:wrap;gap:4px 12px;margin-bottom:12px}
+.k-acervo-head > h2{margin:0;font-size:22px;line-height:28px;font-weight:700;letter-spacing:-.015em}
+.k-acervo-head > span{font-size:12px;line-height:16px;color:var(--ink-3)}
+.k-acervo-par{display:grid;grid-template-columns:repeat(9,minmax(0,1fr));gap:var(--grid-gutter)}
+.k-acervo-par > .k-acervo-5{grid-column:span 5;min-width:0}
+.k-acervo-par > .k-acervo-4{grid-column:span 4;min-width:0}
+.k-acervo-par > [hidden] + *,.k-acervo-par > *:has(+ [hidden]){grid-column:1 / -1}
+.k-looks{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:var(--space-16)}
+.k-look{display:flex;flex-direction:column;overflow:hidden;min-width:0}
+.k-look.is-uso{border-color:var(--accent);box-shadow:0 0 0 1px var(--accent)} /* o look em uso: contorno laranja de 2 px, como no canvas */
+.k-look-foto{position:relative;aspect-ratio:4 / 5;background:var(--surface-sunken);border-bottom:1px solid var(--line);overflow:hidden}
+.k-look-foto > img{width:100%;height:100%;object-fit:cover;object-position:50% 30%;display:block}
+.k-look-foto > .k-etiqueta{position:absolute;left:10px;top:10px}
+.k-etiqueta{display:inline-flex;align-items:center;height:22px;padding:0 8px;border-radius:var(--radius-sm);font-size:11px;line-height:1;font-weight:600;letter-spacing:.06em;text-transform:uppercase;white-space:nowrap;flex:none}
+.k-etiqueta--uso{background:var(--accent);color:var(--on-accent)}
+.k-etiqueta--alt{background:var(--surface);color:var(--ink);border:1px solid var(--line-strong)}
+.k-etiqueta--ref{background:var(--surface);color:var(--ink-2);border:1px solid var(--line)}
+.k-etiqueta--arq{background:var(--surface-sunken);color:var(--ink-2);border:1px solid var(--line)}
+.k-etiqueta--tipo{height:20px;padding:0 7px;background:var(--surface-sunken);color:var(--ink-2);border:1px solid var(--line);letter-spacing:0;text-transform:none;font-weight:600} /* o .tag do canvas (aba Sistema, 24/10): o tipo da peça, em frase normal */
+.k-sis-modelos{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:var(--space-16)}
+.k-sis-modelo{padding:14px 16px;display:flex;flex-direction:column;gap:4px;min-width:0}
+.k-sis-modelo-topo{display:flex;align-items:center;justify-content:space-between;gap:8px}
+.k-sis-modelo-pct{font-size:24px;line-height:30px;font-weight:700;color:var(--accent-ink);font-variant-numeric:tabular-nums}
+.k-sis-lista{margin-top:var(--space-16);padding:4px 18px}
+.k-sis{display:grid;grid-template-columns:220px 190px minmax(0,1fr);gap:var(--space-16);align-items:center;min-height:44px;padding:6px 0;border-bottom:1px solid var(--line)}
+.k-sis:last-child{border-bottom:0}
+.k-sistema .k-kv .k-etiqueta--tipo{justify-self:end}
+.k-estilo-corpo{display:flex;flex-direction:column;gap:3px;padding:12px 14px 14px;min-width:0}
+.k-estilo-nome{font-size:14px;line-height:19px;font-weight:600;color:var(--ink);overflow-wrap:break-word}
+.k-estilo-meta{font:500 11px/15px var(--font-mono);color:var(--ink-3)}
+.k-estilo-desc{font-size:12px;line-height:17px;color:var(--ink-2)}
+.k-capas-estilos{padding:var(--space-16);display:grid;grid-template-columns:.85fr 1.15fr;gap:var(--space-16)}
+.k-capa-estilo{display:flex;gap:12px;min-width:0}
+.k-capa-estilo > img{width:80px;aspect-ratio:9 / 16;object-fit:cover;border-radius:var(--radius-btn);border:1px solid var(--line);flex:none;display:block}
+.k-capa-estilo > .k-estilo-corpo,.k-legenda-estilo > .k-estilo-corpo{padding:0}
+.k-capa-estilo .k-estilo-meta,.k-legenda-estilo .k-estilo-meta{margin-top:auto}
+.k-legenda-estilo{padding:var(--space-16);display:grid;grid-template-columns:112px minmax(0,1fr);gap:var(--space-16)}
+.k-legenda-estilo > img{width:112px;aspect-ratio:9 / 16;border-radius:var(--radius-btn);display:block}
+.k-tipos{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px}
+.k-tipo{display:flex;flex-direction:column;gap:4px;padding:14px 14px 16px;min-width:0}
+.k-tipo > img{height:48px;width:auto;align-self:flex-start;display:block}
+.k-anims{padding:4px var(--space-16)}
+.k-anim{display:grid;grid-template-columns:32px minmax(0,1fr) auto;gap:12px;align-items:center;min-height:52px;padding:6px 0;border-bottom:1px solid var(--line)}
+.k-anim:last-child{border-bottom:0}
+.k-anim-i{width:32px;height:32px;border-radius:var(--radius-btn);background:var(--surface-sunken);display:grid;place-items:center;color:var(--ink)}
+.k-anim-nome{font-size:13px;line-height:18px;font-weight:600;overflow-wrap:break-word}
+.k-armazem-n{display:flex;align-items:baseline;gap:8px;margin-top:10px}
+.k-armazem-n > b{font-size:34px;line-height:38px;font-weight:700;letter-spacing:-.03em;font-variant-numeric:tabular-nums}
+.k-armazem-n > span{font-size:15px;line-height:20px;font-weight:600;color:var(--ink-2)}
+.k-armazem .k-empilhada{height:10px;margin-top:14px}
+.k-armazem-leg{list-style:none;margin:10px 0 0;padding:0;display:flex;flex-direction:column}
+.k-armazem-leg > li{display:grid;grid-template-columns:10px minmax(0,1fr) auto;gap:8px;align-items:center;min-height:26px;font-size:12px;line-height:16px}
+.k-armazem-leg i{width:9px;height:9px;border-radius:2px;display:block}
+.k-armazem-leg .k-estilo-meta{color:var(--ink)}
+.k-sistema-sub{display:block;margin-top:14px;font-size:12px;line-height:16px;color:var(--ink-3)}
+.k-sistema .k-kv > li{min-height:28px;font-size:12px;line-height:16px}
+@media (max-width:1279px){ .k-looks{grid-template-columns:repeat(3,minmax(0,1fr))} }
+@media (max-width:1023px){
+  .k-sis{grid-template-columns:minmax(0,1fr) auto;row-gap:4px}
+  .k-sis > .k-estilo-desc{grid-column:1 / -1}
+  .k-acervo-par{grid-template-columns:minmax(0,1fr)}
+  .k-acervo-par > .k-acervo-5,.k-acervo-par > .k-acervo-4{grid-column:1 / -1}
+  .k-tipos{grid-template-columns:repeat(2,minmax(0,1fr))}
+}
+@media (max-width:639px){
+  .k-sis-modelos{grid-template-columns:minmax(0,1fr)}
+  .k-looks{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .k-capas-estilos{grid-template-columns:minmax(0,1fr)}
+}
+.k-empilhada{display:flex;gap:2px;height:8px;border-radius:var(--radius-pill);overflow:hidden;background:var(--surface-sunken)}
+.k-empilhada > span{display:block;height:100%}
+
+/* ---------- [PROPOSTA] Pedido ao Claude Code (o painel só lê: a ação vira um comando para copiar) ---------- */
+.k-pedido{position:relative;display:inline-flex}
+.k-pedido > .k-menu{position:absolute;right:0;top:calc(100% + 4px);z-index:40;width:min(340px,calc(100vw - 2 * var(--space-16)));padding:var(--space-12);display:none}
+.k-pedido.is-aberto > .k-menu{display:block}
+.k-pedido-t{display:block;font-size:13px;line-height:18px;font-weight:600}
+.k-pedido-p{margin:var(--space-4) 0 var(--space-8);font-size:12px;line-height:16px;color:var(--ink-2)}
+.k-pedido .k-code{display:block;padding:var(--space-8);margin-bottom:var(--space-8)}
+
+/* ---------- [PROPOSTA] Larguras: o artboard é 1920; a 1440 alguns blocos laterais descem ---------- */
+.k-pilha{display:flex;flex-direction:column;gap:var(--grid-gutter);min-width:0}
+.k-lado{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:var(--grid-gutter);align-items:start;align-content:start} /* align-content: na coluna ao lado (≥ 1600/1920) os cartões ficam juntos no topo, sem o vão que sobrava da altura do bloco principal */
+@media (max-width:1599px){
+  .k-fim-ate-xl{order:9} /* bloco largo que, abaixo de 1600, desce para o fim da grade e ganha a largura toda */
+}
+@media (min-width:1600px){
+  .k-xl-3{grid-column:span 3}
+  .k-xl-4{grid-column:span 4}
+  .k-xl-6{grid-column:span 6}
+  .k-xl-5{grid-column:span 5}
+  .k-xl-7{grid-column:span 7}
+  .k-xl-9{grid-column:span 9}
+  .k-lado{grid-template-columns:minmax(0,1fr)}
+}
+/* Calendário: o painel lateral (Fila, Melhores horários) só sobe para o lado a partir de 1920 px, a largura do artboard.
+   Até 1919 px a grade do mês ocupa a largura toda e os dois cartões ficam lado a lado embaixo dela. */
+@media (min-width:1600px) and (max-width:1919px){
+  .k-lado.k-lado--xxl{grid-template-columns:repeat(2,minmax(0,1fr))}
+}
+@media (min-width:1920px){
+  .k-xxl-3{grid-column:span 3}
+  .k-xxl-9{grid-column:span 9}
+}
+
+/* ---------- [PROPOSTA] Tela estreita das telas de 23/10 ---------- */
+@media (max-width:1023px){
+  .k-appbar{display:none}
+  .k-appbar + .k-main{padding-top:var(--space-24)}
+  .k-sidebar > .k-search{display:flex;width:100%;min-width:0;margin:0 0 var(--space-16)}
+  .k-fases{grid-template-columns:repeat(3,minmax(0,1fr));gap:var(--space-12)}
+  .k-fase-elo{display:none}
+  .k-deptos{grid-template-columns:minmax(0,1fr)}
+}
+@media (max-width:767px){
+  .k-filtro{height:36px}
+  .k-lado{grid-template-columns:minmax(0,1fr)}
+  .k-fases{grid-template-columns:minmax(0,1fr);gap:0}
+  .k-fase{display:grid;grid-template-columns:minmax(0,1fr) auto;column-gap:12px;row-gap:2px;min-height:0;padding:12px 14px}
+  .k-fase > .k-cap{grid-column:1;grid-row:1}
+  .k-fase-n{grid-column:2;grid-row:1 / 4;align-self:center;font-size:28px;line-height:32px}
+  .k-fase-d{grid-column:1;grid-row:2}
+  .k-fase-m{grid-column:1;grid-row:3}
+  .k-fase[aria-pressed="true"]::after{top:12px;right:auto;left:calc(100% - 50px)}
+  .k-fase-elo{display:flex;flex-direction:row;justify-content:flex-start;gap:8px;padding:6px 14px}
+  .k-fase-elo svg{transform:rotate(90deg)}
+  .k-mes-cab{display:none}
+  .k-mes{grid-template-columns:minmax(0,1fr)}
+  .k-mes-dia{min-height:0;border-right:0;padding:12px 4px}
+  .k-mes-dia:nth-last-child(-n+7){border-bottom:1px solid var(--line)}
+  .k-mes-dia:last-child{border-bottom:0}
+  .k-mes-dia.is-vazio{display:none}
+  .k-mes-dia.is-fora{background:transparent}
+  .k-mes-n{display:none}
+  .k-mes-dl{display:block;font-size:11px;line-height:14px;font-weight:600;letter-spacing:.08em;text-transform:uppercase;color:var(--ink-2)}
+  .k-mes-dia.is-hoje .k-mes-dl{color:var(--accent-ink)}
+  .k-semana{grid-template-columns:minmax(0,1fr)}
+  .k-semana-dia{border-right:0;border-bottom:1px solid var(--line)}
+  .k-semana-dia:last-child{border-bottom:0}
+  .k-event--semana > img{height:120px}
+  .k-direcao-texto{padding-left:0;border-left:0;max-width:none}
+  .k-stats{width:100%}
+}
+@media (max-width:639px){
+  .k-agente{flex-direction:row}
+  .k-agente-foto{width:96px;aspect-ratio:auto;align-self:stretch;min-height:124px;font-size:24px}
+  .k-pessoa-cab{display:none}
+  .k-pessoa-linha{grid-template-columns:32px auto auto minmax(0,1fr) auto;row-gap:6px}
+  .k-pessoa-linha > .k-avatar{grid-column:1;grid-row:1 / 3;align-self:start}
+  .k-pessoa-id{grid-column:2 / -1;grid-row:1}
+  .k-pessoa-linha > :nth-child(3){grid-column:2;grid-row:2}
+  .k-pessoa-linha > :nth-child(4){grid-column:3;grid-row:2}
+  .k-pessoa-linha > :nth-child(5){grid-column:4;grid-row:2;justify-self:end}
+  .k-pessoa-linha > :nth-child(6){grid-column:5;grid-row:2}
+  .k-pessoa-linha > .k-pessoa-seta{display:none}
+  .k-stat{padding:0 16px}
+  .k-stats.is-solto > .k-stat:first-child{padding-left:0}
+  .k-bar-row--fino{grid-template-columns:96px minmax(0,1fr) 44px}
+  .k-bar-row--larga{grid-template-columns:minmax(0,1fr) 64px 72px;row-gap:4px}
+  .k-bar-row--larga > .k-bar-track{grid-column:1 / -1;grid-row:2}
+  .k-bar-row--larga > :nth-child(5){display:none}
+}

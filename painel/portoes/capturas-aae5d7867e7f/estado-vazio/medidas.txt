@@ -1,0 +1,14 @@
+# capturar.sh · 2026-10-22T23:25:46.613Z
+# alvo	largura pedida	innerWidth	scrollWidth	altura	HTTP	png	passa da borda
+/	1440	1440	1440	950	200	/Users/teste/Documents/CONTENT AI/painel/portoes/capturas-aae5d7867e7f/estado-vazio/inicio-1440.png	
+/	375	375	375	1315	200	/Users/teste/Documents/CONTENT AI/painel/portoes/capturas-aae5d7867e7f/estado-vazio/inicio-375.png	
+/equipe	1440	1440	1440	900	200	/Users/teste/Documents/CONTENT AI/painel/portoes/capturas-aae5d7867e7f/estado-vazio/equipe-1440.png	
+/equipe	375	375	375	812	200	/Users/teste/Documents/CONTENT AI/painel/portoes/capturas-aae5d7867e7f/estado-vazio/equipe-375.png	
+/equipe/portao-imagem	1440	1440	1440	900	200	/Users/teste/Documents/CONTENT AI/painel/portoes/capturas-aae5d7867e7f/estado-vazio/equipe-portao-imagem-1440.png	
+/equipe/portao-imagem	375	375	375	812	200	/Users/teste/Documents/CONTENT AI/painel/portoes/capturas-aae5d7867e7f/estado-vazio/equipe-portao-imagem-375.png	
+/equipe/contratar	1440	1440	1440	990	200	/Users/teste/Documents/CONTENT AI/painel/portoes/capturas-aae5d7867e7f/estado-vazio/equipe-contratar-1440.png	
+/equipe/contratar	375	375	375	1818	200	/Users/teste/Documents/CONTENT AI/painel/portoes/capturas-aae5d7867e7f/estado-vazio/equipe-contratar-375.png	
+/videos	1440	1440	1440	900	200	/Users/teste/Documents/CONTENT AI/painel/portoes/capturas-aae5d7867e7f/estado-vazio/videos-1440.png	
+/videos	375	375	375	894	200	/Users/teste/Documents/CONTENT AI/painel/portoes/capturas-aae5d7867e7f/estado-vazio/videos-375.png	
+/desempenho	1440	1440	1440	1414	200	/Users/teste/Documents/CONTENT AI/painel/portoes/capturas-aae5d7867e7f/estado-vazio/desempenho-1440.png	
+/desempenho	375	375	375	2299	200	/Users/teste/Documents/CONTENT AI/painel/portoes/capturas-aae5d7867e7f/estado-vazio/desempenho-375.png	

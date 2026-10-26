@@ -1,0 +1,504 @@
+{
+  "slug": "2026-09-16-chatgpt-contexto",
+  "versao": 4,
+  "tema": "Você tá usando o ChatGPT errado: dê contexto antes de pedir",
+  "pilar": "tutoriais-rapidos",
+  "estrutura": "8-pergunta-que-ninguem-faz",
+  "hook_template": "contrarian",
+  "duracao_alvo": 60.0,
+  "wps_ref": 2.3,
+  "hooks": {
+    "A": {
+      "fala": "Pare de pedir post pro ChatGPT sem dizer isso antes."
+    },
+    "B": {
+      "fala": "Você tá usando o ChatGPT do jeito errado."
+    },
+    "C": {
+      "fala": "O maior erro de quem usa ChatGPT vem antes do pedido."
+    }
+  },
+  "hook_escolhido": "A",
+  "titulo": {
+    "contexto": "Pare de pedir post pro ChatGPT",
+    "impacto": "sem dizer isso antes",
+    "cinza": 2,
+    "rabisco": "antes"
+  },
+  "pose_capa": "mão aberta parando o ar, sobrancelha erguida, olhar de alerta",
+  "cta_tipo": "seguir",
+  "cta_palavra": null,
+  "material": null,
+  "total_palavras": 145,
+  "duracao_estimada": 66.4,
+  "extras": [
+    {
+      "id": "E02",
+      "tipo": "animacao",
+      "descricao": "Animação do roteiro inteiro, 9 cenas: chat abrindo e digitação do pedido fraco → resposta genérica → \"não é a IA, ela não conhece o seu café\" → prompt = recado pra funcionário novo → o que ele precisa saber → 4 partes → digitação do prompt com contexto → resposta específica → comparação antes/depois",
+      "fonte": "JÁ EXISTE: `brutos/extras/E02.mp4`, capturado do Claude Design. **Depois da nova gravação, refazer o encaixe de tempo** (`scripts/capturar_animacao.mjs --warp`), porque os tempos atuais são os da gravação antiga",
+      "credito": null,
+      "som": false,
+      "linhas": [
+        "L03",
+        "L04",
+        "L05",
+        "L06",
+        "L07",
+        "L08",
+        "L09",
+        "L10",
+        "L11",
+        "L12"
+      ]
+    }
+  ],
+  "linhas": [
+    {
+      "id": "L01",
+      "secao": "hook",
+      "fala": "Pare de pedir post pro ChatGPT sem dizer isso antes.",
+      "fala_original": "Pare de pedir post pro **ChatGPT** / sem dizer isso **antes**.",
+      "palavras": [
+        "pare",
+        "de",
+        "pedir",
+        "post",
+        "pro",
+        "chatgpt",
+        "sem",
+        "dizer",
+        "isso",
+        "antes"
+      ],
+      "destaques": [
+        "ChatGPT",
+        "antes"
+      ],
+      "pausa_depois": "normal",
+      "tela": "",
+      "animacao": null,
+      "extras_ref": [],
+      "alternativa_de": null,
+      "tempo_estimado": [
+        0.0,
+        4.55
+      ]
+    },
+    {
+      "id": "L02",
+      "secao": "promessa",
+      "fala": "Olha a diferença. No final eu te dou o modelo pronto.",
+      "fala_original": "Olha a diferença. / No final eu te dou o modelo pronto.",
+      "palavras": [
+        "olha",
+        "a",
+        "diferença",
+        "no",
+        "final",
+        "eu",
+        "te",
+        "dou",
+        "o",
+        "modelo",
+        "pronto"
+      ],
+      "destaques": [],
+      "pausa_depois": "normal",
+      "tela": "",
+      "animacao": null,
+      "extras_ref": [],
+      "alternativa_de": null,
+      "tempo_estimado": [
+        4.55,
+        9.53
+      ]
+    },
+    {
+      "id": "L03",
+      "secao": "corpo",
+      "fala": "Você chega e pede: \"escreve um post pro meu café\".",
+      "fala_original": "Você chega e pede: / \"escreve um post pro meu café\".",
+      "palavras": [
+        "você",
+        "chega",
+        "e",
+        "pede",
+        "escreve",
+        "um",
+        "post",
+        "pro",
+        "meu",
+        "café"
+      ],
+      "destaques": [],
+      "pausa_depois": "normal",
+      "tela": "",
+      "animacao": null,
+      "extras_ref": [],
+      "alternativa_de": null,
+      "tempo_estimado": [
+        9.53,
+        14.08
+      ]
+    },
+    {
+      "id": "L04",
+      "secao": "corpo",
+      "fala": "Aí vem aquele texto genérico, que serve pra qualquer café.",
+      "fala_original": "Aí vem aquele texto **genérico**, / que serve pra qualquer café.",
+      "palavras": [
+        "aí",
+        "vem",
+        "aquele",
+        "texto",
+        "genérico",
+        "que",
+        "serve",
+        "pra",
+        "qualquer",
+        "café"
+      ],
+      "destaques": [
+        "genérico"
+      ],
+      "pausa_depois": "normal",
+      "tela": "",
+      "animacao": null,
+      "extras_ref": [],
+      "alternativa_de": null,
+      "tempo_estimado": [
+        14.08,
+        18.63
+      ]
+    },
+    {
+      "id": "L05",
+      "secao": "corpo",
+      "fala": "E o problema não é a IA. É que ela não conhece o seu café.",
+      "fala_original": "E o problema não é a IA. / É que ela não conhece o seu café. [pausa]",
+      "palavras": [
+        "e",
+        "o",
+        "problema",
+        "não",
+        "é",
+        "a",
+        "ia",
+        "é",
+        "que",
+        "ela",
+        "não",
+        "conhece",
+        "o",
+        "seu",
+        "café"
+      ],
+      "destaques": [],
+      "pausa_depois": "pausa",
+      "tela": "",
+      "animacao": null,
+      "extras_ref": [],
+      "alternativa_de": null,
+      "tempo_estimado": [
+        18.63,
+        25.75
+      ]
+    },
+    {
+      "id": "L06",
+      "secao": "corpo",
+      "fala": "Pensa no prompt assim: recado pra funcionário novo, no primeiro dia.",
+      "fala_original": "Pensa no **prompt** assim: / recado pra funcionário novo, no primeiro dia.",
+      "palavras": [
+        "pensa",
+        "no",
+        "prompt",
+        "assim",
+        "recado",
+        "pra",
+        "funcionário",
+        "novo",
+        "no",
+        "primeiro",
+        "dia"
+      ],
+      "destaques": [
+        "prompt"
+      ],
+      "pausa_depois": "normal",
+      "tela": "",
+      "animacao": null,
+      "extras_ref": [],
+      "alternativa_de": null,
+      "tempo_estimado": [
+        25.75,
+        30.73
+      ]
+    },
+    {
+      "id": "L07",
+      "secao": "corpo",
+      "fala": "O que ele precisa saber pra não errar?",
+      "fala_original": "O que ele precisa saber pra não errar?",
+      "palavras": [
+        "o",
+        "que",
+        "ele",
+        "precisa",
+        "saber",
+        "pra",
+        "não",
+        "errar"
+      ],
+      "destaques": [],
+      "pausa_depois": "normal",
+      "tela": "",
+      "animacao": null,
+      "extras_ref": [],
+      "alternativa_de": null,
+      "tempo_estimado": [
+        30.73,
+        34.41
+      ]
+    },
+    {
+      "id": "L08",
+      "secao": "corpo",
+      "fala": "Quatro coisas: quem você é, pra quem é, o que você quer e o formato.",
+      "fala_original": "Quatro coisas: / quem você é, pra quem é, o que você quer e o formato.",
+      "palavras": [
+        "quatro",
+        "coisas",
+        "quem",
+        "você",
+        "é",
+        "pra",
+        "quem",
+        "é",
+        "o",
+        "que",
+        "você",
+        "quer",
+        "e",
+        "o",
+        "formato"
+      ],
+      "destaques": [],
+      "pausa_depois": "normal",
+      "tela": "",
+      "animacao": null,
+      "extras_ref": [],
+      "alternativa_de": null,
+      "tempo_estimado": [
+        34.41,
+        41.13
+      ]
+    },
+    {
+      "id": "L09",
+      "secao": "corpo",
+      "fala": "Aí fica assim: \"tenho um café de bairro, o post é pros vizinhos\".",
+      "fala_original": "Aí fica assim: / \"tenho um café de bairro, o post é pros vizinhos\".",
+      "palavras": [
+        "aí",
+        "fica",
+        "assim",
+        "tenho",
+        "um",
+        "café",
+        "de",
+        "bairro",
+        "o",
+        "post",
+        "é",
+        "pros",
+        "vizinhos"
+      ],
+      "destaques": [],
+      "pausa_depois": "normal",
+      "tela": "",
+      "animacao": null,
+      "extras_ref": [],
+      "alternativa_de": null,
+      "tempo_estimado": [
+        41.13,
+        46.98
+      ]
+    },
+    {
+      "id": "L10",
+      "secao": "corpo",
+      "fala": "\"Quero mais gente no sábado, texto curto.\" Só aí vem o pedido.",
+      "fala_original": "\"Quero mais gente no sábado, texto curto.\" / Só aí vem o pedido.",
+      "palavras": [
+        "quero",
+        "mais",
+        "gente",
+        "no",
+        "sábado",
+        "texto",
+        "curto",
+        "só",
+        "aí",
+        "vem",
+        "o",
+        "pedido"
+      ],
+      "destaques": [],
+      "pausa_depois": "normal",
+      "tela": "",
+      "animacao": null,
+      "extras_ref": [],
+      "alternativa_de": null,
+      "tempo_estimado": [
+        46.98,
+        52.4
+      ]
+    },
+    {
+      "id": "L11",
+      "secao": "payoff",
+      "fala": "E olha a diferença: agora a resposta fala com o seu cliente.",
+      "fala_original": "E olha a diferença: / agora a resposta fala com o **seu** cliente.",
+      "palavras": [
+        "e",
+        "olha",
+        "a",
+        "diferença",
+        "agora",
+        "a",
+        "resposta",
+        "fala",
+        "com",
+        "o",
+        "seu",
+        "cliente"
+      ],
+      "destaques": [
+        "seu"
+      ],
+      "pausa_depois": "normal",
+      "tela": "",
+      "animacao": null,
+      "extras_ref": [],
+      "alternativa_de": null,
+      "tempo_estimado": [
+        52.4,
+        57.82
+      ]
+    },
+    {
+      "id": "L12",
+      "secao": "payoff",
+      "fala": "Mesmo pedido, só mudou o que você contou antes.",
+      "fala_original": "Mesmo pedido, / só mudou o que você contou **antes**. [pausa]",
+      "palavras": [
+        "mesmo",
+        "pedido",
+        "só",
+        "mudou",
+        "o",
+        "que",
+        "você",
+        "contou",
+        "antes"
+      ],
+      "destaques": [
+        "antes"
+      ],
+      "pausa_depois": "pausa",
+      "tela": "",
+      "animacao": null,
+      "extras_ref": [],
+      "alternativa_de": null,
+      "tempo_estimado": [
+        57.82,
+        62.33
+      ]
+    },
+    {
+      "id": "L13",
+      "secao": "cta",
+      "fala": "Para mais vídeos como esse, é só me seguir.",
+      "fala_original": "Para mais vídeos como esse, / é só me **seguir**.",
+      "palavras": [
+        "para",
+        "mais",
+        "vídeos",
+        "como",
+        "esse",
+        "é",
+        "só",
+        "me",
+        "seguir"
+      ],
+      "destaques": [
+        "seguir"
+      ],
+      "pausa_depois": "normal",
+      "tela": "",
+      "animacao": null,
+      "extras_ref": [],
+      "alternativa_de": null,
+      "tempo_estimado": [
+        62.33,
+        66.44
+      ]
+    },
+    {
+      "id": "L01B",
+      "secao": "hook-alt",
+      "fala": "Você tá usando o ChatGPT do jeito errado.",
+      "fala_original": "Você tá usando o **ChatGPT** do jeito **errado**.",
+      "palavras": [
+        "você",
+        "tá",
+        "usando",
+        "o",
+        "chatgpt",
+        "do",
+        "jeito",
+        "errado"
+      ],
+      "destaques": [
+        "ChatGPT",
+        "errado"
+      ],
+      "pausa_depois": "normal",
+      "tela": "",
+      "animacao": null,
+      "extras_ref": [],
+      "alternativa_de": "L01",
+      "tempo_estimado": null
+    },
+    {
+      "id": "L01C",
+      "secao": "hook-alt",
+      "fala": "O maior erro de quem usa ChatGPT vem antes do pedido.",
+      "fala_original": "O maior erro de quem usa ChatGPT / vem **antes** do pedido.",
+      "palavras": [
+        "o",
+        "maior",
+        "erro",
+        "de",
+        "quem",
+        "usa",
+        "chatgpt",
+        "vem",
+        "antes",
+        "do",
+        "pedido"
+      ],
+      "destaques": [
+        "antes"
+      ],
+      "pausa_depois": "normal",
+      "tela": "",
+      "animacao": null,
+      "extras_ref": [],
+      "alternativa_de": "L01",
+      "tempo_estimado": null
+    }
+  ]
+}

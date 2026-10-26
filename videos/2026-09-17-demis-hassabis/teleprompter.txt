@@ -1,0 +1,90 @@
+QUEM É DEMIS HASSABIS: DO MENINO DO XADREZ AO NOBEL COM IA, CRIANDO A DEEPMIND EM LONDRES
+TELEPROMPTER
+
+COMO LER
+/    respiro curto
+//   pausa (1 segundo)
+///  pausa longa (2 segundos)
+MAIÚSCULAS = ênfase
+Errou? Diga "de novo" e repita
+a linha inteira desde o começo.
+
+━━━━ POSE DA CAPA ━━━━
+Mão no queixo como quem pensa uma
+jogada de xadrez, sobrancelha
+erguida.
+Segure 3 SEGUNDOS, em silêncio.
+É daqui que sai a capa do feed.
+
+L01
+Aprendeu xadrez aos quatro anos.
+/ E ganhou um NOBEL com IA.
+
+L02
+Demis Hassabis, /
+nascido aqui em Londres.
+
+L03
+Aos treze já era mestre de xadrez.
+/ Aos dezessete, criava videogame.
+
+L04
+Estudou computação em Cambridge /
+e depois neurociência.
+
+L05
+Em dois mil e dez juntou tudo numa
+empresa aqui em Londres: /
+a DEEPMIND.
+
+L06
+Quatro anos depois, /
+o Google comprou por cerca de
+quatrocentos milhões de libras.
+
+L07
+Em dezesseis, /
+a IA deles venceu um dos maiores
+nomes do GO.
+
+L08
+Um jogo com mais posições
+possíveis do que átomos no
+universo. //
+
+L09
+Mas o maior feito veio depois: /
+o ALPHAFOLD passou a prever o
+formato das proteínas.
+
+L10
+Um problema que travava a ciência
+havia cinquenta anos.
+
+L11
+E isso deu a ele o NOBEL DE
+QUÍMICA, /
+junto com o John Jumper.
+
+L12
+Quer dizer: /
+o menino do xadrez virou um dos
+nomes mais importantes da IA.
+
+L13
+Me segue que eu trago mais
+histórias assim.
+
+
+━━━━ HOOKS ALTERNATIVOS — GRAVAR NO FIM ━━━━
+
+L01B
+Um jogador de xadrez /
+que acabou ganhando um Nobel.
+
+L01C
+A DeepMind nasceu aqui em Londres.
+/ E mudou a IA.
+
+━━━━ FIM ━━━━
+Conferir: L01 a L13 + L01B, L01C

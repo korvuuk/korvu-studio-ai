@@ -1,0 +1,37 @@
+{
+  "slug": "2026-10-24-comando-secreto",
+  "estado": "roteiro",
+  "atualizado": "2026-10-22T02:57:45+01:00",
+  "historico": [
+    {
+      "estado": "roteiro",
+      "em": "2026-10-21T21:06:52+01:00",
+      "nota": "pasta criada — 2.º rápido de comandos (gancho 1 da biblioteca), palavra ESTILO (FOTO é do foto-da-loja)"
+    },
+    {
+      "estado": "roteiro",
+      "em": "2026-10-21T21:30:00+01:00",
+      "nota": "roteiro v1 rascunho (roteirista): 80 palavras, ~35 s (parser 37,4 s, 0 erros); 1 foto do Carlos → /cinematic, /goldenhour, /droneview → virada aos ~11,5 s (a barra não faz nada) → neblina sem barra → CTA ESTILO; extras E01–E09 a gravar (tela do Mac + PNG); aguarda revisor-de-roteiro e aprovação do Carlos"
+    },
+    {
+      "estado": "roteiro",
+      "em": "2026-10-21T21:21:16+01:00",
+      "nota": "material PDF gerado (produtor-de-material): comandos-de-estilo-para-fotos.pdf, 2 páginas, 76 comandos com barra + neblina, 5 links; 5 combinações de retrato; como usar em 3 passos; aguarda aprovação do Carlos (testar os comandos antes da gravação)"
+    },
+    {
+      "estado": "roteiro",
+      "em": "2026-10-21T21:22:07+01:00",
+      "nota": "revisor: APROVADO COM AJUSTES (hooks A 7,7 · B 7,3 · C 6,2); ajustes aplicados → roteiro v2 (L05 'Chamam isso de comando secreto. Mas a barra não muda nada.', L06 'Quem faz o trabalho', checklist de teste, legenda, fonte graphemics); 81 palavras, parser exit 0; leitura e historia-completa.txt gerados; aguarda aprovação do Carlos"
+    },
+    {
+      "estado": "roteiro",
+      "em": "2026-10-22T02:57:45+01:00",
+      "nota": "roteiro v2 e PDF ESTILO APROVADOS pelo Carlos; próximo: foto original + teste dos 4 pedidos antes de gravar"
+    }
+  ],
+  "material": {
+    "arquivo": "comandos-de-estilo-para-fotos.pdf",
+    "paginas": 2,
+    "gerado_em": "2026-10-21T21:21:16+01:00"
+  }
+}

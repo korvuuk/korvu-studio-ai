@@ -1,0 +1,19 @@
+{
+  "slug": "2026-10-21-foto-da-loja",
+  "estado": "roteiro",
+  "atualizado": "2026-10-14T02:51:49+01:00",
+  "historico": [
+    {
+      "estado": "roteiro",
+      "em": "2026-10-14T02:47:53+01:00"
+    },
+    {
+      "estado": "roteiro",
+      "em": "2026-10-14T02:55:33+01:00",
+      "nota": "material PDF gerado (6-pedidos-fotos-do-negocio.pdf)"
+    }
+  ],
+  "material": {
+    "youtube": "material/youtube/catalogo.md"
+  }
+}

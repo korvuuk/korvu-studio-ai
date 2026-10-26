@@ -1,0 +1,514 @@
+{
+  "slug": "2026-09-17-demis-hassabis",
+  "publicado_em": "2026-10-13T17:03:58+01:00",
+  "permalink_instagram": "https://www.instagram.com/reel/DecK5CDk34q/",
+  "permalink_facebook": "https://www.facebook.com/reel/1350369576981188/",
+  "media_id_instagram": "18632821522039486",
+  "video_id_facebook": "1350369576981188",
+  "duracao_s": 57.84,
+  "palavra": "DOCUMENTARIO",
+  "trial": null,
+  "tema": "Quem é Demis Hassabis: do menino do xadrez ao Nobel com IA, criando a DeepMind em Londres",
+  "pilar": "perfil",
+  "nota_retencao": "A API da Meta não dá a curva de retenção segundo a segundo — só o tempo MÉDIO assistido. '% médio assistido' = tempo médio / duração do vídeo. A curva (em que segundo as pessoas saem) só aparece no app do Instagram, em Insights do Reel.",
+  "leituras": [
+    {
+      "lido_em": "2026-10-13T18:22:21+01:00",
+      "dias_desde_publicacao": 0.05,
+      "instagram": {
+        "media_id": "18632821522039486",
+        "campos": {
+          "id": "18632821522039486",
+          "comments_count": 2,
+          "is_shared_to_feed": true,
+          "like_count": 4,
+          "media_product_type": "REELS",
+          "media_type": "VIDEO",
+          "permalink": "https://www.instagram.com/reel/DecK5CDk34q/",
+          "timestamp": "2026-10-13T15:51:12+0000"
+        },
+        "trial": "campo trial_params não disponível: (#100) Tried accessing nonexisting field (trial_params)",
+        "erro": "permissão em falta: instagram_manage_insights (Meta 400 em graph/18632821522039486/insights (code 10): (#10) Application does not have permission for this action → a app/token não tem a permissão necessária [fbtrace AUMb3rhCUDO_YW9YMsGOPjr])",
+        "permissao_em_falta": "instagram_manage_insights"
+      },
+      "facebook": {
+        "video_id": "1350369576981188",
+        "erro": "permissão em falta: read_insights (Meta 403 em graph/1350369576981188/video_insights (code 200): (#200) read_insights permission missing (https://developers.facebook.com/docs/permissions/reference/read_insights) → permissão em falta (instagram_content_publish / pages_manage_posts?) [fbtrace AVo7ThTd1RhpkD6Q5bHE04m])",
+        "permissao_em_falta": "read_insights"
+      },
+      "comentarios_palavra": {
+        "com_palavra": 1,
+        "directs": 1,
+        "pessoas": 1,
+        "fonte": "_controle/comentarios/estado.json"
+      },
+      "resumo": {
+        "instagram": {
+          "views": null,
+          "alcance": null,
+          "curtidas": 4,
+          "comentarios": 2,
+          "salvamentos": null,
+          "compartilhamentos": null,
+          "seguidores_ganhos": null,
+          "visitas_perfil": null,
+          "tempo_medio_s": null,
+          "pct_medio_assistido": null,
+          "taxas_sobre_alcance_pct": {
+            "salvamentos": null,
+            "comentarios": null,
+            "compartilhamentos": null,
+            "curtidas": null,
+            "comentarios_palavra": null
+          }
+        },
+        "facebook": {
+          "plays": null,
+          "alcance": null,
+          "tempo_medio_s": null,
+          "pct_medio_assistido": null,
+          "seguidores_ganhos": null
+        },
+        "palavra": {
+          "comentarios": 1,
+          "directs": 1
+        }
+      }
+    },
+    {
+      "lido_em": "2026-10-13T18:37:26+01:00",
+      "dias_desde_publicacao": 0.06,
+      "instagram": {
+        "media_id": "18632821522039486",
+        "campos": {
+          "id": "18632821522039486",
+          "comments_count": 2,
+          "is_shared_to_feed": true,
+          "like_count": 4,
+          "media_product_type": "REELS",
+          "media_type": "VIDEO",
+          "permalink": "https://www.instagram.com/reel/DecK5CDk34q/",
+          "timestamp": "2026-10-13T15:51:12+0000"
+        },
+        "trial": "campo trial_params não disponível: (#100) Tried accessing nonexisting field (trial_params)",
+        "metricas": {
+          "views": 136,
+          "reach": 70,
+          "likes": 4,
+          "comments": 2,
+          "saved": 0,
+          "shares": 0,
+          "total_interactions": 6,
+          "ig_reels_avg_watch_time": 14547,
+          "ig_reels_video_view_total_time": 1091096
+        },
+        "nao_suportadas": {
+          "follows": "(#100) The Media Insights API does not support the follows metric for this media product type.",
+          "profile_visits": "(#100) The Media Insights API does not support the profile_visits metric for this media product type."
+        }
+      },
+      "facebook": {
+        "video_id": "1350369576981188",
+        "metricas": {
+          "blue_reels_play_count": 7,
+          "fb_reels_total_plays": 7,
+          "fb_reels_replay_count": 0,
+          "post_video_avg_time_watched": 9677,
+          "post_video_view_time": 58067,
+          "post_video_followers": 0,
+          "post_video_social_actions": {},
+          "post_video_likes_by_reaction_type": {}
+        },
+        "nao_suportadas": {
+          "post_impressions_unique": "(#100) The value must be a valid insights metric"
+        }
+      },
+      "comentarios_palavra": {
+        "com_palavra": 1,
+        "directs": 1,
+        "pessoas": 1,
+        "fonte": "_controle/comentarios/estado.json"
+      },
+      "resumo": {
+        "instagram": {
+          "views": 136,
+          "alcance": 70,
+          "curtidas": 4,
+          "comentarios": 2,
+          "salvamentos": 0,
+          "compartilhamentos": 0,
+          "seguidores_ganhos": null,
+          "visitas_perfil": null,
+          "tempo_medio_s": 14.55,
+          "pct_medio_assistido": 25.2,
+          "taxas_sobre_alcance_pct": {
+            "salvamentos": 0.0,
+            "comentarios": 2.86,
+            "compartilhamentos": 0.0,
+            "curtidas": 5.71,
+            "comentarios_palavra": 1.43
+          }
+        },
+        "facebook": {
+          "plays": 7,
+          "alcance": null,
+          "tempo_medio_s": 9.68,
+          "pct_medio_assistido": 16.7,
+          "seguidores_ganhos": 0
+        },
+        "palavra": {
+          "comentarios": 1,
+          "directs": 1
+        }
+      }
+    },
+    {
+      "lido_em": "2026-10-16T11:11:53+01:00",
+      "dias_desde_publicacao": 2.76,
+      "instagram": {
+        "media_id": "18632821522039486",
+        "campos": {
+          "id": "18632821522039486",
+          "comments_count": 2,
+          "is_shared_to_feed": true,
+          "like_count": 14,
+          "media_product_type": "REELS",
+          "media_type": "VIDEO",
+          "permalink": "https://www.instagram.com/reel/DecK5CDk34q/",
+          "timestamp": "2026-10-13T15:51:12+0000"
+        },
+        "trial": "campo trial_params não disponível: (#100) Tried accessing nonexisting field (trial_params)",
+        "metricas": {
+          "views": 415,
+          "reach": 312,
+          "likes": 14,
+          "comments": 2,
+          "saved": 1,
+          "shares": 1,
+          "total_interactions": 19,
+          "ig_reels_avg_watch_time": 11657,
+          "ig_reels_video_view_total_time": 3893661
+        },
+        "nao_suportadas": {
+          "follows": "(#100) The Media Insights API does not support the follows metric for this media product type.",
+          "profile_visits": "(#100) The Media Insights API does not support the profile_visits metric for this media product type."
+        }
+      },
+      "facebook": {
+        "video_id": "1350369576981188",
+        "metricas": {
+          "blue_reels_play_count": 29,
+          "fb_reels_total_plays": 31,
+          "fb_reels_replay_count": 2,
+          "post_video_avg_time_watched": 11203,
+          "post_video_view_time": 324900,
+          "post_video_followers": 0,
+          "post_video_social_actions": {},
+          "post_video_likes_by_reaction_type": {}
+        },
+        "nao_suportadas": {
+          "post_impressions_unique": "(#100) The value must be a valid insights metric"
+        }
+      },
+      "comentarios_palavra": {
+        "com_palavra": 1,
+        "directs": 1,
+        "pessoas": 1,
+        "fonte": "_controle/comentarios/estado.json"
+      },
+      "resumo": {
+        "instagram": {
+          "views": 415,
+          "alcance": 312,
+          "curtidas": 14,
+          "comentarios": 2,
+          "salvamentos": 1,
+          "compartilhamentos": 1,
+          "seguidores_ganhos": null,
+          "visitas_perfil": null,
+          "tempo_medio_s": 11.66,
+          "pct_medio_assistido": 20.2,
+          "taxas_sobre_alcance_pct": {
+            "salvamentos": 0.32,
+            "comentarios": 0.64,
+            "compartilhamentos": 0.32,
+            "curtidas": 4.49,
+            "comentarios_palavra": 0.32
+          }
+        },
+        "facebook": {
+          "plays": 29,
+          "alcance": null,
+          "tempo_medio_s": 11.2,
+          "pct_medio_assistido": 19.4,
+          "seguidores_ganhos": 0
+        },
+        "palavra": {
+          "comentarios": 1,
+          "directs": 1
+        }
+      }
+    },
+    {
+      "lido_em": "2026-10-19T09:30:02+01:00",
+      "dias_desde_publicacao": 5.68,
+      "instagram": {
+        "media_id": "18632821522039486",
+        "campos": {
+          "id": "18632821522039486",
+          "comments_count": 2,
+          "is_shared_to_feed": true,
+          "like_count": 15,
+          "media_product_type": "REELS",
+          "media_type": "VIDEO",
+          "permalink": "https://www.instagram.com/reel/DecK5CDk34q/",
+          "timestamp": "2026-10-13T15:51:12+0000"
+        },
+        "trial": "campo trial_params não disponível: (#100) Tried accessing nonexisting field (trial_params)",
+        "metricas": {
+          "views": 444,
+          "reach": 332,
+          "likes": 15,
+          "comments": 2,
+          "saved": 1,
+          "shares": 1,
+          "total_interactions": 20,
+          "ig_reels_avg_watch_time": 11901,
+          "ig_reels_video_view_total_time": 4248992
+        },
+        "nao_suportadas": {
+          "follows": "(#100) The Media Insights API does not support the follows metric for this media product type.",
+          "profile_visits": "(#100) The Media Insights API does not support the profile_visits metric for this media product type."
+        }
+      },
+      "facebook": {
+        "video_id": "1350369576981188",
+        "metricas": {
+          "blue_reels_play_count": 29,
+          "fb_reels_total_plays": 31,
+          "fb_reels_replay_count": 2,
+          "post_video_avg_time_watched": 11203,
+          "post_video_view_time": 324900,
+          "post_video_followers": 0,
+          "post_video_social_actions": {},
+          "post_video_likes_by_reaction_type": {}
+        },
+        "nao_suportadas": {
+          "post_impressions_unique": "(#100) The value must be a valid insights metric"
+        }
+      },
+      "comentarios_palavra": {
+        "com_palavra": 1,
+        "directs": 1,
+        "pessoas": 1,
+        "fonte": "_controle/comentarios/estado.json"
+      },
+      "resumo": {
+        "instagram": {
+          "views": 444,
+          "alcance": 332,
+          "curtidas": 15,
+          "comentarios": 2,
+          "salvamentos": 1,
+          "compartilhamentos": 1,
+          "seguidores_ganhos": null,
+          "visitas_perfil": null,
+          "tempo_medio_s": 11.9,
+          "pct_medio_assistido": 20.6,
+          "taxas_sobre_alcance_pct": {
+            "salvamentos": 0.3,
+            "comentarios": 0.6,
+            "compartilhamentos": 0.3,
+            "curtidas": 4.52,
+            "comentarios_palavra": 0.3
+          }
+        },
+        "facebook": {
+          "plays": 29,
+          "alcance": null,
+          "tempo_medio_s": 11.2,
+          "pct_medio_assistido": 19.4,
+          "seguidores_ganhos": 0
+        },
+        "palavra": {
+          "comentarios": 1,
+          "directs": 1
+        }
+      }
+    },
+    {
+      "lido_em": "2026-10-22T14:00:16+01:00",
+      "dias_desde_publicacao": 8.87,
+      "instagram": {
+        "media_id": "18632821522039486",
+        "campos": {
+          "id": "18632821522039486",
+          "comments_count": 2,
+          "is_shared_to_feed": true,
+          "like_count": 16,
+          "media_product_type": "REELS",
+          "media_type": "VIDEO",
+          "permalink": "https://www.instagram.com/reel/DecK5CDk34q/",
+          "timestamp": "2026-10-13T15:51:12+0000"
+        },
+        "trial": "campo trial_params não disponível: (#100) Tried accessing nonexisting field (trial_params)",
+        "metricas": {
+          "views": 450,
+          "reach": 338,
+          "likes": 16,
+          "comments": 2,
+          "saved": 1,
+          "shares": 1,
+          "total_interactions": 21,
+          "ig_reels_avg_watch_time": 11878,
+          "ig_reels_video_view_total_time": 4335573
+        },
+        "nao_suportadas": {
+          "follows": "(#100) The Media Insights API does not support the follows metric for this media product type.",
+          "profile_visits": "(#100) The Media Insights API does not support the profile_visits metric for this media product type."
+        }
+      },
+      "facebook": {
+        "video_id": "1350369576981188",
+        "metricas": {
+          "blue_reels_play_count": 30,
+          "fb_reels_total_plays": 32,
+          "fb_reels_replay_count": 2,
+          "post_video_avg_time_watched": 10914,
+          "post_video_view_time": 327439,
+          "post_video_followers": 0,
+          "post_video_social_actions": {},
+          "post_video_likes_by_reaction_type": {}
+        },
+        "nao_suportadas": {
+          "post_impressions_unique": "(#100) The value must be a valid insights metric"
+        }
+      },
+      "comentarios_palavra": {
+        "com_palavra": 1,
+        "directs": 1,
+        "pessoas": 1,
+        "fonte": "_controle/comentarios/estado.json"
+      },
+      "resumo": {
+        "instagram": {
+          "views": 450,
+          "alcance": 338,
+          "curtidas": 16,
+          "comentarios": 2,
+          "salvamentos": 1,
+          "compartilhamentos": 1,
+          "seguidores_ganhos": null,
+          "visitas_perfil": null,
+          "tempo_medio_s": 11.88,
+          "pct_medio_assistido": 20.5,
+          "taxas_sobre_alcance_pct": {
+            "salvamentos": 0.3,
+            "comentarios": 0.59,
+            "compartilhamentos": 0.3,
+            "curtidas": 4.73,
+            "comentarios_palavra": 0.3
+          }
+        },
+        "facebook": {
+          "plays": 30,
+          "alcance": null,
+          "tempo_medio_s": 10.91,
+          "pct_medio_assistido": 18.9,
+          "seguidores_ganhos": 0
+        },
+        "palavra": {
+          "comentarios": 1,
+          "directs": 1
+        }
+      }
+    }
+  ],
+  "ultima": {
+    "lido_em": "2026-10-22T14:00:16+01:00",
+    "dias_desde_publicacao": 8.87,
+    "instagram": {
+      "media_id": "18632821522039486",
+      "campos": {
+        "id": "18632821522039486",
+        "comments_count": 2,
+        "is_shared_to_feed": true,
+        "like_count": 16,
+        "media_product_type": "REELS",
+        "media_type": "VIDEO",
+        "permalink": "https://www.instagram.com/reel/DecK5CDk34q/",
+        "timestamp": "2026-10-13T15:51:12+0000"
+      },
+      "trial": "campo trial_params não disponível: (#100) Tried accessing nonexisting field (trial_params)",
+      "metricas": {
+        "views": 450,
+        "reach": 338,
+        "likes": 16,
+        "comments": 2,
+        "saved": 1,
+        "shares": 1,
+        "total_interactions": 21,
+        "ig_reels_avg_watch_time": 11878,
+        "ig_reels_video_view_total_time": 4335573
+      },
+      "nao_suportadas": {
+        "follows": "(#100) The Media Insights API does not support the follows metric for this media product type.",
+        "profile_visits": "(#100) The Media Insights API does not support the profile_visits metric for this media product type."
+      }
+    },
+    "facebook": {
+      "video_id": "1350369576981188",
+      "metricas": {
+        "blue_reels_play_count": 30,
+        "fb_reels_total_plays": 32,
+        "fb_reels_replay_count": 2,
+        "post_video_avg_time_watched": 10914,
+        "post_video_view_time": 327439,
+        "post_video_followers": 0,
+        "post_video_social_actions": {},
+        "post_video_likes_by_reaction_type": {}
+      },
+      "nao_suportadas": {
+        "post_impressions_unique": "(#100) The value must be a valid insights metric"
+      }
+    },
+    "comentarios_palavra": {
+      "com_palavra": 1,
+      "directs": 1,
+      "pessoas": 1,
+      "fonte": "_controle/comentarios/estado.json"
+    },
+    "resumo": {
+      "instagram": {
+        "views": 450,
+        "alcance": 338,
+        "curtidas": 16,
+        "comentarios": 2,
+        "salvamentos": 1,
+        "compartilhamentos": 1,
+        "seguidores_ganhos": null,
+        "visitas_perfil": null,
+        "tempo_medio_s": 11.88,
+        "pct_medio_assistido": 20.5,
+        "taxas_sobre_alcance_pct": {
+          "salvamentos": 0.3,
+          "comentarios": 0.59,
+          "compartilhamentos": 0.3,
+          "curtidas": 4.73,
+          "comentarios_palavra": 0.3
+        }
+      },
+      "facebook": {
+        "plays": 30,
+        "alcance": null,
+        "tempo_medio_s": 10.91,
+        "pct_medio_assistido": 18.9,
+        "seguidores_ganhos": 0
+      },
+      "palavra": {
+        "comentarios": 1,
+        "directs": 1
+      }
+    }
+  }
+}

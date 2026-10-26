@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Estado vazio · korvu. painel — design system</title>
+<link rel="stylesheet" href="../tokens.css">
+<link rel="stylesheet" href="../componentes.css">
+<link rel="stylesheet" href="../acrescimos.css">
+<link rel="stylesheet" href="previa.css">
+<script src="../korvu.js"></script>
+<script src="previa.js" defer></script>
+</head>
+<body>
+<main class="pv">
+<header class="pv-head">
+<p class="k-cap">Feedback · <span class="k-mono">k-empty</span></p>
+<h1 class="k-h2">Estado vazio</h1>
+<p class="pv-lead">Quando ainda não há nada: o que vai aparecer aqui.</p>
+</header>
+<section class="pv-sec">
+<h2 class="pv-sec-t k-cap">Exemplos</h2>
+<div class="pv-grade pv-grade-2"><div class="k-empty"><span class="k-empty-icon"><span data-icon="inbox" data-size="22"></span></span><h4>Nenhum vídeo bloqueado</h4><p>Quando um portão parar um vídeo, ele aparece aqui com o motivo.</p><button class="k-btn k-btn-secondary k-btn-sm" style="margin-top:6px">Ver todos os vídeos</button></div><div class="k-empty"><span class="k-empty-icon"><span data-icon="clock" data-size="22"></span></span><h4>Nada na fila de publicação</h4><p>Quando um pacote pronto entrar em 06-publicar, ele aparece aqui com a data.</p></div></div>
+</section>
+<section class="pv-sec">
+<h2 class="pv-sec-t k-cap">Regras</h2>
+<ul class="pv-lista"><li>Contorno tracejado line-strong, sem fundo, centrado. Ícone 22px num quadrado de 48px.</li><li>Título 15px/600 + UMA frase em ink-2 que diz <b>o que vai aparecer aqui</b>. Ação opcional k-btn-secondary k-btn-sm.</li><li>Nunca ilustração nem emoji.</li><li>O 1.º é verdade hoje: nenhum portão bloqueado ou escalado no banco (bloco portoes_por_status).</li></ul>
+</section>
+<footer class="pv-foot"><span>Dados: dados-2026-10-23.json → portoes_por_status</span> <span>Regras: <a href="../design-system.md">design-system.md</a></span> <a href="index.html">Todas as prévias</a></footer>
+</main>
+</body>
+</html>

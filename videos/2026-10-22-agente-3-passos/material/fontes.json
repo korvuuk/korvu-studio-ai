@@ -1,0 +1,47 @@
+[
+  {
+    "id": "E09",
+    "tipo": "video",
+    "o_que": "celular do Gemini: dono pergunta e a resposta aparece (restaurante)",
+    "url": "https://www.youtube.com/watch?v=q-dnq2Fsq2Y",
+    "licenca": "todos os direitos reservados",
+    "autor": "Google",
+    "credito": "Help Wanted, Help Found: See How Holly is Using Gemini (Google)",
+    "permitido": true,
+    "uso": "comentario",
+    "duracao_s": 3.357,
+    "motivo": "trecho citado em Reel de comentário/análise (docs/decisoes.md §5, decisão de 2026-10-01)",
+    "como_obter": "scripts/buscar_youtube.py trecho 2026-10-22-agente-3-passos E09 q-dnq2Fsq2Y 0:31 0:34.5",
+    "quem_baixa": "buscador-de-videos"
+  },
+  {
+    "id": "E10",
+    "tipo": "video",
+    "o_que": "Gemini no Gmail/Docs: texto gerado aparece na tela",
+    "url": "https://www.youtube.com/watch?v=cym-JwNa-Vg",
+    "licenca": "todos os direitos reservados",
+    "autor": "Google Workspace",
+    "credito": "How Google AI is helping American small businesses (Google Workspace)",
+    "permitido": true,
+    "uso": "comentario",
+    "duracao_s": 3.74,
+    "motivo": "trecho citado em Reel de comentário/análise (docs/decisoes.md §5, decisão de 2026-10-01)",
+    "como_obter": "scripts/buscar_youtube.py trecho 2026-10-22-agente-3-passos E10 cym-JwNa-Vg 1:06.6 1:10.5",
+    "quem_baixa": "buscador-de-videos"
+  },
+  {
+    "id": "E11",
+    "tipo": "video",
+    "o_que": "Gemini ajudando a pequena equipe (tarefas e 'time de milhoes')",
+    "url": "https://www.youtube.com/watch?v=FSAg0BcbJlg",
+    "licenca": "todos os direitos reservados",
+    "autor": "Google Workspace",
+    "credito": "How Small Teams Build Big Brands with Gemini in Workspace (Google Workspace)",
+    "permitido": true,
+    "uso": "comentario",
+    "duracao_s": 5.754,
+    "motivo": "trecho citado em Reel de comentário/análise (docs/decisoes.md §5, decisão de 2026-10-01)",
+    "como_obter": "scripts/buscar_youtube.py trecho 2026-10-22-agente-3-passos E11 FSAg0BcbJlg 0:22 0:28",
+    "quem_baixa": "buscador-de-videos"
+  }
+]

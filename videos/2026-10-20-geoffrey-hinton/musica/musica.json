@@ -1,0 +1,25 @@
+{
+  "opcoes": [
+    {
+      "n": 1,
+      "arquivo": "videos/2026-10-20-geoffrey-hinton/musica/opcao-1.mp3",
+      "clima": "cinematic ambient, hopeful, quietly determined, soft piano and warm pads, slow build, 88 bpm",
+      "prompt": "Instrumental background music bed for a spoken-word social media video (Instagram Reel) about artificial intelligence. No vocals, no choir, no spoken words. Leave room for a male voice in the 200 Hz-4 kHz range: soft, sparse mid-range, no prominent lead melody, no sudden drops, builds or loud hits. Steady energy from start to end, clean ending. Mood: cinematic ambient, hopeful, quietly determined, soft piano and warm pads, slow build, 88 bpm",
+      "modelo": "music_v2_5",
+      "duracao_s": 170.03,
+      "gerada_em": "2026-10-15T01:00:31",
+      "licenca": "ElevenLabs Music — faixa original, uso comercial pelo plano pago da conta"
+    },
+    {
+      "n": 2,
+      "arquivo": "videos/2026-10-20-geoffrey-hinton/musica/opcao-2.mp3",
+      "clima": "modern minimal neo-classical, reflective with gentle tension, felt piano and soft strings, restrained, 80 bpm",
+      "prompt": "Instrumental background music bed for a spoken-word social media video (Instagram Reel) about artificial intelligence. No vocals, no choir, no spoken words. Leave room for a male voice in the 200 Hz-4 kHz range: soft, sparse mid-range, no prominent lead melody, no sudden drops, builds or loud hits. Steady energy from start to end, clean ending. Mood: modern minimal neo-classical, reflective with gentle tension, felt piano and soft strings, restrained, 80 bpm",
+      "modelo": "music_v2_5",
+      "duracao_s": 170.03,
+      "gerada_em": "2026-10-15T01:00:56",
+      "licenca": "ElevenLabs Music — faixa original, uso comercial pelo plano pago da conta"
+    }
+  ],
+  "escolhida": 2
+}

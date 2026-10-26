@@ -1,0 +1,105 @@
+A história completa do vídeo: o seu primeiro agente de IA em três passos
+
+Este texto é pra você ouvir antes de gravar. Não é o roteiro. É o contexto inteiro, pra você entender a ferramenta e depois explicar com as suas palavras. Quando eu disser IA, é inteligência artificial.
+
+O que é um "agente", neste vídeo
+
+Agente de IA virou palavra da moda. Tem gente usando pra falar de programas que fazem tudo sozinhos, compram, mandam e-mail, agendam. Neste vídeo, a gente usa de um jeito bem mais simples e honesto: um agente é um assistente de IA que já conhece as regras do seu negócio. Os seus preços, os seus horários, o seu jeito de falar.
+
+A comparação do roteiro é a de um funcionário novo que já leu o manual da loja. Você não precisa explicar tudo de novo toda vez. Ele já sabe.
+
+Por isso o roteiro diz "eu chamo de agente". É o nome que a gente dá. A ferramenta, no Google, se chama Gem.
+
+O que é um Gem
+
+O Gemini é a IA do Google, tipo o ChatGPT. Dentro dele existe uma função chamada Gems. Um Gem é uma versão personalizada do Gemini: você dá um nome, escreve as instruções de como ele tem que se comportar e, se quiser, anexa arquivos que ele vai consultar. Depois disso, toda vez que você abrir esse Gem, ele já começa sabendo tudo isso.
+
+Por que o Gemini, e não o ChatGPT
+
+No ChatGPT, a função parecida se chama GPT personalizado, e criar um exige plano pago. Os Gems do Gemini, segundo o site Android Authority, ficaram grátis pra todas as contas Google pessoais desde março de 2025. Ou seja: pra criar, só precisa de uma conta Google, a mesma do Gmail.
+
+Os três passos, como estão na Central de Ajuda do Google
+
+Passo um: no computador, você entra em gemini ponto google ponto com, abre a barra lateral, clica em Gems e depois em Novo Gem. Tem que ser no computador, porque criar e editar o Gem só funciona na versão web. Se você nunca criou um Gem, o botão pode estar dentro de Configurações e ajuda.
+
+Passo dois: você dá um nome, por exemplo "Atendente do Café", e escreve as instruções. Coisas como: responde curto e simpático, usa só os preços do arquivo, nunca inventa preço, e quando não souber, diz "vou confirmar e já te respondo".
+
+Passo três, o pulo do gato: em Conhecimento, você clica em Adicionar arquivos e sobe a sua lista de preços e horários. Pode ser um documento simples, do Word, do Google Docs ou um PDF. Depois, clica em Salvar. Pronto.
+
+Tecnicamente, esse terceiro passo é opcional. Mas é ele que faz a diferença: sem o arquivo, o Gem não sabe os seus preços e pode chutar. Com o arquivo, ele responde com os seus números.
+
+Como usar no dia a dia
+
+Chegou mensagem de cliente no WhatsApp ou no Instagram? Você abre o Gem, cola a mensagem, e ele escreve a resposta com os seus preços e horários. Depois de criado no computador, o Gem aparece também no aplicativo do Gemini no celular.
+
+E aqui está a parte mais importante, que o vídeo deixa clara: ele não responde sozinho no WhatsApp. Ele não está ligado à sua conta. Quem cola a mensagem, confere a resposta e envia é você. Ele é um ajudante que escreve, não um robô que atende.
+
+No vídeo, o exemplo é um café inventado, com uma lista de preços feita só pra demonstração. Não é cliente real.
+
+Exemplos de pequeno negócio
+
+Uma doceria: o Gem sabe o preço de cada bolo, o prazo de encomenda e o horário de retirada.
+
+Um salão: sabe os serviços, os preços, quanto tempo dura cada um e os dias de folga.
+
+Uma loja de roupa: sabe as formas de pagamento, a política de troca e o horário.
+
+Uma dica pro arquivo: uma informação por linha, sem foto de cardápio escaneada, que a IA pode ler errado. E se o preço mudar, atualiza o arquivo. Arquivo velho, resposta velha.
+
+Os limites honestos
+
+Primeiro: ele pode errar preço ou horário. Confere sempre antes de enviar.
+
+Segundo: o plano grátis tem limites de uso, e o Google não detalha esses limites na página dos Gems. Os arquivos, segundo o Google, podem ser até dez por vez, com até cem megabytes cada.
+
+Terceiro: privacidade. Não cola dado pessoal de cliente na conversa: telefone, endereço, dado de pagamento, documento. Na lista de preços, só informação do negócio.
+
+Quarto: Gems não funcionam no Gemini Live, que é a conversa por voz. E pra ter conta pessoal precisa ter pelo menos treze anos, ou a idade mínima do seu país.
+
+Quinto: a gente não conferiu especificamente se tudo aparece igual pra contas no Reino Unido e no resto da Europa. Quem mora lá pode ver a tela em português de Portugal ou em inglês. Em inglês, os botões são Open Sidebar, Gems, New Gem, Knowledge, Add files e Save.
+
+A mudança que vem aí: os Gems viram skills
+
+Isso é importante pra você saber, mesmo que não entre na fala. No fim de setembro de 2026, o Google publicou no blog dele o lançamento das skills no Gemini, que em português aparecem como habilidades. E segundo o Google e reportagens de sites de tecnologia, a partir de 17 de novembro de 2026 os Gems das contas pessoais passam a ser skills. Segundo o Google, os Gems e os arquivos deles serão migrados automaticamente.
+
+Segundo essas reportagens, tem dois detalhes. As skills exigem dezoito anos, e não mais treze. E as contas de empresa, do Google Workspace, só mudam em março de 2027.
+
+O que isso quer dizer pro vídeo: até lá, tudo o que o vídeo diz continua certo. Depois, o nome do botão e o passo a passo podem mudar. O guia em PDF já avisa disso. Não diga no vídeo que o Gem vai acabar, e não invente como vai ficar a tela nova.
+
+Os momentos que estão no vídeo
+
+Antes de falar, a pose da capa: parado, olhando pra câmera, expressão leve, boca fechada, sem gesto de mão, três segundos em silêncio.
+
+Primeiro, o gancho. Olha isso: o cliente pergunta, e a resposta já sai pronta. Pode ser: "Olha só: chegou a pergunta do cliente, e a resposta já tá pronta." Ou: "O cliente manda a dúvida, e pá, a resposta sai pronta."
+
+Segundo, a promessa. Eu chamo de agente de IA, e você monta o seu em três passos. Pode ser: "Isso eu chamo de agente de IA. E dá pra montar o seu em três passos." O "eu chamo" fica, e são três passos. Depois, uma pausa.
+
+Terceiro, o que é. Um assistente, tipo funcionário novo que já leu as regras da sua loja. Pode ser: "É como um funcionário novo que já leu todas as regras da sua loja."
+
+Quarto, o custo. Criar é grátis, só precisa de conta Google. Pode ser: "E pra criar não paga nada, só precisa de uma conta Google." Diga "criar é grátis", e não "é tudo grátis pra sempre".
+
+Quinto, passo um. No computador, abre o Gemini, clica em Gems, Novo Gem. Pode ser: "Passo um: no computador, entra no Gemini, vai em Gems e clica em Novo Gem." Os nomes dos botões não mudam, e é no computador.
+
+Sexto e sétimo, passo dois. Um nome e como ele tem que responder; tipo, responde curto, simpático e nunca inventa preço. Pode ser: "Passo dois: dá um nome e escreve como ele deve responder. Por exemplo: resposta curta, simpática, e nunca inventar preço."
+
+Oitavo e nono, passo três. O pulo do gato: em Conhecimento, você sobe a sua lista de preços; salvar, pronto. Pode ser: "Passo três, e esse é o segredo: em Conhecimento, você coloca a sua lista de preços. Salva. Pronto." Grave o "salvar, pronto" de uma vez só.
+
+Décimo, o uso. Chegou mensagem? Você cola ali, até no celular, e ele escreve a resposta com os seus preços. Pode ser: "Chegou mensagem de cliente? Cola ali, pode ser no celular, e ele escreve a resposta com os preços da sua loja."
+
+Décimo primeiro, o aviso. Ele não manda sozinho no WhatsApp; quem confere e envia é você. Pode ser: "Só lembrando: ele não responde sozinho no WhatsApp, tá? Você confere e você envia." Esse aviso não pode sair.
+
+Por fim, o pedido. Comenta AGENTE que eu te mando o passo a passo no direct, com as instruções prontas pra copiar, e salva pra fazer no fim de semana. Pode ser: "Escreve AGENTE aqui embaixo que eu te mando o passo a passo, já com as instruções prontas pra você copiar." E: "Salva o vídeo pra montar o seu no fim de semana." A palavra é AGENTE, sem trocar. As instruções prontas pra copiar e o pedido de salvar ficam.
+
+Fontes (não precisa ler em voz alta)
+
+Central de Ajuda do Gemini, criar Gems (pt-BR): https://support.google.com/gemini/answer/15146780?hl=pt-BR
+Central de Ajuda do Gemini, Gems (inglês): https://support.google.com/gemini/answer/15146780?hl=en
+Central de Ajuda do Gemini, Gems (pt-PT): https://support.google.com/gemini/answer/15146780?hl=pt-PT
+Central de Ajuda do Gemini, transição dos Gems para habilidades: https://support.google.com/gemini/answer/18560919?hl=pt-BR
+Central de Ajuda do Gemini, tipos de arquivo e limites: https://support.google.com/gemini/answer/14903178?hl=pt-BR
+Android Authority, Gems grátis para contas pessoais: https://www.androidauthority.com/gemini-gems-free-3534726/
+Chromestory, guia de criação de Gem (07/2026): https://chromestory.com/2026/07/create-gem-gemini-app/
+TechRepublic, o que o ChatGPT grátis oferece em 2026: https://www.techrepublic.com/article/news-what-is-free-chatgpt-2026/
+Google Workspace, Gems compartilhados: https://www.youtube.com/watch?v=0cmkCCCqais
+Google Workspace, construir Gems (Gemini at Work, lição 5): https://www.youtube.com/watch?v=qtO940hejdE
+Explained. Applied., Gems viram skills em 17/11 (vídeo de terceiro, só estudo): https://www.youtube.com/watch?v=0bJrNCfyEek

@@ -1,0 +1,4 @@
+# capturar.sh · 2026-10-25T22:33:50.791Z
+# alvo	largura pedida	innerWidth	scrollWidth	altura	HTTP	png	passa da borda
+/biblioteca	1440	1440	1440	1823	200	/Users/teste/Documents/CONTENT AI/painel/portoes/capturas-e5b9b4bcef0c/biblioteca-1440.png	
+/biblioteca	375	375	375	3716	200	/Users/teste/Documents/CONTENT AI/painel/portoes/capturas-e5b9b4bcef0c/biblioteca-375.png	

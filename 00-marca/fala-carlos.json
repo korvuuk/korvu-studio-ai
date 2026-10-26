@@ -1,0 +1,78 @@
+{
+  "_leia": "Como o Carlos fala de verdade. O align.py usa este arquivo para NÃO tratar o jeito dele como erro. Cresce a cada vídeo: quando aparecer uma troca nova na transcrição, acrescente aqui em vez de 'corrigir' a gravação. Perfil completo (ritmo, conectores, como ele reescreve as frases): 00-marca/voz-carlos.md.",
+  "_regra": "Isto não muda o que aparece na legenda — a legenda segue o roteiro. Serve para o editor RECONHECER a fala e manter o take.",
+  "_formato": "Em `pronuncia`, a chave tem de ser UMA palavra (o align.py normaliza a chave e troca CADA token dela pelo alvo). Chave com mais de uma palavra ('a i', 'open ai') é um bug: 'a i' virava a→ia e i→ia, e todo artigo 'a' que o Carlos dizia virava 'ia' em qualquer roteiro com a palavra IA (Hassabis, Fei-Fei) — removido em 17/10. Nunca use como chave palavra comum (a, e, o, é, aí, um). O alvo tem de ser UMA palavra do roteiro. Acento não importa (o align compara sem acento: 'aí' = 'ai' — por isso 'ai' também é proibido como chave, mesmo que ele diga 'AI' em inglês). O que o ASR ouve como duas palavras ('E.A.', 'a ZAI') só entra pela parte rara ('ea', 'zai').",
+  "pronuncia": {
+    "_leia": "o que o reconhecimento de voz ouve  ->  a palavra do roteiro que ele quis dizer (uma palavra de cada lado)",
+    "pronto": "prompt",
+    "prompite": "prompt",
+    "promp": "prompt",
+    "chatgepete": "chatgpt",
+    "chpt": "chatgpt",
+    "gpt": "chatgpt",
+    "antropic": "anthropic",
+    "antropica": "anthropic",
+    "cloude": "claude",
+    "claud": "claude",
+    "openai": "openai",
+    "ia": "ia",
+    "zai": "ia",
+    "ea": "ia",
+    "poste": "post",
+    "posto": "post",
+    "geoffreys": "geoffrey",
+    "denis": "demis",
+    "assabi": "hassabis",
+    "assabis": "hassabis",
+    "hassabi": "hassabis",
+    "nassib": "hassabis",
+    "deepmine": "deepmind",
+    "aulas": "aula",
+    "imagemed": "imagenet",
+    "ficais": "fiscais",
+    "neurais": "neural"
+  },
+  "pronuncia_observada": {
+    "_leia": "Registro (não é lido pelo align.py — o fuzzy do align já resolve ou o problema não é de pronúncia). Serve ao editor e ao roteirista para não estranhar a transcrição.",
+    "IA": "ele diz 'IA' e também 'AI' (inglês): o ASR escreve 'AI', 'E.A.', 'a EA e', 'ZAI' (Hassabis L01/L07, ChatGPT L05)",
+    "ChatGPT": "'chat GPT' em duas palavras; o ASR já escreveu 'CHPT' (ChatGPT L01)",
+    "AlphaFold": "'alfa fold' (o align junta os dois tokens sozinho — Hassabis L09)",
+    "nomes": "Geoffrey → 'Geoffreys'; Demis Hassabis → 'Denis Assabi'; DeepMind → 'DeepMine'",
+    "numeros": "lê algarismo e às vezes embeleza: 'duas da manhã' → '2:30 da manhã' (Hinton L20), '10 anos' → 'mais de 10 anos' (L16)",
+    "contrações": "'duma' (de uma), 'pro', 'pra', 'tá', 'tô', 'vambora' (vamos embora — só falando com a IA)",
+    "concordância": "'uma sistema', 'as imagem', 'a comitê', 'entrevista completo', 'tinha acabado de ganhado' — gagueira/jeito dele, não é erro de take; a legenda segue o roteiro",
+    "Fei-Fei (17/10)": "palavra-chave AULA ouvida como 'aulas' (1 de 3 takes); ImageNet → 'ImageMed' (1×); 'fiscais' → 'ficais'; 'rede neural' → 'rede neurais' (4 takes); 'Estados Unidos' → 'Estados Unido e'; 2007 LIDO como 2027 (2 takes — erro de leitura do ano, não do ASR); 'IA' sem artigo saiu 'As AI' / 'a inteligência artificial' / omitida (3 takes)"
+  },
+  "gagueira": {
+    "_leia": "Ele é gago. Sílaba ou palavra repetida coladinha NÃO é erro de take: é a fala dele. O editor junta as repetições numa palavra só e mantém o take; se a repetição for longa demais para o ritmo, corta só o excesso — nunca descarta a frase por causa disso.",
+    "max_repeticoes_coladas_s": 0.8,
+    "tratar_como": "mesma_palavra"
+  },
+  "improviso": {
+    "_leia": "Ele reescreve a frase na hora e isso soa melhor do que o roteiro. Improviso é uma versão VÁLIDA da linha, não um take ruim: entra no vídeo e a legenda passa a seguir o que ele falou, não o roteiro. Como ele reescreve (medido em 17/10, 00-marca/voz-carlos.md §4): acrescenta o sujeito ('ele', 'o Hinton'), troca subjuntivo por infinitivo ('que abandonasse' → 'ele a abandonar'), corta 'é que' e os intensificadores, abre com 'E aí' / 'Só que' / 'Agora,', põe 'acabou de' antes do verbo no passado, diz 'dele/dela' em vez de 'seu/sua'.",
+    "aceitar_a_partir_de": 0.45,
+    "legenda_segue": "fala",
+    "aviso": "Quando o improviso troca quase todas as palavras, o align não acha a linha e ela SOME do vídeo (Hinton L11: 'Mas Hinton não desistiu' → dito 'Como o cara é fera, ele simplesmente não desistiu' → faltando; L28 CTA dito 'Comenta a palavra Nobel que eu vou te enviar a entrevista completa' → sim 0,25). O roteirista evita isso escrevendo a frase como ele diria; o editor confere o `nao_mapeado` antes de dar a linha como faltando. Fei-Fei (17/10): linha de UMA palavra (L07 'Ela.') é perigosa — na 1.ª rodada do align (02:02) ela ficou com 27 takes (todo 'ela' dentro das outras frases) e 8 linhas ficaram faltando embora ditas; a rodada de 02:04 resolveu (0 faltando). O roteirista não escreve linha de uma palavra: 'Ela.' entra na frase ('…ela é que atendia o telefone')."
+  },
+  "final_comido": {
+    "_leia": "Ele come o fim das palavras ('prompt' vira 'promp', 'também' vira 'tamé'). Isso é pronúncia, não erro: a legenda continua mostrando a palavra do roteiro.",
+    "legenda_segue": "roteiro"
+  },
+  "fala_com_a_ia": {
+    "_leia": "Frases ditas ao ChatGPT Voz durante a gravação (nunca entram no corte; o align já as manda para nao_mapeado). Candidatas a SEPARADORES do common.py, além de 'repete'/'de novo'/'corta'.",
+    "frases": [
+      "Próxima",
+      "Próximo",
+      "Pode avançar",
+      "Continua",
+      "Calma, calma, calma",
+      "Vamos repetir",
+      "a linha anterior",
+      "Não, não, não",
+      "Ok, estamos de volta",
+      "Pode começar",
+      "Vambora",
+      "Thank you"
+    ]
+  }
+}

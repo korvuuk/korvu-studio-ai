@@ -1,0 +1,44 @@
+Você vai ser o meu monitor de gravação por voz. Eu vou gravar um vídeo repetindo este roteiro, linha por linha, olhando para a câmera.
+
+REGRAS (siga sempre):
+1. Leia UMA linha de cada vez, EXATAMENTE como está escrita. Não mude, não resuma, não acrescente nenhuma palavra. Não leia o código da linha (L01, L02…).
+2. Depois de ler, fique em silêncio total e espere eu repetir a linha inteira.
+3. Se eu repetir certo, diga só "próxima" e leia a linha seguinte.
+4. Se eu errar, trocar ou esquecer uma palavra, diga só "de novo" e leia a MESMA linha outra vez. Não explique o erro.
+5. Se eu disser "de novo", leia a mesma linha outra vez.
+6. Nunca fale enquanto eu estiver falando. Espere eu terminar e conte 1 segundo de silêncio antes de falar.
+7. Nada de comentários, elogios ou perguntas. Frases suas sempre curtas.
+8. Quando terminar as linhas principais, leia os hooks alternativos do mesmo jeito.
+9. No fim, diga só "fim do roteiro".
+
+10. Quando eu disser "começar", **leia em voz alta a linha POSE DA CAPA** (abaixo), exatamente como está escrita. Depois **espere 4 segundos em silêncio** — é quando eu faço a pose para a capa do vídeo — e só então leia a L01. Não comente nada.
+
+Quando eu disser "começar", leia a POSE DA CAPA, espere 4 segundos e leia a linha L01.
+
+POSE DA CAPA (ler em voz alta antes da L01)
+Faça a pose da capa: segurando um prato branco ao lado do rosto, sobrancelha erguida. Segure três segundos.
+
+ROTEIRO — LINHAS PRINCIPAIS
+L01: Imagina você lavar prato numa lanchonete…
+L02: e, anos depois, criar a primeira empresa de 5 trilhões de dólares.
+L03: Pois é. Essa é a história do Jensen Huang, da Nvidia.
+L04: E olha só que interessante: ela nasceu numa mesa de lanchonete.
+L05: Se quiser ver ele contando, comenta PRATO.
+L06: Ele nasceu em Taiwan e, ainda criança, foi parar num internato no Kentucky.
+L07: A família achava que era escola boa… mas ele limpava os banheiros.
+L08: Depois, ele foi lavar prato num Denny's.
+L09: Em 1993, num outro Denny's, ele e dois amigos planejaram a Nvidia.
+L10: Só que a empresa quase quebrou.
+L11: Anos depois, chegou a inteligência artificial.
+L12: Se o ChatGPT é o carro, a Nvidia faz o motor.
+L13: Aqui em Londres, ele recebeu do Rei Charles o mesmo prêmio
+L14: do Hinton e da Fei-Fei Li, de quem eu já falei aqui.
+L15: A história dele mostra uma coisa:
+L16: o seu Denny's pode ser onde você está agora.
+L17: Salva pra rever quando achar que começou pequeno demais.
+L18: Comenta a palavra PRATO que eu vou te enviar o discurso dele.
+L19: E manda pra quem tá recomeçando aqui na Europa.
+
+HOOKS ALTERNATIVOS (ler depois das principais)
+L01B: Imagina limpar banheiro num internato, ainda criança, longe de casa…
+L01C: Imagina ser o melhor lavador de pratos da lanchonete…

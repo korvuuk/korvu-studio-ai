@@ -1,0 +1,73 @@
+[
+  {
+    "id": "E01",
+    "tipo": "print",
+    "o_que": "A thread original no X: o parágrafo 'Neither company is acting responsibly…' — é a prova de que a fala é dele, não boato",
+    "url": "https://x.com/hilbertspaess/status/2097476196791709843",
+    "licenca": "print de página pública, uso editorial (citação da fonte)",
+    "autor": "Jacob Coxon (@hilbertspaess)",
+    "credito": "@hilbertspaess no X",
+    "permitido": true,
+    "status": "PENDENTE — com o Carlos",
+    "como_obter": "o print automático deu HTTP 403 ('Access to x.com was denied'): o X não deixa ler sem sessão. Tire no celular logado, com a thread aberta no trecho 'Neither company is acting responsibly…', e salve em brutos/extras/E01-thread.png",
+    "quem_baixa": "carlos"
+  },
+  {
+    "id": "E02",
+    "tipo": "print",
+    "o_que": "Manchete 'AI insiders fear extinction. Security experts see a familiar fight' — mostra a repercussão e já traz o contraponto",
+    "url": "https://www.scientificamerican.com/article/ai-jacob-coxon-quit-extinction-fears-security-experts-see-familiar-fight/",
+    "licenca": "print de página pública, uso editorial com crédito",
+    "autor": "Peter Hall / Scientific American",
+    "credito": "Scientific American, 11/09/2026",
+    "permitido": true,
+    "status": "PRONTO — brutos/extras/E02-manchete.png",
+    "como_obter": "scripts/print_pagina.py --desktop (TechCrunch e CBS saem com banner de consentimento tapando a manchete; a Scientific American sai limpa)",
+    "quem_baixa": "claude"
+  },
+  {
+    "id": "E03",
+    "tipo": "imagem",
+    "o_que": "Foto do Jacob Coxon (rosto) para a cena de apresentação",
+    "url": "https://commons.wikimedia.org/w/index.php?search=Jacob+Coxon&title=Special:MediaSearch&type=image",
+    "licenca": "A VERIFICAR — só serve se houver arquivo no Commons com licença CC/CC0 e autor; sem isso, não usa",
+    "autor": null,
+    "credito": null,
+    "permitido": null,
+    "motivo": "não confirmei que existe foto dele com licença livre. Alternativa sem risco: cartão com o nome + a citação, no nosso estilo, sem rosto.",
+    "como_obter": "abrir o link, conferir a licença na página do arquivo e baixar o original",
+    "quem_baixa": "carlos"
+  },
+  {
+    "id": "E04",
+    "tipo": "video",
+    "o_que": "Trecho curto (≤10 s) dele falando — daria peso à fala",
+    "url": "https://www.cnn.com/2026/09/14/us/video/ac360-jacob-coxon",
+    "licenca": "NÃO PERMITIDO por padrão — material da CNN, sem licença de reuso",
+    "autor": "CNN",
+    "credito": "CNN AC360",
+    "permitido": false,
+    "motivo": "material da CNN, sem licença de reuso. Todo o vídeo dele que apareceu na pesquisa é de emissora (CNN, CBS e as cópias no YouTube/Facebook). ATENÇÃO: a busca automática por vídeo licenciado (scripts/buscar_video.py) ainda NÃO é confiável — em 17/09 o archive.org recusou a conexão e a minha consulta ao Wikimedia Commons estava errada, então 'não achei' não quer dizer 'não existe'. Refazer a busca depois de corrigir o script. Caminhos que valem: confirmar licença CC BY na página do vídeo, autorização por escrito do titular, ou agência (AP Archive/Reuters).",
+    "como_obter": null,
+    "quem_baixa": null,
+    "substituto": "E02 (print da manchete) + E01 (print da thread) e a citação em texto na tela",
+    "busca_licenciada": {
+      "data": "2026-09-17",
+      "wikimedia_commons": "0 resultados para 'Jacob Coxon' (plausível: é notícia de dez dias, não acervo)",
+      "archive_org": "NÃO CONSULTADO — recusa conexão TLS a partir desta máquina (curl falha igual). Tentar pelo navegador antes de concluir qualquer coisa",
+      "conclusao": "busca INCOMPLETA: não dá para afirmar que não existe vídeo livre dele"
+    }
+  },
+  {
+    "id": "E05",
+    "tipo": "animacao",
+    "o_que": "Animação explicando o argumento central: modelo que ajuda a treinar o próximo (auto-melhoria) e por que 'desligar' não é simples",
+    "url": null,
+    "licenca": "nossa (Claude Design → captura)",
+    "autor": "Korvu",
+    "credito": null,
+    "permitido": true,
+    "como_obter": "brief do animador → Claude Design → scripts/capturar_animacao.mjs",
+    "quem_baixa": "claude"
+  }
+]

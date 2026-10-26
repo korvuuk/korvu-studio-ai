@@ -1,0 +1,2554 @@
+{
+  "linhas": [
+    {
+      "id": "L01",
+      "status": "ok",
+      "escolhido": "L01-T1",
+      "motivo": "último take limpo (sim 0.93)",
+      "takes": [
+        {
+          "take_id": "L01-T1",
+          "fonte": "praq0979",
+          "i_ini": 101,
+          "i_fim": 113,
+          "inicio": 13.48,
+          "fim": 19.565,
+          "sim": 0.929,
+          "cobertura": 0.929,
+          "flags": [],
+          "score": 0.95,
+          "texto": "Imagina você passar 50 anos acreditando numa ideia que ninguém levava a sério",
+          "prefixo": 0.846,
+          "conf": 1.0,
+          "muletas": [],
+          "pausas": []
+        }
+      ],
+      "leituras_ia": [
+        {
+          "fonte": "praq0979",
+          "inicio": 6.64,
+          "fim": 12.565,
+          "sim": 1.0,
+          "texto": "Imagina você passar quase 50 anos acreditando numa ideia que ninguém levava a sério"
+        }
+      ]
+    },
+    {
+      "id": "L02",
+      "status": "ok",
+      "escolhido": "L02-T5",
+      "motivo": "último take limpo (sim 0.93)",
+      "takes": [
+        {
+          "take_id": "L02-T1",
+          "fonte": "praq0979",
+          "i_ini": 130,
+          "i_fim": 137,
+          "inicio": 28.6,
+          "fim": 32.619,
+          "sim": 0.467,
+          "cobertura": 0.467,
+          "flags": [
+            "false_start",
+            "pausa_interna"
+          ],
+          "score": 0.509,
+          "texto": "E, no final, essa ideia mudaria o mundo",
+          "prefixo": 0.875,
+          "conf": 0.999,
+          "muletas": [],
+          "pausas": [
+            [
+              29.18,
+              29.94
+            ]
+          ]
+        },
+        {
+          "take_id": "L02-T2",
+          "fonte": "praq0979",
+          "i_ini": 138,
+          "i_fim": 145,
+          "inicio": 33.16,
+          "fim": 36.785,
+          "sim": 0.467,
+          "cobertura": 0.467,
+          "flags": [],
+          "score": 0.552,
+          "texto": "e, no final, te daria um Prêmio Nobel",
+          "prefixo": 0.375,
+          "conf": 0.997,
+          "muletas": [],
+          "pausas": []
+        },
+        {
+          "take_id": "L02-T3",
+          "fonte": "praq0979",
+          "i_ini": 163,
+          "i_fim": 177,
+          "inicio": 47.14,
+          "fim": 54.36,
+          "sim": 1.0,
+          "cobertura": 1.0,
+          "flags": [
+            "pausa_interna"
+          ],
+          "score": 0.943,
+          "texto": "E, no final, essa ideia mudar o mundo e ainda te dar um Prêmio Nobel",
+          "prefixo": 1.0,
+          "conf": 0.989,
+          "muletas": [],
+          "pausas": [
+            [
+              52.18,
+              52.94
+            ]
+          ]
+        },
+        {
+          "take_id": "L02-T4",
+          "fonte": "praq0980",
+          "i_ini": 271,
+          "i_fim": 275,
+          "inicio": 28.4,
+          "fim": 30.56,
+          "sim": 0.333,
+          "cobertura": 0.333,
+          "flags": [
+            "false_start",
+            "pausa_interna"
+          ],
+          "score": 0.49,
+          "texto": "E no final, essa ideia--",
+          "prefixo": 1.0,
+          "conf": 1.0,
+          "muletas": [],
+          "pausas": [
+            [
+              29.1,
+              29.86
+            ]
+          ]
+        },
+        {
+          "take_id": "L02-T5",
+          "fonte": "praq0980",
+          "i_ini": 296,
+          "i_fim": 310,
+          "inicio": 45.1,
+          "fim": 51.14,
+          "sim": 0.933,
+          "cobertura": 0.933,
+          "flags": [],
+          "score": 0.95,
+          "texto": "E no final, essa ideia mudar o mundo e ainda te dá um Prêmio Nobel",
+          "prefixo": 0.933,
+          "conf": 0.971,
+          "muletas": [],
+          "pausas": []
+        }
+      ],
+      "leituras_ia": [
+        {
+          "fonte": "praq0979",
+          "inicio": 22.1,
+          "fim": 27.135,
+          "sim": 1.0,
+          "texto": "E, no final, essa ideia mudar o mundo e ainda te dar um Prêmio Nobel"
+        },
+        {
+          "fonte": "praq0979",
+          "inicio": 41.06,
+          "fim": 46.045,
+          "sim": 1.0,
+          "texto": "E, no final, essa ideia mudar o mundo e ainda te dar um Prêmio Nobel"
+        },
+        {
+          "fonte": "praq0980",
+          "inicio": 21.7,
+          "fim": 26.615,
+          "sim": 1.0,
+          "texto": "E no final, essa ideia mudar o mundo e ainda te dar um prêmio Nobel"
+        },
+        {
+          "fonte": "praq0980",
+          "inicio": 37.84,
+          "fim": 42.735,
+          "sim": 1.0,
+          "texto": "E no final, essa ideia mudar o mundo e ainda te dar um prêmio Nobel"
+        }
+      ]
+    },
+    {
+      "id": "L03",
+      "status": "ok",
+      "escolhido": "L03-T2",
+      "motivo": "último take limpo (sim 0.89)",
+      "takes": [
+        {
+          "take_id": "L03-T1",
+          "fonte": "praq0979",
+          "i_ini": 188,
+          "i_fim": 196,
+          "inicio": 61.62,
+          "fim": 65.84,
+          "sim": 0.889,
+          "cobertura": 0.889,
+          "flags": [
+            "sobreposicao_ia"
+          ],
+          "score": 0.81,
+          "texto": "Pois é, essa é a história do Geoffrey Hinton",
+          "prefixo": 0.889,
+          "conf": 1.0,
+          "muletas": [],
+          "pausas": []
+        },
+        {
+          "take_id": "L03-T2",
+          "fonte": "praq0980",
+          "i_ini": 321,
+          "i_fim": 329,
+          "inicio": 58.62,
+          "fim": 62.44,
+          "sim": 0.889,
+          "cobertura": 0.889,
+          "flags": [],
+          "score": 0.921,
+          "texto": "Pois é, essa é a história do Geoffreys Hinton",
+          "prefixo": 0.889,
+          "conf": 0.99,
+          "muletas": [],
+          "pausas": []
+        }
+      ],
+      "leituras_ia": [
+        {
+          "fonte": "praq0979",
+          "inicio": 56.84,
+          "fim": 60.26,
+          "sim": 1.0,
+          "texto": "Pois é, essa é a história de Geoffrey Hinton"
+        },
+        {
+          "fonte": "praq0980",
+          "inicio": 53.74,
+          "fim": 57.16,
+          "sim": 1.0,
+          "texto": "Pois é, essa é a história de Geoffrey Hinton"
+        }
+      ]
+    },
+    {
+      "id": "L04",
+      "status": "parafrase",
+      "escolhido": "L04-T1",
+      "motivo": "paráfrase: melhor sim 0.47 (score 0.52)",
+      "takes": [
+        {
+          "take_id": "L04-T1",
+          "fonte": "praq0980",
+          "i_ini": 341,
+          "i_fim": 346,
+          "inicio": 78.46,
+          "fim": 81.58,
+          "sim": 0.467,
+          "cobertura": 0.467,
+          "flags": [
+            "final_cortado"
+          ],
+          "score": 0.515,
+          "texto": "Hinton nasceu em Londres, em 194",
+          "prefixo": 0.556,
+          "conf": 0.998,
+          "muletas": [],
+          "pausas": []
+        },
+        {
+          "take_id": "L04-T2",
+          "fonte": "praq0981",
+          "i_ini": 347,
+          "i_fim": 352,
+          "inicio": 0.0,
+          "fim": 2.42,
+          "sim": 0.333,
+          "cobertura": 0.4,
+          "flags": [
+            "muleta",
+            "sem_ancora"
+          ],
+          "score": 0.538,
+          "texto": "47 é uma família de cientistas",
+          "prefixo": 0.0,
+          "conf": 0.984,
+          "muletas": [
+            348
+          ],
+          "pausas": []
+        }
+      ],
+      "leituras_ia": [
+        {
+          "fonte": "praq0979",
+          "inicio": 68.42,
+          "fim": 74.1,
+          "sim": 1.0,
+          "texto": "Hinton nasceu em Londres, em 1947, numa família de cientistas"
+        },
+        {
+          "fonte": "praq0980",
+          "inicio": 65.08,
+          "fim": 70.635,
+          "sim": 1.0,
+          "texto": "Hinton nasceu em Londres, em 1947, numa família de cientistas"
+        }
+      ]
+    },
+    {
+      "id": "L05",
+      "status": "parafrase",
+      "escolhido": "L05-T3",
+      "motivo": "paráfrase: melhor sim 0.58 (score 0.69)",
+      "takes": [
+        {
+          "take_id": "L05-T1",
+          "fonte": "praq0981",
+          "i_ini": 366,
+          "i_fim": 372,
+          "inicio": 18.6,
+          "fim": 21.24,
+          "sim": 0.417,
+          "cobertura": 0.417,
+          "flags": [
+            "final_cortado"
+          ],
+          "score": 0.479,
+          "texto": "Mas diferente do que muitas pessoas imagi--",
+          "prefixo": 0.714,
+          "conf": 0.991,
+          "muletas": [],
+          "pausas": []
+        },
+        {
+          "take_id": "L05-T2",
+          "fonte": "praq0981",
+          "i_ini": 373,
+          "i_fim": 374,
+          "inicio": 22.16,
+          "fim": 23.02,
+          "sim": 0.167,
+          "cobertura": 0.167,
+          "flags": [
+            "false_start"
+          ],
+          "score": 0.35,
+          "texto": "mas diferente",
+          "prefixo": 1.0,
+          "conf": 0.949,
+          "muletas": [],
+          "pausas": []
+        },
+        {
+          "take_id": "L05-T3",
+          "fonte": "praq0982",
+          "i_ini": 462,
+          "i_fim": 470,
+          "inicio": 16.64,
+          "fim": 21.98,
+          "sim": 0.583,
+          "cobertura": 0.583,
+          "flags": [
+            "pausa_interna",
+            "final_cortado"
+          ],
+          "score": 0.688,
+          "texto": "Mas diferente que muitas pessoas imaginavam, ele não começou",
+          "prefixo": 0.556,
+          "conf": 0.98,
+          "muletas": [],
+          "pausas": [
+            [
+              19.82,
+              20.56
+            ]
+          ]
+        }
+      ],
+      "leituras_ia": [
+        {
+          "fonte": "praq0981",
+          "inicio": 5.12,
+          "fim": 10.075,
+          "sim": 1.0,
+          "texto": "Mas diferente do que muita gente imagina, ele não começou estudando computadores"
+        },
+        {
+          "fonte": "praq0981",
+          "inicio": 25.98,
+          "fim": 30.955,
+          "sim": 1.0,
+          "texto": "Mas diferente do que muita gente imagina, ele não começou estudando computadores"
+        },
+        {
+          "fonte": "praq0981",
+          "inicio": 77.76,
+          "fim": 81.58,
+          "sim": 0.833,
+          "texto": "Mas diferente do que muita gente imagina, ele não começou"
+        }
+      ]
+    },
+    {
+      "id": "L06",
+      "status": "ok",
+      "escolhido": "L06-T1",
+      "motivo": "último take limpo (sim 1.00)",
+      "takes": [
+        {
+          "take_id": "L06-T1",
+          "fonte": "praq0982",
+          "i_ini": 484,
+          "i_fim": 491,
+          "inicio": 31.38,
+          "fim": 35.44,
+          "sim": 1.0,
+          "cobertura": 1.0,
+          "flags": [],
+          "score": 1.0,
+          "texto": "Ele queria entender como funcionava a mente humana.",
+          "prefixo": 1.0,
+          "conf": 1.0,
+          "muletas": [],
+          "pausas": []
+        }
+      ],
+      "leituras_ia": [
+        {
+          "fonte": "praq0982",
+          "inicio": 25.96,
+          "fim": 29.095,
+          "sim": 1.0,
+          "texto": "Ele queria entender como funciona a mente humana."
+        }
+      ]
+    },
+    {
+      "id": "L07",
+      "status": "parafrase",
+      "escolhido": "L07-T1",
+      "motivo": "paráfrase: melhor sim 0.77 (score 0.84)",
+      "takes": [
+        {
+          "take_id": "L07-T1",
+          "fonte": "praq0982",
+          "i_ini": 506,
+          "i_fim": 517,
+          "inicio": 51.92,
+          "fim": 57.94,
+          "sim": 0.769,
+          "cobertura": 0.846,
+          "flags": [
+            "final_cortado"
+          ],
+          "score": 0.837,
+          "texto": "Nos anos 70, ele começou a defender uma ideia que parecia impossível.",
+          "prefixo": 0.833,
+          "conf": 0.996,
+          "muletas": [],
+          "pausas": []
+        }
+      ],
+      "leituras_ia": [
+        {
+          "fonte": "praq0982",
+          "inicio": 38.26,
+          "fim": 44.005,
+          "sim": 1.0,
+          "texto": "Nos anos 70, começou a defender uma ideia que parecia impossível naquela época."
+        }
+      ]
+    },
+    {
+      "id": "L08",
+      "status": "parafrase",
+      "escolhido": "L08-T1",
+      "motivo": "paráfrase: melhor sim 0.57 (score 0.69)",
+      "takes": [
+        {
+          "take_id": "L08-T1",
+          "fonte": "praq0982",
+          "i_ini": 536,
+          "i_fim": 549,
+          "inicio": 72.86,
+          "fim": 80.34,
+          "sim": 0.571,
+          "cobertura": 0.571,
+          "flags": [
+            "pausa_interna"
+          ],
+          "score": 0.686,
+          "texto": "e se a gente criasse uma máquina humana que conseguiria imitar o cérebro humano?",
+          "prefixo": 0.571,
+          "conf": 0.984,
+          "muletas": [],
+          "pausas": [
+            [
+              73.54,
+              74.32
+            ],
+            [
+              78.56,
+              79.3
+            ]
+          ]
+        }
+      ],
+      "leituras_ia": [
+        {
+          "fonte": "praq0982",
+          "inicio": 62.92,
+          "fim": 68.225,
+          "sim": 1.0,
+          "texto": "E se a gente conseguisse criar máquinas capazes de aprender como o cérebro humano?"
+        },
+        {
+          "fonte": "praq0983",
+          "inicio": 3.62,
+          "fim": 8.925,
+          "sim": 1.0,
+          "texto": "E se a gente conseguisse criar máquinas capazes de aprender como o cérebro humano?"
+        }
+      ]
+    },
+    {
+      "id": "L09",
+      "status": "parafrase",
+      "escolhido": "L09-T1",
+      "motivo": "paráfrase: melhor sim 0.62 (score 0.74)",
+      "takes": [
+        {
+          "take_id": "L09-T1",
+          "fonte": "praq0983",
+          "i_ini": 620,
+          "i_fim": 624,
+          "inicio": 47.32,
+          "fim": 50.82,
+          "sim": 0.625,
+          "cobertura": 0.625,
+          "flags": [],
+          "score": 0.737,
+          "texto": "o problema, quase ninguém acreditava",
+          "prefixo": 0.4,
+          "conf": 0.994,
+          "muletas": [],
+          "pausas": []
+        }
+      ],
+      "leituras_ia": [
+        {
+          "fonte": "praq0983",
+          "inicio": 23.9,
+          "fim": 27.105,
+          "sim": 1.0,
+          "texto": "O problema é que quase ninguém acreditava nisso."
+        },
+        {
+          "fonte": "praq0983",
+          "inicio": 40.44,
+          "fim": 43.575,
+          "sim": 1.0,
+          "texto": "O problema é que quase ninguém acreditava nisso."
+        }
+      ]
+    },
+    {
+      "id": "L10",
+      "status": "parafrase",
+      "escolhido": "L10-T1",
+      "motivo": "paráfrase: melhor sim 0.47 (score 0.64)",
+      "takes": [
+        {
+          "take_id": "L10-T1",
+          "fonte": "praq0983",
+          "i_ini": 648,
+          "i_fim": 664,
+          "inicio": 66.4,
+          "fim": 75.52,
+          "sim": 0.471,
+          "cobertura": 0.6,
+          "flags": [
+            "muleta"
+          ],
+          "score": 0.641,
+          "texto": "o próprio orientador dele aconselhou ele a abandonar essa pesquisa, porque essa pesquisa pode comprometer a carreira",
+          "prefixo": 0.471,
+          "conf": 0.999,
+          "muletas": [
+            654,
+            663
+          ],
+          "pausas": []
+        }
+      ],
+      "leituras_ia": [
+        {
+          "fonte": "praq0983",
+          "inicio": 54.38,
+          "fim": 61.685,
+          "sim": 1.0,
+          "texto": "Até o próprio orientador dele aconselhou que abandonasse essa pesquisa, porque poderia destruir sua carreira."
+        }
+      ]
+    },
+    {
+      "id": "L11",
+      "status": "faltando",
+      "escolhido": null,
+      "motivo": "a IA leu a linha (1×), mas não há take do Carlos",
+      "takes": [],
+      "leituras_ia": [
+        {
+          "fonte": "praq0984",
+          "inicio": 8.92,
+          "fim": 10.275,
+          "sim": 1.0,
+          "texto": "Mas Hinton não desistiu"
+        }
+      ]
+    },
+    {
+      "id": "L12",
+      "status": "ok",
+      "escolhido": "L12-T1",
+      "motivo": "último take limpo (sim 0.90)",
+      "takes": [
+        {
+          "take_id": "L12-T1",
+          "fonte": "praq0984",
+          "i_ini": 708,
+          "i_fim": 714,
+          "inicio": 26.54,
+          "fim": 29.76,
+          "sim": 0.9,
+          "cobertura": 1.0,
+          "flags": [],
+          "score": 0.945,
+          "texto": "em 2012, ele juntou com dois alunos",
+          "prefixo": 0.9,
+          "conf": 1.0,
+          "muletas": [],
+          "pausas": []
+        }
+      ],
+      "leituras_ia": [
+        {
+          "fonte": "praq0984",
+          "inicio": 19.58,
+          "fim": 22.625,
+          "sim": 1.0,
+          "texto": "Em 2012, junto com dois alunos"
+        }
+      ]
+    },
+    {
+      "id": "L13",
+      "status": "parafrase",
+      "escolhido": "L13-T3",
+      "motivo": "paráfrase: melhor sim 0.67 (score 0.77)",
+      "takes": [
+        {
+          "take_id": "L13-T1",
+          "fonte": "praq0984",
+          "i_ini": 733,
+          "i_fim": 740,
+          "inicio": 44.54,
+          "fim": 48.9,
+          "sim": 0.5,
+          "cobertura": 0.5,
+          "flags": [
+            "final_cortado"
+          ],
+          "score": 0.538,
+          "texto": "Ele desenvolveu uma sistema capaz de reconhecer as",
+          "prefixo": 0.75,
+          "conf": 1.0,
+          "muletas": [],
+          "pausas": []
+        },
+        {
+          "take_id": "L13-T2",
+          "fonte": "praq0984",
+          "i_ini": 761,
+          "i_fim": 768,
+          "inicio": 68.46,
+          "fim": 72.38,
+          "sim": 0.583,
+          "cobertura": 0.583,
+          "flags": [
+            "false_start"
+          ],
+          "score": 0.646,
+          "texto": "ele desenvolveu um sistema capaz de reconhecer as",
+          "prefixo": 0.875,
+          "conf": 1.0,
+          "muletas": [],
+          "pausas": []
+        },
+        {
+          "take_id": "L13-T3",
+          "fonte": "praq0985",
+          "i_ini": 785,
+          "i_fim": 795,
+          "inicio": 8.52,
+          "fim": 14.7,
+          "sim": 0.667,
+          "cobertura": 0.667,
+          "flags": [],
+          "score": 0.767,
+          "texto": "ele desenvolveu um sistema capaz de reconhecer imagem de forma precisa",
+          "prefixo": 0.727,
+          "conf": 0.998,
+          "muletas": [],
+          "pausas": []
+        }
+      ],
+      "leituras_ia": [
+        {
+          "fonte": "praq0984",
+          "inicio": 34.2,
+          "fim": 39.92,
+          "sim": 1.0,
+          "texto": "Ele desenvolveu um sistema capaz de reconhecer imagens com uma precisão impressionante"
+        },
+        {
+          "fonte": "praq0984",
+          "inicio": 54.88,
+          "fim": 60.56,
+          "sim": 1.0,
+          "texto": "Ele desenvolveu um sistema capaz de reconhecer imagens com uma precisão impressionante"
+        }
+      ]
+    },
+    {
+      "id": "L14",
+      "status": "parafrase",
+      "escolhido": "L14-T1",
+      "motivo": "paráfrase: melhor sim 0.62 (score 0.74)",
+      "takes": [
+        {
+          "take_id": "L14-T1",
+          "fonte": "praq0985",
+          "i_ini": 812,
+          "i_fim": 819,
+          "inicio": 28.04,
+          "fim": 32.125,
+          "sim": 0.625,
+          "cobertura": 0.625,
+          "flags": [
+            "sem_ancora"
+          ],
+          "score": 0.737,
+          "texto": "acabou de mudar o rumo da inteligência artificial",
+          "prefixo": 0.625,
+          "conf": 1.0,
+          "muletas": [],
+          "pausas": []
+        }
+      ],
+      "leituras_ia": [
+        {
+          "fonte": "praq0984",
+          "inicio": 79.0,
+          "fim": 81.54,
+          "sim": 0.75,
+          "texto": "Aquilo mudou completamente o rumo da"
+        },
+        {
+          "fonte": "praq0985",
+          "inicio": 18.68,
+          "fim": 22.495,
+          "sim": 1.0,
+          "texto": "aquilo mudou completamente o rumo da inteligência artificial"
+        }
+      ]
+    },
+    {
+      "id": "L15",
+      "status": "parafrase",
+      "escolhido": "L15-T1",
+      "motivo": "paráfrase: melhor sim 0.61 (score 0.73)",
+      "takes": [
+        {
+          "take_id": "L15-T1",
+          "fonte": "praq0986",
+          "i_ini": 832,
+          "i_fim": 844,
+          "inicio": 8.92,
+          "fim": 15.2,
+          "sim": 0.615,
+          "cobertura": 0.727,
+          "flags": [
+            "final_cortado"
+          ],
+          "score": 0.735,
+          "texto": "Pouco depois, o Google acabou de comprar a empresa que eles acabaram de",
+          "prefixo": 0.615,
+          "conf": 1.0,
+          "muletas": [],
+          "pausas": []
+        }
+      ],
+      "leituras_ia": [
+        {
+          "fonte": "praq0986",
+          "inicio": 2.12,
+          "fim": 6.575,
+          "sim": 1.0,
+          "texto": "Pouco depois, o Google comprou a empresa que eles tinham criado."
+        }
+      ]
+    },
+    {
+      "id": "L16",
+      "status": "parafrase",
+      "escolhido": "L16-T1",
+      "motivo": "paráfrase: melhor sim 0.64 (score 0.79)",
+      "takes": [
+        {
+          "take_id": "L16-T1",
+          "fonte": "praq0986",
+          "i_ini": 858,
+          "i_fim": 871,
+          "inicio": 26.38,
+          "fim": 33.285,
+          "sim": 0.643,
+          "cobertura": 0.909,
+          "flags": [
+            "sem_ancora"
+          ],
+          "score": 0.79,
+          "texto": "E o Hinton passou mais de 10 anos trabalhando junto com gigantes da tecnologia.",
+          "prefixo": 0.643,
+          "conf": 1.0,
+          "muletas": [],
+          "pausas": []
+        }
+      ],
+      "leituras_ia": [
+        {
+          "fonte": "praq0986",
+          "inicio": 18.36,
+          "fim": 22.445,
+          "sim": 1.0,
+          "texto": "E Hinton passou 10 anos trabalhando com a gigante da tecnologia."
+        }
+      ]
+    },
+    {
+      "id": "L17",
+      "status": "parafrase",
+      "escolhido": "L17-T1",
+      "motivo": "paráfrase: melhor sim 0.50 (score 0.69)",
+      "takes": [
+        {
+          "take_id": "L17-T1",
+          "fonte": "praq0986",
+          "i_ini": 878,
+          "i_fim": 881,
+          "inicio": 41.12,
+          "fim": 42.34,
+          "sim": 0.5,
+          "cobertura": 0.75,
+          "flags": [
+            "sem_ancora"
+          ],
+          "score": 0.688,
+          "texto": "olha só que interessante.",
+          "prefixo": 0.5,
+          "conf": 1.0,
+          "muletas": [],
+          "pausas": []
+        }
+      ],
+      "leituras_ia": [
+        {
+          "fonte": "praq0986",
+          "inicio": 36.12,
+          "fim": 37.44,
+          "sim": 1.0,
+          "texto": "Mas olha que interessante."
+        }
+      ]
+    },
+    {
+      "id": "L18",
+      "status": "ok",
+      "escolhido": "L18-T1",
+      "motivo": "último take limpo (sim 0.83)",
+      "takes": [
+        {
+          "take_id": "L18-T1",
+          "fonte": "praq0986",
+          "i_ini": 889,
+          "i_fim": 895,
+          "inicio": 52.86,
+          "fim": 56.3,
+          "sim": 0.833,
+          "cobertura": 0.909,
+          "flags": [],
+          "score": 0.894,
+          "texto": "Em 2023, ele acabou deixando o Google.",
+          "prefixo": 0.833,
+          "conf": 1.0,
+          "muletas": [],
+          "pausas": []
+        }
+      ],
+      "leituras_ia": [
+        {
+          "fonte": "praq0986",
+          "inicio": 46.84,
+          "fim": 50.315,
+          "sim": 1.0,
+          "texto": "Em 2023, ele deixou o Google."
+        }
+      ]
+    },
+    {
+      "id": "L19",
+      "status": "ok",
+      "escolhido": "L19-T2",
+      "motivo": "último take limpo (sim 1.00)",
+      "takes": [
+        {
+          "take_id": "L19-T1",
+          "fonte": "praq0986",
+          "i_ini": 907,
+          "i_fim": 917,
+          "inicio": 67.74,
+          "fim": 73.1,
+          "sim": 0.545,
+          "cobertura": 0.7,
+          "flags": [],
+          "score": 0.605,
+          "texto": "Para poder fazer o quê? Falar dos riscos da inteligência artificial",
+          "prefixo": 0.545,
+          "conf": 1.0,
+          "muletas": [],
+          "pausas": []
+        },
+        {
+          "take_id": "L19-T2",
+          "fonte": "praq0986",
+          "i_ini": 985,
+          "i_fim": 994,
+          "inicio": 145.005,
+          "fim": 150.585,
+          "sim": 1.0,
+          "cobertura": 1.0,
+          "flags": [],
+          "score": 0.996,
+          "texto": "Para poder falar livremente sobre os riscos da inteligência artificial.",
+          "prefixo": 1.0,
+          "conf": 0.959,
+          "muletas": [],
+          "pausas": []
+        }
+      ],
+      "leituras_ia": [
+        {
+          "fonte": "praq0986",
+          "inicio": 59.18,
+          "fim": 63.695,
+          "sim": 1.0,
+          "texto": "Para poder falar livremente sobre os riscos da inteligência artificial."
+        }
+      ]
+    },
+    {
+      "id": "L20",
+      "status": "parafrase",
+      "escolhido": "L20-T2",
+      "motivo": "paráfrase: melhor sim 0.75 (score 0.83)",
+      "takes": [
+        {
+          "take_id": "L20-T1",
+          "fonte": "praq0986",
+          "i_ini": 935,
+          "i_fim": 950,
+          "inicio": 84.64,
+          "fim": 92.12,
+          "sim": 0.5,
+          "cobertura": 0.769,
+          "flags": [
+            "pausa_interna",
+            "sem_ancora",
+            "fala_ia_interna"
+          ],
+          "score": 0.578,
+          "texto": "E um ano e meio depois, o que que aconteceu? Ele recebeu uma ligação de manhã.",
+          "prefixo": 0.5,
+          "conf": 1.0,
+          "muletas": [],
+          "pausas": [
+            [
+              87.2,
+              88.12
+            ],
+            [
+              89.64,
+              91.64
+            ]
+          ]
+        },
+        {
+          "take_id": "L20-T2",
+          "fonte": "praq0986",
+          "i_ini": 965,
+          "i_fim": 978,
+          "inicio": 102.86,
+          "fim": 110.365,
+          "sim": 0.75,
+          "cobertura": 0.923,
+          "flags": [
+            "muleta",
+            "pausa_interna"
+          ],
+          "score": 0.832,
+          "texto": "E um ano e meio depois, ele recebeu uma ligação às 2:30 da manhã.",
+          "prefixo": 0.75,
+          "conf": 0.972,
+          "muletas": [
+            976
+          ],
+          "pausas": [
+            [
+              104.34,
+              105.34
+            ],
+            [
+              107.48,
+              108.28
+            ]
+          ]
+        }
+      ],
+      "leituras_ia": [
+        {
+          "fonte": "praq0986",
+          "inicio": 77.425,
+          "fim": 81.36,
+          "sim": 0.769,
+          "texto": "E um ano e meio depois, recebeu uma ligação às"
+        },
+        {
+          "fonte": "praq0986",
+          "inicio": 95.185,
+          "fim": 98.86,
+          "sim": 0.769,
+          "texto": "E um ano e meio depois, recebeu uma ligação às"
+        }
+      ]
+    },
+    {
+      "id": "L21",
+      "status": "ok",
+      "escolhido": "L21-T1",
+      "motivo": "último take limpo (sim 0.80); muleta cortada internamente, pausa interna encurtada",
+      "takes": [
+        {
+          "take_id": "L21-T1",
+          "fonte": "praq0986",
+          "i_ini": 1005,
+          "i_fim": 1009,
+          "inicio": 172.58,
+          "fim": 175.085,
+          "sim": 0.8,
+          "cobertura": 0.8,
+          "flags": [
+            "muleta",
+            "pausa_interna"
+          ],
+          "score": 0.849,
+          "texto": "era a comitê do Nobel.",
+          "prefixo": 0.8,
+          "conf": 0.994,
+          "muletas": [
+            1006
+          ],
+          "pausas": [
+            [
+              173.84,
+              174.6
+            ]
+          ]
+        }
+      ],
+      "leituras_ia": [
+        {
+          "fonte": "praq0986",
+          "inicio": 113.46,
+          "fim": 114.595,
+          "sim": 1.0,
+          "texto": "Era o comitê do Nobel."
+        },
+        {
+          "fonte": "praq0986",
+          "inicio": 154.68,
+          "fim": 155.765,
+          "sim": 1.0,
+          "texto": "Era o comitê do Nobel."
+        }
+      ]
+    },
+    {
+      "id": "L22",
+      "status": "ok",
+      "escolhido": "L22-T2",
+      "motivo": "último take limpo (sim 0.81); muleta cortada internamente, pausa interna encurtada",
+      "takes": [
+        {
+          "take_id": "L22-T1",
+          "fonte": "praq0986",
+          "i_ini": 1023,
+          "i_fim": 1031,
+          "inicio": 187.98,
+          "fim": 192.525,
+          "sim": 0.438,
+          "cobertura": 0.438,
+          "flags": [
+            "muleta",
+            "final_cortado"
+          ],
+          "score": 0.484,
+          "texto": "ele tinha acabado de ganhado um Nobel em 2000-",
+          "prefixo": 0.5,
+          "conf": 0.936,
+          "muletas": [
+            1028
+          ],
+          "pausas": []
+        },
+        {
+          "take_id": "L22-T2",
+          "fonte": "praq0986",
+          "i_ini": 1045,
+          "i_fim": 1055,
+          "inicio": 207.32,
+          "fim": 213.26,
+          "sim": 0.812,
+          "cobertura": 0.812,
+          "flags": [
+            "muleta",
+            "pausa_interna"
+          ],
+          "score": 0.858,
+          "texto": "Ele tinha acabado de ganhado um Nobel de Física em 2024.",
+          "prefixo": 0.812,
+          "conf": 0.997,
+          "muletas": [
+            1050
+          ],
+          "pausas": [
+            [
+              209.72,
+              210.6
+            ]
+          ]
+        }
+      ],
+      "leituras_ia": [
+        {
+          "fonte": "praq0986",
+          "inicio": 177.96,
+          "fim": 182.085,
+          "sim": 1.0,
+          "texto": "Ele tinha acabado de ganhar o Nobel de Física de 2024."
+        },
+        {
+          "fonte": "praq0986",
+          "inicio": 197.74,
+          "fim": 201.935,
+          "sim": 1.0,
+          "texto": "Ele tinha acabado de ganhar o Nobel de Física de 2024."
+        }
+      ]
+    },
+    {
+      "id": "L23",
+      "status": "ok",
+      "escolhido": "L23-T1",
+      "motivo": "último take limpo (sim 0.91)",
+      "takes": [
+        {
+          "take_id": "L23-T1",
+          "fonte": "praq0986",
+          "i_ini": 1070,
+          "i_fim": 1080,
+          "inicio": 223.64,
+          "fim": 229.665,
+          "sim": 0.909,
+          "cobertura": 0.909,
+          "flags": [],
+          "score": 0.936,
+          "texto": "o Geoffrey Hinton é conhecido como o padrinho da inteligência artificial.",
+          "prefixo": 0.909,
+          "conf": 1.0,
+          "muletas": [],
+          "pausas": []
+        }
+      ],
+      "leituras_ia": [
+        {
+          "fonte": "praq0986",
+          "inicio": 216.355,
+          "fim": 221.385,
+          "sim": 1.0,
+          "texto": "Hoje, Geoffrey Hinton é conhecido como o padrinho da inteligência artificial."
+        }
+      ]
+    },
+    {
+      "id": "L24",
+      "status": "ok",
+      "escolhido": "L24-T1",
+      "motivo": "último take limpo (sim 0.86)",
+      "takes": [
+        {
+          "take_id": "L24-T1",
+          "fonte": "praq0986",
+          "i_ini": 1096,
+          "i_fim": 1107,
+          "inicio": 240.32,
+          "fim": 244.92,
+          "sim": 0.857,
+          "cobertura": 0.857,
+          "flags": [],
+          "score": 0.9,
+          "texto": "E o mais curioso, o homem que ajudou a desenvolver essa tecnologia",
+          "prefixo": 0.667,
+          "conf": 1.0,
+          "muletas": [],
+          "pausas": []
+        }
+      ],
+      "leituras_ia": [
+        {
+          "fonte": "praq0986",
+          "inicio": 232.56,
+          "fim": 237.3,
+          "sim": 1.0,
+          "texto": "E o mais curioso é que o homem que ajudou a desenvolver essa tecnologia..."
+        }
+      ]
+    },
+    {
+      "id": "L25",
+      "status": "parafrase",
+      "escolhido": "L25-T1",
+      "motivo": "paráfrase: melhor sim 0.73 (score 0.81)",
+      "takes": [
+        {
+          "take_id": "L25-T1",
+          "fonte": "praq0986",
+          "i_ini": 1123,
+          "i_fim": 1131,
+          "inicio": 257.18,
+          "fim": 261.04,
+          "sim": 0.727,
+          "cobertura": 0.727,
+          "flags": [],
+          "score": 0.809,
+          "texto": "É também o que mais alerta sobre os riscos",
+          "prefixo": 0.667,
+          "conf": 1.0,
+          "muletas": [],
+          "pausas": []
+        }
+      ],
+      "leituras_ia": [
+        {
+          "fonte": "praq0986",
+          "inicio": 251.56,
+          "fim": 254.925,
+          "sim": 1.0,
+          "texto": "É também um dos que mais alertam sobre os seus riscos."
+        }
+      ]
+    },
+    {
+      "id": "L26",
+      "status": "ok",
+      "escolhido": "L26-T1",
+      "motivo": "último take limpo (sim 1.00)",
+      "takes": [
+        {
+          "take_id": "L26-T1",
+          "fonte": "praq0986",
+          "i_ini": 1143,
+          "i_fim": 1148,
+          "inicio": 269.5,
+          "fim": 271.915,
+          "sim": 1.0,
+          "cobertura": 1.0,
+          "flags": [],
+          "score": 1.0,
+          "texto": "a história dele mostra uma coisa.",
+          "prefixo": 1.0,
+          "conf": 1.0,
+          "muletas": [],
+          "pausas": []
+        }
+      ],
+      "leituras_ia": [
+        {
+          "fonte": "praq0986",
+          "inicio": 265.66,
+          "fim": 267.355,
+          "sim": 1.0,
+          "texto": "A história dele mostra uma coisa."
+        }
+      ]
+    },
+    {
+      "id": "L27",
+      "status": "ok",
+      "escolhido": "L27-T1",
+      "motivo": "último take limpo (sim 1.00); pausa interna encurtada",
+      "takes": [
+        {
+          "take_id": "L27-T1",
+          "fonte": "praq0986",
+          "i_ini": 1161,
+          "i_fim": 1171,
+          "inicio": 282.98,
+          "fim": 288.985,
+          "sim": 1.0,
+          "cobertura": 1.0,
+          "flags": [
+            "pausa_interna"
+          ],
+          "score": 0.994,
+          "texto": "Às vezes, uma ideia que ninguém acredita pode mudar o mundo.",
+          "prefixo": 1.0,
+          "conf": 1.0,
+          "muletas": [],
+          "pausas": [
+            [
+              286.38,
+              287.22
+            ]
+          ]
+        }
+      ],
+      "leituras_ia": [
+        {
+          "fonte": "praq0986",
+          "inicio": 276.62,
+          "fim": 281.74,
+          "sim": 1.0,
+          "texto": "Às vezes, uma ideia que ninguém acredita pode mudar o mundo."
+        }
+      ]
+    },
+    {
+      "id": "L28",
+      "status": "faltando",
+      "escolhido": null,
+      "motivo": "a IA leu a linha (1×), mas não há take do Carlos; só tentativas incompletas/fracas (3 take(s), melhor sim 0.25)",
+      "takes": [
+        {
+          "take_id": "L28-T1",
+          "fonte": "praq0986",
+          "i_ini": 1185,
+          "i_fim": 1196,
+          "inicio": 299.64,
+          "fim": 304.305,
+          "sim": 0.25,
+          "cobertura": 0.5,
+          "flags": [
+            "muleta",
+            "sem_ancora"
+          ],
+          "score": 0.407,
+          "texto": "Comenta a palavra Nobel que eu vou te enviar a entrevista completa.",
+          "prefixo": 0.25,
+          "conf": 0.984,
+          "muletas": [
+            1186
+          ],
+          "pausas": []
+        },
+        {
+          "take_id": "L28-T2",
+          "fonte": "praq0986",
+          "i_ini": 1212,
+          "i_fim": 1223,
+          "inicio": 315.8,
+          "fim": 319.8,
+          "sim": 0.25,
+          "cobertura": 0.5,
+          "flags": [
+            "muleta",
+            "sem_ancora"
+          ],
+          "score": 0.457,
+          "texto": "Comenta a palavra Nobel que eu vou te enviar a entrevista completo",
+          "prefixo": 0.25,
+          "conf": 0.985,
+          "muletas": [
+            1213
+          ],
+          "pausas": []
+        },
+        {
+          "take_id": "L28-T3",
+          "fonte": "praq0986",
+          "i_ini": 1248,
+          "i_fim": 1260,
+          "inicio": 350.5,
+          "fim": 355.44,
+          "sim": 0.231,
+          "cobertura": 0.5,
+          "flags": [
+            "muleta",
+            "sem_ancora"
+          ],
+          "score": 0.497,
+          "texto": "Comenta a palavra Nobel que eu vou te enviar a entrevista completo sobre",
+          "prefixo": 0.231,
+          "conf": 0.993,
+          "muletas": [
+            1249
+          ],
+          "pausas": []
+        }
+      ],
+      "leituras_ia": [
+        {
+          "fonte": "praq0986",
+          "inicio": 291.835,
+          "fim": 295.895,
+          "sim": 1.0,
+          "texto": "Comenta Nobel que eu te mando o link oficial da entrevista dele."
+        }
+      ]
+    },
+    {
+      "id": "L29",
+      "status": "parafrase",
+      "escolhido": "L29-T1",
+      "motivo": "paráfrase: melhor sim 0.55 (score 0.69)",
+      "takes": [
+        {
+          "take_id": "L29-T1",
+          "fonte": "praq0986",
+          "i_ini": 1278,
+          "i_fim": 1288,
+          "inicio": 365.28,
+          "fim": 369.335,
+          "sim": 0.545,
+          "cobertura": 0.6,
+          "flags": [],
+          "score": 0.69,
+          "texto": "de mandar pra alguém que tá querendo desistir duma grande ideia.",
+          "prefixo": 0.545,
+          "conf": 1.0,
+          "muletas": [],
+          "pausas": []
+        }
+      ],
+      "leituras_ia": [
+        {
+          "fonte": "praq0986",
+          "inicio": 307.34,
+          "fim": 309.725,
+          "sim": 1.0,
+          "texto": "E manda pra alguém que tá desistindo de uma ideia."
+        },
+        {
+          "fonte": "praq0986",
+          "inicio": 360.12,
+          "fim": 362.505,
+          "sim": 1.0,
+          "texto": "E manda pra alguém que tá desistindo de uma ideia."
+        }
+      ]
+    },
+    {
+      "id": "L01B",
+      "status": "ok",
+      "escolhido": "L01B-T1",
+      "motivo": "último take limpo (sim 1.00)",
+      "takes": [
+        {
+          "take_id": "L01B-T1",
+          "fonte": "praq0986",
+          "i_ini": 1308,
+          "i_fim": 1319,
+          "inicio": 379.74,
+          "fim": 383.92,
+          "sim": 1.0,
+          "cobertura": 1.0,
+          "flags": [],
+          "score": 1.0,
+          "texto": "Imagina ouvir que a sua ideia vai acabar com a sua carreira.",
+          "prefixo": 1.0,
+          "conf": 1.0,
+          "muletas": [],
+          "pausas": []
+        }
+      ],
+      "leituras_ia": [
+        {
+          "fonte": "praq0986",
+          "inicio": 374.5,
+          "fim": 377.675,
+          "sim": 1.0,
+          "texto": "imagina ouvir que a sua ideia vai acabar com a sua carreira."
+        }
+      ],
+      "alternativa_de": "L01"
+    },
+    {
+      "id": "L01C",
+      "status": "ok",
+      "escolhido": "L01C-T1",
+      "motivo": "último take limpo (sim 0.90)",
+      "takes": [
+        {
+          "take_id": "L01C-T1",
+          "fonte": "praq0986",
+          "i_ini": 1331,
+          "i_fim": 1339,
+          "inicio": 393.14,
+          "fim": 397.76,
+          "sim": 0.9,
+          "cobertura": 0.9,
+          "flags": [],
+          "score": 0.93,
+          "texto": "Imagina você defender uma ideia que todo mundo achava",
+          "prefixo": 1.0,
+          "conf": 1.0,
+          "muletas": [],
+          "pausas": []
+        }
+      ],
+      "leituras_ia": [
+        {
+          "fonte": "praq0986",
+          "inicio": 386.84,
+          "fim": 390.985,
+          "sim": 1.0,
+          "texto": "Imagina você defender uma ideia que todo mundo achava impossível."
+        }
+      ],
+      "alternativa_de": "L01"
+    }
+  ],
+  "nao_mapeado": [
+    {
+      "fonte": "praq0978",
+      "inicio": 17.96,
+      "fim": 19.06,
+      "texto": "Ok, estamos de volta.",
+      "i_ini": 0,
+      "i_fim": 3,
+      "so_muletas": false
+    },
+    {
+      "fonte": "praq0978",
+      "inicio": 23.6,
+      "fim": 25.98,
+      "texto": "Estamos de volta, podemos voltar a ler o, o roteiro?",
+      "i_ini": 4,
+      "i_fim": 13,
+      "so_muletas": false
+    },
+    {
+      "fonte": "praq0978",
+      "inicio": 36.14,
+      "fim": 37.16,
+      "texto": "Vamos começar do início.",
+      "i_ini": 31,
+      "i_fim": 34,
+      "so_muletas": false
+    },
+    {
+      "fonte": "praq0978",
+      "inicio": 69.74,
+      "fim": 74.36,
+      "texto": "Pronto, pode pular a p-a fase do, da pose e vamos diretamente pro roteiro.",
+      "i_ini": 50,
+      "i_fim": 63,
+      "so_muletas": false
+    },
+    {
+      "fonte": "praq0979",
+      "inicio": 3.16,
+      "fim": 3.92,
+      "texto": "Ok, começar",
+      "i_ini": 85,
+      "i_fim": 86,
+      "so_muletas": false
+    },
+    {
+      "fonte": "praq0979",
+      "inicio": 55.74,
+      "fim": 56.24,
+      "texto": "Próxima.",
+      "i_ini": 178,
+      "i_fim": 178,
+      "so_muletas": false
+    },
+    {
+      "fonte": "praq0979",
+      "inicio": 74.94,
+      "fim": 77.76,
+      "texto": "Vamos repetir aaa, a linha anterior",
+      "i_ini": 208,
+      "i_fim": 213,
+      "so_muletas": false
+    },
+    {
+      "fonte": "praq0980",
+      "inicio": 0.56,
+      "fim": 1.3,
+      "texto": "Não, não, não, não.",
+      "i_ini": 220,
+      "i_fim": 223,
+      "so_muletas": false
+    },
+    {
+      "fonte": "praq0980",
+      "inicio": 2.24,
+      "fim": 3.34,
+      "texto": "a linha anterior dessa",
+      "i_ini": 225,
+      "i_fim": 228,
+      "so_muletas": false
+    },
+    {
+      "fonte": "praq0980",
+      "inicio": 6.86,
+      "fim": 10.28,
+      "texto": "Ah, certo. Vamo voltar. Me diga qual linha",
+      "i_ini": 229,
+      "i_fim": 236,
+      "so_muletas": false
+    },
+    {
+      "fonte": "praq0980",
+      "inicio": 15.08,
+      "fim": 18.94,
+      "texto": "A linha anterior que seria: \"de mudar o mundo\"",
+      "i_ini": 245,
+      "i_fim": 253,
+      "so_muletas": false
+    },
+    {
+      "fonte": "praq0981",
+      "inicio": 36.72,
+      "fim": 39.94,
+      "texto": "Porém, diferente que muitas pessoas imagin-",
+      "i_ini": 389,
+      "i_fim": 394,
+      "so_muletas": false
+    },
+    {
+      "fonte": "praq0981",
+      "inicio": 44.88,
+      "fim": 46.72,
+      "texto": "Calma, calma, calma. Faz o seguinte:",
+      "i_ini": 398,
+      "i_fim": 403,
+      "so_muletas": false
+    },
+    {
+      "fonte": "praq0981",
+      "inicio": 47.8,
+      "fim": 52.56,
+      "texto": "quando você ler uma linha, espera quando eu peço pra você prosseguir, ok?",
+      "i_ini": 404,
+      "i_fim": 416,
+      "so_muletas": false
+    },
+    {
+      "fonte": "praq0981",
+      "inicio": 67.26,
+      "fim": 70.4,
+      "texto": "Porém, diferente que muitas pessoas imaginavam,",
+      "i_ini": 434,
+      "i_fim": 439,
+      "so_muletas": false
+    },
+    {
+      "fonte": "praq0981",
+      "inicio": 71.98,
+      "fim": 74.8,
+      "texto": "o Hinton vem duma família de cientistas",
+      "i_ini": 440,
+      "i_fim": 446,
+      "so_muletas": false
+    },
+    {
+      "fonte": "praq0982",
+      "inicio": 22.0,
+      "fim": 23.24,
+      "texto": "a estudar os computadores.",
+      "i_ini": 471,
+      "i_fim": 474,
+      "so_muletas": false
+    },
+    {
+      "fonte": "praq0982",
+      "inicio": 71.5,
+      "fim": 72.4,
+      "texto": "Ele pensou assim:",
+      "i_ini": 533,
+      "i_fim": 535,
+      "so_muletas": false
+    },
+    {
+      "fonte": "praq0983",
+      "inicio": 11.5,
+      "fim": 19.54,
+      "texto": "E aí ele começou a pensar assim: e se a gente criasse uma máquina que consegue imitar a mente humana?",
+      "i_ini": 566,
+      "i_fim": 585,
+      "so_muletas": false
+    },
+    {
+      "fonte": "praq0983",
+      "inicio": 29.96,
+      "fim": 35.42,
+      "texto": "Só que aí que tá o problema. As pessoas não acreditavam nessa ideia.",
+      "i_ini": 595,
+      "i_fim": 607,
+      "so_muletas": false
+    },
+    {
+      "fonte": "praq0983",
+      "inicio": 47.08,
+      "fim": 47.3,
+      "texto": "Só que",
+      "i_ini": 618,
+      "i_fim": 619,
+      "so_muletas": false
+    },
+    {
+      "fonte": "praq0983",
+      "inicio": 50.92,
+      "fim": 51.655,
+      "texto": "nessa ideia.",
+      "i_ini": 625,
+      "i_fim": 626,
+      "so_muletas": false
+    },
+    {
+      "fonte": "praq0983",
+      "inicio": 63.66,
+      "fim": 65.8,
+      "texto": "E aí, o mais curioso,",
+      "i_ini": 643,
+      "i_fim": 647,
+      "so_muletas": false
+    },
+    {
+      "fonte": "praq0983",
+      "inicio": 75.58,
+      "fim": 75.86,
+      "texto": "dele.",
+      "i_ini": 665,
+      "i_fim": 665,
+      "so_muletas": false
+    },
+    {
+      "fonte": "praq0984",
+      "inicio": 6.58,
+      "fim": 7.04,
+      "texto": "Próximo",
+      "i_ini": 685,
+      "i_fim": 685,
+      "so_muletas": false
+    },
+    {
+      "fonte": "praq0984",
+      "inicio": 12.52,
+      "fim": 16.7,
+      "texto": "Como o cara é fera, ele simplesmente não desistiu",
+      "i_ini": 690,
+      "i_fim": 698,
+      "so_muletas": false
+    },
+    {
+      "fonte": "praq0984",
+      "inicio": 25.68,
+      "fim": 26.18,
+      "texto": "E aí,",
+      "i_ini": 706,
+      "i_fim": 707,
+      "so_muletas": true
+    },
+    {
+      "fonte": "praq0984",
+      "inicio": 42.14,
+      "fim": 43.54,
+      "texto": "E aí vem uma sacada.",
+      "i_ini": 728,
+      "i_fim": 732,
+      "so_muletas": false
+    },
+    {
+      "fonte": "praq0984",
+      "inicio": 48.94,
+      "fim": 51.795,
+      "texto": "imagem duma forma impecável",
+      "i_ini": 741,
+      "i_fim": 744,
+      "so_muletas": false
+    },
+    {
+      "fonte": "praq0984",
+      "inicio": 67.42,
+      "fim": 67.9,
+      "texto": "E aí,",
+      "i_ini": 759,
+      "i_fim": 760,
+      "so_muletas": true
+    },
+    {
+      "fonte": "praq0984",
+      "inicio": 72.42,
+      "fim": 74.12,
+      "texto": "imagem de forma",
+      "i_ini": 769,
+      "i_fim": 771,
+      "so_muletas": false
+    },
+    {
+      "fonte": "praq0984",
+      "inicio": 75.5,
+      "fim": 76.22,
+      "texto": "impecável",
+      "i_ini": 772,
+      "i_fim": 772,
+      "so_muletas": false
+    },
+    {
+      "fonte": "praq0985",
+      "inicio": 7.56,
+      "fim": 8.1,
+      "texto": "E aí",
+      "i_ini": 783,
+      "i_fim": 784,
+      "so_muletas": true
+    },
+    {
+      "fonte": "praq0985",
+      "inicio": 14.92,
+      "fim": 15.755,
+      "texto": "e impecável",
+      "i_ini": 796,
+      "i_fim": 797,
+      "so_muletas": false
+    },
+    {
+      "fonte": "praq0985",
+      "inicio": 25.54,
+      "fim": 27.22,
+      "texto": "Foi aí que ele",
+      "i_ini": 808,
+      "i_fim": 811,
+      "so_muletas": false
+    },
+    {
+      "fonte": "praq0986",
+      "inicio": 15.24,
+      "fim": 15.585,
+      "texto": "criar.",
+      "i_ini": 845,
+      "i_fim": 845,
+      "so_muletas": false
+    },
+    {
+      "fonte": "praq0986",
+      "inicio": 40.0,
+      "fim": 40.36,
+      "texto": "Agora,",
+      "i_ini": 877,
+      "i_fim": 877,
+      "so_muletas": false
+    },
+    {
+      "fonte": "praq0986",
+      "inicio": 73.48,
+      "fim": 74.685,
+      "texto": "de forma mais livre.",
+      "i_ini": 918,
+      "i_fim": 921,
+      "so_muletas": false
+    },
+    {
+      "fonte": "praq0986",
+      "inicio": 171.02,
+      "fim": 171.86,
+      "texto": "E a ligação",
+      "i_ini": 1002,
+      "i_fim": 1004,
+      "so_muletas": false
+    },
+    {
+      "fonte": "praq0986",
+      "inicio": 187.78,
+      "fim": 187.88,
+      "texto": "E",
+      "i_ini": 1022,
+      "i_fim": 1022,
+      "so_muletas": true
+    },
+    {
+      "fonte": "praq0986",
+      "inicio": 222.62,
+      "fim": 223.08,
+      "texto": "E hoje,",
+      "i_ini": 1068,
+      "i_fim": 1069,
+      "so_muletas": false
+    },
+    {
+      "fonte": "praq0986",
+      "inicio": 245.38,
+      "fim": 246.68,
+      "texto": "da inteligência artificial...",
+      "i_ini": 1108,
+      "i_fim": 1110,
+      "so_muletas": false
+    },
+    {
+      "fonte": "praq0986",
+      "inicio": 261.279,
+      "fim": 262.665,
+      "texto": "da inteligência artificial.",
+      "i_ini": 1132,
+      "i_fim": 1134,
+      "so_muletas": false
+    },
+    {
+      "fonte": "praq0986",
+      "inicio": 269.02,
+      "fim": 269.18,
+      "texto": "E",
+      "i_ini": 1142,
+      "i_fim": 1142,
+      "so_muletas": true
+    },
+    {
+      "fonte": "praq0986",
+      "inicio": 313.44,
+      "fim": 314.96,
+      "texto": "Comenta a palavra Nobel.",
+      "i_ini": 1208,
+      "i_fim": 1211,
+      "so_muletas": false
+    },
+    {
+      "fonte": "praq0986",
+      "inicio": 320.26,
+      "fim": 320.68,
+      "texto": "sobre",
+      "i_ini": 1224,
+      "i_fim": 1224,
+      "so_muletas": false
+    },
+    {
+      "fonte": "praq0986",
+      "inicio": 322.4,
+      "fim": 323.715,
+      "texto": "o Geoffrey Hinton.",
+      "i_ini": 1225,
+      "i_fim": 1227,
+      "so_muletas": false
+    },
+    {
+      "fonte": "praq0986",
+      "inicio": 327.72,
+      "fim": 329.06,
+      "texto": "Calma, calma, calma",
+      "i_ini": 1231,
+      "i_fim": 1233,
+      "so_muletas": false
+    },
+    {
+      "fonte": "praq0986",
+      "inicio": 356.08,
+      "fim": 357.185,
+      "texto": "Geoffrey Hinton.",
+      "i_ini": 1261,
+      "i_fim": 1262,
+      "so_muletas": false
+    },
+    {
+      "fonte": "praq0986",
+      "inicio": 363.72,
+      "fim": 365.24,
+      "texto": "E também não esquece",
+      "i_ini": 1274,
+      "i_fim": 1277,
+      "so_muletas": false
+    },
+    {
+      "fonte": "praq0986",
+      "inicio": 397.8,
+      "fim": 398.655,
+      "texto": "que é impossível.",
+      "i_ini": 1340,
+      "i_fim": 1342,
+      "so_muletas": false
+    },
+    {
+      "fonte": "praq0986",
+      "inicio": 407.78,
+      "fim": 408.28,
+      "texto": "Thank you.",
+      "i_ini": 1357,
+      "i_fim": 1358,
+      "so_muletas": false
+    }
+  ],
+  "separadores": [
+    {
+      "fonte": "praq0980",
+      "inicio": 1.7,
+      "fim": 2.2,
+      "texto": "Repete"
+    },
+    {
+      "fonte": "praq0980",
+      "inicio": 32.159,
+      "fim": 32.82,
+      "texto": "repete de novo"
+    }
+  ],
+  "fala_ia": [
+    {
+      "fonte": "praq0978",
+      "inicio": 28.98,
+      "fim": 35.175,
+      "texto": "Com certeza, vamo continuar. Me avisa se quer retomar da última linha ou de algum ponto específico.",
+      "i_ini": 14,
+      "i_fim": 30
+    },
+    {
+      "fonte": "praq0978",
+      "inicio": 38.5,
+      "fim": 43.68,
+      "texto": "Beleza. Assim que você me der o sinal, eu começo do início exatamente como antes.",
+      "i_ini": 35,
+      "i_fim": 49
+    },
+    {
+      "fonte": "praq0978",
+      "inicio": 75.76,
+      "fim": 82.06,
+      "texto": "Combinado. Vou ignorar a pose da capa e já começo direto do roteiro principal, assim que você disser",
+      "i_ini": 64,
+      "i_fim": 81
+    },
+    {
+      "fonte": "praq0979",
+      "inicio": 0.0,
+      "fim": 0.96,
+      "texto": "Pois é, começar",
+      "i_ini": 82,
+      "i_fim": 84
+    },
+    {
+      "fonte": "praq0979",
+      "inicio": 20.905,
+      "fim": 21.285,
+      "texto": "Próxima.",
+      "i_ini": 114,
+      "i_fim": 114
+    },
+    {
+      "fonte": "praq0979",
+      "inicio": 39.8,
+      "fim": 40.295,
+      "texto": "De novo.",
+      "i_ini": 146,
+      "i_fim": 147
+    },
+    {
+      "fonte": "praq0979",
+      "inicio": 67.245,
+      "fim": 67.72,
+      "texto": "Próxima.",
+      "i_ini": 197,
+      "i_fim": 197
+    },
+    {
+      "fonte": "praq0979",
+      "inicio": 79.18,
+      "fim": 81.58,
+      "texto": "De novo. Hinton nasceu em Londres",
+      "i_ini": 214,
+      "i_fim": 219
+    },
+    {
+      "fonte": "praq0980",
+      "inicio": 10.32,
+      "fim": 12.895,
+      "texto": "anterior você quer repetir e eu repito aquela",
+      "i_ini": 237,
+      "i_fim": 244
+    },
+    {
+      "fonte": "praq0980",
+      "inicio": 20.425,
+      "fim": 20.835,
+      "texto": "De novo.",
+      "i_ini": 254,
+      "i_fim": 255
+    },
+    {
+      "fonte": "praq0980",
+      "inicio": 36.56,
+      "fim": 36.975,
+      "texto": "De novo.",
+      "i_ini": 279,
+      "i_fim": 280
+    },
+    {
+      "fonte": "praq0980",
+      "inicio": 52.665,
+      "fim": 52.905,
+      "texto": "Próxima.",
+      "i_ini": 311,
+      "i_fim": 311
+    },
+    {
+      "fonte": "praq0980",
+      "inicio": 63.88,
+      "fim": 64.255,
+      "texto": "Próxima.",
+      "i_ini": 330,
+      "i_fim": 330
+    },
+    {
+      "fonte": "praq0981",
+      "inicio": 3.925,
+      "fim": 4.155,
+      "texto": "Próxima.",
+      "i_ini": 353,
+      "i_fim": 353
+    },
+    {
+      "fonte": "praq0981",
+      "inicio": 24.62,
+      "fim": 25.025,
+      "texto": "De novo.",
+      "i_ini": 375,
+      "i_fim": 376
+    },
+    {
+      "fonte": "praq0981",
+      "inicio": 43.36,
+      "fim": 44.82,
+      "texto": "De novo. Mas-",
+      "i_ini": 395,
+      "i_fim": 397
+    },
+    {
+      "fonte": "praq0981",
+      "inicio": 54.105,
+      "fim": 60.225,
+      "texto": "Combinado. Eu só vou seguir pra próxima linha quando você me disser. Vamo continuar no seu ritmo",
+      "i_ini": 417,
+      "i_fim": 433
+    },
+    {
+      "fonte": "praq0981",
+      "inicio": 76.4,
+      "fim": 76.795,
+      "texto": "De novo.",
+      "i_ini": 447,
+      "i_fim": 448
+    },
+    {
+      "fonte": "praq0982",
+      "inicio": 0.0,
+      "fim": 1.135,
+      "texto": "Ou estudando computadores",
+      "i_ini": 459,
+      "i_fim": 461
+    },
+    {
+      "fonte": "praq0982",
+      "inicio": 24.74,
+      "fim": 24.965,
+      "texto": "Próxima.",
+      "i_ini": 475,
+      "i_fim": 475
+    },
+    {
+      "fonte": "praq0982",
+      "inicio": 36.985,
+      "fim": 37.235,
+      "texto": "Próxima.",
+      "i_ini": 492,
+      "i_fim": 492
+    },
+    {
+      "fonte": "praq0982",
+      "inicio": 61.72,
+      "fim": 62.055,
+      "texto": "Próxima.",
+      "i_ini": 518,
+      "i_fim": 518
+    },
+    {
+      "fonte": "praq0983",
+      "inicio": 2.285,
+      "fim": 2.705,
+      "texto": "De novo.",
+      "i_ini": 550,
+      "i_fim": 551
+    },
+    {
+      "fonte": "praq0983",
+      "inicio": 22.665,
+      "fim": 23.005,
+      "texto": "Próxima.",
+      "i_ini": 586,
+      "i_fim": 586
+    },
+    {
+      "fonte": "praq0983",
+      "inicio": 39.14,
+      "fim": 39.545,
+      "texto": "De novo.",
+      "i_ini": 608,
+      "i_fim": 609
+    },
+    {
+      "fonte": "praq0983",
+      "inicio": 53.245,
+      "fim": 53.485,
+      "texto": "Próxima.",
+      "i_ini": 627,
+      "i_fim": 627
+    },
+    {
+      "fonte": "praq0983",
+      "inicio": 77.52,
+      "fim": 81.58,
+      "texto": "De novo. Até o próprio orientador dele aconselhou",
+      "i_ini": 666,
+      "i_fim": 673
+    },
+    {
+      "fonte": "praq0984",
+      "inicio": 0.0,
+      "fim": 4.505,
+      "texto": "Ele houve que abandonasse essa pesquisa, porque poderia destruir sua carreira",
+      "i_ini": 674,
+      "i_fim": 684
+    },
+    {
+      "fonte": "praq0984",
+      "inicio": 18.38,
+      "fim": 18.695,
+      "texto": "Próxima.",
+      "i_ini": 699,
+      "i_fim": 699
+    },
+    {
+      "fonte": "praq0984",
+      "inicio": 32.965,
+      "fim": 33.295,
+      "texto": "Próxima.",
+      "i_ini": 715,
+      "i_fim": 715
+    },
+    {
+      "fonte": "praq0984",
+      "inicio": 53.56,
+      "fim": 53.965,
+      "texto": "De novo.",
+      "i_ini": 745,
+      "i_fim": 746
+    },
+    {
+      "fonte": "praq0984",
+      "inicio": 77.845,
+      "fim": 78.095,
+      "texto": "Próxima.",
+      "i_ini": 773,
+      "i_fim": 773
+    },
+    {
+      "fonte": "praq0985",
+      "inicio": 0.0,
+      "fim": 1.235,
+      "texto": "a inteligência artificial",
+      "i_ini": 780,
+      "i_fim": 782
+    },
+    {
+      "fonte": "praq0985",
+      "inicio": 17.36,
+      "fim": 17.735,
+      "texto": "De novo,",
+      "i_ini": 798,
+      "i_fim": 799
+    },
+    {
+      "fonte": "praq0986",
+      "inicio": 1.04,
+      "fim": 1.265,
+      "texto": "Próxima.",
+      "i_ini": 820,
+      "i_fim": 820
+    },
+    {
+      "fonte": "praq0986",
+      "inicio": 17.135,
+      "fim": 17.445,
+      "texto": "Próxima.",
+      "i_ini": 846,
+      "i_fim": 846
+    },
+    {
+      "fonte": "praq0986",
+      "inicio": 35.005,
+      "fim": 35.195,
+      "texto": "Próxima.",
+      "i_ini": 872,
+      "i_fim": 872
+    },
+    {
+      "fonte": "praq0986",
+      "inicio": 45.745,
+      "fim": 46.105,
+      "texto": "Próxima.",
+      "i_ini": 882,
+      "i_fim": 882
+    },
+    {
+      "fonte": "praq0986",
+      "inicio": 58.095,
+      "fim": 58.315,
+      "texto": "Próxima.",
+      "i_ini": 896,
+      "i_fim": 896
+    },
+    {
+      "fonte": "praq0986",
+      "inicio": 76.335,
+      "fim": 76.515,
+      "texto": "Próxima.",
+      "i_ini": 922,
+      "i_fim": 922
+    },
+    {
+      "fonte": "praq0986",
+      "inicio": 81.48,
+      "fim": 81.76,
+      "texto": "2 am.",
+      "i_ini": 933,
+      "i_fim": 934
+    },
+    {
+      "fonte": "praq0986",
+      "inicio": 93.9,
+      "fim": 94.275,
+      "texto": "De novo.",
+      "i_ini": 951,
+      "i_fim": 952
+    },
+    {
+      "fonte": "praq0986",
+      "inicio": 99.0,
+      "fim": 99.34,
+      "texto": "2 am.",
+      "i_ini": 963,
+      "i_fim": 964
+    },
+    {
+      "fonte": "praq0986",
+      "inicio": 112.245,
+      "fim": 112.495,
+      "texto": "Próxima.",
+      "i_ini": 979,
+      "i_fim": 979
+    },
+    {
+      "fonte": "praq0986",
+      "inicio": 153.365,
+      "fim": 153.755,
+      "texto": "De novo.",
+      "i_ini": 995,
+      "i_fim": 996
+    },
+    {
+      "fonte": "praq0986",
+      "inicio": 176.8,
+      "fim": 177.145,
+      "texto": "Próxima.",
+      "i_ini": 1010,
+      "i_fim": 1010
+    },
+    {
+      "fonte": "praq0986",
+      "inicio": 196.4,
+      "fim": 196.815,
+      "texto": "De novo.",
+      "i_ini": 1032,
+      "i_fim": 1033
+    },
+    {
+      "fonte": "praq0986",
+      "inicio": 215.16,
+      "fim": 215.555,
+      "texto": "Próxima.",
+      "i_ini": 1056,
+      "i_fim": 1056
+    },
+    {
+      "fonte": "praq0986",
+      "inicio": 231.495,
+      "fim": 231.865,
+      "texto": "Próxima.",
+      "i_ini": 1081,
+      "i_fim": 1081
+    },
+    {
+      "fonte": "praq0986",
+      "inicio": 250.42,
+      "fim": 250.645,
+      "texto": "Próxima.",
+      "i_ini": 1111,
+      "i_fim": 1111
+    },
+    {
+      "fonte": "praq0986",
+      "inicio": 264.615,
+      "fim": 265.015,
+      "texto": "Próxima.",
+      "i_ini": 1135,
+      "i_fim": 1135
+    },
+    {
+      "fonte": "praq0986",
+      "inicio": 275.48,
+      "fim": 275.92,
+      "texto": "Próxima.",
+      "i_ini": 1149,
+      "i_fim": 1149
+    },
+    {
+      "fonte": "praq0986",
+      "inicio": 290.765,
+      "fim": 290.955,
+      "texto": "Próxima.",
+      "i_ini": 1172,
+      "i_fim": 1172
+    },
+    {
+      "fonte": "praq0986",
+      "inicio": 306.14,
+      "fim": 306.375,
+      "texto": "Próxima.",
+      "i_ini": 1197,
+      "i_fim": 1197
+    },
+    {
+      "fonte": "praq0986",
+      "inicio": 326.2,
+      "fim": 327.66,
+      "texto": "Próxima. E manda-",
+      "i_ini": 1228,
+      "i_fim": 1230
+    },
+    {
+      "fonte": "praq0986",
+      "inicio": 331.0,
+      "fim": 336.555,
+      "texto": "Sem pressa. Você que manda. Quando tiver pronto, seguimos no ritmo que você quiser.",
+      "i_ini": 1234,
+      "i_fim": 1247
+    },
+    {
+      "fonte": "praq0986",
+      "inicio": 359.04,
+      "fim": 359.445,
+      "texto": "Próxima.",
+      "i_ini": 1263,
+      "i_fim": 1263
+    },
+    {
+      "fonte": "praq0986",
+      "inicio": 371.14,
+      "fim": 373.82,
+      "texto": "Agora vamos para os hooks alternativas. Primeiro,",
+      "i_ini": 1289,
+      "i_fim": 1295
+    },
+    {
+      "fonte": "praq0986",
+      "inicio": 385.715,
+      "fim": 385.935,
+      "texto": "Próxima.",
+      "i_ini": 1320,
+      "i_fim": 1320
+    },
+    {
+      "fonte": "praq0986",
+      "inicio": 402.28,
+      "fim": 407.2,
+      "texto": "Fim do roteiro. Mandou muito bem. Se precisar de algo mais, é só falar.",
+      "i_ini": 1343,
+      "i_fim": 1356
+    },
+    {
+      "fonte": "praq0986",
+      "inicio": 410.24,
+      "fim": 410.705,
+      "texto": "Imagina.",
+      "i_ini": 1359,
+      "i_fim": 1359
+    }
+  ],
+  "locutores": {
+    "metodo": "local",
+    "n_locutores": 2,
+    "confianca_papel": 0.917,
+    "sobreposicoes": 4,
+    "segundos_ia": 230.36
+  },
+  "resumo": {
+    "ok": 13,
+    "revisar": 0,
+    "parafrase": 14,
+    "faltando": 2,
+    "nao_mapeado": 47,
+    "leituras_ia": 46,
+    "fala_ia": 61,
+    "palavras_locutor_incerto": 6
+  },
+  "parametros": {
+    "gap_take": 1.5,
+    "pausa_interna": 0.7,
+    "sim_ok": 0.8,
+    "sim_parafrase": 0.45,
+    "pesos": {
+      "sim": 0.55,
+      "cobertura": 0.15,
+      "fluencia": 0.1,
+      "recencia": 0.1,
+      "confianca": 0.1
+    }
+  }
+}

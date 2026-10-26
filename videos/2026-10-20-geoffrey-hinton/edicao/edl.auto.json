@@ -1,0 +1,669 @@
+{
+  "L01|L01-T1": {
+    "fonte": "praq0979",
+    "in": 13.36,
+    "out": 19.68,
+    "cortes_internos": [
+      [
+        15.64,
+        16.12
+      ]
+    ],
+    "zoom": null,
+    "layout": "full",
+    "zoom_pecas": [
+      1.0,
+      1.12
+    ],
+    "zoom_origem": "49.0% 30.0%"
+  },
+  "L02|L02-T5": {
+    "fonte": "praq0980",
+    "in": 45.0,
+    "out": 51.64,
+    "cortes_internos": [
+      [
+        45.92,
+        46.0
+      ],
+      [
+        47.92,
+        48.0
+      ],
+      [
+        48.64,
+        48.88
+      ],
+      [
+        49.48,
+        49.72
+      ]
+    ],
+    "zoom": null,
+    "layout": "full",
+    "zoom_pecas": [
+      1.0
+    ],
+    "zoom_origem": "41.8% 31.8%"
+  },
+  "L03|L03-T2": {
+    "fonte": "praq0980",
+    "in": 58.56,
+    "out": 62.56,
+    "cortes_internos": [
+      [
+        59.12,
+        59.48
+      ],
+      [
+        60.08,
+        60.16
+      ]
+    ],
+    "zoom": null,
+    "layout": "split",
+    "zoom_pecas": [
+      1.06
+    ],
+    "zoom_origem": "52.2% 31.0%"
+  },
+  "L04|manual|praq0980": {
+    "fonte": "praq0980",
+    "in": 78.31,
+    "out": 81.6,
+    "cortes_internos": [],
+    "zoom": null,
+    "layout": "split",
+    "zoom_pecas": [
+      1.12
+    ],
+    "zoom_origem": "66.5% 32.4%"
+  },
+  "L04|manual|praq0981": {
+    "fonte": "praq0981",
+    "in": 0.0,
+    "out": 2.62,
+    "cortes_internos": [],
+    "zoom": null,
+    "layout": "split",
+    "zoom_pecas": [
+      1.12
+    ],
+    "zoom_origem": "44.2% 33.0%"
+  },
+  "L05|manual|praq0982": {
+    "fonte": "praq0982",
+    "in": 16.49,
+    "out": 23.44,
+    "cortes_internos": [
+      [
+        19.92,
+        20.4
+      ]
+    ],
+    "zoom": null,
+    "layout": "full",
+    "zoom_pecas": [
+      1.0,
+      1.12
+    ],
+    "zoom_origem": "49.7% 31.7%"
+  },
+  "L06|L06-T1": {
+    "fonte": "praq0982",
+    "in": 31.24,
+    "out": 35.52,
+    "cortes_internos": [
+      [
+        32.96,
+        33.04
+      ]
+    ],
+    "zoom": null,
+    "layout": "full",
+    "zoom_pecas": [
+      1.0
+    ],
+    "zoom_origem": "49.7% 31.5%"
+  },
+  "L07|L07-T1": {
+    "fonte": "praq0982",
+    "in": 51.8,
+    "out": 58.08,
+    "cortes_internos": [
+      [
+        53.36,
+        53.76
+      ],
+      [
+        56.12,
+        56.48
+      ]
+    ],
+    "zoom": null,
+    "layout": "split",
+    "zoom_pecas": [
+      1.12,
+      1.0,
+      1.12
+    ],
+    "zoom_origem": "56.5% 32.1%"
+  },
+  "L08|manual|praq0983": {
+    "fonte": "praq0983",
+    "in": 14.33,
+    "out": 20.0,
+    "cortes_internos": [
+      [
+        16.48,
+        16.72
+      ],
+      [
+        18.4,
+        18.48
+      ]
+    ],
+    "zoom": null,
+    "layout": "split",
+    "zoom_pecas": [
+      1.0
+    ],
+    "zoom_origem": "56.7% 34.5%"
+  },
+  "L09|manual|praq0983": {
+    "fonte": "praq0983",
+    "in": 46.95,
+    "out": 51.86,
+    "cortes_internos": [
+      [
+        48.08,
+        48.4
+      ]
+    ],
+    "zoom": null,
+    "layout": "split",
+    "zoom_pecas": [
+      1.12,
+      1.0
+    ],
+    "zoom_origem": "30.0% 34.0%"
+  },
+  "L10|manual|praq0983": {
+    "fonte": "praq0983",
+    "in": 64.63,
+    "out": 76.06,
+    "cortes_internos": [
+      [
+        65.92,
+        66.32
+      ],
+      [
+        67.96,
+        68.4
+      ],
+      [
+        69.52,
+        69.96
+      ],
+      [
+        71.72,
+        72.16
+      ],
+      [
+        74.8,
+        74.92
+      ]
+    ],
+    "zoom": null,
+    "layout": "split",
+    "zoom_pecas": [
+      1.12,
+      1.0,
+      1.12,
+      1.0
+    ],
+    "zoom_origem": "41.7% 31.1%"
+  },
+  "L11|manual|praq0984": {
+    "fonte": "praq0984",
+    "in": 12.38,
+    "out": 17.3,
+    "cortes_internos": [
+      [
+        13.36,
+        13.52
+      ],
+      [
+        14.04,
+        14.36
+      ],
+      [
+        15.68,
+        15.76
+      ]
+    ],
+    "zoom": null,
+    "layout": "split",
+    "zoom_pecas": [
+      1.12,
+      1.0
+    ],
+    "zoom_origem": "47.6% 32.3%"
+  },
+  "L12|L12-T1": {
+    "fonte": "praq0984",
+    "in": 26.48,
+    "out": 29.92,
+    "cortes_internos": [
+      [
+        27.72,
+        27.96
+      ]
+    ],
+    "zoom": null,
+    "layout": "split",
+    "zoom_pecas": [
+      1.12
+    ],
+    "zoom_origem": "36.4% 35.5%"
+  },
+  "L13|manual|praq0985": {
+    "fonte": "praq0985",
+    "in": 8.38,
+    "out": 15.96,
+    "cortes_internos": [
+      [
+        10.32,
+        10.4
+      ],
+      [
+        12.2,
+        12.28
+      ],
+      [
+        13.08,
+        13.4
+      ],
+      [
+        14.84,
+        14.92
+      ]
+    ],
+    "zoom": null,
+    "layout": "split",
+    "zoom_pecas": [
+      1.0,
+      1.12
+    ],
+    "zoom_origem": "48.8% 33.2%"
+  },
+  "L14|manual|praq0985": {
+    "fonte": "praq0985",
+    "in": 25.4,
+    "out": 32.32,
+    "cortes_internos": [
+      [
+        26.24,
+        26.68
+      ],
+      [
+        27.36,
+        27.92
+      ],
+      [
+        28.72,
+        28.8
+      ],
+      [
+        30.16,
+        30.24
+      ]
+    ],
+    "zoom": null,
+    "layout": "full",
+    "zoom_pecas": [
+      1.0,
+      1.12
+    ],
+    "zoom_origem": "36.7% 29.4%"
+  },
+  "L15|manual|praq0986": {
+    "fonte": "praq0986",
+    "in": 8.78,
+    "out": 15.79,
+    "cortes_internos": [
+      [
+        9.88,
+        10.16
+      ],
+      [
+        10.96,
+        11.2
+      ],
+      [
+        12.4,
+        12.64
+      ],
+      [
+        13.48,
+        13.72
+      ]
+    ],
+    "zoom": null,
+    "layout": "split",
+    "zoom_pecas": [
+      1.0
+    ],
+    "zoom_origem": "37.8% 33.2%"
+  },
+  "L16|L16-T1": {
+    "fonte": "praq0986",
+    "in": 26.28,
+    "out": 33.44,
+    "cortes_internos": [
+      [
+        27.24,
+        27.64
+      ],
+      [
+        28.36,
+        28.44
+      ],
+      [
+        29.8,
+        30.08
+      ]
+    ],
+    "zoom": null,
+    "layout": "full",
+    "zoom_pecas": [
+      1.12
+    ],
+    "zoom_origem": "50% 38%"
+  },
+  "L17|manual|praq0986": {
+    "fonte": "praq0986",
+    "in": 39.86,
+    "out": 42.94,
+    "cortes_internos": [
+      [
+        40.48,
+        41.04
+      ]
+    ],
+    "zoom": null,
+    "layout": "full",
+    "zoom_pecas": [
+      1.0
+    ],
+    "zoom_origem": "62.8% 35.3%"
+  },
+  "L18|L18-T1": {
+    "fonte": "praq0986",
+    "in": 52.76,
+    "out": 56.44,
+    "cortes_internos": [
+      [
+        54.36,
+        54.68
+      ]
+    ],
+    "zoom": null,
+    "layout": "split",
+    "zoom_pecas": [
+      1.12,
+      1.0
+    ],
+    "zoom_origem": "50% 38%"
+  },
+  "L19|L19-T2": {
+    "fonte": "praq0986",
+    "in": 144.88,
+    "out": 150.72,
+    "cortes_internos": [],
+    "zoom": null,
+    "layout": "split",
+    "zoom_pecas": [
+      1.12
+    ],
+    "zoom_origem": "36.9% 31.9%"
+  },
+  "L20|L20-T2": {
+    "fonte": "praq0986",
+    "in": 102.72,
+    "out": 110.8,
+    "cortes_internos": [
+      [
+        104.44,
+        105.2
+      ],
+      [
+        106.56,
+        106.64
+      ],
+      [
+        107.6,
+        108.16
+      ],
+      [
+        109.0,
+        109.24
+      ]
+    ],
+    "zoom": null,
+    "layout": "split",
+    "zoom_pecas": [
+      1.0,
+      1.12,
+      1.0
+    ],
+    "zoom_origem": "39.8% 32.9%"
+  },
+  "L21|manual|praq0986": {
+    "fonte": "praq0986",
+    "in": 170.88,
+    "out": 175.3,
+    "cortes_internos": [
+      [
+        172.0,
+        172.44
+      ],
+      [
+        173.08,
+        173.24
+      ],
+      [
+        173.92,
+        174.52
+      ]
+    ],
+    "zoom": null,
+    "layout": "split",
+    "zoom_pecas": [
+      1.12,
+      1.0
+    ],
+    "zoom_origem": "56.2% 33.8%"
+  },
+  "L22|L22-T2": {
+    "fonte": "praq0986",
+    "in": 207.2,
+    "out": 213.76,
+    "cortes_internos": [
+      [
+        209.8,
+        210.52
+      ]
+    ],
+    "zoom": null,
+    "layout": "split",
+    "zoom_pecas": [
+      1.12,
+      1.0
+    ],
+    "zoom_origem": "48.3% 32.5%"
+  },
+  "L23|manual|praq0986": {
+    "fonte": "praq0986",
+    "in": 222.24,
+    "out": 229.86,
+    "cortes_internos": [
+      [
+        223.2,
+        223.56
+      ],
+      [
+        225.0,
+        225.4
+      ],
+      [
+        226.36,
+        226.6
+      ],
+      [
+        227.92,
+        228.0
+      ]
+    ],
+    "zoom": null,
+    "layout": "split",
+    "zoom_pecas": [
+      1.12,
+      1.0
+    ],
+    "zoom_origem": "57.8% 32.6%"
+  },
+  "L24|L24-T1": {
+    "fonte": "praq0986",
+    "in": 240.2,
+    "out": 245.08,
+    "cortes_internos": [
+      [
+        241.4,
+        241.72
+      ],
+      [
+        242.52,
+        242.64
+      ]
+    ],
+    "zoom": null,
+    "layout": "split",
+    "zoom_pecas": [
+      1.12,
+      1.0
+    ],
+    "zoom_origem": "52.4% 33.8%"
+  },
+  "L25|manual|praq0986": {
+    "fonte": "praq0986",
+    "in": 257.04,
+    "out": 262.9,
+    "cortes_internos": [
+      [
+        258.72,
+        258.8
+      ]
+    ],
+    "zoom": null,
+    "layout": "split",
+    "zoom_pecas": [
+      1.12
+    ],
+    "zoom_origem": "51.8% 32.8%"
+  },
+  "L26|L26-T1": {
+    "fonte": "praq0986",
+    "in": 269.4,
+    "out": 272.36,
+    "cortes_internos": [
+      [
+        270.4,
+        270.48
+      ],
+      [
+        271.16,
+        271.24
+      ]
+    ],
+    "zoom": null,
+    "layout": "full",
+    "zoom_pecas": [
+      1.0
+    ],
+    "zoom_origem": "50.8% 34.1%"
+  },
+  "L27|L27-T1": {
+    "fonte": "praq0986",
+    "in": 282.84,
+    "out": 289.8,
+    "cortes_internos": [
+      [
+        283.68,
+        284.04
+      ],
+      [
+        286.52,
+        287.16
+      ],
+      [
+        287.84,
+        287.92
+      ]
+    ],
+    "zoom": null,
+    "layout": "full",
+    "zoom_pecas": [
+      1.12,
+      1.0
+    ],
+    "zoom_origem": "45.5% 34.4%"
+  },
+  "L28|manual|praq0986": {
+    "fonte": "praq0986",
+    "in": 299.48,
+    "out": 304.4,
+    "cortes_internos": [
+      [
+        301.24,
+        301.48
+      ],
+      [
+        302.44,
+        302.8
+      ]
+    ],
+    "zoom": null,
+    "layout": "full",
+    "zoom_pecas": [
+      1.12,
+      1.0
+    ],
+    "zoom_origem": "40.0% 34.4%"
+  },
+  "L29|manual|praq0986": {
+    "fonte": "praq0986",
+    "in": 363.58,
+    "out": 369.95,
+    "cortes_internos": [
+      [
+        364.36,
+        364.48
+      ],
+      [
+        366.56,
+        366.64
+      ],
+      [
+        368.24,
+        368.32
+      ]
+    ],
+    "zoom": null,
+    "layout": "full",
+    "zoom_pecas": [
+      1.12
+    ],
+    "zoom_origem": "53.8% 34.1%"
+  }
+}

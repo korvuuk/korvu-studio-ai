@@ -1,0 +1,95 @@
+QUEM É JACOB COXON, O PESQUISADOR QUE AJUDOU A CONSTRUIR AS IAS MAIS FORTES E SE DEMITIU
+TELEPROMPTER
+
+COMO LER
+/    respiro curto
+//   pausa (1 segundo)
+///  pausa longa (2 segundos)
+MAIÚSCULAS = ênfase
+Errou? Diga "de novo" e repita
+a linha inteira desde o começo.
+
+━━━━ POSE DA CAPA ━━━━
+Mão aberta pedindo calma, olhar
+sério de quem vai contar algo
+grave.
+Segure 3 SEGUNDOS, em silêncio.
+É daqui que sai a capa do feed.
+
+L01
+Esse cara ajudou a construir as
+IAs mais fortes.
+/ E largou tudo.
+
+L02
+Jacob Coxon, vinte e sete anos, /
+britânico, matemática em
+Cambridge.
+
+L03
+E não era a parte fácil: /
+entrou na OpenAI pra treinar
+modelo do zero.
+
+L04
+O tal do PRÉ-TREINO, /
+que constrói o cérebro da coisa.
+
+L05
+Aí depois foi pra Anthropic, /
+a dona do Claude.
+
+L06
+Ou seja: /
+três anos dentro das duas empresas
+que puxam essa corrida. //
+
+L07
+Só que no dia oito ele publicou
+uma THREAD /
+e pediu demissão.
+
+L08
+Escreveu que as duas correm pra
+superinteligência /
+APOSTANDO COM AS NOSSAS VIDAS.
+
+L09
+E olha: /
+quem constrói IA acha que ela pode
+MATAR TODO MUNDO nesta década. //
+
+L10
+A Anthropic respondeu /
+que sempre avisou dos riscos.
+
+L11
+Mas aí vem a parte estranha: /
+o EVAN HUBINGER, que cuida de
+segurança lá dentro, concordou.
+
+L12
+Quer dizer, /
+um dos caras que construiu isso tá
+pedindo pra DESACELERAR.
+
+L13
+Me segue aqui /
+que eu trago essas histórias sem
+drama.
+
+
+━━━━ HOOKS ALTERNATIVOS — GRAVAR NO FIM ━━━━
+
+L01B
+Não é ativista, não.
+/ É quem treinava essas IAs por
+dentro.
+
+L01C
+Um pesquisador da Anthropic se
+demitiu /
+e soltou uma bomba.
+
+━━━━ FIM ━━━━
+Conferir: L01 a L13 + L01B, L01C

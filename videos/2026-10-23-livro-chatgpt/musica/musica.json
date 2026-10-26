@@ -1,0 +1,47 @@
+{
+  "opcoes": [
+    {
+      "n": 1,
+      "arquivo": "videos/2026-10-23-livro-chatgpt/musica/opcao-1.mp3",
+      "clima": "upbeat light pop electronic, bright, playful, punchy plucks and claps, 112 bpm",
+      "prompt": "Instrumental background music bed for a spoken-word social media video (Instagram Reel) about artificial intelligence. No vocals, no choir, no spoken words. Leave room for a male voice in the 200 Hz-4 kHz range: soft, sparse mid-range, no prominent lead melody, no sudden drops, builds or loud hits. Steady energy from start to end, clean ending. Mood: upbeat light pop electronic, bright, playful, punchy plucks and claps, 112 bpm",
+      "modelo": "music_v2_5",
+      "duracao_s": 36.05,
+      "gerada_em": "2026-10-21T18:33:56",
+      "licenca": "ElevenLabs Music — faixa original, uso comercial pelo plano pago da conta"
+    },
+    {
+      "n": 2,
+      "arquivo": "videos/2026-10-23-livro-chatgpt/musica/opcao-2.mp3",
+      "clima": "fun bouncy funk-pop groove, energetic, cheerful, staccato guitar-free keys and warm bass, 108 bpm",
+      "prompt": "Instrumental background music bed for a spoken-word social media video (Instagram Reel) about artificial intelligence. No vocals, no choir, no spoken words. Leave room for a male voice in the 200 Hz-4 kHz range: soft, sparse mid-range, no prominent lead melody, no sudden drops, builds or loud hits. Steady energy from start to end, clean ending. Mood: fun bouncy funk-pop groove, energetic, cheerful, staccato guitar-free keys and warm bass, 108 bpm",
+      "modelo": "music_v2_5",
+      "duracao_s": 36.05,
+      "gerada_em": "2026-10-21T18:34:22",
+      "licenca": "ElevenLabs Music — faixa original, uso comercial pelo plano pago da conta"
+    },
+    {
+      "n": 3,
+      "arquivo": "videos/2026-10-23-livro-chatgpt/musica/opcao-3.mp3",
+      "clima": "cinematic modern orchestral, sustained strings with a low warm drone, subtle pulsing ostinato, slow gentle build, inspiring confident technology documentary score, no drums, 90 bpm",
+      "prompt": "Instrumental background music bed for a spoken-word social media video (Instagram Reel) about artificial intelligence. No vocals, no choir, no spoken words. Leave room for a male voice in the 200 Hz-4 kHz range: soft, sparse mid-range, no prominent lead melody, no sudden drops, builds or loud hits. Steady energy from start to end, clean ending. Mood: cinematic modern orchestral, sustained strings with a low warm drone, subtle pulsing ostinato, slow gentle build, inspiring confident technology documentary score, no drums, 90 bpm",
+      "modelo": "music_v2_5",
+      "duracao_s": 40.05,
+      "gerada_em": "2026-10-21T21:06:04",
+      "licenca": "ElevenLabs Music — faixa original, uso comercial pelo plano pago da conta"
+    },
+    {
+      "n": 4,
+      "arquivo": "videos/2026-10-23-livro-chatgpt/musica/opcao-4.mp3",
+      "clima": "epic cinematic ambient, deep cello and low synth drone, pulsing string rhythm, soft rising swell, hopeful and confident, premium tech documentary trailer, no drums, 100 bpm",
+      "prompt": "Instrumental background music bed for a spoken-word social media video (Instagram Reel) about artificial intelligence. No vocals, no choir, no spoken words. Leave room for a male voice in the 200 Hz-4 kHz range: soft, sparse mid-range, no prominent lead melody, no sudden drops, builds or loud hits. Steady energy from start to end, clean ending. Mood: epic cinematic ambient, deep cello and low synth drone, pulsing string rhythm, soft rising swell, hopeful and confident, premium tech documentary trailer, no drums, 100 bpm",
+      "modelo": "music_v2_5",
+      "duracao_s": 40.05,
+      "gerada_em": "2026-10-21T21:06:09",
+      "licenca": "ElevenLabs Music — faixa original, uso comercial pelo plano pago da conta"
+    }
+  ],
+  "escolhida": 4,
+  "volume_sugerido_db": -13,
+  "nota": "21/10: opcoes 1-2 (pop leve) descartadas pelo Carlos; pedido cinematografico. Opcoes 3-4 geradas 40 s (video 34,5-34,8 s; audio.py corta e faz fade). Escolha 3 provisoria; mixar no /renderizar com audio.py --musica. Cordas sustentadas somem menos que plucks, por isso -13 dB sugerido."
+}

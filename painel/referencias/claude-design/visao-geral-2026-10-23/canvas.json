@@ -1,0 +1,22 @@
+{
+  "v": 3,
+  "createdOnFiles": { "v": 1, "at": "2026-10-23T14:45:00Z" },
+  "title": "korvu. painel — Visão geral",
+  "launch": { "view": "canvas" },
+  "pages": [],
+  "boards": {
+    "Main.dc.html": { "x": 0, "y": 0, "w": 1920, "h": 1080, "title": "Visão geral · desktop 16:9", "is_interactive": true },
+    "Equipe.dc.html": { "x": 2000, "y": 0, "w": 1920, "h": 1080, "title": "Equipe · desktop 16:9", "is_interactive": true }
+  },
+  "order": ["Main.dc.html", "Equipe.dc.html"],
+  "notes": {},
+  "designSystems": [
+    {
+      "title": "korvu. painel",
+      "namespace": "korvu",
+      "artifact": "https://claude.ai/code/artifact/ae5f84d9-96aa-4047-829b-3a8ed5e71a7b",
+      "version": "1792760364-996d",
+      "copiedAt": "2026-10-23T14:45:00Z"
+    }
+  ]
+}

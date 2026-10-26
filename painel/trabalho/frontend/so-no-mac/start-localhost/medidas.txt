@@ -1,0 +1,6 @@
+# capturar.sh · 2026-10-23T12:04:59.681Z
+# alvo	largura pedida	innerWidth	scrollWidth	altura	HTTP	png	passa da borda
+/	1440	1440	1440	1450	200	/Users/teste/Documents/CONTENT AI/painel/trabalho/frontend/so-no-mac/start-localhost/inicio-1440.png	
+/	375	375	375	2436	200	/Users/teste/Documents/CONTENT AI/painel/trabalho/frontend/so-no-mac/start-localhost/inicio-375.png	
+/desempenho	1440	1440	1440	2145	200	/Users/teste/Documents/CONTENT AI/painel/trabalho/frontend/so-no-mac/start-localhost/desempenho-1440.png	
+/desempenho	375	375	375	3512	200	/Users/teste/Documents/CONTENT AI/painel/trabalho/frontend/so-no-mac/start-localhost/desempenho-375.png	

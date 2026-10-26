@@ -1,0 +1,45 @@
+(1) o script como está (corte embutido '2026-10-23T15:00:00Z', comparação de texto) × sincronizador --regra-do-script --ate 2026-10-23T15:00:00.999Z
+   sincronizador: ✓ painel sincronizado  departamentos 7  agentes 26  videos 12  portoes_estado 56  veredictos 14  fila 5  publicacoes 5  metricas 10  perfil_snapshots 2  perfil_demografia 330  precos_modelo 4  cambio 1  nao_publicar 1  execucoes 154  uso_execucao 176  tokens 58099866  usd 1095.79  usd_cache_1.25x 992.49  sem_preco <synthetic>:5  usage_provisorio 521  ate 2026-10-23T15:00:00.999000+00:00  regra_do_script 1  arquivadas 0
+
+    (a) regra do script, lado a lado
+                             tokens script  tokens banco  US$ script   US$ banco
+   TOTAL                        37,466,974    37,466,974      532.24    532.2359  ok
+   modelo: claude-opus-5-5      31,048,276    31,048,276      429.62    429.6184  ok
+   modelo: claude-sonnet-5-5      4,590,342     4,590,342       22.34     22.3408  ok
+   modelo: claude-fable-5-1      1,828,356     1,828,356       80.28     80.2767  ok
+   depto: direcao               23,458,725    23,458,725       397.6    397.6032  ok
+   depto: tecnologia             6,329,369     6,329,369       86.24     86.2350  ok
+   depto: pos                    2,625,842     2,625,842       19.38     19.3794  ok
+   depto: roteiro                2,098,188     2,098,188       12.19     12.1869  ok
+   depto: pesquisa               1,733,923     1,733,923        10.8     10.8047  ok
+   depto: arte                     909,271       909,271        4.18      4.1843  ok
+   depto: distribuicao             311,656       311,656        1.84      1.8424  ok
+   por agente (25 chaves): tokens, US$ e tarefas iguais
+
+(2) o corte do coordenador, 2026-10-23T15:02:49.958Z (inclusive)
+   (a) sincronizador --regra-do-script: ✓ painel sincronizado  departamentos 7  agentes 26  videos 12  portoes_estado 56  veredictos 14  fila 5  publicacoes 5  metricas 10  perfil_snapshots 2  perfil_demografia 330  precos_modelo 4  cambio 1  nao_publicar 1  execucoes 154  uso_execucao 176  tokens 58332342  usd 1099.65  usd_cache_1.25x 996.13  sem_preco <synthetic>:5  usage_provisorio 521  ate 2026-10-23T15:02:49.958000+00:00  regra_do_script 1  arquivadas 0
+
+    (a) regra do script (1.ª linha) × tokens-custos.py com o mesmo corte
+                             tokens script  tokens banco  US$ script   US$ banco
+   TOTAL                        37,699,450    37,699,450      536.09    536.0872  ok
+   modelo: claude-opus-5-5      31,280,752    31,280,752      433.47    433.4697  ok
+   modelo: claude-sonnet-5-5      4,590,342     4,590,342       22.34     22.3408  ok
+   modelo: claude-fable-5-1      1,828,356     1,828,356       80.28     80.2767  ok
+   depto: direcao               23,592,959    23,592,959      400.48    400.4783  ok
+   depto: tecnologia             6,427,611     6,427,611       87.21     87.2113  ok
+   depto: pos                    2,625,842     2,625,842       19.38     19.3794  ok
+   depto: roteiro                2,098,188     2,098,188       12.19     12.1869  ok
+   depto: pesquisa               1,733,923     1,733,923        10.8     10.8047  ok
+   depto: arte                     909,271       909,271        4.18      4.1843  ok
+   depto: distribuicao             311,656       311,656        1.84      1.8424  ok
+   por agente (25 chaves): tokens, US$ e tarefas iguais
+
+   (b) sincronizador, regra do painel (última linha): ✓ painel sincronizado  departamentos 7  agentes 26  videos 12  portoes_estado 56  veredictos 14  fila 5  publicacoes 5  metricas 10  perfil_snapshots 2  perfil_demografia 330  precos_modelo 4  cambio 1  nao_publicar 1  execucoes 154  uso_execucao 176  tokens 60162529  usd 1143.12  usd_cache_1.25x 1039.61  sem_preco <synthetic>:5  usage_provisorio 521  ate 2026-10-23T15:02:49.958000+00:00  arquivadas 0
+
+   (c) a diferença, explicada pelas respostas com usage provisório (conta à parte, direto dos .jsonl):
+       banco (b) − script (a): 210,093 tokens · US$ 2.9705
+       Σ (última − 1.ª linha):  210,093 tokens · US$ 2.9705 · 240 respostas afetadas na janela
+       só a saída muda: True · a última nunca é menor: True · versões: ['2.1.284', '2.1.295', '2.1.304']
+       por modelo (b − a): {'claude-opus-5-5': (86955, '1.7391'), 'claude-sonnet-5-5': (123138, '1.2314'), 'claude-fable-5-1': (0, '0.0000')}
+
+   em libras (taxa 0.7465 £/US$, XE, 23/10): (b) US$ 539.06 → £ 402.41 · (a) US$ 536.09 → £ 400.19

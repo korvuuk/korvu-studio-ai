@@ -1,0 +1,24 @@
+{
+  "slug": "2026-10-20-fei-fei-li-a",
+  "criado_em": "2026-10-17T08:29:13+01:00",
+  "duracao": 168.49,
+  "qa": "PASS",
+  "arquivos": {
+    "video": "video/video-final-a.mp4",
+    "variantes": [],
+    "capa": "capa/capa.png",
+    "legendas": "legendas/legendas.srt",
+    "material": "material/palestra-fei-fei-li-ted2015.pdf",
+    "roteiro": "roteiro.md",
+    "qa": "qa-relatorio.md"
+  },
+  "cta_palavra": "AULA",
+  "material_titulo": "o link da palestra da Fei-Fei Li",
+  "tema": "Quem é Fei-Fei Li: a adolescente que chegou sem falar inglês, era a voz da família na lavanderia e montou o banco de fotos que ajudou a IA a enxergar",
+  "pilar": "perfil",
+  "notas": [
+    "17/10: versão A do par A/B (docs/decisoes.md §5b) — Carlos desde o quadro 0; resto idêntico à B (2026-10-20-fei-fei-li); vídeo = videos/2026-10-20-fei-fei-li/edicao/final-A.mp4; qa_check PASS (edicao/final-A.qa.md)",
+    "A v2: mesmas mudanças da B a partir da L03; vídeo trocado 17/10 ~12:50",
+    "v3.2: crédito no rodapé + L22 em pilha; vídeo trocado 17/10 ~13:30"
+  ]
+}

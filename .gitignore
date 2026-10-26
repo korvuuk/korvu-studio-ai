@@ -1,0 +1,44 @@
+# segredos
+.env
+.env.*
+!.env.example
+
+# mídia pesada (fica só no disco)
+*.mp4
+*.mov
+*.MOV
+*.m4v
+*.mkv
+*.wav
+*.mp3
+*.m4a
+*.aac
+*.braw
+*.r3d
+videos/*/brutos/
+videos/*/edicao/*.mp4
+videos/*/edicao/frames/
+05-render-pronto/*/video/
+06-publicar/*/video/
+07-publicados/*/video/
+02-calibracao/amostras/*
+!02-calibracao/amostras/.gitkeep
+
+# saídas de testes (regeneráveis)
+tests/render/
+tests/cor/_saida/
+tests/publicar/_saida/
+videos/_teste-*/
+*.png.tmp
+
+# prévias dos looks do painel (painel/sync/previas_looks.py gera de novo quando precisa)
+painel/previas/
+
+# ambientes
+.venv/
+__pycache__/
+*.pyc
+node_modules/
+remotion/out/
+remotion/public/_render/
+.DS_Store

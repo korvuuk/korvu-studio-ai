@@ -1,0 +1,39 @@
+{
+ "engine": "mlx",
+ "modelo": "mlx-community/whisper-large-v3-turbo",
+ "versao": 2,
+ "lacunas": 2,
+ "palavras": [
+  {
+   "texto": "E",
+   "inicio": 0.236,
+   "fim": 0.716,
+   "conf": 0.201904296875
+  },
+  {
+   "texto": "aí",
+   "inicio": 0.716,
+   "fim": 1.916,
+   "conf": 0.92431640625
+  },
+  {
+   "texto": "E",
+   "inicio": 3.4600000000000004,
+   "fim": 4.86,
+   "conf": 0.209228515625
+  },
+  {
+   "texto": "aí",
+   "inicio": 4.86,
+   "fim": 4.886,
+   "conf": 0.962890625
+  },
+  {
+   "texto": "aí",
+   "inicio": 4.886,
+   "fim": 5.3260000000000005,
+   "conf": 0.9423828125
+  }
+ ],
+ "texto": " E aí"
+}

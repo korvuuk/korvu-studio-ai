@@ -1,0 +1,9 @@
+# capturar.sh · 2026-10-23T16:11:06.893Z
+# alvo	largura pedida	innerWidth	scrollWidth	altura	HTTP	png	passa da borda
+painel/design/telas/visao-geral.html	1920	1920	1920	4425	200	/Users/teste/Documents/CONTENT AI/painel/portoes/capturas-07273fe17bdb/1920/visao-geral-1920.png	
+painel/design/telas/equipe.html	1920	1920	1920	3223	200	/Users/teste/Documents/CONTENT AI/painel/portoes/capturas-07273fe17bdb/1920/equipe-1920.png	
+painel/design/telas/producao.html	1920	1920	1920	4422	200	/Users/teste/Documents/CONTENT AI/painel/portoes/capturas-07273fe17bdb/1920/producao-1920.png	
+painel/design/telas/calendario.html	1920	1920	1920	3169	200	/Users/teste/Documents/CONTENT AI/painel/portoes/capturas-07273fe17bdb/1920/calendario-1920.png	
+painel/design/telas/desempenho.html	1920	1920	1920	3089	200	/Users/teste/Documents/CONTENT AI/painel/portoes/capturas-07273fe17bdb/1920/desempenho-1920.png	
+painel/design/telas/biblioteca.html	1920	1920	1920	2377	200	/Users/teste/Documents/CONTENT AI/painel/portoes/capturas-07273fe17bdb/1920/biblioteca-1920.png	
+painel/design/telas/tokens-e-custos.html	1920	1920	1920	3781	200	/Users/teste/Documents/CONTENT AI/painel/portoes/capturas-07273fe17bdb/1920/tokens-e-custos-1920.png	

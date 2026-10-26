@@ -1,0 +1,123 @@
+{
+  "v": 3,
+  "assetGroups": {
+    "Icons": {
+      "files": {
+        "biblioteca.svg": {
+          "blob": "e41c9b5e84d1a864842733a215741c08",
+          "name": "biblioteca.svg",
+          "size": 422,
+          "type": "image/svg+xml"
+        },
+        "calendario.svg": {
+          "blob": "f84d5ec6eb3a4c8e7517a6ff6a169dbc",
+          "name": "calendario.svg",
+          "size": 324,
+          "type": "image/svg+xml"
+        },
+        "desempenho.svg": {
+          "blob": "492091af4cdfcc1d466409992e77934b",
+          "name": "desempenho.svg",
+          "size": 290,
+          "type": "image/svg+xml"
+        },
+        "equipe.svg": {
+          "blob": "63d837cc257ade9ed20f829e7aab9f87",
+          "name": "equipe.svg",
+          "size": 374,
+          "type": "image/svg+xml"
+        },
+        "tokens-custos.svg": {
+          "blob": "508a4c7dd6950f46cb0f039682f49fe9",
+          "name": "tokens-custos.svg",
+          "size": 361,
+          "type": "image/svg+xml"
+        },
+        "videos-portoes.svg": {
+          "blob": "24394886d5e290a2ea07badcf383104a",
+          "name": "videos-portoes.svg",
+          "size": 362,
+          "type": "image/svg+xml"
+        },
+        "visao-geral.svg": {
+          "blob": "4067cebf386df9a176e4e99f12cb2a52",
+          "name": "visao-geral.svg",
+          "size": 424,
+          "type": "image/svg+xml"
+        }
+      },
+      "name": "Icons",
+      "order": [
+        "visao-geral.svg",
+        "equipe.svg",
+        "videos-portoes.svg",
+        "calendario.svg",
+        "desempenho.svg",
+        "biblioteca.svg",
+        "tokens-custos.svg"
+      ],
+      "tile": "s"
+    },
+    "Logos": {
+      "files": {
+        "korvu-painel-ink.svg": {
+          "blob": "d8305d891e43c84b4cd4f2b0bdccee6f",
+          "name": "korvu-painel-ink.svg",
+          "size": 10501,
+          "type": "image/svg+xml"
+        },
+        "korvu-painel-ivory.svg": {
+          "blob": "728832e428ade9e0ddb37ddcc5720390",
+          "name": "korvu-painel-ivory.svg",
+          "size": 10501,
+          "type": "image/svg+xml"
+        }
+      },
+      "name": "Logos",
+      "order": [
+        "korvu-painel-ink.svg",
+        "korvu-painel-ivory.svg"
+      ],
+      "tile": "l"
+    },
+    "Prancha": {
+      "files": {
+        "korvu-painel-design-system-2560x1440.png": {
+          "blob": "e3b0f7523e11e93a24a2e0d6bc7eb082",
+          "name": "korvu-painel-design-system-2560x1440.png",
+          "size": 595657,
+          "type": "image/png"
+        }
+      },
+      "name": "Prancha",
+      "order": [
+        "korvu-painel-design-system-2560x1440.png"
+      ],
+      "tile": "l"
+    }
+  },
+  "blobs": {},
+  "createdOnFiles": {
+    "at": "2026-10-23T12:59:05Z",
+    "v": 1
+  },
+  "docs": {
+    "sections": []
+  },
+  "groups": [
+    "Prancha",
+    "Logos",
+    "Icons"
+  ],
+  "lastChange": {
+    "at": "2026-10-23T12:59:05Z",
+    "by": "Carlos",
+    "note": "Design system inicial do korvu. painel: tokens, 19 componentes, ícones, logótipo, capa e prancha 16:9.",
+    "via": "Claude"
+  },
+  "layout": "files",
+  "libraries": [],
+  "namespace": "Korvu",
+  "sections": {},
+  "title": "korvu. painel"
+}

@@ -1,0 +1,136 @@
+{
+  "resultado": "FALHOU",
+  "motivos": [
+    "WER geral 16.0% > 8%"
+  ],
+  "wer_geral": 0.1605,
+  "linhas": [
+    {
+      "id": "L01",
+      "status": "presente",
+      "wer": 0.1111,
+      "esperado": "Joga o livro no ChatGPT e escreve barra mindmap.",
+      "ouvido": "Joga o livro no ChatGPT e escreve /mindmap.",
+      "S": 0,
+      "D": 1,
+      "I": 0
+    },
+    {
+      "id": "L02",
+      "status": "presente",
+      "wer": 0.125,
+      "esperado": "Ele te devolve o mapa mental do livro.",
+      "ouvido": "Ele te devolve uma mapa mental do livro.",
+      "S": 1,
+      "D": 0,
+      "I": 0
+    },
+    {
+      "id": "L03",
+      "status": "presente",
+      "wer": 0.1111,
+      "esperado": "Barra sketchnote: o resumo do livro em anotação ilustrada.",
+      "ouvido": "sketchnote, o resumo do livro em anotação ilustrada.",
+      "S": 0,
+      "D": 1,
+      "I": 0
+    },
+    {
+      "id": "L04",
+      "status": "presente",
+      "wer": 0.2727,
+      "esperado": "Barra flashcards: ele te entrega cartões com o resumo do conteúdo.",
+      "ouvido": "Flashcard, ele te entrega cartões com resumo do conteúdo.",
+      "S": 1,
+      "D": 2,
+      "I": 0
+    },
+    {
+      "id": "L05",
+      "status": "presente",
+      "wer": 0.1,
+      "esperado": "Barra fluxograma: ele resume o livro num fluxo de aprendizado.",
+      "ouvido": "/fluxograma, ele resume o livro num fluxo de aprendizado.",
+      "S": 0,
+      "D": 1,
+      "I": 0
+    },
+    {
+      "id": "L06",
+      "status": "presente",
+      "wer": 0.1,
+      "esperado": "E barra quadrinhos: ele resume as ideias principais em quadrinhos.",
+      "ouvido": "E /quadrinhos, ele resume as ideias principais em quadrinhos.",
+      "S": 0,
+      "D": 1,
+      "I": 0
+    },
+    {
+      "id": "L07",
+      "status": "presente",
+      "wer": 0.1111,
+      "esperado": "Comenta a palavra LIVRO que eu vou te enviar",
+      "ouvido": "Comente a palavra \"livro\" que eu vou te enviar",
+      "S": 1,
+      "D": 0,
+      "I": 0
+    },
+    {
+      "id": "L08",
+      "status": "presente",
+      "wer": 0.0,
+      "esperado": "mais 50 comandos no seu direct.",
+      "ouvido": "mais cinquenta comandos no seu direct",
+      "S": 0,
+      "D": 0,
+      "I": 0
+    },
+    {
+      "id": "L09",
+      "status": "presente",
+      "wer": 0.4444,
+      "esperado": "E manda pra quem tem livro parado na estante.",
+      "ouvido": "e manda pra quem tem livros parados no seu estante",
+      "S": 3,
+      "D": 0,
+      "I": 1
+    }
+  ],
+  "extras": [],
+  "duracao": {
+    "video": 34.44,
+    "audio": 34.44,
+    "pecas": 34.44,
+    "edl": 34.44,
+    "alvo": 35.0
+  },
+  "av_ok": true,
+  "duracao_ok": true,
+  "engine": "scribe",
+  "voz_ia": {
+    "aplicavel": true,
+    "segundos": 0.06,
+    "trechos": [
+      [
+        16.081,
+        16.141
+      ]
+    ],
+    "palavras_ia": [],
+    "limiar_llr": 1.5,
+    "segundos_edl": 0.0,
+    "limite": 0.2
+  },
+  "voz_ia_ok": true,
+  "fps": {
+    "video": 25.0,
+    "projeto": 25,
+    "ok": true,
+    "frame_s": 0.04
+  },
+  "formato": {
+    "largura": 1080,
+    "altura": 1920,
+    "pix_fmt": "yuv422p10le"
+  }
+}

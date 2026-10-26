@@ -1,0 +1,11 @@
+{
+  "descricao": "Travas manuais 'não publicar' — MARCA PARA O PAINEL (painel/sync/sincronizar.py → tabela nao_publicar). O publicar.py e o montar_pacote.py NÃO leem este arquivo: quem segura a publicação de verdade continua sendo o fluxo (só publica o que está em 06-publicar/ com selo e portões — docs/gauntlet.md). Uma entrada por slug de vídeo ou de pasta de pacote; 'desde' = AAAA-MM-DD a partir de quando vale a trava. Aprovado em 23/10/2026 pela sessão que coordena o painel.",
+  "travas": [
+    {
+      "slug": "2026-09-16-chatgpt-contexto",
+      "motivo": "teste de cor; não publicar",
+      "desde": "2026-09-19",
+      "fonte": "_controle/CONTINUAR.md §2 (tabela de vídeos: 'era teste de cor; não publicar') e HANDOFF.md, entrada 15/09–19/09 ('teste de cor, não publicar'). A data exata da decisão não está registrada: 'desde' é o último dia dessa entrada do HANDOFF, quando a marca já existia. Limpeza de 23/10 (aprovada pelo Carlos): gravação, edição, capa e o pacote de 05-render-pronto/ apagados; ficam só os textos do roteiro (_controle/limpeza-2026-10-23.md)."
+    }
+  ]
+}

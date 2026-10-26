@@ -1,0 +1,16 @@
+# capturar.sh · 2026-10-23T15:39:32.265Z
+# alvo	largura pedida	innerWidth	scrollWidth	altura	HTTP	png	passa da borda
+painel/design/telas/visao-geral.html	1440	1440	1440	4961	200	/Users/teste/Documents/CONTENT AI/painel/trabalho/designer/telas-v3/visao-geral-1440.png	
+painel/design/telas/visao-geral.html	375	375	375	9589	200	/Users/teste/Documents/CONTENT AI/painel/trabalho/designer/telas-v3/visao-geral-375.png	
+painel/design/telas/equipe.html	1440	1440	1440	3631	200	/Users/teste/Documents/CONTENT AI/painel/trabalho/designer/telas-v3/equipe-1440.png	
+painel/design/telas/equipe.html	375	375	375	7555	200	/Users/teste/Documents/CONTENT AI/painel/trabalho/designer/telas-v3/equipe-375.png	
+painel/design/telas/producao.html	1440	1440	1440	4565	200	/Users/teste/Documents/CONTENT AI/painel/trabalho/designer/telas-v3/producao-1440.png	
+painel/design/telas/producao.html	375	375	375	7672	200	/Users/teste/Documents/CONTENT AI/painel/trabalho/designer/telas-v3/producao-375.png	
+painel/design/telas/calendario.html	1440	1440	1440	3623	200	/Users/teste/Documents/CONTENT AI/painel/trabalho/designer/telas-v3/calendario-1440.png	
+painel/design/telas/calendario.html	375	375	375	7211	200	/Users/teste/Documents/CONTENT AI/painel/trabalho/designer/telas-v3/calendario-375.png	
+painel/design/telas/desempenho.html	1440	1440	1440	3464	200	/Users/teste/Documents/CONTENT AI/painel/trabalho/designer/telas-v3/desempenho-1440.png	
+painel/design/telas/desempenho.html	375	375	375	6831	200	/Users/teste/Documents/CONTENT AI/painel/trabalho/designer/telas-v3/desempenho-375.png	
+painel/design/telas/biblioteca.html	1440	1440	1440	2732	200	/Users/teste/Documents/CONTENT AI/painel/trabalho/designer/telas-v3/biblioteca-1440.png	
+painel/design/telas/biblioteca.html	375	375	375	6312	200	/Users/teste/Documents/CONTENT AI/painel/trabalho/designer/telas-v3/biblioteca-375.png	
+painel/design/telas/tokens-e-custos.html	1440	1440	1440	4427	200	/Users/teste/Documents/CONTENT AI/painel/trabalho/designer/telas-v3/tokens-e-custos-1440.png	
+painel/design/telas/tokens-e-custos.html	375	375	375	8117	200	/Users/teste/Documents/CONTENT AI/painel/trabalho/designer/telas-v3/tokens-e-custos-375.png	

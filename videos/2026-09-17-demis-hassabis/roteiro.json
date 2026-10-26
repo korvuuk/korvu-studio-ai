@@ -1,0 +1,651 @@
+{
+  "slug": "2026-09-17-demis-hassabis",
+  "versao": 6,
+  "tema": "Quem é Demis Hassabis: do menino do xadrez ao Nobel com IA, criando a DeepMind em Londres",
+  "pilar": "perfil",
+  "estrutura": "5-antes-depois-invertido",
+  "hook_template": "curiosidade",
+  "duracao_alvo": 60.0,
+  "wps_ref": 2.3,
+  "hooks": {
+    "A": {
+      "fala": "Aprendeu xadrez aos quatro anos. E ganhou um Nobel com IA."
+    },
+    "B": {
+      "fala": "Um jogador de xadrez que acabou ganhando um Nobel."
+    },
+    "C": {
+      "fala": "A DeepMind nasceu aqui em Londres. E mudou a IA."
+    }
+  },
+  "hook_escolhido": "A",
+  "titulo": {
+    "contexto": "Aprendeu xadrez aos quatro anos",
+    "impacto": "e ganhou um Nobel com IA",
+    "cinza": 2,
+    "rabisco": "Nobel"
+  },
+  "pose_capa": "mão no queixo como quem pensa uma jogada de xadrez, sobrancelha erguida",
+  "cta_tipo": "seguir",
+  "cta_palavra": null,
+  "material": null,
+  "total_palavras": 146,
+  "duracao_estimada": 66.5,
+  "extras": [
+    {
+      "id": "E30",
+      "tipo": "video",
+      "descricao": "O Hassabis menino em P&B, concentrado no tabuleiro",
+      "fonte": "`brutos/extras/`",
+      "credito": "The Thinking Game (Google DeepMind / Greg Kohs)",
+      "som": false,
+      "linhas": [
+        "L01"
+      ]
+    },
+    {
+      "id": "E41",
+      "tipo": "video",
+      "descricao": "Hassabis sentado e parado no escritório escuro (4:49)",
+      "fonte": "`brutos/extras/`",
+      "credito": "The Thinking Game (Google DeepMind / Greg Kohs)",
+      "som": false,
+      "linhas": [
+        "L02"
+      ]
+    },
+    {
+      "id": "E42",
+      "tipo": "video",
+      "descricao": "Foto: Hassabis jovem com a equipe de videogame (42:28)",
+      "fonte": "`brutos/extras/`",
+      "credito": "The Thinking Game (Google DeepMind / Greg Kohs)",
+      "som": false,
+      "linhas": [
+        "L03"
+      ]
+    },
+    {
+      "id": "E32",
+      "tipo": "video",
+      "descricao": "Hassabis calmo no escritório falando dos 17 anos e de Cambridge (42:37)",
+      "fonte": "`brutos/extras/`",
+      "credito": "The Thinking Game (Google DeepMind / Greg Kohs)",
+      "som": false,
+      "linhas": [
+        "L04"
+      ]
+    },
+    {
+      "id": "E44",
+      "tipo": "video",
+      "descricao": "Hassabis jovem apresentando a missão da DeepMind, de pé e calmo (7:22)",
+      "fonte": "`brutos/extras/`",
+      "credito": "The Thinking Game (Google DeepMind / Greg Kohs)",
+      "som": false,
+      "linhas": [
+        "L05",
+        "L06"
+      ]
+    },
+    {
+      "id": "E45",
+      "tipo": "video",
+      "descricao": "A partida: Lee Sedol pensando contra o AlphaGo e o tabuleiro na transmissão (18:09)",
+      "fonte": "`brutos/extras/`",
+      "credito": "The Thinking Game (Google DeepMind / Greg Kohs)",
+      "som": false,
+      "linhas": [
+        "L07"
+      ]
+    },
+    {
+      "id": "E37",
+      "tipo": "video",
+      "descricao": "Hassabis explicando o Go em entrevista (8:41)",
+      "fonte": "`brutos/extras/`",
+      "credito": "AlphaGo - The Movie (Google DeepMind)",
+      "som": false,
+      "linhas": [
+        "L08"
+      ]
+    },
+    {
+      "id": "E38",
+      "tipo": "video",
+      "descricao": "Hassabis vendo os resultados do CASP — AlphaFold (57:02)",
+      "fonte": "`brutos/extras/`",
+      "credito": "The Thinking Game (Google DeepMind / Greg Kohs)",
+      "som": false,
+      "linhas": [
+        "L09"
+      ]
+    },
+    {
+      "id": "E39",
+      "tipo": "video",
+      "descricao": "Hassabis em casa diante dos gráficos do CASP14 (58:35)",
+      "fonte": "`brutos/extras/`",
+      "credito": "The Thinking Game (Google DeepMind / Greg Kohs)",
+      "som": false,
+      "linhas": [
+        "L10"
+      ]
+    }
+  ],
+  "linhas": [
+    {
+      "id": "L01",
+      "secao": "hook",
+      "fala": "Aprendeu xadrez aos quatro anos. E ganhou um Nobel com IA.",
+      "fala_original": "Aprendeu xadrez aos quatro anos. / E ganhou um **Nobel** com IA.",
+      "palavras": [
+        "aprendeu",
+        "xadrez",
+        "aos",
+        "quatro",
+        "anos",
+        "e",
+        "ganhou",
+        "um",
+        "nobel",
+        "com",
+        "ia"
+      ],
+      "destaques": [
+        "Nobel"
+      ],
+      "pausa_depois": "normal",
+      "tela": "",
+      "animacao": null,
+      "extras_ref": [
+        {
+          "id": "E30",
+          "modo": "split",
+          "in": null,
+          "out": null
+        }
+      ],
+      "alternativa_de": null,
+      "tempo_estimado": [
+        0.0,
+        4.98
+      ]
+    },
+    {
+      "id": "L02",
+      "secao": "promessa",
+      "fala": "Demis Hassabis, nascido aqui em Londres.",
+      "fala_original": "Demis Hassabis, nascido aqui em Londres.",
+      "palavras": [
+        "demis",
+        "hassabis",
+        "nascido",
+        "aqui",
+        "em",
+        "londres"
+      ],
+      "destaques": [],
+      "pausa_depois": "normal",
+      "tela": "",
+      "animacao": null,
+      "extras_ref": [
+        {
+          "id": "E41",
+          "modo": "split",
+          "in": null,
+          "out": null
+        }
+      ],
+      "alternativa_de": null,
+      "tempo_estimado": [
+        4.98,
+        7.79
+      ]
+    },
+    {
+      "id": "L03",
+      "secao": "corpo",
+      "fala": "Aos treze já era mestre de xadrez. Aos dezessete, criava videogame.",
+      "fala_original": "Aos treze já era mestre de xadrez. / Aos dezessete, criava videogame.",
+      "palavras": [
+        "aos",
+        "treze",
+        "já",
+        "era",
+        "mestre",
+        "de",
+        "xadrez",
+        "aos",
+        "dezessete",
+        "criava",
+        "videogame"
+      ],
+      "destaques": [],
+      "pausa_depois": "normal",
+      "tela": "",
+      "animacao": null,
+      "extras_ref": [
+        {
+          "id": "E42",
+          "modo": "split",
+          "in": null,
+          "out": null
+        }
+      ],
+      "alternativa_de": null,
+      "tempo_estimado": [
+        7.79,
+        12.77
+      ]
+    },
+    {
+      "id": "L04",
+      "secao": "corpo",
+      "fala": "Estudou computação em Cambridge e depois neurociência.",
+      "fala_original": "Estudou computação em Cambridge / e depois neurociência.",
+      "palavras": [
+        "estudou",
+        "computação",
+        "em",
+        "cambridge",
+        "e",
+        "depois",
+        "neurociência"
+      ],
+      "destaques": [],
+      "pausa_depois": "normal",
+      "tela": "",
+      "animacao": null,
+      "extras_ref": [
+        {
+          "id": "E32",
+          "modo": "split",
+          "in": null,
+          "out": null
+        }
+      ],
+      "alternativa_de": null,
+      "tempo_estimado": [
+        12.77,
+        16.02
+      ]
+    },
+    {
+      "id": "L05",
+      "secao": "corpo",
+      "fala": "Em dois mil e dez juntou tudo numa empresa aqui em Londres: a DeepMind.",
+      "fala_original": "Em dois mil e dez juntou tudo numa empresa aqui em Londres: / a **DeepMind**.",
+      "palavras": [
+        "em",
+        "dois",
+        "mil",
+        "e",
+        "dez",
+        "juntou",
+        "tudo",
+        "numa",
+        "empresa",
+        "aqui",
+        "em",
+        "londres",
+        "a",
+        "deepmind"
+      ],
+      "destaques": [
+        "DeepMind"
+      ],
+      "pausa_depois": "normal",
+      "tela": "",
+      "animacao": null,
+      "extras_ref": [
+        {
+          "id": "E44",
+          "modo": "split",
+          "in": null,
+          "out": null
+        }
+      ],
+      "alternativa_de": null,
+      "tempo_estimado": [
+        16.02,
+        22.3
+      ]
+    },
+    {
+      "id": "L06",
+      "secao": "corpo",
+      "fala": "Quatro anos depois, o Google comprou por cerca de 400 milhões de libras.",
+      "fala_original": "Quatro anos depois, o Google comprou por cerca de **400 milhões** de libras.",
+      "palavras": [
+        "quatro",
+        "anos",
+        "depois",
+        "o",
+        "google",
+        "comprou",
+        "por",
+        "cerca",
+        "de",
+        "400",
+        "milhões",
+        "de",
+        "libras"
+      ],
+      "destaques": [
+        "400 milhões"
+      ],
+      "pausa_depois": "normal",
+      "tela": "",
+      "animacao": null,
+      "extras_ref": [
+        {
+          "id": "E44",
+          "modo": "split",
+          "in": null,
+          "out": null
+        }
+      ],
+      "alternativa_de": null,
+      "tempo_estimado": [
+        22.3,
+        28.16
+      ]
+    },
+    {
+      "id": "L07",
+      "secao": "corpo",
+      "fala": "Em dezesseis, a IA deles venceu um dos maiores nomes do Go.",
+      "fala_original": "Em dezesseis, a IA deles venceu um dos maiores nomes do **Go**.",
+      "palavras": [
+        "em",
+        "dezesseis",
+        "a",
+        "ia",
+        "deles",
+        "venceu",
+        "um",
+        "dos",
+        "maiores",
+        "nomes",
+        "do",
+        "go"
+      ],
+      "destaques": [
+        "Go"
+      ],
+      "pausa_depois": "normal",
+      "tela": "",
+      "animacao": null,
+      "extras_ref": [
+        {
+          "id": "E45",
+          "modo": "split",
+          "in": null,
+          "out": null
+        }
+      ],
+      "alternativa_de": null,
+      "tempo_estimado": [
+        28.16,
+        33.57
+      ]
+    },
+    {
+      "id": "L08",
+      "secao": "corpo",
+      "fala": "Um jogo com mais posições possíveis do que átomos no universo.",
+      "fala_original": "Um jogo com mais posições possíveis do que átomos no universo. [pausa]",
+      "palavras": [
+        "um",
+        "jogo",
+        "com",
+        "mais",
+        "posições",
+        "possíveis",
+        "do",
+        "que",
+        "átomos",
+        "no",
+        "universo"
+      ],
+      "destaques": [],
+      "pausa_depois": "pausa",
+      "tela": "",
+      "animacao": null,
+      "extras_ref": [
+        {
+          "id": "E37",
+          "modo": "split",
+          "in": null,
+          "out": null
+        }
+      ],
+      "alternativa_de": null,
+      "tempo_estimado": [
+        33.57,
+        38.96
+      ]
+    },
+    {
+      "id": "L09",
+      "secao": "corpo",
+      "fala": "Mas o maior feito veio depois: o AlphaFold passou a prever o formato das proteínas.",
+      "fala_original": "Mas o maior feito veio depois: / o **AlphaFold** passou a prever o formato das proteínas.",
+      "palavras": [
+        "mas",
+        "o",
+        "maior",
+        "feito",
+        "veio",
+        "depois",
+        "o",
+        "alphafold",
+        "passou",
+        "a",
+        "prever",
+        "o",
+        "formato",
+        "das",
+        "proteínas"
+      ],
+      "destaques": [
+        "AlphaFold"
+      ],
+      "pausa_depois": "normal",
+      "tela": "",
+      "animacao": null,
+      "extras_ref": [
+        {
+          "id": "E38",
+          "modo": "split",
+          "in": null,
+          "out": null
+        }
+      ],
+      "alternativa_de": null,
+      "tempo_estimado": [
+        38.96,
+        45.68
+      ]
+    },
+    {
+      "id": "L10",
+      "secao": "corpo",
+      "fala": "Um problema que travava a ciência havia cinquenta anos.",
+      "fala_original": "Um problema que travava a ciência havia cinquenta anos.",
+      "palavras": [
+        "um",
+        "problema",
+        "que",
+        "travava",
+        "a",
+        "ciência",
+        "havia",
+        "cinquenta",
+        "anos"
+      ],
+      "destaques": [],
+      "pausa_depois": "normal",
+      "tela": "",
+      "animacao": null,
+      "extras_ref": [
+        {
+          "id": "E39",
+          "modo": "split",
+          "in": null,
+          "out": null
+        }
+      ],
+      "alternativa_de": null,
+      "tempo_estimado": [
+        45.68,
+        49.79
+      ]
+    },
+    {
+      "id": "L11",
+      "secao": "corpo",
+      "fala": "E isso deu a ele o Nobel de Química, junto com o John Jumper.",
+      "fala_original": "E isso deu a ele o **Nobel de Química**, / junto com o John Jumper.",
+      "palavras": [
+        "e",
+        "isso",
+        "deu",
+        "a",
+        "ele",
+        "o",
+        "nobel",
+        "de",
+        "química",
+        "junto",
+        "com",
+        "o",
+        "john",
+        "jumper"
+      ],
+      "destaques": [
+        "Nobel de Química"
+      ],
+      "pausa_depois": "normal",
+      "tela": "",
+      "animacao": null,
+      "extras_ref": [],
+      "alternativa_de": null,
+      "tempo_estimado": [
+        49.79,
+        56.08
+      ]
+    },
+    {
+      "id": "L12",
+      "secao": "payoff",
+      "fala": "Quer dizer: o menino do xadrez virou um dos nomes mais importantes da IA.",
+      "fala_original": "Quer dizer: / o menino do xadrez virou um dos nomes mais importantes da IA.",
+      "palavras": [
+        "quer",
+        "dizer",
+        "o",
+        "menino",
+        "do",
+        "xadrez",
+        "virou",
+        "um",
+        "dos",
+        "nomes",
+        "mais",
+        "importantes",
+        "da",
+        "ia"
+      ],
+      "destaques": [],
+      "pausa_depois": "normal",
+      "tela": "",
+      "animacao": null,
+      "extras_ref": [],
+      "alternativa_de": null,
+      "tempo_estimado": [
+        56.08,
+        62.37
+      ]
+    },
+    {
+      "id": "L13",
+      "secao": "cta",
+      "fala": "Para mais vídeos como esse, é só me seguir.",
+      "fala_original": "Para mais vídeos como esse, / é só me **seguir**.",
+      "palavras": [
+        "para",
+        "mais",
+        "vídeos",
+        "como",
+        "esse",
+        "é",
+        "só",
+        "me",
+        "seguir"
+      ],
+      "destaques": [
+        "seguir"
+      ],
+      "pausa_depois": "normal",
+      "tela": "",
+      "animacao": null,
+      "extras_ref": [],
+      "alternativa_de": null,
+      "tempo_estimado": [
+        62.37,
+        66.48
+      ]
+    },
+    {
+      "id": "L01B",
+      "secao": "hook-alt",
+      "fala": "Um jogador de xadrez que acabou ganhando um Nobel.",
+      "fala_original": "Um jogador de xadrez / que acabou ganhando um Nobel.",
+      "palavras": [
+        "um",
+        "jogador",
+        "de",
+        "xadrez",
+        "que",
+        "acabou",
+        "ganhando",
+        "um",
+        "nobel"
+      ],
+      "destaques": [],
+      "pausa_depois": "normal",
+      "tela": "",
+      "animacao": null,
+      "extras_ref": [],
+      "alternativa_de": "L01",
+      "tempo_estimado": null
+    },
+    {
+      "id": "L01C",
+      "secao": "hook-alt",
+      "fala": "A DeepMind nasceu aqui em Londres. E mudou a IA.",
+      "fala_original": "A DeepMind nasceu aqui em Londres. / E mudou a IA.",
+      "palavras": [
+        "a",
+        "deepmind",
+        "nasceu",
+        "aqui",
+        "em",
+        "londres",
+        "e",
+        "mudou",
+        "a",
+        "ia"
+      ],
+      "destaques": [],
+      "pausa_depois": "normal",
+      "tela": "",
+      "animacao": null,
+      "extras_ref": [],
+      "alternativa_de": "L01",
+      "tempo_estimado": null
+    }
+  ]
+}

@@ -1,0 +1,375 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<title>Calendário · korvu. painel</title>
+<script src="./support.js"></script>
+<link rel="stylesheet" href="ds/korvu/components/bundle.css">
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous">
+<link href="https://fonts.googleapis.com/css2?family=Geist:wght@100..900&amp;family=Geist+Mono:wght@100..900&amp;display=swap" rel="stylesheet">
+<style>
+:root{
+--bg:#f5f2e8;--surface:#fbf9f4;--surface-sunken:#efebe0;--surface-hover:#f8f5ee;
+--line:#e4dfd2;--line-strong:#928874;
+--ink:#111111;--ink-2:#6b6458;--ink-3:#736c60;
+--sidebar:#111111;--sidebar-raised:#1d1c1a;--sidebar-line:#2c2a27;--sidebar-ink:#f5f2e8;--sidebar-ink-2:#9a9385;
+--accent:#ff4d00;--accent-hover:#e64500;--accent-soft:#ffe8dc;--accent-ink:#b33600;--on-accent:#111111;
+--positive:#1e7a45;--positive-soft:#e3f0e4;--danger:#c2271b;--danger-soft:#fbe3df;
+--chart-1:#ff4d00;--chart-2:#111111;--chart-3:#a39b8b;--chart-4:#d6ccb5;--chart-5:#4f6475;--chart-grid:#e9e4d8;--focus:#b33600;--focus-on-dark:#ff4d00;
+--font-sans:Geist, Inter, system-ui, sans-serif;--font-mono:"Geist Mono", ui-monospace, monospace;
+--space-4:4px;--space-8:8px;--space-12:12px;--space-16:16px;--space-24:24px;--space-32:32px;--space-48:48px;--space-64:64px;
+--radius-sm:6px;--radius-btn:8px;--radius-card:12px;--radius-panel:14px;--radius-pill:999px;
+--shadow-card:0 1px 2px rgba(17,17,17,0.04);--shadow-hover:0 6px 20px rgba(17,17,17,0.07);--shadow-pop:0 12px 32px rgba(17,17,17,0.12);
+--sidebar-width:208px;--content-padding:32px;--grid-gutter:24px;--row-height:56px;--control-height:36px;
+}
+body{margin:0;background:#f5f2e8}
+a{color:#b33600}a:hover{color:#111111}
+.seg{display:flex;padding:2px;gap:2px;border-radius:8px;background:var(--surface-sunken)}
+.seg button{height:30px;padding:0 14px;border:0;border-radius:6px;background:transparent;color:var(--ink-2);font:600 12px/1 var(--font-sans);cursor:pointer}
+.seg button.is-on{background:var(--surface);color:var(--ink);box-shadow:0 1px 2px rgba(17,17,17,.08)}
+.wd{height:34px;display:flex;align-items:center;padding:0 12px;font-size:10px;line-height:12px;font-weight:600;letter-spacing:.06em;text-transform:uppercase;color:var(--ink-2);border-bottom:1px solid var(--line)}
+.cel{display:flex;flex-direction:column;gap:5px;padding:8px;border-right:1px solid var(--line);border-bottom:1px solid var(--line);min-width:0;min-height:0;overflow:hidden}
+.cel.fim{border-right:0}
+.cel.fora{background:var(--surface-hover)}
+.dn{display:inline-flex;align-items:center;justify-content:center;min-width:24px;height:24px;padding:0 4px;border-radius:999px;font-size:12px;line-height:1;font-weight:600;color:var(--ink);font-variant-numeric:tabular-nums;align-self:flex-start}
+.cel.fora .dn{color:var(--ink-3);font-weight:500}
+.cel.passado .dn{color:var(--ink-2)}
+.cel.hoje .dn{background:var(--accent);color:var(--on-accent);padding:0 8px}
+.ev{flex-direction:row;align-items:center;gap:7px;padding:5px 8px 5px 10px;min-width:0}
+.ev img{width:18px;height:32px;object-fit:cover;border-radius:3px;display:block;flex:none}
+.ev-tx{display:flex;flex-direction:column;min-width:0;gap:1px}
+.ev .l1{font-size:10.5px;line-height:13px;color:var(--ink-2);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.ev .l1 b{font-family:var(--font-mono);font-size:10.5px;font-weight:600}
+.ev .l2{font-size:12px;line-height:15px;font-weight:600;color:var(--ink);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.ev .l3{font-size:10.5px;line-height:13px;color:var(--ink-2);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.ev.pub{background:var(--surface-hover)}
+.vaga{display:flex;align-items:center;justify-content:space-between;height:26px;padding:0 8px;border:1px dashed var(--line-strong);border-radius:6px;font-size:11px;line-height:1;color:var(--ink-2)}
+.grav{display:flex;align-items:center;gap:5px;font-size:10.5px;line-height:13px;color:var(--ink-2);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.wk-col{display:flex;flex-direction:column;gap:10px;padding:12px 10px;border-right:1px solid var(--line);min-width:0}
+.wk-col.fim{border-right:0}
+.wk-col.hoje{background:var(--surface-hover)}
+.wk-h{display:flex;align-items:baseline;justify-content:space-between;gap:6px;padding-bottom:10px;border-bottom:1px solid var(--line)}
+.wk{flex-direction:column;align-items:stretch;gap:8px;padding:10px 10px 10px 13px}
+.wk img{width:100%;height:150px;object-fit:cover;object-position:50% 25%;border-radius:6px;display:block}
+.bar-c{width:100%;border-radius:4px 4px 0 0}
+.bar-top{background:var(--chart-1)}
+.bar-rest{background:var(--chart-2)}
+.lbl-top{font:600 10px/12px var(--font-mono);color:var(--ink);text-align:center}
+.lbl-rest{font:500 10px/12px var(--font-mono);color:var(--ink-3);text-align:center}
+.wk-col.hoje .dn{background:var(--accent);color:var(--on-accent);padding:0 8px}
+</style>
+</helmet>
+<div style="width: 1920px; height: 1080px; display: flex; background: var(--bg); color: var(--ink); font-family: var(--font-sans); overflow: hidden; -webkit-font-smoothing: antialiased">
+
+<aside class="k-sidebar" style="height: 1080px; flex: none">
+<div class="k-sidebar-logo" style="display: flex; align-items: baseline">
+<span style="font-size: 19px; line-height: 19px; font-weight: 800; letter-spacing: -0.04em; color: var(--sidebar-ink)">korvu.</span>
+<span style="font-size: 19px; line-height: 19px; font-weight: 500; letter-spacing: -0.02em; color: var(--sidebar-ink-2); margin-left: 5px">painel</span>
+</div>
+<nav aria-label="Navegação principal" style="display: flex; flex-direction: column; gap: 2px">
+<a class="k-nav-item" href="Main.dc.html"><span data-icon="visao-geral"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3.5" y="3.5" width="7" height="9" rx="1.5"></rect><rect x="13.5" y="3.5" width="7" height="5" rx="1.5"></rect><rect x="13.5" y="11.5" width="7" height="9" rx="1.5"></rect><rect x="3.5" y="15.5" width="7" height="5" rx="1.5"></rect></svg></span>Visão geral</a>
+<a class="k-nav-item" href="Equipe.dc.html"><span data-icon="equipe"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="9" cy="8" r="3.25"></circle><path d="M3 20c.4-3.4 2.9-5.5 6-5.5s5.6 2.1 6 5.5"></path><path d="M15.5 4.9a3 3 0 0 1 0 6.2"></path><path d="M17.5 14.8c2 .7 3.2 2.5 3.5 5.2"></path></svg></span>Equipe</a>
+<a class="k-nav-item" href="Producao.dc.html"><span data-icon="videos-portoes"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5.5" width="13" height="13" rx="2"></rect><path d="M16 10.5l4.2-2.6a.5.5 0 0 1 .8.4v7.4a.5.5 0 0 1-.8.4L16 13.5"></path><path d="M7.5 12.2l1.8 1.8 3.2-3.5"></path></svg></span>Produção de conteúdo</a>
+<a class="k-nav-item is-active" href="#calendario" aria-current="page"><span data-icon="calendario"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3.5" y="5" width="17" height="15.5" rx="2"></rect><path d="M3.5 10h17M8 3v4M16 3v4"></path><path d="M8 14h2M14 14h2M8 17h2"></path></svg></span>Calendário</a>
+<a class="k-nav-item" href="Desempenho.dc.html"><span data-icon="desempenho"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3.5 20.5h17"></path><path d="M4.5 15.5l4.5-4.5 3.5 3 7-7"></path><path d="M15 7h4.5v4.5"></path></svg></span>Desempenho</a>
+<a class="k-nav-item" href="Biblioteca.dc.html"><span data-icon="biblioteca"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3.5" y="4" width="4" height="16.5" rx="1"></rect><rect x="9.5" y="4" width="4" height="16.5" rx="1"></rect><path d="M15.6 5.4l3.4-.9a1 1 0 0 1 1.2.7l3.3 12.9-4.6 1.2-3.3-13a.8.8 0 0 1 0-.9z" transform="translate(-2.3 .3)"></path></svg></span>Biblioteca</a>
+<a class="k-nav-item" href="Tokens.dc.html"><span data-icon="tokens-custos"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><ellipse cx="12" cy="6" rx="7" ry="2.75"></ellipse><path d="M5 6v6c0 1.5 3.1 2.75 7 2.75S19 13.5 19 12V6"></path><path d="M5 12v6c0 1.5 3.1 2.75 7 2.75S19 19.5 19 18v-6"></path></svg></span>Tokens e custos</a>
+</nav>
+<div class="k-sidebar-foot">
+<div style="display: flex; flex-direction: column; gap: 2px; padding: 0 4px">
+<span style="font-size: 12px; line-height: 16px; font-weight: 600; color: var(--sidebar-ink)">@korvu_oficial</span>
+<span style="font-size: 11px; line-height: 14px; color: var(--sidebar-ink-2)">Instagram · Facebook</span>
+</div>
+</div>
+</aside>
+
+<main style="flex: 1; min-width: 0; display: flex; flex-direction: column">
+
+<header style="height: 64px; flex: none; display: flex; align-items: center; gap: 16px; padding: 0 32px; border-bottom: 1px solid var(--line)">
+<label class="k-search" style="width: 440px">
+<svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="6.5"></circle><path d="M20 20l-4.3-4.3"></path></svg>
+<input type="search" placeholder="Buscar vídeos, agentes, portões..." aria-label="Buscar vídeos, agentes, portões">
+<span class="k-kbd">⌘K</span>
+</label>
+<div style="flex: 1"></div>
+<button type="button" class="k-btn k-btn-ghost k-btn-icon" aria-label="Notificações, 3 novas" style="position: relative; color: var(--ink)">
+<svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 16.5V11a6 6 0 0 1 12 0v5.5l1.5 2h-15z"></path><path d="M10 20.5a2 2 0 0 0 4 0"></path></svg>
+<span style="position: absolute; top: 7px; right: 8px; width: 8px; height: 8px; border-radius: 50%; background: var(--accent); border: 2px solid var(--bg); box-sizing: content-box"></span>
+</button>
+<span aria-hidden="true" style="width: 1px; height: 24px; background: var(--line)"></span>
+<button type="button" aria-label="Conta de Carlos, proprietário" style="display: flex; align-items: center; gap: 10px; background: transparent; border: 0; padding: 4px 6px; border-radius: 8px; cursor: pointer; font: inherit; color: inherit">
+<span class="k-avatar is-round" style="width: 32px; height: 32px; font-size: 12px">CM</span>
+<span style="display: flex; flex-direction: column; align-items: flex-start">
+<span style="font-size: 13px; line-height: 16px; font-weight: 600; color: var(--ink)">Carlos</span>
+<span style="font-size: 11px; line-height: 14px; color: var(--ink-3)">Proprietário</span>
+</span>
+<svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="color: var(--ink-2)"><path d="M6.5 9.5l5.5 5.5 5.5-5.5"></path></svg>
+</button>
+</header>
+
+<div style="flex: 1; min-height: 0; padding: 24px 32px 24px; display: flex; flex-direction: column">
+
+<div style="display: flex; align-items: flex-end; justify-content: space-between; gap: 24px; flex: none">
+<div>
+<h1 style="margin: 0; font-size: 44px; line-height: 48px; font-weight: 800; letter-spacing: -0.03em; color: var(--ink)">calendário editorial.</h1>
+<p style="margin: 4px 0 0; font-size: 15px; line-height: 22px; color: var(--ink-2)">Tudo que está programado para sair — e o que ainda precisa chegar lá.</p>
+</div>
+<button type="button" class="k-btn k-btn-primary">
+<svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 5v14M5 12h14"></path></svg>
+Agendar publicação
+</button>
+</div>
+
+<div style="display: flex; align-items: center; justify-content: space-between; gap: 16px; margin-top: 18px; flex: none">
+<div style="display: flex; align-items: center; gap: 8px">
+<button type="button" class="k-btn k-btn-secondary k-btn-sm">Hoje</button>
+<button type="button" class="k-btn k-btn-ghost k-btn-sm k-btn-icon" aria-label="Anterior"><svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14.5 6.5L9 12l5.5 5.5"></path></svg></button>
+<button type="button" class="k-btn k-btn-ghost k-btn-sm k-btn-icon" aria-label="Próximo"><svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9.5 6.5l5.5 5.5-5.5 5.5"></path></svg></button>
+<h2 style="margin: 0 0 0 8px; font-size: 22px; line-height: 28px; font-weight: 700; letter-spacing: -0.015em; color: var(--ink)">{{periodo}}</h2>
+</div>
+<div style="display: flex; align-items: center; gap: 20px">
+<div style="display: flex; align-items: center; gap: 14px; font-size: 12px; line-height: 16px; color: var(--ink-2)">
+<span style="display: flex; align-items: center; gap: 6px"><i style="width: 10px; height: 10px; border-radius: 2px; background: var(--accent)"></i>Instagram</span>
+<span style="display: flex; align-items: center; gap: 6px"><i style="width: 10px; height: 10px; border-radius: 2px; background: var(--surface-hover); border: 1px solid var(--line-strong)"></i>Publicado</span>
+<span style="display: flex; align-items: center; gap: 6px"><i style="width: 14px; height: 10px; border-radius: 2px; border: 1px dashed var(--line-strong)"></i>Vaga livre</span>
+<span style="display: flex; align-items: center; gap: 6px"><svg viewBox="0 0 24 24" width="13" height="13" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5.5" width="13" height="13" rx="2"></rect><path d="M16 10.5l4.2-2.6a.5.5 0 0 1 .8.4v7.4a.5.5 0 0 1-.8.4L16 13.5"></path></svg>Gravação</span>
+</div>
+<div class="seg" aria-label="Visualização">
+<button type="button" class="{{vMes.cls}}" aria-pressed="{{vMes.on}}" onClick="{{vMes.pick}}">Mês</button>
+<button type="button" class="{{vSem.cls}}" aria-pressed="{{vSem.on}}" onClick="{{vSem.pick}}">Semana</button>
+</div>
+</div>
+</div>
+
+<div style="display: grid; grid-template-columns: repeat(12, minmax(0, 1fr)); gap: 24px; margin-top: 16px; flex: 1; min-height: 0">
+
+<section class="k-card" aria-label="Calendário" style="grid-column: span 9; display: flex; flex-direction: column; min-width: 0; min-height: 0; overflow: hidden">
+<div style="display: grid; grid-template-columns: repeat(7, minmax(0, 1fr)); flex: none">
+<span class="wd">Dom</span><span class="wd">Seg</span><span class="wd">Ter</span><span class="wd">Qua</span><span class="wd">Qui</span><span class="wd">Sex</span><span class="wd">Sáb</span>
+</div>
+
+<sc-if value="{{vMes.on}}" hint-placeholder-val="{{true}}">
+<div style="display: grid; grid-template-columns: repeat(7, minmax(0, 1fr)); grid-template-rows: repeat(6, minmax(0, 1fr)); flex: 1; min-height: 0">
+<sc-for list="{{dias}}" as="d" hint-placeholder-count="42">
+<div class="{{d.cls}}">
+<span class="dn">{{d.rotulo}}</span>
+<sc-for list="{{d.eventos}}" as="e" hint-placeholder-count="1">
+<div class="{{e.cls}}" title="{{e.titulo}}">
+<img src="{{e.capa}}" alt="">
+<div class="ev-tx">
+<span class="l1"><b>{{e.hora}}</b> · {{e.status}}</span>
+<b class="l2">{{e.nome}}</b>
+<span class="l3">{{e.canais}}</span>
+</div>
+</div>
+</sc-for>
+<sc-for list="{{d.gravs}}" as="g" hint-placeholder-count="0">
+<span class="grav"><svg viewBox="0 0 24 24" width="12" height="12" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5.5" width="13" height="13" rx="2"></rect><path d="M16 10.5l4.2-2.6a.5.5 0 0 1 .8.4v7.4a.5.5 0 0 1-.8.4L16 13.5"></path></svg>Gravar · {{g}}</span>
+</sc-for>
+<sc-if value="{{d.temVaga}}" hint-placeholder-val="{{false}}">
+<span class="vaga"><span>Vaga livre</span><span class="k-mono" style="font-size: 11px">{{d.vaga}}</span></span>
+</sc-if>
+</div>
+</sc-for>
+</div>
+</sc-if>
+
+<sc-if value="{{vSem.on}}" hint-placeholder-val="{{false}}">
+<div style="display: grid; grid-template-columns: repeat(7, minmax(0, 1fr)); flex: 1; min-height: 0">
+<sc-for list="{{semana}}" as="d" hint-placeholder-count="7">
+<div class="{{d.cls}}">
+<div class="wk-h"><span class="{{d.numCls}}">{{d.rotulo}}</span><span style="font-size: 11px; line-height: 14px; color: var(--ink-3)">{{d.nota}}</span></div>
+<sc-for list="{{d.eventos}}" as="e" hint-placeholder-count="1">
+<div class="{{e.clsSem}}" title="{{e.titulo}}">
+<img src="{{e.capa}}" alt="Capa de {{e.nome}}">
+<span style="font-size: 11px; line-height: 14px; color: var(--ink-2)"><b class="k-mono" style="font-size: 12px">{{e.hora}}</b> · {{e.status}}</span>
+<b style="font-size: 14px; line-height: 19px">{{e.nome}}</b>
+<span style="font-size: 11px; line-height: 14px; color: var(--ink-2)">{{e.canais}}</span>
+<span style="font-size: 11px; line-height: 14px; color: var(--ink-3)">{{e.extra}}</span>
+</div>
+</sc-for>
+<sc-for list="{{d.gravs}}" as="g" hint-placeholder-count="0">
+<span class="grav" style="padding: 8px 10px; border: 1px solid var(--line); border-radius: 6px; background: var(--surface)"><svg viewBox="0 0 24 24" width="12" height="12" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5.5" width="13" height="13" rx="2"></rect><path d="M16 10.5l4.2-2.6a.5.5 0 0 1 .8.4v7.4a.5.5 0 0 1-.8.4L16 13.5"></path></svg>Gravar · {{g}}</span>
+</sc-for>
+<sc-if value="{{d.vazioSem}}" hint-placeholder-val="{{false}}">
+<span style="font-size: 12px; line-height: 16px; color: var(--ink-3)">{{d.vazioTxt}}</span>
+</sc-if>
+</div>
+</sc-for>
+</div>
+</sc-if>
+</section>
+
+<div style="grid-column: span 3; display: flex; flex-direction: column; gap: 16px; min-width: 0; min-height: 0">
+
+<section class="k-card" style="padding: 18px 20px; flex: none">
+<div class="k-card-head">
+<h2 class="k-card-title">Fila</h2>
+<span class="k-mono" style="font-size: 11px; color: var(--ink-3)">06-publicar/</span>
+</div>
+<div style="display: flex; flex-direction: column; margin-top: 8px">
+<div style="display: grid; grid-template-columns: minmax(0, 1fr) auto; align-items: center; gap: 12px; padding: 10px 0; border-bottom: 1px solid var(--line)">
+<div style="display: flex; flex-direction: column"><span style="font-size: 13px; line-height: 18px; font-weight: 600; color: var(--ink)">Pronto para publicar</span><span style="font-size: 12px; line-height: 16px; color: var(--ink-3)">agendadas, saem sozinhas no horário</span></div>
+<span class="k-num" style="font-size: 24px; line-height: 28px; font-weight: 700; letter-spacing: -0.02em; color: var(--ink)">5</span>
+</div>
+<div style="display: grid; grid-template-columns: minmax(0, 1fr) auto; align-items: center; gap: 12px; padding: 10px 0; border-bottom: 1px solid var(--line)">
+<div style="display: flex; flex-direction: column"><span style="font-size: 13px; line-height: 18px; font-weight: 600; color: var(--ink)">Aguardando portão</span><span style="font-size: 12px; line-height: 16px; color: var(--ink-3)">as 5 da fila entraram antes dos portões</span></div>
+<span class="k-num" style="font-size: 24px; line-height: 28px; font-weight: 700; letter-spacing: -0.02em; color: var(--ink-3)">0</span>
+</div>
+<div style="display: grid; grid-template-columns: minmax(0, 1fr) auto; align-items: center; gap: 12px; padding: 10px 0">
+<div style="display: flex; flex-direction: column"><span style="font-size: 13px; line-height: 18px; font-weight: 600; color: var(--ink)">Sem horário</span><span style="font-size: 12px; line-height: 16px; color: var(--ink-3)">nenhum pacote pronto esperando data</span></div>
+<span class="k-num" style="font-size: 24px; line-height: 28px; font-weight: 700; letter-spacing: -0.02em; color: var(--ink-3)">0</span>
+</div>
+</div>
+<a href="Producao.dc.html" style="display: flex; align-items: center; justify-content: space-between; margin-top: 6px; padding: 10px 12px; border-radius: 8px; background: var(--surface-sunken); font-size: 12px; line-height: 16px; font-weight: 600; color: var(--ink); text-decoration: none">A caminho: 7 roteiros ainda sem gravação<svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9.5 6.5l5.5 5.5-5.5 5.5"></path></svg></a>
+</section>
+
+<section class="k-card" style="padding: 18px 20px; display: flex; flex-direction: column; flex: 1; min-height: 0">
+<div class="k-card-head">
+<h2 class="k-card-title">Melhores horários</h2>
+<span style="font-size: 11px; line-height: 14px; color: var(--ink-3)">atividade dos seguidores</span>
+</div>
+<div role="img" aria-label="Atividade dos seguidores por faixa de 3 horas: mais alta às 15h, 18h e 21h" style="display: grid; grid-template-columns: repeat(8, minmax(0, 1fr)); grid-template-rows: 120px; gap: 6px; align-items: end; margin-top: 16px">
+<sc-for list="{{horas}}" as="h" hint-placeholder-count="8">
+<span class="{{h.cls}}" style="height: {{h.alt}}"></span>
+</sc-for>
+</div>
+<div style="display: grid; grid-template-columns: repeat(8, minmax(0, 1fr)); gap: 6px; margin-top: 6px">
+<sc-for list="{{horas}}" as="h" hint-placeholder-count="8">
+<span class="{{h.lblCls}}">{{h.rot}}</span>
+</sc-for>
+</div>
+<div style="display: flex; flex-direction: column; gap: 8px; margin-top: 16px; padding-top: 14px; border-top: 1px solid var(--line)">
+<span class="k-cap">Picos no app</span>
+<div style="display: flex; flex-wrap: wrap; gap: 6px">
+<span class="k-chip k-chip--agendado no-dot" style="height: 24px; font-size: 11px">Dom 18–21 h</span>
+<span class="k-chip k-chip--agendado no-dot" style="height: 24px; font-size: 11px">Ter 21–24 h</span>
+<span class="k-chip k-chip--agendado no-dot" style="height: 24px; font-size: 11px">Qua à noite</span>
+</div>
+<span class="k-cap" style="margin-top: 6px">Suas vagas</span>
+<div style="display: flex; flex-wrap: wrap; gap: 6px">
+<span class="k-chip k-chip--producao no-dot" style="height: 24px; font-size: 11px">Dom 19:00</span>
+<span class="k-chip k-chip--producao no-dot" style="height: 24px; font-size: 11px">Ter 21:00</span>
+<span class="k-chip k-chip--producao no-dot" style="height: 24px; font-size: 11px">Qua 21:00</span>
+</div>
+</div>
+<p style="margin: auto 0 0; padding-top: 12px; font-size: 11px; line-height: 15px; color: var(--ink-3)">Gráfico do app do Instagram (17 out, fuso de Londres), em faixas de 3 h. Mostra quem já segue; os Trial Reels vão dizer o melhor horário para quem ainda não segue.</p>
+</section>
+
+</div>
+</div>
+
+</div>
+</main>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":1920,"height":1080}}'>
+class Component extends DCLogic {
+  constructor(props) {
+    super(props);
+    this.state = { vista: 'mes' };
+  }
+  renderVals() {
+    var self = this;
+    var vista = this.state.vista;
+    var HOJE = '2026-10-23';
+    var MESES = ['jan', 'fev', 'mar', 'abr', 'mai', 'jun', 'jul', 'ago', 'set', 'out', 'nov', 'dez'];
+    var DIAS_SEM = ['Dom', 'Seg', 'Ter', 'Qua', 'Qui', 'Sex', 'Sáb'];
+
+    // publicados: 07-publicados/*/metricas.json (publicado_em, alcance); agendados: 06-publicar/*/post.json
+    // [hora, nome, status, canais, capa, extra da semana]
+    var EV = {
+      '2026-10-13': [['17:03', 'Demis Hassabis', 'Publicado', 'Instagram · Facebook', '/_blob/8737c82bf1d32b176745783f6d47471a', '338 de alcance']],
+      '2026-10-15': [['11:44', 'Geoffrey Hinton', 'Publicado', 'Instagram · Facebook', '/_blob/96cd2592ca3997b333fa7f2a4c8b52ce', '11 de alcance']],
+      '2026-10-18': [['19:14', 'Fei-Fei Li', 'Publicado', 'Instagram · Facebook', '/_blob/d16607ee92c1c4fbab3dc372d2bc4f01', '40 de alcance']],
+      '2026-10-20': [['21:14', 'Fei-Fei Li A', 'Publicado', 'Instagram', '/_blob/a316c35bff1db511d259ffee5f7405ca', '4 de alcance · Trial']],
+      '2026-10-22': [['21:19', 'Livro ChatGPT A', 'Publicado', 'Instagram · Facebook', '/_blob/5a86283155992db32bbc19d3c82dcbac', 'métricas em 27 out']],
+      '2026-10-24': [['19:00', 'Fei-Fei Li r2', 'Agendado', 'Instagram', '/_blob/d740077b6e06165240b9b17c68e3fea5', 'Normal · palavra AULA']],
+      '2026-10-25': [['19:00', 'Geoffrey Hinton r2', 'Agendado', 'Instagram', '/_blob/d701f0c52e5b53595d893bb8cb7aab24', 'Normal · palavra NOBEL']],
+      '2026-10-27': [['21:00', 'Livro ChatGPT', 'Agendado', 'Instagram', '/_blob/0918692296f2bfed0fa6d788585098a2', 'Trial Reel · palavra LIVRO']],
+      '2026-10-28': [['21:00', 'Livro ChatGPT L01C', 'Agendado', 'Instagram', '/_blob/976cb8bdf927e0f94d96bd56e5732341', 'Trial Reel · palavra LIVRO']],
+      '2026-11-01': [['19:00', 'Livro ChatGPT L01C A', 'Agendado', 'Instagram', '/_blob/24151418c4200a631b77e35f1f7c28de', 'Trial Reel · palavra LIVRO']]
+    };
+    // gravação prevista = data do slug (videos/2026-10-24-comando-secreto)
+    var GRAV = { '2026-10-24': ['Comando secreto'] };
+    // vagas semanais de _controle/calendario.md (dom 19:00, ter 21:00, qua 21:00) ainda sem publicação
+    var VAGAS = { '2026-11-03': '21:00', '2026-11-04': '21:00' };
+
+    var chave = function (d) {
+      var m = d.getMonth() + 1, dd = d.getDate();
+      return d.getFullYear() + '-' + (m < 10 ? '0' : '') + m + '-' + (dd < 10 ? '0' : '') + dd;
+    };
+    var evento = function (e, passado) {
+      var pub = e[2] === 'Publicado';
+      return {
+        hora: e[0], nome: e[1], status: e[2], canais: e[3], capa: e[4], extra: e[5],
+        titulo: e[0] + ' · ' + e[1] + ' · ' + e[3] + ' · ' + e[2],
+        cls: 'k-event k-event--ig ev' + (pub ? ' pub' : ''),
+        clsSem: 'k-event k-event--ig wk' + (pub ? ' pub' : '')
+      };
+    };
+
+    var dias = [];
+    for (var i = 0; i < 42; i++) {
+      var d = new Date(2026, 8, 27 + i);
+      var k = chave(d);
+      var fora = d.getMonth() !== 9;
+      dias.push({
+        rotulo: d.getDate() === 1 ? '1 ' + MESES[d.getMonth()] : String(d.getDate()),
+        cls: 'cel' + (fora ? ' fora' : '') + (k < HOJE ? ' passado' : '') + (k === HOJE ? ' hoje' : '') + (i % 7 === 6 ? ' fim' : ''),
+        eventos: (EV[k] || []).map(function (e) { return evento(e); }),
+        gravs: GRAV[k] || [],
+        temVaga: !!VAGAS[k], vaga: VAGAS[k] || ''
+      });
+    }
+
+    var semana = [];
+    for (var j = 0; j < 7; j++) {
+      var s = new Date(2026, 9, 18 + j);
+      var ks = chave(s);
+      var evs = (EV[ks] || []).map(function (e) { return evento(e); });
+      var gs = GRAV[ks] || [];
+      semana.push({
+        rotulo: DIAS_SEM[j] + ' ' + s.getDate(),
+        numCls: ks === HOJE ? 'dn' : 'dn',
+        nota: ks === HOJE ? 'hoje' : (ks === '2026-10-21' ? 'vaga sem post' : ''),
+        cls: 'wk-col' + (ks === HOJE ? ' hoje' : '') + (j === 6 ? ' fim' : ''),
+        eventos: evs, gravs: gs,
+        vazioSem: evs.length === 0 && gs.length === 0,
+        vazioTxt: ks === '2026-10-21' ? 'A vaga de quarta 21:00 ficou livre.' : 'Nada programado.'
+      });
+    }
+
+    // app do Instagram, 17 out: altura relativa das barras (0h…21h)
+    var ATIV = [73, 34, 33, 69, 92, 99, 100, 100];
+    var horas = ATIV.map(function (v, i) {
+      var alto = i >= 6;
+      return {
+        rot: (i * 3) + 'h', alt: v + '%',
+        cls: 'bar-c',
+        lblCls: alto ? 'k-mono' : 'k-mono'
+      };
+    });
+    horas.forEach(function (h, i) {
+      h.cls = i >= 6 ? 'bar-c bar-top' : 'bar-c bar-rest';
+      h.lblCls = i >= 6 ? 'lbl-top' : 'lbl-rest';
+    });
+
+    return {
+      vMes: { on: vista === 'mes', cls: vista === 'mes' ? 'is-on' : '', pick: function () { self.setState({ vista: 'mes' }); } },
+      vSem: { on: vista === 'semana', cls: vista === 'semana' ? 'is-on' : '', pick: function () { self.setState({ vista: 'semana' }); } },
+      periodo: vista === 'mes' ? 'Outubro 2026' : '18 – 24 out 2026',
+      dias: dias,
+      semana: semana,
+      horas: horas
+    };
+  }
+}
+</script>
+</body>
+</html>

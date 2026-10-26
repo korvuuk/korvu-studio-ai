@@ -1,0 +1,42 @@
+<!-- @dsCard height=288 -->
+<!doctype html>
+<html lang="pt">
+<head><meta charset="utf-8"><style>
+html,body{margin:0;background:var(--bg)}
+.cv{position:relative;width:960px;height:288px;overflow:hidden;background:var(--bg)}
+.cv svg{position:absolute;inset:0}
+.ink{fill:var(--sidebar)}.acc{fill:var(--accent)}.sand{fill:var(--chart-4)}.soft{fill:var(--accent-soft)}
+.dot{fill:var(--sidebar-ink-2)}.dot.on{fill:var(--accent)}
+.rule{stroke:var(--line);stroke-width:1}
+.t{position:absolute;left:40px;bottom:32px;max-width:440px}
+.t h1{margin:0;font:800 104px/.92 var(--font-sans);letter-spacing:-.045em;color:var(--ink)}
+.t h1 span{color:var(--ink-2);font-weight:600}
+.t p{margin:12px 0 0;font:500 13px/18px var(--font-sans);color:var(--ink-2)}
+</style></head>
+<body>
+<div class="cv">
+<svg width="960" height="288" viewBox="0 0 960 288" aria-hidden="true">
+  <!-- blocks: sidebar slab (sidebar, 208 = sidebar-width) · accent block 160×160 (radius-card) · sand band (chart-4) · accent-soft tile
+       arrangement: one tall slab bleeding top and bottom with satellites to its right, like the app shell (sidebar + cards)
+       pattern: the period of "korvu." as discs — a column of nav dots in the slab, the active one in accent; chosen because the dot is the mark's own motif and the nav rhythm is the product's
+       scales: pitch space-32, gaps space-16, radii radius-card 12 / radius-panel 14, disc r = space-4 -->
+  <rect class="ink" x="512" y="-14" width="208" height="316" rx="14"/>
+  <g>
+    <circle class="dot" cx="560" cy="56" r="4"/>
+    <circle class="dot on" cx="560" cy="88" r="4"/>
+    <circle class="dot" cx="560" cy="120" r="4"/>
+    <circle class="dot" cx="560" cy="152" r="4"/>
+    <circle class="dot" cx="560" cy="184" r="4"/>
+    <circle class="dot" cx="560" cy="216" r="4"/>
+    <circle class="dot" cx="560" cy="248" r="4"/>
+  </g>
+  <rect class="acc" x="736" y="32" width="160" height="160" rx="12"/>
+  <circle class="ink" cx="868" cy="164" r="12"/>
+  <rect class="sand" x="736" y="208" width="240" height="96" rx="12"/>
+  <rect class="soft" x="912" y="32" width="64" height="160" rx="12"/>
+  <line class="rule" x1="480" y1="0" x2="480" y2="288"/>
+</svg>
+<div class="t"><h1>korvu.<br><span>painel</span></h1><p>Operação de conteúdo com agentes de IA — sistema visual.</p></div>
+</div>
+</body>
+</html>

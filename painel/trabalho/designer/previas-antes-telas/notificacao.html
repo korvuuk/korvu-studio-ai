@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Notificação · korvu. painel — design system</title>
+<link rel="stylesheet" href="../tokens.css">
+<link rel="stylesheet" href="../componentes.css">
+<link rel="stylesheet" href="../acrescimos.css">
+<link rel="stylesheet" href="previa.css">
+<script src="../korvu.js"></script>
+<script src="previa.js" defer></script>
+</head>
+<body>
+<main class="pv">
+<header class="pv-head">
+<p class="k-cap">Feedback · <span class="k-mono">k-note</span></p>
+<h1 class="k-h2">Notificação</h1>
+<p class="pv-lead">Avisos curtos: o que aconteceu, onde e quando.</p>
+</header>
+<section class="pv-sec">
+<h2 class="pv-sec-t k-cap">Com dados reais <span class="pv-tag pv-tag--real">dados reais · banco do painel</span></h2>
+<div class="k-card" style="overflow:hidden;max-width:520px"><div class="k-note k-note--alert"><span class="k-note-icon"><span data-icon="alert" data-size="16"></span></span><div style="flex:1;min-width:0"><div class="k-note-title">Portão da interface vencido</div><div class="k-note-body">10 arquivos do painel mudaram depois do APROVADO.</div></div><span class="k-unread"></span><span class="k-sr-only">não lida</span></div><div style="height:1px;background:var(--line)"></div><div class="k-note k-note--gate"><span class="k-note-icon"><span data-icon="lock" data-size="16"></span></span><div style="flex:1;min-width:0"><div class="k-note-title">Portão da publicação ainda não rodou</div><div class="k-note-body">“Joga o livro no ChatGPT e escreve isso” · publica em 27 out, 21:00</div></div><span class="k-unread"></span><span class="k-sr-only">não lida</span></div><div style="height:1px;background:var(--line)"></div><div class="k-note k-note--ok"><span class="k-note-icon"><span data-icon="check" data-size="16"></span></span><div style="flex:1;min-width:0"><div class="k-note-title">Dados do painel aprovados</div><div class="k-note-body">Portão dos dados (Sérgio Lemos) · 23 out, 10:48</div></div></div></div>
+</section>
+<section class="pv-sec">
+<h2 class="pv-sec-t k-cap">Neutra <span class="pv-tag pv-tag--real">dados reais · banco do painel</span></h2>
+<div class="k-card" style="overflow:hidden;max-width:520px"><div class="k-note"><span class="k-note-icon"><span data-icon="info" data-size="16"></span></span><div style="flex:1;min-width:0"><div class="k-note-title">Sincronizado</div><div class="k-note-body">Banco do painel atualizado em 23 out, 14:52</div></div></div></div>
+</section>
+<section class="pv-sec">
+<h2 class="pv-sec-t k-cap">Regras</h2>
+<ul class="pv-lista"><li>Ícone 32px num quadrado raio 8: alerta (danger), portão (accent), sucesso (positive), informação neutra.</li><li>Título 13px/600 + corpo 13px ink-2 com contexto e tempo.</li><li>Não lida = ponto laranja à direita + “não lida” para leitor de tela.</li><li>Em lista dentro de k-card (divisória line) ou flutuante com shadow-pop.</li></ul>
+</section>
+<footer class="pv-foot"><span>Dados: dados-2026-10-23.json → portoes_painel, veredictos_painel, fila, ultima_sincronizacao</span> <span>Regras: <a href="../design-system.md">design-system.md</a></span> <a href="index.html">Todas as prévias</a></footer>
+</main>
+</body>
+</html>

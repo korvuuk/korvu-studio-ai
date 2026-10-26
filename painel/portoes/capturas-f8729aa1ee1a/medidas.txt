@@ -1,0 +1,16 @@
+# capturar.sh · 2026-10-24T04:53:54.644Z
+# alvo	largura pedida	innerWidth	scrollWidth	altura	HTTP	png	passa da borda
+/biblioteca	1440	1440	1440	1578	200	/Users/teste/Documents/CONTENT AI/painel/portoes/capturas-f8729aa1ee1a/biblioteca-1440.png	
+/biblioteca	375	375	375	3994	200	/Users/teste/Documents/CONTENT AI/painel/portoes/capturas-f8729aa1ee1a/biblioteca-375.png	
+/	1440	1440	1440	1731	200	/Users/teste/Documents/CONTENT AI/painel/portoes/capturas-f8729aa1ee1a/inicio-1440.png	
+/	375	375	375	3924	200	/Users/teste/Documents/CONTENT AI/painel/portoes/capturas-f8729aa1ee1a/inicio-375.png	
+/equipe	1440	1440	1440	1773	200	/Users/teste/Documents/CONTENT AI/painel/portoes/capturas-f8729aa1ee1a/equipe-1440.png	
+/equipe	375	375	375	4173	200	/Users/teste/Documents/CONTENT AI/painel/portoes/capturas-f8729aa1ee1a/equipe-375.png	
+/producao	1440	1440	1440	1584	200	/Users/teste/Documents/CONTENT AI/painel/portoes/capturas-f8729aa1ee1a/producao-1440.png	
+/producao	375	375	375	2492	200	/Users/teste/Documents/CONTENT AI/painel/portoes/capturas-f8729aa1ee1a/producao-375.png	
+/calendario	1440	1440	1440	1628	200	/Users/teste/Documents/CONTENT AI/painel/portoes/capturas-f8729aa1ee1a/calendario-1440.png	
+/calendario	375	375	375	2418	200	/Users/teste/Documents/CONTENT AI/painel/portoes/capturas-f8729aa1ee1a/calendario-375.png	
+/desempenho	1440	1440	1440	1681	200	/Users/teste/Documents/CONTENT AI/painel/portoes/capturas-f8729aa1ee1a/desempenho-1440.png	
+/desempenho	375	375	375	3078	200	/Users/teste/Documents/CONTENT AI/painel/portoes/capturas-f8729aa1ee1a/desempenho-375.png	
+/tokens	1440	1440	1440	2181	200	/Users/teste/Documents/CONTENT AI/painel/portoes/capturas-f8729aa1ee1a/tokens-1440.png	
+/tokens	375	375	375	3797	200	/Users/teste/Documents/CONTENT AI/painel/portoes/capturas-f8729aa1ee1a/tokens-375.png	

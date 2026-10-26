@@ -1,0 +1,14 @@
+# capturar.sh · 2026-10-23T12:13:33.474Z
+# alvo	largura pedida	innerWidth	scrollWidth	altura	HTTP	png	passa da borda
+/	1440	1440	1440	1466	200	/Users/teste/Documents/CONTENT AI/painel/portoes/capturas-dd0011568610/inicio-1440.png	
+/	375	375	375	2452	200	/Users/teste/Documents/CONTENT AI/painel/portoes/capturas-dd0011568610/inicio-375.png	
+/equipe	1440	1440	1440	1797	200	/Users/teste/Documents/CONTENT AI/painel/portoes/capturas-dd0011568610/equipe-1440.png	
+/equipe	375	375	375	4096	200	/Users/teste/Documents/CONTENT AI/painel/portoes/capturas-dd0011568610/equipe-375.png	
+/equipe/portao-imagem	1440	1440	1440	1585	200	/Users/teste/Documents/CONTENT AI/painel/portoes/capturas-dd0011568610/equipe-portao-imagem-1440.png	
+/equipe/portao-imagem	375	375	375	2340	200	/Users/teste/Documents/CONTENT AI/painel/portoes/capturas-dd0011568610/equipe-portao-imagem-375.png	
+/equipe/contratar	1440	1440	1440	990	200	/Users/teste/Documents/CONTENT AI/painel/portoes/capturas-dd0011568610/equipe-contratar-1440.png	
+/equipe/contratar	375	375	375	1824	200	/Users/teste/Documents/CONTENT AI/painel/portoes/capturas-dd0011568610/equipe-contratar-375.png	
+/videos	1440	1440	1440	1605	200	/Users/teste/Documents/CONTENT AI/painel/portoes/capturas-dd0011568610/videos-1440.png	
+/videos	375	375	375	1899	200	/Users/teste/Documents/CONTENT AI/painel/portoes/capturas-dd0011568610/videos-375.png	
+/desempenho	1440	1440	1440	2145	200	/Users/teste/Documents/CONTENT AI/painel/portoes/capturas-dd0011568610/desempenho-1440.png	
+/desempenho	375	375	375	3512	200	/Users/teste/Documents/CONTENT AI/painel/portoes/capturas-dd0011568610/desempenho-375.png	

@@ -1,0 +1,173 @@
+[
+  {
+    "id": "0cmkCCCqais",
+    "url": "https://www.youtube.com/watch?v=0cmkCCCqais",
+    "titulo": "Scale expertise by sharing custom Gemini Gems with your team for consistent workflows",
+    "canal": "Google Workspace",
+    "publicado_em": "2026-01-22",
+    "duracao_s": 149.0,
+    "visualizacoes": 7625,
+    "licenca": "todos os direitos reservados",
+    "fps": 29.97,
+    "arquivo": "videos/2026-10-22-agente-3-passos/material/youtube/0cmkCCCqais-Scale_expertise_by_sharing_custom_Gemini_Gems_with_your_team_for_consistent_work.mp4",
+    "proxy": null,
+    "credito": "Scale expertise by sharing custom Gemini Gems with your team for consistent workflows (Google Workspace)",
+    "uso": "comentario",
+    "baixado_em": "2026-10-14",
+    "linhas": [
+      "L03",
+      "L04"
+    ],
+    "motivo": "Google Workspace: Gems compartilhados, assistente com regras",
+    "momentos": [],
+    "trechos": []
+  },
+  {
+    "id": "cym-JwNa-Vg",
+    "url": "https://www.youtube.com/watch?v=cym-JwNa-Vg",
+    "titulo": "How Google AI is helping American small businesses",
+    "canal": "Google Workspace",
+    "publicado_em": "2025-01-31",
+    "duracao_s": 90.0,
+    "visualizacoes": 124591,
+    "licenca": "todos os direitos reservados",
+    "fps": 23.976,
+    "arquivo": "videos/2026-10-22-agente-3-passos/material/youtube/cym-JwNa-Vg-How_Google_AI_is_helping_American_small_businesses.mp4",
+    "proxy": null,
+    "credito": "How Google AI is helping American small businesses (Google Workspace)",
+    "uso": "comentario",
+    "baixado_em": "2026-10-14",
+    "linhas": [
+      "L01",
+      "L03"
+    ],
+    "motivo": "Google: IA ajudando pequenos negocios",
+    "momentos": [],
+    "trechos": [
+      {
+        "id": "E10",
+        "inicio": "1:06",
+        "fim": "1:10",
+        "inicio_s": 66.6,
+        "fim_s": 70.5,
+        "duracao_s": 3.74,
+        "o_que": "Gemini no Gmail/Docs: texto gerado aparece na tela",
+        "som": false,
+        "arquivo": "videos/2026-10-22-agente-3-passos/brutos/extras/E10-gmail-sugerir-resposta.mp4"
+      }
+    ]
+  },
+  {
+    "id": "q-dnq2Fsq2Y",
+    "url": "https://www.youtube.com/watch?v=q-dnq2Fsq2Y",
+    "titulo": "Help Wanted, Help Found: See How Holly is Using Gemini",
+    "canal": "Google",
+    "publicado_em": "2026-05-19",
+    "duracao_s": 103.0,
+    "visualizacoes": 23692,
+    "licenca": "todos os direitos reservados",
+    "fps": 23.976,
+    "arquivo": "videos/2026-10-22-agente-3-passos/material/youtube/q-dnq2Fsq2Y-Help_Wanted_Help_Found_-_See_How_Holly_is_Using_Gemini.mp4",
+    "proxy": null,
+    "credito": "Help Wanted, Help Found: See How Holly is Using Gemini (Google)",
+    "uso": "comentario",
+    "baixado_em": "2026-10-14",
+    "linhas": [
+      "L01",
+      "L02"
+    ],
+    "motivo": "Google Gemini: dona de negocio usando Gemini",
+    "momentos": [],
+    "trechos": [
+      {
+        "id": "E09",
+        "inicio": "0:31",
+        "fim": "0:34",
+        "inicio_s": 31.0,
+        "fim_s": 34.5,
+        "duracao_s": 3.357,
+        "o_que": "celular do Gemini: dono pergunta e a resposta aparece (restaurante)",
+        "som": false,
+        "arquivo": "videos/2026-10-22-agente-3-passos/brutos/extras/E09-holly-celular-pergunta.mp4"
+      }
+    ]
+  },
+  {
+    "id": "FSAg0BcbJlg",
+    "url": "https://www.youtube.com/watch?v=FSAg0BcbJlg",
+    "titulo": "How Small Teams Build Big Brands with Gemini in Workspace",
+    "canal": "Google Workspace",
+    "publicado_em": "2026-10-12",
+    "duracao_s": 30.0,
+    "visualizacoes": 851140,
+    "licenca": "todos os direitos reservados",
+    "fps": 23.976,
+    "arquivo": "videos/2026-10-22-agente-3-passos/material/youtube/FSAg0BcbJlg-How_Small_Teams_Build_Big_Brands_with_Gemini_in_Workspace.mp4",
+    "proxy": null,
+    "credito": "How Small Teams Build Big Brands with Gemini in Workspace (Google Workspace)",
+    "uso": "comentario",
+    "baixado_em": "2026-10-14",
+    "linhas": [
+      "L03"
+    ],
+    "motivo": "Workspace: pequenas equipes com Gemini",
+    "momentos": [],
+    "trechos": [
+      {
+        "id": "E11",
+        "inicio": "0:22",
+        "fim": "0:28",
+        "inicio_s": 22.0,
+        "fim_s": 28.0,
+        "duracao_s": 5.754,
+        "o_que": "Gemini ajudando a pequena equipe (tarefas e 'time de milhoes')",
+        "som": false,
+        "arquivo": "videos/2026-10-22-agente-3-passos/brutos/extras/E11-pequena-equipe-gemini.mp4"
+      }
+    ]
+  },
+  {
+    "id": "qtO940hejdE",
+    "url": "https://www.youtube.com/watch?v=qtO940hejdE",
+    "titulo": "How to Use Gmail for Help Me Write, AI Summaries & Build Custom Gems | Gemini at Work - Lesson 5",
+    "canal": "Google Workspace",
+    "publicado_em": "2026-04-06",
+    "duracao_s": 591.0,
+    "visualizacoes": 9479,
+    "licenca": "todos os direitos reservados",
+    "fps": 23.976,
+    "arquivo": "videos/2026-10-22-agente-3-passos/material/youtube/qtO940hejdE-How_to_Use_Gmail_for_Help_Me_Write_AI_Summaries_Build_Custom_Gems_Gemini_at.mp4",
+    "proxy": null,
+    "credito": "How to Use Gmail for Help Me Write, AI Summaries & Build Custom Gems | Gemini at Work - Lesson 5 (Google Workspace)",
+    "uso": "comentario",
+    "baixado_em": "2026-10-14",
+    "linhas": [
+      "L04"
+    ],
+    "motivo": "Workspace: construir Gems",
+    "momentos": [],
+    "trechos": []
+  },
+  {
+    "id": "0bJrNCfyEek",
+    "url": "https://www.youtube.com/watch?v=0bJrNCfyEek",
+    "titulo": "Gemini Skills Tutorial 2026: Gems Move to Skills from 17 November (How to Create and Use Skills)",
+    "canal": "Explained. Applied.",
+    "publicado_em": "2026-10-05",
+    "duracao_s": 343.0,
+    "visualizacoes": 379,
+    "licenca": "todos os direitos reservados",
+    "fps": 30.0,
+    "arquivo": "videos/2026-10-22-agente-3-passos/material/youtube/0bJrNCfyEek-Gemini_Skills_Tutorial_2026_-_Gems_Move_to_Skills_from_17_November_How_to_Create.mp4",
+    "proxy": null,
+    "credito": "Gemini Skills Tutorial 2026: Gems Move to Skills from 17 November (How to Create and Use Skills) (Explained. Applied.)",
+    "uso": "comentario",
+    "baixado_em": "2026-10-14",
+    "linhas": [
+      "L04"
+    ],
+    "motivo": "Gems para Skills em 17/11 (nao oficial)",
+    "momentos": [],
+    "trechos": []
+  }
+]

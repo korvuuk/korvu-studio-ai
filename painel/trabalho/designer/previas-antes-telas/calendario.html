@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Evento do calendário · korvu. painel — design system</title>
+<link rel="stylesheet" href="../tokens.css">
+<link rel="stylesheet" href="../componentes.css">
+<link rel="stylesheet" href="../acrescimos.css">
+<link rel="stylesheet" href="previa.css">
+<script src="../korvu.js"></script>
+<script src="previa.js" defer></script>
+</head>
+<body>
+<main class="pv">
+<header class="pv-head">
+<p class="k-cap">Fluxo · <span class="k-mono">k-event</span></p>
+<h1 class="k-h2">Evento do calendário</h1>
+<p class="pv-lead">O que sai, quando, onde — e se o portão segura.</p>
+</header>
+<section class="pv-sec">
+<h2 class="pv-sec-t k-cap">Com dados reais (fila de publicação) <span class="pv-tag pv-tag--real">dados reais · banco do painel</span></h2>
+<div class="k-card" style="padding:14px 16px"><div class="k-card-head" style="margin-bottom:10px"><span class="k-card-title">Fila de publicação</span><span class="k-mono k-muted">24 OUT – 1 NOV</span></div><div class="k-cal"><div class="k-cal-day"><span>Sáb 24</span><div class="k-event k-event--ig"><b>Chegou sem falar inglês e ajudou a IA a enxergar</b><span>19:00 · Instagram · r2</span><div class="k-event-portao"><span>Portões:</span><small class="k-chip k-chip--agendado no-dot">Legado · sem selo</small></div></div></div><div class="k-cal-day"><span>Dom 25</span><div class="k-event k-event--ig"><b>Geoffrey Hinton: quase 50 anos numa ideia que ninguém levava a sério, até o Nobel</b><span>19:00 · Instagram · r2</span><div class="k-event-portao"><span>Portões:</span><small class="k-chip k-chip--agendado no-dot">Legado · sem selo</small></div></div></div><div class="k-cal-day"><span>Ter 27</span><div class="k-event k-event--ig"><b>Joga o livro no ChatGPT e escreve isso</b><span>21:00 · Instagram</span><div class="k-event-portao"><span>Portões:</span><small class="k-chip k-chip--agendado no-dot">Legado · sem selo</small></div></div></div><div class="k-cal-day"><span>Qua 28</span><div class="k-event k-event--ig"><b>Joga o livro no ChatGPT e escreve isso</b><span>21:00 · Instagram · l01c</span><div class="k-event-portao"><span>Portões:</span><small class="k-chip k-chip--agendado no-dot">Legado · sem selo</small></div></div></div><div class="k-cal-day"><span>Dom 1</span><div class="k-event k-event--ig"><b>Joga o livro no ChatGPT e escreve isso</b><span>19:00 · Instagram · l01c-a</span><div class="k-event-portao"><span>Portões:</span><small class="k-chip k-chip--agendado no-dot">Legado · sem selo</small></div></div></div></div></div><p class="pv-nota">Os 5 posts da fila, cada um com o que o publicar.py confere: 5 de 5 são legado (<span class="k-mono">fila.legado</span>, lista congelada de 22/10) — publicam sem selo, e nesse caso o publicar.py não olha portão nenhum.</p>
+</section>
+<section class="pv-sec">
+<h2 class="pv-sec-t k-cap">Casos sem dado real hoje <span class="pv-tag">exemplo · sem dado real hoje</span></h2>
+<div class="k-cal"><div class="k-cal-day"><div class="k-event k-event--ig"><b>Reel com a cor refeita na fila</b><span>21:00 · Instagram</span><div class="k-event-portao"><span>Portões:</span><small class="k-chip k-chip--bloqueado">Vencido</small><span>imagem ·</span><span class="k-segura">não sai</span></div></div></div><div class="k-cal-day"><div class="k-event k-event--fb"><b>Reel recém-posto na fila</b><span>18:30 · Facebook</span><div class="k-event-portao"><span>Portões:</span><small class="k-chip k-chip--agendado">Ainda não rodou</small><span>publicação ·</span><span class="k-segura">não sai</span></div></div></div><div class="k-cal-day"><div class="k-event "><b>Reel nos dois canais</b><span>20:00 · Instagram + Facebook</span><div class="k-event-portao"><span>Portões:</span><small class="k-chip k-chip--aprovado">Aprovado</small></div></div></div><div class="k-cal-day"><div class="k-event k-event--gate"><b>Portão · publicação</b><span>marcado para hoje</span></div></div></div>
+</section>
+<section class="pv-sec">
+<h2 class="pv-sec-t k-cap">Regras</h2>
+<ul class="pv-lista"><li>Canal pela barra de 3px <b>e</b> pelo nome escrito: Instagram = accent, Facebook = chart-5, os dois = ink.</li><li><b>“Portões:” em todos os posts</b>, com o que o publicar.py confere na hora de sair: o portão da publicação e os portões do vídeo de origem (pauta só se aplicar). Mostra o <b>pior</b> estado, com o chip do mapa único. <b>Legado vence</b>: “Legado · sem selo” (o publicar.py não confere nada).</li><li>Se algo segura o post, o chip vem seguido de “&lt;portão&gt; · <span class="k-segura">não sai</span>” (ex.: “Vencido · imagem · não sai” — o caso de 21/10, a cor refeita com o post na fila). Nunca só em alguns posts.</li><li>O que o banco não sabe (arquivo trocado depois do selo) aparece só no log do publicar.py.</li><li>Evento de portão (fundo accent-soft, texto accent-ink, sem barra) para um portão marcado num dia.</li><li>Cada linha com reticências; a linha “Portões:” quebra em duas se precisar. Em tela estreita: 2 dias por linha abaixo de 768px, 1 abaixo de 640px.</li><li>A fila de hoje só tem Instagram e só legado; os outros casos aparecem como exemplo.</li><li>A página Calendário ainda não existe; o componente já serve para a fila.</li></ul>
+</section>
+<footer class="pv-foot"><span>Dados: dados-2026-10-23.json → fila, portoes_fila, portoes_livro_chatgpt, videos (horários no fuso do painel, o de formato.ts)</span> <span>Regras: <a href="../design-system.md">design-system.md</a></span> <a href="index.html">Todas as prévias</a></footer>
+</main>
+</body>
+</html>

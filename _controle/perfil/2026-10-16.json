@@ -1,0 +1,2049 @@
+{
+  "lido_em": "2026-10-16T11:09:19+01:00",
+  "instagram": {
+    "conta": {
+      "id": "17841400421533511",
+      "biography": "AI Strategist 🤖 \nAjudo empresários a implementar IA no negócio.\nTreino, disciplina e tecnologia no dia a dia 🏋🏿‍♂️ .",
+      "followers_count": 3634,
+      "follows_count": 7495,
+      "media_count": 7,
+      "name": "Korvu",
+      "profile_picture_url": "https://scontent.flhr13-1.fna.fbcdn.net/v/t51.75761-15/505420943_18511033240014052_4805405033125886010_n.jpg?_nc_cat=107&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=7d201b&_nc_ohc=Mk8HWUWj8hIQ7kNvwHKUwUb&_nc_oc=AdqSDADkiPgJeMCDJSaIg9rCAkxwr1ed0qqj3n2BQPJJfQaFl9kgusr7HDeTfYoXH1lqJCeCtElTjXyTBSO9UKfw&_nc_zt=23&_nc_ht=scontent.flhr13-1.fna&edm=AJ-jyNUEAAAA&_nc_gid=XTNdVkAwXivQ57gkcGe6LA&oh=00_AQOsSNoAydWKyLaujAC68KkZRZyko1EE4rclEMIJuMVVlA&oe=6AD7B90D",
+      "username": "korvu_oficial"
+    },
+    "janela": {
+      "dias": 28,
+      "desde": "2026-09-18",
+      "ate": "2026-10-16"
+    },
+    "metricas_conta": {
+      "reach": {
+        "valor": 476
+      },
+      "views": {
+        "valor": 2677
+      },
+      "accounts_engaged": {
+        "valor": 30
+      },
+      "total_interactions": {
+        "valor": 107
+      },
+      "profile_views": {
+        "valor": 54
+      },
+      "profile_links_taps": {
+        "valor": 0
+      },
+      "website_clicks": {
+        "valor": 0
+      },
+      "likes": {
+        "valor": 86
+      },
+      "comments": {
+        "valor": 5
+      },
+      "saves": {
+        "valor": 1
+      },
+      "shares": {
+        "valor": 1
+      },
+      "reach_por_follow_type": {
+        "valor": 476,
+        "quebras": [
+          {
+            "dimensao": [
+              "follow_type"
+            ],
+            "resultados": [
+              {
+                "chave": [
+                  "NON_FOLLOWER"
+                ],
+                "valor": 263
+              },
+              {
+                "chave": [
+                  "FOLLOWER"
+                ],
+                "valor": 203
+              }
+            ]
+          }
+        ]
+      },
+      "reach_por_media_product_type": {
+        "valor": 476,
+        "quebras": [
+          {
+            "dimensao": [
+              "media_product_type"
+            ],
+            "resultados": [
+              {
+                "chave": [
+                  "REEL"
+                ],
+                "valor": 393
+              },
+              {
+                "chave": [
+                  "STORY"
+                ],
+                "valor": 133
+              },
+              {
+                "chave": [
+                  "POST"
+                ],
+                "valor": 8
+              },
+              {
+                "chave": [
+                  "CAROUSEL_CONTAINER"
+                ],
+                "valor": 4
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "demografia": {
+      "follower_demographics": {
+        "country": [
+          {
+            "chave": [
+              "GW"
+            ],
+            "valor": 1852
+          },
+          {
+            "chave": [
+              "BR"
+            ],
+            "valor": 506
+          },
+          {
+            "chave": [
+              "PT"
+            ],
+            "valor": 242
+          },
+          {
+            "chave": [
+              "AO"
+            ],
+            "valor": 187
+          },
+          {
+            "chave": [
+              "GB"
+            ],
+            "valor": 119
+          },
+          {
+            "chave": [
+              "MZ"
+            ],
+            "valor": 87
+          },
+          {
+            "chave": [
+              "SN"
+            ],
+            "valor": 45
+          },
+          {
+            "chave": [
+              "CV"
+            ],
+            "valor": 39
+          },
+          {
+            "chave": [
+              "US"
+            ],
+            "valor": 34
+          },
+          {
+            "chave": [
+              "FR"
+            ],
+            "valor": 28
+          },
+          {
+            "chave": [
+              "GN"
+            ],
+            "valor": 16
+          },
+          {
+            "chave": [
+              "ES"
+            ],
+            "valor": 16
+          },
+          {
+            "chave": [
+              "LU"
+            ],
+            "valor": 14
+          },
+          {
+            "chave": [
+              "IN"
+            ],
+            "valor": 12
+          },
+          {
+            "chave": [
+              "CA"
+            ],
+            "valor": 9
+          },
+          {
+            "chave": [
+              "CH"
+            ],
+            "valor": 9
+          },
+          {
+            "chave": [
+              "RU"
+            ],
+            "valor": 8
+          },
+          {
+            "chave": [
+              "NL"
+            ],
+            "valor": 8
+          },
+          {
+            "chave": [
+              "MA"
+            ],
+            "valor": 7
+          },
+          {
+            "chave": [
+              "NG"
+            ],
+            "valor": 7
+          },
+          {
+            "chave": [
+              "DE"
+            ],
+            "valor": 5
+          },
+          {
+            "chave": [
+              "GM"
+            ],
+            "valor": 5
+          },
+          {
+            "chave": [
+              "IR"
+            ],
+            "valor": 5
+          },
+          {
+            "chave": [
+              "TR"
+            ],
+            "valor": 5
+          },
+          {
+            "chave": [
+              "BJ"
+            ],
+            "valor": 4
+          },
+          {
+            "chave": [
+              "GH"
+            ],
+            "valor": 4
+          },
+          {
+            "chave": [
+              "ST"
+            ],
+            "valor": 4
+          },
+          {
+            "chave": [
+              "VE"
+            ],
+            "valor": 4
+          },
+          {
+            "chave": [
+              "AR"
+            ],
+            "valor": 4
+          },
+          {
+            "chave": [
+              "BE"
+            ],
+            "valor": 3
+          },
+          {
+            "chave": [
+              "UA"
+            ],
+            "valor": 3
+          },
+          {
+            "chave": [
+              "IQ"
+            ],
+            "valor": 3
+          },
+          {
+            "chave": [
+              "BY"
+            ],
+            "valor": 2
+          },
+          {
+            "chave": [
+              "SL"
+            ],
+            "valor": 2
+          },
+          {
+            "chave": [
+              "IE"
+            ],
+            "valor": 2
+          },
+          {
+            "chave": [
+              "ML"
+            ],
+            "valor": 2
+          },
+          {
+            "chave": [
+              "CD"
+            ],
+            "valor": 2
+          },
+          {
+            "chave": [
+              "CI"
+            ],
+            "valor": 2
+          },
+          {
+            "chave": [
+              "CN"
+            ],
+            "valor": 2
+          },
+          {
+            "chave": [
+              "MX"
+            ],
+            "valor": 2
+          },
+          {
+            "chave": [
+              "IT"
+            ],
+            "valor": 2
+          },
+          {
+            "chave": [
+              "AU"
+            ],
+            "valor": 2
+          },
+          {
+            "chave": [
+              "VN"
+            ],
+            "valor": 2
+          },
+          {
+            "chave": [
+              "PK"
+            ],
+            "valor": 2
+          },
+          {
+            "chave": [
+              "NP"
+            ],
+            "valor": 1
+          }
+        ],
+        "city": [
+          {
+            "chave": [
+              "Bissau, Bissau"
+            ],
+            "valor": 1845
+          },
+          {
+            "chave": [
+              "Juiz de Fora, Minas Gerais"
+            ],
+            "valor": 239
+          },
+          {
+            "chave": [
+              "Luanda, Luanda Province"
+            ],
+            "valor": 100
+          },
+          {
+            "chave": [
+              "London, England"
+            ],
+            "valor": 55
+          },
+          {
+            "chave": [
+              "Cintra, Lisbon District"
+            ],
+            "valor": 49
+          },
+          {
+            "chave": [
+              "São Paulo, São Paulo (state)"
+            ],
+            "valor": 39
+          },
+          {
+            "chave": [
+              "Maputo, Maputo"
+            ],
+            "valor": 36
+          },
+          {
+            "chave": [
+              "Lisbon, Lisbon District"
+            ],
+            "valor": 34
+          },
+          {
+            "chave": [
+              "Dakar, Dakar Region"
+            ],
+            "valor": 22
+          },
+          {
+            "chave": [
+              "Talatona, Luanda Province"
+            ],
+            "valor": 21
+          },
+          {
+            "chave": [
+              "Belo Horizonte, Minas Gerais"
+            ],
+            "valor": 21
+          },
+          {
+            "chave": [
+              "Rio de Janeiro, Rio de Janeiro (state)"
+            ],
+            "valor": 20
+          },
+          {
+            "chave": [
+              "Praia, Santiago"
+            ],
+            "valor": 17
+          },
+          {
+            "chave": [
+              "Amadora, Lisbon District"
+            ],
+            "valor": 16
+          },
+          {
+            "chave": [
+              "Conakry, Conakry"
+            ],
+            "valor": 14
+          },
+          {
+            "chave": [
+              "N'dalatando, Cuanza Norte Province"
+            ],
+            "valor": 12
+          },
+          {
+            "chave": [
+              "Kakuako, Luanda Province"
+            ],
+            "valor": 11
+          },
+          {
+            "chave": [
+              "Matola, Maputo Province"
+            ],
+            "valor": 11
+          },
+          {
+            "chave": [
+              "Agualva, Lisbon District"
+            ],
+            "valor": 9
+          },
+          {
+            "chave": [
+              "Fortaleza, Ceará"
+            ],
+            "valor": 8
+          },
+          {
+            "chave": [
+              "Peterborough, England"
+            ],
+            "valor": 7
+          },
+          {
+            "chave": [
+              "Vila Franca de Xira, Lisbon District"
+            ],
+            "valor": 7
+          },
+          {
+            "chave": [
+              "Camama, Luanda Province"
+            ],
+            "valor": 7
+          },
+          {
+            "chave": [
+              "Beira, Sofala Province"
+            ],
+            "valor": 6
+          },
+          {
+            "chave": [
+              "Chimoio, Manica Province"
+            ],
+            "valor": 6
+          },
+          {
+            "chave": [
+              "Odivelas, Lisbon District"
+            ],
+            "valor": 6
+          },
+          {
+            "chave": [
+              "Póvoa de Santo Adrião, Lisbon District"
+            ],
+            "valor": 6
+          },
+          {
+            "chave": [
+              "Dudelange, Luxembourg District"
+            ],
+            "valor": 5
+          },
+          {
+            "chave": [
+              "Montreal, Quebec"
+            ],
+            "valor": 5
+          },
+          {
+            "chave": [
+              "Lavradio, Setúbal District"
+            ],
+            "valor": 5
+          },
+          {
+            "chave": [
+              "Nampula, Nampula Province"
+            ],
+            "valor": 5
+          },
+          {
+            "chave": [
+              "Rufisque, Dakar Region"
+            ],
+            "valor": 5
+          },
+          {
+            "chave": [
+              "Paris, Île-de-France"
+            ],
+            "valor": 5
+          },
+          {
+            "chave": [
+              "Ilford, England"
+            ],
+            "valor": 5
+          },
+          {
+            "chave": [
+              "Vila Nova de Gaia, Porto District"
+            ],
+            "valor": 5
+          },
+          {
+            "chave": [
+              "Seixal, Setúbal District"
+            ],
+            "valor": 5
+          },
+          {
+            "chave": [
+              "Wellingborough, England"
+            ],
+            "valor": 5
+          },
+          {
+            "chave": [
+              "Alenquer, Lisbon District"
+            ],
+            "valor": 4
+          },
+          {
+            "chave": [
+              "Mindelo, São Vicente"
+            ],
+            "valor": 4
+          },
+          {
+            "chave": [
+              "Guarulhos, São Paulo (state)"
+            ],
+            "valor": 4
+          },
+          {
+            "chave": [
+              "Leeds, England"
+            ],
+            "valor": 4
+          },
+          {
+            "chave": [
+              "Ziguinchor, Ziguinchor Region"
+            ],
+            "valor": 4
+          },
+          {
+            "chave": [
+              "Matias Barbosa, Minas Gerais"
+            ],
+            "valor": 4
+          },
+          {
+            "chave": [
+              "Porto Amboim, Cuanza Sul Province"
+            ],
+            "valor": 4
+          },
+          {
+            "chave": [
+              "Coimbra, Coimbra District"
+            ],
+            "valor": 4
+          }
+        ],
+        "age": [
+          {
+            "chave": [
+              "25-34"
+            ],
+            "valor": 1259
+          },
+          {
+            "chave": [
+              "18-24"
+            ],
+            "valor": 973
+          },
+          {
+            "chave": [
+              "35-44"
+            ],
+            "valor": 811
+          },
+          {
+            "chave": [
+              "45-54"
+            ],
+            "valor": 174
+          },
+          {
+            "chave": [
+              "55-64"
+            ],
+            "valor": 58
+          },
+          {
+            "chave": [
+              "65+"
+            ],
+            "valor": 55
+          },
+          {
+            "chave": [
+              "13-17"
+            ],
+            "valor": 16
+          }
+        ],
+        "gender": [
+          {
+            "chave": [
+              "M"
+            ],
+            "valor": 1700
+          },
+          {
+            "chave": [
+              "U"
+            ],
+            "valor": 862
+          },
+          {
+            "chave": [
+              "F"
+            ],
+            "valor": 784
+          }
+        ]
+      },
+      "reached_audience_demographics": {
+        "country": [
+          {
+            "chave": [
+              "GB"
+            ],
+            "valor": 21
+          },
+          {
+            "chave": [
+              "BR"
+            ],
+            "valor": 11
+          },
+          {
+            "chave": [
+              "PT"
+            ],
+            "valor": 9
+          },
+          {
+            "chave": [
+              "GW"
+            ],
+            "valor": 5
+          },
+          {
+            "chave": [
+              "LU"
+            ],
+            "valor": 2
+          },
+          {
+            "chave": [
+              "AO"
+            ],
+            "valor": 2
+          },
+          {
+            "chave": [
+              "CH"
+            ],
+            "valor": 1
+          },
+          {
+            "chave": [
+              "FR"
+            ],
+            "valor": 1
+          },
+          {
+            "chave": [
+              "ES"
+            ],
+            "valor": 1
+          },
+          {
+            "chave": [
+              "US"
+            ],
+            "valor": 1
+          }
+        ],
+        "city": [
+          {
+            "chave": [
+              "Juiz de Fora, Minas Gerais"
+            ],
+            "valor": 9
+          },
+          {
+            "chave": [
+              "London, England"
+            ],
+            "valor": 6
+          },
+          {
+            "chave": [
+              "Bissau, Bissau"
+            ],
+            "valor": 5
+          },
+          {
+            "chave": [
+              "Ilford, England"
+            ],
+            "valor": 3
+          },
+          {
+            "chave": [
+              "Dudelange, Luxembourg District"
+            ],
+            "valor": 2
+          },
+          {
+            "chave": [
+              "Lisbon, Lisbon District"
+            ],
+            "valor": 2
+          },
+          {
+            "chave": [
+              "Cintra, Lisbon District"
+            ],
+            "valor": 2
+          },
+          {
+            "chave": [
+              "Barking, England"
+            ],
+            "valor": 2
+          },
+          {
+            "chave": [
+              "Salford, England"
+            ],
+            "valor": 1
+          },
+          {
+            "chave": [
+              "Harlow, England"
+            ],
+            "valor": 1
+          },
+          {
+            "chave": [
+              "Staverton, England"
+            ],
+            "valor": 1
+          },
+          {
+            "chave": [
+              "Minneola, Florida"
+            ],
+            "valor": 1
+          },
+          {
+            "chave": [
+              "Peterborough, England"
+            ],
+            "valor": 1
+          },
+          {
+            "chave": [
+              "Rochdale, England"
+            ],
+            "valor": 1
+          },
+          {
+            "chave": [
+              "La Línea, Andalusia"
+            ],
+            "valor": 1
+          },
+          {
+            "chave": [
+              "Aveley, England"
+            ],
+            "valor": 1
+          },
+          {
+            "chave": [
+              "Lima Duarte, Minas Gerais"
+            ],
+            "valor": 1
+          },
+          {
+            "chave": [
+              "Paris, Île-de-France"
+            ],
+            "valor": 1
+          },
+          {
+            "chave": [
+              "Vila Nova de Gaia, Porto District"
+            ],
+            "valor": 1
+          },
+          {
+            "chave": [
+              "Leeds, England"
+            ],
+            "valor": 1
+          },
+          {
+            "chave": [
+              "Erith, England"
+            ],
+            "valor": 1
+          },
+          {
+            "chave": [
+              "Fortaleza, Ceará"
+            ],
+            "valor": 1
+          },
+          {
+            "chave": [
+              "Ashford, England"
+            ],
+            "valor": 1
+          },
+          {
+            "chave": [
+              "Geneva, Canton of Geneva"
+            ],
+            "valor": 1
+          },
+          {
+            "chave": [
+              "Stockport, England"
+            ],
+            "valor": 1
+          },
+          {
+            "chave": [
+              "Maia, Porto District"
+            ],
+            "valor": 1
+          },
+          {
+            "chave": [
+              "Portimão, Faro District"
+            ],
+            "valor": 1
+          },
+          {
+            "chave": [
+              "Póvoa de Santo Adrião, Lisbon District"
+            ],
+            "valor": 1
+          },
+          {
+            "chave": [
+              "Porto Amboim, Cuanza Sul Province"
+            ],
+            "valor": 1
+          },
+          {
+            "chave": [
+              "Camama, Luanda Province"
+            ],
+            "valor": 1
+          },
+          {
+            "chave": [
+              "Torres Vedras, Lisbon District"
+            ],
+            "valor": 1
+          }
+        ],
+        "age": [
+          {
+            "chave": [
+              "35-44"
+            ],
+            "valor": 26
+          },
+          {
+            "chave": [
+              "25-34"
+            ],
+            "valor": 20
+          },
+          {
+            "chave": [
+              "18-24"
+            ],
+            "valor": 4
+          },
+          {
+            "chave": [
+              "45-54"
+            ],
+            "valor": 4
+          }
+        ],
+        "gender": [
+          {
+            "chave": [
+              "M"
+            ],
+            "valor": 31
+          },
+          {
+            "chave": [
+              "F"
+            ],
+            "valor": 20
+          },
+          {
+            "chave": [
+              "U"
+            ],
+            "valor": 3
+          }
+        ]
+      }
+    },
+    "posts": [
+      {
+        "id": "18112116653114941",
+        "caption": "Geoffrey Hinton: 50 anos numa ideia que ninguém levava a sério, até virar Nobel.\n\nEle queria entender a mente humana. O orientador mandou largar a pesquisa. Ele não largou.\nEm 2012, com dois alunos, criou um sistema que reconhece imagens e mudou o rumo da IA.\nEm 2024, ganhou o Nobel de Física.\n\nComenta NOBEL que eu te mando o link da entrevista dele no direct.\nManda pra alguém que tá desistindo de uma ideia.\n\nFontes: 60 Minutes/CBS (2023), NobelPrize.org (2024), ImageNet (2012), MIT Technology Review (2023).\nImagens: 60 Minutes/CBS News, BBC News, NobelPrize.org, Computer History Museum, University of Toronto, The Diary of a CEO; fotos de John Sears, Jennifer 8. Lee, Eviatar Bach (CC BY-SA), Steve Jurvetson e Ramsey Cardy/Collision (CC BY).\n\n#inteligenciaartificial #geoffreyhinton #nobel #iaparainiciantes #historiadaia",
+        "timestamp": "2026-10-15T10:40:33+0000",
+        "media_type": "VIDEO",
+        "media_product_type": "REELS",
+        "permalink": "https://www.instagram.com/reel/Degw3KFDvcO/",
+        "like_count": 0,
+        "comments_count": 0,
+        "is_shared_to_feed": false,
+        "insights": {
+          "reach": 9,
+          "views": 8,
+          "saved": 0,
+          "shares": 0,
+          "ig_reels_avg_watch_time": 22791
+        }
+      },
+      {
+        "id": "18632821522039486",
+        "caption": "Demis Hassabis: o menino do xadrez que ganhou um Nobel com IA e criou a DeepMind em Londres.\n\nMestre de xadrez aos 13. Videogame aos 17. Depois, computação, neurociência e a DeepMind.\nO AlphaFold passou a prever o formato das proteínas e rendeu a ele o Nobel de Química de 2024, dividido com John Jumper.\n\n→ Para mais vídeos como esse, me segue aqui na @korvu_oficial.\n→ Qual parte da história te surpreendeu mais? Conta aqui nos comentários.\n\nTrechos do documentário The Thinking Game (Google DeepMind / Greg Kohs), usados para comentário. Todos os direitos dos trechos pertencem aos seus titulares.\nFonte: Nobel Prize, comunicado de Química 2024 (nobelprize.org).\n\n#demishassabis #deepmind #inteligenciaartificial #alphafold #nobel",
+        "timestamp": "2026-10-13T15:51:12+0000",
+        "media_type": "VIDEO",
+        "media_product_type": "REELS",
+        "permalink": "https://www.instagram.com/reel/DecK5CDk34q/",
+        "like_count": 14,
+        "comments_count": 2,
+        "is_shared_to_feed": true,
+        "insights": {
+          "reach": 312,
+          "views": 415,
+          "saved": 1,
+          "shares": 1,
+          "ig_reels_avg_watch_time": 11657
+        }
+      },
+      {
+        "id": "18202243276349813",
+        "caption": "Atendimento humanizado com IA: responda clientes mesmo quando você não está disponível\n\nVocê ainda responde cada mensagem manualmente no WhatsApp?\nEnquanto você está trabalhando, em reunião ou até dormindo... seus clientes continuam chegando.\nA diferença é que agora eles podem ser atendidos na hora.\n\nNeste vídeo, você vai ver um agente com Inteligência Artificial que recebe áudios, responde com áudios, entende o contexto da conversa e ainda realiza agendamentos de forma totalmente natural.\n\nNão é um robô com respostas prontas.\n\nÉ uma experiência de atendimento rápida, organizada e humanizada, que mantém a conversa fluindo mesmo quando você não está disponível.\n\nO objetivo não é substituir o contato humano.\nÉ garantir que nenhuma oportunidade fique sem resposta e que seu negócio funcione com mais eficiência.\n\n💬 Comenta se faz sentido para o seu negócio.\n\n📌 Salva esse vídeo para ver novamente depois.\n\n📲 Me chama no direct se quiser entender como esse tipo de automação pode funcionar na sua operação.",
+        "timestamp": "2026-05-19T19:55:59+0000",
+        "media_type": "VIDEO",
+        "media_product_type": "REELS",
+        "permalink": "https://www.instagram.com/reel/DYiFsLFsfD3/",
+        "like_count": 0,
+        "comments_count": 0,
+        "is_shared_to_feed": false,
+        "insights": {
+          "reach": 0,
+          "views": 1,
+          "saved": 0,
+          "shares": 0,
+          "ig_reels_avg_watch_time": 2192
+        }
+      },
+      {
+        "id": "18158979058392614",
+        "caption": "Você precisa saber sobre isso!",
+        "timestamp": "2026-05-15T17:15:17+0000",
+        "media_type": "VIDEO",
+        "media_product_type": "REELS",
+        "permalink": "https://www.instagram.com/reel/DYXgZ65sJ_4/",
+        "like_count": 0,
+        "comments_count": 0,
+        "is_shared_to_feed": false,
+        "insights": {
+          "reach": 98,
+          "views": 109,
+          "saved": 0,
+          "shares": 0,
+          "ig_reels_avg_watch_time": 1603
+        }
+      },
+      {
+        "id": "18101639359849760",
+        "caption": "Primeira comunidade sobre a inteligência artificial aqui em Londres 🇬🇧",
+        "timestamp": "2026-05-08T16:28:46+0000",
+        "media_type": "VIDEO",
+        "media_product_type": "REELS",
+        "permalink": "https://www.instagram.com/reel/DYFZcg0saJ1/",
+        "like_count": 0,
+        "comments_count": 0,
+        "is_shared_to_feed": false,
+        "insights": {
+          "reach": 51,
+          "views": 51,
+          "saved": 0,
+          "shares": 0,
+          "ig_reels_avg_watch_time": 2366
+        }
+      },
+      {
+        "id": "17879548395566327",
+        "caption": "NÃO USA AI DESTA FORMA!",
+        "timestamp": "2026-05-04T10:00:12+0000",
+        "media_type": "VIDEO",
+        "media_product_type": "REELS",
+        "permalink": "https://www.instagram.com/reel/DX6Z9pKMcgU/",
+        "like_count": 0,
+        "comments_count": 0,
+        "is_shared_to_feed": false,
+        "insights": {
+          "reach": 74,
+          "views": 82,
+          "saved": 0,
+          "shares": 0,
+          "ig_reels_avg_watch_time": 3692
+        }
+      },
+      {
+        "id": "18101367262794750",
+        "caption": "PARE DE PERDER DINHEIRO! 💸\n\nAtenção, pequeno empresário na Europa (especialmente você que está aqui no centro de Londres! 🇬🇧).\n\nSe você está sobrecarregado, atendendo telefone e respondendo WhatsApp enquanto deveria estar gerindo seu negócio, você está deixando dinheiro na mesa. \n\nA Inteligência Artificial não é apenas para grandes empresas. Hoje, eu ajudo empreendedores a automatizarem:\n✅ Atendimento no WhatsApp (Filtre quem só \"curia\" de quem realmente quer comprar).\n✅ Agendamentos automáticos.\n✅ Respostas imediatas no Instagram e Messenger.\n\nRecupere seu tempo e foque no que traz lucro. Deixe que a minha secretária virtual, a Sara, cuide do resto.\n\nQuer saber como implementar isso na sua clínica ou negócio? Assista ao vídeo e entenda o próximo nível. 🚀",
+        "timestamp": "2026-04-28T15:09:10+0000",
+        "media_type": "VIDEO",
+        "media_product_type": "REELS",
+        "permalink": "https://www.instagram.com/reel/DXrfvq8FKZO/",
+        "like_count": 13,
+        "comments_count": 0,
+        "is_shared_to_feed": true,
+        "insights": {
+          "reach": 255,
+          "views": 346,
+          "saved": 0,
+          "shares": 2,
+          "ig_reels_avg_watch_time": 11778
+        }
+      },
+      {
+        "id": "18101650018799587",
+        "caption": "IA não é só para fazer perguntas ou criar imagens. Isso é só a ponta do iceberg! 🧊\n\nEu construí uma estrutura de Agentes de IA que trabalham entre si como se fossem funcionários reais:\n1️⃣ Um pesquisa as tendências.\n2️⃣ Outro escreve o roteiro.\n3️⃣ Outro cria o design.\n4️⃣ Um revisor valida tudo e me envia no WhatsApp.\n\nO que eu levava 3 horas para fazer, hoje acontece em 3 minutos. A pergunta não é se a IA vai te substituir, mas sim: por que você ainda não tem o seu próprio time digital? 🚀\n\nAssista e entenda a \"segunda camada\" da Inteligência Artificial.",
+        "timestamp": "2026-04-27T14:55:19+0000",
+        "media_type": "VIDEO",
+        "media_product_type": "REELS",
+        "permalink": "https://www.instagram.com/reel/DXo5Tynmbt6/",
+        "like_count": 15,
+        "comments_count": 2,
+        "is_shared_to_feed": true,
+        "insights": {
+          "reach": 251,
+          "views": 343,
+          "saved": 2,
+          "shares": 0,
+          "ig_reels_avg_watch_time": 20899
+        }
+      },
+      {
+        "id": "18467233069101744",
+        "caption": "O FIM DO SEU EMPREGO? 📉\n\nVocê acha que seu emprego está seguro? 🛑\n\nA realidade é dura: em 3 anos, o mercado não vai mais aceitar quem não domina a Inteligência Artificial. Enquanto um humano leva horas para analisar currículos, a IA faz isso em segundos, com precisão total e um custo infinitamente menor.\n\nO futuro não está chegando, ele já chegou. Ou você aprende a \"conversar\" com a tecnologia, ou se torna obsoleto.",
+        "timestamp": "2026-04-24T16:47:15+0000",
+        "media_type": "VIDEO",
+        "media_product_type": "REELS",
+        "permalink": "https://www.instagram.com/reel/DXhYhBOj7BP/",
+        "like_count": 16,
+        "comments_count": 0,
+        "is_shared_to_feed": true,
+        "insights": {
+          "reach": 258,
+          "views": 350,
+          "saved": 0,
+          "shares": 0,
+          "ig_reels_avg_watch_time": 17850
+        }
+      },
+      {
+        "id": "17888813973467000",
+        "caption": "O que ninguém te contou como AI vai impactar a sua escolha de fazer uma faculdade.",
+        "timestamp": "2026-04-20T21:35:37+0000",
+        "media_type": "VIDEO",
+        "media_product_type": "REELS",
+        "permalink": "https://www.instagram.com/reel/DXXmDumjM4U/",
+        "like_count": 37,
+        "comments_count": 2,
+        "is_shared_to_feed": true,
+        "insights": {
+          "reach": 415,
+          "views": 697,
+          "saved": 1,
+          "shares": 1,
+          "ig_reels_avg_watch_time": 32544
+        }
+      },
+      {
+        "id": "17874650120849360",
+        "caption": "A capa ( A mente de um empreendedor africano)",
+        "timestamp": "2023-03-24T00:43:09+0000",
+        "media_type": "IMAGE",
+        "media_product_type": "FEED",
+        "permalink": "https://www.instagram.com/p/CqJudW4pEYs/",
+        "like_count": 63,
+        "comments_count": 8,
+        "insights": {}
+      },
+      {
+        "id": "17906921944184819",
+        "caption": "Passeio com galera top 🙏🏿. A Dukinha representando 💪🏿",
+        "timestamp": "2018-03-19T13:09:27+0000",
+        "media_type": "IMAGE",
+        "media_product_type": "FEED",
+        "permalink": "https://www.instagram.com/p/BggYXVGgTp7/",
+        "like_count": 47,
+        "comments_count": 2,
+        "insights": {}
+      }
+    ]
+  },
+  "facebook": {
+    "pagina": {
+      "name": "Korvu",
+      "about": "AI Strategist 🤖\nAjudo empresários a implementar IA no negócio.\nTreino, disciplina e tecnologia no dia a dia 🏋🏿‍♂️ .\n",
+      "category": "Digital creator",
+      "fan_count": 0,
+      "followers_count": 0,
+      "link": "https://www.facebook.com/1342440345624490",
+      "verification_status": "not_verified",
+      "instagram_business_account": {
+        "id": "17841400421533511"
+      },
+      "id": "1342440345624490"
+    },
+    "metricas_pagina": {
+      "page_follows": {
+        "valor": 0,
+        "por_dia": [
+          {
+            "value": 0,
+            "end_time": "2026-09-19T07:00:00+0000"
+          },
+          {
+            "value": 0,
+            "end_time": "2026-09-20T07:00:00+0000"
+          },
+          {
+            "value": 0,
+            "end_time": "2026-09-21T07:00:00+0000"
+          },
+          {
+            "value": 0,
+            "end_time": "2026-09-22T07:00:00+0000"
+          },
+          {
+            "value": 0,
+            "end_time": "2026-09-23T07:00:00+0000"
+          },
+          {
+            "value": 0,
+            "end_time": "2026-09-24T07:00:00+0000"
+          },
+          {
+            "value": 0,
+            "end_time": "2026-09-25T07:00:00+0000"
+          },
+          {
+            "value": 0,
+            "end_time": "2026-09-26T07:00:00+0000"
+          },
+          {
+            "value": 0,
+            "end_time": "2026-09-27T07:00:00+0000"
+          },
+          {
+            "value": 0,
+            "end_time": "2026-09-28T07:00:00+0000"
+          },
+          {
+            "value": 0,
+            "end_time": "2026-09-29T07:00:00+0000"
+          },
+          {
+            "value": 0,
+            "end_time": "2026-09-30T07:00:00+0000"
+          },
+          {
+            "value": 0,
+            "end_time": "2026-10-01T07:00:00+0000"
+          },
+          {
+            "value": 0,
+            "end_time": "2026-10-02T07:00:00+0000"
+          },
+          {
+            "value": 0,
+            "end_time": "2026-10-03T07:00:00+0000"
+          },
+          {
+            "value": 0,
+            "end_time": "2026-10-04T07:00:00+0000"
+          },
+          {
+            "value": 0,
+            "end_time": "2026-10-05T07:00:00+0000"
+          },
+          {
+            "value": 0,
+            "end_time": "2026-10-06T07:00:00+0000"
+          },
+          {
+            "value": 0,
+            "end_time": "2026-10-07T07:00:00+0000"
+          },
+          {
+            "value": 0,
+            "end_time": "2026-10-08T07:00:00+0000"
+          },
+          {
+            "value": 0,
+            "end_time": "2026-10-09T07:00:00+0000"
+          },
+          {
+            "value": 0,
+            "end_time": "2026-10-10T07:00:00+0000"
+          },
+          {
+            "value": 0,
+            "end_time": "2026-10-11T07:00:00+0000"
+          },
+          {
+            "value": 0,
+            "end_time": "2026-10-12T07:00:00+0000"
+          },
+          {
+            "value": 0,
+            "end_time": "2026-10-13T07:00:00+0000"
+          },
+          {
+            "value": 0,
+            "end_time": "2026-10-14T07:00:00+0000"
+          },
+          {
+            "value": 0,
+            "end_time": "2026-10-15T07:00:00+0000"
+          },
+          {
+            "value": 0,
+            "end_time": "2026-10-16T07:00:00+0000"
+          }
+        ]
+      },
+      "page_media_view": {
+        "valor": 50,
+        "por_dia": [
+          {
+            "value": 0,
+            "end_time": "2026-09-19T07:00:00+0000"
+          },
+          {
+            "value": 0,
+            "end_time": "2026-09-20T07:00:00+0000"
+          },
+          {
+            "value": 0,
+            "end_time": "2026-09-21T07:00:00+0000"
+          },
+          {
+            "value": 0,
+            "end_time": "2026-09-22T07:00:00+0000"
+          },
+          {
+            "value": 0,
+            "end_time": "2026-09-23T07:00:00+0000"
+          },
+          {
+            "value": 0,
+            "end_time": "2026-09-24T07:00:00+0000"
+          },
+          {
+            "value": 0,
+            "end_time": "2026-09-25T07:00:00+0000"
+          },
+          {
+            "value": 0,
+            "end_time": "2026-09-26T07:00:00+0000"
+          },
+          {
+            "value": 0,
+            "end_time": "2026-09-27T07:00:00+0000"
+          },
+          {
+            "value": 0,
+            "end_time": "2026-09-28T07:00:00+0000"
+          },
+          {
+            "value": 0,
+            "end_time": "2026-09-29T07:00:00+0000"
+          },
+          {
+            "value": 0,
+            "end_time": "2026-09-30T07:00:00+0000"
+          },
+          {
+            "value": 0,
+            "end_time": "2026-10-01T07:00:00+0000"
+          },
+          {
+            "value": 0,
+            "end_time": "2026-10-02T07:00:00+0000"
+          },
+          {
+            "value": 0,
+            "end_time": "2026-10-03T07:00:00+0000"
+          },
+          {
+            "value": 0,
+            "end_time": "2026-10-04T07:00:00+0000"
+          },
+          {
+            "value": 0,
+            "end_time": "2026-10-05T07:00:00+0000"
+          },
+          {
+            "value": 0,
+            "end_time": "2026-10-06T07:00:00+0000"
+          },
+          {
+            "value": 0,
+            "end_time": "2026-10-07T07:00:00+0000"
+          },
+          {
+            "value": 0,
+            "end_time": "2026-10-08T07:00:00+0000"
+          },
+          {
+            "value": 0,
+            "end_time": "2026-10-09T07:00:00+0000"
+          },
+          {
+            "value": 0,
+            "end_time": "2026-10-10T07:00:00+0000"
+          },
+          {
+            "value": 0,
+            "end_time": "2026-10-11T07:00:00+0000"
+          },
+          {
+            "value": 0,
+            "end_time": "2026-10-12T07:00:00+0000"
+          },
+          {
+            "value": 0,
+            "end_time": "2026-10-13T07:00:00+0000"
+          },
+          {
+            "value": 30,
+            "end_time": "2026-10-14T07:00:00+0000"
+          },
+          {
+            "value": 1,
+            "end_time": "2026-10-15T07:00:00+0000"
+          },
+          {
+            "value": 19,
+            "end_time": "2026-10-16T07:00:00+0000"
+          }
+        ]
+      },
+      "page_post_engagements": {
+        "valor": 0,
+        "por_dia": [
+          {
+            "value": 0,
+            "end_time": "2026-09-19T07:00:00+0000"
+          },
+          {
+            "value": 0,
+            "end_time": "2026-09-20T07:00:00+0000"
+          },
+          {
+            "value": 0,
+            "end_time": "2026-09-21T07:00:00+0000"
+          },
+          {
+            "value": 0,
+            "end_time": "2026-09-22T07:00:00+0000"
+          },
+          {
+            "value": 0,
+            "end_time": "2026-09-23T07:00:00+0000"
+          },
+          {
+            "value": 0,
+            "end_time": "2026-09-24T07:00:00+0000"
+          },
+          {
+            "value": 0,
+            "end_time": "2026-09-25T07:00:00+0000"
+          },
+          {
+            "value": 0,
+            "end_time": "2026-09-26T07:00:00+0000"
+          },
+          {
+            "value": 0,
+            "end_time": "2026-09-27T07:00:00+0000"
+          },
+          {
+            "value": 0,
+            "end_time": "2026-09-28T07:00:00+0000"
+          },
+          {
+            "value": 0,
+            "end_time": "2026-09-29T07:00:00+0000"
+          },
+          {
+            "value": 0,
+            "end_time": "2026-09-30T07:00:00+0000"
+          },
+          {
+            "value": 0,
+            "end_time": "2026-10-01T07:00:00+0000"
+          },
+          {
+            "value": 0,
+            "end_time": "2026-10-02T07:00:00+0000"
+          },
+          {
+            "value": 0,
+            "end_time": "2026-10-03T07:00:00+0000"
+          },
+          {
+            "value": 0,
+            "end_time": "2026-10-04T07:00:00+0000"
+          },
+          {
+            "value": 0,
+            "end_time": "2026-10-05T07:00:00+0000"
+          },
+          {
+            "value": 0,
+            "end_time": "2026-10-06T07:00:00+0000"
+          },
+          {
+            "value": 0,
+            "end_time": "2026-10-07T07:00:00+0000"
+          },
+          {
+            "value": 0,
+            "end_time": "2026-10-08T07:00:00+0000"
+          },
+          {
+            "value": 0,
+            "end_time": "2026-10-09T07:00:00+0000"
+          },
+          {
+            "value": 0,
+            "end_time": "2026-10-10T07:00:00+0000"
+          },
+          {
+            "value": 0,
+            "end_time": "2026-10-11T07:00:00+0000"
+          },
+          {
+            "value": 0,
+            "end_time": "2026-10-12T07:00:00+0000"
+          },
+          {
+            "value": 0,
+            "end_time": "2026-10-13T07:00:00+0000"
+          },
+          {
+            "value": 0,
+            "end_time": "2026-10-14T07:00:00+0000"
+          },
+          {
+            "value": 0,
+            "end_time": "2026-10-15T07:00:00+0000"
+          },
+          {
+            "value": 0,
+            "end_time": "2026-10-16T07:00:00+0000"
+          }
+        ]
+      },
+      "page_video_views": {
+        "valor": 14,
+        "por_dia": [
+          {
+            "value": 0,
+            "end_time": "2026-09-19T07:00:00+0000"
+          },
+          {
+            "value": 0,
+            "end_time": "2026-09-20T07:00:00+0000"
+          },
+          {
+            "value": 0,
+            "end_time": "2026-09-21T07:00:00+0000"
+          },
+          {
+            "value": 0,
+            "end_time": "2026-09-22T07:00:00+0000"
+          },
+          {
+            "value": 0,
+            "end_time": "2026-09-23T07:00:00+0000"
+          },
+          {
+            "value": 0,
+            "end_time": "2026-09-24T07:00:00+0000"
+          },
+          {
+            "value": 0,
+            "end_time": "2026-09-25T07:00:00+0000"
+          },
+          {
+            "value": 0,
+            "end_time": "2026-09-26T07:00:00+0000"
+          },
+          {
+            "value": 0,
+            "end_time": "2026-09-27T07:00:00+0000"
+          },
+          {
+            "value": 0,
+            "end_time": "2026-09-28T07:00:00+0000"
+          },
+          {
+            "value": 0,
+            "end_time": "2026-09-29T07:00:00+0000"
+          },
+          {
+            "value": 0,
+            "end_time": "2026-09-30T07:00:00+0000"
+          },
+          {
+            "value": 0,
+            "end_time": "2026-10-01T07:00:00+0000"
+          },
+          {
+            "value": 0,
+            "end_time": "2026-10-02T07:00:00+0000"
+          },
+          {
+            "value": 0,
+            "end_time": "2026-10-03T07:00:00+0000"
+          },
+          {
+            "value": 0,
+            "end_time": "2026-10-04T07:00:00+0000"
+          },
+          {
+            "value": 0,
+            "end_time": "2026-10-05T07:00:00+0000"
+          },
+          {
+            "value": 0,
+            "end_time": "2026-10-06T07:00:00+0000"
+          },
+          {
+            "value": 0,
+            "end_time": "2026-10-07T07:00:00+0000"
+          },
+          {
+            "value": 0,
+            "end_time": "2026-10-08T07:00:00+0000"
+          },
+          {
+            "value": 0,
+            "end_time": "2026-10-09T07:00:00+0000"
+          },
+          {
+            "value": 0,
+            "end_time": "2026-10-10T07:00:00+0000"
+          },
+          {
+            "value": 0,
+            "end_time": "2026-10-11T07:00:00+0000"
+          },
+          {
+            "value": 0,
+            "end_time": "2026-10-12T07:00:00+0000"
+          },
+          {
+            "value": 0,
+            "end_time": "2026-10-13T07:00:00+0000"
+          },
+          {
+            "value": 8,
+            "end_time": "2026-10-14T07:00:00+0000"
+          },
+          {
+            "value": 0,
+            "end_time": "2026-10-15T07:00:00+0000"
+          },
+          {
+            "value": 6,
+            "end_time": "2026-10-16T07:00:00+0000"
+          }
+        ]
+      },
+      "page_daily_follows_unique": {
+        "valor": 0,
+        "por_dia": [
+          {
+            "value": 0,
+            "end_time": "2026-09-19T07:00:00+0000"
+          },
+          {
+            "value": 0,
+            "end_time": "2026-09-20T07:00:00+0000"
+          },
+          {
+            "value": 0,
+            "end_time": "2026-09-21T07:00:00+0000"
+          },
+          {
+            "value": 0,
+            "end_time": "2026-09-22T07:00:00+0000"
+          },
+          {
+            "value": 0,
+            "end_time": "2026-09-23T07:00:00+0000"
+          },
+          {
+            "value": 0,
+            "end_time": "2026-09-24T07:00:00+0000"
+          },
+          {
+            "value": 0,
+            "end_time": "2026-09-25T07:00:00+0000"
+          },
+          {
+            "value": 0,
+            "end_time": "2026-09-26T07:00:00+0000"
+          },
+          {
+            "value": 0,
+            "end_time": "2026-09-27T07:00:00+0000"
+          },
+          {
+            "value": 0,
+            "end_time": "2026-09-28T07:00:00+0000"
+          },
+          {
+            "value": 0,
+            "end_time": "2026-09-29T07:00:00+0000"
+          },
+          {
+            "value": 0,
+            "end_time": "2026-09-30T07:00:00+0000"
+          },
+          {
+            "value": 0,
+            "end_time": "2026-10-01T07:00:00+0000"
+          },
+          {
+            "value": 0,
+            "end_time": "2026-10-02T07:00:00+0000"
+          },
+          {
+            "value": 0,
+            "end_time": "2026-10-03T07:00:00+0000"
+          },
+          {
+            "value": 0,
+            "end_time": "2026-10-04T07:00:00+0000"
+          },
+          {
+            "value": 0,
+            "end_time": "2026-10-05T07:00:00+0000"
+          },
+          {
+            "value": 0,
+            "end_time": "2026-10-06T07:00:00+0000"
+          },
+          {
+            "value": 0,
+            "end_time": "2026-10-07T07:00:00+0000"
+          },
+          {
+            "value": 0,
+            "end_time": "2026-10-08T07:00:00+0000"
+          },
+          {
+            "value": 0,
+            "end_time": "2026-10-09T07:00:00+0000"
+          },
+          {
+            "value": 0,
+            "end_time": "2026-10-10T07:00:00+0000"
+          },
+          {
+            "value": 0,
+            "end_time": "2026-10-11T07:00:00+0000"
+          },
+          {
+            "value": 0,
+            "end_time": "2026-10-12T07:00:00+0000"
+          },
+          {
+            "value": 0,
+            "end_time": "2026-10-13T07:00:00+0000"
+          },
+          {
+            "value": 0,
+            "end_time": "2026-10-14T07:00:00+0000"
+          },
+          {
+            "value": 0,
+            "end_time": "2026-10-15T07:00:00+0000"
+          },
+          {
+            "value": 0,
+            "end_time": "2026-10-16T07:00:00+0000"
+          }
+        ]
+      },
+      "page_daily_unfollows_unique": {
+        "valor": 0,
+        "por_dia": [
+          {
+            "value": 0,
+            "end_time": "2026-09-19T07:00:00+0000"
+          },
+          {
+            "value": 0,
+            "end_time": "2026-09-20T07:00:00+0000"
+          },
+          {
+            "value": 0,
+            "end_time": "2026-09-21T07:00:00+0000"
+          },
+          {
+            "value": 0,
+            "end_time": "2026-09-22T07:00:00+0000"
+          },
+          {
+            "value": 0,
+            "end_time": "2026-09-23T07:00:00+0000"
+          },
+          {
+            "value": 0,
+            "end_time": "2026-09-24T07:00:00+0000"
+          },
+          {
+            "value": 0,
+            "end_time": "2026-09-25T07:00:00+0000"
+          },
+          {
+            "value": 0,
+            "end_time": "2026-09-26T07:00:00+0000"
+          },
+          {
+            "value": 0,
+            "end_time": "2026-09-27T07:00:00+0000"
+          },
+          {
+            "value": 0,
+            "end_time": "2026-09-28T07:00:00+0000"
+          },
+          {
+            "value": 0,
+            "end_time": "2026-09-29T07:00:00+0000"
+          },
+          {
+            "value": 0,
+            "end_time": "2026-09-30T07:00:00+0000"
+          },
+          {
+            "value": 0,
+            "end_time": "2026-10-01T07:00:00+0000"
+          },
+          {
+            "value": 0,
+            "end_time": "2026-10-02T07:00:00+0000"
+          },
+          {
+            "value": 0,
+            "end_time": "2026-10-03T07:00:00+0000"
+          },
+          {
+            "value": 0,
+            "end_time": "2026-10-04T07:00:00+0000"
+          },
+          {
+            "value": 0,
+            "end_time": "2026-10-05T07:00:00+0000"
+          },
+          {
+            "value": 0,
+            "end_time": "2026-10-06T07:00:00+0000"
+          },
+          {
+            "value": 0,
+            "end_time": "2026-10-07T07:00:00+0000"
+          },
+          {
+            "value": 0,
+            "end_time": "2026-10-08T07:00:00+0000"
+          },
+          {
+            "value": 0,
+            "end_time": "2026-10-09T07:00:00+0000"
+          },
+          {
+            "value": 0,
+            "end_time": "2026-10-10T07:00:00+0000"
+          },
+          {
+            "value": 0,
+            "end_time": "2026-10-11T07:00:00+0000"
+          },
+          {
+            "value": 0,
+            "end_time": "2026-10-12T07:00:00+0000"
+          },
+          {
+            "value": 0,
+            "end_time": "2026-10-13T07:00:00+0000"
+          },
+          {
+            "value": 0,
+            "end_time": "2026-10-14T07:00:00+0000"
+          },
+          {
+            "value": 0,
+            "end_time": "2026-10-15T07:00:00+0000"
+          },
+          {
+            "value": 0,
+            "end_time": "2026-10-16T07:00:00+0000"
+          }
+        ]
+      }
+    },
+    "posts": [],
+    "videos": [
+      {
+        "id": "1033107573077272",
+        "description": "Geoffrey Hinton: 50 anos numa ideia que ninguém levava a sério, até virar Nobel.\n\nEle queria entender a mente humana. O orientador mandou largar a pesquisa. Ele não largou.\nEm 2012, com dois alunos, criou um sistema que reconhece imagens e mudou o rumo da IA.\nEm 2024, ganhou o Nobel de Física.\n\nComenta NOBEL aqui embaixo, igualzinho, que eu te mando o link da entrevista dele.\nCompartilha com alguém que tá desistindo de uma ideia.\n\nFontes: 60 Minutes/CBS (2023), NobelPrize.org (2024), ImageNet (2012), MIT Technology Review (2023).\nImagens: 60 Minutes/CBS News, BBC News, NobelPrize.org, Computer History Museum, University of Toronto, The Diary of a CEO; fotos de John Sears, Jennifer 8. Lee, Eviatar Bach (CC BY-SA), Steve Jurvetson e Ramsey Cardy/Collision (CC BY).\n\n#inteligenciaartificial #geoffreyhinton #nobel",
+        "created_time": "2026-10-15T10:40:35+0000",
+        "permalink_url": "/reel/1033107573077272/",
+        "length": 158.741,
+        "views": 2
+      },
+      {
+        "id": "1350369576981188",
+        "description": "Demis Hassabis: o menino do xadrez que ganhou um Nobel com IA e criou a DeepMind em Londres.\n\nMestre de xadrez aos 13. Videogame aos 17. Depois, computação, neurociência e a DeepMind.\nO AlphaFold passou a prever o formato das proteínas e rendeu a ele o Nobel de Química de 2024, dividido com John Jumper.\n\n→ Para mais vídeos como esse, segue a página da Korvu.\n→ Qual parte da história te surpreendeu mais? Conta aqui nos comentários.\n\nTrechos do documentário The Thinking Game (Google DeepMind / Greg Kohs), usados para comentário. Todos os direitos dos trechos pertencem aos seus titulares.\nFonte: Nobel Prize, comunicado de Química 2024 (nobelprize.org).\n\n#demishassabis #deepmind #inteligenciaartificial",
+        "created_time": "2026-10-13T16:03:18+0000",
+        "permalink_url": "/reel/1350369576981188/",
+        "length": 57.899,
+        "views": 31
+      }
+    ]
+  },
+  "erros": [
+    {
+      "pedido": "ig engaged_audience_demographics country",
+      "codigo": 3006,
+      "mensagem": "Not enough users"
+    },
+    {
+      "pedido": "ig engaged_audience_demographics city",
+      "codigo": 3006,
+      "mensagem": "Not enough users"
+    },
+    {
+      "pedido": "ig engaged_audience_demographics age",
+      "codigo": 3006,
+      "mensagem": "Not enough users"
+    },
+    {
+      "pedido": "ig engaged_audience_demographics gender",
+      "codigo": 3006,
+      "mensagem": "Not enough users"
+    },
+    {
+      "pedido": "ig post 17874650120849360 reach",
+      "codigo": 100,
+      "mensagem": "Invalid parameter"
+    },
+    {
+      "pedido": "ig post 17874650120849360 views",
+      "codigo": 100,
+      "mensagem": "Invalid parameter"
+    },
+    {
+      "pedido": "ig post 17874650120849360 saved",
+      "codigo": 100,
+      "mensagem": "Invalid parameter"
+    },
+    {
+      "pedido": "ig post 17874650120849360 shares",
+      "codigo": 100,
+      "mensagem": "Invalid parameter"
+    },
+    {
+      "pedido": "ig post 17874650120849360 ig_reels_avg_watch_time",
+      "codigo": 100,
+      "mensagem": "Invalid parameter"
+    },
+    {
+      "pedido": "ig post 17906921944184819 reach",
+      "codigo": 100,
+      "mensagem": "Invalid parameter"
+    },
+    {
+      "pedido": "ig post 17906921944184819 views",
+      "codigo": 100,
+      "mensagem": "Invalid parameter"
+    },
+    {
+      "pedido": "ig post 17906921944184819 saved",
+      "codigo": 100,
+      "mensagem": "Invalid parameter"
+    },
+    {
+      "pedido": "ig post 17906921944184819 shares",
+      "codigo": 100,
+      "mensagem": "Invalid parameter"
+    },
+    {
+      "pedido": "ig post 17906921944184819 ig_reels_avg_watch_time",
+      "codigo": 100,
+      "mensagem": "Invalid parameter"
+    },
+    {
+      "pedido": "fb insights page_impressions_unique",
+      "codigo": 100,
+      "mensagem": "(#100) The value must be a valid insights metric"
+    },
+    {
+      "pedido": "fb posts",
+      "codigo": 10,
+      "mensagem": "(#10) This endpoint requires the 'pages_read_user_content' permission or the 'Page Public Content Access' feature. Refer to https://developers.facebook.com/docs/apps/review/login-permissions#manage-pages and https://developers.facebook.com/docs/apps/review/feature#reference-PAGES_ACCESS for details."
+    }
+  ]
+}

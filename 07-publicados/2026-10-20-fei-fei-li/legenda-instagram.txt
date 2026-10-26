@@ -1,0 +1,14 @@
+Fei-Fei Li: da lavanderia da família ao banco de fotos que ajudou a IA a enxergar.
+
+Os pais praticamente não falavam inglês. Na lavanderia, quem atendia telefone, cobrança e fiscal era ela. Foi assim, ela conta, que ajudou a pagar a faculdade.
+Em 2007, ela começou o ImageNet: milhões de fotos com etiqueta, organizadas com a ajuda de quase 50 mil pessoas pela internet (segundo ela) e abertas de graça pra pesquisadores.
+Em 2012, o grupo de Toronto do Geoffrey Hinton usou essas fotos pra treinar uma rede neural e ajudou a mudar o rumo da IA.
+IA não aprende por mágica: alguém teve o trabalho de organizar a informação e ensinar o que cada coisa significa.
+
+Comenta AULA que eu te mando no direct o link da palestra dela (18 min, com legenda em português).
+Manda pra alguém que já foi o tradutor da família.
+
+Fontes: TED2015 (Fei-Fei Li), ImageNet (resultados ILSVRC 2012), Fortune (24/11/2025), Business Insider, Stanford HAI.
+Imagens: TED, Bloomberg Originals, CBS Mornings, San Francisco Public Library, National Geographic, Stanford HAI, Princeton University, PD Soros Fellowship, University of Toronto/CHM (Johnny Guatto) e Alexander Friedman/Wikimedia Commons (CC BY-SA 4.0).
+
+#inteligenciaartificial #feifeili #historiadaia #iaparainiciantes #imagenet

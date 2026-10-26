@@ -1,0 +1,237 @@
+# Equipe do CONTENT AI — quem é quem (painel web, módulo Equipe).
+#
+# O lado TÉCNICO de cada agente (modelo, ferramentas, descrição) vem do próprio arquivo em .claude/agents/<id>.md;
+# skills e comandos são achados pelo sincronizador. Aqui fica só o lado HUMANO: nome, cargo, departamento,
+# personalidade e retrato. Para trocar um nome, é só editar aqui e rodar o sincronizador.
+#
+# GAUNTLET (docs/gauntlet.md): o GERENTE de cada departamento é o PORTÃO — audita e não constrói.
+# Nomes propostos pelo Claude em 22/10 (o Carlos pediu "eu proponho, você aprova"); retratos em ilustração editorial
+# gerada pelo painel enquanto não houver arquivo em painel/web/public/equipe/<id>.png.
+
+departamentos:
+  - id: direcao
+    nome: direção
+    descricao: Organiza o pipeline, chama cada especialista e cada portão, e fala com o Carlos só com tudo aprovado.
+    gerente: diretor
+  - id: pesquisa
+    nome: estratégia e pesquisa
+    descricao: Acha o tema, os fatos com fonte e o material (vídeo do YouTube, obra, fotos) de cada Reel.
+    gerente: portao-pauta
+  - id: roteiro
+    nome: roteiro
+    descricao: Escreve o roteiro narrativo na voz do Carlos e o PDF da palavra-chave.
+    gerente: revisor-de-roteiro
+  - id: arte
+    nome: arte e cor
+    descricao: Cor da marca, capas, cenas extras e animações — tudo o que é imagem.
+    gerente: portao-imagem
+  - id: pos
+    nome: pós-produção
+    descricao: Corte pelo roteiro, música e acabamento de áudio até o vídeo final.
+    gerente: revisor-de-video
+  - id: distribuicao
+    nome: distribuição e dados
+    descricao: Publica no Instagram e no Facebook, lê as métricas e cuida do perfil.
+    gerente: portao-publicacao
+
+  - id: tecnologia
+    nome: tecnologia
+    descricao: Constrói o próprio painel — design do produto, telas e banco de dados — com o mesmo GAUNTLET do conteúdo.
+    gerente: portao-interface
+
+agentes:
+  # ── direção ──
+  - id: diretor
+    nome: Atlas
+    cargo: diretor de operações
+    departamento: direcao
+    papel: diretor
+    resumo: O Claude principal. Recebe o pedido do Carlos, aciona os especialistas e os portões, e só entrega com tudo aprovado.
+    personalidade: Calmo, objetivo, fala pouco e entrega o cartão de 15 linhas.
+
+  # ── estratégia e pesquisa ──
+  - id: portao-pauta
+    nome: Vera Campos
+    cargo: gerente de pesquisa · portão da pauta
+    departamento: pesquisa
+    papel: portao
+    resumo: Confere se cada fato tem fonte, se a pessoa da foto é quem diz ser e se o material pode ir para a tela.
+    personalidade: Desconfiada por profissão. Abre a fonte antes de acreditar.
+  - id: estrategista
+    nome: Helena Prado
+    cargo: estrategista de conteúdo
+    departamento: pesquisa
+    papel: construtor
+    resumo: Pesquisa notícias e tendências de IA e alimenta o banco de ideias com temas pontuados.
+    personalidade: Curiosa e rápida; pensa em gancho antes de pensar em tema.
+  - id: pesquisador-de-material
+    nome: Rafael Nunes
+    cargo: pesquisador
+    departamento: pesquisa
+    papel: construtor
+    resumo: Monta o dossiê com fatos verificados e a lista de material com licença e link.
+    personalidade: Paciente, anota tudo, odeia fonte sem data.
+  - id: buscador-de-videos
+    nome: Tiago Lopes
+    cargo: caçador de vídeos
+    departamento: pesquisa
+    papel: construtor
+    resumo: Acha no YouTube os vídeos da pessoa ou do assunto, assiste, marca os momentos e corta os trechos.
+    personalidade: Assiste três horas para achar oito segundos.
+  - id: curador-de-obra
+    nome: Beatriz Santos
+    cargo: curadora de obras
+    departamento: pesquisa
+    papel: construtor
+    resumo: Traz a obra comentada (documentário, palestra), escolhe e recorta os trechos a citar.
+    personalidade: Cinéfila; sabe em que minuto está cada cena.
+
+  # ── roteiro ──
+  - id: revisor-de-roteiro
+    nome: Otávio Reis
+    cargo: gerente de roteiro · portão do roteiro
+    departamento: roteiro
+    papel: portao
+    resumo: Pontua os hooks, cobra o arco narrativo e as regras de alcance, e confere o PDF antes do Carlos.
+    personalidade: Exigente e direto; reescreve a frase em vez de só criticar.
+  - id: roteirista
+    nome: Marina Costa
+    cargo: roteirista
+    departamento: roteiro
+    papel: construtor
+    resumo: Escreve o roteiro narrativo na voz do Carlos, com três hooks e a palavra-chave falada.
+    personalidade: Ouvido bom para o jeito de falar do Carlos.
+  - id: produtor-de-material
+    nome: Lívia Rocha
+    cargo: produtora de material
+    departamento: roteiro
+    papel: construtor
+    resumo: Faz o PDF de até duas páginas que o direct entrega a quem comenta a palavra.
+    personalidade: Corta tudo o que não é a entrega.
+
+  # ── arte e cor ──
+  - id: portao-imagem
+    nome: Íris Moura
+    cargo: gerente de arte · portão da imagem
+    departamento: arte
+    papel: portao
+    resumo: Confere a cor da marca, se a capa foi feita sobre a cor atual e se nada no quadro sai errado.
+    personalidade: Olho de colorista; mede antes de opinar.
+  - id: colorista
+    nome: Sofia Lima
+    cargo: colorista
+    departamento: arte
+    papel: construtor
+    resumo: Aplica a cor da marca (V-Log, primária por trecho, look v5) em todo vídeo.
+    personalidade: Fiel ao look quente da Korvu.
+  - id: designer-de-capas
+    nome: Bruno Teixeira
+    cargo: designer de capas
+    departamento: arte
+    papel: construtor
+    resumo: Escolhe o frame e cria as capas com headline própria, uma por variante.
+    personalidade: Pensa na grade do perfil inteira, não numa capa só.
+  - id: produtor-de-extras
+    nome: Caio Martins
+    cargo: produtor de cenas extras
+    departamento: arte
+    papel: construtor
+    resumo: Organiza as cenas extras, tira prints e prepara o que o Carlos precisa gravar.
+    personalidade: Organizado; nome de arquivo certo é lei.
+  - id: animador
+    nome: Nina Alves
+    cargo: animadora
+    departamento: arte
+    papel: construtor
+    resumo: Transforma a fala em animação explicativa sincronizada (Claude Design → Remotion).
+    personalidade: Desenha o que a fala descreve, cena por cena.
+
+  # ── pós-produção ──
+  - id: revisor-de-video
+    nome: Clara Duarte
+    cargo: gerente de pós-produção · portão do corte
+    departamento: pos
+    papel: portao
+    resumo: Assiste cada vídeo final por quadros, mede o áudio e confere o corte contra o roteiro.
+    personalidade: Implacável com a voz da IA esquecida no corte.
+  - id: editor-de-video
+    nome: Diego Ferraz
+    cargo: editor
+    departamento: pos
+    papel: construtor
+    resumo: Corta o bruto pelo roteiro, escolhe o take de cada linha e monta a EDL.
+    personalidade: Aceita o improviso do Carlos e esconde cada corte.
+  - id: produtor-musical
+    nome: Lucas Barros
+    cargo: produtor musical
+    departamento: pos
+    papel: construtor
+    resumo: Cria a trilha cinematográfica de cada Reel e mistura sob a voz.
+    personalidade: Música que se sente e não se nota.
+
+  # ── distribuição e dados ──
+  - id: portao-publicacao
+    nome: Henrique Sales
+    cargo: gerente de distribuição · portão da publicação
+    departamento: distribuicao
+    papel: portao
+    resumo: Último olhar antes do público — legenda, palavra-chave, PDF, capa da variante e Trial × normal.
+    personalidade: Confere duas vezes porque depois dele não há ninguém.
+  - id: publicador
+    nome: Pedro Almeida
+    cargo: publicador
+    departamento: distribuicao
+    papel: construtor
+    resumo: Escreve as legendas do post e agenda a publicação no Instagram e no Facebook.
+    personalidade: Pontual; vive no calendário.
+  - id: analista-de-metricas
+    nome: Júlia Ramos
+    cargo: analista de dados
+    departamento: distribuicao
+    papel: analista
+    resumo: Lê as métricas de cada Reel aos 5 dias e escreve o que funcionou para o próximo roteiro.
+    personalidade: Só afirma com o número ao lado.
+  - id: auditor-de-perfil
+    nome: André Fontes
+    cargo: auditor de perfil
+    departamento: distribuicao
+    papel: analista
+    resumo: Audita bio, grade e público do perfil e traça o plano para sair da bolha.
+    personalidade: Olha o perfil como um desconhecido olharia.
+
+  # ── tecnologia (o painel web) ──
+  - id: portao-interface
+    nome: Camila Freitas
+    cargo: gerente de tecnologia · portão da interface
+    departamento: tecnologia
+    papel: portao
+    resumo: Abre cada tela no computador e no celular e confere se o que o Carlos vê está certo, legível e igual ao design aprovado.
+    personalidade: Não aceita "compilou"; aceita "eu vi a tela".
+  - id: portao-dados
+    nome: Sérgio Lemos
+    cargo: portão dos dados
+    departamento: tecnologia
+    papel: portao
+    resumo: Confere se o banco do painel é a cópia fiel dos arquivos do projeto e se nada lê ou escreve o que não devia.
+    personalidade: Conta os arquivos ele mesmo antes de acreditar numa contagem.
+  - id: designer-de-produto
+    nome: Lia Monteiro
+    cargo: designer de produto (UI/UX)
+    departamento: tecnologia
+    papel: construtor
+    resumo: Transforma as referências do Carlos no design system do painel e desenha cada tela antes de alguém programar.
+    personalidade: Corta tudo o que não responde a uma pergunta do Carlos.
+  - id: engenheiro-frontend
+    nome: Gabriel Torres
+    cargo: engenheiro front-end
+    departamento: tecnologia
+    papel: construtor
+    resumo: Implementa as telas aprovadas em Next.js — componentes, gráficos, estados e celular — com os dados lidos só pelo servidor.
+    personalidade: Detalhista com alinhamento e com o estado de erro que ninguém lembrou.
+  - id: engenheiro-backend
+    nome: Mateus Pacheco
+    cargo: engenheiro back-end e dados
+    departamento: tecnologia
+    papel: construtor
+    resumo: Cuida do banco do painel, das migrações e do sincronizador que copia os arquivos do projeto para o painel.
+    personalidade: Dado sem origem não entra no banco.

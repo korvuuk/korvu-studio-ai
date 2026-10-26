@@ -1,0 +1,4 @@
+[render] corte: 73 peças, 168.440s esperados, 25 fps, yuv422p10le 1080x1920 -> edicao/corte.mp4 + edicao/corte-audio.wav
+   zoom: 36 peça(s) fechada(s) · 37 aberta(s) · 71/72 cortes com troca · áudio master WAV 24-bit (sem perdas)
+[render] pronto em 247.8s · vídeo 168.400s · áudio 168.440s · wav 168.440s · esperado 168.440s · OK (±1 frame)
+exit 0

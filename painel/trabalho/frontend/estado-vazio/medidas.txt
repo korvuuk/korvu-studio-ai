@@ -1,0 +1,10 @@
+# capturar.sh · 2026-10-22T23:13:19.674Z
+# alvo	largura pedida	innerWidth	scrollWidth	altura	HTTP	png	passa da borda
+/	1440	1440	1440	950	200	/Users/teste/Documents/CONTENT AI/painel/trabalho/frontend/estado-vazio/inicio-1440.png	
+/	375	375	375	1315	200	/Users/teste/Documents/CONTENT AI/painel/trabalho/frontend/estado-vazio/inicio-375.png	
+/equipe	1440	1440	1440	900	200	/Users/teste/Documents/CONTENT AI/painel/trabalho/frontend/estado-vazio/equipe-1440.png	
+/equipe	375	375	375	812	200	/Users/teste/Documents/CONTENT AI/painel/trabalho/frontend/estado-vazio/equipe-375.png	
+/videos	1440	1440	1440	900	200	/Users/teste/Documents/CONTENT AI/painel/trabalho/frontend/estado-vazio/videos-1440.png	
+/videos	375	375	375	894	200	/Users/teste/Documents/CONTENT AI/painel/trabalho/frontend/estado-vazio/videos-375.png	
+/desempenho	1440	1440	1440	1414	200	/Users/teste/Documents/CONTENT AI/painel/trabalho/frontend/estado-vazio/desempenho-1440.png	
+/desempenho	375	375	375	2299	200	/Users/teste/Documents/CONTENT AI/painel/trabalho/frontend/estado-vazio/desempenho-375.png	

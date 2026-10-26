@@ -1,0 +1,30 @@
+{
+  "versao": "v9",
+  "tipo": "parametrico",
+  "nome": "WAY v5 + pele forte",
+  "aprovada": false,
+  "criado_em": "2026-09-16",
+  "parametros": {
+    "nome": "WAY v5 + pele forte",
+    "sat": 0.95,
+    "pele_sat": 1.18,
+    "pele_calor": 0.045,
+    "pele_centro": 35.0,
+    "pele_sigma": 38.0,
+    "sombra": "0,0,0",
+    "alta": "0,0,0",
+    "pele_croma_min": 0.005,
+    "pele_croma_rampa": 0.025,
+    "neutro": "0,0,0",
+    "neutro_croma": 0.06,
+    "exposicao": 0.0,
+    "contraste": 1.0,
+    "pivo": 0.42,
+    "preto": 0.0,
+    "branco": 1.0,
+    "base": "00-marca/cor/luts/korvu-look-v5.cube"
+  },
+  "grao_recomendado": 0.3,
+  "descartada_em": "2026-09-16",
+  "motivo": "lábios vermelhos demais"
+}

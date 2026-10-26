@@ -1,0 +1,59 @@
+Você vai ser o meu monitor de gravação por voz. Eu vou gravar um vídeo repetindo este roteiro, linha por linha, olhando para a câmera.
+
+REGRAS (siga sempre):
+1. Leia UMA linha de cada vez, EXATAMENTE como está escrita. Não mude, não resuma, não acrescente nenhuma palavra. Não leia o código da linha (L01, L02…).
+2. Depois de ler, fique em silêncio total e espere eu repetir a linha inteira.
+3. Se eu repetir certo, diga só "próxima" e leia a linha seguinte.
+4. Se eu errar, trocar ou esquecer uma palavra, diga só "de novo" e leia a MESMA linha outra vez. Não explique o erro.
+5. Se eu disser "de novo", leia a mesma linha outra vez.
+6. Nunca fale enquanto eu estiver falando. Espere eu terminar e conte 1 segundo de silêncio antes de falar.
+7. Nada de comentários, elogios ou perguntas. Frases suas sempre curtas.
+8. Quando terminar as linhas principais, leia os hooks alternativos do mesmo jeito.
+9. No fim, diga só "fim do roteiro".
+
+10. Quando eu disser "começar", **leia em voz alta a linha POSE DA CAPA** (abaixo), exatamente como está escrita. Depois **espere 4 segundos em silêncio** — é quando eu faço a pose para a capa do vídeo — e só então leia a L01. Não comente nada.
+
+Quando eu disser "começar", leia a POSE DA CAPA, espere 4 segundos e leia a linha L01.
+
+POSE DA CAPA (ler em voz alta antes da L01)
+Faça a pose da capa: mão em forma de telefone no ouvido, olhar sério. Segure três segundos.
+
+ROTEIRO — LINHAS PRINCIPAIS
+L01: Imagina chegar adolescente num país novo, sem falar inglês…
+L02: e, anos depois, ajudar as máquinas a enxergar o mundo.
+L03: Essa é a história da Fei-Fei Li.
+L04: Ela nasceu na China e chegou aos Estados Unidos ainda adolescente.
+L05: Os pais praticamente não falavam inglês.
+L06: Então, na lavanderia da família, quem atendia o telefone, resolvia cobrança e até falava com o fiscal?
+L07: Ela.
+L08: E foi assim, ela conta, que ajudou a pagar a faculdade.
+L09: Fei-Fei estudou física em Princeton e depois entrou para o mundo da inteligência artificial.
+L10: E ela começou a pensar numa coisa muito simples:
+L11: Uma criança aprende a reconhecer o mundo vendo milhões de exemplos.
+L12: Então por que um computador seria diferente?
+L13: Em 2007, ela começou um projeto chamado ImageNet.
+L14: A ideia era reunir milhões de imagens e dizer ao computador exatamente o que aparecia em cada uma delas.
+L15: Segundo ela, quase 50 mil pessoas ajudaram pela internet a organizar e identificar essas imagens.
+L16: E sabe o mais curioso?
+L17: Ela disponibilizou tudo de graça para pesquisadores.
+L18: Aí chega 2012.
+L19: Um grupo da Universidade de Toronto usa o ImageNet para treinar uma rede neural numa competição de reconhecimento de imagens.
+L20: E sabe quem estava nesse grupo?
+L21: Geoffrey Hinton, de quem eu já falei aqui.
+L22: O resultado foi tão superior aos concorrentes que aquele momento ajudou a mudar o rumo da inteligência artificial.
+L23: Mas olha que interessante:
+L24: A IA era deles.
+L25: Os exemplos eram dela.
+L26: Hoje, a imprensa chama Fei-Fei Li de madrinha da inteligência artificial.
+L27: E a história dela mostra uma coisa muito importante:
+L28: IA não aprende por mágica.
+L29: Ela aprende porque alguém teve o trabalho de mostrar exemplos, organizar informação e ensinar o que cada coisa significa.
+L30: E, às vezes, quem ajuda a mudar o futuro…
+L31: é aquela adolescente que um dia precisou traduzir tudo para a própria família.
+L32: Comenta AULA aqui embaixo que eu te mando a palestra dela.
+L33: São 18 minutos, com legenda em português.
+L34: E manda esse vídeo pra alguém que já foi o tradutor da família.
+
+HOOKS ALTERNATIVOS (ler depois das principais)
+L01B: Imagina ouvir dos colegas que era melhor fazer algo mais útil…
+L01C: Imagina brincar que ia reabrir a lavanderia pra pagar a sua pesquisa…

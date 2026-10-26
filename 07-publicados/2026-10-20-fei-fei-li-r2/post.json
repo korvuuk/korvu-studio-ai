@@ -1,0 +1,36 @@
+{
+  "slug": "2026-10-20-fei-fei-li-r2",
+  "publicar_em": "2026-10-24T19:00:00+01:00",
+  "plataformas": [
+    "instagram"
+  ],
+  "estado": "publicado",
+  "confirmar": false,
+  "instagram": {
+    "legenda_arquivo": "legenda-instagram.txt",
+    "capa": "capa/capa.png",
+    "share_to_feed": true,
+    "trial": null,
+    "container_id": "18640631107014052",
+    "media_id": "18223036996331641",
+    "permalink": "https://www.instagram.com/reel/De4v0dQiZG2/",
+    "container_impressao": "5d5626e2d433"
+  },
+  "facebook": {
+    "legenda_arquivo": "legenda-facebook.txt",
+    "tipo": null,
+    "video_id": null,
+    "permalink": null
+  },
+  "material": {
+    "palavra": "AULA",
+    "arquivo": "material/palestra-fei-fei-li-ted2015.pdf",
+    "titulo": "o link da palestra da Fei-Fei Li",
+    "url": "https://media.korvuai.com/reels/2026-10-20-fei-fei-li-r2/material/palestra-fei-fei-li-ted2015.pdf"
+  },
+  "publicado_em": "2026-10-24T19:13:13+01:00",
+  "erros": [],
+  "notas": [
+    "22/10 (Carlos): repost da Fei-Fei A (ele desde o 1.º segundo) como Reel NORMAL, sáb 24/10 19:00, só Instagram — o FB já tem a Fei-Fei (B, normal); objetivo: seguidores comentarem AULA e testarem a automação"
+  ]
+}

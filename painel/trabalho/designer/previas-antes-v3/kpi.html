@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>KPI · korvu. painel — design system</title>
+<link rel="stylesheet" href="../tokens.css">
+<link rel="stylesheet" href="../componentes.css">
+<link rel="stylesheet" href="../acrescimos.css">
+<link rel="stylesheet" href="previa.css">
+<script src="../korvu.js"></script>
+<script src="previa.js" defer></script>
+</head>
+<body>
+<main class="pv">
+<header class="pv-head">
+<p class="k-cap">Dados · <span class="k-mono">k-card k-kpi</span></p>
+<h1 class="k-h2">KPI</h1>
+<p class="pv-lead">O número que responde “como estamos” — rótulo, valor e o que mudou.</p>
+</header>
+<section class="pv-sec">
+<h2 class="pv-sec-t k-cap">Com dados reais <span class="pv-tag pv-tag--real">dados reais · banco do painel</span></h2>
+<div class="k-grid k-grid--tiles">
+<div class="k-card k-kpi k-span-3"><span class="k-cap">Seguidores no Instagram</span><div class="k-kpi-value">3.631</div><div class="k-kpi-foot"><span class="k-delta k-delta--down"><span aria-hidden="true">▼</span> 3<span class="k-sr-only"> a menos</span></span><span class="k-kpi-note">desde 16 out</span></div></div>
+<div class="k-card k-kpi k-span-3"><span class="k-cap">Contas alcançadas · 28 dias</span><div class="k-kpi-value">529</div><div class="k-kpi-foot"><span class="k-delta k-delta--up"><span aria-hidden="true">▲</span> 11,1%<span class="k-sr-only"> de aumento</span></span><span class="k-kpi-note">vs. 16 out</span></div></div>
+<div class="k-card k-kpi k-span-3"><span class="k-cap">Visualizações · 28 dias</span><div class="k-kpi-value">2.448</div><div class="k-kpi-foot"><span class="k-delta k-delta--down"><span aria-hidden="true">▼</span> 8,6%<span class="k-sr-only"> de queda</span></span><span class="k-kpi-note">vs. 16 out</span></div></div>
+<div class="k-card k-kpi k-span-3"><span class="k-cap">Vídeo mais visto · 22 out</span><div class="k-kpi-value">450</div><div class="k-kpi-foot"><span class="k-kpi-note">Demis Hassabis</span><svg class="k-chart" width="120" height="28" data-spark='{"x": [0.06, 2.76, 5.68, 8.87], "y": [136, 415, 444, 450]}' role="img" aria-label="Visualizações nas 4 leituras: 136, 415, 444, 450"></svg></div></div>
+</div>
+</section>
+<p class="pv-nota">Leituras do perfil de 16 out e 22 out (perfil_snapshots); “Vídeo mais visto” = maior número de visualizações na última leitura confiável (metricas), com a curva das 4 leituras.</p>
+<section class="pv-sec">
+<h2 class="pv-sec-t k-cap">Custo de IA (dado real, em libras) <span class="pv-tag pv-tag--real">dados reais · banco do painel</span></h2>
+<div class="k-grid k-grid--tiles"><div class="k-card k-kpi k-span-4"><span class="k-cap">Custo de IA · 30 dias</span><div class="k-kpi-value"><small class="k-prefixo">£</small>397.31716000000006</div><div class="k-kpi-foot"><span class="k-delta k-delta--down"><span aria-hidden="true">▲</span> 2,7×<span class="k-sr-only"> no ritmo dos últimos 7 dias: o custo está subindo</span></span><span class="k-kpi-note">US$ 532.24 a £ 0,7465 por US$ (XE, 23 out)</span></div></div></div><p class="pv-nota">Dado real: registros das sessões do Claude Code, corte em 23/10 16:00 (37,5M tokens; tela <a class="k-link" href="../telas/tokens-e-custos.html">Tokens e custos</a>). O custo é guardado em US$ e aparece em libras, <b>com a taxa, a fonte e a data no rodapé</b> (decisão de 23/10). O delta é a projeção dos últimos 7 dias contra os 30: custo subindo é <span class="k-mono">k-delta--down</span> (vermelho) com a seta ▲ — a cor segue o significado, não a direção.</p>
+</section>
+<section class="pv-sec">
+<h2 class="pv-sec-t k-cap">Regras</h2>
+<ul class="pv-lista"><li>Rótulo em caption (k-cap) → valor 40px/700 → rodapé com delta + contexto ou sparkline.</li><li>Unidades (K, M, £) em &lt;small&gt; 18px ink-2; o £ vem antes do valor. Custo de IA: a taxa, a fonte e a data no rodapé. Até 9.999 o número inteiro; de 10.000 em diante, compacto com uma casa (482,6K) — <b>proposta</b>; a dica e a tabela mostram sempre o número exato.</li><li>Delta com seta e palavra para leitor de tela (“▼ 3 a menos”); o período comparado sempre escrito (“desde 16 out”).</li><li>Linha de KPIs: 3 ou 4 cards (span 4 ou 3). Em tela estreita: 2 por linha abaixo de 1024px, 1 abaixo de 640px.</li></ul>
+</section>
+<footer class="pv-foot"><span>Dados: dados-2026-10-23.json → perfil_snapshots, metricas_demis, telas_tokens, telas_cambio</span> <span>Regras: <a href="../design-system.md">design-system.md</a></span> <a href="index.html">Todas as prévias</a></footer>
+</main>
+</body>
+</html>

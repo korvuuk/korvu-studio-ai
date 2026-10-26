@@ -1,0 +1,50 @@
+{
+  "slug": "2026-09-17-demis-hassabis",
+  "estado": "publicado",
+  "atualizado": "2026-10-13T17:03:58+01:00",
+  "historico": [
+    {
+      "estado": "roteiro",
+      "em": "2026-09-17T16:15:40+01:00"
+    },
+    {
+      "estado": "pronto",
+      "em": "2026-09-19T00:52:51+01:00"
+    },
+    {
+      "estado": "publicado",
+      "em": "2026-10-13T17:03:58+01:00"
+    }
+  ],
+  "material": {
+    "dossie": "material/dossie.md",
+    "fontes": "material/fontes.json",
+    "ponto_de_partida": "https://www.youtube.com/watch?v=d95J8yzvjbQ",
+    "youtube": "material/youtube/catalogo.md"
+  },
+  "musica": {
+    "arquivo": "musica/musica.json",
+    "versoes": [
+      "edicao/final-A-musica-1.mp4",
+      "edicao/final-A-musica-2.mp4"
+    ],
+    "escolhida": 1
+  },
+  "capa": {
+    "escolhida": "capa.png",
+    "variante": "A",
+    "provisoria": true,
+    "frame": "pose-47.6.jpg",
+    "opcoes": {
+      "A": "Quem é o gênio que ganhou o Nobel com IA",
+      "C": "O menino do xadrez que ganhou o Nobel com IA",
+      "D": "Conheça o homem que ganhou o Nobel com IA"
+    },
+    "ajuste": "--subir-frame 290"
+  },
+  "versao_final": {
+    "arquivo": "edicao/final.mp4",
+    "nome": "E",
+    "em": "2026-10-02"
+  }
+}

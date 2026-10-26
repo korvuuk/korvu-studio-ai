@@ -1,0 +1,511 @@
+{
+  "slug": "2026-09-17-jacob-coxon",
+  "versao": 3,
+  "tema": "Quem é Jacob Coxon, o pesquisador que ajudou a construir as IAs mais fortes e se demitiu",
+  "pilar": "noticia-explicada",
+  "estrutura": "10-filtro-de-realidade",
+  "hook_template": "noticia-traduzida",
+  "duracao_alvo": 60.0,
+  "wps_ref": 2.3,
+  "hooks": {
+    "A": {
+      "fala": "Esse cara aqui ajudou a construir as IAs mais fortes que existem hoje. E largou tudo."
+    },
+    "B": {
+      "fala": "Não é ativista, não é youtuber. É quem treinava essas IAs por dentro."
+    },
+    "C": {
+      "fala": "Um pesquisador da Anthropic se demitiu e soltou uma bomba."
+    }
+  },
+  "hook_escolhido": "A",
+  "titulo": {
+    "contexto": "Ele ajudou a construir as IAs mais fortes que existem",
+    "impacto": "e largou tudo",
+    "cinza": 0,
+    "rabisco": "largou"
+  },
+  "pose_capa": "mão aberta pedindo calma, olhar sério de quem vai contar algo grave",
+  "cta_tipo": "seguir",
+  "cta_palavra": null,
+  "material": null,
+  "total_palavras": 151,
+  "duracao_estimada": 69.1,
+  "extras": [
+    {
+      "id": "E01",
+      "tipo": "print",
+      "descricao": "A thread original no X",
+      "fonte": "O Carlos tira no celular, logado (o print automático leva 403)",
+      "credito": "@hilbertspaess no X",
+      "som": false,
+      "linhas": [
+        "L07",
+        "L08"
+      ]
+    },
+    {
+      "id": "E02",
+      "tipo": "print",
+      "descricao": "Manchete \"AI insiders fear extinction. Security experts see a familiar fight\"",
+      "fonte": "PRONTO: `brutos/extras/E02-manchete.png`",
+      "credito": "Scientific American, 11/09/2026",
+      "som": false,
+      "linhas": [
+        "L09",
+        "L10",
+        "L11"
+      ]
+    }
+  ],
+  "linhas": [
+    {
+      "id": "L01",
+      "secao": "hook",
+      "fala": "Esse cara ajudou a construir as IAs mais fortes. E largou tudo.",
+      "fala_original": "Esse cara ajudou a construir as IAs mais fortes. / E largou tudo.",
+      "palavras": [
+        "esse",
+        "cara",
+        "ajudou",
+        "a",
+        "construir",
+        "as",
+        "ias",
+        "mais",
+        "fortes",
+        "e",
+        "largou",
+        "tudo"
+      ],
+      "destaques": [],
+      "pausa_depois": "normal",
+      "tela": "",
+      "animacao": null,
+      "extras_ref": [],
+      "alternativa_de": null,
+      "tempo_estimado": [
+        0.0,
+        5.42
+      ]
+    },
+    {
+      "id": "L02",
+      "secao": "promessa",
+      "fala": "Jacob Coxon, vinte e sete anos, britânico, matemática em Cambridge.",
+      "fala_original": "Jacob Coxon, vinte e sete anos, / britânico, matemática em Cambridge.",
+      "palavras": [
+        "jacob",
+        "coxon",
+        "vinte",
+        "e",
+        "sete",
+        "anos",
+        "britânico",
+        "matemática",
+        "em",
+        "cambridge"
+      ],
+      "destaques": [],
+      "pausa_depois": "normal",
+      "tela": "",
+      "animacao": null,
+      "extras_ref": [],
+      "alternativa_de": null,
+      "tempo_estimado": [
+        5.42,
+        9.97
+      ]
+    },
+    {
+      "id": "L03",
+      "secao": "corpo",
+      "fala": "E não era a parte fácil: entrou na OpenAI pra treinar modelo do zero.",
+      "fala_original": "E não era a parte fácil: / entrou na OpenAI pra treinar modelo do zero.",
+      "palavras": [
+        "e",
+        "não",
+        "era",
+        "a",
+        "parte",
+        "fácil",
+        "entrou",
+        "na",
+        "openai",
+        "pra",
+        "treinar",
+        "modelo",
+        "do",
+        "zero"
+      ],
+      "destaques": [],
+      "pausa_depois": "normal",
+      "tela": "",
+      "animacao": null,
+      "extras_ref": [],
+      "alternativa_de": null,
+      "tempo_estimado": [
+        9.97,
+        16.25
+      ]
+    },
+    {
+      "id": "L04",
+      "secao": "corpo",
+      "fala": "O tal do pré-treino, que constrói o cérebro da coisa.",
+      "fala_original": "O tal do **pré-treino**, / que constrói o cérebro da coisa.",
+      "palavras": [
+        "o",
+        "tal",
+        "do",
+        "pré-treino",
+        "que",
+        "constrói",
+        "o",
+        "cérebro",
+        "da",
+        "coisa"
+      ],
+      "destaques": [
+        "pré-treino"
+      ],
+      "pausa_depois": "normal",
+      "tela": "",
+      "animacao": null,
+      "extras_ref": [],
+      "alternativa_de": null,
+      "tempo_estimado": [
+        16.25,
+        20.8
+      ]
+    },
+    {
+      "id": "L05",
+      "secao": "corpo",
+      "fala": "Aí depois foi pra Anthropic, a dona do Claude.",
+      "fala_original": "Aí depois foi pra Anthropic, / a dona do Claude.",
+      "palavras": [
+        "aí",
+        "depois",
+        "foi",
+        "pra",
+        "anthropic",
+        "a",
+        "dona",
+        "do",
+        "claude"
+      ],
+      "destaques": [],
+      "pausa_depois": "normal",
+      "tela": "",
+      "animacao": null,
+      "extras_ref": [],
+      "alternativa_de": null,
+      "tempo_estimado": [
+        20.8,
+        24.91
+      ]
+    },
+    {
+      "id": "L06",
+      "secao": "corpo",
+      "fala": "Ou seja: três anos dentro das duas empresas que puxam essa corrida.",
+      "fala_original": "Ou seja: três anos dentro das duas empresas que puxam essa corrida. [pausa]",
+      "palavras": [
+        "ou",
+        "seja",
+        "três",
+        "anos",
+        "dentro",
+        "das",
+        "duas",
+        "empresas",
+        "que",
+        "puxam",
+        "essa",
+        "corrida"
+      ],
+      "destaques": [],
+      "pausa_depois": "pausa",
+      "tela": "",
+      "animacao": null,
+      "extras_ref": [],
+      "alternativa_de": null,
+      "tempo_estimado": [
+        24.91,
+        30.73
+      ]
+    },
+    {
+      "id": "L07",
+      "secao": "corpo",
+      "fala": "Só que no dia oito ele publicou uma thread e pediu demissão.",
+      "fala_original": "Só que no dia oito ele publicou uma **thread** / e pediu demissão.",
+      "palavras": [
+        "só",
+        "que",
+        "no",
+        "dia",
+        "oito",
+        "ele",
+        "publicou",
+        "uma",
+        "thread",
+        "e",
+        "pediu",
+        "demissão"
+      ],
+      "destaques": [
+        "thread"
+      ],
+      "pausa_depois": "normal",
+      "tela": "",
+      "animacao": null,
+      "extras_ref": [],
+      "alternativa_de": null,
+      "tempo_estimado": [
+        30.73,
+        36.15
+      ]
+    },
+    {
+      "id": "L08",
+      "secao": "corpo",
+      "fala": "Escreveu que as duas correm pra superinteligência apostando com as nossas vidas.",
+      "fala_original": "Escreveu que as duas correm pra superinteligência / **apostando com as nossas vidas**.",
+      "palavras": [
+        "escreveu",
+        "que",
+        "as",
+        "duas",
+        "correm",
+        "pra",
+        "superinteligência",
+        "apostando",
+        "com",
+        "as",
+        "nossas",
+        "vidas"
+      ],
+      "destaques": [
+        "apostando com as nossas vidas"
+      ],
+      "pausa_depois": "normal",
+      "tela": "",
+      "animacao": null,
+      "extras_ref": [],
+      "alternativa_de": null,
+      "tempo_estimado": [
+        36.15,
+        41.57
+      ]
+    },
+    {
+      "id": "L09",
+      "secao": "corpo",
+      "fala": "E olha: quem constrói IA acha que ela pode matar todo mundo nesta década.",
+      "fala_original": "E olha: / quem constrói IA acha que ela pode **matar todo mundo** nesta década. [pausa]",
+      "palavras": [
+        "e",
+        "olha",
+        "quem",
+        "constrói",
+        "ia",
+        "acha",
+        "que",
+        "ela",
+        "pode",
+        "matar",
+        "todo",
+        "mundo",
+        "nesta",
+        "década"
+      ],
+      "destaques": [
+        "matar todo mundo"
+      ],
+      "pausa_depois": "pausa",
+      "tela": "",
+      "animacao": null,
+      "extras_ref": [],
+      "alternativa_de": null,
+      "tempo_estimado": [
+        41.57,
+        48.25
+      ]
+    },
+    {
+      "id": "L10",
+      "secao": "corpo",
+      "fala": "A Anthropic respondeu que sempre avisou dos riscos.",
+      "fala_original": "A Anthropic respondeu / que sempre avisou dos riscos.",
+      "palavras": [
+        "a",
+        "anthropic",
+        "respondeu",
+        "que",
+        "sempre",
+        "avisou",
+        "dos",
+        "riscos"
+      ],
+      "destaques": [],
+      "pausa_depois": "normal",
+      "tela": "",
+      "animacao": null,
+      "extras_ref": [],
+      "alternativa_de": null,
+      "tempo_estimado": [
+        48.25,
+        51.93
+      ]
+    },
+    {
+      "id": "L11",
+      "secao": "corpo",
+      "fala": "Mas aí vem a parte estranha: o Evan Hubinger, que cuida de segurança lá dentro, concordou.",
+      "fala_original": "Mas aí vem a parte estranha: / o **Evan Hubinger**, que cuida de segurança lá dentro, concordou.",
+      "palavras": [
+        "mas",
+        "aí",
+        "vem",
+        "a",
+        "parte",
+        "estranha",
+        "o",
+        "evan",
+        "hubinger",
+        "que",
+        "cuida",
+        "de",
+        "segurança",
+        "lá",
+        "dentro",
+        "concordou"
+      ],
+      "destaques": [
+        "Evan Hubinger"
+      ],
+      "pausa_depois": "normal",
+      "tela": "",
+      "animacao": null,
+      "extras_ref": [],
+      "alternativa_de": null,
+      "tempo_estimado": [
+        51.93,
+        59.09
+      ]
+    },
+    {
+      "id": "L12",
+      "secao": "payoff",
+      "fala": "Quer dizer, um dos caras que construiu isso tá pedindo pra desacelerar.",
+      "fala_original": "Quer dizer, / um dos caras que construiu isso tá pedindo pra **desacelerar**.",
+      "palavras": [
+        "quer",
+        "dizer",
+        "um",
+        "dos",
+        "caras",
+        "que",
+        "construiu",
+        "isso",
+        "tá",
+        "pedindo",
+        "pra",
+        "desacelerar"
+      ],
+      "destaques": [
+        "desacelerar"
+      ],
+      "pausa_depois": "normal",
+      "tela": "",
+      "animacao": null,
+      "extras_ref": [],
+      "alternativa_de": null,
+      "tempo_estimado": [
+        59.09,
+        64.5
+      ]
+    },
+    {
+      "id": "L13",
+      "secao": "cta",
+      "fala": "Me segue aqui que eu trago essas histórias sem drama.",
+      "fala_original": "Me segue aqui / que eu trago essas histórias sem drama.",
+      "palavras": [
+        "me",
+        "segue",
+        "aqui",
+        "que",
+        "eu",
+        "trago",
+        "essas",
+        "histórias",
+        "sem",
+        "drama"
+      ],
+      "destaques": [],
+      "pausa_depois": "normal",
+      "tela": "",
+      "animacao": null,
+      "extras_ref": [],
+      "alternativa_de": null,
+      "tempo_estimado": [
+        64.5,
+        69.05
+      ]
+    },
+    {
+      "id": "L01B",
+      "secao": "hook-alt",
+      "fala": "Não é ativista, não. É quem treinava essas IAs por dentro.",
+      "fala_original": "Não é ativista, não. / É quem treinava essas IAs por dentro.",
+      "palavras": [
+        "não",
+        "é",
+        "ativista",
+        "não",
+        "é",
+        "quem",
+        "treinava",
+        "essas",
+        "ias",
+        "por",
+        "dentro"
+      ],
+      "destaques": [],
+      "pausa_depois": "normal",
+      "tela": "",
+      "animacao": null,
+      "extras_ref": [],
+      "alternativa_de": "L01",
+      "tempo_estimado": null
+    },
+    {
+      "id": "L01C",
+      "secao": "hook-alt",
+      "fala": "Um pesquisador da Anthropic se demitiu e soltou uma bomba.",
+      "fala_original": "Um pesquisador da Anthropic se demitiu / e soltou uma bomba.",
+      "palavras": [
+        "um",
+        "pesquisador",
+        "da",
+        "anthropic",
+        "se",
+        "demitiu",
+        "e",
+        "soltou",
+        "uma",
+        "bomba"
+      ],
+      "destaques": [],
+      "pausa_depois": "normal",
+      "tela": "",
+      "animacao": null,
+      "extras_ref": [],
+      "alternativa_de": "L01",
+      "tempo_estimado": null
+    }
+  ]
+}

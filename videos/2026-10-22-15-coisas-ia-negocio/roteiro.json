@@ -1,0 +1,910 @@
+{
+  "slug": "2026-10-22-15-coisas-ia-negocio",
+  "versao": 1,
+  "tema": "15 coisas que a IA já faz no seu negócio — lista que enche na tela (linha 2, engajamento)",
+  "pilar": "casos-de-uso-negocio",
+  "estrutura": "2-numero-que-choca",
+  "hook_template": "lista",
+  "duracao_alvo": 70.0,
+  "wps_ref": 2.3,
+  "hooks": {
+    "A": {
+      "fala": "Quinze coisas que a IA já faz no seu negócio.",
+      "tela": "15 COISAS QUE A IA JÁ FAZ",
+      "visual": "lista 1–15 vazia em cima, Carlos embaixo"
+    },
+    "B": {
+      "fala": "Tem negócio? Salva essa lista de quinze coisas pra IA.",
+      "tela": "DONO DE NEGÓCIO, SALVA",
+      "visual": "lista 1–15 vazia em cima, Carlos embaixo"
+    },
+    "C": {
+      "fala": "Quinze tarefas do seu negócio que a IA já faz com você.",
+      "tela": "15 TAREFAS PRA IA",
+      "visual": "lista 1–15 vazia em cima, Carlos embaixo"
+    }
+  },
+  "hook_escolhido": "A",
+  "titulo": {
+    "contexto": "15 coisas que a IA",
+    "impacto": "já faz no seu negócio",
+    "cinza": 2,
+    "rabisco": "negócio"
+  },
+  "pose_capa": "mão aberta mostrando os cinco dedos, sobrancelha erguida",
+  "cta_tipo": "palavra-material",
+  "cta_palavra": "LISTA",
+  "material": "PDF com as 15 coisas que a IA já faz num pequeno negócio e, para cada uma, o pedido (prompt) pronto para copiar no ChatGPT ou no Gemini",
+  "material_titulo": "a lista com os 15 pedidos prontos",
+  "total_palavras": 155,
+  "duracao_estimada": 72.0,
+  "extras": [
+    {
+      "id": "E01",
+      "tipo": "animacao",
+      "descricao": "LISTA ANIMADA, faixa contínua de L01 a L20 (deitada 16:9 → split: lista em cima, Carlos embaixo). Título fixo \"15 COISAS QUE A IA JÁ FAZ NO SEU NEGÓCIO\"; números 1–15 visíveis e **vazios desde o 1.º quadro** (o tema e o contador aparecem antes de 2 s). De L03 a L17 cada item é escrito na sua linha **no momento em que é falado**, com efeito de digitação curta: 1 Responder cliente no WhatsApp · 2 Resposta em inglês · 3 Cardápio traduzido · 4 Legenda de post · 5 Descrição de produto · 6 Fundo da foto do produto · 7 Orçamento organizado · 8 Cobrança educada · 9 Escala da equipe · 10 Fórmula da planilha · 11 Ideias de promoção · 12 Roteiro de vídeo · 13 Respostas pras perguntas repetidas · 14 Anúncio de vaga · 15 Explicar carta oficial. Ao lado de cada item, mini-ícone da ferramenta (texto: ChatGPT/Gemini; item 6: ChatGPT/Gemini com ícone de imagem; item 15: ícone de câmera). Em L18 o item 15 ganha destaque laranja (simula foto da carta → explicação em português num balão de chat). Em L19 a lista inteira fica cheia, 15/15, e entram os selos \"ChatGPT\" e \"Gemini\" (nome/ícone da ferramenta, sem nada da Korvu ao lado — regra 3) + \"grátis, com limite por dia\". Em L20, selo discreto \"confira antes de mandar · tape seus dados\". Lista com 15 linhas tem de caber legível na metade de cima: duas colunas (1–8 / 9–15) se precisar",
+      "fonte": "Claude Design (brief do animador, design system `00-marca/design-system/korvu-video.md`); capturar com `scripts/capturar_animacao.mjs --warp` nos tempos da gravação",
+      "credito": null,
+      "som": false,
+      "linhas": [
+        "L01",
+        "L02",
+        "L03",
+        "L04",
+        "L05",
+        "L06",
+        "L07",
+        "L08",
+        "L09",
+        "L10",
+        "L11",
+        "L12",
+        "L13",
+        "L14",
+        "L15",
+        "L16",
+        "L17",
+        "L18",
+        "L19",
+        "L20"
+      ]
+    },
+    {
+      "id": "E02",
+      "tipo": "video",
+      "descricao": "INSERÇÃO OPCIONAL dentro da faixa da E01 (YouTube, mudo, ~2,2 s): mão segura o celular com o ChatGPT Voz aberto",
+      "fonte": "`brutos/extras/E02-mao-chatgpt-voz.mp4` (OpenAI, \"This is the new ChatGPT Voice\", 0:37–0:39)",
+      "credito": "This is the new ChatGPT Voice, powered by GPT-Live (OpenAI)",
+      "som": false,
+      "linhas": [
+        "L04"
+      ]
+    },
+    {
+      "id": "E03",
+      "tipo": "video",
+      "descricao": "INSERÇÃO OPCIONAL (YouTube, mudo, ~1,4 s): foto do prato no celular vira item do cardápio",
+      "fonte": "`brutos/extras/E03-gemini-cardapio.mp4` (Google, \"Help Wanted, Help Found\", 0:23–0:24)",
+      "credito": "Help Wanted, Help Found: See How Holly is Using Gemini (Google)",
+      "som": false,
+      "linhas": [
+        "L05"
+      ]
+    },
+    {
+      "id": "E06",
+      "tipo": "video",
+      "descricao": "INSERÇÃO OPCIONAL (YouTube, mudo, ~5,8 s; usar só ~2 s): mãos anexam a foto no celular, pedem, e a imagem pronta aparece",
+      "fonte": "`brutos/extras/E06-anexa-foto-flores.mp4` (OpenAI, \"Introducing ChatGPT Images 2.5\", 0:38–0:44)",
+      "credito": "Introducing ChatGPT Images 2.5 (OpenAI)",
+      "som": false,
+      "linhas": [
+        "L08"
+      ]
+    },
+    {
+      "id": "E04",
+      "tipo": "video",
+      "descricao": "INSERÇÃO OPCIONAL (YouTube, mudo, ~0,9 s): cartaz de promoção \"lunch specials\" no notebook",
+      "fonte": "`brutos/extras/E04-gemini-cartaz-promocao.mp4` (Google, mesmo vídeo, 0:25–0:25)",
+      "credito": "Help Wanted, Help Found: See How Holly is Using Gemini (Google)",
+      "som": false,
+      "linhas": [
+        "L13"
+      ]
+    },
+    {
+      "id": "E05",
+      "tipo": "video",
+      "descricao": "INSERÇÃO OPCIONAL (YouTube, mudo, ~3,3 s): anúncio de vaga pronto, em inglês e depois em espanhol",
+      "fonte": "`brutos/extras/E05-gemini-anuncio-vaga.mp4` (Google, mesmo vídeo, 1:03–1:06)",
+      "credito": "Help Wanted, Help Found: See How Holly is Using Gemini (Google)",
+      "som": false,
+      "linhas": [
+        "L16"
+      ]
+    }
+  ],
+  "linhas": [
+    {
+      "id": "L01",
+      "secao": "hook",
+      "fala": "Quinze coisas que a IA já faz no seu negócio.",
+      "fala_original": "**Quinze** coisas que a IA / já faz no **seu** negócio.",
+      "palavras": [
+        "quinze",
+        "coisas",
+        "que",
+        "a",
+        "ia",
+        "já",
+        "faz",
+        "no",
+        "seu",
+        "negócio"
+      ],
+      "destaques": [
+        "Quinze",
+        "seu"
+      ],
+      "pausa_depois": "normal",
+      "tela": "",
+      "animacao": null,
+      "extras_ref": [
+        {
+          "id": "E01",
+          "modo": "split",
+          "in": null,
+          "out": null
+        }
+      ],
+      "alternativa_de": null,
+      "tempo_estimado": [
+        0.0,
+        4.55
+      ]
+    },
+    {
+      "id": "L02",
+      "secao": "promessa",
+      "fala": "Espera a quinze, que é pra quem mora fora, e no final eu te mando tudo.",
+      "fala_original": "Espera a quinze, / que é pra quem mora fora, / e no final eu te mando tudo.",
+      "palavras": [
+        "espera",
+        "a",
+        "quinze",
+        "que",
+        "é",
+        "pra",
+        "quem",
+        "mora",
+        "fora",
+        "e",
+        "no",
+        "final",
+        "eu",
+        "te",
+        "mando",
+        "tudo"
+      ],
+      "destaques": [],
+      "pausa_depois": "normal",
+      "tela": "",
+      "animacao": null,
+      "extras_ref": [
+        {
+          "id": "E01",
+          "modo": "split",
+          "in": null,
+          "out": null
+        }
+      ],
+      "alternativa_de": null,
+      "tempo_estimado": [
+        4.55,
+        11.7
+      ]
+    },
+    {
+      "id": "L03",
+      "secao": "corpo",
+      "fala": "Responder cliente no WhatsApp.",
+      "fala_original": "Responder cliente no **WhatsApp**.",
+      "palavras": [
+        "responder",
+        "cliente",
+        "no",
+        "whatsapp"
+      ],
+      "destaques": [
+        "WhatsApp"
+      ],
+      "pausa_depois": "normal",
+      "tela": "",
+      "animacao": null,
+      "extras_ref": [
+        {
+          "id": "E01",
+          "modo": "split",
+          "in": null,
+          "out": null
+        }
+      ],
+      "alternativa_de": null,
+      "tempo_estimado": [
+        11.7,
+        13.64
+      ]
+    },
+    {
+      "id": "L04",
+      "secao": "corpo",
+      "fala": "Responder em inglês, sem travar.",
+      "fala_original": "Responder em **inglês**, / sem travar.",
+      "palavras": [
+        "responder",
+        "em",
+        "inglês",
+        "sem",
+        "travar"
+      ],
+      "destaques": [
+        "inglês"
+      ],
+      "pausa_depois": "normal",
+      "tela": "",
+      "animacao": null,
+      "extras_ref": [
+        {
+          "id": "E01",
+          "modo": "split",
+          "in": null,
+          "out": null
+        },
+        {
+          "id": "E02",
+          "modo": "split",
+          "in": null,
+          "out": null
+        }
+      ],
+      "alternativa_de": null,
+      "tempo_estimado": [
+        13.64,
+        16.02
+      ]
+    },
+    {
+      "id": "L05",
+      "secao": "corpo",
+      "fala": "O cardápio, já traduzido.",
+      "fala_original": "O cardápio, / já traduzido.",
+      "palavras": [
+        "o",
+        "cardápio",
+        "já",
+        "traduzido"
+      ],
+      "destaques": [],
+      "pausa_depois": "normal",
+      "tela": "",
+      "animacao": null,
+      "extras_ref": [
+        {
+          "id": "E01",
+          "modo": "split",
+          "in": null,
+          "out": null
+        },
+        {
+          "id": "E03",
+          "modo": "split",
+          "in": null,
+          "out": null
+        }
+      ],
+      "alternativa_de": null,
+      "tempo_estimado": [
+        16.02,
+        17.96
+      ]
+    },
+    {
+      "id": "L06",
+      "secao": "corpo",
+      "fala": "Legenda de post.",
+      "fala_original": "Legenda de post.",
+      "palavras": [
+        "legenda",
+        "de",
+        "post"
+      ],
+      "destaques": [],
+      "pausa_depois": "normal",
+      "tela": "",
+      "animacao": null,
+      "extras_ref": [
+        {
+          "id": "E01",
+          "modo": "split",
+          "in": null,
+          "out": null
+        }
+      ],
+      "alternativa_de": null,
+      "tempo_estimado": [
+        17.96,
+        19.46
+      ]
+    },
+    {
+      "id": "L07",
+      "secao": "corpo",
+      "fala": "Descrição de produto.",
+      "fala_original": "Descrição de produto.",
+      "palavras": [
+        "descrição",
+        "de",
+        "produto"
+      ],
+      "destaques": [],
+      "pausa_depois": "normal",
+      "tela": "",
+      "animacao": null,
+      "extras_ref": [
+        {
+          "id": "E01",
+          "modo": "split",
+          "in": null,
+          "out": null
+        }
+      ],
+      "alternativa_de": null,
+      "tempo_estimado": [
+        19.46,
+        20.97
+      ]
+    },
+    {
+      "id": "L08",
+      "secao": "corpo",
+      "fala": "Trocar o fundo da foto do produto.",
+      "fala_original": "Trocar o fundo da **foto** do produto.",
+      "palavras": [
+        "trocar",
+        "o",
+        "fundo",
+        "da",
+        "foto",
+        "do",
+        "produto"
+      ],
+      "destaques": [
+        "foto"
+      ],
+      "pausa_depois": "normal",
+      "tela": "",
+      "animacao": null,
+      "extras_ref": [
+        {
+          "id": "E01",
+          "modo": "split",
+          "in": null,
+          "out": null
+        },
+        {
+          "id": "E06",
+          "modo": "split",
+          "in": null,
+          "out": null
+        }
+      ],
+      "alternativa_de": null,
+      "tempo_estimado": [
+        20.97,
+        24.21
+      ]
+    },
+    {
+      "id": "L09",
+      "secao": "corpo",
+      "fala": "Orçamento bem organizado.",
+      "fala_original": "Orçamento bem organizado.",
+      "palavras": [
+        "orçamento",
+        "bem",
+        "organizado"
+      ],
+      "destaques": [],
+      "pausa_depois": "normal",
+      "tela": "",
+      "animacao": null,
+      "extras_ref": [
+        {
+          "id": "E01",
+          "modo": "split",
+          "in": null,
+          "out": null
+        }
+      ],
+      "alternativa_de": null,
+      "tempo_estimado": [
+        24.21,
+        25.71
+      ]
+    },
+    {
+      "id": "L10",
+      "secao": "corpo",
+      "fala": "Aí a parte chata: cobrança educada.",
+      "fala_original": "Aí a parte chata: / **cobrança** educada.",
+      "palavras": [
+        "aí",
+        "a",
+        "parte",
+        "chata",
+        "cobrança",
+        "educada"
+      ],
+      "destaques": [
+        "cobrança"
+      ],
+      "pausa_depois": "normal",
+      "tela": "",
+      "animacao": null,
+      "extras_ref": [
+        {
+          "id": "E01",
+          "modo": "split",
+          "in": null,
+          "out": null
+        }
+      ],
+      "alternativa_de": null,
+      "tempo_estimado": [
+        25.71,
+        28.52
+      ]
+    },
+    {
+      "id": "L11",
+      "secao": "corpo",
+      "fala": "Escala da equipe.",
+      "fala_original": "Escala da equipe.",
+      "palavras": [
+        "escala",
+        "da",
+        "equipe"
+      ],
+      "destaques": [],
+      "pausa_depois": "normal",
+      "tela": "",
+      "animacao": null,
+      "extras_ref": [
+        {
+          "id": "E01",
+          "modo": "split",
+          "in": null,
+          "out": null
+        }
+      ],
+      "alternativa_de": null,
+      "tempo_estimado": [
+        28.52,
+        30.03
+      ]
+    },
+    {
+      "id": "L12",
+      "secao": "corpo",
+      "fala": "Fórmula de planilha que você nunca lembra.",
+      "fala_original": "Fórmula de planilha / que você nunca lembra.",
+      "palavras": [
+        "fórmula",
+        "de",
+        "planilha",
+        "que",
+        "você",
+        "nunca",
+        "lembra"
+      ],
+      "destaques": [],
+      "pausa_depois": "normal",
+      "tela": "",
+      "animacao": null,
+      "extras_ref": [
+        {
+          "id": "E01",
+          "modo": "split",
+          "in": null,
+          "out": null
+        }
+      ],
+      "alternativa_de": null,
+      "tempo_estimado": [
+        30.03,
+        33.27
+      ]
+    },
+    {
+      "id": "L13",
+      "secao": "corpo",
+      "fala": "Ideia de promoção pra semana fraca.",
+      "fala_original": "Ideia de promoção / pra semana fraca.",
+      "palavras": [
+        "ideia",
+        "de",
+        "promoção",
+        "pra",
+        "semana",
+        "fraca"
+      ],
+      "destaques": [],
+      "pausa_depois": "normal",
+      "tela": "",
+      "animacao": null,
+      "extras_ref": [
+        {
+          "id": "E01",
+          "modo": "split",
+          "in": null,
+          "out": null
+        },
+        {
+          "id": "E04",
+          "modo": "split",
+          "in": null,
+          "out": null
+        }
+      ],
+      "alternativa_de": null,
+      "tempo_estimado": [
+        33.27,
+        36.08
+      ]
+    },
+    {
+      "id": "L14",
+      "secao": "corpo",
+      "fala": "Roteiro de vídeo.",
+      "fala_original": "Roteiro de vídeo.",
+      "palavras": [
+        "roteiro",
+        "de",
+        "vídeo"
+      ],
+      "destaques": [],
+      "pausa_depois": "normal",
+      "tela": "",
+      "animacao": null,
+      "extras_ref": [
+        {
+          "id": "E01",
+          "modo": "split",
+          "in": null,
+          "out": null
+        }
+      ],
+      "alternativa_de": null,
+      "tempo_estimado": [
+        36.08,
+        37.58
+      ]
+    },
+    {
+      "id": "L15",
+      "secao": "corpo",
+      "fala": "Resposta pras perguntas que todo cliente repete.",
+      "fala_original": "Resposta pras perguntas / que todo cliente repete.",
+      "palavras": [
+        "resposta",
+        "pras",
+        "perguntas",
+        "que",
+        "todo",
+        "cliente",
+        "repete"
+      ],
+      "destaques": [],
+      "pausa_depois": "normal",
+      "tela": "",
+      "animacao": null,
+      "extras_ref": [
+        {
+          "id": "E01",
+          "modo": "split",
+          "in": null,
+          "out": null
+        }
+      ],
+      "alternativa_de": null,
+      "tempo_estimado": [
+        37.58,
+        40.83
+      ]
+    },
+    {
+      "id": "L16",
+      "secao": "corpo",
+      "fala": "Anúncio de vaga.",
+      "fala_original": "Anúncio de vaga.",
+      "palavras": [
+        "anúncio",
+        "de",
+        "vaga"
+      ],
+      "destaques": [],
+      "pausa_depois": "normal",
+      "tela": "",
+      "animacao": null,
+      "extras_ref": [
+        {
+          "id": "E01",
+          "modo": "split",
+          "in": null,
+          "out": null
+        },
+        {
+          "id": "E05",
+          "modo": "split",
+          "in": null,
+          "out": null
+        }
+      ],
+      "alternativa_de": null,
+      "tempo_estimado": [
+        40.83,
+        42.33
+      ]
+    },
+    {
+      "id": "L17",
+      "secao": "payoff",
+      "fala": "E a quinze, pra quem mora fora: a carta oficial em inglês que chegou em casa.",
+      "fala_original": "E a quinze, / pra quem mora fora: / a **carta oficial** em inglês que chegou em casa.",
+      "palavras": [
+        "e",
+        "a",
+        "quinze",
+        "pra",
+        "quem",
+        "mora",
+        "fora",
+        "a",
+        "carta",
+        "oficial",
+        "em",
+        "inglês",
+        "que",
+        "chegou",
+        "em",
+        "casa"
+      ],
+      "destaques": [
+        "carta oficial"
+      ],
+      "pausa_depois": "normal",
+      "tela": "",
+      "animacao": null,
+      "extras_ref": [
+        {
+          "id": "E01",
+          "modo": "split",
+          "in": null,
+          "out": null
+        }
+      ],
+      "alternativa_de": null,
+      "tempo_estimado": [
+        42.33,
+        49.49
+      ]
+    },
+    {
+      "id": "L18",
+      "secao": "payoff",
+      "fala": "Tira uma foto, e ela te explica em português.",
+      "fala_original": "Tira uma foto, / e ela te explica em **português**. [pausa]",
+      "palavras": [
+        "tira",
+        "uma",
+        "foto",
+        "e",
+        "ela",
+        "te",
+        "explica",
+        "em",
+        "português"
+      ],
+      "destaques": [
+        "português"
+      ],
+      "pausa_depois": "pausa",
+      "tela": "",
+      "animacao": null,
+      "extras_ref": [
+        {
+          "id": "E01",
+          "modo": "split",
+          "in": null,
+          "out": null
+        }
+      ],
+      "alternativa_de": null,
+      "tempo_estimado": [
+        49.49,
+        54.0
+      ]
+    },
+    {
+      "id": "L19",
+      "secao": "payoff",
+      "fala": "Tudo no ChatGPT ou no Gemini, até na versão grátis, com limite por dia.",
+      "fala_original": "Tudo no **ChatGPT** ou no **Gemini**, / até na versão grátis, / com limite por dia.",
+      "palavras": [
+        "tudo",
+        "no",
+        "chatgpt",
+        "ou",
+        "no",
+        "gemini",
+        "até",
+        "na",
+        "versão",
+        "grátis",
+        "com",
+        "limite",
+        "por",
+        "dia"
+      ],
+      "destaques": [
+        "ChatGPT",
+        "Gemini"
+      ],
+      "pausa_depois": "normal",
+      "tela": "",
+      "animacao": null,
+      "extras_ref": [
+        {
+          "id": "E01",
+          "modo": "split",
+          "in": null,
+          "out": null
+        }
+      ],
+      "alternativa_de": null,
+      "tempo_estimado": [
+        54.0,
+        60.29
+      ]
+    },
+    {
+      "id": "L20",
+      "secao": "payoff",
+      "fala": "Ela ainda erra, tá? Confere antes de mandar, e tapa seus dados na carta.",
+      "fala_original": "Ela ainda erra, tá? / Confere antes de mandar, / e tapa seus dados na carta.",
+      "palavras": [
+        "ela",
+        "ainda",
+        "erra",
+        "tá",
+        "confere",
+        "antes",
+        "de",
+        "mandar",
+        "e",
+        "tapa",
+        "seus",
+        "dados",
+        "na",
+        "carta"
+      ],
+      "destaques": [],
+      "pausa_depois": "normal",
+      "tela": "",
+      "animacao": null,
+      "extras_ref": [
+        {
+          "id": "E01",
+          "modo": "split",
+          "in": null,
+          "out": null
+        }
+      ],
+      "alternativa_de": null,
+      "tempo_estimado": [
+        60.29,
+        66.57
+      ]
+    },
+    {
+      "id": "L21",
+      "secao": "cta",
+      "fala": "Comenta LISTA pros quinze pedidos, e salva pra fazer um por dia.",
+      "fala_original": "Comenta **LISTA** pros quinze pedidos, / e **salva** pra fazer um por dia.",
+      "palavras": [
+        "comenta",
+        "lista",
+        "pros",
+        "quinze",
+        "pedidos",
+        "e",
+        "salva",
+        "pra",
+        "fazer",
+        "um",
+        "por",
+        "dia"
+      ],
+      "destaques": [
+        "LISTA",
+        "salva"
+      ],
+      "pausa_depois": "normal",
+      "tela": "",
+      "animacao": null,
+      "extras_ref": [],
+      "alternativa_de": null,
+      "tempo_estimado": [
+        66.57,
+        71.99
+      ]
+    },
+    {
+      "id": "L01B",
+      "secao": "hook-alt",
+      "fala": "Tem negócio? Salva essa lista de quinze coisas pra IA.",
+      "fala_original": "Tem negócio? / Salva essa lista de **quinze** coisas pra IA.",
+      "palavras": [
+        "tem",
+        "negócio",
+        "salva",
+        "essa",
+        "lista",
+        "de",
+        "quinze",
+        "coisas",
+        "pra",
+        "ia"
+      ],
+      "destaques": [
+        "quinze"
+      ],
+      "pausa_depois": "normal",
+      "tela": "",
+      "animacao": null,
+      "extras_ref": [],
+      "alternativa_de": "L01",
+      "tempo_estimado": null
+    },
+    {
+      "id": "L01C",
+      "secao": "hook-alt",
+      "fala": "Quinze tarefas do seu negócio que a IA já faz com você.",
+      "fala_original": "Quinze tarefas do seu negócio / que a IA já faz **com** você.",
+      "palavras": [
+        "quinze",
+        "tarefas",
+        "do",
+        "seu",
+        "negócio",
+        "que",
+        "a",
+        "ia",
+        "já",
+        "faz",
+        "com",
+        "você"
+      ],
+      "destaques": [
+        "com"
+      ],
+      "pausa_depois": "normal",
+      "tela": "",
+      "animacao": null,
+      "extras_ref": [],
+      "alternativa_de": "L01",
+      "tempo_estimado": null
+    }
+  ]
+}

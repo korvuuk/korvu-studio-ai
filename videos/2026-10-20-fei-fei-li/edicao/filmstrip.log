@@ -1,0 +1,75 @@
+[filmstrip] câmera em log: frames com a LUT de visualização (entrada-camera.cube)
+[filmstrip] 72 cortes -> edicao/frames/corte-NN.png + contato.png
+   corte-01.png  00:03.72  corte interno  L01 → L01
+   corte-02.png  00:05.00  troca de linha L01 → L02
+   corte-03.png  00:08.88  troca de linha L02 → L03
+   corte-04.png  00:11.28  troca de linha L03 → L04
+   corte-05.png  00:12.88  corte interno  L04 → L04
+   corte-06.png  00:14.76  corte interno  L04 → L04
+   corte-07.png  00:16.32  troca de linha L04 → L05
+   corte-08.png  00:19.72  troca de linha L05 → L06
+   corte-09.png  00:22.16  corte interno  L06 → L06
+   corte-10.png  00:24.24  corte interno  L06 → L06
+   corte-11.png  00:28.04  troca de linha L06 → L07
+   corte-12.png  00:28.92  troca de linha L07 → L08
+   corte-13.png  00:29.88  corte interno  L08 → L08
+   corte-14.png  00:33.44  troca de linha L08 → L09
+   corte-15.png  00:40.48  troca de linha L09 → L10
+   corte-16.png  00:41.60  corte interno  L10 → L10
+   corte-17.png  00:45.44  troca de linha L10 → L11
+   corte-18.png  00:46.48  corte interno  L11 → L11
+   corte-19.png  00:48.72  corte interno  L11 → L11
+   corte-20.png  00:49.72  corte interno  L11 → L11
+   corte-21.png  00:50.68  corte interno  L11 → L11
+   corte-22.png  00:52.36  troca de linha L11 → L12
+   corte-23.png  00:53.84  corte interno  L12 → L12
+   corte-24.png  00:56.56  troca de linha L12 → L13
+   corte-25.png  00:58.00  corte interno  L13 → L13
+   corte-26.png  01:00.96  troca de linha L13 → L14
+   corte-27.png  01:01.88  corte interno  L14 → L14
+   corte-28.png  01:05.56  corte interno  L14 → L14
+   corte-29.png  01:07.44  corte interno  L14 → L14
+   corte-30.png  01:10.08  troca de linha L14 → L15
+   corte-31.png  01:11.28  corte interno  L15 → L15
+   corte-32.png  01:13.48  corte interno  L15 → L15
+   corte-33.png  01:17.52  corte interno  L15 → L15
+   corte-34.png  01:18.96  troca de linha L15 → L16
+   corte-35.png  01:21.68  troca de linha L16 → L17
+   corte-36.png  01:23.40  corte interno  L17 → L17
+   corte-37.png  01:24.60  corte interno  L17 → L17
+   corte-38.png  01:26.64  troca de linha L17 → L18
+   corte-39.png  01:29.36  troca de linha L18 → L19
+   corte-40.png  01:31.44  corte interno  L19 → L19
+   corte-41.png  01:34.12  corte interno  L19 → L19
+   corte-42.png  01:35.64  corte interno  L19 → L19
+   corte-43.png  01:36.92  corte interno  L19 → L19
+   corte-44.png  01:39.08  troca de linha L19 → L20
+   corte-45.png  01:41.36  troca de linha L20 → L21
+   corte-46.png  01:46.28  troca de linha L21 → L22
+   corte-47.png  01:49.72  corte interno  L22 → L22
+   corte-48.png  01:51.00  corte interno  L22 → L22
+   corte-49.png  01:54.40  corte interno  L22 → L22
+   corte-50.png  01:55.64  troca de linha L22 → L23
+   corte-51.png  01:58.00  troca de linha L23 → L24
+   corte-52.png  01:59.96  troca de linha L24 → L25
+   corte-53.png  02:02.00  corte interno  L25 → L25
+   corte-54.png  02:03.00  troca de linha L25 → L26
+   corte-55.png  02:04.56  corte interno  L26 → L26
+   corte-56.png  02:06.36  corte interno  L26 → L26
+   corte-57.png  02:08.40  troca de linha L26 → L26
+   corte-58.png  02:08.72  troca de linha L26 → L27
+   corte-59.png  02:09.76  corte interno  L27 → L27
+   corte-60.png  02:13.04  troca de linha L27 → L28
+   corte-61.png  02:16.52  troca de linha L28 → L29
+   corte-62.png  02:18.76  corte interno  L29 → L29
+   corte-63.png  02:19.88  corte interno  L29 → L29
+   corte-64.png  02:21.56  corte interno  L29 → L29
+   corte-65.png  02:24.04  troca de linha L29 → L30
+   corte-66.png  02:27.24  troca de linha L30 → L31
+   corte-67.png  02:30.20  corte interno  L31 → L31
+   corte-68.png  02:31.04  corte interno  L31 → L31
+   corte-69.png  02:33.88  troca de linha L31 → L32
+   corte-70.png  02:39.16  corte interno  L32 → L32
+   corte-71.png  02:40.64  troca de linha L32 → L33
+   corte-72.png  02:44.08  troca de linha L33 → L34
+exit 0

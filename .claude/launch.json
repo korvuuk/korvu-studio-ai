@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "painel",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": ["--prefix", "painel/web", "run", "dev"],
+      "port": 3456
+    }
+  ]
+}

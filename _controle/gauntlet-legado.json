@@ -1,0 +1,12 @@
+{
+  "motivo": "Pacotes que já estavam na fila quando o GAUNTLET entrou (22/10/2026), montados antes de existir livro de veredictos. Publicam sem selo, com aviso no log. Lista CONGELADA: nunca acrescentar slug novo aqui — pacote novo passa pelos portões (docs/gauntlet.md).",
+  "congelado_em": "2026-10-22",
+  "slugs": [
+    "2026-10-20-fei-fei-li-r2",
+    "2026-10-20-geoffrey-hinton-r2",
+    "2026-10-23-livro-chatgpt",
+    "2026-10-23-livro-chatgpt-a",
+    "2026-10-23-livro-chatgpt-l01c",
+    "2026-10-23-livro-chatgpt-l01c-a"
+  ]
+}

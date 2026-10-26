@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Card de pessoa · korvu. painel — design system</title>
+<link rel="stylesheet" href="../tokens.css">
+<link rel="stylesheet" href="../componentes.css">
+<link rel="stylesheet" href="../acrescimos.css">
+<link rel="stylesheet" href="previa.css">
+<script src="../korvu.js"></script>
+<script src="previa.js" defer></script>
+</head>
+<body>
+<main class="pv">
+<header class="pv-head">
+<p class="k-cap">Pessoas · <span class="k-mono">k-card k-member</span></p>
+<h1 class="k-h2">Card de pessoa</h1>
+<p class="pv-lead">Uma pessoa da equipe: quem é, o que faz, com que modelo, quanto consumiu.</p>
+</header>
+<section class="pv-sec">
+<h2 class="pv-sec-t k-cap">Dados reais · 30 dias <span class="pv-tag pv-tag--real">dados reais · banco do painel</span></h2>
+<a class="k-card k-member is-interactive" href="#" style="text-decoration:none;color:inherit;max-width:620px"><span class="k-avatar"><img src="../telas/img/retratos/marina.jpg" alt="Retrato de Marina Costa"></span><div class="k-member-id"><div class="k-member-name-row"><span class="k-member-name">Marina Costa</span><span class="k-chip k-chip--opus">Opus 5.5</span></div><div class="k-member-role">Roteirista · Roteiro</div></div><div class="k-member-stats"><div><div class="k-member-stat-value"><span class="k-tokens">935,5K</span></div><span class="k-member-stat-label">tokens</span></div><div><div class="k-member-stat-value">£ 5,77</div><span class="k-member-stat-label">custo</span></div><div><div class="k-member-stat-value">9</div><span class="k-member-stat-label">tarefas</span></div></div></a><div style="height:12px"></div><a class="k-card k-member is-interactive" href="#" style="text-decoration:none;color:inherit;max-width:620px"><span class="k-avatar"><img src="../telas/img/retratos/livia.jpg" alt="Retrato de Lívia Rocha"></span><div class="k-member-id"><div class="k-member-name-row"><span class="k-member-name">Lívia Rocha</span><span class="k-chip k-chip--model">Sonnet 5.5</span></div><div class="k-member-role">Produtora de material · Roteiro</div></div><div class="k-member-stats"><div><div class="k-member-stat-value"><span class="k-tokens">440,2K</span></div><span class="k-member-stat-label">tokens</span></div><div><div class="k-member-stat-value">£ 1,56</div><span class="k-member-stat-label">custo</span></div><div><div class="k-member-stat-value">8</div><span class="k-member-stat-label">tarefas</span></div></div></a>
+</section>
+<section class="pv-sec">
+<h2 class="pv-sec-t k-cap">Quem não rodou nos 30 dias <span class="pv-tag pv-tag--real">dados reais · banco do painel</span></h2>
+<a class="k-card k-member is-interactive" href="#" style="text-decoration:none;color:inherit;max-width:620px"><span class="k-avatar" role="img" aria-label="Caio Martins">CM</span><div class="k-member-id"><div class="k-member-name-row"><span class="k-member-name">Caio Martins</span><span class="k-chip k-chip--model">Sonnet 5.5</span></div><div class="k-member-role">Produtor de cenas extras · Arte e cor</div></div><div class="k-member-stats"><div><div class="k-member-stat-value"><span aria-label="sem consumo">—</span></div><span class="k-member-stat-label">tokens</span></div><div><div class="k-member-stat-value"><span aria-label="sem consumo">—</span></div><span class="k-member-stat-label">custo</span></div><div><div class="k-member-stat-value">não rodou</div><span class="k-member-stat-label">tarefas</span></div></div></a>
+</section>
+<section class="pv-sec">
+<h2 class="pv-sec-t k-cap">Regras</h2>
+<ul class="pv-lista"><li>Card clicável (o card inteiro abre a ficha), padding 16, avatar 56 raio 10 — com a <b>foto</b> (retrato = foto realista, decisão de 23/10); sem foto, as iniciais no mesmo quadro.</li><li>Nome, chip do modelo <b>com a versão</b> (“Opus 5.5”, “Sonnet 5.5”), cargo · departamento (do banco, com a 1.ª letra maiúscula).</li><li>As três métricas são dos <b>últimos 30 dias</b> e têm fonte: os registros das sessões do Claude Code (livro §15.3) — tokens (em destaque, <span class="k-mono">accent-ink</span>), custo em libras (£ 0,7465 por US$ (XE, 23 out)) e tarefas (execuções). “Vídeos ativos”, do desenho original, saiu: não tem fonte.</li><li>Quem não rodou nos 30 dias: “—” e “não rodou” (3.º card), nunca um número inventado.</li><li>Na página Equipe: 3 por linha (span 4); 2 abaixo de 1024px; 1 abaixo de 640px, com as métricas na linha de baixo.</li></ul>
+</section>
+<footer class="pv-foot"><span>Dados: dados-2026-10-23.json → agentes, telas_tokens, telas_cambio, telas_modelos</span> <span>Regras: <a href="../design-system.md">design-system.md</a></span> <a href="index.html">Todas as prévias</a></footer>
+</main>
+</body>
+</html>

@@ -1,0 +1,1065 @@
+{
+ "engine": "mlx",
+ "modelo": "mlx-community/whisper-large-v3-turbo",
+ "versao": 2,
+ "lacunas": 4,
+ "palavras": [
+  {
+   "texto": "Quatro",
+   "inicio": 0.0,
+   "fim": 0.78,
+   "conf": 0.84765625
+  },
+  {
+   "texto": "anos",
+   "inicio": 0.78,
+   "fim": 1.06,
+   "conf": 0.9990234375
+  },
+  {
+   "texto": "depois,",
+   "inicio": 1.06,
+   "fim": 1.46,
+   "conf": 0.99951171875
+  },
+  {
+   "texto": "o",
+   "inicio": 2.04,
+   "fim": 2.56,
+   "conf": 0.998046875
+  },
+  {
+   "texto": "Google",
+   "inicio": 2.56,
+   "fim": 2.88,
+   "conf": 0.99658203125
+  },
+  {
+   "texto": "comprou",
+   "inicio": 2.88,
+   "fim": 3.38,
+   "conf": 0.9990234375
+  },
+  {
+   "texto": "por",
+   "inicio": 3.38,
+   "fim": 3.62,
+   "conf": 0.99462890625
+  },
+  {
+   "texto": "cerca",
+   "inicio": 3.62,
+   "fim": 3.92,
+   "conf": 0.998046875
+  },
+  {
+   "texto": "de",
+   "inicio": 3.92,
+   "fim": 4.12,
+   "conf": 1.0
+  },
+  {
+   "texto": "400",
+   "inicio": 4.12,
+   "fim": 4.7,
+   "conf": 0.97412109375
+  },
+  {
+   "texto": "milhões",
+   "inicio": 4.7,
+   "fim": 5.26,
+   "conf": 0.998046875
+  },
+  {
+   "texto": "de",
+   "inicio": 5.26,
+   "fim": 5.54,
+   "conf": 0.99951171875
+  },
+  {
+   "texto": "libras.",
+   "inicio": 5.54,
+   "fim": 5.96,
+   "conf": 0.9970703125
+  },
+  {
+   "texto": "E",
+   "inicio": 7.960000000000001,
+   "fim": 8.76,
+   "conf": 0.362548828125
+  },
+  {
+   "texto": "quatro",
+   "inicio": 8.76,
+   "fim": 9.28,
+   "conf": 0.97021484375
+  },
+  {
+   "texto": "anos",
+   "inicio": 9.28,
+   "fim": 9.56,
+   "conf": 1.0
+  },
+  {
+   "texto": "depois,",
+   "inicio": 9.56,
+   "fim": 9.94,
+   "conf": 1.0
+  },
+  {
+   "texto": "o",
+   "inicio": 10.26,
+   "fim": 10.64,
+   "conf": 0.99951171875
+  },
+  {
+   "texto": "Google",
+   "inicio": 10.64,
+   "fim": 10.96,
+   "conf": 1.0
+  },
+  {
+   "texto": "comprou",
+   "inicio": 10.96,
+   "fim": 11.64,
+   "conf": 1.0
+  },
+  {
+   "texto": "a",
+   "inicio": 11.64,
+   "fim": 11.86,
+   "conf": 0.99755859375
+  },
+  {
+   "texto": "empresa",
+   "inicio": 11.86,
+   "fim": 12.18,
+   "conf": 0.99951171875
+  },
+  {
+   "texto": "dele",
+   "inicio": 12.18,
+   "fim": 12.56,
+   "conf": 0.99755859375
+  },
+  {
+   "texto": "por",
+   "inicio": 12.56,
+   "fim": 13.04,
+   "conf": 0.99951171875
+  },
+  {
+   "texto": "400",
+   "inicio": 13.04,
+   "fim": 13.7,
+   "conf": 0.99951171875
+  },
+  {
+   "texto": "milhões",
+   "inicio": 13.7,
+   "fim": 14.46,
+   "conf": 1.0
+  },
+  {
+   "texto": "de",
+   "inicio": 14.46,
+   "fim": 14.8,
+   "conf": 1.0
+  },
+  {
+   "texto": "libras.",
+   "inicio": 14.8,
+   "fim": 15.26,
+   "conf": 1.0
+  },
+  {
+   "texto": "Próximo.",
+   "inicio": 16.42,
+   "fim": 17.16,
+   "conf": 0.94677734375
+  },
+  {
+   "texto": "Em",
+   "inicio": 17.4,
+   "fim": 18.0,
+   "conf": 0.99560546875
+  },
+  {
+   "texto": "16,",
+   "inicio": 18.0,
+   "fim": 18.4,
+   "conf": 0.71875
+  },
+  {
+   "texto": "a",
+   "inicio": 19.3,
+   "fim": 20.02,
+   "conf": 0.99267578125
+  },
+  {
+   "texto": "IA",
+   "inicio": 20.02,
+   "fim": 20.24,
+   "conf": 0.9326171875
+  },
+  {
+   "texto": "deles",
+   "inicio": 20.24,
+   "fim": 20.62,
+   "conf": 0.998046875
+  },
+  {
+   "texto": "venceu",
+   "inicio": 20.62,
+   "fim": 21.16,
+   "conf": 0.9423828125
+  },
+  {
+   "texto": "um",
+   "inicio": 21.16,
+   "fim": 21.3,
+   "conf": 0.99755859375
+  },
+  {
+   "texto": "dos",
+   "inicio": 21.3,
+   "fim": 21.44,
+   "conf": 1.0
+  },
+  {
+   "texto": "maiores",
+   "inicio": 21.44,
+   "fim": 22.04,
+   "conf": 1.0
+  },
+  {
+   "texto": "nomes",
+   "inicio": 22.04,
+   "fim": 22.42,
+   "conf": 0.98193359375
+  },
+  {
+   "texto": "do",
+   "inicio": 22.42,
+   "fim": 22.56,
+   "conf": 0.994140625
+  },
+  {
+   "texto": "gol.",
+   "inicio": 22.56,
+   "fim": 22.74,
+   "conf": 0.7177734375
+  },
+  {
+   "texto": "Em",
+   "inicio": 32.22,
+   "fim": 33.04,
+   "conf": 0.935546875
+  },
+  {
+   "texto": "2016,",
+   "inicio": 33.04,
+   "fim": 33.86,
+   "conf": 0.99462890625
+  },
+  {
+   "texto": "a",
+   "inicio": 34.48,
+   "fim": 35.06,
+   "conf": 0.919921875
+  },
+  {
+   "texto": "EA",
+   "inicio": 35.06,
+   "fim": 35.24,
+   "conf": 0.541015625
+  },
+  {
+   "texto": "e",
+   "inicio": 35.24,
+   "fim": 35.5,
+   "conf": 0.316162109375
+  },
+  {
+   "texto": "deles",
+   "inicio": 35.5,
+   "fim": 35.78,
+   "conf": 0.63916015625
+  },
+  {
+   "texto": "venceram",
+   "inicio": 35.78,
+   "fim": 36.88,
+   "conf": 0.994140625
+  },
+  {
+   "texto": "o",
+   "inicio": 36.88,
+   "fim": 37.26,
+   "conf": 0.974609375
+  },
+  {
+   "texto": "maior",
+   "inicio": 37.26,
+   "fim": 37.64,
+   "conf": 0.99462890625
+  },
+  {
+   "texto": "jogo",
+   "inicio": 37.64,
+   "fim": 38.34,
+   "conf": 0.98388671875
+  },
+  {
+   "texto": "da",
+   "inicio": 38.34,
+   "fim": 38.64,
+   "conf": 0.978515625
+  },
+  {
+   "texto": "competição",
+   "inicio": 38.64,
+   "fim": 39.28,
+   "conf": 0.9990234375
+  },
+  {
+   "texto": "do",
+   "inicio": 39.28,
+   "fim": 39.54,
+   "conf": 0.98291015625
+  },
+  {
+   "texto": "gol.",
+   "inicio": 39.54,
+   "fim": 39.74,
+   "conf": 0.8779296875
+  },
+  {
+   "texto": "E,",
+   "inicio": 41.986000000000004,
+   "fim": 42.306,
+   "conf": 0.0311737060546875
+  },
+  {
+   "texto": "inubar,",
+   "inicio": 42.306,
+   "fim": 42.626,
+   "conf": 0.0229949951171875
+  },
+  {
+   "texto": "E,",
+   "inicio": 43.046,
+   "fim": 43.246,
+   "conf": 0.0007677078247070312
+  },
+  {
+   "texto": "ní,",
+   "inicio": 43.346,
+   "fim": 43.606,
+   "conf": 0.01184844970703125
+  },
+  {
+   "texto": "ní,",
+   "inicio": 43.706,
+   "fim": 43.706,
+   "conf": 0.603515625
+  },
+  {
+   "texto": "ní,",
+   "inicio": 43.706,
+   "fim": 43.706,
+   "conf": 0.82275390625
+  },
+  {
+   "texto": "ní,",
+   "inicio": 43.706,
+   "fim": 43.746,
+   "conf": 0.8662109375
+  },
+  {
+   "texto": "ní,",
+   "inicio": 43.826,
+   "fim": 43.826,
+   "conf": 0.88671875
+  },
+  {
+   "texto": "ní,",
+   "inicio": 43.826,
+   "fim": 43.826,
+   "conf": 0.8984375
+  },
+  {
+   "texto": "ní,",
+   "inicio": 43.826,
+   "fim": 43.826,
+   "conf": 0.91015625
+  },
+  {
+   "texto": "ní,",
+   "inicio": 44.025999999999996,
+   "fim": 44.186,
+   "conf": 0.921875
+  },
+  {
+   "texto": "ní,",
+   "inicio": 44.446,
+   "fim": 45.186,
+   "conf": 0.93359375
+  },
+  {
+   "texto": "ní,",
+   "inicio": 45.546,
+   "fim": 45.546,
+   "conf": 0.9423828125
+  },
+  {
+   "texto": "ní,",
+   "inicio": 45.546,
+   "fim": 45.666,
+   "conf": 0.9521484375
+  },
+  {
+   "texto": "ní,",
+   "inicio": 45.786,
+   "fim": 45.786,
+   "conf": 0.95703125
+  },
+  {
+   "texto": "ní,",
+   "inicio": 45.786,
+   "fim": 45.946,
+   "conf": 0.962890625
+  },
+  {
+   "texto": "ní,",
+   "inicio": 46.406,
+   "fim": 46.806,
+   "conf": 0.9677734375
+  },
+  {
+   "texto": "ní,",
+   "inicio": 46.806,
+   "fim": 46.806,
+   "conf": 0.970703125
+  },
+  {
+   "texto": "ní,",
+   "inicio": 46.806,
+   "fim": 46.885999999999996,
+   "conf": 0.97216796875
+  },
+  {
+   "texto": "ní,",
+   "inicio": 46.885999999999996,
+   "fim": 46.885999999999996,
+   "conf": 0.9755859375
+  },
+  {
+   "texto": "ní,",
+   "inicio": 46.885999999999996,
+   "fim": 46.885999999999996,
+   "conf": 0.97705078125
+  },
+  {
+   "texto": "ní,",
+   "inicio": 47.206,
+   "fim": 47.385999999999996,
+   "conf": 0.9794921875
+  },
+  {
+   "texto": "ní,",
+   "inicio": 47.525999999999996,
+   "fim": 47.666,
+   "conf": 0.98046875
+  },
+  {
+   "texto": "ní,",
+   "inicio": 47.666,
+   "fim": 47.666,
+   "conf": 0.98193359375
+  },
+  {
+   "texto": "ní,",
+   "inicio": 47.666,
+   "fim": 47.666,
+   "conf": 0.98388671875
+  },
+  {
+   "texto": "ní,",
+   "inicio": 47.666,
+   "fim": 47.666,
+   "conf": 0.98388671875
+  },
+  {
+   "texto": "ní,",
+   "inicio": 47.666,
+   "fim": 47.666,
+   "conf": 0.98388671875
+  },
+  {
+   "texto": "ní,",
+   "inicio": 47.666,
+   "fim": 47.666,
+   "conf": 0.984375
+  },
+  {
+   "texto": "ní,",
+   "inicio": 47.666,
+   "fim": 47.666,
+   "conf": 0.986328125
+  },
+  {
+   "texto": "ní,",
+   "inicio": 47.666,
+   "fim": 47.666,
+   "conf": 0.986328125
+  },
+  {
+   "texto": "ní,",
+   "inicio": 47.666,
+   "fim": 47.666,
+   "conf": 0.986328125
+  },
+  {
+   "texto": "ní,",
+   "inicio": 47.666,
+   "fim": 47.666,
+   "conf": 0.9873046875
+  },
+  {
+   "texto": "ní,",
+   "inicio": 47.666,
+   "fim": 47.666,
+   "conf": 0.9873046875
+  },
+  {
+   "texto": "ní,",
+   "inicio": 47.666,
+   "fim": 47.666,
+   "conf": 0.98828125
+  },
+  {
+   "texto": "ní,",
+   "inicio": 47.666,
+   "fim": 47.666,
+   "conf": 0.98876953125
+  },
+  {
+   "texto": "ní,",
+   "inicio": 47.666,
+   "fim": 47.726,
+   "conf": 0.98876953125
+  },
+  {
+   "texto": "ní,",
+   "inicio": 47.726,
+   "fim": 47.726,
+   "conf": 0.98828125
+  },
+  {
+   "texto": "ní,",
+   "inicio": 47.726,
+   "fim": 47.726,
+   "conf": 0.9892578125
+  },
+  {
+   "texto": "ní,",
+   "inicio": 47.726,
+   "fim": 47.726,
+   "conf": 0.98828125
+  },
+  {
+   "texto": "ní,",
+   "inicio": 47.726,
+   "fim": 47.726,
+   "conf": 0.9892578125
+  },
+  {
+   "texto": "ní,",
+   "inicio": 47.726,
+   "fim": 47.726,
+   "conf": 0.98974609375
+  },
+  {
+   "texto": "ní,",
+   "inicio": 47.726,
+   "fim": 47.726,
+   "conf": 0.9892578125
+  },
+  {
+   "texto": "ní,",
+   "inicio": 47.726,
+   "fim": 47.726,
+   "conf": 0.990234375
+  },
+  {
+   "texto": "ní,",
+   "inicio": 47.726,
+   "fim": 47.726,
+   "conf": 0.990234375
+  },
+  {
+   "texto": "ní,",
+   "inicio": 47.726,
+   "fim": 47.726,
+   "conf": 0.990234375
+  },
+  {
+   "texto": "ní,",
+   "inicio": 47.726,
+   "fim": 47.766,
+   "conf": 0.990234375
+  },
+  {
+   "texto": "ní,",
+   "inicio": 47.766,
+   "fim": 47.766,
+   "conf": 0.990234375
+  },
+  {
+   "texto": "ní,",
+   "inicio": 47.766,
+   "fim": 47.786,
+   "conf": 0.990234375
+  },
+  {
+   "texto": "ní,",
+   "inicio": 47.786,
+   "fim": 47.806,
+   "conf": 0.990234375
+  },
+  {
+   "texto": "ní,",
+   "inicio": 47.806,
+   "fim": 47.806,
+   "conf": 0.99072265625
+  },
+  {
+   "texto": "ní,",
+   "inicio": 47.806,
+   "fim": 47.806,
+   "conf": 0.9912109375
+  },
+  {
+   "texto": "ní,",
+   "inicio": 47.806,
+   "fim": 47.806,
+   "conf": 0.9912109375
+  },
+  {
+   "texto": "ní,",
+   "inicio": 47.806,
+   "fim": 47.806,
+   "conf": 0.9912109375
+  },
+  {
+   "texto": "ní,",
+   "inicio": 47.806,
+   "fim": 47.806,
+   "conf": 0.9912109375
+  },
+  {
+   "texto": "ní,",
+   "inicio": 47.806,
+   "fim": 47.806,
+   "conf": 0.9912109375
+  },
+  {
+   "texto": "ní,",
+   "inicio": 47.806,
+   "fim": 47.806,
+   "conf": 0.9912109375
+  },
+  {
+   "texto": "ní,",
+   "inicio": 47.806,
+   "fim": 47.806,
+   "conf": 0.9912109375
+  },
+  {
+   "texto": "ní,",
+   "inicio": 47.806,
+   "fim": 47.806,
+   "conf": 0.9921875
+  },
+  {
+   "texto": "ní,",
+   "inicio": 47.806,
+   "fim": 47.806,
+   "conf": 0.9921875
+  },
+  {
+   "texto": "ní,",
+   "inicio": 47.806,
+   "fim": 47.806,
+   "conf": 0.99169921875
+  },
+  {
+   "texto": "ní,",
+   "inicio": 47.806,
+   "fim": 47.806,
+   "conf": 0.9921875
+  },
+  {
+   "texto": "ní,",
+   "inicio": 47.806,
+   "fim": 47.806,
+   "conf": 0.9921875
+  },
+  {
+   "texto": "ní,",
+   "inicio": 47.806,
+   "fim": 47.806,
+   "conf": 0.99169921875
+  },
+  {
+   "texto": "ní,",
+   "inicio": 47.806,
+   "fim": 47.806,
+   "conf": 0.9921875
+  },
+  {
+   "texto": "ní,",
+   "inicio": 47.806,
+   "fim": 47.806,
+   "conf": 0.99169921875
+  },
+  {
+   "texto": "ní,",
+   "inicio": 47.806,
+   "fim": 47.806,
+   "conf": 0.9921875
+  },
+  {
+   "texto": "ní,",
+   "inicio": 47.806,
+   "fim": 47.806,
+   "conf": 0.9921875
+  },
+  {
+   "texto": "ní,",
+   "inicio": 47.806,
+   "fim": 47.806,
+   "conf": 0.99169921875
+  },
+  {
+   "texto": "ní,",
+   "inicio": 47.806,
+   "fim": 47.806,
+   "conf": 0.9921875
+  },
+  {
+   "texto": "ní,",
+   "inicio": 47.806,
+   "fim": 47.806,
+   "conf": 0.99169921875
+  },
+  {
+   "texto": "ní,",
+   "inicio": 47.806,
+   "fim": 47.806,
+   "conf": 0.9921875
+  },
+  {
+   "texto": "ní,",
+   "inicio": 47.806,
+   "fim": 47.806,
+   "conf": 0.99169921875
+  },
+  {
+   "texto": "ní,",
+   "inicio": 47.806,
+   "fim": 47.806,
+   "conf": 0.9921875
+  },
+  {
+   "texto": "ní,",
+   "inicio": 47.806,
+   "fim": 47.806,
+   "conf": 0.9921875
+  },
+  {
+   "texto": "ní",
+   "inicio": 47.806,
+   "fim": 48.086,
+   "conf": 0.9921875
+  },
+  {
+   "texto": "Em",
+   "inicio": 49.68,
+   "fim": 50.5,
+   "conf": 0.98974609375
+  },
+  {
+   "texto": "2016,",
+   "inicio": 50.5,
+   "fim": 51.18,
+   "conf": 0.99609375
+  },
+  {
+   "texto": "a",
+   "inicio": 51.66,
+   "fim": 53.28,
+   "conf": 0.99951171875
+  },
+  {
+   "texto": "EA",
+   "inicio": 53.28,
+   "fim": 53.54,
+   "conf": 0.99951171875
+  },
+  {
+   "texto": "e",
+   "inicio": 53.54,
+   "fim": 53.78,
+   "conf": 0.96337890625
+  },
+  {
+   "texto": "deles",
+   "inicio": 53.78,
+   "fim": 54.14,
+   "conf": 0.99658203125
+  },
+  {
+   "texto": "venceram",
+   "inicio": 54.14,
+   "fim": 54.96,
+   "conf": 0.99853515625
+  },
+  {
+   "texto": "o",
+   "inicio": 54.96,
+   "fim": 55.1,
+   "conf": 0.9912109375
+  },
+  {
+   "texto": "maior",
+   "inicio": 55.1,
+   "fim": 55.4,
+   "conf": 0.998046875
+  },
+  {
+   "texto": "nome",
+   "inicio": 55.4,
+   "fim": 55.84,
+   "conf": 0.9921875
+  },
+  {
+   "texto": "do",
+   "inicio": 55.84,
+   "fim": 56.16,
+   "conf": 0.99951171875
+  },
+  {
+   "texto": "gol.",
+   "inicio": 56.16,
+   "fim": 56.36,
+   "conf": 0.9990234375
+  },
+  {
+   "texto": "Um",
+   "inicio": 59.276,
+   "fim": 60.096000000000004,
+   "conf": 0.289794921875
+  },
+  {
+   "texto": "jogo",
+   "inicio": 60.096000000000004,
+   "fim": 60.496,
+   "conf": 0.9990234375
+  },
+  {
+   "texto": "com",
+   "inicio": 60.496,
+   "fim": 60.736000000000004,
+   "conf": 0.998046875
+  },
+  {
+   "texto": "mais",
+   "inicio": 60.736000000000004,
+   "fim": 61.11600000000001,
+   "conf": 0.98828125
+  },
+  {
+   "texto": "posições",
+   "inicio": 61.11600000000001,
+   "fim": 61.636,
+   "conf": 0.99951171875
+  },
+  {
+   "texto": "possíveis.",
+   "inicio": 61.636,
+   "fim": 62.216,
+   "conf": 0.9990234375
+  },
+  {
+   "texto": "Do",
+   "inicio": 63.226,
+   "fim": 63.606,
+   "conf": 0.32177734375
+  },
+  {
+   "texto": "que",
+   "inicio": 63.606,
+   "fim": 63.746,
+   "conf": 0.9482421875
+  },
+  {
+   "texto": "átomos",
+   "inicio": 63.746,
+   "fim": 64.206,
+   "conf": 0.57373046875
+  },
+  {
+   "texto": "no",
+   "inicio": 64.206,
+   "fim": 64.34,
+   "conf": 0.6787109375
+  },
+  {
+   "texto": "vamos",
+   "inicio": 64.34,
+   "fim": 65.3,
+   "conf": 0.166259765625
+  },
+  {
+   "texto": "repetir",
+   "inicio": 65.3,
+   "fim": 65.9,
+   "conf": 0.9892578125
+  },
+  {
+   "texto": "antes",
+   "inicio": 65.9,
+   "fim": 66.24,
+   "conf": 0.71923828125
+  },
+  {
+   "texto": "Um",
+   "inicio": 69.016,
+   "fim": 69.41600000000001,
+   "conf": 0.6220703125
+  },
+  {
+   "texto": "jogo",
+   "inicio": 69.41600000000001,
+   "fim": 69.816,
+   "conf": 0.99853515625
+  },
+  {
+   "texto": "com",
+   "inicio": 69.816,
+   "fim": 70.07600000000001,
+   "conf": 0.99755859375
+  },
+  {
+   "texto": "mais",
+   "inicio": 70.07600000000001,
+   "fim": 70.456,
+   "conf": 0.99755859375
+  },
+  {
+   "texto": "posições",
+   "inicio": 70.456,
+   "fim": 70.976,
+   "conf": 0.9990234375
+  },
+  {
+   "texto": "possíveis.",
+   "inicio": 70.976,
+   "fim": 71.52000000000001,
+   "conf": 0.99609375
+  },
+  {
+   "texto": "não",
+   "inicio": 71.52000000000001,
+   "fim": 72.48,
+   "conf": 0.320556640625
+  },
+  {
+   "texto": "vamos",
+   "inicio": 72.48,
+   "fim": 73.0,
+   "conf": 0.9267578125
+  },
+  {
+   "texto": "repetir",
+   "inicio": 73.0,
+   "fim": 74.02,
+   "conf": 0.9931640625
+  },
+  {
+   "texto": "em",
+   "inicio": 74.02,
+   "fim": 75.62,
+   "conf": 0.9111328125
+  },
+  {
+   "texto": "2016",
+   "inicio": 75.62,
+   "fim": 77.14,
+   "conf": 0.703125
+  },
+  {
+   "texto": "o",
+   "inicio": 77.14,
+   "fim": 77.6,
+   "conf": 0.08892822265625
+  },
+  {
+   "texto": "AI",
+   "inicio": 77.6,
+   "fim": 78.1,
+   "conf": 0.16552734375
+  },
+  {
+   "texto": "deles",
+   "inicio": 78.1,
+   "fim": 78.48,
+   "conf": 0.95263671875
+  },
+  {
+   "texto": "venceu",
+   "inicio": 78.48,
+   "fim": 79.2,
+   "conf": 0.99658203125
+  },
+  {
+   "texto": "um",
+   "inicio": 79.2,
+   "fim": 79.54,
+   "conf": 0.76171875
+  },
+  {
+   "texto": "dos",
+   "inicio": 79.54,
+   "fim": 79.64,
+   "conf": 0.99853515625
+  },
+  {
+   "texto": "maiores",
+   "inicio": 79.64,
+   "fim": 80.08,
+   "conf": 0.99853515625
+  },
+  {
+   "texto": "nomes",
+   "inicio": 80.08,
+   "fim": 80.44,
+   "conf": 0.9873046875
+  },
+  {
+   "texto": "do",
+   "inicio": 80.44,
+   "fim": 80.56,
+   "conf": 0.9755859375
+  },
+  {
+   "texto": "gol",
+   "inicio": 80.56,
+   "fim": 80.76,
+   "conf": 0.80029296875
+  }
+ ],
+ "texto": " Quatro anos depois, o Google comprou por cerca de 400 milhões de libras. E quatro anos depois, o Google comprou a empresa dele por 400 milhões de libras. Próximo. Em 16, a IA deles venceu um dos maiores nomes do gol. Em 2016, a EA e deles venceram o maior jogo da competição do gol. Em 2016, a EA e deles venceram o maior nome do gol. vamos repetir antes não vamos repetir em 2016 o AI deles venceu um dos maiores nomes do gol"
+}

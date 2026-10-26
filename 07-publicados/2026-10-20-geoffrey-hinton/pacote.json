@@ -1,0 +1,20 @@
+{
+  "slug": "2026-10-20-geoffrey-hinton",
+  "criado_em": "2026-10-15T10:33:54+01:00",
+  "duracao": 158.68,
+  "qa": "PASS",
+  "arquivos": {
+    "video": "video/video-final-cor.mp4",
+    "variantes": [],
+    "capa": "capa/capa.png",
+    "legendas": "legendas/legendas.srt",
+    "material": "material/entrevista-geoffrey-hinton.pdf",
+    "roteiro": "roteiro.md",
+    "qa": "qa-relatorio.md"
+  },
+  "cta_palavra": "NOBEL",
+  "material_titulo": "o link da entrevista do Hinton",
+  "tema": "Quem é Geoffrey Hinton: quase 50 anos numa ideia que ninguém levava a sério, até ela mudar o mundo e virar um Nobel",
+  "pilar": "perfil",
+  "nota_cor": "15/10: republicado com a cor corrigida (cadeia do Hassabis: primária automática + v5); a 1.ª publicação usou WB pela folha"
+}

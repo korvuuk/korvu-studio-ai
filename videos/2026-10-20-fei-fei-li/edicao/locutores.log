@@ -1,0 +1,32 @@
+[locutores] 1599 palavras · 437 enunciados · método local · separação acústica 7.21 (limiar 3; silhueta 0.59; minoria 35%)
+   classe A: graves -5.8 dB · nível -52.6 dBFS · centróide 0.46 kHz · pitch 106 Hz · 175.7s de palavras
+   classe B: graves -1.4 dB · nível -31.9 dBFS · centróide 0.35 kHz · pitch 110 Hz · 299.8s de palavras
+   evidência assinatura (peso 2.0): A = IA (-1.00) — classe B tem -4.5 dB de graves e -20.7 dB de nível a menos que A
+   evidência ordem      (peso 3.0): A = IA (-1.00) — 9 par(es) leitura→repetição: A leu primeiro 9×, B 0×
+   evidência monitor    (peso 1.0): A = IA (-1.00) — frases de monitor: A 25 (de novo, proxima), B 0 (—)
+   evidência inscricao  (peso 1.5): A = IA (-0.09) — 02-calibracao/amostras/carlos-voz-2026-09-16.wav: distância ao perfil do Carlos A 0.91, B 0.77
+   => IA = classe A · confiança do papel 0.93
+[locutores] IA 212.9s · Carlos 395.9s · incerto 17.4s · palavras IA 641 / Carlos 952 / null 6 · sobreposições 22 · zonas IA 241.4s
+   sobreposição praq0987 02:58.56: com | os (gap +0.02s)
+   sobreposição praq0987 02:58.68: os | ficais. (gap +0.04s)
+   sobreposição praq0987 03:31.44: atendia | os (gap +0.06s)
+   sobreposição praq0987 03:50.22: que | foi (gap +0.06s)
+   sobreposição praq0987 03:51.56: pagar | as (gap +0.02s)
+   sobreposição praq0987 03:51.68: as | faculdade. (gap +0.02s)
+   sobreposição praq0987 08:28.08: que | ela (gap +0.04s)
+   sobreposição praq0987 08:44.82: que | ela (gap +0.02s)
+   sobreposição praq0987 14:37.09: os | pesquisadores. (gap +0.02s)
+   sobreposição praq0987 17:13.19: pessoa | que (gap +0.06s)
+   sobreposição praq0987 17:13.29: que | eu (gap +0.02s)
+   sobreposição praq0987 17:34.57: falei | aqui (gap +0.06s)
+   sobreposição praq0987 18:47.27: aí | que (gap +0.12s)
+   sobreposição praq0987 18:47.47: que | começou (gap +0.06s)
+   sobreposição praq0987 20:00.55: inteligência | artificial (gap +0.04s)
+   sobreposição praq0991 00:37.26: que | um (gap +0.02s)
+   sobreposição praq0992 01:21.22: "aula" | aqui (gap +0.08s)
+   sobreposição praq0992 01:21.40: aqui | embaixo (gap +0.04s)
+   sobreposição praq0993 00:12.68: "aula" | aqui (gap +0.08s)
+   sobreposição praq0993 00:12.84: aqui | embaixo, (gap +0.04s)
+   sobreposição praq0993 00:13.76: eu | te (gap +0.02s)
+   sobreposição praq0993 00:13.84: te | envio (gap +0.02s)
+[locutores] -> edicao/locutores.json (+ locutor/locutor_conf em edicao/transcricao.json)

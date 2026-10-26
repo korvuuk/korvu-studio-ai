@@ -1,0 +1,385 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<title>Equipe · korvu. painel</title>
+<script src="./support.js"></script>
+<link rel="stylesheet" href="ds/korvu/components/bundle.css">
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous">
+<link href="https://fonts.googleapis.com/css2?family=Geist:wght@100..900&amp;family=Geist+Mono:wght@100..900&amp;display=swap" rel="stylesheet">
+<style>
+:root{
+--bg:#f5f2e8;--surface:#fbf9f4;--surface-sunken:#efebe0;--surface-hover:#f8f5ee;
+--line:#e4dfd2;--line-strong:#928874;
+--ink:#111111;--ink-2:#6b6458;--ink-3:#736c60;
+--sidebar:#111111;--sidebar-raised:#1d1c1a;--sidebar-line:#2c2a27;--sidebar-ink:#f5f2e8;--sidebar-ink-2:#9a9385;
+--accent:#ff4d00;--accent-hover:#e64500;--accent-soft:#ffe8dc;--accent-ink:#b33600;--on-accent:#111111;
+--positive:#1e7a45;--positive-soft:#e3f0e4;--danger:#c2271b;--danger-soft:#fbe3df;
+--chart-1:#ff4d00;--chart-2:#111111;--chart-3:#a39b8b;--chart-4:#d6ccb5;--chart-5:#4f6475;--chart-grid:#e9e4d8;--focus:#b33600;--focus-on-dark:#ff4d00;
+--font-sans:Geist, Inter, system-ui, sans-serif;--font-mono:"Geist Mono", ui-monospace, monospace;
+--space-4:4px;--space-8:8px;--space-12:12px;--space-16:16px;--space-24:24px;--space-32:32px;--space-48:48px;--space-64:64px;
+--radius-sm:6px;--radius-btn:8px;--radius-card:12px;--radius-panel:14px;--radius-pill:999px;
+--shadow-card:0 1px 2px rgba(17,17,17,0.04);--shadow-hover:0 6px 20px rgba(17,17,17,0.07);--shadow-pop:0 12px 32px rgba(17,17,17,0.12);
+--sidebar-width:208px;--content-padding:32px;--grid-gutter:24px;--row-height:56px;--control-height:36px;
+}
+body{margin:0;background:#f5f2e8}
+a{color:#b33600}a:hover{color:#111111}
+.fchip{display:inline-flex;align-items:center;gap:6px;height:30px;padding:0 12px;border-radius:999px;border:1px solid var(--line);background:transparent;color:var(--ink-2);font:600 12px/1 var(--font-sans);cursor:pointer;white-space:nowrap;transition:background .15s,color .15s,border-color .15s}
+.fchip:hover{background:var(--surface-sunken);color:var(--ink)}
+.fchip.is-on{background:var(--ink);border-color:var(--ink);color:var(--bg)}
+.fchip-n{font:500 11px/1 var(--font-mono);opacity:.72}
+.row{display:grid;grid-template-columns:32px minmax(0,1fr) 62px 76px 52px 44px 28px;gap:6px;align-items:center;height:40px;padding:0 8px;border:1px solid transparent;border-radius:8px;transition:background .12s,opacity .2s}
+.row:hover{background:var(--surface-hover)}
+.row.is-chefe{height:52px;border-color:var(--accent)}
+.row.is-dim,.atlas.is-dim{opacity:.3}
+.atlas{transition:opacity .2s}
+.dot-on{width:7px;height:7px;border-radius:50%;background:var(--positive);flex:none}
+.dot-off{width:7px;height:7px;border-radius:50%;border:1.5px solid var(--ink-3);box-sizing:border-box;flex:none}
+.ava{width:32px;height:32px;border-radius:8px;border:1px solid var(--line);background:var(--surface-sunken);overflow:hidden;display:flex;align-items:center;justify-content:center;color:var(--ink-2);font:600 11px/1 var(--font-sans);letter-spacing:-.02em;flex:none}
+.ava img{width:100%;height:100%;object-fit:cover;object-position:50% 22%;display:block}
+.colh{font-size:10px;line-height:12px;font-weight:600;letter-spacing:.06em;text-transform:uppercase;color:var(--ink-3)}
+</style>
+</helmet>
+<div style="width: 1920px; height: 1080px; display: flex; background: var(--bg); color: var(--ink); font-family: var(--font-sans); overflow: hidden; -webkit-font-smoothing: antialiased">
+
+<aside class="k-sidebar" style="height: 1080px; flex: none">
+<div class="k-sidebar-logo" style="display: flex; align-items: baseline">
+<span style="font-size: 19px; line-height: 19px; font-weight: 800; letter-spacing: -0.04em; color: var(--sidebar-ink)">korvu.</span>
+<span style="font-size: 19px; line-height: 19px; font-weight: 500; letter-spacing: -0.02em; color: var(--sidebar-ink-2); margin-left: 5px">painel</span>
+</div>
+<nav aria-label="Navegação principal" style="display: flex; flex-direction: column; gap: 2px">
+<a class="k-nav-item" href="Main.dc.html"><span data-icon="visao-geral"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3.5" y="3.5" width="7" height="9" rx="1.5"></rect><rect x="13.5" y="3.5" width="7" height="5" rx="1.5"></rect><rect x="13.5" y="11.5" width="7" height="9" rx="1.5"></rect><rect x="3.5" y="15.5" width="7" height="5" rx="1.5"></rect></svg></span>Visão geral</a>
+<a class="k-nav-item is-active" href="#equipe" aria-current="page"><span data-icon="equipe"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="9" cy="8" r="3.25"></circle><path d="M3 20c.4-3.4 2.9-5.5 6-5.5s5.6 2.1 6 5.5"></path><path d="M15.5 4.9a3 3 0 0 1 0 6.2"></path><path d="M17.5 14.8c2 .7 3.2 2.5 3.5 5.2"></path></svg></span>Equipe<span class="k-nav-count" style="margin-right: 14px">26</span></a>
+<a class="k-nav-item" href="Producao.dc.html"><span data-icon="videos-portoes"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5.5" width="13" height="13" rx="2"></rect><path d="M16 10.5l4.2-2.6a.5.5 0 0 1 .8.4v7.4a.5.5 0 0 1-.8.4L16 13.5"></path><path d="M7.5 12.2l1.8 1.8 3.2-3.5"></path></svg></span>Produção de conteúdo</a>
+<a class="k-nav-item" href="Calendario.dc.html"><span data-icon="calendario"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3.5" y="5" width="17" height="15.5" rx="2"></rect><path d="M3.5 10h17M8 3v4M16 3v4"></path><path d="M8 14h2M14 14h2M8 17h2"></path></svg></span>Calendário</a>
+<a class="k-nav-item" href="Desempenho.dc.html"><span data-icon="desempenho"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3.5 20.5h17"></path><path d="M4.5 15.5l4.5-4.5 3.5 3 7-7"></path><path d="M15 7h4.5v4.5"></path></svg></span>Desempenho</a>
+<a class="k-nav-item" href="Biblioteca.dc.html"><span data-icon="biblioteca"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3.5" y="4" width="4" height="16.5" rx="1"></rect><rect x="9.5" y="4" width="4" height="16.5" rx="1"></rect><path d="M15.6 5.4l3.4-.9a1 1 0 0 1 1.2.7l3.3 12.9-4.6 1.2-3.3-13a.8.8 0 0 1 0-.9z" transform="translate(-2.3 .3)"></path></svg></span>Biblioteca</a>
+<a class="k-nav-item" href="Tokens.dc.html"><span data-icon="tokens-custos"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><ellipse cx="12" cy="6" rx="7" ry="2.75"></ellipse><path d="M5 6v6c0 1.5 3.1 2.75 7 2.75S19 13.5 19 12V6"></path><path d="M5 12v6c0 1.5 3.1 2.75 7 2.75S19 19.5 19 18v-6"></path></svg></span>Tokens e custos</a>
+</nav>
+<div class="k-sidebar-foot">
+<div style="display: flex; flex-direction: column; gap: 2px; padding: 0 4px">
+<span style="font-size: 12px; line-height: 16px; font-weight: 600; color: var(--sidebar-ink)">@korvu_oficial</span>
+<span style="font-size: 11px; line-height: 14px; color: var(--sidebar-ink-2)">Instagram · Facebook</span>
+</div>
+</div>
+</aside>
+
+<main style="flex: 1; min-width: 0; display: flex; flex-direction: column">
+
+<header style="height: 64px; flex: none; display: flex; align-items: center; gap: 16px; padding: 0 32px; border-bottom: 1px solid var(--line)">
+<label class="k-search" style="width: 440px">
+<svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="6.5"></circle><path d="M20 20l-4.3-4.3"></path></svg>
+<input type="search" placeholder="Buscar vídeos, agentes, portões..." aria-label="Buscar vídeos, agentes, portões">
+<span class="k-kbd">⌘K</span>
+</label>
+<div style="flex: 1"></div>
+<button type="button" class="k-btn k-btn-ghost k-btn-icon" aria-label="Notificações, 3 novas" style="position: relative; color: var(--ink)">
+<svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 16.5V11a6 6 0 0 1 12 0v5.5l1.5 2h-15z"></path><path d="M10 20.5a2 2 0 0 0 4 0"></path></svg>
+<span style="position: absolute; top: 7px; right: 8px; width: 8px; height: 8px; border-radius: 50%; background: var(--accent); border: 2px solid var(--bg); box-sizing: content-box"></span>
+</button>
+<span aria-hidden="true" style="width: 1px; height: 24px; background: var(--line)"></span>
+<button type="button" aria-label="Conta de Carlos, proprietário" style="display: flex; align-items: center; gap: 10px; background: transparent; border: 0; padding: 4px 6px; border-radius: 8px; cursor: pointer; font: inherit; color: inherit">
+<span class="k-avatar is-round" style="width: 32px; height: 32px; font-size: 12px">CM</span>
+<span style="display: flex; flex-direction: column; align-items: flex-start">
+<span style="font-size: 13px; line-height: 16px; font-weight: 600; color: var(--ink)">Carlos</span>
+<span style="font-size: 11px; line-height: 14px; color: var(--ink-3)">Proprietário</span>
+</span>
+<svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="color: var(--ink-2)"><path d="M6.5 9.5l5.5 5.5 5.5-5.5"></path></svg>
+</button>
+</header>
+
+<div style="flex: 1; min-height: 0; padding: 24px 32px 24px; display: flex; flex-direction: column">
+
+<div style="display: flex; align-items: flex-end; justify-content: space-between; gap: 24px; flex: none">
+<div>
+<h1 style="margin: 0; font-size: 44px; line-height: 48px; font-weight: 800; letter-spacing: -0.03em; color: var(--ink)">equipe.</h1>
+<p style="margin: 4px 0 0; font-size: 15px; line-height: 22px; color: var(--ink-2)">26 agentes em 6 departamentos trabalhando na operação de conteúdo.</p>
+</div>
+<div style="display: flex; align-items: center; gap: 12px">
+<label class="k-search" style="width: 300px; min-width: 0">
+<svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="6.5"></circle><path d="M20 20l-4.3-4.3"></path></svg>
+<input type="search" placeholder="Buscar agente..." aria-label="Buscar agente" value="{{busca}}" onChange="{{onBusca}}">
+</label>
+<button type="button" class="k-btn k-btn-primary">
+<svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 5v14M5 12h14"></path></svg>
+Adicionar agente
+</button>
+</div>
+</div>
+
+<div style="display: flex; align-items: center; justify-content: space-between; gap: 16px; margin-top: 16px; flex: none">
+<div aria-label="Filtrar agentes" style="display: flex; gap: 6px">
+<sc-for list="{{filtros}}" as="f" hint-placeholder-count="5">
+<button type="button" class="{{f.cls}}" aria-pressed="{{f.on}}" onClick="{{f.pick}}">{{f.nome}}<span class="fchip-n">{{f.n}}</span></button>
+</sc-for>
+</div>
+<div style="display: flex; align-items: center; gap: 16px; font-size: 12px; line-height: 16px; color: var(--ink-3)">
+<span style="display: flex; align-items: center; gap: 6px"><span class="dot-on"></span>Ativo agora</span>
+<span style="display: flex; align-items: center; gap: 6px"><span class="dot-off"></span>Em espera</span>
+<span aria-hidden="true" style="width: 1px; height: 14px; background: var(--line)"></span>
+<span>Consumo e tarefas dos últimos 30 dias</span>
+</div>
+</div>
+
+<div style="display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 24px; margin-top: 20px; flex: none">
+<div class="k-card" style="height: 90px; padding: 16px 20px; display: flex; flex-direction: column; justify-content: space-between">
+<span class="k-cap">Agentes</span>
+<div style="display: flex; align-items: flex-end; justify-content: space-between; gap: 12px">
+<span class="k-num" style="font-size: 36px; line-height: 40px; font-weight: 700; letter-spacing: -0.03em">26</span>
+<span style="font-size: 12px; line-height: 16px; color: var(--ink-3); padding-bottom: 4px">15 Opus 5.5 · 11 Sonnet 5.5</span>
+</div>
+</div>
+<div class="k-card" style="height: 90px; padding: 16px 20px; display: flex; flex-direction: column; justify-content: space-between">
+<span class="k-cap">Departamentos</span>
+<div style="display: flex; align-items: flex-end; justify-content: space-between; gap: 12px">
+<span class="k-num" style="font-size: 36px; line-height: 40px; font-weight: 700; letter-spacing: -0.03em">6</span>
+<span style="font-size: 12px; line-height: 16px; color: var(--ink-3); padding-bottom: 4px">mais a direção</span>
+</div>
+</div>
+<div class="k-card" style="height: 90px; padding: 16px 20px; display: flex; flex-direction: column; justify-content: space-between">
+<span class="k-cap">Portões</span>
+<div style="display: flex; align-items: flex-end; justify-content: space-between; gap: 12px">
+<span class="k-num" style="font-size: 36px; line-height: 40px; font-weight: 700; letter-spacing: -0.03em">7</span>
+<span style="font-size: 12px; line-height: 16px; color: var(--ink-3); padding-bottom: 4px">um gerente por departamento + dados</span>
+</div>
+</div>
+<div class="k-card" style="height: 90px; padding: 16px 20px; display: flex; flex-direction: column; justify-content: space-between">
+<span class="k-cap">Tokens · 30 dias</span>
+<div style="display: flex; align-items: flex-end; justify-content: space-between; gap: 12px">
+<span class="k-num" style="font-size: 36px; line-height: 40px; font-weight: 700; letter-spacing: -0.03em; color: var(--accent)">37,9<small style="font-size: 18px; font-weight: 600; color: var(--ink-2); margin-left: 2px">M</small></span>
+<span style="font-size: 12px; line-height: 16px; color: var(--ink-3); padding-bottom: 4px">£ 402 equivalente na API</span>
+</div>
+</div>
+</div>
+
+<section class="{{atlasCls}}" aria-label="Direção" style="height: 100px; margin-top: 20px; padding: 14px 16px 14px 14px; display: flex; align-items: center; gap: 28px; flex: none">
+<div style="display: flex; align-items: center; gap: 16px; flex: none">
+<img src="/_blob/4b0d17ca78c7405b7333a26150aeea2a" alt="Retrato de Atlas" style="width: 72px; height: 72px; object-fit: cover; object-position: 50% 22%; border-radius: 10px; border: 1px solid var(--line); display: block; flex: none">
+<div style="display: flex; flex-direction: column; gap: 2px">
+<span class="k-cap">Direção</span>
+<div style="display: flex; align-items: center; gap: 8px">
+<h2 style="margin: 0; font-size: 22px; line-height: 28px; font-weight: 700; letter-spacing: -0.015em; color: var(--ink)">Atlas</h2>
+<span class="k-chip k-chip--opus" style="height: 20px; padding: 0 8px">Opus 5.5</span>
+<span class="k-chip k-chip--agendado no-dot" style="height: 20px; padding: 0 8px; font-size: 11px">Claude principal</span>
+</div>
+<span style="font-size: 13px; line-height: 18px; color: var(--ink-2)">Diretor de operações</span>
+</div>
+</div>
+<span aria-hidden="true" style="width: 1px; height: 56px; background: var(--line); flex: none"></span>
+<p style="margin: 0; font-size: 13px; line-height: 19px; color: var(--ink-2); max-width: 400px; flex: 1; min-width: 0">Recebe os pedidos do Carlos, coordena especialistas e portões e entrega somente trabalhos aprovados.</p>
+<div style="display: flex; align-items: stretch; flex: none">
+<div style="display: flex; flex-direction: column; gap: 6px; padding: 0 24px; border-left: 1px solid var(--line); width: 150px">
+<span class="k-cap">Status</span>
+<span style="display: flex; align-items: center; gap: 7px; font-size: 14px; line-height: 20px; font-weight: 600; color: var(--ink)"><span class="dot-on"></span>Ativo agora</span>
+</div>
+<div style="display: flex; flex-direction: column; gap: 6px; padding: 0 24px; border-left: 1px solid var(--line); width: 236px">
+<span class="k-cap">Tarefas atuais</span>
+<span style="display: flex; align-items: baseline; gap: 8px; min-width: 0"><span class="k-num" style="font-size: 20px; line-height: 22px; font-weight: 700; letter-spacing: -0.02em">3</span><span style="font-size: 12px; line-height: 16px; color: var(--ink-3); white-space: nowrap; overflow: hidden; text-overflow: ellipsis">Tela Equipe e mais 2</span></span>
+</div>
+<div style="display: flex; flex-direction: column; gap: 6px; padding: 0 24px; border-left: 1px solid var(--line); width: 150px">
+<span class="k-cap">Tokens · 30 dias</span>
+<span class="k-num" style="font-size: 20px; line-height: 22px; font-weight: 700; letter-spacing: -0.02em; color: var(--accent-ink)">23,7 M</span>
+</div>
+<div style="display: flex; flex-direction: column; gap: 6px; padding: 0 24px; border-left: 1px solid var(--line); width: 150px">
+<span class="k-cap">Custo estimado</span>
+<span class="k-num" style="font-size: 20px; line-height: 22px; font-weight: 700; letter-spacing: -0.02em"><small style="font-size: 13px; font-weight: 600; color: var(--ink-2); margin-right: 3px">£</small>299,95</span>
+</div>
+</div>
+<button type="button" class="k-btn k-btn-ghost k-btn-icon" aria-label="Mais ações: Atlas" style="flex: none; margin-left: auto">
+<svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="5.5" cy="12" r="1.1"></circle><circle cx="12" cy="12" r="1.1"></circle><circle cx="18.5" cy="12" r="1.1"></circle></svg>
+</button>
+</section>
+
+<div style="display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); grid-template-rows: repeat(2, minmax(0, 1fr)); gap: 16px; margin-top: 20px; flex: 1; min-height: 0">
+<sc-for list="{{deptos}}" as="d" hint-placeholder-count="6">
+<section class="k-card" aria-label="{{d.nome}}" style="padding: 12px; display: flex; flex-direction: column; min-width: 0; min-height: 0">
+<div style="display: flex; align-items: baseline; justify-content: space-between; gap: 12px; padding: 0 8px">
+<div style="display: flex; align-items: baseline; gap: 8px; min-width: 0">
+<h3 class="k-card-title" style="white-space: nowrap">{{d.nome}}</h3>
+<span style="font-size: 12px; line-height: 16px; color: var(--ink-3); white-space: nowrap">{{d.contagem}}</span>
+</div>
+<span class="k-mono" style="font-size: 11px; white-space: nowrap"><span style="font-weight: 600; color: var(--accent-ink)">{{d.subTokens}}</span><span style="color: var(--ink-3)"> · {{d.subCusto}}</span></span>
+</div>
+<div class="row" aria-hidden="true" style="height: 14px; margin-top: 10px; margin-bottom: 4px">
+<span class="colh" style="grid-column: span 2">Agente</span>
+<span class="colh">Status</span>
+<span class="colh">Modelo</span>
+<span class="colh" style="text-align: right">Consumo</span>
+<span class="colh" style="text-align: right">Tarefas</span>
+<span></span>
+</div>
+
+<div class="{{d.g.rowCls}}">
+<span class="ava"><sc-if value="{{d.g.temFoto}}" hint-placeholder-val="{{true}}"><img src="{{d.g.foto}}" alt="Retrato de {{d.g.nome}}"></sc-if><sc-if value="{{d.g.semFoto}}" hint-placeholder-val="{{false}}">{{d.g.iniciais}}</sc-if></span>
+<div style="display: flex; flex-direction: column; min-width: 0">
+<div style="display: flex; align-items: center; gap: 6px; min-width: 0">
+<span style="font-size: 13px; line-height: 16px; font-weight: 600; color: var(--ink); white-space: nowrap; overflow: hidden; text-overflow: ellipsis">{{d.g.nome}}</span>
+<span class="k-chip k-chip--portao" style="height: 18px; padding: 0 6px; gap: 3px; font-size: 10px; letter-spacing: .04em; text-transform: uppercase; flex: none"><svg viewBox="0 0 24 24" width="10" height="10" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="5" y="10.5" width="14" height="10" rx="2"></rect><path d="M8 10.5V8a4 4 0 0 1 8 0v2.5"></path></svg>Portão</span>
+</div>
+<span style="font-size: 12px; line-height: 14px; color: var(--ink-2); white-space: nowrap; overflow: hidden; text-overflow: ellipsis">{{d.g.funcao}}</span>
+<span style="font-size: 11px; line-height: 13px; font-weight: 600; color: var(--accent-ink); white-space: nowrap; overflow: hidden; text-overflow: ellipsis">{{d.g.portaoDe}}</span>
+</div>
+<span style="display: flex; align-items: center; gap: 5px; font-size: 11px; line-height: 14px; color: var(--ink-2); white-space: nowrap"><span class="{{d.g.dotCls}}"></span>{{d.g.status}}</span>
+<span><span class="{{d.g.modeloCls}}" style="height: 20px; padding: 0 7px; font-size: 10px">{{d.g.modelo}}</span></span>
+<span style="display: flex; flex-direction: column; align-items: flex-end"><span class="k-mono k-num" style="font-size: 12px; line-height: 15px; font-weight: 600; color: var(--accent-ink)">{{d.g.tokens}}</span><span class="k-mono k-num" style="font-size: 11px; line-height: 14px; color: var(--ink-3)">{{d.g.custo}}</span></span>
+<span class="k-mono k-num" style="font-size: 12px; line-height: 16px; color: var(--ink); text-align: right">{{d.g.tarefas}}</span>
+<button type="button" class="k-btn k-btn-ghost k-btn-sm k-btn-icon" aria-label="{{d.g.menuLabel}}"><svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="5.5" cy="12" r="1.1"></circle><circle cx="12" cy="12" r="1.1"></circle><circle cx="18.5" cy="12" r="1.1"></circle></svg></button>
+</div>
+
+<div style="display: flex; flex-direction: column; margin-top: 4px">
+<sc-for list="{{d.outros}}" as="a" hint-placeholder-count="4">
+<div class="{{a.rowCls}}">
+<span class="ava"><sc-if value="{{a.temFoto}}" hint-placeholder-val="{{true}}"><img src="{{a.foto}}" alt="Retrato de {{a.nome}}"></sc-if><sc-if value="{{a.semFoto}}" hint-placeholder-val="{{false}}">{{a.iniciais}}</sc-if></span>
+<div style="display: flex; flex-direction: column; min-width: 0">
+<div style="display: flex; align-items: center; gap: 6px; min-width: 0">
+<span style="font-size: 13px; line-height: 18px; font-weight: 600; color: var(--ink); white-space: nowrap; overflow: hidden; text-overflow: ellipsis">{{a.nome}}</span>
+<sc-if value="{{a.portao}}" hint-placeholder-val="{{false}}"><span class="k-chip k-chip--portao" style="height: 18px; padding: 0 6px; gap: 3px; font-size: 10px; letter-spacing: .04em; text-transform: uppercase; flex: none"><svg viewBox="0 0 24 24" width="10" height="10" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="5" y="10.5" width="14" height="10" rx="2"></rect><path d="M8 10.5V8a4 4 0 0 1 8 0v2.5"></path></svg>Portão</span></sc-if>
+</div>
+<span style="font-size: 12px; line-height: 16px; color: var(--ink-2); white-space: nowrap; overflow: hidden; text-overflow: ellipsis">{{a.funcao}}</span>
+</div>
+<span style="display: flex; align-items: center; gap: 5px; font-size: 11px; line-height: 14px; color: var(--ink-2); white-space: nowrap"><span class="{{a.dotCls}}"></span>{{a.status}}</span>
+<span><span class="{{a.modeloCls}}" style="height: 20px; padding: 0 7px; font-size: 10px">{{a.modelo}}</span></span>
+<span style="display: flex; flex-direction: column; align-items: flex-end"><span class="k-mono k-num" style="font-size: 12px; line-height: 15px; font-weight: 600; color: var(--accent-ink)">{{a.tokens}}</span><span class="k-mono k-num" style="font-size: 11px; line-height: 14px; color: var(--ink-3)">{{a.custo}}</span></span>
+<span class="k-mono k-num" style="font-size: 12px; line-height: 16px; color: var(--ink); text-align: right">{{a.tarefas}}</span>
+<button type="button" class="k-btn k-btn-ghost k-btn-sm k-btn-icon" aria-label="{{a.menuLabel}}"><svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="5.5" cy="12" r="1.1"></circle><circle cx="12" cy="12" r="1.1"></circle><circle cx="18.5" cy="12" r="1.1"></circle></svg></button>
+</div>
+</sc-for>
+</div>
+</section>
+</sc-for>
+</div>
+
+</div>
+</main>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":1920,"height":1080}}'>
+class Component extends DCLogic {
+  constructor(props) {
+    super(props);
+    this.state = { filtro: 'todos', busca: '' };
+  }
+  renderVals() {
+    var self = this;
+    var filtro = this.state.filtro;
+    var busca = this.state.busca;
+    var sem = function (s) { return (s || '').normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase(); };
+    var q = sem(busca).trim();
+
+    var F = {
+      vera: '/_blob/4a6f45d28aca8e9dee399eb5dbffd50a', otavio: '/_blob/e886863b2870c6532ba7995fa68bc8e1',
+      iris: '/_blob/c4ca776e4d472765a67bf0362e35c3cc', helena: '/_blob/c95197309da4d5996ceac911a36ba06e',
+      rafael: '/_blob/aed454b50155d096eff44cda5fdb0251', tiago: '/_blob/cc9695d408a48c260f019b9ddff29e04',
+      beatriz: '/_blob/288af1232aa1d1c0af97cbb961a13119', marina: '/_blob/d4266f081203d1858347175c940cec17',
+      livia: '/_blob/53862d50659a04254a64c69bcccd9fc8'
+    };
+    // nome, função, portão de (vazio = não é portão), gerente, modelo, ativo agora, tokens, custo (US$), tarefas, foto
+    // modelo e portão: .claude/agents/*.md e painel/equipe.yaml; tokens, custo e tarefas (execuções): registros do
+    // Claude Code, 24 set – 23 out (~/.claude/projects/…/subagents/*.jsonl + .meta.json), custo = preço de tabela da API
+    var DEPTOS = [
+      ['Estratégia e pesquisa', [
+        ['Vera Campos', 'Gerente de pesquisa', 'Portão da pauta', true, 'opus', false, 0, 0, 0, F.vera],
+        ['Beatriz Santos', 'Curadora de obras', '', false, 'sonnet', false, 0, 0, 0, F.beatriz],
+        ['Helena Prado', 'Estrategista de conteúdo', '', false, 'sonnet', false, 124128, 0.43, 1, F.helena],
+        ['Rafael Nunes', 'Pesquisador', '', false, 'sonnet', false, 739587, 4.35, 7, F.rafael],
+        ['Tiago Lopes', 'Caçador de vídeos', '', false, 'sonnet', false, 922638, 6.55, 7, F.tiago]
+      ]],
+      ['Roteiro', [
+        ['Otávio Reis', 'Gerente de roteiro', 'Portão do roteiro', true, 'opus', false, 723455, 2.38, 14, F.otavio],
+        ['Lívia Rocha', 'Produtora de material', '', false, 'sonnet', false, 446240, 2.15, 8, F.livia],
+        ['Marina Costa', 'Roteirista', '', false, 'opus', false, 938657, 7.79, 9, F.marina]
+      ]],
+      ['Arte e cor', [
+        ['Íris Moura', 'Gerente de arte', 'Portão da imagem', true, 'opus', false, 0, 0, 0, F.iris],
+        ['Bruno Teixeira', 'Designer de capas', '', false, 'sonnet', false, 482160, 2.21, 3, ''],
+        ['Caio Martins', 'Produtor de cenas extras', '', false, 'sonnet', false, 0, 0, 0, ''],
+        ['Nina Alves', 'Animadora', '', false, 'opus', false, 58584, 0.39, 1, ''],
+        ['Sofia Lima', 'Colorista', '', false, 'sonnet', false, 413622, 2.03, 3, '']
+      ]],
+      ['Pós-produção', [
+        ['Clara Duarte', 'Gerente de pós-produção', 'Portão do corte', true, 'opus', false, 604523, 2.61, 13, ''],
+        ['Diego Ferraz', 'Editor', '', false, 'opus', false, 1974444, 17.02, 4, ''],
+        ['Lucas Barros', 'Produtor musical', '', false, 'sonnet', false, 82615, 0.28, 3, '']
+      ]],
+      ['Distribuição e dados', [
+        ['Henrique Sales', 'Gerente de distribuição', 'Portão da publicação', true, 'opus', false, 0, 0, 0, ''],
+        ['André Fontes', 'Auditor de perfil', '', false, 'opus', false, 137144, 1.26, 1, ''],
+        ['Júlia Ramos', 'Analista de dados', '', false, 'sonnet', false, 41027, 0.12, 1, ''],
+        ['Pedro Almeida', 'Publicador', '', false, 'sonnet', false, 133485, 0.46, 3, '']
+      ]],
+      ['Tecnologia', [
+        ['Camila Freitas', 'Gerente de tecnologia', 'Portão da interface', true, 'opus', false, 2115597, 28.54, 4, ''],
+        ['Gabriel Torres', 'Engenheiro front-end', '', false, 'opus', false, 748801, 11.78, 3, ''],
+        ['Lia Monteiro', 'Designer de produto UI/UX', '', false, 'opus', true, 2401343, 28.39, 2, ''],
+        ['Mateus Pacheco', 'Engenheiro back-end e dados', '', false, 'opus', false, 555630, 8.69, 2, ''],
+        ['Sérgio Lemos', 'Portão dos dados', 'Portão dos dados', false, 'opus', false, 606240, 9.81, 2, '']
+      ]]
+    ];
+
+    var num = function (v, casas) { return v.toFixed(casas).replace('.', ','); };
+    var fTk = function (v) { return v >= 1e6 ? num(v / 1e6, 1) + ' M' : (v > 0 ? num(v / 1e3, 0) + ' K' : '—'); };
+    // custo em libras: preço da API em US$ × câmbio médio do XE em 23 out
+    var fUs = function (v) { return v > 0 ? '£ ' + num(v * 0.7465, 2) : 'não rodou'; };
+    var passa = function (nome, funcao, portao, modelo, ativo) {
+      var ok = filtro === 'todos' || (filtro === 'ativos' && ativo) || (filtro === 'portoes' && portao) || filtro === modelo;
+      return ok && (!q || sem(nome + ' ' + funcao).indexOf(q) !== -1);
+    };
+    var pessoa = function (p) {
+      var partes = p[0].split(' ');
+      var mostra = passa(p[0], p[1], !!p[2], p[4], p[5]);
+      return {
+        nome: p[0], funcao: p[1], portaoDe: p[2], portao: !!p[2],
+        modelo: p[4] === 'opus' ? 'Opus 5.5' : 'Sonnet 5.5', modeloCls: p[4] === 'opus' ? 'k-chip k-chip--opus' : 'k-chip k-chip--model',
+        status: p[5] ? 'Ativo' : 'Em espera', dotCls: p[5] ? 'dot-on' : 'dot-off',
+        tokens: fTk(p[6]), custo: fUs(p[7]), tarefas: p[8] ? String(p[8]) : '—',
+        foto: p[9], temFoto: !!p[9], semFoto: !p[9],
+        iniciais: (partes[0][0] + (partes[1] ? partes[1][0] : '')).toUpperCase(),
+        rowCls: (p[3] ? 'row is-chefe' : 'row') + (mostra ? '' : ' is-dim'),
+        menuLabel: 'Mais ações: ' + p[0]
+      };
+    };
+    var deptos = DEPTOS.map(function (d) {
+      var tk = 0, cs = 0;
+      d[1].forEach(function (p) { tk += p[6]; cs += p[7]; });
+      var gerente = d[1].filter(function (p) { return p[3]; })[0];
+      return {
+        nome: d[0],
+        contagem: d[1].length + ' agentes',
+        subTokens: fTk(tk) + ' tokens',
+        subCusto: fUs(cs),
+        g: pessoa(gerente),
+        outros: d[1].filter(function (p) { return !p[3]; }).map(pessoa)
+      };
+    });
+
+    var todos = [['Atlas', 'opus', false, true]];
+    DEPTOS.forEach(function (d) { d[1].forEach(function (p) { todos.push([p[0], p[4], !!p[2], p[5]]); }); });
+    var conta = function (fn) { return todos.filter(fn).length; };
+    var FILTROS = [
+      ['todos', 'Todos', todos.length],
+      ['ativos', 'Ativos', conta(function (p) { return p[3]; })],
+      ['portoes', 'Portões', conta(function (p) { return p[2]; })],
+      ['opus', 'Opus 5.5', conta(function (p) { return p[1] === 'opus'; })],
+      ['sonnet', 'Sonnet 5.5', conta(function (p) { return p[1] === 'sonnet'; })]
+    ];
+    var filtros = FILTROS.map(function (f) {
+      return { nome: f[1], n: String(f[2]), on: filtro === f[0], cls: filtro === f[0] ? 'fchip is-on' : 'fchip', pick: function () { self.setState({ filtro: f[0] }); } };
+    });
+
+    return {
+      busca: busca,
+      onBusca: function (e) { self.setState({ busca: e.target.value }); },
+      filtros: filtros,
+      atlasCls: 'k-card atlas' + (passa('Atlas', 'Diretor de operações Claude principal', false, 'opus', true) ? '' : ' is-dim'),
+      deptos: deptos
+    };
+  }
+}
+</script>
+</body>
+</html>

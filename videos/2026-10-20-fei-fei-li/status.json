@@ -1,0 +1,73 @@
+{
+  "slug": "2026-10-20-fei-fei-li",
+  "estado": "publicado",
+  "atualizado": "2026-10-18T19:14:09+01:00",
+  "historico": [
+    {
+      "estado": "roteiro",
+      "em": "2026-10-14T02:48:24+01:00"
+    },
+    {
+      "estado": "roteiro",
+      "em": "2026-10-14T12:00:00+01:00",
+      "nota": "material PDF gerado (palestra-fei-fei-li-ted2015.pdf)"
+    },
+    {
+      "estado": "roteiro",
+      "em": "2026-10-15T20:30:00+01:00",
+      "nota": "roteiro v3 NARRATIVO (32 linhas, 330 palavras, ~155 s); teleprompter/monitor/historia-completa e revisão ainda da v2"
+    },
+    {
+      "estado": "roteiro",
+      "em": "2026-10-15T21:30:00+01:00",
+      "nota": "inserts de arquivo minerados: 75 cortes Y01-Y75 em material/youtube/cortes (Bloomberg, CBS, TED2015, TED2024, NatGeo)"
+    },
+    {
+      "estado": "roteiro",
+      "em": "2026-10-15T21:30:00+01:00",
+      "nota": "v3 narrativo aprovado com ajustes pelo revisor; leitura regenerada; PDF AULA conferido; fotos (45) + cortes Y01-Y75 + sequencia-extras.md"
+    },
+    {
+      "estado": "roteiro",
+      "em": "2026-10-16T10:00:00+01:00",
+      "nota": "v4 = texto do Carlos (literal), leitura regenerada, sequência religada; pronto para gravar"
+    },
+    {
+      "estado": "edicao",
+      "em": "2026-10-17T02:29:54+01:00"
+    },
+    {
+      "estado": "edl_aprovada",
+      "em": "2026-10-17T05:20:48+01:00"
+    },
+    {
+      "estado": "cor",
+      "em": "2026-10-17T05:31:30+01:00"
+    },
+    {
+      "estado": "legendas",
+      "em": "2026-10-17T05:35:01+01:00"
+    },
+    {
+      "estado": "pronto",
+      "em": "2026-10-17T06:35:18+01:00"
+    },
+    {
+      "estado": "agendado",
+      "em": "2026-10-17T07:57:26+01:00"
+    },
+    {
+      "estado": "publicado",
+      "em": "2026-10-18T19:14:09+01:00"
+    }
+  ],
+  "material": {
+    "dossie": "material/dossie.md",
+    "fontes": "material/fontes.json",
+    "ponto_de_partida": "https://www.ted.com/talks/fei_fei_li_how_we_re_teaching_computers_to_understand_pictures",
+    "youtube": "material/youtube/catalogo.md",
+    "youtube_insert": "material/youtube/catalogo-insert.md",
+    "fotos": "material/fotos/catalogo.md",
+    "sequencia_extras": "edicao/sequencia-extras.md"
+  }
+}

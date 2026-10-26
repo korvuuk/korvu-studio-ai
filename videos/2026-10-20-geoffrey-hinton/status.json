@@ -1,0 +1,80 @@
+{
+  "slug": "2026-10-20-geoffrey-hinton",
+  "estado": "publicado",
+  "atualizado": "2026-10-15T11:44:34+01:00",
+  "historico": [
+    {
+      "estado": "roteiro",
+      "em": "2026-10-14T02:47:58+01:00"
+    },
+    {
+      "estado": "roteiro",
+      "em": "2026-10-14T12:00:00+01:00",
+      "nota": "material PDF gerado (entrevista-geoffrey-hinton.pdf, 2 páginas)"
+    },
+    {
+      "estado": "roteiro",
+      "em": "2026-10-14T13:00:00+01:00",
+      "nota": "roteiro v3: texto narrativo do Carlos (00-marca/modelo-roteiro-narrativo.md), 29 linhas, 312 palavras (~136 s a 2,3 p/s) — ACIMA dos 90 s, corte aguardando decisão do Carlos; extras religados; animações E01/E04 precisam de brief novo"
+    },
+    {
+      "estado": "edicao",
+      "em": "2026-10-14T23:37:53+01:00",
+      "nota": "EDL v24 NÃO aprovada: L01-L29, 158,7 s. L22 termina em 'um Nobel.' (ele olhava para o computador em 'de Física em 2024'; legenda da L22 a revisar). Pausa L27→L28 0,42 s; L28 = T1 'Comenta a palavra Nobel que eu vou te enviar a entrevista completa.' voz_ia 0. E01 E04 E06 (animação) FALTANDO."
+    },
+    {
+      "estado": "edl_aprovada",
+      "em": "2026-10-15T01:35:23+01:00",
+      "nota": "Carlos: \"Corte aprovado. Pode renderizar com a música 2.\" (EDL v24, 158,68 s)"
+    },
+    {
+      "estado": "revisao",
+      "em": "2026-10-15T01:43:47+01:00",
+      "nota": "corte.mp4 renderizado (EDL v24, 158,68 s, 1080x1920 25p yuv422p10le V-Log, A/V Δ 40 ms). verify: 29/29 linhas presentes; WER 40,7% = improviso aprovado; voz IA 1,19 s acústica = falso positivo (18 trechos ≤0,15 s todos dentro de palavras do Carlos, EDL 0,00 s). Filmstrips 49 cortes ok; 48/49 trocam zoom (o único igual é a emenda de arquivo praq0980→0981 no meio de '1947', contínua)."
+    },
+    {
+      "estado": "cor",
+      "em": "2026-10-15T02:14:48+01:00"
+    },
+    {
+      "estado": "cor",
+      "em": "2026-10-15T02:14:51+01:00",
+      "nota": "cor: WB pela folha (praq0978 4-10 s) k=[0.930,1.016,1.042], desvio da folha 0.032->0.0002; 8 fontes casadas (pele +-0.7 IRE, nenhuma corrigida); look v5, grao 0.3; rosto 26.8 IRE (entrada 44.6, queda e do look v5), fundo 40 > rosto, pico p99.5 65; emendas 0980/0981 d+0.08 IRE, 0985/0986 d+0.02. ATENCAO: edicao/cor/corte-cor.mp4 do caminho oficial esta CORROMPIDO (escrita concorrente de cor_hinton.py); versao boa em edicao/cor/corte-cor.wb-folha.mp4 aguarda ser movida para corte-cor.mp4"
+    },
+    {
+      "estado": "legendas",
+      "em": "2026-10-15T02:17:23+01:00"
+    },
+    {
+      "estado": "qa",
+      "em": "2026-10-15T02:19:32+01:00"
+    },
+    {
+      "estado": "qa",
+      "em": "2026-10-15T10:14:11+01:00",
+      "nota": "v2 extras em tela cheia: 29 imagens (edicao/sequencia-extras-v2.md) em faixa contínua 12,48–139,12 s, corte seco, Ken Burns em foto e vídeo, crédito no topo; overlays em edicao/extras-v2/overlays.json (gerar_props --overlays; edl/corte/cor/legendas/CTA/música 2 inalterados). final.mp4 = v2 (158,74 s, −14,1 LUFS, TP −1,9), final-v1.mp4 = v1, final-v2-leve.mp4 540x960 14,2 MB. Verificação: qa/v2/ (contato-meio, contato-trocas, verificacao.json: 0 quadros do Carlos na faixa). /pacote ainda não rodado; Carlos compara v1 x v2."
+    },
+    {
+      "estado": "pronto",
+      "em": "2026-10-15T10:34:03+01:00"
+    },
+    {
+      "estado": "agendado",
+      "em": "2026-10-15T10:34:47+01:00"
+    },
+    {
+      "estado": "publicado",
+      "em": "2026-10-15T11:08:42+01:00"
+    },
+    {
+      "estado": "publicado",
+      "em": "2026-10-15T11:44:34+01:00"
+    }
+  ],
+  "material": {
+    "dossie": "material/dossie.md",
+    "fontes": "material/fontes.json",
+    "ponto_de_partida": "https://www.youtube.com/watch?v=qrvK_KuIeJk",
+    "youtube": "material/youtube/catalogo.md"
+  }
+}

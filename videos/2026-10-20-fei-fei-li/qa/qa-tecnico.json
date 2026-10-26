@@ -1,0 +1,382 @@
+{
+  "arquivo": "/Users/teste/Documents/CONTENT AI/videos/2026-10-20-fei-fei-li/edicao/final.mp4",
+  "resultado": "PASS",
+  "criado_em": "2026-10-17T05:30:37+00:00",
+  "checks": [
+    {
+      "check": "Resolução",
+      "status": "PASS",
+      "valor": "1080×1920",
+      "esperado": "1080×1920"
+    },
+    {
+      "check": "FPS",
+      "status": "PASS",
+      "valor": 25.0,
+      "esperado": "25 ±0,01 (FPS_PROJETO)"
+    },
+    {
+      "check": "Codec vídeo",
+      "status": "PASS",
+      "valor": "h264",
+      "esperado": "h264"
+    },
+    {
+      "check": "Perfil H.264",
+      "status": "PASS",
+      "valor": "High",
+      "esperado": "High"
+    },
+    {
+      "check": "Pixel format",
+      "status": "PASS",
+      "valor": "yuv420p",
+      "esperado": "yuv420p (8-bit)"
+    },
+    {
+      "check": "Cor (tags)",
+      "status": "PASS",
+      "valor": "bt709/bt709/bt709",
+      "esperado": "bt709/bt709/bt709"
+    },
+    {
+      "check": "Codec áudio",
+      "status": "PASS",
+      "valor": "aac",
+      "esperado": "aac"
+    },
+    {
+      "check": "Sample rate",
+      "status": "PASS",
+      "valor": "48000",
+      "esperado": "48000"
+    },
+    {
+      "check": "Duração",
+      "status": "PASS",
+      "valor": "168.49s",
+      "esperado": "3–180 s"
+    },
+    {
+      "check": "Faststart (moov antes do mdat)",
+      "status": "PASS",
+      "valor": "ftyp > moov > free > mdat",
+      "esperado": "moov antes de mdat"
+    },
+    {
+      "check": "Tamanho",
+      "status": "PASS",
+      "valor": "189.8 MB",
+      "esperado": "≤ 300 MB"
+    },
+    {
+      "check": "Bitrate",
+      "status": "PASS",
+      "valor": "9.45 Mbps",
+      "esperado": "≤ 25 Mbps"
+    },
+    {
+      "check": "Loudness integrada",
+      "status": "PASS",
+      "valor": "-14.2 LUFS",
+      "esperado": "−14 ±1 LUFS"
+    },
+    {
+      "check": "True peak",
+      "status": "PASS",
+      "valor": "-1.7 dBTP",
+      "esperado": "≤ −1,5 dBTP"
+    },
+    {
+      "check": "Trechos pretos (≥0,5 s)",
+      "status": "PASS",
+      "valor": 0,
+      "esperado": "0 (revisar se houver)"
+    },
+    {
+      "check": "Congelados (≥2 s)",
+      "status": "PASS",
+      "valor": 0,
+      "esperado": "0 (ok se cartela estática)"
+    },
+    {
+      "check": "Duração vs EDL",
+      "status": "PASS",
+      "valor": "168.49 vs 168.44",
+      "esperado": "±0,2 s"
+    },
+    {
+      "check": "Cenas extras (nenhuma faltando)",
+      "status": "PASS",
+      "valor": "30 ok",
+      "esperado": "0 faltando (placeholder no vídeo)"
+    },
+    {
+      "check": "Legendas vs roteiro",
+      "status": "WARN",
+      "valor": 35,
+      "esperado": "0 divergências"
+    }
+  ],
+  "pretos": [],
+  "congelados": [
+    {
+      "inicio": 72.28,
+      "duracao": 0.56
+    },
+    {
+      "inicio": 106.68,
+      "duracao": 0.64
+    },
+    {
+      "inicio": 109.28,
+      "duracao": 0.52
+    },
+    {
+      "inicio": 111.2,
+      "duracao": 0.68
+    },
+    {
+      "inicio": 112.32,
+      "duracao": 0.56
+    },
+    {
+      "inicio": 113.76,
+      "duracao": 0.56
+    },
+    {
+      "inicio": 114.76,
+      "duracao": 0.68
+    }
+  ],
+  "loudness": {
+    "lufs": -14.2,
+    "true_peak": -1.7
+  },
+  "grafia": [
+    {
+      "linha": "L04",
+      "tipo": "replace",
+      "roteiro": "aos",
+      "legenda": "nos"
+    },
+    {
+      "linha": "L04",
+      "tipo": "insert",
+      "roteiro": "",
+      "legenda": "e"
+    },
+    {
+      "linha": "L06",
+      "tipo": "replace",
+      "roteiro": "quem",
+      "legenda": "ela"
+    },
+    {
+      "linha": "L06",
+      "tipo": "replace",
+      "roteiro": "o telefone, resolvia cobrança",
+      "legenda": "os telefones e fazia as cobranças"
+    },
+    {
+      "linha": "L06",
+      "tipo": "replace",
+      "roteiro": "falava com o fiscal?",
+      "legenda": "atendia os fiscais"
+    },
+    {
+      "linha": "L08",
+      "tipo": "replace",
+      "roteiro": "conta,",
+      "legenda": "contou"
+    },
+    {
+      "linha": "L08",
+      "tipo": "insert",
+      "roteiro": "",
+      "legenda": "foi assim que ela"
+    },
+    {
+      "linha": "L08",
+      "tipo": "replace",
+      "roteiro": "a faculdade.",
+      "legenda": "as faculdades"
+    },
+    {
+      "linha": "L09",
+      "tipo": "replace",
+      "roteiro": "depois",
+      "legenda": "foi aí que ela"
+    },
+    {
+      "linha": "L10",
+      "tipo": "insert",
+      "roteiro": "",
+      "legenda": "a partir daí"
+    },
+    {
+      "linha": "L10",
+      "tipo": "replace",
+      "roteiro": "numa",
+      "legenda": "em uma"
+    },
+    {
+      "linha": "L12",
+      "tipo": "insert",
+      "roteiro": "",
+      "legenda": "que"
+    },
+    {
+      "linha": "L12",
+      "tipo": "replace",
+      "roteiro": "seria",
+      "legenda": "deveria ser"
+    },
+    {
+      "linha": "L14",
+      "tipo": "replace",
+      "roteiro": "dizer ao",
+      "legenda": "passar para o"
+    },
+    {
+      "linha": "L14",
+      "tipo": "insert",
+      "roteiro": "",
+      "legenda": "reconhecer"
+    },
+    {
+      "linha": "L14",
+      "tipo": "delete",
+      "roteiro": "o que aparecia em",
+      "legenda": ""
+    },
+    {
+      "linha": "L15",
+      "tipo": "delete",
+      "roteiro": "quase",
+      "legenda": ""
+    },
+    {
+      "linha": "L15",
+      "tipo": "delete",
+      "roteiro": "ajudaram",
+      "legenda": ""
+    },
+    {
+      "linha": "L15",
+      "tipo": "insert",
+      "roteiro": "",
+      "legenda": "ajudaram"
+    },
+    {
+      "linha": "L15",
+      "tipo": "replace",
+      "roteiro": "essas",
+      "legenda": "cada uma dessas"
+    },
+    {
+      "linha": "L21",
+      "tipo": "insert",
+      "roteiro": "",
+      "legenda": "no meu canal"
+    },
+    {
+      "linha": "L22",
+      "tipo": "replace",
+      "roteiro": "aos concorrentes que aquele",
+      "legenda": "ao concorrente e naquele"
+    },
+    {
+      "linha": "L22",
+      "tipo": "replace",
+      "roteiro": "ajudou",
+      "legenda": "começou"
+    },
+    {
+      "linha": "L23",
+      "tipo": "insert",
+      "roteiro": "",
+      "legenda": "só"
+    },
+    {
+      "linha": "L26",
+      "tipo": "insert",
+      "roteiro": "",
+      "legenda": "a"
+    },
+    {
+      "linha": "L26",
+      "tipo": "replace",
+      "roteiro": "de",
+      "legenda": "da"
+    },
+    {
+      "linha": "L28",
+      "tipo": "replace",
+      "roteiro": "IA",
+      "legenda": "A inteligência artificial"
+    },
+    {
+      "linha": "L29",
+      "tipo": "delete",
+      "roteiro": "mostrar exemplos,",
+      "legenda": ""
+    },
+    {
+      "linha": "L29",
+      "tipo": "replace",
+      "roteiro": "informação e",
+      "legenda": "informações"
+    },
+    {
+      "linha": "L31",
+      "tipo": "replace",
+      "roteiro": "a",
+      "legenda": "sua"
+    },
+    {
+      "linha": "L32",
+      "tipo": "delete",
+      "roteiro": "que",
+      "legenda": ""
+    },
+    {
+      "linha": "L32",
+      "tipo": "replace",
+      "roteiro": "mando",
+      "legenda": "envio no seu direct uma entrevista completa sobre"
+    },
+    {
+      "linha": "L32",
+      "tipo": "replace",
+      "roteiro": "palestra dela.",
+      "legenda": "Fei-Fei Li"
+    },
+    {
+      "linha": "L33",
+      "tipo": "insert",
+      "roteiro": "",
+      "legenda": "somente"
+    },
+    {
+      "linha": "L33",
+      "tipo": "insert",
+      "roteiro": "",
+      "legenda": "a"
+    }
+  ],
+  "frames": [
+    "/Users/teste/Documents/CONTENT AI/videos/2026-10-20-fei-fei-li/qa/frames/qa-01-007.0s.jpg",
+    "/Users/teste/Documents/CONTENT AI/videos/2026-10-20-fei-fei-li/qa/frames/qa-02-021.1s.jpg",
+    "/Users/teste/Documents/CONTENT AI/videos/2026-10-20-fei-fei-li/qa/frames/qa-03-035.1s.jpg",
+    "/Users/teste/Documents/CONTENT AI/videos/2026-10-20-fei-fei-li/qa/frames/qa-04-049.1s.jpg",
+    "/Users/teste/Documents/CONTENT AI/videos/2026-10-20-fei-fei-li/qa/frames/qa-05-063.2s.jpg",
+    "/Users/teste/Documents/CONTENT AI/videos/2026-10-20-fei-fei-li/qa/frames/qa-06-077.2s.jpg",
+    "/Users/teste/Documents/CONTENT AI/videos/2026-10-20-fei-fei-li/qa/frames/qa-07-091.3s.jpg",
+    "/Users/teste/Documents/CONTENT AI/videos/2026-10-20-fei-fei-li/qa/frames/qa-08-105.3s.jpg",
+    "/Users/teste/Documents/CONTENT AI/videos/2026-10-20-fei-fei-li/qa/frames/qa-09-119.3s.jpg",
+    "/Users/teste/Documents/CONTENT AI/videos/2026-10-20-fei-fei-li/qa/frames/qa-10-133.4s.jpg",
+    "/Users/teste/Documents/CONTENT AI/videos/2026-10-20-fei-fei-li/qa/frames/qa-11-147.4s.jpg",
+    "/Users/teste/Documents/CONTENT AI/videos/2026-10-20-fei-fei-li/qa/frames/qa-12-161.5s.jpg"
+  ]
+}

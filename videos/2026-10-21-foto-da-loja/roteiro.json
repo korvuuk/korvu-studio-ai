@@ -1,0 +1,779 @@
+{
+  "slug": "2026-10-21-foto-da-loja",
+  "versao": 1,
+  "tema": "Tira 1 foto do seu produto com o celular e pede isso pro ChatGPT",
+  "pilar": "antes-depois",
+  "estrutura": "resultado-repetido (MESA §3 linha 2)",
+  "hook_template": "antes-depois",
+  "duracao_alvo": 38.0,
+  "wps_ref": 2.3,
+  "hooks": {
+    "A": {
+      "fala": "Foto de celular, em cima do balcão. Virou isso.",
+      "tela": "FOTO DE CELULAR → ISSO",
+      "visual": "foto original do produto no balcão e, antes de 2 s, corte seco para o resultado mais bonito"
+    },
+    "B": {
+      "fala": "Se você tem loja, tira uma foto e pede isso pro ChatGPT.",
+      "tela": "TEM LOJA? FAZ ISSO",
+      "visual": "o resultado já na tela no quadro 1, com a foto original pequena no canto"
+    },
+    "C": {
+      "fala": "Antes de pagar fotógrafo, testa isso com a foto do seu produto.",
+      "tela": "ANTES DE PAGAR FOTÓGRAFO",
+      "visual": "corte seco da foto do balcão para o fundo de catálogo antes de 2 s"
+    }
+  },
+  "hook_escolhido": "A",
+  "titulo": {
+    "contexto": "Tira uma foto do seu produto com o celular",
+    "impacto": "e pede isso pro ChatGPT",
+    "cinza": 2,
+    "rabisco": "isso"
+  },
+  "pose_capa": "segurando o celular virado pra câmera, mostrando a foto",
+  "cta_tipo": "palavra-material",
+  "cta_palavra": "FOTO",
+  "material": "Os 6 pedidos do vídeo prontos para copiar, com versões por nicho (restaurante, loja de roupa, salão, produto) e o passo a passo no celular: anexar a foto, colar o pedido, baixar a imagem",
+  "material_titulo": "o guia com os 6 pedidos para fotos do seu negócio",
+  "total_palavras": 81,
+  "duracao_estimada": 38.2,
+  "extras": [
+    {
+      "id": "E01",
+      "tipo": "imagem",
+      "descricao": "A foto ORIGINAL, comum, tirada com o celular: o produto (ou a loja) em cima do balcão. Fica ~1 s e corta seco para o E02 ANTES de 2 s",
+      "fonte": "`brutos/extras/E01-foto-original.jpg`. Produto do Carlos ou de um conhecido COM autorização por escrito do dono. Nenhuma pessoa na foto (regra 3); tirar com o celular na vertical",
+      "credito": null,
+      "som": false,
+      "linhas": [
+        "L01",
+        "L01B",
+        "L01C"
+      ]
+    },
+    {
+      "id": "E02",
+      "tipo": "imagem",
+      "descricao": "O resultado mais bonito dos 6 (o Carlos escolhe), em tela cheia: é a revelação do \"virou isso\"",
+      "fonte": "`brutos/extras/E02-resultado-hook.png` (cópia do melhor `E0x-resultado-N.png`)",
+      "credito": null,
+      "som": false,
+      "linhas": [
+        "L01",
+        "L01B",
+        "L01C"
+      ]
+    },
+    {
+      "id": "E03",
+      "tipo": "tela",
+      "descricao": "Gravação de ecrã do ChatGPT no celular: anexar a foto (clipe/+ → foto) e digitar o pedido 1 (catálogo). Mostra o \"como\" uma vez, inteiro",
+      "fonte": "`brutos/extras/E03-tela-01.mov` (gravação de ecrã do iPhone, Chat temporário — ou \"Melhorar o modelo para todos\" desligado: as fotos enviadas podem ser usadas para treinar modelos). **Fazer os 6 pedidos na MESMA conversa** (os pedidos 2–6 usam a foto já anexada); em conversa nova, anexar a foto de novo. **A geração demora de segundos a 1–2 min: o editor acelera/corta**, fica só anexar + digitar (~2 s)",
+      "credito": null,
+      "som": false,
+      "linhas": [
+        "L02"
+      ]
+    },
+    {
+      "id": "E04",
+      "tipo": "imagem",
+      "descricao": "Resultado 1: fundo branco de catálogo",
+      "fonte": "`brutos/extras/E04-resultado-1.png` (baixado do ChatGPT)",
+      "credito": null,
+      "som": false,
+      "linhas": [
+        "L03"
+      ]
+    },
+    {
+      "id": "E05",
+      "tipo": "tela",
+      "descricao": "Flash do pedido 2 sendo digitado (~0,7 s, acelerado)",
+      "fonte": "`brutos/extras/E05-tela-02.mov`",
+      "credito": null,
+      "som": false,
+      "linhas": [
+        "L04"
+      ]
+    },
+    {
+      "id": "E06",
+      "tipo": "imagem",
+      "descricao": "Resultado 2: mesa de café com luz de fim de tarde",
+      "fonte": "`brutos/extras/E06-resultado-2.png`",
+      "credito": null,
+      "som": false,
+      "linhas": [
+        "L04"
+      ]
+    },
+    {
+      "id": "E07",
+      "tipo": "tela",
+      "descricao": "Flash do pedido 3 sendo digitado (~0,7 s)",
+      "fonte": "`brutos/extras/E07-tela-03.mov`",
+      "credito": null,
+      "som": false,
+      "linhas": [
+        "L05"
+      ]
+    },
+    {
+      "id": "E08",
+      "tipo": "imagem",
+      "descricao": "Resultado 3: vitrine de loja à noite",
+      "fonte": "`brutos/extras/E08-resultado-3.png`",
+      "credito": null,
+      "som": false,
+      "linhas": [
+        "L05"
+      ]
+    },
+    {
+      "id": "E09",
+      "tipo": "tela",
+      "descricao": "Flash do pedido 4 sendo digitado (~0,7 s)",
+      "fonte": "`brutos/extras/E09-tela-04.mov`",
+      "credito": null,
+      "som": false,
+      "linhas": [
+        "L06"
+      ]
+    },
+    {
+      "id": "E10",
+      "tipo": "imagem",
+      "descricao": "Resultado 4: de cima (flat lay), estilo revista",
+      "fonte": "`brutos/extras/E10-resultado-4.png`",
+      "credito": null,
+      "som": false,
+      "linhas": [
+        "L06"
+      ]
+    },
+    {
+      "id": "E11",
+      "tipo": "tela",
+      "descricao": "Flash do pedido 5 sendo digitado (~0,7 s)",
+      "fonte": "`brutos/extras/E11-tela-05.mov`",
+      "credito": null,
+      "som": false,
+      "linhas": [
+        "L07"
+      ]
+    },
+    {
+      "id": "E12",
+      "tipo": "imagem",
+      "descricao": "Resultado 5: post de Instagram com nome e preço",
+      "fonte": "`brutos/extras/E12-resultado-5.png`. Conferir a grafia do nome e do preço na imagem; se sair errado, refazer ou trocar",
+      "credito": null,
+      "som": false,
+      "linhas": [
+        "L07"
+      ]
+    },
+    {
+      "id": "E13",
+      "tipo": "tela",
+      "descricao": "Flash do pedido 6 sendo digitado (~0,7 s)",
+      "fonte": "`brutos/extras/E13-tela-06.mov`",
+      "credito": null,
+      "som": false,
+      "linhas": [
+        "L08"
+      ]
+    },
+    {
+      "id": "E14",
+      "tipo": "imagem",
+      "descricao": "Resultado 6: cartaz de promoção",
+      "fonte": "`brutos/extras/E14-resultado-6.png`. Conferir o texto do cartaz",
+      "credito": null,
+      "som": false,
+      "linhas": [
+        "L08"
+      ]
+    },
+    {
+      "id": "E15",
+      "tipo": "imagem",
+      "descricao": "Lado a lado: a foto original (E01) e um dos resultados, para o \"confere se saiu igual\"",
+      "fonte": "Montagem do editor a partir de E01 + um resultado; não precisa gravar nada",
+      "credito": null,
+      "som": false,
+      "linhas": [
+        "L09"
+      ]
+    },
+    {
+      "id": "E16",
+      "tipo": "video",
+      "descricao": "COMPLEMENTO OPCIONAL (YouTube, mudo): mãos anexam a foto no celular, digitam \"Arrange these flowers\" e a imagem pronta aparece (~6 s). Entra no lugar/junto do E03 se a gravação de ecrã do Carlos ficar fraca",
+      "fonte": "`brutos/extras/E16-anexa-foto-flores.mp4` (OpenAI, \"Introducing ChatGPT Images 2.5\", 0:38–0:44)",
+      "credito": "Introducing ChatGPT Images 2.5 (OpenAI)",
+      "som": false,
+      "linhas": [
+        "L02"
+      ]
+    },
+    {
+      "id": "E17",
+      "tipo": "video",
+      "descricao": "RESERVA (YouTube, mudo): pedido digitado com a foto anexada e a edição aparecendo (aquário → \"mais moderno\" → estante) (~5,6 s)",
+      "fonte": "`brutos/extras/E17-pedido-edicao-aquario.mp4` (OpenAI, mesmo vídeo, 0:05–0:10)",
+      "credito": "Introducing ChatGPT Images 2.5 (OpenAI)",
+      "som": false,
+      "linhas": [
+        "L02"
+      ]
+    },
+    {
+      "id": "E18",
+      "tipo": "video",
+      "descricao": "COMPLEMENTO OPCIONAL (YouTube, mudo): produtos em fundo branco de catálogo (lata, pote, cardápio, caixa, pacote), ~2,4 s. Só se o resultado do Carlos (E04) precisar de reforço",
+      "fonte": "`brutos/extras/E18-produtos-fundo-branco.mp4` (OpenAI, \"This is ChatGPT Images 2.0\", 0:57–0:59)",
+      "credito": "This is ChatGPT Images 2.0 (OpenAI)",
+      "som": false,
+      "linhas": [
+        "L03"
+      ]
+    },
+    {
+      "id": "E19",
+      "tipo": "video",
+      "descricao": "COMPLEMENTO OPCIONAL (YouTube, mudo): foto de cima, estilo livro de fotografia, até as mãos segurando o livro (~4,4 s). Alternativa ao E10",
+      "fonte": "`brutos/extras/E19-foto-de-cima-livro.mp4` (OpenAI, Images 2.0, 1:22–1:26)",
+      "credito": "This is ChatGPT Images 2.0 (OpenAI)",
+      "som": false,
+      "linhas": [
+        "L06"
+      ]
+    },
+    {
+      "id": "E20",
+      "tipo": "video",
+      "descricao": "COMPLEMENTO OPCIONAL (YouTube, mudo): rabisco vira logo, logo vira camiseta e peças de loja (cardápio, avental, embalagem) (~4,4 s). Alternativa/reforço ao E12",
+      "fonte": "`brutos/extras/E20-logo-vira-produto.mp4` (Google, \"Meet Nano Banana Pro\", 0:20–0:24)",
+      "credito": "Meet Nano Banana Pro (Google)",
+      "som": false,
+      "linhas": [
+        "L07"
+      ]
+    }
+  ],
+  "linhas": [
+    {
+      "id": "L01",
+      "secao": "hook",
+      "fala": "Foto de celular, em cima do balcão. Virou isso.",
+      "fala_original": "Foto de celular, / em cima do balcão. / Virou **isso**. [pausa]",
+      "palavras": [
+        "foto",
+        "de",
+        "celular",
+        "em",
+        "cima",
+        "do",
+        "balcão",
+        "virou",
+        "isso"
+      ],
+      "destaques": [
+        "isso"
+      ],
+      "pausa_depois": "pausa",
+      "tela": "",
+      "animacao": null,
+      "extras_ref": [
+        {
+          "id": "E01",
+          "modo": "split",
+          "in": null,
+          "out": null
+        },
+        {
+          "id": "E02",
+          "modo": "split",
+          "in": null,
+          "out": null
+        }
+      ],
+      "alternativa_de": null,
+      "tempo_estimado": [
+        0.0,
+        4.51
+      ]
+    },
+    {
+      "id": "L02",
+      "secao": "promessa",
+      "fala": "Anexa a foto no ChatGPT e pede.",
+      "fala_original": "Anexa a foto no **ChatGPT** e pede.",
+      "palavras": [
+        "anexa",
+        "a",
+        "foto",
+        "no",
+        "chatgpt",
+        "e",
+        "pede"
+      ],
+      "destaques": [
+        "ChatGPT"
+      ],
+      "pausa_depois": "normal",
+      "tela": "",
+      "animacao": null,
+      "extras_ref": [
+        {
+          "id": "E03",
+          "modo": "split",
+          "in": null,
+          "out": null
+        },
+        {
+          "id": "E16",
+          "modo": "split",
+          "in": null,
+          "out": null
+        },
+        {
+          "id": "E17",
+          "modo": "split",
+          "in": null,
+          "out": null
+        }
+      ],
+      "alternativa_de": null,
+      "tempo_estimado": [
+        4.51,
+        7.76
+      ]
+    },
+    {
+      "id": "L03",
+      "secao": "corpo",
+      "fala": "Fundo branco, de catálogo.",
+      "fala_original": "Fundo branco, / de **catálogo**.",
+      "palavras": [
+        "fundo",
+        "branco",
+        "de",
+        "catálogo"
+      ],
+      "destaques": [
+        "catálogo"
+      ],
+      "pausa_depois": "normal",
+      "tela": "",
+      "animacao": null,
+      "extras_ref": [
+        {
+          "id": "E04",
+          "modo": "split",
+          "in": null,
+          "out": null
+        },
+        {
+          "id": "E18",
+          "modo": "split",
+          "in": null,
+          "out": null
+        }
+      ],
+      "alternativa_de": null,
+      "tempo_estimado": [
+        7.76,
+        9.7
+      ]
+    },
+    {
+      "id": "L04",
+      "secao": "corpo",
+      "fala": "Numa mesa de café, fim de tarde.",
+      "fala_original": "Numa mesa de café, / fim de tarde.",
+      "palavras": [
+        "numa",
+        "mesa",
+        "de",
+        "café",
+        "fim",
+        "de",
+        "tarde"
+      ],
+      "destaques": [],
+      "pausa_depois": "normal",
+      "tela": "",
+      "animacao": null,
+      "extras_ref": [
+        {
+          "id": "E05",
+          "modo": "split",
+          "in": null,
+          "out": null
+        },
+        {
+          "id": "E06",
+          "modo": "split",
+          "in": null,
+          "out": null
+        }
+      ],
+      "alternativa_de": null,
+      "tempo_estimado": [
+        9.7,
+        12.94
+      ]
+    },
+    {
+      "id": "L05",
+      "secao": "corpo",
+      "fala": "Na vitrine, à noite.",
+      "fala_original": "Na vitrine, / à noite.",
+      "palavras": [
+        "na",
+        "vitrine",
+        "à",
+        "noite"
+      ],
+      "destaques": [],
+      "pausa_depois": "normal",
+      "tela": "",
+      "animacao": null,
+      "extras_ref": [
+        {
+          "id": "E07",
+          "modo": "split",
+          "in": null,
+          "out": null
+        },
+        {
+          "id": "E08",
+          "modo": "split",
+          "in": null,
+          "out": null
+        }
+      ],
+      "alternativa_de": null,
+      "tempo_estimado": [
+        12.94,
+        14.88
+      ]
+    },
+    {
+      "id": "L06",
+      "secao": "corpo",
+      "fala": "Olha essa: de cima, tipo revista.",
+      "fala_original": "Olha essa: / de cima, / tipo **revista**.",
+      "palavras": [
+        "olha",
+        "essa",
+        "de",
+        "cima",
+        "tipo",
+        "revista"
+      ],
+      "destaques": [
+        "revista"
+      ],
+      "pausa_depois": "normal",
+      "tela": "",
+      "animacao": null,
+      "extras_ref": [
+        {
+          "id": "E09",
+          "modo": "split",
+          "in": null,
+          "out": null
+        },
+        {
+          "id": "E10",
+          "modo": "split",
+          "in": null,
+          "out": null
+        },
+        {
+          "id": "E19",
+          "modo": "split",
+          "in": null,
+          "out": null
+        }
+      ],
+      "alternativa_de": null,
+      "tempo_estimado": [
+        14.88,
+        17.69
+      ]
+    },
+    {
+      "id": "L07",
+      "secao": "corpo",
+      "fala": "Aí vira post pronto, com nome e preço.",
+      "fala_original": "Aí vira **post pronto**, / com nome e preço.",
+      "palavras": [
+        "aí",
+        "vira",
+        "post",
+        "pronto",
+        "com",
+        "nome",
+        "e",
+        "preço"
+      ],
+      "destaques": [
+        "post pronto"
+      ],
+      "pausa_depois": "normal",
+      "tela": "",
+      "animacao": null,
+      "extras_ref": [
+        {
+          "id": "E11",
+          "modo": "split",
+          "in": null,
+          "out": null
+        },
+        {
+          "id": "E12",
+          "modo": "split",
+          "in": null,
+          "out": null
+        },
+        {
+          "id": "E20",
+          "modo": "split",
+          "in": null,
+          "out": null
+        }
+      ],
+      "alternativa_de": null,
+      "tempo_estimado": [
+        17.69,
+        21.37
+      ]
+    },
+    {
+      "id": "L08",
+      "secao": "payoff",
+      "fala": "E até cartaz de promoção pra colar na porta.",
+      "fala_original": "E até cartaz de **promoção** / pra colar na porta.",
+      "palavras": [
+        "e",
+        "até",
+        "cartaz",
+        "de",
+        "promoção",
+        "pra",
+        "colar",
+        "na",
+        "porta"
+      ],
+      "destaques": [
+        "promoção"
+      ],
+      "pausa_depois": "normal",
+      "tela": "",
+      "animacao": null,
+      "extras_ref": [
+        {
+          "id": "E13",
+          "modo": "split",
+          "in": null,
+          "out": null
+        },
+        {
+          "id": "E14",
+          "modo": "split",
+          "in": null,
+          "out": null
+        }
+      ],
+      "alternativa_de": null,
+      "tempo_estimado": [
+        21.37,
+        25.48
+      ]
+    },
+    {
+      "id": "L09",
+      "secao": "payoff",
+      "fala": "Só confere se o produto saiu igual.",
+      "fala_original": "Só confere se o produto saiu **igual**. [pausa]",
+      "palavras": [
+        "só",
+        "confere",
+        "se",
+        "o",
+        "produto",
+        "saiu",
+        "igual"
+      ],
+      "destaques": [
+        "igual"
+      ],
+      "pausa_depois": "pausa",
+      "tela": "",
+      "animacao": null,
+      "extras_ref": [
+        {
+          "id": "E15",
+          "modo": "split",
+          "in": null,
+          "out": null
+        }
+      ],
+      "alternativa_de": null,
+      "tempo_estimado": [
+        25.48,
+        29.12
+      ]
+    },
+    {
+      "id": "L10",
+      "secao": "cta",
+      "fala": "Comenta FOTO que eu te mando os seis pedidos prontos.",
+      "fala_original": "Comenta **FOTO** / que eu te mando os seis pedidos prontos.",
+      "palavras": [
+        "comenta",
+        "foto",
+        "que",
+        "eu",
+        "te",
+        "mando",
+        "os",
+        "seis",
+        "pedidos",
+        "prontos"
+      ],
+      "destaques": [
+        "FOTO"
+      ],
+      "pausa_depois": "normal",
+      "tela": "",
+      "animacao": null,
+      "extras_ref": [],
+      "alternativa_de": null,
+      "tempo_estimado": [
+        29.12,
+        33.67
+      ]
+    },
+    {
+      "id": "L11",
+      "secao": "cta",
+      "fala": "E manda pra quem ainda fotografa em cima do balcão.",
+      "fala_original": "E manda pra quem ainda fotografa / em cima do **balcão**.",
+      "palavras": [
+        "e",
+        "manda",
+        "pra",
+        "quem",
+        "ainda",
+        "fotografa",
+        "em",
+        "cima",
+        "do",
+        "balcão"
+      ],
+      "destaques": [
+        "balcão"
+      ],
+      "pausa_depois": "normal",
+      "tela": "",
+      "animacao": null,
+      "extras_ref": [],
+      "alternativa_de": null,
+      "tempo_estimado": [
+        33.67,
+        38.22
+      ]
+    },
+    {
+      "id": "L01B",
+      "secao": "hook-alt",
+      "fala": "Se você tem loja, tira uma foto e pede isso pro ChatGPT.",
+      "fala_original": "Se você tem loja, / tira **uma foto** e pede isso pro ChatGPT.",
+      "palavras": [
+        "se",
+        "você",
+        "tem",
+        "loja",
+        "tira",
+        "uma",
+        "foto",
+        "e",
+        "pede",
+        "isso",
+        "pro",
+        "chatgpt"
+      ],
+      "destaques": [
+        "uma foto"
+      ],
+      "pausa_depois": "normal",
+      "tela": "",
+      "animacao": null,
+      "extras_ref": [
+        {
+          "id": "E01",
+          "modo": "split",
+          "in": null,
+          "out": null
+        },
+        {
+          "id": "E02",
+          "modo": "split",
+          "in": null,
+          "out": null
+        }
+      ],
+      "alternativa_de": "L01",
+      "tempo_estimado": null
+    },
+    {
+      "id": "L01C",
+      "secao": "hook-alt",
+      "fala": "Antes de pagar fotógrafo, testa isso com a foto do seu produto.",
+      "fala_original": "Antes de pagar fotógrafo, / testa isso com a foto do seu **produto**.",
+      "palavras": [
+        "antes",
+        "de",
+        "pagar",
+        "fotógrafo",
+        "testa",
+        "isso",
+        "com",
+        "a",
+        "foto",
+        "do",
+        "seu",
+        "produto"
+      ],
+      "destaques": [
+        "produto"
+      ],
+      "pausa_depois": "normal",
+      "tela": "",
+      "animacao": null,
+      "extras_ref": [
+        {
+          "id": "E01",
+          "modo": "split",
+          "in": null,
+          "out": null
+        },
+        {
+          "id": "E02",
+          "modo": "split",
+          "in": null,
+          "out": null
+        }
+      ],
+      "alternativa_de": "L01",
+      "tempo_estimado": null
+    }
+  ]
+}

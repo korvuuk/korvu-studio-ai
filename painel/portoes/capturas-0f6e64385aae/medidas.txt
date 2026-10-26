@@ -1,0 +1,32 @@
+# capturar.sh · 2026-10-23T16:18:59.603Z
+# alvo	largura pedida	innerWidth	scrollWidth	altura	HTTP	png	passa da borda
+/	1440	1440	1440	1738	200	/Users/teste/Documents/CONTENT AI/painel/portoes/capturas-0f6e64385aae/inicio-1440.png	
+/	375	375	375	3014	200	/Users/teste/Documents/CONTENT AI/painel/portoes/capturas-0f6e64385aae/inicio-375.png	
+/equipe	1440	1440	1440	1941	200	/Users/teste/Documents/CONTENT AI/painel/portoes/capturas-0f6e64385aae/equipe-1440.png	
+/equipe	375	375	375	4085	200	/Users/teste/Documents/CONTENT AI/painel/portoes/capturas-0f6e64385aae/equipe-375.png	
+/equipe/diretor	1440	1440	1440	900	200	/Users/teste/Documents/CONTENT AI/painel/portoes/capturas-0f6e64385aae/equipe-diretor-1440.png	
+/equipe/diretor	375	375	375	1205	200	/Users/teste/Documents/CONTENT AI/painel/portoes/capturas-0f6e64385aae/equipe-diretor-375.png	
+/equipe/portao-imagem	1440	1440	1440	2114	200	/Users/teste/Documents/CONTENT AI/painel/portoes/capturas-0f6e64385aae/equipe-portao-imagem-1440.png	
+/equipe/portao-imagem	375	375	375	2693	200	/Users/teste/Documents/CONTENT AI/painel/portoes/capturas-0f6e64385aae/equipe-portao-imagem-375.png	
+/equipe/portao-interface	1440	1440	1440	1883	200	/Users/teste/Documents/CONTENT AI/painel/portoes/capturas-0f6e64385aae/equipe-portao-interface-1440.png	
+/equipe/portao-interface	375	375	375	2440	200	/Users/teste/Documents/CONTENT AI/painel/portoes/capturas-0f6e64385aae/equipe-portao-interface-375.png	
+/equipe/contratar	1440	1440	1440	989	200	/Users/teste/Documents/CONTENT AI/painel/portoes/capturas-0f6e64385aae/equipe-contratar-1440.png	
+/equipe/contratar	375	375	375	1645	200	/Users/teste/Documents/CONTENT AI/painel/portoes/capturas-0f6e64385aae/equipe-contratar-375.png	
+/producao	1440	1440	1440	1594	200	/Users/teste/Documents/CONTENT AI/painel/portoes/capturas-0f6e64385aae/producao-1440.png	
+/producao	375	375	375	1634	200	/Users/teste/Documents/CONTENT AI/painel/portoes/capturas-0f6e64385aae/producao-375.png	
+/videos	1440	1440	1440	1594	200	/Users/teste/Documents/CONTENT AI/painel/portoes/capturas-0f6e64385aae/videos-1440.png	
+/videos	375	375	375	1634	200	/Users/teste/Documents/CONTENT AI/painel/portoes/capturas-0f6e64385aae/videos-375.png	
+/calendario	1440	1440	1440	900	200	/Users/teste/Documents/CONTENT AI/painel/portoes/capturas-0f6e64385aae/calendario-1440.png	
+/calendario	375	375	375	812	200	/Users/teste/Documents/CONTENT AI/painel/portoes/capturas-0f6e64385aae/calendario-375.png	
+/desempenho	1440	1440	1440	2785	200	/Users/teste/Documents/CONTENT AI/painel/portoes/capturas-0f6e64385aae/desempenho-1440.png	
+/desempenho	375	375	375	4503	200	/Users/teste/Documents/CONTENT AI/painel/portoes/capturas-0f6e64385aae/desempenho-375.png	
+/biblioteca	1440	1440	1440	900	200	/Users/teste/Documents/CONTENT AI/painel/portoes/capturas-0f6e64385aae/biblioteca-1440.png	
+/biblioteca	375	375	375	812	200	/Users/teste/Documents/CONTENT AI/painel/portoes/capturas-0f6e64385aae/biblioteca-375.png	
+/tokens	1440	1440	1440	900	200	/Users/teste/Documents/CONTENT AI/painel/portoes/capturas-0f6e64385aae/tokens-1440.png	
+/tokens	375	375	375	812	200	/Users/teste/Documents/CONTENT AI/painel/portoes/capturas-0f6e64385aae/tokens-375.png	
+/sistema	1440	1440	1440	4991	200	/Users/teste/Documents/CONTENT AI/painel/portoes/capturas-0f6e64385aae/sistema-1440.png	
+/sistema	375	375	375	7726	200	/Users/teste/Documents/CONTENT AI/painel/portoes/capturas-0f6e64385aae/sistema-375.png	
+/equipe/nao-existe	1440	1440	1440	900	200	/Users/teste/Documents/CONTENT AI/painel/portoes/capturas-0f6e64385aae/equipe-nao-existe-1440.png	
+/equipe/nao-existe	375	375	375	812	200	/Users/teste/Documents/CONTENT AI/painel/portoes/capturas-0f6e64385aae/equipe-nao-existe-375.png	
+/rota-inexistente	1440	1440	1440	900	404	/Users/teste/Documents/CONTENT AI/painel/portoes/capturas-0f6e64385aae/rota-inexistente-1440.png	
+/rota-inexistente	375	375	375	812	404	/Users/teste/Documents/CONTENT AI/painel/portoes/capturas-0f6e64385aae/rota-inexistente-375.png	

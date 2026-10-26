@@ -1,0 +1,418 @@
+<!-- @dsCard group="Prancha" width=1920 height=1080 page subtitle="Prancha 16:9 do design system — fonte visual de verdade" -->
+<!doctype html>
+<html lang="pt">
+<head><meta charset="utf-8"><title>korvu. painel — Prancha do design system</title>
+<style>
+.board{width:1920px;height:1080px;background:var(--bg);padding:36px 40px 32px;display:flex;flex-direction:column;gap:24px;overflow:hidden;position:relative}
+.b-head{display:flex;align-items:flex-end;justify-content:space-between;padding-bottom:20px;border-bottom:1px solid var(--line)}
+.b-head h1{margin:0;font-size:44px;line-height:44px;font-weight:800;letter-spacing:-.035em}
+.b-head h1 span{color:var(--ink-3);font-weight:600}
+.b-meta{display:flex;gap:28px;align-items:flex-end}
+.b-meta div{display:flex;flex-direction:column;gap:4px}
+.b-meta b{font-size:13px;font-weight:600}
+.b-body{flex:1;display:grid;grid-template-columns:208px 344px 388px minmax(0,1fr);gap:28px;min-height:0}
+.col{display:flex;flex-direction:column;gap:18px;min-height:0;min-width:0}
+.sec{display:flex;flex-direction:column;gap:10px}
+.sec-h{display:flex;align-items:baseline;gap:8px}
+.sec-h em{font-style:normal;font:500 11px/1 var(--font-mono);color:var(--accent-ink)}
+.sec-h b{font-size:11px;line-height:14px;font-weight:600;letter-spacing:.08em;text-transform:uppercase;color:var(--ink)}
+.sec-h span{margin-left:auto;font:500 11px/1 var(--font-mono);color:var(--ink-3)}
+.hair{height:1px;background:var(--line)}
+/* sidebar column */
+.sb{flex:1;min-height:0;border-radius:var(--radius-panel)}
+/* logo */
+.logo-pair{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.logo-tile{height:64px;border-radius:var(--radius-card);display:grid;place-items:center;border:1px solid var(--line);background:var(--surface)}
+.logo-tile.dark{background:var(--sidebar);border-color:var(--sidebar)}
+/* type */
+.ts{display:flex;flex-direction:column}
+.ts-row{display:grid;grid-template-columns:58px 1fr;align-items:baseline;gap:8px;padding:3px 0;border-bottom:1px solid var(--line)}
+.ts-row:last-child{border-bottom:0}
+.ts-row .k-mono{color:var(--ink-3);font-size:10.5px;line-height:14px}
+.ts-row div{white-space:nowrap;overflow:hidden;text-overflow:clip}
+/* colors */
+.pal{display:grid;grid-template-columns:repeat(4,1fr);gap:8px}
+.sw{border-radius:var(--radius-btn);border:1px solid var(--line);overflow:hidden;background:var(--surface)}
+.sw i{display:block;height:22px}
+.sw div{padding:5px 8px 6px;display:flex;flex-direction:column;gap:1px}
+.sw b{font-size:11.5px;line-height:15px;font-weight:600}
+.sw span{font:500 10.5px/14px var(--font-mono);color:var(--ink-2)}
+.sw.big{grid-column:span 2}
+.sw.big i{height:34px}
+/* grid diagram */
+.gridd{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius-card);padding:12px;display:flex;gap:8px;height:84px}
+.gridd .gs{width:30px;background:var(--sidebar);border-radius:5px;flex:none}
+.gridd .gm{flex:1;display:grid;grid-template-columns:repeat(12,1fr);gap:4px;padding:0 6px;position:relative}
+.gridd .gm i{background:var(--accent-soft);border-radius:2px}
+.grid-notes{display:flex;justify-content:space-between;font:500 10.5px/14px var(--font-mono);color:var(--ink-2)}
+/* spacing + radius */
+.sp{display:flex;align-items:flex-end;gap:12px;height:84px}
+.sp div{display:flex;flex-direction:column;align-items:center;gap:6px}
+.sp i{display:block;background:var(--accent);border-radius:2px}
+.sp span{font:500 10.5px/1 var(--font-mono);color:var(--ink-2)}
+.rad{display:flex;gap:10px}
+.rad div{flex:1;display:flex;flex-direction:column;gap:6px;align-items:center}
+.rad i{width:100%;height:34px;border:1.5px solid var(--ink);border-right:0;border-bottom:0;background:var(--surface)}
+.rad span{font:500 10.5px/14px var(--font-mono);color:var(--ink-2);text-align:center}
+/* avatars */
+.avs{display:grid;grid-template-columns:repeat(3,1fr);gap:10px 8px}
+.av{display:flex;flex-direction:column;gap:5px}
+.av .ph{aspect-ratio:1;border-radius:var(--radius-btn);background:var(--surface-sunken);border:1px solid var(--line);position:relative;overflow:hidden}
+.av .ph svg{position:absolute;inset:0;width:100%;height:100%}
+.av b{font-size:11px;line-height:13px;font-weight:600;white-space:nowrap}
+.av span{font-size:10px;line-height:12px;color:var(--ink-3)}
+/* icons */
+.ics{display:grid;grid-template-columns:repeat(7,1fr);gap:6px}
+.ic{display:flex;flex-direction:column;align-items:center;gap:6px;padding:10px 2px 8px;border:1px solid var(--line);border-radius:var(--radius-btn);background:var(--surface)}
+.ic span{font-size:9.5px;line-height:11px;color:var(--ink-2);text-align:center}
+/* right col */
+.kpis{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}
+.charts{display:grid;grid-template-columns:1.35fr 1fr 0.95fr;gap:14px}
+.ch{padding:14px 16px;display:flex;flex-direction:column;gap:8px;min-width:0}
+.comp{display:grid;grid-template-columns:minmax(0,1.32fr) minmax(0,1fr);gap:14px;flex:1;min-height:0}
+.comp > div{display:flex;flex-direction:column;gap:12px;min-height:0;min-width:0}
+.comp > div > *{flex:none}
+.tm{padding:16px;display:flex;gap:14px;align-items:center}
+.tm .k-avatar{--s:56px;border-radius:10px}
+.cal{display:grid;grid-template-columns:repeat(4,1fr);gap:6px}
+.cal .d{display:flex;flex-direction:column;gap:6px;min-width:0}
+.board .k-event b,.board .k-event span{white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.cal .d > span{font:600 10.5px/14px var(--font-sans);color:var(--ink-2);letter-spacing:.06em;text-transform:uppercase}
+.ctl{display:flex;gap:10px;align-items:flex-start;flex-wrap:wrap}
+.tipwrap{display:flex;flex-direction:column;align-items:center;gap:8px}
+.dot-n{position:relative}
+.board .k-kpi{padding:16px 18px 14px;gap:4px}
+.board .k-table{table-layout:fixed}
+.board .k-table td{height:50px;white-space:nowrap;overflow:hidden}
+.board .k-table td,.board .k-table th{padding-left:14px;padding-right:14px}
+.board .k-table td:first-child > div > div{min-width:0;overflow:hidden}
+.board .k-table td:first-child div div div:first-child{overflow:hidden;text-overflow:ellipsis;max-width:100%}
+.board .k-gate{padding:16px;gap:12px}
+.board .k-note{padding:12px 14px}
+</style>
+</head>
+<body>
+<div class="board">
+  <header class="b-head">
+    <div style="display:flex;align-items:flex-end;gap:22px">
+      <h1>Design System <span>v1.0</span></h1>
+      <div class="k-ink2" style="font-size:15px;line-height:22px;padding-bottom:3px;max-width:520px">Fonte visual de verdade para todas as telas do <b style="color:var(--ink)">korvu. painel</b> — operação de conteúdo com agentes de IA.</div>
+    </div>
+    <div class="b-meta">
+      <div><span class="k-cap">Plataforma</span><b>Desktop · 1440px</b></div>
+      <div><span class="k-cap">Tipografia</span><b>Geist · Geist Mono</b></div>
+      <div><span class="k-cap">Proprietário</span><b>Carlos</b></div>
+      <div><span class="k-cap">Atualizado</span><b>Out 2026</b></div>
+    </div>
+  </header>
+
+  <div class="b-body">
+    <!-- COL 1: sidebar -->
+    <div class="col">
+      <div class="sec-h"><em>14</em><b>Sidebar</b></div>
+      <nav class="k-sidebar sb">
+        <div class="k-sidebar-logo" data-logo="ivory" data-h="19"></div>
+        <a class="k-nav-item is-active"><span data-icon="visao-geral" data-size="18"></span>Visão geral</a>
+        <a class="k-nav-item"><span data-icon="equipe" data-size="18"></span>Equipe<span class="k-nav-count">12</span></a>
+        <a class="k-nav-item"><span data-icon="videos-portoes" data-size="18"></span>Vídeos e portões<span class="k-nav-count">14</span></a>
+        <a class="k-nav-item"><span data-icon="calendario" data-size="18"></span>Calendário</a>
+        <a class="k-nav-item"><span data-icon="desempenho" data-size="18"></span>Desempenho</a>
+        <a class="k-nav-item"><span data-icon="biblioteca" data-size="18"></span>Biblioteca</a>
+        <a class="k-nav-item"><span data-icon="tokens-custos" data-size="18"></span>Tokens e custos</a>
+        <div style="margin:14px 2px 0;padding:12px 14px;border-radius:var(--radius-card);background:var(--sidebar-raised)">
+          <div style="display:flex;justify-content:space-between;font:600 10px/14px var(--font-sans);letter-spacing:.1em;text-transform:uppercase;color:var(--sidebar-ink-2)"><span>Orçamento IA</span><span style="color:var(--sidebar-ink)">74%</span></div>
+          <div style="font:700 22px/28px var(--font-sans);letter-spacing:-.02em;color:var(--sidebar-ink);margin-top:6px" class="k-num">€ 186<small style="font-size:13px;color:var(--sidebar-ink-2);font-weight:500"> / 250</small></div>
+          <div style="height:4px;border-radius:9px;background:var(--sidebar-line);margin-top:10px;overflow:hidden"><i style="display:block;width:74%;height:100%;background:var(--accent)"></i></div>
+        </div>
+        <div class="k-sidebar-foot"><span class="k-avatar">C</span><div class="k-sidebar-owner">Carlos<small>Proprietário</small></div></div>
+      </nav>
+      <section class="sec">
+        <div class="sec-h"><em>11</em><b>Avatares</b><span>1:1 · foto</span></div>
+        <div class="avs" id="avs"></div>
+      </section>
+      <section class="sec">
+        <div class="sec-h"><em>13</em><b>Empty state</b></div>
+        <div class="k-empty" style="padding:16px;gap:4px;padding:14px 12px">
+          <span class="k-empty-icon" style="width:40px;height:40px;margin:0"><span data-icon="inbox" data-size="20"></span></span>
+          <div><h4 style="font-size:13px;line-height:18px">Nenhum vídeo bloqueado</h4><p style="font-size:12px;line-height:16px;margin-top:2px">Quando um agente parar numa etapa, aparece aqui.</p></div>
+        </div>
+      </section>
+    </div>
+
+    <!-- COL 2 -->
+    <div class="col">
+      <section class="sec">
+        <div class="sec-h"><em>01</em><b>Logo</b><span>korvu. + painel</span></div>
+        <div class="logo-pair">
+          <div class="logo-tile" data-logo="ink" data-h="24"></div>
+          <div class="logo-tile dark" data-logo="ivory" data-h="24"></div>
+        </div>
+      </section>
+      <section class="sec">
+        <div class="sec-h"><em>02</em><b>Escala tipográfica</b><span>Geist</span></div>
+        <div class="ts">
+          <div class="ts-row"><span class="k-mono">Display<br>56 · 800</span><div style="font-size:56px;line-height:60px;font-weight:800;letter-spacing:-.04em">Conteúdo</div></div>
+          <div class="ts-row"><span class="k-mono">H1<br>44 · 800</span><div style="font-size:44px;line-height:48px;font-weight:800;letter-spacing:-.03em">Visão geral</div></div>
+          <div class="ts-row"><span class="k-mono">H2<br>30 · 700</span><div style="font-size:30px;line-height:36px;font-weight:700;letter-spacing:-.02em">Em produção</div></div>
+          <div class="ts-row"><span class="k-mono">H3<br>22 · 700</span><div style="font-size:22px;line-height:28px;font-weight:700;letter-spacing:-.015em">Portão de aprovação</div></div>
+          <div class="ts-row"><span class="k-mono">Metric XL<br>40 · 700</span><div class="k-num" style="font-size:40px;line-height:44px;font-weight:700;letter-spacing:-.03em">482,6K <span style="color:var(--positive);font-size:15px;font-weight:600;letter-spacing:0">▲ 18,4%</span></div></div>
+          <div class="ts-row"><span class="k-mono">Body<br>15 · 400</span><div style="font-size:15px;line-height:22px">Roteiro aprovado, segue para gravação.</div></div>
+          <div class="ts-row"><span class="k-mono">Small<br>13 · 500</span><div style="font-size:13px;line-height:18px;font-weight:500;color:var(--ink-2)">Atualizado há 4 min por Ana Ribeiro</div></div>
+          <div class="ts-row"><span class="k-mono">Caption<br>11 · 600</span><div class="k-cap">Tokens consumidos · esta semana</div></div>
+        </div>
+      </section>
+      <section class="sec">
+        <div class="sec-h"><em>04</em><b>Grid</b><span>12 col · gutter 24</span></div>
+        <div class="gridd"><div class="gs"></div><div class="gm"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div></div>
+        <div class="grid-notes"><span>sidebar 208</span><span>padding 32</span><span>área principal fluida</span><span>1440</span></div>
+      </section>
+      <section class="sec">
+        <div class="sec-h"><em>05</em><b>Espaçamento</b><span>base 4</span></div>
+        <div class="sp">
+          <div><i style="width:4px;height:4px"></i><span>4</span></div>
+          <div><i style="width:8px;height:8px"></i><span>8</span></div>
+          <div><i style="width:12px;height:12px"></i><span>12</span></div>
+          <div><i style="width:16px;height:16px"></i><span>16</span></div>
+          <div><i style="width:24px;height:24px"></i><span>24</span></div>
+          <div><i style="width:32px;height:32px"></i><span>32</span></div>
+          <div><i style="width:48px;height:48px"></i><span>48</span></div>
+          <div><i style="width:64px;height:64px"></i><span>64</span></div>
+        </div>
+      </section>
+      <section class="sec">
+        <div class="sec-h"><em>06</em><b>Raio</b></div>
+        <div class="rad">
+          <div><i style="border-top-left-radius:6px"></i><span>6<br>tooltip</span></div>
+          <div><i style="border-top-left-radius:8px"></i><span>8<br>botão</span></div>
+          <div><i style="border-top-left-radius:12px"></i><span>12<br>card</span></div>
+          <div><i style="border-top-left-radius:14px"></i><span>14<br>painel</span></div>
+          <div><i style="border-top-left-radius:22px"></i><span>pill<br>chip</span></div>
+        </div>
+      </section>
+    </div>
+
+    <!-- COL 3 -->
+    <div class="col">
+      <section class="sec">
+        <div class="sec-h"><em>03</em><b>Paleta</b><span>não alterar</span></div>
+        <div class="pal">
+          <div class="sw big"><i style="background:var(--bg);border-bottom:1px solid var(--line)"></i><div><b>Marfim · fundo</b><span>#F5F2E8</span></div></div>
+          <div class="sw big"><i style="background:var(--sidebar)"></i><div><b>Sidebar · texto</b><span>#111111</span></div></div>
+          <div class="sw big"><i style="background:var(--accent)"></i><div><b>Laranja Korvu</b><span>#FF4D00</span></div></div>
+          <div class="sw"><i style="background:var(--surface);border-bottom:1px solid var(--line)"></i><div><b>Card</b><span>#FBF9F4</span></div></div>
+          <div class="sw"><i style="background:var(--surface-sunken)"></i><div><b>Rebaixado</b><span>#EFEBE0</span></div></div>
+          <div class="sw"><i style="background:var(--ink-2)"></i><div><b>Texto 2</b><span>#6B6458</span></div></div>
+          <div class="sw"><i style="background:var(--line)"></i><div><b>Linha</b><span>#E4DFD2</span></div></div>
+          <div class="sw"><i style="background:var(--accent-soft)"></i><div><b>Laranja suave</b><span>#FFE8DC</span></div></div>
+          <div class="sw"><i style="background:var(--accent-ink)"></i><div><b>Laranja texto</b><span>#B33600</span></div></div>
+          <div class="sw"><i style="background:var(--positive)"></i><div><b>Positivo</b><span>#1E7A45</span></div></div>
+          <div class="sw"><i style="background:var(--danger)"></i><div><b>Alerta</b><span>#C2271B</span></div></div>
+        </div>
+        <div style="display:flex;gap:6px;align-items:center"><span class="k-cap" style="font-size:10px;margin-right:4px">Gráficos</span><i style="flex:1;height:14px;border-radius:3px;background:var(--chart-1)"></i><i style="flex:1;height:14px;border-radius:3px;background:var(--chart-2)"></i><i style="flex:1;height:14px;border-radius:3px;background:var(--chart-3)"></i><i style="flex:1;height:14px;border-radius:3px;background:var(--chart-4)"></i><i style="flex:1;height:14px;border-radius:3px;background:var(--chart-5)"></i></div>
+      </section>
+      <section class="sec">
+        <div class="sec-h"><em>08</em><b>Botões</b><span>36 · raio 8</span></div>
+        <div class="k-row">
+          <button class="k-btn k-btn-primary"><span data-icon="plus" data-size="16"></span>Novo vídeo</button>
+          <button class="k-btn k-btn-secondary">Exportar</button>
+          <button class="k-btn k-btn-ghost">Cancelar</button>
+          <button class="k-btn k-btn-secondary k-btn-icon" aria-label="Filtrar"><span data-icon="filter" data-size="16"></span></button>
+        </div>
+        <div class="k-row">
+          <button class="k-btn k-btn-primary is-hover">Hover</button>
+          <button class="k-btn k-btn-dark"><span data-icon="check" data-size="16"></span>Aprovar portão</button>
+          <button class="k-btn k-btn-primary" disabled>Desativado</button>
+        </div>
+      </section>
+      <section class="sec">
+        <div class="sec-h"><em>09</em><b>Status chips</b></div>
+        <div class="k-row" style="gap:6px">
+          <span class="k-chip k-chip--aprovado">Aprovado</span>
+          <span class="k-chip k-chip--producao">Em produção</span>
+          <span class="k-chip k-chip--bloqueado">Bloqueado</span>
+          <span class="k-chip k-chip--agendado">Agendado</span>
+          <span class="k-chip k-chip--publicado">Publicado</span>
+          <span class="k-chip k-chip--portao"><span data-icon="lock" data-size="12"></span>Portão</span>
+          <span class="k-chip k-chip--model">Sonnet</span>
+          <span class="k-chip k-chip--opus">Opus</span>
+        </div>
+      </section>
+      <section class="sec">
+        <div class="sec-h"><em>12</em><b>Ícones</b><span>outline · 1.5px · 24</span></div>
+        <div class="ics">
+          <div class="ic"><span data-icon="visao-geral" data-size="22"></span><span>Visão geral</span></div>
+          <div class="ic"><span data-icon="equipe" data-size="22"></span><span>Equipe</span></div>
+          <div class="ic"><span data-icon="videos-portoes" data-size="22"></span><span>Vídeos e portões</span></div>
+          <div class="ic"><span data-icon="calendario" data-size="22"></span><span>Calendário</span></div>
+          <div class="ic"><span data-icon="desempenho" data-size="22"></span><span>Desempenho</span></div>
+          <div class="ic"><span data-icon="biblioteca" data-size="22"></span><span>Biblioteca</span></div>
+          <div class="ic"><span data-icon="tokens-custos" data-size="22"></span><span>Tokens e custos</span></div>
+        </div>
+      </section>
+      <section class="sec">
+        <div class="sec-h"><em>13</em><b>Progresso</b><span>barra · etapas</span></div>
+        <div class="k-card" style="padding:14px 16px;display:flex;flex-direction:column;gap:9px">
+          <div style="display:flex;justify-content:space-between;font-size:13px"><b>Semana 43 · produção</b><span class="k-num k-ink2">9/14 · 64%</span></div>
+          <div class="k-progress"><span style="width:64%"></span></div>
+          <div style="display:grid;grid-template-columns:repeat(5,1fr);gap:4px;margin-top:4px" class="k-cap">
+            <span style="font-size:9.5px">Roteiro</span><span style="font-size:9.5px">Gravação</span><span style="font-size:9.5px">Edição</span><span style="font-size:9.5px;color:var(--accent-ink)">Revisão</span><span style="font-size:9.5px">Publicar</span>
+          </div>
+          <div class="k-steps"><i class="on"></i><i class="on"></i><i class="on"></i><i class="now"></i><i></i></div>
+        </div>
+      </section>
+    </div>
+
+    <!-- COL 4 -->
+    <div class="col">
+      <section class="sec">
+        <div class="sec-h"><em>13</em><b>KPI cards</b><span>card · borda 1px · raio 12</span></div>
+        <div class="kpis">
+          <div class="k-card k-kpi"><span class="k-cap">Alcance · 30 dias</span><div class="k-kpi-value">482,6<small>K</small></div><div class="k-kpi-foot"><span class="k-delta k-delta--up">▲ 18,4%</span><svg class="k-chart" id="spark1" width="120" height="30"></svg></div></div>
+          <div class="k-card k-kpi is-hover"><span class="k-cap">Vídeos publicados</span><div class="k-kpi-value">38</div><div class="k-kpi-foot"><span class="k-delta k-delta--up">▲ 6</span><span class="k-muted" style="font-size:12px">14 em produção</span></div></div>
+          <div class="k-card k-kpi"><span class="k-cap">Custo de IA · outubro</span><div class="k-kpi-value"><small style="margin:0 4px 0 0">€</small>186,40</div><div class="k-kpi-foot"><span class="k-delta k-delta--down">▲ 9% vs. orçamento</span><span class="k-mono k-muted">12,8M tk</span></div></div>
+        </div>
+      </section>
+      <section class="sec">
+        <div class="sec-h"><em>10</em><b>Gráficos</b><span>linha · área · barras · donut · sparkline</span></div>
+        <div class="charts">
+          <div class="k-card ch">
+            <div class="k-card-head"><span class="k-card-title">Visualizações</span><div class="k-legend"><span><i style="background:var(--chart-1)"></i>Instagram</span><span><i style="background:var(--chart-2)"></i>Facebook</span></div></div>
+            <svg class="k-chart" id="area" width="100%" height="128" viewBox="0 0 460 128" preserveAspectRatio="none"></svg>
+          </div>
+          <div class="k-card ch">
+            <div class="k-card-head"><span class="k-card-title">Tokens por departamento</span></div>
+            <div id="bars" style="display:flex;flex-direction:column;gap:9px;margin-top:2px"></div>
+          </div>
+          <div class="k-card ch">
+            <div class="k-card-head"><span class="k-card-title">Custo por modelo</span></div>
+            <div style="display:flex;align-items:center;gap:12px">
+              <svg class="k-chart" id="donut" width="104" height="104" viewBox="0 0 104 104"></svg>
+              <div style="display:flex;flex-direction:column;gap:6px;font-size:12px">
+                <span><i style="display:inline-block;width:8px;height:8px;border-radius:2px;background:var(--chart-2);margin-right:6px"></i>Opus <b class="k-num" style="margin-left:4px">58%</b></span>
+                <span><i style="display:inline-block;width:8px;height:8px;border-radius:2px;background:var(--chart-1);margin-right:6px"></i>Sonnet <b class="k-num" style="margin-left:4px">34%</b></span>
+                <span><i style="display:inline-block;width:8px;height:8px;border-radius:2px;background:var(--chart-4);margin-right:6px"></i>Outros <b class="k-num" style="margin-left:4px">8%</b></span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="sec" style="flex:1;min-height:0">
+        <div class="sec-h"><em>07 · 13</em><b>Cards e componentes</b></div>
+        <div class="comp">
+          <div>
+            <!-- video rows -->
+            <div class="k-card" style="overflow:hidden">
+              <table class="k-table">
+                <thead><tr><th>Vídeo</th><th style="width:86px">Progresso</th><th style="width:132px">Estado</th></tr></thead>
+                <tbody>
+                  <tr><td><div style="display:flex;gap:12px;align-items:center;min-width:0"><span class="k-thumb is-dark"><span data-icon="play" data-size="14"></span></span><div><div style="font-weight:600">Abrir empresa no UK</div><div class="k-muted" style="font-size:12px">Edição · Ana Ribeiro</div></div></div></td><td><div class="k-steps"><i class="on"></i><i class="on"></i><i class="on"></i><i class="now"></i><i></i></div></td><td><span class="k-chip k-chip--producao">Em produção</span></td></tr>
+                  <tr class="is-hover"><td><div style="display:flex;gap:12px;align-items:center;min-width:0"><span class="k-thumb is-accent"><span data-icon="play" data-size="14"></span></span><div><div style="font-weight:600">DMs em 3 passos</div><div class="k-muted" style="font-size:12px">Revisão · João Duarte</div></div></div></td><td><div class="k-steps"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="now"></i></div></td><td><span class="k-chip k-chip--portao"><span data-icon="lock" data-size="12"></span>Portão</span></td></tr>
+                  <tr><td><div style="display:flex;gap:12px;align-items:center;min-width:0"><span class="k-thumb"><span data-icon="play" data-size="14"></span></span><div><div style="font-weight:600">Um dia de agentes</div><div class="k-muted" style="font-size:12px">Roteiro · Kofi Mensah</div></div></div></td><td><div class="k-steps"><i class="on"></i><i class="blocked"></i><i></i><i></i><i></i></div></td><td><span class="k-chip k-chip--bloqueado">Bloqueado</span></td></tr>
+                </tbody>
+              </table>
+            </div>
+            <!-- team member -->
+            <div class="k-card tm is-interactive">
+              <span class="k-avatar" id="tm-av">AR<i class="k-presence"></i></span>
+              <div style="flex:1;min-width:0">
+                <div style="display:flex;gap:8px;align-items:center"><b style="font-size:15px;white-space:nowrap">Ana Ribeiro</b><span class="k-chip k-chip--model">Sonnet</span></div>
+                <div class="k-ink2" style="font-size:12px;line-height:16px">Roteirista · Roteiro</div>
+              </div>
+              <div style="display:flex;gap:22px;font-size:12px;text-align:right">
+                <div><div class="k-num" style="font-size:20px;line-height:24px;font-weight:700">6</div><span class="k-muted">vídeos</span></div>
+                <div><div class="k-num" style="font-size:20px;line-height:24px;font-weight:700">1,9M</div><span class="k-muted">tokens</span></div>
+                <div><div class="k-num" style="font-size:20px;line-height:24px;font-weight:700">€ 21</div><span class="k-muted">custo</span></div>
+              </div>
+            </div>
+            <!-- calendar -->
+            <div class="k-card" style="padding:14px 16px">
+              <div class="k-card-head" style="margin-bottom:10px"><span class="k-card-title">Calendário editorial</span><span class="k-mono k-muted">20–23 OUT</span></div>
+              <div class="cal">
+                <div class="d"><span>Seg 20</span><div class="k-event k-event--ig"><b>Reel · UK</b><span>09:00 · Instagram</span></div></div>
+                <div class="d"><span>Ter 21</span><div class="k-event k-event--gate"><b>Portão roteiro</b><span>Aprovação</span></div></div>
+                <div class="d"><span>Qua 22</span><div class="k-event k-event--fb"><b>Carrossel</b><span>18:30 · Facebook</span></div></div>
+                <div class="d"><span>Qui 23</span><div class="k-event"><b>Live agentes</b><span>20:00 · Instagram</span></div></div>
+              </div>
+            </div>
+          </div>
+          <div>
+            <!-- approval gate -->
+            <div class="k-card k-gate">
+              <div style="display:flex;gap:12px;align-items:center">
+                <span class="k-gate-icon"><span data-icon="lock" data-size="18"></span></span>
+                <div style="flex:1;min-width:0"><div class="k-cap" style="font-size:10px">Portão 3 de 4 · Revisão final</div><b style="font-size:15px;display:block;white-space:nowrap;overflow:hidden;text-overflow:ellipsis">DMs em 3 passos</b></div>
+                <span class="k-chip k-chip--portao">Aguarda</span>
+              </div>
+              <div style="display:flex;flex-direction:column;gap:8px">
+                <div class="k-check is-on"><b><span data-icon="check" data-size="12"></span></b><span>Roteiro validado pela Estratégia</span></div>
+                <div class="k-check is-on"><b><span data-icon="check" data-size="12"></span></b><span>Legenda e CTA revistos</span></div>
+                <div class="k-check"><b></b><span>Capa aprovada pelo Carlos</span></div>
+              </div>
+              <div style="display:flex;gap:8px"><button class="k-btn k-btn-primary" style="flex:1">Aprovar e agendar</button><button class="k-btn k-btn-secondary">Pedir ajustes</button></div>
+            </div>
+            <!-- notifications -->
+            <div class="k-card" style="overflow:hidden">
+              <div class="k-note k-note--alert"><span class="k-note-icon"><span data-icon="alert" data-size="16"></span></span><div style="flex:1"><div class="k-note-title">Custo de IA acima do previsto</div><div class="k-note-body">Opus usou 72% do orçamento da semana.</div></div><span class="k-unread"></span></div>
+            </div>
+            <!-- controls -->
+            <label class="k-search is-focus"><span data-icon="search" data-size="16"></span><input placeholder="Procurar vídeos, agentes…" value=""><span class="k-kbd">⌘K</span></label>
+            <div style="display:grid;grid-template-columns:minmax(0,1fr) auto;gap:14px;align-items:start">
+              <div style="display:flex;flex-direction:column;gap:4px">
+                <div class="k-select" style="border-color:var(--ink)">Últimos 30 dias<span data-icon="chevron-down" data-size="16"></span></div>
+                <div class="k-menu" style="min-width:0">
+                  <div class="k-menu-item">Últimos 7 dias</div>
+                  <div class="k-menu-item is-selected is-hover">Últimos 30 dias<span class="k-tick" data-icon="check" data-size="14"></span></div>
+                </div>
+              </div>
+              <div class="tipwrap" style="padding-top:2px">
+                <div class="k-tooltip"><b>1.284.910 tokens</b><small>Opus · 22 out</small></div>
+                <span class="k-btn k-btn-secondary k-btn-icon k-btn-sm"><span data-icon="info" data-size="14"></span></span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </div>
+</div>
+<script>
+(function(){
+  var NS="http://www.w3.org/2000/svg";
+  function el(t,a,p){var e=document.createElementNS(NS,t);for(var k in a)e.setAttribute(k,a[k]);if(p)p.appendChild(e);return e;}
+  // avatars: placeholder com guia de enquadramento
+  var A=[["Ana","Roteiro"],["Kofi","Edição"],["Mei","Design"],["João","Estratégia"],["Amara","Copy"],["Lucas","Análise"]];
+  var avs=document.getElementById("avs");
+  A.forEach(function(a){var d=document.createElement("div");d.className="av";
+    d.innerHTML='<div class="ph"><svg viewBox="0 0 100 100" preserveAspectRatio="none"><circle cx="50" cy="41" r="17" fill="var(--line)"/><path d="M14 100c2-20 17-32 36-32s34 12 36 32z" fill="var(--line)"/><line x1="0" y1="18" x2="100" y2="18" stroke="var(--accent)" stroke-width=".6" stroke-dasharray="2 2"/><line x1="0" y1="40" x2="100" y2="40" stroke="var(--accent)" stroke-width=".6" stroke-dasharray="2 2"/></svg></div><b>'+a[0]+'</b><span>'+a[1]+'</span>';
+    avs.appendChild(d);});
+  // sparkline
+  function spark(id,data){var s=document.getElementById(id),w=+s.getAttribute("width"),h=+s.getAttribute("height");var mx=Math.max.apply(0,data),mn=Math.min.apply(0,data);var pts=data.map(function(v,i){return [i*(w-4)/(data.length-1)+2,h-3-(v-mn)/(mx-mn)*(h-6)]});
+    el("path",{d:"M"+pts.map(function(p){return p.join(",")}).join("L"),class:"s1"},s);var l=pts[pts.length-1];el("circle",{cx:l[0],cy:l[1],r:2.5,class:"f1"},s);}
+  spark("spark1",[12,14,13,17,16,19,18,22,21,25,24,29]);
+  // area + line
+  var s=document.getElementById("area"),W=460,H=128,L=28,B=20,T=6;
+  var ig=[18,22,21,27,25,31,36,34,41,39,46,52],fb=[12,13,15,14,17,16,19,18,21,20,22,24];
+  var mx=60;function X(i){return L+i*(W-L-6)/(ig.length-1)}function Y(v){return T+(H-B-T)*(1-v/mx)}
+  [0,20,40,60].forEach(function(v){el("line",{x1:L,x2:W,y1:Y(v),y2:Y(v),class:"grid"},s);var t=el("text",{x:0,y:Y(v)+3},s);t.textContent=v+"K";});
+  ["Set","","","Out","",""].forEach(function(m,i){});
+  var pi=ig.map(function(v,i){return X(i)+","+Y(v)});
+  el("path",{d:"M"+X(0)+","+Y(0)+"L"+pi.join("L")+"L"+X(ig.length-1)+","+Y(0)+"Z",class:"a1"},s);
+  el("path",{d:"M"+fb.map(function(v,i){return X(i)+","+Y(v)}).join("L"),class:"s2"},s);
+  el("path",{d:"M"+pi.join("L"),class:"s1"},s);
+  ["S1","S2","S3","S4","S5","S6","S7","S8","S9","S10","S11","S12"].forEach(function(m,i){if(i%2)return;var t=el("text",{x:X(i),y:H-4,"text-anchor":"middle"},s);t.textContent=m;});
+  var lx=X(ig.length-1),ly=Y(ig[ig.length-1]);el("circle",{cx:lx,cy:ly,r:4,fill:"var(--surface)",stroke:"var(--accent)","stroke-width":2},s);
+  // bars
+  var bars=[["Produção",4.1],["Roteiro",3.2],["Estratégia",2.4],["Distribuição",1.8],["Análise",1.3]],bm=4.5,bc=document.getElementById("bars");
+  bars.forEach(function(b,i){var d=document.createElement("div");d.style.cssText="display:grid;grid-template-columns:78px 1fr 34px;align-items:center;gap:8px;font-size:12px";
+    d.innerHTML='<span class="k-ink2">'+b[0]+'</span><span style="height:10px;border-radius:3px;background:var(--surface-sunken);overflow:hidden"><i style="display:block;height:100%;width:'+(b[1]/bm*100)+'%;background:'+(i==0?'var(--chart-1)':'var(--chart-2)')+';border-radius:3px"></i></span><b class="k-num" style="text-align:right">'+b[1].toString().replace(".",",")+'M</b>';bc.appendChild(d);});
+  // donut
+  var dn=document.getElementById("donut"),r=40,c=2*Math.PI*r,acc=0;
+  el("circle",{cx:52,cy:52,r:r,fill:"none",stroke:"var(--surface-sunken)","stroke-width":14},dn);
+  [[.58,"var(--chart-2)"],[.34,"var(--chart-1)"],[.08,"var(--chart-4)"]].forEach(function(p){el("circle",{cx:52,cy:52,r:r,fill:"none",stroke:p[1],"stroke-width":14,"stroke-dasharray":(p[0]*c-2)+" "+c,"stroke-dashoffset":-acc*c,transform:"rotate(-90 52 52)"},dn);acc+=p[0];});
+  var t1=el("text",{x:52,y:52,"text-anchor":"middle",style:"font:700 16px var(--font-sans);fill:var(--ink)"},dn);t1.textContent="€186";
+  var t2=el("text",{x:52,y:66,"text-anchor":"middle"},dn);t2.textContent="outubro";
+  if(window.Korvu)Korvu.hydrate();
+})();
+</script>
+</body>
+</html>

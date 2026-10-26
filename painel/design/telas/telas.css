@@ -1,0 +1,20 @@
+/* Moldura das MAQUETES das telas (documentação). Não vai para o app: o app usa tokens.css + componentes.css +
+   acrescimos.css. Aqui só ficam a faixa de documentação depois da tela (estados de cada bloco, variações) e o selo
+   que marca o que é exemplo. Usa só var(--…) de tokens.css e as classes .pv-* de previas/previa.css. */
+
+.tl-doc{margin:var(--space-64) calc(-1 * var(--content-padding)) calc(-1 * var(--space-64));border-top:2px dashed var(--line-strong);background:var(--surface-hover)}
+.tl-doc > .pv{max-width:none;padding-left:var(--content-padding);padding-right:var(--content-padding)}
+@media (max-width:767px){.tl-doc{margin:var(--space-48) calc(-1 * var(--content-padding-estreito)) calc(-1 * var(--space-48))}.tl-doc > .pv{padding-left:var(--content-padding-estreito);padding-right:var(--content-padding-estreito)}}
+.tl-estados{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:var(--space-16);align-items:start}
+.tl-estado{display:flex;flex-direction:column;gap:var(--space-8);min-width:0}
+.tl-estado > .k-cap{color:var(--ink-2)}
+.tl-bloco{margin-top:var(--space-24)}
+.tl-bloco > h3{margin:0 0 var(--space-8);font-size:15px;line-height:22px;font-weight:600}
+.tl-variacao{margin-top:var(--space-16)}
+
+/* Selo "exemplo" ao lado do título de um bloco ou de uma coluna: o número ali não tem fonte hoje. */
+.tl-ex{display:inline-flex;align-items:center;height:18px;padding:0 6px;margin-left:6px;border-radius:var(--radius-pill);border:1px dashed var(--line-strong);font:500 11px/1 var(--font-mono);color:var(--ink-2);text-transform:none;letter-spacing:0;vertical-align:middle;white-space:nowrap}
+
+@media (max-width:1023px){
+  .tl-estados{grid-template-columns:minmax(0,1fr)}
+}

@@ -1,0 +1,4 @@
+# capturar.sh · 2026-10-24T21:53:29.675Z
+# alvo	largura pedida	innerWidth	scrollWidth	altura	HTTP	png	passa da borda
+painel/design/telas/visao-geral.html	1440	1440	1440	4562	200	/Users/teste/Documents/CONTENT AI/painel/portoes/capturas-27bfcd947425/visao-geral-1440.png	
+painel/design/telas/visao-geral.html	375	375	375	9046	200	/Users/teste/Documents/CONTENT AI/painel/portoes/capturas-27bfcd947425/visao-geral-375.png	

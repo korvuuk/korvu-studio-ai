@@ -1,0 +1,103 @@
+A história completa do vídeo: golpes com inteligência artificial
+
+Este texto é pra você ouvir antes de gravar. Não é o roteiro. É o contexto inteiro por trás dele, pra você entender o assunto e depois falar com as suas palavras. A partir daqui, quando eu disser IA, é inteligência artificial.
+
+O que mudou
+
+Golpe por telefone e por mensagem sempre existiu. O que mudou é que, agora, a IA consegue copiar a voz de uma pessoa e montar vídeos falsos de gente famosa com muito pouco esforço. Antes, o golpista tinha que fingir. Agora, ele pode soar exatamente como o seu filho, ou aparecer com o rosto de um apresentador conhecido.
+
+E isso pega em cheio quem é iniciante em tecnologia, quem é mais velho e quem mora longe da família. Pra quem fala português e vive no Reino Unido ou em Portugal, tem um detalhe a mais: boa parte da família ficou no Brasil, em Portugal, em Angola. A comunicação é por áudio de WhatsApp e ligação. É justamente o terreno onde esse golpe funciona.
+
+A demonstração do começo do vídeo
+
+O vídeo começa com uma pegadinha honesta. Você aparece de terno, num escritório de vidro, falando com a sua voz. Só que nada daquilo é real. O escritório e a roupa foram trocados por IA, em cima de uma gravação sua. E a voz das primeiras frases também não é a sua: é uma cópia da sua voz, feita na ElevenLabs, uma ferramenta de clonagem de voz, a partir de um ou dois minutos de você falando.
+
+Aí vem a virada: "Essa é" a sua voz de verdade. "A outra, a IA copiou."
+
+O ponto é mostrar, na prática, que se deu pra copiar você em pouco tempo, quem vive disso faz muito melhor. E é tudo feito só com você, nenhuma outra pessoa é copiada.
+
+Quanto áudio precisa pra copiar uma voz
+
+O Starling Bank, um banco digital britânico, lançou em setembro de 2024 uma campanha chamada Safe Phrases, frases seguras. No comunicado, o banco diz que criminosos já conseguem clonar a voz de uma pessoa a partir de apenas três segundos de áudio.
+
+Três segundos. Um vídeo seu nas redes, um áudio que você mandou num grupo, já pode bastar.
+
+Na mesma campanha, o banco divulgou uma pesquisa própria: mais de um quarto dos adultos do Reino Unido, vinte e oito por cento, disseram ter sido alvo de um golpe com voz clonada por IA pelo menos uma vez no último ano. Esse número é da pesquisa do próprio banco, então, se usar, diga "segundo o Starling Bank". No roteiro ele não entra.
+
+Golpe um: a voz da família pedindo dinheiro
+
+Como funciona: chega uma ligação ou um áudio. É a voz do seu filho, da sua mãe, de um sobrinho. Está nervoso, aconteceu alguma coisa, precisa de dinheiro agora, e pede pra você não contar pra ninguém. A pressa e o segredo são a ferramenta do golpista: ele não quer que você tenha tempo de ligar pra outra pessoa e conferir.
+
+A defesa que o próprio Starling recomenda é simples: combinar uma palavra secreta com a família e os amigos próximos. Uma palavra ou frase que ninguém de fora sabe e que não está nas suas redes. Combinada pessoalmente. Se alguém ligar com a voz de alguém da família pedindo dinheiro e não souber a palavra, você desliga e liga você mesmo pra pessoa, no número que você já tem.
+
+Um exemplo inventado, só pra visualizar: imagine a dona de um salão em Londres que recebe um áudio da filha, que mora em outra cidade, pedindo duzentas libras urgente porque perdeu o cartão. Antes de mandar, pergunta a palavra. A filha de verdade sabe. O golpista, não.
+
+Golpe dois: o famoso vendendo investimento
+
+Como funciona: aparece no seu feed um vídeo de uma pessoa famosa, um apresentador, um empresário, até uma instituição oficial, recomendando um investimento que rende muito, rápido e sem risco. O vídeo parece de verdade. O rosto e a voz são dele. Só que foram montados com IA.
+
+A BBC mostrou, em 2023, famosos como o youtuber MrBeast e apresentadores da própria BBC sendo usados em vídeos falsos desse tipo.
+
+Em Portugal, a CMVM, a Comissão do Mercado de Valores Mobiliários, que é quem fiscaliza investimentos no país, fez um alerta publicado pelo site 24noticias em 1 de setembro de 2026. A CMVM recomenda que ninguém assuma que é autêntico um vídeo, notícia ou entrevista só porque circula nas redes sociais, mesmo quando aparecem personalidades conhecidas ou instituições oficiais, incluindo a própria CMVM. E diz que o uso de novas tecnologias, incluindo a IA, facilita a propagação desses esquemas.
+
+A frase que fica: famoso no vídeo não prova que é verdade.
+
+O que fazer: não investir por anúncio. Antes de pôr dinheiro, conferir se a empresa é autorizada no site do órgão que fiscaliza: a CMVM em Portugal, o registro da FCA, a autoridade financeira, no Reino Unido, e a CVM, a Comissão de Valores Mobiliários, no Brasil.
+
+Golpe três: o banco ligando
+
+Como funciona: o telefone toca e no visor aparece o número do seu banco, certinho. Do outro lado, alguém educado diz que detectou uma compra estranha e precisa da sua senha, de um código, ou que você transfira o dinheiro pra uma "conta segura" pra protegê-lo.
+
+O número certinho não prova nada. A Take Five, campanha contra fraude da UK Finance, a associação dos bancos britânicos, explica que os criminosos usam uma técnica chamada spoofing, que faz um número de telefone ou um e-mail parecer legítimo. No Brasil, o Fantástico, da Globo, mostrou em 2026 como funciona o golpe da falsa central bancária, inclusive com voz modificada por IA.
+
+A regra, nos dois países, é a mesma. No Reino Unido, o material da Take Five publicado pelo Crimestoppers diz que o banco ou a polícia nunca vão ligar pedindo a sua senha ou o seu PIN, e nunca vão pedir pra você transferir dinheiro pra uma conta segura. No Brasil, a Febraban, a Federação Brasileira de Bancos, diz que o banco nunca liga pedindo senha, número do cartão, transferência ou pagamento, e que o certo é desligar e falar com o banco pelos canais oficiais.
+
+Então: desliga. E liga você, num número que você sabe que é o certo: o que está atrás do cartão, ou o do aplicativo.
+
+Se já aconteceu
+
+Primeiro, ligar pro banco pelo número oficial e pedir o bloqueio. Depois, denunciar. No Reino Unido, desde dezembro de 2025 o serviço oficial se chama Report Fraud, que substituiu o antigo Action Fraud; o telefone é zero três zero zero, um dois três, dois zero quatro zero. Mensagem suspeita de celular pode ser encaminhada de graça pro número sete sete dois seis. Em Portugal, a queixa vai pra polícia, pela Queixa Eletrónica da PSP e da GNR ou na esquadra da sua área, e em emergência é o um um dois. Investimento falso, também dá pra avisar a CMVM. No Brasil, banco pelo canal oficial e boletim de ocorrência na polícia civil.
+
+Os limites honestos
+
+Ninguém está livre. Não dá pra prometer que, seguindo esses passos, você nunca vai cair. O que dá é reduzir muito a chance. E sobre os sinais visuais de vídeo falso, tipo boca fora de sincronia: a gente não pôs no vídeo porque não achou fonte oficial que garanta, e a IA melhora rápido. A regra mais segura não é tentar descobrir se o vídeo é falso. É confirmar por outro caminho.
+
+Os momentos que estão no vídeo
+
+Antes de falar, a pose da capa: olhando pra câmera, sobrancelha erguida, dedo indicador levantado e parado, três segundos em silêncio, e mais um segundo com a mão já abaixada.
+
+Primeiro, o gancho. Não acredite em nada do que você está vendo aqui. Pode ser: "Não confia em nada desse vídeo." Ou: "Nada do que você tá vendo agora é verdade." Lembre que essa parte vai ser refeita por IA em cima de você, então grave num plano fixo, sem cortes.
+
+Segundo e terceiro, as camadas. Esse escritório, essa roupa, nada disso existe, e nem essa voz é minha. Pode ser: "O escritório? Falso. A roupa? Falsa. E essa voz? Também não é minha." Depois, uma pausa longa.
+
+Quarto, a virada. Essa é a minha voz; a outra, a IA copiou. Pode ser: "Agora sim, essa é a minha voz de verdade. A de antes foi a IA que copiou."
+
+Quinto, o dado. Um banco inglês avisa: três segundos de áudio podem bastar. Pode ser: "Um banco do Reino Unido diz que três segundos da sua voz podem ser suficientes." O número é três segundos, e é "podem bastar", não "bastam".
+
+Sexto, a promessa. Três golpes pra você não cair. Pode ser: "Então olha três golpes que já tão acontecendo."
+
+Sétimo e oitavo, o golpe da família. A voz do seu filho pedindo dinheiro urgente; combina uma palavra secreta com a família. Pode ser: "Primeiro: a voz do seu filho, desesperada, pedindo dinheiro. Combina hoje uma palavra secreta com a família."
+
+Nono e décimo, o famoso. Famoso vendendo investimento milagroso; em Portugal, a CMVM avisou que famoso no vídeo não prova que é verdade. Pode ser: "Segundo: famoso oferecendo investimento que rende demais. A CMVM, em Portugal, avisou: ver o famoso no vídeo não quer dizer que é verdade." O nome CMVM e Portugal ficam.
+
+Décimo primeiro ao décimo terceiro, o banco. O banco ligando, com número falsificado; no Reino Unido e no Brasil, banco não liga pedindo senha nem transferência; desliga. Pode ser: "Terceiro: o número do seu banco aparece no celular, mas é falso. Banco não liga pedindo senha nem transferência, nem aqui no Reino Unido, nem no Brasil. Desliga." Reino Unido e Brasil ficam; senha e transferência também.
+
+Décimo quarto, o fecho. Se deu pra me copiar, imagina quem vive disso. Pode ser: "Se eu consegui me copiar, pensa no que faz quem trabalha com isso." Depois, uma pausa.
+
+Por fim, o pedido. Comenta GOLPE que eu te mando os cinco sinais, e manda pro grupo da família. Pode ser: "Escreve GOLPE aqui embaixo que eu te mando os cinco sinais de que é golpe." E: "Manda esse vídeo pro grupo da sua família." A palavra é GOLPE, sem trocar, e são cinco sinais. O pedido de mandar pro grupo da família também fica.
+
+Fontes (não precisa ler em voz alta)
+
+Starling Bank, Safe Phrases, 18/09/2024: https://www.starlingbank.com/news/starling-bank-launches-safe-phrases-campaign/
+CMVM via 24noticias, 01/09/2026: https://24noticias.sapo.pt/atualidade/artigos/cmvm-alerta-para-aumento-de-fraudes-associadas-a-falsos-investimentos
+CMVM via RTP: https://www.rtp.pt/noticias/economia/cmvm-alerta-para-fraudes-com-imagem-de-personalidades-publicas-e-entidades-supervisionadas_n1691575
+Take Five (UK Finance), spoofing: https://www.takefive-stopfraud.org.uk/advice/general-advice/impersonation-fraud/
+Crimestoppers: https://crimestoppers-uk.org/keeping-safe/fraud/protecting-yourself-against-financial-fraud
+Febraban via O Povo, 02/04/2024: https://www.opovo.com.br/noticias/economia/2024/04/02/federacao-de-bancos-alerta-para-golpes-a-contas-bancarias-veja-dicas.html
+Report Fraud substitui o Action Fraud: https://www.techuk.org/insights/news/report-fraud-service-replaces-action-fraud-as-uk-s-official-fraud-reporting-portal
+Report Fraud: https://www.reportfraud.police.uk/
+Ofcom, 7726: https://www.ofcom.org.uk/phones-and-broadband/scam-calls-and-messages/7726-reporting-scam-texts-and-calls
+Queixa Eletrónica: https://queixaselectronicas.mai.gov.pt/
+BBC News, famosos em deepfake (2023): https://www.youtube.com/watch?v=0Qpxecldv4A
+Fantástico, falsa central (2026): https://www.youtube.com/watch?v=y_SsYor1tsA
+Starling, vídeo da campanha: https://www.youtube.com/watch?v=E_jP1R6aiUU

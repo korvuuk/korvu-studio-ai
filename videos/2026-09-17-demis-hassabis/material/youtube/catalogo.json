@@ -1,0 +1,49 @@
+[
+  {
+    "id": "WXuK6gekU1Y",
+    "url": "https://www.youtube.com/watch?v=WXuK6gekU1Y",
+    "titulo": "AlphaGo - The Movie | Full award-winning documentary",
+    "canal": "Google DeepMind",
+    "publicado_em": "2020-03-13",
+    "duracao_s": 5428.0,
+    "visualizacoes": 38419921,
+    "licenca": "todos os direitos reservados",
+    "fps": 23.976,
+    "arquivo": "videos/2026-09-17-demis-hassabis/material/youtube/WXuK6gekU1Y-AlphaGo_-_The_Movie_Full_award-winning_documentary.mp4",
+    "proxy": null,
+    "credito": "AlphaGo - The Movie | Full award-winning documentary (Google DeepMind)",
+    "uso": "comentario",
+    "baixado_em": "2026-10-01",
+    "linhas": [
+      "L06",
+      "L07",
+      "L08"
+    ],
+    "motivo": "Filme AlphaGo (2017), canal oficial Google DeepMind: Hassabis na sala de controle",
+    "momentos": [],
+    "trechos": [
+      {
+        "id": "E36",
+        "inicio": "1:17:44",
+        "fim": "1:17:49",
+        "inicio_s": 4664.0,
+        "fim_s": 4669.42,
+        "duracao_s": 5.198,
+        "o_que": "Hassabis na sala de controle, concentrado, mão no queixo, vendo AlphaGo x Lee Sedol",
+        "som": false,
+        "arquivo": "videos/2026-09-17-demis-hassabis/brutos/extras/E36-hassabis-assiste-alphago.mp4"
+      },
+      {
+        "id": "E37",
+        "inicio": "8:41",
+        "fim": "8:46",
+        "inicio_s": 521.8,
+        "fim_s": 526.18,
+        "duracao_s": 4.201,
+        "o_que": "Hassabis em entrevista explicando a complexidade do Go (mais configurações que átomos)",
+        "som": false,
+        "arquivo": "videos/2026-09-17-demis-hassabis/brutos/extras/E37-hassabis-explica-go.mp4"
+      }
+    ]
+  }
+]

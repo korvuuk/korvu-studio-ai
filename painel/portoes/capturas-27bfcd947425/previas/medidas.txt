@@ -1,0 +1,4 @@
+# capturar.sh · 2026-10-24T21:56:38.925Z
+# alvo	largura pedida	innerWidth	scrollWidth	altura	HTTP	png	passa da borda
+painel/design/previas/vazio.html	1440	1440	1440	900	200	/Users/teste/Documents/CONTENT AI/painel/portoes/capturas-27bfcd947425/previas/vazio-1440.png	
+painel/design/previas/vazio.html	375	375	375	1096	200	/Users/teste/Documents/CONTENT AI/painel/portoes/capturas-27bfcd947425/previas/vazio-375.png	

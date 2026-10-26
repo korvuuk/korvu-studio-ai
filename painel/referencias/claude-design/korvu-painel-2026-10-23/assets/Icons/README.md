@@ -1,0 +1,1 @@
+Os 7 ícones de navegação da sidebar: outline, grelha 24px, traço 1.5px, pontas arredondadas, traço em `ink` (#111111). No produto use `Korvu.icon(nome, tamanho)`, que herda a cor (`currentColor`); estes ficheiros servem para documentação e exportação.

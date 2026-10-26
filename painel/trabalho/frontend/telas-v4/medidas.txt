@@ -1,0 +1,16 @@
+# capturar.sh · 2026-10-25T21:32:05.402Z
+# alvo	largura pedida	innerWidth	scrollWidth	altura	HTTP	png	passa da borda
+/	1440	1440	1440	1685	200	/Users/teste/Documents/CONTENT AI/painel/trabalho/frontend/telas-v4/inicio-1440.png	
+/	375	375	375	3534	200	/Users/teste/Documents/CONTENT AI/painel/trabalho/frontend/telas-v4/inicio-375.png	
+/equipe	1440	1440	1440	1751	200	/Users/teste/Documents/CONTENT AI/painel/trabalho/frontend/telas-v4/equipe-1440.png	
+/equipe	375	375	375	4087	200	/Users/teste/Documents/CONTENT AI/painel/trabalho/frontend/telas-v4/equipe-375.png	
+/producao	1440	1440	1440	1430	200	/Users/teste/Documents/CONTENT AI/painel/trabalho/frontend/telas-v4/producao-1440.png	
+/producao	375	375	375	2200	200	/Users/teste/Documents/CONTENT AI/painel/trabalho/frontend/telas-v4/producao-375.png	
+/calendario	1440	1440	1440	1512	200	/Users/teste/Documents/CONTENT AI/painel/trabalho/frontend/telas-v4/calendario-1440.png	
+/calendario	375	375	375	2331	200	/Users/teste/Documents/CONTENT AI/painel/trabalho/frontend/telas-v4/calendario-375.png	
+/desempenho	1440	1440	1440	1635	200	/Users/teste/Documents/CONTENT AI/painel/trabalho/frontend/telas-v4/desempenho-1440.png	
+/desempenho	375	375	375	2992	200	/Users/teste/Documents/CONTENT AI/painel/trabalho/frontend/telas-v4/desempenho-375.png	
+/biblioteca	1440	1440	1440	1823	200	/Users/teste/Documents/CONTENT AI/painel/trabalho/frontend/telas-v4/biblioteca-1440.png	
+/biblioteca	375	375	375	3687	200	/Users/teste/Documents/CONTENT AI/painel/trabalho/frontend/telas-v4/biblioteca-375.png	
+/tokens	1440	1440	1440	2129	200	/Users/teste/Documents/CONTENT AI/painel/trabalho/frontend/telas-v4/tokens-1440.png	
+/tokens	375	375	375	3683	200	/Users/teste/Documents/CONTENT AI/painel/trabalho/frontend/telas-v4/tokens-375.png	

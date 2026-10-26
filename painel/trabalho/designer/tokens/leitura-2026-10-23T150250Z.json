@@ -1,0 +1,526 @@
+{
+ "janela": [
+  "2026-09-24",
+  "2026-10-23"
+ ],
+ "ate": "2026-10-23T15:02:50+00:00",
+ "total_tokens": 37699450,
+ "total_us": 482.14,
+ "cache_lido": 1110629514,
+ "por_modelo": [
+  {
+   "modelo": "claude-opus-5-5",
+   "tokens": 31280752,
+   "us": 390.6
+  },
+  {
+   "modelo": "claude-sonnet-5-5",
+   "tokens": 4590342,
+   "us": 22.34
+  },
+  {
+   "modelo": "claude-fable-5-1",
+   "tokens": 1828356,
+   "us": 69.2
+  }
+ ],
+ "por_departamento": [
+  {
+   "departamento": "direcao",
+   "tokens": 23592959,
+   "us": 346.53
+  },
+  {
+   "departamento": "tecnologia",
+   "tokens": 6427611,
+   "us": 87.21
+  },
+  {
+   "departamento": "pos",
+   "tokens": 2625842,
+   "us": 19.38
+  },
+  {
+   "departamento": "roteiro",
+   "tokens": 2098188,
+   "us": 12.19
+  },
+  {
+   "departamento": "pesquisa",
+   "tokens": 1733923,
+   "us": 10.8
+  },
+  {
+   "departamento": "arte",
+   "tokens": 909271,
+   "us": 4.18
+  },
+  {
+   "departamento": "distribuicao",
+   "tokens": 311656,
+   "us": 1.84
+  }
+ ],
+ "por_agente": [
+  {
+   "agente": "principal",
+   "tokens": 17853912,
+   "us": 287.82,
+   "tarefas": 13,
+   "modelos": {
+    "claude-opus-5-5": 16025556,
+    "claude-fable-5-1": 1828356
+   }
+  },
+  {
+   "agente": "general-purpose",
+   "tokens": 3970790,
+   "us": 34.87,
+   "tarefas": 24,
+   "modelos": {
+    "claude-opus-5-5": 3970790
+   }
+  },
+  {
+   "agente": "designer-de-produto",
+   "tokens": 2401343,
+   "us": 28.39,
+   "tarefas": 2,
+   "modelos": {
+    "claude-opus-5-5": 2401343
+   }
+  },
+  {
+   "agente": "portao-interface",
+   "tokens": 2115597,
+   "us": 28.54,
+   "tarefas": 4,
+   "modelos": {
+    "claude-opus-5-5": 2115597
+   }
+  },
+  {
+   "agente": "editor-de-video",
+   "tokens": 1957283,
+   "us": 16.68,
+   "tarefas": 4,
+   "modelos": {
+    "claude-opus-5-5": 1957283
+   }
+  },
+  {
+   "agente": "workflow-subagent",
+   "tokens": 1139745,
+   "us": 16.6,
+   "tarefas": 4,
+   "modelos": {
+    "claude-opus-5-5": 1139745
+   }
+  },
+  {
+   "agente": "roteirista",
+   "tokens": 935527,
+   "us": 7.73,
+   "tarefas": 9,
+   "modelos": {
+    "claude-opus-5-5": 935527
+   }
+  },
+  {
+   "agente": "buscador-de-videos",
+   "tokens": 872232,
+   "us": 6.04,
+   "tarefas": 7,
+   "modelos": {
+    "claude-sonnet-5-5": 872232
+   }
+  },
+  {
+   "agente": "engenheiro-frontend",
+   "tokens": 748801,
+   "us": 11.78,
+   "tarefas": 3,
+   "modelos": {
+    "claude-opus-5-5": 748801
+   }
+  },
+  {
+   "agente": "pesquisador-de-material",
+   "tokens": 738695,
+   "us": 4.34,
+   "tarefas": 7,
+   "modelos": {
+    "claude-sonnet-5-5": 738695
+   }
+  },
+  {
+   "agente": "revisor-de-roteiro",
+   "tokens": 722454,
+   "us": 2.37,
+   "tarefas": 14,
+   "modelos": {
+    "claude-sonnet-5-5": 722454
+   }
+  },
+  {
+   "agente": "portao-dados",
+   "tokens": 606240,
+   "us": 9.81,
+   "tarefas": 2,
+   "modelos": {
+    "claude-opus-5-5": 606240
+   }
+  },
+  {
+   "agente": "revisor-de-video",
+   "tokens": 585944,
+   "us": 2.42,
+   "tarefas": 13,
+   "modelos": {
+    "claude-sonnet-5-5": 585944
+   }
+  },
+  {
+   "agente": "engenheiro-backend",
+   "tokens": 555630,
+   "us": 8.69,
+   "tarefas": 2,
+   "modelos": {
+    "claude-opus-5-5": 555630
+   }
+  },
+  {
+   "agente": "claude",
+   "tokens": 551286,
+   "us": 6.77,
+   "tarefas": 3,
+   "modelos": {
+    "claude-opus-5-5": 551286
+   }
+  },
+  {
+   "agente": "produtor-de-material",
+   "tokens": 440207,
+   "us": 2.09,
+   "tarefas": 8,
+   "modelos": {
+    "claude-sonnet-5-5": 440207
+   }
+  },
+  {
+   "agente": "designer-de-capas",
+   "tokens": 439340,
+   "us": 1.78,
+   "tarefas": 3,
+   "modelos": {
+    "claude-sonnet-5-5": 439340
+   }
+  },
+  {
+   "agente": "colorista",
+   "tokens": 411347,
+   "us": 2.01,
+   "tarefas": 3,
+   "modelos": {
+    "claude-sonnet-5-5": 411347
+   }
+  },
+  {
+   "agente": "auditor-de-perfil",
+   "tokens": 137144,
+   "us": 1.26,
+   "tarefas": 1,
+   "modelos": {
+    "claude-opus-5-5": 137144
+   }
+  },
+  {
+   "agente": "publicador",
+   "tokens": 133485,
+   "us": 0.46,
+   "tarefas": 3,
+   "modelos": {
+    "claude-sonnet-5-5": 133485
+   }
+  },
+  {
+   "agente": "estrategista",
+   "tokens": 122996,
+   "us": 0.42,
+   "tarefas": 1,
+   "modelos": {
+    "claude-sonnet-5-5": 122996
+   }
+  },
+  {
+   "agente": "produtor-musical",
+   "tokens": 82615,
+   "us": 0.28,
+   "tarefas": 3,
+   "modelos": {
+    "claude-sonnet-5-5": 82615
+   }
+  },
+  {
+   "agente": "Explore",
+   "tokens": 77226,
+   "us": 0.48,
+   "tarefas": 1,
+   "modelos": {
+    "claude-opus-5-5": 77226
+   }
+  },
+  {
+   "agente": "animador",
+   "tokens": 58584,
+   "us": 0.39,
+   "tarefas": 1,
+   "modelos": {
+    "claude-opus-5-5": 58584
+   }
+  },
+  {
+   "agente": "analista-de-metricas",
+   "tokens": 41027,
+   "us": 0.12,
+   "tarefas": 1,
+   "modelos": {
+    "claude-sonnet-5-5": 41027
+   }
+  }
+ ],
+ "por_video": [
+  {
+   "slug": "2026-10-20-geoffrey-hinton",
+   "tokens": 4538393,
+   "us": 33.02
+  },
+  {
+   "slug": "2026-10-23-v1",
+   "tokens": 2335956,
+   "us": 29.58
+  },
+  {
+   "slug": "2026-10-22-v",
+   "tokens": 863043,
+   "us": 13.45
+  },
+  {
+   "slug": "2026-10-22-v1",
+   "tokens": 741115,
+   "us": 12.19
+  },
+  {
+   "slug": "2026-09-17-demis-hassabis",
+   "tokens": 894253,
+   "us": 7.46
+  },
+  {
+   "slug": "2026-10-22-v2",
+   "tokens": 442021,
+   "us": 6.82
+  },
+  {
+   "slug": "2026-10-23-livro-chatgpt",
+   "tokens": 1030408,
+   "us": 6.35
+  },
+  {
+   "slug": "2026-10-20-fei-fei-li",
+   "tokens": 738755,
+   "us": 4.64
+  },
+  {
+   "slug": "2026-10-21-golpes-com-ia",
+   "tokens": 554218,
+   "us": 3.65
+  },
+  {
+   "slug": "2026-10-13-serie-perfis-ia",
+   "tokens": 537860,
+   "us": 3.01
+  },
+  {
+   "slug": "2026-10-22-15-coisas-ia-negocio",
+   "tokens": 458911,
+   "us": 2.81
+  },
+  {
+   "slug": "2026-10-21-foto-da-loja",
+   "tokens": 331187,
+   "us": 2.52
+  },
+  {
+   "slug": "2026-10-22-agente-3-passos",
+   "tokens": 372482,
+   "us": 2.2
+  },
+  {
+   "slug": "2026-10-24-comando-secreto",
+   "tokens": 335484,
+   "us": 2.1
+  },
+  {
+   "slug": "2026-05-08-201030",
+   "tokens": 77226,
+   "us": 0.48
+  },
+  {
+   "slug": "2026-10-23-contrato-chatgpt",
+   "tokens": 72604,
+   "us": 0.24
+  }
+ ],
+ "por_dia": [
+  {
+   "dia": "2026-09-24",
+   "tokens": 0,
+   "us": 0
+  },
+  {
+   "dia": "2026-09-25",
+   "tokens": 0,
+   "us": 0
+  },
+  {
+   "dia": "2026-09-26",
+   "tokens": 0,
+   "us": 0
+  },
+  {
+   "dia": "2026-09-27",
+   "tokens": 0,
+   "us": 0
+  },
+  {
+   "dia": "2026-09-28",
+   "tokens": 0,
+   "us": 0
+  },
+  {
+   "dia": "2026-09-29",
+   "tokens": 0,
+   "us": 0
+  },
+  {
+   "dia": "2026-09-30",
+   "tokens": 0,
+   "us": 0
+  },
+  {
+   "dia": "2026-10-01",
+   "tokens": 749111,
+   "us": 17.14
+  },
+  {
+   "dia": "2026-10-02",
+   "tokens": 501984,
+   "us": 5.31
+  },
+  {
+   "dia": "2026-10-03",
+   "tokens": 0,
+   "us": 0
+  },
+  {
+   "dia": "2026-10-04",
+   "tokens": 0,
+   "us": 0
+  },
+  {
+   "dia": "2026-10-05",
+   "tokens": 0,
+   "us": 0
+  },
+  {
+   "dia": "2026-10-06",
+   "tokens": 0,
+   "us": 0
+  },
+  {
+   "dia": "2026-10-07",
+   "tokens": 444086,
+   "us": 2.88
+  },
+  {
+   "dia": "2026-10-08",
+   "tokens": 460937,
+   "us": 3.79
+  },
+  {
+   "dia": "2026-10-09",
+   "tokens": 191001,
+   "us": 2.52
+  },
+  {
+   "dia": "2026-10-10",
+   "tokens": 0,
+   "us": 0
+  },
+  {
+   "dia": "2026-10-11",
+   "tokens": 0,
+   "us": 0
+  },
+  {
+   "dia": "2026-10-12",
+   "tokens": 0,
+   "us": 0
+  },
+  {
+   "dia": "2026-10-13",
+   "tokens": 1763667,
+   "us": 26.12
+  },
+  {
+   "dia": "2026-10-14",
+   "tokens": 7763677,
+   "us": 72.45
+  },
+  {
+   "dia": "2026-10-15",
+   "tokens": 3673533,
+   "us": 41.01
+  },
+  {
+   "dia": "2026-10-16",
+   "tokens": 1054589,
+   "us": 9.44
+  },
+  {
+   "dia": "2026-10-17",
+   "tokens": 2443274,
+   "us": 17.21
+  },
+  {
+   "dia": "2026-10-18",
+   "tokens": 0,
+   "us": 0
+  },
+  {
+   "dia": "2026-10-19",
+   "tokens": 0,
+   "us": 0
+  },
+  {
+   "dia": "2026-10-20",
+   "tokens": 0,
+   "us": 0
+  },
+  {
+   "dia": "2026-10-21",
+   "tokens": 3820438,
+   "us": 81.77
+  },
+  {
+   "dia": "2026-10-22",
+   "tokens": 6161223,
+   "us": 92.33
+  },
+  {
+   "dia": "2026-10-23",
+   "tokens": 8671930,
+   "us": 110.17
+  }
+ ]
+}

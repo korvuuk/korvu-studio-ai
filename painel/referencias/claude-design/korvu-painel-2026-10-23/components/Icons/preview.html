@@ -1,0 +1,14 @@
+<!-- @dsCard group="Marca" height=190 -->
+<!doctype html>
+<html lang="pt">
+<head><meta charset="utf-8"><style>body{padding:24px}</style></head>
+<body>
+<div style="display:grid;grid-template-columns:repeat(7,1fr);gap:8px;margin-bottom:16px" id="nav"></div>
+<div style="display:flex;flex-wrap:wrap;gap:14px;color:var(--ink-2)" id="ui"></div>
+<script>
+var K=window.Korvu,L={"visao-geral":"Visão geral","equipe":"Equipe","videos-portoes":"Vídeos e portões","calendario":"Calendário","desempenho":"Desempenho","biblioteca":"Biblioteca","tokens-custos":"Tokens e custos"};
+K.navIcons.forEach(function(n){var d=document.createElement("div");d.style.cssText="display:flex;flex-direction:column;align-items:center;gap:8px;padding:14px 4px;border:1px solid var(--line);border-radius:var(--radius-btn);background:var(--surface);font-size:11px;color:var(--ink-2);text-align:center";d.innerHTML=K.icon(n,24)+"<span>"+L[n]+"</span>";document.getElementById("nav").appendChild(d);});
+Object.keys(K.icons).filter(function(n){return K.navIcons.indexOf(n)<0}).forEach(function(n){var d=document.createElement("span");d.title=n;d.innerHTML=K.icon(n,20);document.getElementById("ui").appendChild(d);});
+</script>
+</body>
+</html>

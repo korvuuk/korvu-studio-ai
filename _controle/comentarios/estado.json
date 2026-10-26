@@ -1,0 +1,78 @@
+{
+  "comentarios": {
+    "18130374068311246": {
+      "slug": "2026-09-17-demis-hassabis",
+      "media": "18632821522039486",
+      "usuario": "korvu.uk",
+      "usuario_id": "1215177186714541",
+      "texto": "Korvu20",
+      "comentado_em": "2026-10-13T16:01:01+0000",
+      "visto_em": "2026-10-13T17:04:27+01:00",
+      "direct": "aWdfZAG1faXRlbToxOklHTWVzc2FnZAUlEOjE3ODQxNDAwNDIxNTMzNTExOjM0MDI4MjM2Njg0MTcxMDMwMTI0NDI1OTg1MDU5MjMzNzU4ODQ1NTozMzA1NDg1OTYyNTk5NDk5MzAxMzI0NTQwOTY3OTYzODUyOAZDZD",
+      "publica": "17947895985068424",
+      "tentativas": 0,
+      "erro": null,
+      "final": true,
+      "direct_em": "2026-10-13T17:05:31+01:00"
+    },
+    "18438297007180036": {
+      "slug": "2026-10-20-geoffrey-hinton-r2",
+      "media": "18208260325372117",
+      "usuario": "elisandro6861",
+      "usuario_id": "1687151082854427",
+      "texto": "Nobel",
+      "comentado_em": "2026-10-26T00:53:37+0000",
+      "visto_em": "2026-10-26T00:54:48+00:00",
+      "direct": "aWdfZAG1faXRlbToxOklHTWVzc2FnZAUlEOjE3ODQxNDAwNDIxNTMzNTExOjM0MDI4MjM2Njg0MTcxMDMwMTI0NDI1OTc2NDQ2ODgxOTU4NjkyMzozMzA3NDU3MTExMDY1NTY4NzgxNDcyNzg0Mjc3NTY5NTM2MAZDZD",
+      "publica": "18063380117555172",
+      "tentativas": 0,
+      "erro": null,
+      "final": true,
+      "direct_em": "2026-10-26T00:54:53+00:00"
+    },
+    "18102906083640653": {
+      "slug": "2026-10-20-geoffrey-hinton-r2",
+      "media": "18208260325372117",
+      "usuario": "annabeatriz.bergo",
+      "usuario_id": "2376326702905002",
+      "texto": "Nobel",
+      "comentado_em": "2026-10-26T02:46:57+0000",
+      "visto_em": "2026-10-26T02:47:53+00:00",
+      "direct": "aWdfZAG1faXRlbToxOklHTWVzc2FnZAUlEOjE3ODQxNDAwNDIxNTMzNTExOjM0MDI4MjM2Njg0MTcxMDMwMTI0NDI1ODcyMDE0OTA0MDYzMjc5NjozMzA3NDY5NjIyNDYyMzM2MTQxNjMwMjE2MDc4MTUwODYwOAZDZD",
+      "publica": "17881880451547494",
+      "tentativas": 0,
+      "erro": null,
+      "final": true,
+      "direct_em": "2026-10-26T02:47:55+00:00"
+    },
+    "17881534434549056": {
+      "slug": "2026-10-20-geoffrey-hinton-r2",
+      "media": "18208260325372117",
+      "usuario": "tranquillinijudo",
+      "usuario_id": "2002018730466252",
+      "texto": "Nobel",
+      "comentado_em": "2026-10-26T09:44:52+0000",
+      "visto_em": "2026-10-26T13:48:38+00:00",
+      "direct": "aWdfZAG1faXRlbToxOklHTWVzc2FnZAUlEOjE3ODQxNDAwNDIxNTMzNTExOjM0MDI4MjM2Njg0MTcxMDMwMTI0NDI1OTIxOTkzNjQ4MjMyNjk5MTozMzA3NTQyNzU3ODEzODg3OTg1Mjg2MzA3NjM0MTY0NTMxMgZDZD",
+      "publica": "18473544010184289",
+      "tentativas": 0,
+      "erro": null,
+      "final": true,
+      "direct_em": "2026-10-26T13:48:43+00:00"
+    },
+    "17989584429064822": {
+      "slug": "2026-10-20-geoffrey-hinton-r2",
+      "media": "18208260325372117",
+      "usuario": "luizfernandos.alves._holly_ken",
+      "usuario_id": "2133507253968829",
+      "texto": "Nobel🙌❤️🔥😍",
+      "comentado_em": "2026-10-26T11:42:53+0000",
+      "visto_em": "2026-10-26T14:04:01+00:00",
+      "direct": null,
+      "publica": null,
+      "tentativas": 5,
+      "erro": "Meta 400 em graph/1342440345624490/messages (code 100/2534025): (#100) O comentário para uma resposta privada não é válido → parâmetro inválido ou ID errado (confira INSTAGRAM_USER_ID / META_PAGE_ID) [fbtrace Aw-9Cv2aNl-CNcF95xoLP_V]",
+      "final": true
+    }
+  }
+}

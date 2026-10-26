@@ -1,0 +1,10 @@
+# capturar.sh · 2026-10-24T22:00:38.777Z
+# alvo	largura pedida	innerWidth	scrollWidth	altura	HTTP	png	passa da borda
+painel/design/telas/calendario.html	1440	1440	1440	3533	200	/Users/teste/Documents/CONTENT AI/painel/trabalho/designer/telas-24out-v2/calendario-1440.png	
+painel/design/telas/calendario.html	1600	1600	1600	3486	200	/Users/teste/Documents/CONTENT AI/painel/trabalho/designer/telas-24out-v2/calendario-1600.png	
+painel/design/telas/calendario.html	1920	1920	1920	3040	200	/Users/teste/Documents/CONTENT AI/painel/trabalho/designer/telas-24out-v2/calendario-1920.png	
+painel/design/telas/calendario.html	375	375	375	6993	200	/Users/teste/Documents/CONTENT AI/painel/trabalho/designer/telas-24out-v2/calendario-375.png	
+painel/design/telas/biblioteca.html	1440	1440	1440	4288	200	/Users/teste/Documents/CONTENT AI/painel/trabalho/designer/telas-24out-v2/biblioteca-1440.png	
+painel/design/telas/biblioteca.html	1600	1600	1600	3781	200	/Users/teste/Documents/CONTENT AI/painel/trabalho/designer/telas-24out-v2/biblioteca-1600.png	
+painel/design/telas/biblioteca.html	1920	1920	1920	3815	200	/Users/teste/Documents/CONTENT AI/painel/trabalho/designer/telas-24out-v2/biblioteca-1920.png	
+painel/design/telas/biblioteca.html	375	375	375	8870	200	/Users/teste/Documents/CONTENT AI/painel/trabalho/designer/telas-24out-v2/biblioteca-375.png	

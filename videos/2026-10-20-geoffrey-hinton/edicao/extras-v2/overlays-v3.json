@@ -1,0 +1,603 @@
+{
+ "origem": "edicao/sequencia-extras-v2.md",
+ "overlays": [
+  {
+   "linhas": [
+    "L03"
+   ],
+   "tipo": "extra",
+   "extra": "V01",
+   "extra_tipo": "imagem",
+   "arquivo": "edicao/extras-v2/CAPA-02.jpg",
+   "modo": "full",
+   "som": false,
+   "credito": "John Sears / Wikimedia Commons (CC BY-SA 4.0)",
+   "faltando": false,
+   "saida_inicio": 12.48,
+   "saida_fim": 16.48,
+   "enquadrar": {
+    "x": 0.54,
+    "y": 0.27,
+    "zoom": 1.08
+   },
+   "descricao": "v2 #1 CAPA-02"
+  },
+  {
+   "linhas": [
+    "L04"
+   ],
+   "tipo": "extra",
+   "extra": "V02",
+   "extra_tipo": "video",
+   "arquivo": "edicao/extras-v2/V02-P02.mp4",
+   "modo": "full",
+   "som": false,
+   "credito": "The Diary of a CEO",
+   "faltando": false,
+   "saida_inicio": 16.48,
+   "saida_fim": 18.52,
+   "enquadrar": {
+    "x": 0.58,
+    "xFim": 0.36,
+    "y": 0.45,
+    "area": {
+     "x": 0,
+     "y": 0,
+     "largura": 1920,
+     "altura": 1000
+    }
+   },
+   "descricao": "v2 #2 P02",
+   "in": 0.0
+  },
+  {
+   "linhas": [
+    "L04"
+   ],
+   "tipo": "extra",
+   "extra": "V03",
+   "extra_tipo": "video",
+   "arquivo": "edicao/extras-v2/V03-P11.mp4",
+   "modo": "full",
+   "som": false,
+   "credito": "The Diary of a CEO",
+   "faltando": false,
+   "saida_inicio": 18.52,
+   "saida_fim": 20.44,
+   "enquadrar": {
+    "x": 0.48,
+    "y": 0.5,
+    "area": {
+     "x": 0,
+     "y": 0,
+     "largura": 1920,
+     "altura": 900
+    }
+   },
+   "descricao": "v2 #3 P11",
+   "in": 0.5
+  },
+  {
+   "linhas": [
+    "L04"
+   ],
+   "tipo": "extra",
+   "extra": "V04",
+   "extra_tipo": "video",
+   "arquivo": "edicao/extras-v2/V04-P14.mp4",
+   "modo": "full",
+   "som": false,
+   "credito": "The Diary of a CEO",
+   "faltando": false,
+   "saida_inicio": 20.44,
+   "saida_fim": 22.4,
+   "enquadrar": {
+    "x": 0.52,
+    "y": 0.45,
+    "area": {
+     "x": 576,
+     "y": 44,
+     "largura": 768,
+     "altura": 992
+    }
+   },
+   "descricao": "v2 #4 P14",
+   "in": 0.5
+  },
+  {
+   "linhas": [
+    "L05"
+   ],
+   "tipo": "extra",
+   "extra": "V06",
+   "extra_tipo": "imagem",
+   "arquivo": "edicao/extras-v2/F01.jpg",
+   "modo": "full",
+   "som": false,
+   "credito": "60 Minutes / CBS News",
+   "faltando": false,
+   "saida_inicio": 22.4,
+   "saida_fim": 28.88,
+   "enquadrar": {
+    "x": 0.47,
+    "y": 0.4
+   },
+   "descricao": "v2 #6 F01 (v3: cobre L05 inteira, F02 saiu — repetia E05)"
+  },
+  {
+   "linhas": [
+    "L06"
+   ],
+   "tipo": "extra",
+   "extra": "V07",
+   "extra_tipo": "video",
+   "arquivo": "edicao/extras-v2/V07-P04.mp4",
+   "modo": "full",
+   "som": false,
+   "credito": "The Diary of a CEO",
+   "faltando": false,
+   "saida_inicio": 28.88,
+   "saida_fim": 33.16,
+   "enquadrar": {
+    "x": 0.5,
+    "y": 0.5
+   },
+   "descricao": "v2 #7 P04",
+   "in": 0.8
+  },
+  {
+   "linhas": [
+    "L07"
+   ],
+   "tipo": "extra",
+   "extra": "V08",
+   "extra_tipo": "video",
+   "arquivo": "edicao/extras-v2/V08-E03.mp4",
+   "modo": "full",
+   "som": false,
+   "credito": "60 Minutes / CBS News",
+   "faltando": false,
+   "saida_inicio": 33.16,
+   "saida_fim": 38.68,
+   "enquadrar": {
+    "x": 0.5,
+    "y": 0.4,
+    "area": {
+     "x": 560,
+     "y": 0,
+     "largura": 790,
+     "altura": 1080
+    }
+   },
+   "descricao": "v2 #8 E03",
+   "in": 0.0
+  },
+  {
+   "linhas": [
+    "L08"
+   ],
+   "tipo": "extra",
+   "extra": "V09",
+   "extra_tipo": "video",
+   "arquivo": "edicao/extras-v2/V09-P06.mp4",
+   "modo": "full",
+   "som": false,
+   "credito": "The Diary of a CEO",
+   "faltando": false,
+   "saida_inicio": 38.68,
+   "saida_fim": 44.36,
+   "enquadrar": {
+    "x": 0.36,
+    "xFim": 0.5,
+    "y": 0.6,
+    "area": {
+     "x": 340,
+     "y": 84,
+     "largura": 1236,
+     "altura": 796
+    }
+   },
+   "descricao": "v2 #9 P06",
+   "in": 1.12,
+   "out": 6.0
+  },
+  {
+   "linhas": [
+    "L09"
+   ],
+   "tipo": "extra",
+   "extra": "V10",
+   "extra_tipo": "video",
+   "arquivo": "edicao/extras-v2/V10-P03.mp4",
+   "modo": "full",
+   "som": false,
+   "credito": "The Diary of a CEO",
+   "faltando": false,
+   "saida_inicio": 44.36,
+   "saida_fim": 48.92,
+   "enquadrar": {
+    "x": 0.48,
+    "y": 0.5
+   },
+   "descricao": "v2 #10 P03",
+   "in": 0.0
+  },
+  {
+   "linhas": [
+    "L10"
+   ],
+   "tipo": "extra",
+   "extra": "V11",
+   "extra_tipo": "video",
+   "arquivo": "edicao/extras-v2/V11-E05.mp4",
+   "modo": "full",
+   "som": false,
+   "credito": "60 Minutes / CBS News",
+   "faltando": false,
+   "saida_inicio": 48.92,
+   "saida_fim": 56.48,
+   "enquadrar": {
+    "x": 0.5,
+    "y": 0.45,
+    "area": {
+     "x": 500,
+     "y": 0,
+     "largura": 920,
+     "altura": 1080
+    }
+   },
+   "descricao": "v2 #11 E05",
+   "in": 0.0,
+   "out": 5.6
+  },
+  {
+   "linhas": [
+    "L10"
+   ],
+   "tipo": "extra",
+   "extra": "V12",
+   "extra_tipo": "video",
+   "arquivo": "edicao/extras-v2/V13-P01.mp4",
+   "modo": "full",
+   "som": false,
+   "credito": "The Diary of a CEO",
+   "faltando": false,
+   "saida_inicio": 56.48,
+   "saida_fim": 59.04,
+   "enquadrar": {
+    "x": 0.34,
+    "y": 0.5
+   },
+   "descricao": "v3 #12 P01 (fim da L10)",
+   "in": 0.0
+  },
+  {
+   "linhas": [
+    "L12"
+   ],
+   "tipo": "extra",
+   "extra": "V14",
+   "extra_tipo": "imagem",
+   "arquivo": "edicao/extras-v2/F10.jpg",
+   "modo": "full",
+   "som": false,
+   "credito": "Johnny Guatto / University of Toronto",
+   "faltando": false,
+   "saida_inicio": 63.6,
+   "saida_fim": 67.04,
+   "enquadrar": {
+    "x": 0.22,
+    "xFim": 0.8,
+    "y": 0.5
+   },
+   "descricao": "v2 #14 F10"
+  },
+  {
+   "linhas": [
+    "L13"
+   ],
+   "tipo": "extra",
+   "extra": "V15",
+   "extra_tipo": "imagem",
+   "arquivo": "edicao/extras-v2/F12.jpg",
+   "modo": "full",
+   "som": false,
+   "credito": "University of Toronto / Computer History Museum",
+   "faltando": false,
+   "saida_inicio": 67.04,
+   "saida_fim": 70.84,
+   "enquadrar": {
+    "x": 0.55,
+    "y": 0.5
+   },
+   "descricao": "v2 #15 F12"
+  },
+  {
+   "linhas": [
+    "L13"
+   ],
+   "tipo": "extra",
+   "extra": "V16",
+   "extra_tipo": "imagem",
+   "arquivo": "edicao/extras-v2/F14.jpg",
+   "modo": "full",
+   "som": false,
+   "credito": "ImageNet / Computer History Museum",
+   "faltando": false,
+   "saida_inicio": 70.84,
+   "saida_fim": 74.28,
+   "enquadrar": {
+    "x": 0.74,
+    "y": 0.55
+   },
+   "descricao": "v2 #16 F14"
+  },
+  {
+   "linhas": [
+    "L14"
+   ],
+   "tipo": "extra",
+   "extra": "V17",
+   "extra_tipo": "video",
+   "arquivo": "edicao/extras-v2/V17-P05.mp4",
+   "modo": "full",
+   "som": false,
+   "credito": "The Diary of a CEO",
+   "faltando": false,
+   "saida_inicio": 74.28,
+   "saida_fim": 80.64,
+   "enquadrar": {
+    "x": 0.5,
+    "y": 0.5
+   },
+   "descricao": "v2 #17 P05",
+   "in": 0.4
+  },
+  {
+   "linhas": [
+    "L15"
+   ],
+   "tipo": "extra",
+   "extra": "V18",
+   "extra_tipo": "video",
+   "arquivo": "edicao/extras-v2/V18-E07.mp4",
+   "modo": "full",
+   "som": false,
+   "credito": "60 Minutes / CBS News",
+   "faltando": false,
+   "saida_inicio": 80.64,
+   "saida_fim": 85.84,
+   "enquadrar": {
+    "x": 0.5,
+    "y": 0.5
+   },
+   "descricao": "v2 #18 E07",
+   "in": 2.8
+  },
+  {
+   "linhas": [
+    "L15"
+   ],
+   "tipo": "extra",
+   "extra": "V19",
+   "extra_tipo": "imagem",
+   "arquivo": "edicao/extras-v2/F18.jpg",
+   "modo": "full",
+   "som": false,
+   "credito": "Eviatar Bach / Wikimedia Commons (CC BY-SA 3.0)",
+   "faltando": false,
+   "saida_inicio": 85.84,
+   "saida_fim": 87.68,
+   "enquadrar": {
+    "x": 0.42,
+    "y": 0.3
+   },
+   "descricao": "v2 #19 F18"
+  },
+  {
+   "linhas": [
+    "L16"
+   ],
+   "tipo": "extra",
+   "extra": "V20",
+   "extra_tipo": "imagem",
+   "arquivo": "edicao/extras-v2/F19.jpg",
+   "modo": "full",
+   "som": false,
+   "credito": "Steve Jurvetson / Wikimedia Commons (CC BY 2.0)",
+   "faltando": false,
+   "saida_inicio": 87.68,
+   "saida_fim": 91.32,
+   "enquadrar": {
+    "x": 0.47,
+    "y": 0.5
+   },
+   "descricao": "v2 #20 F19"
+  },
+  {
+   "linhas": [
+    "L16"
+   ],
+   "tipo": "extra",
+   "extra": "V21",
+   "extra_tipo": "imagem",
+   "arquivo": "edicao/extras-v2/F20.jpg",
+   "modo": "full",
+   "som": false,
+   "credito": "Computer History Museum",
+   "faltando": false,
+   "saida_inicio": 91.32,
+   "saida_fim": 94.84,
+   "enquadrar": {
+    "x": 0.26,
+    "y": 0.5
+   },
+   "descricao": "v2 #21 F20"
+  },
+  {
+   "linhas": [
+    "L18"
+   ],
+   "tipo": "extra",
+   "extra": "V22",
+   "extra_tipo": "imagem",
+   "arquivo": "edicao/extras-v2/CAPA-08.jpg",
+   "modo": "full",
+   "som": false,
+   "credito": "Ramsey Cardy / Collision via Sportsfile (CC BY 2.0)",
+   "faltando": false,
+   "saida_inicio": 97.96,
+   "saida_fim": 101.32,
+   "enquadrar": {
+    "x": 0.48,
+    "y": 0.3,
+    "zoom": 1.05
+   },
+   "descricao": "v2 #22 CAPA-08 (v3: L17 volta para o Carlos)"
+  },
+  {
+   "linhas": [
+    "L19"
+   ],
+   "tipo": "extra",
+   "extra": "V23",
+   "extra_tipo": "video",
+   "arquivo": "edicao/extras-v2/V23-E08.mp4",
+   "modo": "full",
+   "som": false,
+   "credito": "BBC News",
+   "faltando": false,
+   "saida_inicio": 101.32,
+   "saida_fim": 107.16,
+   "enquadrar": {
+    "x": 0.56,
+    "y": 0.62,
+    "area": {
+     "x": 0,
+     "y": 0,
+     "largura": 1920,
+     "altura": 790
+    }
+   },
+   "descricao": "v2 #23 E08",
+   "in": 0.0
+  },
+  {
+   "linhas": [
+    "L20",
+    "L21"
+   ],
+   "tipo": "extra",
+   "extra": "V24",
+   "extra_tipo": "video",
+   "arquivo": "edicao/extras-v2/V24-E09.mp4",
+   "modo": "full",
+   "som": false,
+   "credito": "NobelPrize.org",
+   "faltando": false,
+   "saida_inicio": 107.16,
+   "saida_fim": 117.88,
+   "enquadrar": {
+    "x": 0.37,
+    "y": 0.4
+   },
+   "descricao": "v2 #24 E09",
+   "in": 0.0
+  },
+  {
+   "linhas": [
+    "L22"
+   ],
+   "tipo": "extra",
+   "extra": "V25",
+   "extra_tipo": "video",
+   "arquivo": "edicao/extras-v2/V25-P10.mp4",
+   "modo": "full",
+   "som": false,
+   "credito": "The Nobel Prize / The Diary of a CEO",
+   "faltando": false,
+   "saida_inicio": 117.88,
+   "saida_fim": 121.52,
+   "enquadrar": {
+    "x": 0.34,
+    "y": 0.4,
+    "area": {
+     "x": 0,
+     "y": 0,
+     "largura": 1920,
+     "altura": 915
+    }
+   },
+   "descricao": "v2 #25 P10",
+   "in": 0.0
+  },
+  {
+   "linhas": [
+    "L23"
+   ],
+   "tipo": "extra",
+   "extra": "V26",
+   "extra_tipo": "imagem",
+   "arquivo": "edicao/extras-v2/N03.jpg",
+   "modo": "full",
+   "som": false,
+   "credito": "Nobel Prize Outreach / Nanaka Adachi",
+   "faltando": false,
+   "saida_inicio": 121.52,
+   "saida_fim": 125.2,
+   "enquadrar": {
+    "x": 0.5,
+    "y": 0.35
+   },
+   "descricao": "v2 #26 N03"
+  },
+  {
+   "linhas": [
+    "L23"
+   ],
+   "tipo": "extra",
+   "extra": "V27",
+   "extra_tipo": "imagem",
+   "arquivo": "edicao/extras-v2/N18.jpg",
+   "modo": "full",
+   "som": false,
+   "credito": "Jennifer 8. Lee / Wikimedia Commons (CC BY-SA 4.0)",
+   "faltando": false,
+   "saida_inicio": 125.2,
+   "saida_fim": 128.72,
+   "enquadrar": {
+    "x": 0.5,
+    "y": 0.3,
+    "zoom": 1.05
+   },
+   "descricao": "v2 #27 N18"
+  },
+  {
+   "linhas": [
+    "L25"
+   ],
+   "tipo": "extra",
+   "extra": "V29",
+   "extra_tipo": "video",
+   "arquivo": "edicao/extras-v2/V29-E11.mp4",
+   "modo": "full",
+   "som": false,
+   "credito": "NobelPrize.org",
+   "faltando": false,
+   "saida_inicio": 133.28,
+   "saida_fim": 139.12,
+   "enquadrar": {
+    "x": 0.49,
+    "y": 0.4,
+    "area": {
+     "x": 0,
+     "y": 0,
+     "largura": 1700,
+     "altura": 1080
+    }
+   },
+   "descricao": "v2 #29 E11",
+   "in": 0.0
+  }
+ ]
+}

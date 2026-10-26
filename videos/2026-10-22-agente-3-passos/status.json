@@ -1,0 +1,18 @@
+{
+  "slug": "2026-10-22-agente-3-passos",
+  "estado": "roteiro",
+  "atualizado": "2026-10-14T02:48:45+01:00",
+  "historico": [
+    {
+      "estado": "roteiro",
+      "em": "2026-10-14T02:48:45+01:00"
+    },
+    {
+      "data": "2026-10-14",
+      "nota": "material PDF gerado (agente-3-passos.pdf); atenção: Gems viram skills em contas pessoais em nov/2026"
+    }
+  ],
+  "material": {
+    "youtube": "material/youtube/catalogo.md"
+  }
+}

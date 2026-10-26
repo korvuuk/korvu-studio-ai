@@ -1,0 +1,881 @@
+{
+  "linhas": [
+    {
+      "id": "L01",
+      "status": "ok",
+      "escolhido": "L01-T1",
+      "motivo": "último take limpo (sim 0.89)",
+      "takes": [
+        {
+          "take_id": "L01-T1",
+          "fonte": "praq0996",
+          "i_ini": 33,
+          "i_fim": 40,
+          "inicio": 66.22,
+          "fim": 70.025,
+          "sim": 0.889,
+          "cobertura": 0.889,
+          "flags": [],
+          "score": 0.922,
+          "texto": "joga o livro no ChatGPT e escreve /mindmap.",
+          "prefixo": 0.875,
+          "conf": 1.0,
+          "muletas": [],
+          "pausas": []
+        }
+      ],
+      "leituras_ia": [
+        {
+          "fonte": "praq0996",
+          "inicio": 58.54,
+          "fim": 62.635,
+          "sim": 0.889,
+          "texto": "Joga o livro no ChatGPT e escreve /mindmap."
+        }
+      ]
+    },
+    {
+      "id": "L02",
+      "status": "ok",
+      "escolhido": "L02-T2",
+      "motivo": "último take limpo (sim 0.88)",
+      "takes": [
+        {
+          "take_id": "L02-T1",
+          "fonte": "praq0996",
+          "i_ini": 51,
+          "i_fim": 58,
+          "inicio": 77.84,
+          "fim": 80.88,
+          "sim": 0.875,
+          "cobertura": 0.875,
+          "flags": [],
+          "score": 0.812,
+          "texto": "ele te devolve uma mapa mental do livro.",
+          "prefixo": 0.875,
+          "conf": 1.0,
+          "muletas": [],
+          "pausas": []
+        },
+        {
+          "take_id": "L02-T2",
+          "fonte": "praq0996",
+          "i_ini": 69,
+          "i_fim": 76,
+          "inicio": 89.7,
+          "fim": 92.62,
+          "sim": 0.875,
+          "cobertura": 0.875,
+          "flags": [],
+          "score": 0.863,
+          "texto": "Ele te devolve uma mapa mental do livro.",
+          "prefixo": 0.875,
+          "conf": 1.0,
+          "muletas": [],
+          "pausas": []
+        },
+        {
+          "take_id": "L02-T3",
+          "fonte": "praq0996",
+          "i_ini": 87,
+          "i_fim": 94,
+          "inicio": 127.56,
+          "fim": 130.44,
+          "sim": 0.5,
+          "cobertura": 0.5,
+          "flags": [
+            "muleta"
+          ],
+          "score": 0.642,
+          "texto": "ele te devolve a ilustração de um livro.",
+          "prefixo": 0.5,
+          "conf": 1.0,
+          "muletas": [
+            90,
+            93
+          ],
+          "pausas": []
+        }
+      ],
+      "leituras_ia": [
+        {
+          "fonte": "praq0996",
+          "inicio": 72.8,
+          "fim": 75.32,
+          "sim": 1.0,
+          "texto": "ele te devolve o mapa mental do livro."
+        },
+        {
+          "fonte": "praq0996",
+          "inicio": 83.6,
+          "fim": 86.08,
+          "sim": 1.0,
+          "texto": "ele te devolve o mapa mental do livro."
+        }
+      ]
+    },
+    {
+      "id": "L03",
+      "status": "ok",
+      "escolhido": "L03-T3",
+      "motivo": "último take limpo (sim 0.89); pausa interna encurtada",
+      "takes": [
+        {
+          "take_id": "L03-T1",
+          "fonte": "praq0996",
+          "i_ini": 105,
+          "i_fim": 110,
+          "inicio": 208.54,
+          "fim": 212.42,
+          "sim": 0.667,
+          "cobertura": 0.667,
+          "flags": [
+            "pausa_interna",
+            "final_cortado"
+          ],
+          "score": 0.649,
+          "texto": "/Sketchnote, o resumo do livro em",
+          "prefixo": 0.667,
+          "conf": 0.999,
+          "muletas": [],
+          "pausas": [
+            [
+              209.36,
+              210.22
+            ]
+          ]
+        },
+        {
+          "take_id": "L03-T2",
+          "fonte": "praq0996",
+          "i_ini": 112,
+          "i_fim": 120,
+          "inicio": 213.06,
+          "fim": 227.92,
+          "sim": 0.667,
+          "cobertura": 0.778,
+          "flags": [
+            "muleta",
+            "pausa_interna"
+          ],
+          "score": 0.707,
+          "texto": "/Sketchnote, o resumo de um livro em anotação ilustrada.",
+          "prefixo": 0.667,
+          "conf": 1.0,
+          "muletas": [
+            116
+          ],
+          "pausas": [
+            [
+              224.08,
+              225.18
+            ]
+          ]
+        },
+        {
+          "take_id": "L03-T3",
+          "fonte": "praq0996",
+          "i_ini": 121,
+          "i_fim": 128,
+          "inicio": 237.1,
+          "fim": 242.1,
+          "sim": 0.889,
+          "cobertura": 0.889,
+          "flags": [
+            "pausa_interna"
+          ],
+          "score": 0.883,
+          "texto": "/Sketchnote, o resumo do livro em anotação ilustrada.",
+          "prefixo": 0.75,
+          "conf": 1.0,
+          "muletas": [],
+          "pausas": [
+            [
+              238.65,
+              239.52
+            ]
+          ]
+        },
+        {
+          "take_id": "L03-T4",
+          "fonte": "praq0996",
+          "i_ini": 129,
+          "i_fim": 137,
+          "inicio": 249.005,
+          "fim": 254.0,
+          "sim": 0.667,
+          "cobertura": 0.778,
+          "flags": [
+            "muleta"
+          ],
+          "score": 0.78,
+          "texto": "/Sketchnote, o resumo de um livro em anotação ilustrada.",
+          "prefixo": 0.667,
+          "conf": 1.0,
+          "muletas": [
+            133
+          ],
+          "pausas": []
+        }
+      ],
+      "leituras_ia": [
+        {
+          "fonte": "praq0996",
+          "inicio": 94.58,
+          "fim": 99.46,
+          "sim": 0.889,
+          "texto": "/sketchnote. O resumo do livro em anotação ilustrada."
+        }
+      ]
+    },
+    {
+      "id": "L04",
+      "status": "ok",
+      "escolhido": "L04-T3",
+      "motivo": "último take limpo (sim 0.82); pausa interna encurtada",
+      "takes": [
+        {
+          "take_id": "L04-T1",
+          "fonte": "praq0996",
+          "i_ini": 149,
+          "i_fim": 155,
+          "inicio": 278.651,
+          "fim": 283.0,
+          "sim": 0.545,
+          "cobertura": 0.545,
+          "flags": [
+            "pausa_interna",
+            "final_cortado"
+          ],
+          "score": 0.56,
+          "texto": "/Flashcard, ele te entrega o resumo das",
+          "prefixo": 0.429,
+          "conf": 0.968,
+          "muletas": [],
+          "pausas": [
+            [
+              280.02,
+              280.82
+            ]
+          ]
+        },
+        {
+          "take_id": "L04-T2",
+          "fonte": "praq0996",
+          "i_ini": 170,
+          "i_fim": 177,
+          "inicio": 335.275,
+          "fim": 341.2,
+          "sim": 0.636,
+          "cobertura": 0.636,
+          "flags": [
+            "pausa_interna"
+          ],
+          "score": 0.689,
+          "texto": "/Flashcard, ele te retorna o resumo do conteúdo",
+          "prefixo": 0.25,
+          "conf": 1.0,
+          "muletas": [],
+          "pausas": [
+            [
+              336.72,
+              337.46
+            ]
+          ]
+        },
+        {
+          "take_id": "L04-T3",
+          "fonte": "praq0996",
+          "i_ini": 181,
+          "i_fim": 189,
+          "inicio": 366.62,
+          "fim": 371.965,
+          "sim": 0.818,
+          "cobertura": 0.818,
+          "flags": [
+            "pausa_interna"
+          ],
+          "score": 0.864,
+          "texto": "/flashcard. Ele te entrega cartões com resumo do conteúdo.",
+          "prefixo": 0.556,
+          "conf": 0.979,
+          "muletas": [],
+          "pausas": [
+            [
+              367.38,
+              368.88
+            ]
+          ]
+        }
+      ],
+      "leituras_ia": []
+    },
+    {
+      "id": "L05",
+      "status": "ok",
+      "escolhido": "L05-T1",
+      "motivo": "último take limpo (sim 0.90); pausa interna encurtada",
+      "takes": [
+        {
+          "take_id": "L05-T1",
+          "fonte": "praq0996",
+          "i_ini": 200,
+          "i_fim": 208,
+          "inicio": 398.061,
+          "fim": 403.615,
+          "sim": 0.9,
+          "cobertura": 0.9,
+          "flags": [
+            "pausa_interna"
+          ],
+          "score": 0.924,
+          "texto": "/fluxograma. Ele resume o livro num fluxo de aprendizado.",
+          "prefixo": 0.778,
+          "conf": 0.995,
+          "muletas": [],
+          "pausas": [
+            [
+              399.58,
+              400.72
+            ]
+          ]
+        }
+      ],
+      "leituras_ia": []
+    },
+    {
+      "id": "L06",
+      "status": "ok",
+      "escolhido": "L06-T1",
+      "motivo": "último take limpo (sim 0.90); pausa interna encurtada",
+      "takes": [
+        {
+          "take_id": "L06-T1",
+          "fonte": "praq0996",
+          "i_ini": 219,
+          "i_fim": 227,
+          "inicio": 463.28,
+          "fim": 468.76,
+          "sim": 0.9,
+          "cobertura": 0.9,
+          "flags": [
+            "pausa_interna",
+            "sem_ancora"
+          ],
+          "score": 0.924,
+          "texto": "E /quadrinhos. Ele resume as ideias principais em quadrinhos.",
+          "prefixo": 0.778,
+          "conf": 1.0,
+          "muletas": [],
+          "pausas": [
+            [
+              464.58,
+              465.62
+            ]
+          ]
+        }
+      ],
+      "leituras_ia": []
+    },
+    {
+      "id": "L07",
+      "status": "ok",
+      "escolhido": "L07-T2",
+      "motivo": "último take limpo (sim 0.89)",
+      "takes": [
+        {
+          "take_id": "L07-T1",
+          "fonte": "praq0996",
+          "i_ini": 238,
+          "i_fim": 246,
+          "inicio": 485.66,
+          "fim": 488.08,
+          "sim": 0.889,
+          "cobertura": 0.889,
+          "flags": [],
+          "score": 0.822,
+          "texto": "Comente a palavra \"livro\" que eu vou te enviar",
+          "prefixo": 0.889,
+          "conf": 1.0,
+          "muletas": [],
+          "pausas": []
+        },
+        {
+          "take_id": "L07-T2",
+          "fonte": "praq0996",
+          "i_ini": 261,
+          "i_fim": 269,
+          "inicio": 498.14,
+          "fim": 500.68,
+          "sim": 0.889,
+          "cobertura": 0.889,
+          "flags": [],
+          "score": 0.922,
+          "texto": "Comente a palavra \"livro\" que eu vou te enviar.",
+          "prefixo": 0.889,
+          "conf": 1.0,
+          "muletas": [],
+          "pausas": []
+        }
+      ],
+      "leituras_ia": [
+        {
+          "fonte": "praq0996",
+          "inicio": 475.02,
+          "fim": 478.14,
+          "sim": 1.0,
+          "texto": "Comenta a palavra \"livro\" que eu vou te enviar."
+        },
+        {
+          "fonte": "praq0996",
+          "inicio": 492.0,
+          "fim": 495.225,
+          "sim": 1.0,
+          "texto": "Comenta a palavra \"livro\" que eu vou te enviar."
+        }
+      ]
+    },
+    {
+      "id": "L08",
+      "status": "ok",
+      "escolhido": "L08-T1",
+      "motivo": "último take limpo (sim 1.00)",
+      "takes": [
+        {
+          "take_id": "L08-T1",
+          "fonte": "praq0996",
+          "i_ini": 277,
+          "i_fim": 282,
+          "inicio": 509.36,
+          "fim": 511.78,
+          "sim": 1.0,
+          "cobertura": 1.0,
+          "flags": [],
+          "score": 1.0,
+          "texto": "Mais 50 comandos no seu direct.",
+          "prefixo": 1.0,
+          "conf": 0.999,
+          "muletas": [],
+          "pausas": []
+        }
+      ],
+      "leituras_ia": [
+        {
+          "fonte": "praq0996",
+          "inicio": 503.7,
+          "fim": 506.24,
+          "sim": 1.0,
+          "texto": "mais 50 comandos no seu direct."
+        }
+      ]
+    },
+    {
+      "id": "L09",
+      "status": "ok",
+      "escolhido": "L09-T1",
+      "motivo": "último take limpo (sim 0.80)",
+      "takes": [
+        {
+          "take_id": "L09-T1",
+          "fonte": "praq0996",
+          "i_ini": 293,
+          "i_fim": 302,
+          "inicio": 519.46,
+          "fim": 522.3,
+          "sim": 0.8,
+          "cobertura": 0.889,
+          "flags": [],
+          "score": 0.872,
+          "texto": "E manda pra quem tem livros parados no seu estante.",
+          "prefixo": 0.8,
+          "conf": 0.987,
+          "muletas": [],
+          "pausas": []
+        }
+      ],
+      "leituras_ia": [
+        {
+          "fonte": "praq0996",
+          "inicio": 514.64,
+          "fim": 517.14,
+          "sim": 1.0,
+          "texto": "e manda pra quem tem livro parado na estante."
+        }
+      ]
+    },
+    {
+      "id": "L01B",
+      "status": "parafrase",
+      "escolhido": "L01B-T1",
+      "motivo": "paráfrase: melhor sim 0.61 (score 0.76)",
+      "takes": [
+        {
+          "take_id": "L01B-T1",
+          "fonte": "praq0996",
+          "i_ini": 319,
+          "i_fim": 331,
+          "inicio": 539.2,
+          "fim": 545.72,
+          "sim": 0.615,
+          "cobertura": 0.9,
+          "flags": [
+            "muleta",
+            "pausa_interna",
+            "sem_ancora"
+          ],
+          "score": 0.759,
+          "texto": "Tira a foto da capa de um livro e escreve /mindmap no ChatGPT.",
+          "prefixo": 0.615,
+          "conf": 1.0,
+          "muletas": [
+            320,
+            325
+          ],
+          "pausas": [
+            [
+              541.8,
+              542.62
+            ]
+          ]
+        }
+      ],
+      "leituras_ia": [
+        {
+          "fonte": "praq0996",
+          "inicio": 529.06,
+          "fim": 533.12,
+          "sim": 0.9,
+          "texto": "tira foto da capa e escreve /mindmap no ChatGPT."
+        }
+      ],
+      "alternativa_de": "L01"
+    },
+    {
+      "id": "L01C",
+      "status": "ok",
+      "escolhido": "L01C-T1",
+      "motivo": "último take limpo (sim 1.00)",
+      "takes": [
+        {
+          "take_id": "L01C-T1",
+          "fonte": "praq0996",
+          "i_ini": 345,
+          "i_fim": 356,
+          "inicio": 562.0,
+          "fim": 566.16,
+          "sim": 1.0,
+          "cobertura": 1.0,
+          "flags": [],
+          "score": 1.0,
+          "texto": "Você nunca mais vai ler um livro sem fazer isso no ChatGPT.",
+          "prefixo": 1.0,
+          "conf": 1.0,
+          "muletas": [],
+          "pausas": []
+        }
+      ],
+      "leituras_ia": [
+        {
+          "fonte": "praq0996",
+          "inicio": 548.66,
+          "fim": 552.82,
+          "sim": 1.0,
+          "texto": "você nunca mais vai ler um livro sem fazer isso no ChatGPT."
+        }
+      ],
+      "alternativa_de": "L01"
+    }
+  ],
+  "nao_mapeado": [
+    {
+      "fonte": "praq0996",
+      "inicio": 45.2,
+      "fim": 47.04,
+      "texto": "Ok, a capa já tá gravada.",
+      "i_ini": 0,
+      "i_fim": 5,
+      "so_muletas": false
+    },
+    {
+      "fonte": "praq0996",
+      "inicio": 56.44,
+      "fim": 56.84,
+      "texto": "Começar.",
+      "i_ini": 23,
+      "i_fim": 23,
+      "so_muletas": false
+    },
+    {
+      "fonte": "praq0996",
+      "inicio": 64.879,
+      "fim": 65.26,
+      "texto": "Joga,",
+      "i_ini": 32,
+      "i_fim": 32,
+      "so_muletas": false
+    },
+    {
+      "fonte": "praq0996",
+      "inicio": 77.64,
+      "fim": 77.78,
+      "texto": "E",
+      "i_ini": 50,
+      "i_fim": 50,
+      "so_muletas": true
+    },
+    {
+      "fonte": "praq0996",
+      "inicio": 99.46,
+      "fim": 99.671,
+      "texto": "/Sketchnote,",
+      "i_ini": 86,
+      "i_fim": 86,
+      "so_muletas": false
+    },
+    {
+      "fonte": "praq0996",
+      "inicio": 130.44,
+      "fim": 156.48,
+      "texto": "/Sketchnote.",
+      "i_ini": 95,
+      "i_fim": 95,
+      "so_muletas": false
+    },
+    {
+      "fonte": "praq0996",
+      "inicio": 187.42,
+      "fim": 189.24,
+      "texto": "/Sketchnote, o,",
+      "i_ini": 96,
+      "i_fim": 97,
+      "so_muletas": false
+    },
+    {
+      "fonte": "praq0996",
+      "inicio": 190.6,
+      "fim": 193.385,
+      "texto": "o resumo do livro em anotação ilustrada.",
+      "i_ini": 98,
+      "i_fim": 104,
+      "so_muletas": false
+    },
+    {
+      "fonte": "praq0996",
+      "inicio": 212.46,
+      "fim": 213.06,
+      "texto": "ilustração.",
+      "i_ini": 111,
+      "i_fim": 111,
+      "so_muletas": false
+    },
+    {
+      "fonte": "praq0996",
+      "inicio": 259.22,
+      "fim": 259.791,
+      "texto": "Próximo. /Flashcards.",
+      "i_ini": 138,
+      "i_fim": 139,
+      "so_muletas": false
+    },
+    {
+      "fonte": "praq0996",
+      "inicio": 283.04,
+      "fim": 284.62,
+      "texto": "anotações de todo o livro.",
+      "i_ini": 156,
+      "i_fim": 160,
+      "so_muletas": false
+    },
+    {
+      "fonte": "praq0996",
+      "inicio": 328.74,
+      "fim": 331.815,
+      "texto": "Ele te entrega cartões com o resumo do conteúdo.",
+      "i_ini": 161,
+      "i_fim": 169,
+      "so_muletas": false
+    },
+    {
+      "fonte": "praq0996",
+      "inicio": 341.36,
+      "fim": 359.82,
+      "texto": "em flashcard. /Flashcard",
+      "i_ini": 178,
+      "i_fim": 180,
+      "so_muletas": false
+    },
+    {
+      "fonte": "praq0996",
+      "inicio": 384.2,
+      "fim": 384.821,
+      "texto": "Próximo /fluxograma.",
+      "i_ini": 190,
+      "i_fim": 191,
+      "so_muletas": false
+    },
+    {
+      "fonte": "praq0996",
+      "inicio": 408.66,
+      "fim": 409.08,
+      "texto": "Próximo",
+      "i_ini": 209,
+      "i_fim": 209,
+      "so_muletas": false
+    },
+    {
+      "fonte": "praq0996",
+      "inicio": 472.72,
+      "fim": 473.16,
+      "texto": "Próximo",
+      "i_ini": 228,
+      "i_fim": 228,
+      "so_muletas": false
+    },
+    {
+      "fonte": "praq0996",
+      "inicio": 488.12,
+      "fim": 488.88,
+      "texto": "no seu direct.",
+      "i_ini": 247,
+      "i_fim": 249,
+      "so_muletas": false
+    }
+  ],
+  "separadores": [],
+  "fala_ia": [
+    {
+      "fonte": "praq0996",
+      "inicio": 49.06,
+      "fim": 55.7,
+      "texto": "Ótimo. Agora vamos para as linhas. Quando você quiser, é só dizer: \"começar\", e eu dou início.",
+      "i_ini": 6,
+      "i_fim": 22
+    },
+    {
+      "fonte": "praq0996",
+      "inicio": 71.585,
+      "fim": 72.04,
+      "texto": "Próxima:",
+      "i_ini": 41,
+      "i_fim": 41
+    },
+    {
+      "fonte": "praq0996",
+      "inicio": 82.28,
+      "fim": 82.765,
+      "texto": "De novo:",
+      "i_ini": 59,
+      "i_fim": 60
+    },
+    {
+      "fonte": "praq0996",
+      "inicio": 94.08,
+      "fim": 94.58,
+      "texto": "Próxima:",
+      "i_ini": 77,
+      "i_fim": 77
+    },
+    {
+      "fonte": "praq0996",
+      "inicio": 263.06,
+      "fim": 265.555,
+      "texto": "Ele te entrega cartões com o resumo do conteúdo.",
+      "i_ini": 140,
+      "i_fim": 148
+    },
+    {
+      "fonte": "praq0996",
+      "inicio": 388.76,
+      "fim": 391.435,
+      "texto": "Ele resume o livro num fluxo de aprendizado.",
+      "i_ini": 192,
+      "i_fim": 199
+    },
+    {
+      "fonte": "praq0996",
+      "inicio": 410.72,
+      "fim": 416.04,
+      "texto": "E /quadrinhos. Ele resume as ideias principais em quadrinhos.",
+      "i_ini": 210,
+      "i_fim": 218
+    },
+    {
+      "fonte": "praq0996",
+      "inicio": 490.74,
+      "fim": 491.155,
+      "texto": "De novo.",
+      "i_ini": 250,
+      "i_fim": 251
+    },
+    {
+      "fonte": "praq0996",
+      "inicio": 502.4,
+      "fim": 502.86,
+      "texto": "Próxima:",
+      "i_ini": 270,
+      "i_fim": 270
+    },
+    {
+      "fonte": "praq0996",
+      "inicio": 513.44,
+      "fim": 513.88,
+      "texto": "Próxima:",
+      "i_ini": 283,
+      "i_fim": 283
+    },
+    {
+      "fonte": "praq0996",
+      "inicio": 524.6,
+      "fim": 527.74,
+      "texto": "Agora vamos para os hooks alternativos. Primeiro,",
+      "i_ini": 303,
+      "i_fim": 309
+    },
+    {
+      "fonte": "praq0996",
+      "inicio": 547.345,
+      "fim": 547.84,
+      "texto": "Próxima:",
+      "i_ini": 332,
+      "i_fim": 332
+    },
+    {
+      "fonte": "praq0996",
+      "inicio": 567.96,
+      "fim": 571.78,
+      "texto": "Fim do roteiro. Se precisar repetir ou ajustar, é só me avisar.",
+      "i_ini": 357,
+      "i_fim": 368
+    }
+  ],
+  "locutores": {
+    "metodo": "scribe",
+    "n_locutores": 2,
+    "confianca_papel": 0.949,
+    "sobreposicoes": 1,
+    "segundos_ia": 54.49
+  },
+  "resumo": {
+    "ok": 9,
+    "revisar": 0,
+    "parafrase": 0,
+    "faltando": 0,
+    "nao_mapeado": 16,
+    "leituras_ia": 10,
+    "fala_ia": 13,
+    "palavras_locutor_incerto": 0
+  },
+  "parametros": {
+    "gap_take": 1.5,
+    "pausa_interna": 0.7,
+    "sim_ok": 0.8,
+    "sim_parafrase": 0.45,
+    "pesos": {
+      "sim": 0.55,
+      "cobertura": 0.15,
+      "fluencia": 0.1,
+      "recencia": 0.1,
+      "confianca": 0.1
+    }
+  }
+}

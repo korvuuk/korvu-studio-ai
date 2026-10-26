@@ -1,0 +1,30 @@
+
+2026-09-17-demis-hassabis: o ARQUIVADO.json do finalizar_g3.py tem 10 itens (PRAQ0969.MOV, PRAQ0970.MOV, PRAQ0971.MOV, PRAQ0972.MOV, PRAQ0973.MOV, PRAQ0974.MOV, PRAQ0975.MOV, PRAQ0976.MOV, PRAQ0977.MOV, camera-00-cor.mov); ex.: 2024-07-19T11:49:50+00:00 · 2026-09-18T22:04:50+00:00
+   transição: no disco praq0969.mov, praq0970.mov, praq0971.mov, praq0972.mov (links para os originais) + o manifesto
+   campo                    banco hoje (regra antiga)          antes (disco)               depois (só manifesto)       transição                  
+   gravado                  True                               True                        True                        True                        ok
+   gravacao_arquivos        10                                 10                          10                          10                          ok
+   gravacao_bytes           46966230187                        46966230187                 46966230187                 46966230187                 ok
+   gravacao_ultima          2026-09-18 22:14:33.303067+00:00   2026-09-18 22:14:33+00:00   2026-09-18 22:14:33+00:00   2026-09-18 22:14:33+00:00   ok
+   gravacao_chegou          2026-10-04 11:06:55.542396+00:00   2026-10-04 11:06:55+00:00   2026-10-04 11:06:55+00:00   2026-10-04 11:06:55+00:00   ok
+   gravacao_data_suspeita   False                              False                       False                       False                       ok
+   gravacao_arquivos_no_mac                                    10                          0                           4                          
+   gravacao_bytes_no_mac                                       46966230187                 0                           31404492346                
+   gravacao_arquivados                                         0                           10                          6                          
+   gravacao_arquivados_bytes                                    0                           46966230187                 15561737841                
+
+2026-10-20-geoffrey-hinton: o ARQUIVADO.json do finalizar_g3.py tem 9 itens (PRAQ0978.MOV, PRAQ0979.MOV, PRAQ0980.MOV, PRAQ0981.MOV, PRAQ0982.MOV, PRAQ0983.MOV, PRAQ0984.MOV, PRAQ0985.MOV, PRAQ0986.MOV); ex.: 2024-08-14T12:05:06+00:00 · 2026-10-14T22:04:55+00:00
+   transição: no disco praq0978.mov, praq0979.mov, praq0980.mov (links para os originais) + o manifesto
+   campo                    banco hoje (regra antiga)          antes (disco)               depois (só manifesto)       transição                  
+   gravado                  True                               True                        True                        True                        ok
+   gravacao_arquivos        9                                  9                           9                           9                           ok
+   gravacao_bytes           52233026531                        52233026531                 52233026531                 52233026531                 ok
+   gravacao_ultima          2024-08-14 12:20:52+00:00          2024-08-14 12:20:52+00:00   2024-08-14 12:20:52+00:00   2024-08-14 12:20:52+00:00   ok
+   gravacao_chegou          2026-10-14 22:50:42.715827+00:00   2026-10-14 22:50:42+00:00   2026-10-14 22:50:42+00:00   2026-10-14 22:50:42+00:00   ok
+   gravacao_data_suspeita   True                               True                        True                        True                        ok
+   gravacao_arquivos_no_mac                                    9                           0                           3                          
+   gravacao_bytes_no_mac                                       52233026531                 0                           12428671374                
+   gravacao_arquivados                                         0                           9                           6                          
+   gravacao_arquivados_bytes                                    0                           52233026531                 39804355157                
+
+antes = depois = transição, campo a campo, nos dois vídeos

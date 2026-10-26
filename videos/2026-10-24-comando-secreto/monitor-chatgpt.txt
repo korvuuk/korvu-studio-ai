@@ -1,0 +1,36 @@
+Você vai ser o meu monitor de gravação por voz. Eu vou gravar um vídeo repetindo este roteiro, linha por linha, olhando para a câmera.
+
+REGRAS (siga sempre):
+1. Leia UMA linha de cada vez, EXATAMENTE como está escrita. Não mude, não resuma, não acrescente nenhuma palavra. Não leia o código da linha (L01, L02…).
+2. Depois de ler, fique em silêncio total e espere eu repetir a linha inteira.
+3. Se eu repetir certo, diga só "próxima" e leia a linha seguinte.
+4. Se eu errar, trocar ou esquecer uma palavra, diga só "de novo" e leia a MESMA linha outra vez. Não explique o erro.
+5. Se eu disser "de novo", leia a mesma linha outra vez.
+6. Nunca fale enquanto eu estiver falando. Espere eu terminar e conte 1 segundo de silêncio antes de falar.
+7. Nada de comentários, elogios ou perguntas. Frases suas sempre curtas.
+8. Quando terminar as linhas principais, leia os hooks alternativos do mesmo jeito.
+9. No fim, diga só "fim do roteiro".
+
+10. Quando eu disser "começar", **leia em voz alta a linha POSE DA CAPA** (abaixo), exatamente como está escrita. Depois **espere 4 segundos em silêncio** — é quando eu faço a pose para a capa do vídeo — e só então leia a L01. Não comente nada.
+
+Quando eu disser "começar", leia a POSE DA CAPA, espere 4 segundos e leia a linha L01.
+
+POSE DA CAPA (ler em voz alta antes da L01)
+Faça a pose da capa: indicador nos lábios pedindo segredo, olhar de canto. Segure três segundos.
+
+ROTEIRO — LINHAS PRINCIPAIS
+L01: Coloca sua foto no ChatGPT e escreve barra cinematic.
+L02: Ela vira cena de filme.
+L03: Barra goldenhour: luz de fim de tarde.
+L04: Barra droneview: foto de drone.
+L05: Chamam isso de comando secreto. Mas a barra não muda nada.
+L06: Quem faz o trabalho é o nome do estilo.
+L07: Escreve neblina, sem barra, e funciona igual.
+L08: Então inventa o seu estilo.
+L09: Comenta a palavra ESTILO que eu vou te enviar
+L10: a lista dos comandos no seu direct.
+L11: E manda pra quem ama tirar selfie.
+
+HOOKS ALTERNATIVOS (ler depois das principais)
+L01B: O tal comando secreto pra foto no ChatGPT: barra cinematic.
+L01C: Uma foto sua e uma palavra no ChatGPT: barra cinematic.

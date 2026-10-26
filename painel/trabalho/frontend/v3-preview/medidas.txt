@@ -1,0 +1,16 @@
+# capturar.sh · 2026-10-22T23:50:12.159Z
+# alvo	largura pedida	innerWidth	scrollWidth	altura	HTTP	png	passa da borda
+/	1440	1440	1440	1466	200	/Users/teste/Documents/CONTENT AI/painel/trabalho/frontend/v3-preview/inicio-1440.png	
+/	375	375	375	2452	200	/Users/teste/Documents/CONTENT AI/painel/trabalho/frontend/v3-preview/inicio-375.png	
+/equipe	1440	1440	1440	1797	200	/Users/teste/Documents/CONTENT AI/painel/trabalho/frontend/v3-preview/equipe-1440.png	
+/equipe	375	375	375	4096	200	/Users/teste/Documents/CONTENT AI/painel/trabalho/frontend/v3-preview/equipe-375.png	
+/equipe/portao-imagem	1440	1440	1440	1585	200	/Users/teste/Documents/CONTENT AI/painel/trabalho/frontend/v3-preview/equipe-portao-imagem-1440.png	
+/equipe/portao-imagem	375	375	375	2340	200	/Users/teste/Documents/CONTENT AI/painel/trabalho/frontend/v3-preview/equipe-portao-imagem-375.png	
+/equipe/portao-interface	1440	1440	1440	1305	200	/Users/teste/Documents/CONTENT AI/painel/trabalho/frontend/v3-preview/equipe-portao-interface-1440.png	
+/equipe/portao-interface	375	375	375	2076	200	/Users/teste/Documents/CONTENT AI/painel/trabalho/frontend/v3-preview/equipe-portao-interface-375.png	
+/equipe/contratar	1440	1440	1440	990	200	/Users/teste/Documents/CONTENT AI/painel/trabalho/frontend/v3-preview/equipe-contratar-1440.png	
+/equipe/contratar	375	375	375	1824	200	/Users/teste/Documents/CONTENT AI/painel/trabalho/frontend/v3-preview/equipe-contratar-375.png	
+/videos	1440	1440	1440	1605	200	/Users/teste/Documents/CONTENT AI/painel/trabalho/frontend/v3-preview/videos-1440.png	
+/videos	375	375	375	1899	200	/Users/teste/Documents/CONTENT AI/painel/trabalho/frontend/v3-preview/videos-375.png	
+/desempenho	1440	1440	1440	2145	200	/Users/teste/Documents/CONTENT AI/painel/trabalho/frontend/v3-preview/desempenho-1440.png	
+/desempenho	375	375	375	3512	200	/Users/teste/Documents/CONTENT AI/painel/trabalho/frontend/v3-preview/desempenho-375.png	

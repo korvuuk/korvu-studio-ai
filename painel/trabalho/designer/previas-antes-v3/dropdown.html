@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Dropdown · korvu. painel — design system</title>
+<link rel="stylesheet" href="../tokens.css">
+<link rel="stylesheet" href="../componentes.css">
+<link rel="stylesheet" href="../acrescimos.css">
+<link rel="stylesheet" href="previa.css">
+<script src="../korvu.js"></script>
+<script src="previa.js" defer></script>
+</head>
+<body>
+<main class="pv">
+<header class="pv-head">
+<p class="k-cap">Entradas · <span class="k-mono">k-select · k-menu</span></p>
+<h1 class="k-h2">Dropdown</h1>
+<p class="pv-lead">Filtro de período e escolhas curtas.</p>
+</header>
+<section class="pv-sec">
+<h2 class="pv-sec-t k-cap">Aberto</h2>
+<div style="display:flex;flex-direction:column;gap:4px;width:240px;max-width:100%"><div class="k-select" style="border-color:var(--ink)" role="button" aria-expanded="true" tabindex="0">Últimos 30 dias<span data-icon="chevron-down" data-size="16"></span></div><div class="k-menu" role="listbox"><div class="k-menu-item" role="option">Últimos 7 dias</div><div class="k-menu-item is-selected is-hover" role="option" aria-selected="true">Últimos 30 dias<span class="k-tick"><span data-icon="check" data-size="14"></span></span></div><div class="k-menu-item" role="option">Este trimestre</div><div class="k-menu-sep"></div><div class="k-menu-item" role="option">Personalizado…</div></div></div>
+</section>
+<section class="pv-sec">
+<h2 class="pv-sec-t k-cap">Regras</h2>
+<ul class="pv-lista"><li>Gatilho k-select (36px) + menu k-menu 4px abaixo (shadow-pop, raio 12). Aberto: borda ink.</li><li>Itens 32px; hover surface-sunken; selecionado em 600 com ✓ em accent-ink. Separador para opções especiais.</li><li>As opções do período têm de bater com as janelas que os dados têm: as métricas do perfil vêm em <b>28 dias</b> (Meta). Os rótulos aqui são os do desenho do Carlos.</li><li>Teclado: setas movem, Enter escolhe, Esc fecha e devolve o foco ao gatilho.</li></ul>
+</section>
+<footer class="pv-foot"><span>Regras: <a href="../design-system.md">design-system.md</a></span> <a href="index.html">Todas as prévias</a></footer>
+</main>
+</body>
+</html>

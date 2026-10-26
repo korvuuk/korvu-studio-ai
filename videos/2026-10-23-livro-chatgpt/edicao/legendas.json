@@ -1,0 +1,758 @@
+[
+  {
+    "text": " Você",
+    "startMs": 120,
+    "endMs": 380,
+    "timestampMs": 250,
+    "confidence": 1,
+    "linha": "L01C",
+    "destaque": false
+  },
+  {
+    "text": " nunca",
+    "startMs": 440,
+    "endMs": 840,
+    "timestampMs": 640,
+    "confidence": 1,
+    "linha": "L01C",
+    "destaque": false
+  },
+  {
+    "text": " mais",
+    "startMs": 880,
+    "endMs": 1060,
+    "timestampMs": 970,
+    "confidence": 1,
+    "linha": "L01C",
+    "destaque": false
+  },
+  {
+    "text": " vai",
+    "startMs": 1100,
+    "endMs": 1220,
+    "timestampMs": 1160,
+    "confidence": 1,
+    "linha": "L01C",
+    "destaque": false
+  },
+  {
+    "text": " ler",
+    "startMs": 1240,
+    "endMs": 1360,
+    "timestampMs": 1300,
+    "confidence": 1,
+    "linha": "L01C",
+    "destaque": false
+  },
+  {
+    "text": " um",
+    "startMs": 1380,
+    "endMs": 1460,
+    "timestampMs": 1420,
+    "confidence": 1,
+    "linha": "L01C",
+    "destaque": false
+  },
+  {
+    "text": " livro",
+    "startMs": 1560,
+    "endMs": 1900,
+    "timestampMs": 1730,
+    "confidence": 1,
+    "linha": "L01C",
+    "destaque": false
+  },
+  {
+    "text": " sem",
+    "startMs": 2220,
+    "endMs": 2560,
+    "timestampMs": 2390,
+    "confidence": 1,
+    "linha": "L01C",
+    "destaque": false
+  },
+  {
+    "text": " fazer",
+    "startMs": 2600,
+    "endMs": 2920,
+    "timestampMs": 2760,
+    "confidence": 1,
+    "linha": "L01C",
+    "destaque": false
+  },
+  {
+    "text": " isso",
+    "startMs": 3060,
+    "endMs": 3280,
+    "timestampMs": 3170,
+    "confidence": 1,
+    "linha": "L01C",
+    "destaque": true
+  },
+  {
+    "text": " no",
+    "startMs": 3320,
+    "endMs": 3440,
+    "timestampMs": 3380,
+    "confidence": 1,
+    "linha": "L01C",
+    "destaque": false
+  },
+  {
+    "text": " ChatGPT",
+    "startMs": 3500,
+    "endMs": 4280,
+    "timestampMs": 3890,
+    "confidence": 1,
+    "linha": "L01C",
+    "destaque": false
+  },
+  {
+    "text": " Ele",
+    "startMs": 4620,
+    "endMs": 4860,
+    "timestampMs": 4740,
+    "confidence": 1,
+    "linha": "L02",
+    "destaque": false
+  },
+  {
+    "text": " te",
+    "startMs": 4920,
+    "endMs": 5020,
+    "timestampMs": 4970,
+    "confidence": 1,
+    "linha": "L02",
+    "destaque": false
+  },
+  {
+    "text": " devolve",
+    "startMs": 5060,
+    "endMs": 5620,
+    "timestampMs": 5340,
+    "confidence": 1,
+    "linha": "L02",
+    "destaque": false
+  },
+  {
+    "text": " o",
+    "startMs": 5620,
+    "endMs": 6100,
+    "timestampMs": 5860,
+    "confidence": 1,
+    "linha": "L02",
+    "destaque": false
+  },
+  {
+    "text": " mapa",
+    "startMs": 6100,
+    "endMs": 6360,
+    "timestampMs": 6230,
+    "confidence": 1,
+    "linha": "L02",
+    "destaque": true
+  },
+  {
+    "text": " mental",
+    "startMs": 6400,
+    "endMs": 6760,
+    "timestampMs": 6580,
+    "confidence": 1,
+    "linha": "L02",
+    "destaque": true
+  },
+  {
+    "text": " do",
+    "startMs": 6800,
+    "endMs": 6860,
+    "timestampMs": 6830,
+    "confidence": 1,
+    "linha": "L02",
+    "destaque": false
+  },
+  {
+    "text": " livro",
+    "startMs": 6940,
+    "endMs": 7260,
+    "timestampMs": 7100,
+    "confidence": 1,
+    "linha": "L02",
+    "destaque": false
+  },
+  {
+    "text": " Barra",
+    "startMs": 7400,
+    "endMs": 7540,
+    "timestampMs": 7470,
+    "confidence": 1,
+    "linha": "L03",
+    "destaque": true
+  },
+  {
+    "text": " sketchnote",
+    "startMs": 7540,
+    "endMs": 9090,
+    "timestampMs": 8315,
+    "confidence": 1,
+    "linha": "L03",
+    "destaque": true
+  },
+  {
+    "text": " o",
+    "startMs": 9240,
+    "endMs": 9300,
+    "timestampMs": 9270,
+    "confidence": 1,
+    "linha": "L03",
+    "destaque": false
+  },
+  {
+    "text": " resumo",
+    "startMs": 9340,
+    "endMs": 9780,
+    "timestampMs": 9560,
+    "confidence": 1,
+    "linha": "L03",
+    "destaque": false
+  },
+  {
+    "text": " do",
+    "startMs": 9820,
+    "endMs": 9880,
+    "timestampMs": 9850,
+    "confidence": 1,
+    "linha": "L03",
+    "destaque": false
+  },
+  {
+    "text": " livro",
+    "startMs": 9960,
+    "endMs": 10300,
+    "timestampMs": 10130,
+    "confidence": 1,
+    "linha": "L03",
+    "destaque": false
+  },
+  {
+    "text": " em",
+    "startMs": 10560,
+    "endMs": 10680,
+    "timestampMs": 10620,
+    "confidence": 1,
+    "linha": "L03",
+    "destaque": false
+  },
+  {
+    "text": " anotação",
+    "startMs": 10700,
+    "endMs": 11180,
+    "timestampMs": 10940,
+    "confidence": 1,
+    "linha": "L03",
+    "destaque": false
+  },
+  {
+    "text": " ilustrada",
+    "startMs": 11220,
+    "endMs": 11820,
+    "timestampMs": 11520,
+    "confidence": 1,
+    "linha": "L03",
+    "destaque": false
+  },
+  {
+    "text": " Barra",
+    "startMs": 11960,
+    "endMs": 12020,
+    "timestampMs": 11990,
+    "confidence": 1,
+    "linha": "L04",
+    "destaque": true
+  },
+  {
+    "text": " flashcards",
+    "startMs": 12020,
+    "endMs": 12780,
+    "timestampMs": 12400,
+    "confidence": 1,
+    "linha": "L04",
+    "destaque": true
+  },
+  {
+    "text": " ele",
+    "startMs": 12960,
+    "endMs": 13120,
+    "timestampMs": 13040,
+    "confidence": 1,
+    "linha": "L04",
+    "destaque": false
+  },
+  {
+    "text": " te",
+    "startMs": 13140,
+    "endMs": 13200,
+    "timestampMs": 13170,
+    "confidence": 1,
+    "linha": "L04",
+    "destaque": false
+  },
+  {
+    "text": " entrega",
+    "startMs": 13240,
+    "endMs": 13760,
+    "timestampMs": 13500,
+    "confidence": 1,
+    "linha": "L04",
+    "destaque": false
+  },
+  {
+    "text": " cartões",
+    "startMs": 13960,
+    "endMs": 14520,
+    "timestampMs": 14240,
+    "confidence": 1,
+    "linha": "L04",
+    "destaque": false
+  },
+  {
+    "text": " com",
+    "startMs": 14560,
+    "endMs": 14660,
+    "timestampMs": 14610,
+    "confidence": 1,
+    "linha": "L04",
+    "destaque": false
+  },
+  {
+    "text": " o",
+    "startMs": 14660,
+    "endMs": 14700,
+    "timestampMs": 14680,
+    "confidence": 1,
+    "linha": "L04",
+    "destaque": false
+  },
+  {
+    "text": " resumo",
+    "startMs": 14700,
+    "endMs": 15200,
+    "timestampMs": 14950,
+    "confidence": 1,
+    "linha": "L04",
+    "destaque": false
+  },
+  {
+    "text": " do",
+    "startMs": 15340,
+    "endMs": 15420,
+    "timestampMs": 15380,
+    "confidence": 1,
+    "linha": "L04",
+    "destaque": false
+  },
+  {
+    "text": " conteúdo",
+    "startMs": 15460,
+    "endMs": 16045,
+    "timestampMs": 15752,
+    "confidence": 1,
+    "linha": "L04",
+    "destaque": false
+  },
+  {
+    "text": " Barra",
+    "startMs": 16160,
+    "endMs": 16221,
+    "timestampMs": 16190,
+    "confidence": 1,
+    "linha": "L05",
+    "destaque": true
+  },
+  {
+    "text": " fluxograma",
+    "startMs": 16221,
+    "endMs": 17740,
+    "timestampMs": 16980,
+    "confidence": 1,
+    "linha": "L05",
+    "destaque": true
+  },
+  {
+    "text": " ele",
+    "startMs": 17960,
+    "endMs": 18180,
+    "timestampMs": 18070,
+    "confidence": 1,
+    "linha": "L05",
+    "destaque": false
+  },
+  {
+    "text": " resume",
+    "startMs": 18240,
+    "endMs": 18600,
+    "timestampMs": 18420,
+    "confidence": 1,
+    "linha": "L05",
+    "destaque": false
+  },
+  {
+    "text": " o",
+    "startMs": 18620,
+    "endMs": 18700,
+    "timestampMs": 18660,
+    "confidence": 1,
+    "linha": "L05",
+    "destaque": false
+  },
+  {
+    "text": " livro",
+    "startMs": 18740,
+    "endMs": 19080,
+    "timestampMs": 18910,
+    "confidence": 1,
+    "linha": "L05",
+    "destaque": false
+  },
+  {
+    "text": " num",
+    "startMs": 19200,
+    "endMs": 19300,
+    "timestampMs": 19250,
+    "confidence": 1,
+    "linha": "L05",
+    "destaque": false
+  },
+  {
+    "text": " fluxo",
+    "startMs": 19440,
+    "endMs": 19860,
+    "timestampMs": 19650,
+    "confidence": 1,
+    "linha": "L05",
+    "destaque": false
+  },
+  {
+    "text": " de",
+    "startMs": 20040,
+    "endMs": 20120,
+    "timestampMs": 20080,
+    "confidence": 1,
+    "linha": "L05",
+    "destaque": false
+  },
+  {
+    "text": " aprendizado",
+    "startMs": 20160,
+    "endMs": 20855,
+    "timestampMs": 20508,
+    "confidence": 1,
+    "linha": "L05",
+    "destaque": false
+  },
+  {
+    "text": " E",
+    "startMs": 21080,
+    "endMs": 21140,
+    "timestampMs": 21110,
+    "confidence": 1,
+    "linha": "L06",
+    "destaque": false
+  },
+  {
+    "text": " barra",
+    "startMs": 21140,
+    "endMs": 21240,
+    "timestampMs": 21190,
+    "confidence": 1,
+    "linha": "L06",
+    "destaque": true
+  },
+  {
+    "text": " quadrinhos",
+    "startMs": 21240,
+    "endMs": 22380,
+    "timestampMs": 21810,
+    "confidence": 1,
+    "linha": "L06",
+    "destaque": true
+  },
+  {
+    "text": " ele",
+    "startMs": 22540,
+    "endMs": 22720,
+    "timestampMs": 22630,
+    "confidence": 1,
+    "linha": "L06",
+    "destaque": false
+  },
+  {
+    "text": " resume",
+    "startMs": 22780,
+    "endMs": 23340,
+    "timestampMs": 23060,
+    "confidence": 1,
+    "linha": "L06",
+    "destaque": false
+  },
+  {
+    "text": " as",
+    "startMs": 23400,
+    "endMs": 23500,
+    "timestampMs": 23450,
+    "confidence": 1,
+    "linha": "L06",
+    "destaque": false
+  },
+  {
+    "text": " ideias",
+    "startMs": 23560,
+    "endMs": 24040,
+    "timestampMs": 23800,
+    "confidence": 1,
+    "linha": "L06",
+    "destaque": false
+  },
+  {
+    "text": " principais",
+    "startMs": 24140,
+    "endMs": 24805,
+    "timestampMs": 24472,
+    "confidence": 1,
+    "linha": "L06",
+    "destaque": false
+  },
+  {
+    "text": " em",
+    "startMs": 24940,
+    "endMs": 25080,
+    "timestampMs": 25010,
+    "confidence": 1,
+    "linha": "L06",
+    "destaque": false
+  },
+  {
+    "text": " quadrinhos",
+    "startMs": 25120,
+    "endMs": 25680,
+    "timestampMs": 25400,
+    "confidence": 1,
+    "linha": "L06",
+    "destaque": false
+  },
+  {
+    "text": " Comenta",
+    "startMs": 26300,
+    "endMs": 26720,
+    "timestampMs": 26510,
+    "confidence": 1,
+    "linha": "L07",
+    "destaque": false
+  },
+  {
+    "text": " a",
+    "startMs": 26740,
+    "endMs": 26800,
+    "timestampMs": 26770,
+    "confidence": 1,
+    "linha": "L07",
+    "destaque": false
+  },
+  {
+    "text": " palavra",
+    "startMs": 26860,
+    "endMs": 27260,
+    "timestampMs": 27060,
+    "confidence": 1,
+    "linha": "L07",
+    "destaque": false
+  },
+  {
+    "text": " LIVRO",
+    "startMs": 27320,
+    "endMs": 27680,
+    "timestampMs": 27500,
+    "confidence": 1,
+    "linha": "L07",
+    "destaque": true
+  },
+  {
+    "text": " que",
+    "startMs": 27960,
+    "endMs": 28020,
+    "timestampMs": 27990,
+    "confidence": 1,
+    "linha": "L07",
+    "destaque": false
+  },
+  {
+    "text": " eu",
+    "startMs": 28040,
+    "endMs": 28120,
+    "timestampMs": 28080,
+    "confidence": 1,
+    "linha": "L07",
+    "destaque": false
+  },
+  {
+    "text": " vou",
+    "startMs": 28180,
+    "endMs": 28280,
+    "timestampMs": 28230,
+    "confidence": 1,
+    "linha": "L07",
+    "destaque": false
+  },
+  {
+    "text": " te",
+    "startMs": 28360,
+    "endMs": 28420,
+    "timestampMs": 28390,
+    "confidence": 1,
+    "linha": "L07",
+    "destaque": false
+  },
+  {
+    "text": " enviar",
+    "startMs": 28440,
+    "endMs": 28840,
+    "timestampMs": 28640,
+    "confidence": 1,
+    "linha": "L07",
+    "destaque": false
+  },
+  {
+    "text": " mais",
+    "startMs": 29160,
+    "endMs": 29460,
+    "timestampMs": 29310,
+    "confidence": 1,
+    "linha": "L08",
+    "destaque": false
+  },
+  {
+    "text": " 50",
+    "startMs": 29760,
+    "endMs": 30140,
+    "timestampMs": 29950,
+    "confidence": 1,
+    "linha": "L08",
+    "destaque": true
+  },
+  {
+    "text": " comandos",
+    "startMs": 30160,
+    "endMs": 30680,
+    "timestampMs": 30420,
+    "confidence": 1,
+    "linha": "L08",
+    "destaque": true
+  },
+  {
+    "text": " no",
+    "startMs": 30820,
+    "endMs": 30880,
+    "timestampMs": 30850,
+    "confidence": 1,
+    "linha": "L08",
+    "destaque": false
+  },
+  {
+    "text": " seu",
+    "startMs": 30980,
+    "endMs": 31140,
+    "timestampMs": 31060,
+    "confidence": 1,
+    "linha": "L08",
+    "destaque": false
+  },
+  {
+    "text": " direct",
+    "startMs": 31180,
+    "endMs": 31580,
+    "timestampMs": 31380,
+    "confidence": 1,
+    "linha": "L08",
+    "destaque": false
+  },
+  {
+    "text": " E",
+    "startMs": 31780,
+    "endMs": 31840,
+    "timestampMs": 31810,
+    "confidence": 1,
+    "linha": "L09",
+    "destaque": false
+  },
+  {
+    "text": " manda",
+    "startMs": 31940,
+    "endMs": 32300,
+    "timestampMs": 32120,
+    "confidence": 1,
+    "linha": "L09",
+    "destaque": false
+  },
+  {
+    "text": " pra",
+    "startMs": 32320,
+    "endMs": 32420,
+    "timestampMs": 32370,
+    "confidence": 1,
+    "linha": "L09",
+    "destaque": false
+  },
+  {
+    "text": " quem",
+    "startMs": 32500,
+    "endMs": 32640,
+    "timestampMs": 32570,
+    "confidence": 1,
+    "linha": "L09",
+    "destaque": false
+  },
+  {
+    "text": " tem",
+    "startMs": 32700,
+    "endMs": 32880,
+    "timestampMs": 32790,
+    "confidence": 1,
+    "linha": "L09",
+    "destaque": false
+  },
+  {
+    "text": " livro",
+    "startMs": 32900,
+    "endMs": 33260,
+    "timestampMs": 33080,
+    "confidence": 1,
+    "linha": "L09",
+    "destaque": false
+  },
+  {
+    "text": " parado",
+    "startMs": 33360,
+    "endMs": 33860,
+    "timestampMs": 33610,
+    "confidence": 1,
+    "linha": "L09",
+    "destaque": false
+  },
+  {
+    "text": " na",
+    "startMs": 33860,
+    "endMs": 34220,
+    "timestampMs": 34040,
+    "confidence": 1,
+    "linha": "L09",
+    "destaque": false
+  },
+  {
+    "text": " estante",
+    "startMs": 34220,
+    "endMs": 34620,
+    "timestampMs": 34420,
+    "confidence": 1,
+    "linha": "L09",
+    "destaque": false
+  }
+]

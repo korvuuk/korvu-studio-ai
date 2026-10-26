@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Avatar · korvu. painel — design system</title>
+<link rel="stylesheet" href="../tokens.css">
+<link rel="stylesheet" href="../componentes.css">
+<link rel="stylesheet" href="../acrescimos.css">
+<link rel="stylesheet" href="previa.css">
+<script src="../korvu.js"></script>
+<script src="previa.js" defer></script>
+</head>
+<body>
+<main class="pv">
+<header class="pv-head">
+<p class="k-cap">Pessoas · <span class="k-mono">k-avatar</span></p>
+<h1 class="k-h2">Avatar</h1>
+<p class="pv-lead">Quem é quem, em quadrado 1:1.</p>
+</header>
+<section class="pv-sec">
+<h2 class="pv-sec-t k-cap">Tamanhos (iniciais de nomes reais da equipe) <span class="pv-tag pv-tag--real">dados reais · banco do painel</span> <span class="pv-tag">presença = exemplo</span></h2>
+<div class="pv-fila" style="align-items:flex-end"><div><span class="k-avatar" style="--s:72px;border-radius:12px" role="img" aria-label="Marina Costa, trabalhando agora">MC<i class="k-presence"></i></span><span class="pv-cap">72 · com presença</span></div><div><span class="k-avatar" style="--s:56px;border-radius:10px" role="img" aria-label="Otávio Reis">OR</span><span class="pv-cap">56 · card de equipe</span></div><div><span class="k-avatar" role="img" aria-label="Lívia Rocha">LR</span><span class="pv-cap">40 · listas</span></div><div><span class="k-avatar is-round" style="--s:32px" role="img" aria-label="Atlas">AT</span><span class="pv-cap">32 · redondo</span></div><div><div class="k-avatar-stack" role="img" aria-label="Camila Freitas, Sérgio Lemos, Lia Monteiro e mais 23"><span class="k-avatar is-round" style="--s:28px">CF</span><span class="k-avatar is-round" style="--s:28px">SL</span><span class="k-avatar is-round" style="--s:28px">LM</span><span class="k-avatar is-round" style="--s:28px;background:var(--ink);color:var(--bg)">+23</span></div><span class="pv-cap">pilha 28 · +23 da equipe</span></div></div>
+</section>
+<section class="pv-sec">
+<h2 class="pv-sec-t k-cap">Regras</h2>
+<ul class="pv-lista"><li>Sem retrato: <b>iniciais</b> (2 letras) em ink-2 sobre surface-sunken — o que vale hoje.</li><li><b>Retrato: pendente — decisão do Carlos.</b> O sistema pede foto realista de pessoa fictícia; a decisão de 22/10 pediu retrato em ilustração editorial. Até ele decidir, iniciais. Nenhuma foto é gerada nem desenhada aqui.</li><li>Tamanhos: card de equipe 56 raio 10; listas 40 raio 8; pilhas 28 redondas.</li><li>Presença (ponto verde) só para quem está trabalhando agora — e com texto para leitor de tela. Hoje nenhum dado diz quem está trabalhando: a presença aqui é exemplo.</li></ul>
+</section>
+<footer class="pv-foot"><span>Dados: dados-2026-10-23.json → agentes, contagens</span> <span>Regras: <a href="../design-system.md">design-system.md</a></span> <a href="index.html">Todas as prévias</a></footer>
+</main>
+</body>
+</html>

@@ -1,0 +1,3566 @@
+{
+ "versao": 14,
+ "slug": "2026-10-20-fei-fei-li",
+ "fps": 25,
+ "sr": 48000,
+ "largura": 1080,
+ "altura": 1920,
+ "aprovado": true,
+ "aprovado_em": "2026-10-17T05:20:19+01:00",
+ "fontes": {
+  "praq0987": "edicao/fontes/praq0987.mp4",
+  "praq0988": "edicao/fontes/praq0988.mp4",
+  "praq0989": "edicao/fontes/praq0989.mp4",
+  "praq0990": "edicao/fontes/praq0990.mp4",
+  "praq0991": "edicao/fontes/praq0991.mp4",
+  "praq0992": "edicao/fontes/praq0992.mp4",
+  "praq0993": "edicao/fontes/praq0993.mp4",
+  "praq0994": "edicao/fontes/praq0994.mp4"
+ },
+ "segmentos": [
+  {
+   "n": 1,
+   "linha": "L01",
+   "take": "L01-T1",
+   "fonte": "praq0987",
+   "in": 83.2,
+   "out": 88.44,
+   "cortes_internos": [
+    [
+     86.92,
+     87.16
+    ]
+   ],
+   "saida_inicio": 0.0,
+   "saida_fim": 5.0,
+   "layout": "full",
+   "zoom": null,
+   "zoom_origem": "54.2% 34.2%",
+   "zoom_pecas": [
+    1.0,
+    1.12
+   ],
+   "voz_ia": 0.0
+  },
+  {
+   "n": 2,
+   "linha": "L02",
+   "take": "L02-T1",
+   "fonte": "praq0987",
+   "in": 95.4,
+   "out": 99.28,
+   "cortes_internos": [],
+   "saida_inicio": 5.0,
+   "saida_fim": 8.88,
+   "layout": "full",
+   "zoom": null,
+   "zoom_origem": "57.1% 33.5%",
+   "zoom_pecas": [
+    1.0
+   ],
+   "voz_ia": 0.0
+  },
+  {
+   "n": 3,
+   "linha": "L03",
+   "take": "L03-T2",
+   "fonte": "praq0987",
+   "in": 117.28,
+   "out": 119.68,
+   "cortes_internos": [],
+   "saida_inicio": 8.88,
+   "saida_fim": 11.28,
+   "layout": "split",
+   "zoom": null,
+   "zoom_origem": "53.2% 32.7%",
+   "zoom_pecas": [
+    1.12
+   ],
+   "voz_ia": 0.0
+  },
+  {
+   "n": 4,
+   "linha": "L04",
+   "take": "L04-T1",
+   "fonte": "praq0987",
+   "in": 130.16,
+   "out": 136.08,
+   "cortes_internos": [
+    [
+     131.76,
+     132.48
+    ],
+    [
+     134.36,
+     134.52
+    ]
+   ],
+   "saida_inicio": 11.28,
+   "saida_fim": 16.32,
+   "layout": "split",
+   "zoom": null,
+   "zoom_origem": "49.2% 34.5%",
+   "zoom_pecas": [
+    1.0,
+    1.12,
+    1.0
+   ],
+   "voz_ia": 0.0
+  },
+  {
+   "n": 5,
+   "linha": "L05",
+   "take": "L05-T1",
+   "fonte": "praq0987",
+   "in": 145.56,
+   "out": 148.96,
+   "cortes_internos": [],
+   "saida_inicio": 16.32,
+   "saida_fim": 19.72,
+   "layout": "split",
+   "zoom": null,
+   "zoom_origem": "41.1% 32.2%",
+   "zoom_pecas": [
+    1.12
+   ],
+   "voz_ia": 0.0
+  },
+  {
+   "n": 6,
+   "linha": "L06",
+   "take": "L06-T2",
+   "fonte": "praq0987",
+   "in": 202.8,
+   "out": 212.32,
+   "cortes_internos": [
+    [
+     205.24,
+     205.8
+    ],
+    [
+     207.88,
+     208.52
+    ]
+   ],
+   "saida_inicio": 19.72,
+   "saida_fim": 28.04,
+   "layout": "split",
+   "zoom": null,
+   "zoom_origem": "43.5% 33.5%",
+   "zoom_pecas": [
+    1.0,
+    1.12,
+    1.0
+   ],
+   "voz_ia": 0.0
+  },
+  {
+   "n": 7,
+   "linha": "L07",
+   "take": "L07-T1",
+   "fonte": "praq0987",
+   "in": 218.84,
+   "out": 219.72,
+   "cortes_internos": [],
+   "saida_inicio": 28.04,
+   "saida_fim": 28.92,
+   "layout": "full",
+   "zoom": null,
+   "zoom_origem": "59.3% 34.2%",
+   "zoom_pecas": [
+    1.12
+   ],
+   "voz_ia": 0.0
+  },
+  {
+   "n": 8,
+   "linha": "L08",
+   "take": "L08-T1",
+   "fonte": "praq0987",
+   "in": 227.16,
+   "out": 232.32,
+   "cortes_internos": [
+    [
+     228.12,
+     228.76
+    ]
+   ],
+   "saida_inicio": 28.92,
+   "saida_fim": 33.44,
+   "layout": "split",
+   "zoom": null,
+   "zoom_origem": "43.1% 37.0%",
+   "zoom_pecas": [
+    1.0,
+    1.12
+   ],
+   "voz_ia": 0.0
+  },
+  {
+   "n": 9,
+   "linha": "L09",
+   "take": "L09-T2",
+   "fonte": "praq0987",
+   "in": 313.56,
+   "out": 320.6,
+   "cortes_internos": [],
+   "saida_inicio": 33.44,
+   "saida_fim": 40.48,
+   "layout": "full",
+   "zoom": null,
+   "zoom_origem": "53.9% 34.1%",
+   "zoom_pecas": [
+    1.0
+   ],
+   "voz_ia": 0.0
+  },
+  {
+   "n": 10,
+   "linha": "L10",
+   "take": "L10-T1",
+   "fonte": "praq0987",
+   "in": 329.52,
+   "out": 334.88,
+   "cortes_internos": [
+    [
+     330.64,
+     331.04
+    ]
+   ],
+   "saida_inicio": 40.48,
+   "saida_fim": 45.44,
+   "layout": "split",
+   "zoom": null,
+   "zoom_origem": "45.4% 35.9%",
+   "zoom_pecas": [
+    1.12,
+    1.0
+   ],
+   "voz_ia": 0.0
+  },
+  {
+   "n": 11,
+   "linha": "L11",
+   "take": "L11-T6",
+   "fonte": "praq0987",
+   "in": 475.8,
+   "out": 483.72,
+   "cortes_internos": [
+    [
+     476.84,
+     476.96
+    ],
+    [
+     479.2,
+     479.32
+    ],
+    [
+     480.32,
+     480.8
+    ],
+    [
+     481.76,
+     482.04
+    ]
+   ],
+   "saida_inicio": 45.44,
+   "saida_fim": 52.36,
+   "layout": "split",
+   "zoom": null,
+   "zoom_origem": "56.8% 34.1%",
+   "zoom_pecas": [
+    1.12,
+    1.0,
+    1.12,
+    1.0,
+    1.12
+   ],
+   "voz_ia": 0.0
+  },
+  {
+   "n": 12,
+   "linha": "L12",
+   "take": "L12-T2",
+   "fonte": "praq0987",
+   "in": 563.44,
+   "out": 568.16,
+   "cortes_internos": [
+    [
+     564.92,
+     565.44
+    ]
+   ],
+   "saida_inicio": 52.36,
+   "saida_fim": 56.56,
+   "layout": "split",
+   "zoom": null,
+   "zoom_origem": "51.6% 32.1%",
+   "zoom_pecas": [
+    1.0,
+    1.12
+   ],
+   "voz_ia": 0.0
+  },
+  {
+   "n": 13,
+   "linha": "L13",
+   "take": "L13-T3",
+   "fonte": "praq0987",
+   "in": 632.6,
+   "out": 637.32,
+   "cortes_internos": [
+    [
+     634.04,
+     634.36
+    ]
+   ],
+   "saida_inicio": 56.56,
+   "saida_fim": 60.96,
+   "layout": "full",
+   "zoom": null,
+   "zoom_origem": "61.2% 34.4%",
+   "zoom_pecas": [
+    1.0,
+    1.12
+   ],
+   "voz_ia": 0.0
+  },
+  {
+   "n": 14,
+   "linha": "L14",
+   "take": "L14-T3",
+   "fonte": "praq0987",
+   "in": 720.08,
+   "out": 730.52,
+   "cortes_internos": [
+    [
+     721.0,
+     721.36
+    ],
+    [
+     725.04,
+     725.44
+    ],
+    [
+     727.32,
+     727.88
+    ]
+   ],
+   "saida_inicio": 60.96,
+   "saida_fim": 70.08,
+   "layout": "split",
+   "zoom": null,
+   "zoom_origem": "44.2% 34.6%",
+   "zoom_pecas": [
+    1.0,
+    1.12,
+    1.0,
+    1.12
+   ],
+   "voz_ia": 0.0
+  },
+  {
+   "n": 15,
+   "linha": "L15",
+   "take": "L15-T4",
+   "fonte": "praq0987",
+   "in": 822.76,
+   "out": 833.68,
+   "cortes_internos": [
+    [
+     823.96,
+     825.08
+    ],
+    [
+     827.28,
+     827.92
+    ],
+    [
+     831.96,
+     832.24
+    ]
+   ],
+   "saida_inicio": 70.08,
+   "saida_fim": 78.96,
+   "layout": "split",
+   "zoom": null,
+   "zoom_origem": "44.0% 34.7%",
+   "zoom_pecas": [
+    1.0,
+    1.12,
+    1.0,
+    1.12
+   ],
+   "voz_ia": 0.0
+  },
+  {
+   "n": 16,
+   "linha": "L16",
+   "take": "L16-T1",
+   "fonte": "praq0987",
+   "in": 859.88,
+   "out": 862.6,
+   "cortes_internos": [],
+   "saida_inicio": 78.96,
+   "saida_fim": 81.68,
+   "layout": "full",
+   "zoom": null,
+   "zoom_origem": "46.2% 43.6%",
+   "zoom_pecas": [
+    1.0
+   ],
+   "voz_ia": 0.0
+  },
+  {
+   "n": 17,
+   "linha": "L17",
+   "take": "L17-T1",
+   "fonte": "praq0987",
+   "in": 872.64,
+   "out": 878.36,
+   "cortes_internos": [
+    [
+     874.36,
+     874.76
+    ],
+    [
+     875.96,
+     876.32
+    ]
+   ],
+   "saida_inicio": 81.68,
+   "saida_fim": 86.64,
+   "layout": "split",
+   "zoom": null,
+   "zoom_origem": "52.6% 36.3%",
+   "zoom_pecas": [
+    1.12,
+    1.0,
+    1.12
+   ],
+   "voz_ia": 0.0
+  },
+  {
+   "n": 18,
+   "linha": "L18",
+   "take": "L18-T1",
+   "fonte": "praq0987",
+   "in": 885.32,
+   "out": 888.04,
+   "cortes_internos": [],
+   "saida_inicio": 86.64,
+   "saida_fim": 89.36,
+   "layout": "full",
+   "zoom": null,
+   "zoom_origem": "56.0% 35.4%",
+   "zoom_pecas": [
+    1.0
+   ],
+   "voz_ia": 0.0
+  },
+  {
+   "n": 19,
+   "linha": "L19",
+   "take": "L19-T4",
+   "fonte": "praq0987",
+   "in": 989.4,
+   "out": 1000.8,
+   "cortes_internos": [
+    [
+     991.48,
+     991.76
+    ],
+    [
+     994.44,
+     994.88
+    ],
+    [
+     996.4,
+     997.16
+    ],
+    [
+     998.44,
+     998.64
+    ]
+   ],
+   "saida_inicio": 89.36,
+   "saida_fim": 99.08,
+   "layout": "split",
+   "zoom": null,
+   "zoom_origem": "56.5% 35.4%",
+   "zoom_pecas": [
+    1.12,
+    1.0,
+    1.12,
+    1.0,
+    1.12
+   ],
+   "voz_ia": 0.0
+  },
+  {
+   "n": 20,
+   "linha": "L20",
+   "take": "L20-T1",
+   "fonte": "praq0987",
+   "in": 1015.32,
+   "out": 1017.6,
+   "cortes_internos": [],
+   "saida_inicio": 99.08,
+   "saida_fim": 101.36,
+   "layout": "split",
+   "zoom": null,
+   "zoom_origem": "58.1% 36.6%",
+   "zoom_pecas": [
+    1.0
+   ],
+   "voz_ia": 0.0
+  },
+  {
+   "n": 21,
+   "linha": "L21",
+   "take": "L21-T1",
+   "fonte": "praq0987",
+   "in": 1051.4,
+   "out": 1056.32,
+   "cortes_internos": [],
+   "saida_inicio": 101.36,
+   "saida_fim": 106.28,
+   "layout": "split",
+   "zoom": null,
+   "zoom_origem": "59.9% 37.1%",
+   "zoom_pecas": [
+    1.12
+   ],
+   "voz_ia": 0.0
+  },
+  {
+   "n": 22,
+   "linha": "L22",
+   "take": "L22-T4",
+   "fonte": "praq0987",
+   "in": 1141.56,
+   "out": 1151.8,
+   "cortes_internos": [
+    [
+     1145.0,
+     1145.36
+    ],
+    [
+     1146.64,
+     1147.0
+    ],
+    [
+     1150.4,
+     1150.56
+    ]
+   ],
+   "saida_inicio": 106.28,
+   "saida_fim": 115.64,
+   "layout": "split",
+   "zoom": null,
+   "zoom_origem": "51.4% 32.9%",
+   "zoom_pecas": [
+    1.0,
+    1.12,
+    1.0,
+    1.12
+   ],
+   "voz_ia": 0.0
+  },
+  {
+   "n": 23,
+   "linha": "L23",
+   "take": "L23-T1",
+   "fonte": "praq0987",
+   "in": 1158.92,
+   "out": 1161.28,
+   "cortes_internos": [],
+   "saida_inicio": 115.64,
+   "saida_fim": 118.0,
+   "layout": "full",
+   "zoom": null,
+   "zoom_origem": "56.7% 35.2%",
+   "zoom_pecas": [
+    1.0
+   ],
+   "voz_ia": 0.0
+  },
+  {
+   "n": 24,
+   "linha": "L24",
+   "take": "L24-T1",
+   "fonte": "praq0987",
+   "in": 1173.44,
+   "out": 1175.4,
+   "cortes_internos": [],
+   "saida_inicio": 118.0,
+   "saida_fim": 119.96,
+   "layout": "full",
+   "zoom": null,
+   "zoom_origem": "56.2% 35.2%",
+   "zoom_pecas": [
+    1.12
+   ],
+   "voz_ia": 0.0
+  },
+  {
+   "n": 25,
+   "linha": "L25",
+   "take": "L25-T1",
+   "fonte": "praq0987",
+   "in": 1182.6,
+   "out": 1186.0,
+   "cortes_internos": [
+    [
+     1184.64,
+     1185.0
+    ]
+   ],
+   "saida_inicio": 119.96,
+   "saida_fim": 123.0,
+   "layout": "full",
+   "zoom": null,
+   "zoom_origem": "47.2% 36.9%",
+   "zoom_pecas": [
+    1.0,
+    1.12
+   ],
+   "voz_ia": 0.0
+  },
+  {
+   "n": 26,
+   "linha": "L26",
+   "take": "L26-T1",
+   "fonte": "praq0987",
+   "in": 1194.84,
+   "out": 1200.96,
+   "cortes_internos": [
+    [
+     1196.4,
+     1196.76
+    ],
+    [
+     1198.56,
+     1198.92
+    ]
+   ],
+   "saida_inicio": 123.0,
+   "saida_fim": 128.4,
+   "layout": "split",
+   "zoom": null,
+   "zoom_origem": "52.5% 33.7%",
+   "zoom_pecas": [
+    1.0,
+    1.12,
+    1.0
+   ],
+   "voz_ia": 0.0
+  },
+  {
+   "n": 27,
+   "linha": "L26",
+   "take": "manual",
+   "fonte": "praq0988",
+   "in": 0.0,
+   "out": 0.32,
+   "cortes_internos": [],
+   "saida_inicio": 128.4,
+   "saida_fim": 128.72,
+   "layout": "full",
+   "zoom": null,
+   "zoom_origem": "52.5% 33.7%",
+   "zoom_pecas": [
+    1.0
+   ],
+   "voz_ia": 0.0
+  },
+  {
+   "n": 28,
+   "linha": "L27",
+   "take": "L27-T1",
+   "fonte": "praq0988",
+   "in": 7.32,
+   "out": 11.92,
+   "cortes_internos": [
+    [
+     8.36,
+     8.64
+    ]
+   ],
+   "saida_inicio": 128.72,
+   "saida_fim": 133.04,
+   "layout": "full",
+   "zoom": null,
+   "zoom_origem": "49.2% 33.6%",
+   "zoom_pecas": [
+    1.12,
+    1.0
+   ],
+   "voz_ia": 0.0
+  },
+  {
+   "n": 29,
+   "linha": "L28",
+   "take": "L28-T2",
+   "fonte": "praq0988",
+   "in": 38.52,
+   "out": 42.0,
+   "cortes_internos": [],
+   "saida_inicio": 133.04,
+   "saida_fim": 136.52,
+   "layout": "full",
+   "zoom": null,
+   "zoom_origem": "59.2% 34.8%",
+   "zoom_pecas": [
+    1.12
+   ],
+   "voz_ia": 0.0
+  },
+  {
+   "n": 30,
+   "linha": "L29",
+   "take": "L29-T3",
+   "fonte": "praq0989",
+   "in": 65.6,
+   "out": 75.6,
+   "cortes_internos": [
+    [
+     67.84,
+     68.08
+    ],
+    [
+     69.2,
+     69.44
+    ],
+    [
+     71.12,
+     73.12
+    ]
+   ],
+   "saida_inicio": 136.52,
+   "saida_fim": 144.04,
+   "layout": "full",
+   "zoom": null,
+   "zoom_origem": "46.0% 34.2%",
+   "zoom_pecas": [
+    1.0,
+    1.12,
+    1.0,
+    1.12
+   ],
+   "voz_ia": 0.0
+  },
+  {
+   "n": 31,
+   "linha": "L30",
+   "take": "L30-T1",
+   "fonte": "praq0991",
+   "in": 17.0,
+   "out": 20.2,
+   "cortes_internos": [],
+   "saida_inicio": 144.04,
+   "saida_fim": 147.24,
+   "layout": "full",
+   "zoom": null,
+   "zoom_origem": "55.8% 34.5%",
+   "zoom_pecas": [
+    1.0
+   ],
+   "voz_ia": 0.0
+  },
+  {
+   "n": 32,
+   "linha": "L31",
+   "take": "L31-T7",
+   "fonte": "praq0992",
+   "in": 63.16,
+   "out": 70.84,
+   "cortes_internos": [
+    [
+     66.12,
+     66.76
+    ],
+    [
+     67.6,
+     68.0
+    ]
+   ],
+   "saida_inicio": 147.24,
+   "saida_fim": 153.88,
+   "layout": "full",
+   "zoom": null,
+   "zoom_origem": "51.9% 38.0%",
+   "zoom_pecas": [
+    1.12,
+    1.0,
+    1.12
+   ],
+   "voz_ia": 0.0
+  },
+  {
+   "n": 33,
+   "linha": "L32",
+   "take": "manual",
+   "fonte": "praq0993",
+   "in": 11.48,
+   "out": 18.44,
+   "cortes_internos": [
+    [
+     16.76,
+     16.96
+    ]
+   ],
+   "saida_inicio": 153.88,
+   "saida_fim": 160.64,
+   "layout": "full",
+   "zoom": null,
+   "zoom_origem": "53.7% 32.7%",
+   "zoom_pecas": [
+    1.0,
+    1.12
+   ],
+   "voz_ia": 0.0
+  },
+  {
+   "n": 34,
+   "linha": "L33",
+   "take": "L33-T1",
+   "fonte": "praq0993",
+   "in": 46.44,
+   "out": 49.88,
+   "cortes_internos": [],
+   "saida_inicio": 160.64,
+   "saida_fim": 164.08,
+   "layout": "full",
+   "zoom": null,
+   "zoom_origem": "59.0% 33.0%",
+   "zoom_pecas": [
+    1.0
+   ],
+   "voz_ia": 0.0
+  },
+  {
+   "n": 35,
+   "linha": "L34",
+   "take": "L34-T1",
+   "fonte": "praq0993",
+   "in": 56.92,
+   "out": 61.28,
+   "cortes_internos": [],
+   "saida_inicio": 164.08,
+   "saida_fim": 168.44,
+   "layout": "full",
+   "zoom": null,
+   "zoom_origem": "61.5% 33.2%",
+   "zoom_pecas": [
+    1.12
+   ],
+   "voz_ia": 0.0
+  }
+ ],
+ "overlays": [
+  {
+   "linhas": [
+    "L03"
+   ],
+   "tipo": "extra",
+   "extra": "E01",
+   "extra_tipo": "video",
+   "arquivo": "edicao/extras/E01.mp4",
+   "modo": "split",
+   "in": 0.0,
+   "out": 2.4,
+   "som": false,
+   "credito": "San Francisco Public Library — \"The Worlds I See\"",
+   "descricao": "Fei-Fei Li em plano fechado na conversa da SFPL (11:44–11:52, 8 s) — entra no nome dela; volta na reflexão (\"chamam ela de madrinha\")",
+   "faltando": false,
+   "saida_inicio": 8.88,
+   "saida_fim": 11.28
+  },
+  {
+   "linhas": [
+    "L04",
+    "L05",
+    "L06"
+   ],
+   "tipo": "extra",
+   "extra": "E02",
+   "extra_tipo": "video",
+   "arquivo": "edicao/extras/E02.mp4",
+   "modo": "split",
+   "in": 0.0,
+   "out": 5.0,
+   "som": false,
+   "credito": "San Francisco Public Library — \"The Worlds I See\"",
+   "descricao": "Ela conta que chegou aos 15 anos, praticamente sem inglês (14:48–14:53, 5 s)",
+   "faltando": false,
+   "saida_inicio": 11.28,
+   "saida_fim": 16.28
+  },
+  {
+   "linhas": [
+    "L08"
+   ],
+   "tipo": "extra",
+   "extra": "E08",
+   "extra_tipo": "video",
+   "arquivo": "edicao/extras/E08.mp4",
+   "modo": "split",
+   "in": 0.0,
+   "out": 4.52,
+   "som": false,
+   "credito": "Fei-Fei Li — TED2015 / TED",
+   "descricao": "Ela no TED2015 dizendo \"foi assim que paguei a faculdade\" (8:36–8:41, 4,8 s)",
+   "faltando": false,
+   "saida_inicio": 28.92,
+   "saida_fim": 33.44
+  },
+  {
+   "linhas": [
+    "L10",
+    "L11",
+    "L12"
+   ],
+   "tipo": "extra",
+   "extra": "E03",
+   "extra_tipo": "video",
+   "arquivo": "edicao/extras/E03.mp4",
+   "modo": "split",
+   "in": 0.0,
+   "out": 9.0,
+   "som": false,
+   "credito": "Fei-Fei Li — TED2015 / TED",
+   "descricao": "Ela no palco do TED2015 explicando como a criança aprende a ver (5:44–5:53, 8,6 s)",
+   "faltando": false,
+   "saida_inicio": 40.48,
+   "saida_fim": 49.48
+  },
+  {
+   "linhas": [
+    "L14",
+    "L15"
+   ],
+   "tipo": "extra",
+   "extra": "E05",
+   "extra_tipo": "video",
+   "arquivo": "edicao/extras/E05.mp4",
+   "modo": "split",
+   "in": 0.0,
+   "out": 8.0,
+   "som": false,
+   "credito": "Fei-Fei Li — TED2015 / TED",
+   "descricao": "TED2015: \"quase 50 mil trabalhadores, 167 países\" etiquetando as fotos, na tela atrás dela (7:36–7:44, 7,7 s)",
+   "faltando": false,
+   "saida_inicio": 60.96,
+   "saida_fim": 68.96
+  },
+  {
+   "linhas": [
+    "L17"
+   ],
+   "tipo": "extra",
+   "extra": "E09",
+   "extra_tipo": "video",
+   "arquivo": "edicao/extras/E09.mp4",
+   "modo": "split",
+   "in": 0.0,
+   "out": 4.96,
+   "som": false,
+   "credito": "Fei-Fei Li — TED2015 / TED",
+   "descricao": "TED2015: ela, em plano fechado, conta que abriu o banco inteiro de graça (9:25–9:33, 7,7 s)",
+   "faltando": false,
+   "saida_inicio": 81.68,
+   "saida_fim": 86.64
+  },
+  {
+   "linhas": [
+    "L19",
+    "L20",
+    "L21",
+    "L22"
+   ],
+   "tipo": "extra",
+   "extra": "E06",
+   "extra_tipo": "print",
+   "arquivo": null,
+   "modo": "split",
+   "som": false,
+   "credito": "image-net.org (ILSVRC 2012)",
+   "descricao": "Resultado oficial do desafio ImageNet 2012, com destaque na linha do grupo de Toronto (SuperVision, 0,153) e na do 2.º lugar (0,262); legenda \"2012 · erro com 5 palpites por foto\" (o resultado é o erro top-5: a resposta certa não estava entre os 5 palpites da IA)",
+   "faltando": true,
+   "saida_inicio": 89.36,
+   "saida_fim": 115.64
+  },
+  {
+   "linhas": [
+    "L26"
+   ],
+   "tipo": "extra",
+   "extra": "E01",
+   "extra_tipo": "video",
+   "arquivo": "edicao/extras/E01.mp4",
+   "modo": "split",
+   "in": 0.0,
+   "out": 5.72,
+   "som": false,
+   "credito": "San Francisco Public Library — \"The Worlds I See\"",
+   "descricao": "Fei-Fei Li em plano fechado na conversa da SFPL (11:44–11:52, 8 s) — entra no nome dela; volta na reflexão (\"chamam ela de madrinha\")",
+   "faltando": false,
+   "saida_inicio": 123.0,
+   "saida_fim": 128.72
+  }
+ ],
+ "palavras_saida": [
+  {
+   "texto": "Imagina",
+   "inicio": 0.14,
+   "fim": 0.8,
+   "linha": "L01",
+   "destaque": false
+  },
+  {
+   "texto": "chegar",
+   "inicio": 0.84,
+   "fim": 1.12,
+   "linha": "L01",
+   "destaque": false
+  },
+  {
+   "texto": "adolescente",
+   "inicio": 1.12,
+   "fim": 1.84,
+   "linha": "L01",
+   "destaque": false
+  },
+  {
+   "texto": "num",
+   "inicio": 2.02,
+   "fim": 2.18,
+   "linha": "L01",
+   "destaque": false
+  },
+  {
+   "texto": "país",
+   "inicio": 2.22,
+   "fim": 2.52,
+   "linha": "L01",
+   "destaque": false
+  },
+  {
+   "texto": "novo,",
+   "inicio": 2.56,
+   "fim": 2.92,
+   "linha": "L01",
+   "destaque": false
+  },
+  {
+   "texto": "sem",
+   "inicio": 3.36,
+   "fim": 3.6,
+   "linha": "L01",
+   "destaque": false
+  },
+  {
+   "texto": "falar",
+   "inicio": 3.8,
+   "fim": 4.08,
+   "linha": "L01",
+   "destaque": false
+  },
+  {
+   "texto": "inglês…",
+   "inicio": 4.4,
+   "fim": 4.86,
+   "linha": "L01",
+   "destaque": true
+  },
+  {
+   "texto": "e,",
+   "inicio": 5.1,
+   "fim": 5.2,
+   "linha": "L02",
+   "destaque": false
+  },
+  {
+   "texto": "anos",
+   "inicio": 5.26,
+   "fim": 5.4,
+   "linha": "L02",
+   "destaque": false
+  },
+  {
+   "texto": "depois,",
+   "inicio": 5.44,
+   "fim": 5.86,
+   "linha": "L02",
+   "destaque": false
+  },
+  {
+   "texto": "ajudar",
+   "inicio": 6.08,
+   "fim": 6.4,
+   "linha": "L02",
+   "destaque": false
+  },
+  {
+   "texto": "as",
+   "inicio": 6.44,
+   "fim": 6.62,
+   "linha": "L02",
+   "destaque": false
+  },
+  {
+   "texto": "máquinas",
+   "inicio": 6.68,
+   "fim": 7.16,
+   "linha": "L02",
+   "destaque": false
+  },
+  {
+   "texto": "a",
+   "inicio": 7.36,
+   "fim": 7.42,
+   "linha": "L02",
+   "destaque": false
+  },
+  {
+   "texto": "enxergar",
+   "inicio": 7.46,
+   "fim": 7.92,
+   "linha": "L02",
+   "destaque": true
+  },
+  {
+   "texto": "o",
+   "inicio": 7.96,
+   "fim": 8.02,
+   "linha": "L02",
+   "destaque": false
+  },
+  {
+   "texto": "mundo.",
+   "inicio": 8.08,
+   "fim": 8.355,
+   "linha": "L02",
+   "destaque": false
+  },
+  {
+   "texto": "Essa",
+   "inicio": 8.98,
+   "fim": 9.2,
+   "linha": "L03",
+   "destaque": false
+  },
+  {
+   "texto": "é",
+   "inicio": 9.24,
+   "fim": 9.3,
+   "linha": "L03",
+   "destaque": false
+  },
+  {
+   "texto": "a",
+   "inicio": 9.34,
+   "fim": 9.4,
+   "linha": "L03",
+   "destaque": false
+  },
+  {
+   "texto": "história",
+   "inicio": 9.44,
+   "fim": 9.94,
+   "linha": "L03",
+   "destaque": false
+  },
+  {
+   "texto": "da",
+   "inicio": 10.18,
+   "fim": 10.26,
+   "linha": "L03",
+   "destaque": false
+  },
+  {
+   "texto": "Fei-Fei",
+   "inicio": 10.44,
+   "fim": 10.88,
+   "linha": "L03",
+   "destaque": true
+  },
+  {
+   "texto": "Li.",
+   "inicio": 10.92,
+   "fim": 11.14,
+   "linha": "L03",
+   "destaque": true
+  },
+  {
+   "texto": "Ela",
+   "inicio": 11.38,
+   "fim": 11.62,
+   "linha": "L04",
+   "destaque": false
+  },
+  {
+   "texto": "nasceu",
+   "inicio": 11.76,
+   "fim": 12.12,
+   "linha": "L04",
+   "destaque": false
+  },
+  {
+   "texto": "na",
+   "inicio": 12.16,
+   "fim": 12.24,
+   "linha": "L04",
+   "destaque": false
+  },
+  {
+   "texto": "China",
+   "inicio": 12.38,
+   "fim": 12.76,
+   "linha": "L04",
+   "destaque": false
+  },
+  {
+   "texto": "e",
+   "inicio": 13.04,
+   "fim": 13.16,
+   "linha": "L04",
+   "destaque": false
+  },
+  {
+   "texto": "chegou",
+   "inicio": 13.34,
+   "fim": 13.68,
+   "linha": "L04",
+   "destaque": false
+  },
+  {
+   "texto": "nos",
+   "inicio": 13.72,
+   "fim": 13.88,
+   "linha": "L04",
+   "destaque": false
+  },
+  {
+   "texto": "Estados",
+   "inicio": 13.94,
+   "fim": 14.2,
+   "linha": "L04",
+   "destaque": false
+  },
+  {
+   "texto": "Unidos",
+   "inicio": 14.26,
+   "fim": 14.62,
+   "linha": "L04",
+   "destaque": false
+  },
+  {
+   "texto": "e",
+   "inicio": 14.82,
+   "fim": 14.92,
+   "linha": "L04",
+   "destaque": false
+  },
+  {
+   "texto": "ainda",
+   "inicio": 14.98,
+   "fim": 15.5,
+   "linha": "L04",
+   "destaque": false
+  },
+  {
+   "texto": "adolescente",
+   "inicio": 15.56,
+   "fim": 16.18,
+   "linha": "L04",
+   "destaque": true
+  },
+  {
+   "texto": "Os",
+   "inicio": 16.56,
+   "fim": 16.66,
+   "linha": "L05",
+   "destaque": false
+  },
+  {
+   "texto": "pais",
+   "inicio": 16.78,
+   "fim": 17.06,
+   "linha": "L05",
+   "destaque": false
+  },
+  {
+   "texto": "praticamente",
+   "inicio": 17.42,
+   "fim": 18.24,
+   "linha": "L05",
+   "destaque": false
+  },
+  {
+   "texto": "não",
+   "inicio": 18.5,
+   "fim": 18.68,
+   "linha": "L05",
+   "destaque": false
+  },
+  {
+   "texto": "falavam",
+   "inicio": 18.74,
+   "fim": 19.1,
+   "linha": "L05",
+   "destaque": false
+  },
+  {
+   "texto": "inglês.",
+   "inicio": 19.14,
+   "fim": 19.56,
+   "linha": "L05",
+   "destaque": true
+  },
+  {
+   "texto": "Então",
+   "inicio": 19.86,
+   "fim": 20.2,
+   "linha": "L06",
+   "destaque": false
+  },
+  {
+   "texto": "na",
+   "inicio": 20.8,
+   "fim": 20.86,
+   "linha": "L06",
+   "destaque": false
+  },
+  {
+   "texto": "lavanderia",
+   "inicio": 20.9,
+   "fim": 21.38,
+   "linha": "L06",
+   "destaque": false
+  },
+  {
+   "texto": "da",
+   "inicio": 21.42,
+   "fim": 21.48,
+   "linha": "L06",
+   "destaque": false
+  },
+  {
+   "texto": "família",
+   "inicio": 21.58,
+   "fim": 22.04,
+   "linha": "L06",
+   "destaque": false
+  },
+  {
+   "texto": "ela",
+   "inicio": 22.28,
+   "fim": 22.54,
+   "linha": "L06",
+   "destaque": false
+  },
+  {
+   "texto": "atendia",
+   "inicio": 22.78,
+   "fim": 23.3,
+   "linha": "L06",
+   "destaque": false
+  },
+  {
+   "texto": "os",
+   "inicio": 23.32,
+   "fim": 23.5,
+   "linha": "L06",
+   "destaque": false
+  },
+  {
+   "texto": "telefones",
+   "inicio": 23.52,
+   "fim": 24.18,
+   "linha": "L06",
+   "destaque": false
+  },
+  {
+   "texto": "e",
+   "inicio": 24.36,
+   "fim": 24.46,
+   "linha": "L06",
+   "destaque": false
+  },
+  {
+   "texto": "fazia",
+   "inicio": 24.62,
+   "fim": 24.9,
+   "linha": "L06",
+   "destaque": false
+  },
+  {
+   "texto": "as",
+   "inicio": 25.06,
+   "fim": 25.14,
+   "linha": "L06",
+   "destaque": false
+  },
+  {
+   "texto": "cobranças",
+   "inicio": 25.22,
+   "fim": 25.78,
+   "linha": "L06",
+   "destaque": false
+  },
+  {
+   "texto": "e",
+   "inicio": 25.88,
+   "fim": 25.96,
+   "linha": "L06",
+   "destaque": false
+  },
+  {
+   "texto": "até",
+   "inicio": 26.02,
+   "fim": 26.54,
+   "linha": "L06",
+   "destaque": false
+  },
+  {
+   "texto": "atendia",
+   "inicio": 26.62,
+   "fim": 27.18,
+   "linha": "L06",
+   "destaque": false
+  },
+  {
+   "texto": "os",
+   "inicio": 27.22,
+   "fim": 27.38,
+   "linha": "L06",
+   "destaque": false
+  },
+  {
+   "texto": "fiscais",
+   "inicio": 27.42,
+   "fim": 27.9,
+   "linha": "L06",
+   "destaque": true
+  },
+  {
+   "texto": "Ela.",
+   "inicio": 28.2,
+   "fim": 28.52,
+   "linha": "L07",
+   "destaque": true
+  },
+  {
+   "texto": "E",
+   "inicio": 28.98,
+   "fim": 29.02,
+   "linha": "L08",
+   "destaque": false
+  },
+  {
+   "texto": "foi",
+   "inicio": 29.16,
+   "fim": 29.34,
+   "linha": "L08",
+   "destaque": false
+  },
+  {
+   "texto": "assim",
+   "inicio": 29.38,
+   "fim": 29.74,
+   "linha": "L08",
+   "destaque": false
+  },
+  {
+   "texto": "ela",
+   "inicio": 30.0,
+   "fim": 30.18,
+   "linha": "L08",
+   "destaque": false
+  },
+  {
+   "texto": "contou",
+   "inicio": 30.3,
+   "fim": 30.66,
+   "linha": "L08",
+   "destaque": false
+  },
+  {
+   "texto": "que",
+   "inicio": 31.24,
+   "fim": 31.34,
+   "linha": "L08",
+   "destaque": false
+  },
+  {
+   "texto": "foi",
+   "inicio": 31.4,
+   "fim": 31.5,
+   "linha": "L08",
+   "destaque": false
+  },
+  {
+   "texto": "assim",
+   "inicio": 31.54,
+   "fim": 31.78,
+   "linha": "L08",
+   "destaque": false
+  },
+  {
+   "texto": "que",
+   "inicio": 31.86,
+   "fim": 31.9,
+   "linha": "L08",
+   "destaque": false
+  },
+  {
+   "texto": "ela",
+   "inicio": 31.92,
+   "fim": 32.02,
+   "linha": "L08",
+   "destaque": false
+  },
+  {
+   "texto": "ajudou",
+   "inicio": 32.04,
+   "fim": 32.34,
+   "linha": "L08",
+   "destaque": false
+  },
+  {
+   "texto": "a",
+   "inicio": 32.38,
+   "fim": 32.4,
+   "linha": "L08",
+   "destaque": false
+  },
+  {
+   "texto": "pagar",
+   "inicio": 32.48,
+   "fim": 32.66,
+   "linha": "L08",
+   "destaque": false
+  },
+  {
+   "texto": "as",
+   "inicio": 32.7,
+   "fim": 32.78,
+   "linha": "L08",
+   "destaque": false
+  },
+  {
+   "texto": "faculdades",
+   "inicio": 32.82,
+   "fim": 33.28,
+   "linha": "L08",
+   "destaque": true
+  },
+  {
+   "texto": "Fei-Fei",
+   "inicio": 33.58,
+   "fim": 34.06,
+   "linha": "L09",
+   "destaque": false
+  },
+  {
+   "texto": "estudou",
+   "inicio": 34.34,
+   "fim": 34.74,
+   "linha": "L09",
+   "destaque": false
+  },
+  {
+   "texto": "física",
+   "inicio": 34.94,
+   "fim": 35.38,
+   "linha": "L09",
+   "destaque": false
+  },
+  {
+   "texto": "em",
+   "inicio": 35.44,
+   "fim": 35.56,
+   "linha": "L09",
+   "destaque": false
+  },
+  {
+   "texto": "Princeton",
+   "inicio": 35.66,
+   "fim": 36.12,
+   "linha": "L09",
+   "destaque": true
+  },
+  {
+   "texto": "e",
+   "inicio": 36.58,
+   "fim": 36.62,
+   "linha": "L09",
+   "destaque": false
+  },
+  {
+   "texto": "foi",
+   "inicio": 36.74,
+   "fim": 36.9,
+   "linha": "L09",
+   "destaque": false
+  },
+  {
+   "texto": "aí",
+   "inicio": 36.96,
+   "fim": 37.18,
+   "linha": "L09",
+   "destaque": false
+  },
+  {
+   "texto": "que",
+   "inicio": 37.38,
+   "fim": 37.48,
+   "linha": "L09",
+   "destaque": false
+  },
+  {
+   "texto": "ela",
+   "inicio": 37.5,
+   "fim": 37.66,
+   "linha": "L09",
+   "destaque": false
+  },
+  {
+   "texto": "entrou",
+   "inicio": 37.68,
+   "fim": 38.1,
+   "linha": "L09",
+   "destaque": false
+  },
+  {
+   "texto": "para",
+   "inicio": 38.32,
+   "fim": 38.44,
+   "linha": "L09",
+   "destaque": false
+  },
+  {
+   "texto": "o",
+   "inicio": 38.46,
+   "fim": 38.5,
+   "linha": "L09",
+   "destaque": false
+  },
+  {
+   "texto": "mundo",
+   "inicio": 38.6,
+   "fim": 38.86,
+   "linha": "L09",
+   "destaque": false
+  },
+  {
+   "texto": "da",
+   "inicio": 38.92,
+   "fim": 39.0,
+   "linha": "L09",
+   "destaque": false
+  },
+  {
+   "texto": "inteligência",
+   "inicio": 39.02,
+   "fim": 39.48,
+   "linha": "L09",
+   "destaque": false
+  },
+  {
+   "texto": "artificial",
+   "inicio": 39.5,
+   "fim": 40.06,
+   "linha": "L09",
+   "destaque": false
+  },
+  {
+   "texto": "E",
+   "inicio": 40.62,
+   "fim": 40.68,
+   "linha": "L10",
+   "destaque": false
+  },
+  {
+   "texto": "a",
+   "inicio": 40.72,
+   "fim": 40.74,
+   "linha": "L10",
+   "destaque": false
+  },
+  {
+   "texto": "partir",
+   "inicio": 40.82,
+   "fim": 41.08,
+   "linha": "L10",
+   "destaque": false
+  },
+  {
+   "texto": "daí",
+   "inicio": 41.12,
+   "fim": 41.46,
+   "linha": "L10",
+   "destaque": false
+  },
+  {
+   "texto": "ela",
+   "inicio": 41.74,
+   "fim": 42.04,
+   "linha": "L10",
+   "destaque": false
+  },
+  {
+   "texto": "começou",
+   "inicio": 42.08,
+   "fim": 42.66,
+   "linha": "L10",
+   "destaque": false
+  },
+  {
+   "texto": "a",
+   "inicio": 42.92,
+   "fim": 42.94,
+   "linha": "L10",
+   "destaque": false
+  },
+  {
+   "texto": "pensar",
+   "inicio": 43.04,
+   "fim": 43.38,
+   "linha": "L10",
+   "destaque": false
+  },
+  {
+   "texto": "em",
+   "inicio": 43.42,
+   "fim": 43.52,
+   "linha": "L10",
+   "destaque": false
+  },
+  {
+   "texto": "uma",
+   "inicio": 43.56,
+   "fim": 43.7,
+   "linha": "L10",
+   "destaque": false
+  },
+  {
+   "texto": "coisa",
+   "inicio": 43.8,
+   "fim": 44.06,
+   "linha": "L10",
+   "destaque": false
+  },
+  {
+   "texto": "muito",
+   "inicio": 44.2,
+   "fim": 44.66,
+   "linha": "L10",
+   "destaque": false
+  },
+  {
+   "texto": "simples",
+   "inicio": 44.82,
+   "fim": 45.3,
+   "linha": "L10",
+   "destaque": true
+  },
+  {
+   "texto": "Uma",
+   "inicio": 45.54,
+   "fim": 45.68,
+   "linha": "L11",
+   "destaque": false
+  },
+  {
+   "texto": "criança",
+   "inicio": 45.78,
+   "fim": 46.36,
+   "linha": "L11",
+   "destaque": false
+  },
+  {
+   "texto": "aprende",
+   "inicio": 46.58,
+   "fim": 47.2,
+   "linha": "L11",
+   "destaque": false
+  },
+  {
+   "texto": "a",
+   "inicio": 47.22,
+   "fim": 47.28,
+   "linha": "L11",
+   "destaque": false
+  },
+  {
+   "texto": "reconhecer",
+   "inicio": 47.3,
+   "fim": 47.8,
+   "linha": "L11",
+   "destaque": false
+  },
+  {
+   "texto": "o",
+   "inicio": 47.82,
+   "fim": 47.88,
+   "linha": "L11",
+   "destaque": false
+  },
+  {
+   "texto": "mundo",
+   "inicio": 47.98,
+   "fim": 48.34,
+   "linha": "L11",
+   "destaque": false
+  },
+  {
+   "texto": "vendo",
+   "inicio": 49.0,
+   "fim": 49.34,
+   "linha": "L11",
+   "destaque": false
+  },
+  {
+   "texto": "milhões",
+   "inicio": 49.9,
+   "fim": 50.58,
+   "linha": "L11",
+   "destaque": true
+  },
+  {
+   "texto": "de",
+   "inicio": 51.24,
+   "fim": 51.38,
+   "linha": "L11",
+   "destaque": false
+  },
+  {
+   "texto": "exemplos.",
+   "inicio": 51.58,
+   "fim": 52.22,
+   "linha": "L11",
+   "destaque": false
+  },
+  {
+   "texto": "Então",
+   "inicio": 52.48,
+   "fim": 52.86,
+   "linha": "L12",
+   "destaque": false
+  },
+  {
+   "texto": "por",
+   "inicio": 53.34,
+   "fim": 53.44,
+   "linha": "L12",
+   "destaque": false
+  },
+  {
+   "texto": "que",
+   "inicio": 53.56,
+   "fim": 53.68,
+   "linha": "L12",
+   "destaque": false
+  },
+  {
+   "texto": "que",
+   "inicio": 53.88,
+   "fim": 53.98,
+   "linha": "L12",
+   "destaque": false
+  },
+  {
+   "texto": "um",
+   "inicio": 54.0,
+   "fim": 54.1,
+   "linha": "L12",
+   "destaque": false
+  },
+  {
+   "texto": "computador",
+   "inicio": 54.14,
+   "fim": 54.56,
+   "linha": "L12",
+   "destaque": true
+  },
+  {
+   "texto": "deveria",
+   "inicio": 55.0,
+   "fim": 55.34,
+   "linha": "L12",
+   "destaque": false
+  },
+  {
+   "texto": "ser",
+   "inicio": 55.4,
+   "fim": 55.52,
+   "linha": "L12",
+   "destaque": false
+  },
+  {
+   "texto": "diferente",
+   "inicio": 55.54,
+   "fim": 56.08,
+   "linha": "L12",
+   "destaque": false
+  },
+  {
+   "texto": "Em",
+   "inicio": 56.68,
+   "fim": 56.84,
+   "linha": "L13",
+   "destaque": false
+  },
+  {
+   "texto": "2007,",
+   "inicio": 57.08,
+   "fim": 57.88,
+   "linha": "L13",
+   "destaque": false
+  },
+  {
+   "texto": "ela",
+   "inicio": 58.1,
+   "fim": 58.34,
+   "linha": "L13",
+   "destaque": false
+  },
+  {
+   "texto": "começou",
+   "inicio": 58.44,
+   "fim": 58.78,
+   "linha": "L13",
+   "destaque": false
+  },
+  {
+   "texto": "um",
+   "inicio": 58.8,
+   "fim": 58.88,
+   "linha": "L13",
+   "destaque": false
+  },
+  {
+   "texto": "projeto",
+   "inicio": 58.9,
+   "fim": 59.34,
+   "linha": "L13",
+   "destaque": false
+  },
+  {
+   "texto": "chamado",
+   "inicio": 59.42,
+   "fim": 59.86,
+   "linha": "L13",
+   "destaque": false
+  },
+  {
+   "texto": "ImageNet.",
+   "inicio": 60.1,
+   "fim": 60.82,
+   "linha": "L13",
+   "destaque": true
+  },
+  {
+   "texto": "A",
+   "inicio": 61.1,
+   "fim": 61.2,
+   "linha": "L14",
+   "destaque": false
+  },
+  {
+   "texto": "ideia",
+   "inicio": 61.3,
+   "fim": 61.76,
+   "linha": "L14",
+   "destaque": false
+  },
+  {
+   "texto": "era",
+   "inicio": 62.04,
+   "fim": 62.26,
+   "linha": "L14",
+   "destaque": false
+  },
+  {
+   "texto": "reunir",
+   "inicio": 62.72,
+   "fim": 63.14,
+   "linha": "L14",
+   "destaque": false
+  },
+  {
+   "texto": "milhões",
+   "inicio": 63.5,
+   "fim": 63.98,
+   "linha": "L14",
+   "destaque": false
+  },
+  {
+   "texto": "de",
+   "inicio": 64.02,
+   "fim": 64.04,
+   "linha": "L14",
+   "destaque": false
+  },
+  {
+   "texto": "imagens",
+   "inicio": 64.08,
+   "fim": 64.62,
+   "linha": "L14",
+   "destaque": false
+  },
+  {
+   "texto": "e",
+   "inicio": 65.16,
+   "fim": 65.2,
+   "linha": "L14",
+   "destaque": false
+  },
+  {
+   "texto": "passar",
+   "inicio": 65.3,
+   "fim": 65.56,
+   "linha": "L14",
+   "destaque": false
+  },
+  {
+   "texto": "para",
+   "inicio": 65.6,
+   "fim": 65.7,
+   "linha": "L14",
+   "destaque": false
+  },
+  {
+   "texto": "o",
+   "inicio": 65.72,
+   "fim": 65.78,
+   "linha": "L14",
+   "destaque": false
+  },
+  {
+   "texto": "computador",
+   "inicio": 65.8,
+   "fim": 66.24,
+   "linha": "L14",
+   "destaque": false
+  },
+  {
+   "texto": "reconhecer",
+   "inicio": 66.64,
+   "fim": 67.3,
+   "linha": "L14",
+   "destaque": false
+  },
+  {
+   "texto": "exatamente",
+   "inicio": 67.54,
+   "fim": 68.36,
+   "linha": "L14",
+   "destaque": false
+  },
+  {
+   "texto": "cada",
+   "inicio": 68.62,
+   "fim": 68.92,
+   "linha": "L14",
+   "destaque": false
+  },
+  {
+   "texto": "uma",
+   "inicio": 69.18,
+   "fim": 69.42,
+   "linha": "L14",
+   "destaque": false
+  },
+  {
+   "texto": "delas",
+   "inicio": 69.48,
+   "fim": 69.92,
+   "linha": "L14",
+   "destaque": false
+  },
+  {
+   "texto": "Segundo",
+   "inicio": 70.28,
+   "fim": 70.72,
+   "linha": "L15",
+   "destaque": false
+  },
+  {
+   "texto": "ela",
+   "inicio": 70.9,
+   "fim": 71.14,
+   "linha": "L15",
+   "destaque": false
+  },
+  {
+   "texto": "50",
+   "inicio": 71.28,
+   "fim": 71.8,
+   "linha": "L15",
+   "destaque": true
+  },
+  {
+   "texto": "mil",
+   "inicio": 71.86,
+   "fim": 71.98,
+   "linha": "L15",
+   "destaque": true
+  },
+  {
+   "texto": "pessoas",
+   "inicio": 72.08,
+   "fim": 72.64,
+   "linha": "L15",
+   "destaque": true
+  },
+  {
+   "texto": "pela",
+   "inicio": 72.72,
+   "fim": 72.88,
+   "linha": "L15",
+   "destaque": false
+  },
+  {
+   "texto": "internet",
+   "inicio": 72.92,
+   "fim": 73.38,
+   "linha": "L15",
+   "destaque": false
+  },
+  {
+   "texto": "ajudaram",
+   "inicio": 73.64,
+   "fim": 74.4,
+   "linha": "L15",
+   "destaque": false
+  },
+  {
+   "texto": "a",
+   "inicio": 74.64,
+   "fim": 74.82,
+   "linha": "L15",
+   "destaque": false
+  },
+  {
+   "texto": "organizar",
+   "inicio": 74.88,
+   "fim": 75.54,
+   "linha": "L15",
+   "destaque": false
+  },
+  {
+   "texto": "e",
+   "inicio": 75.84,
+   "fim": 75.88,
+   "linha": "L15",
+   "destaque": false
+  },
+  {
+   "texto": "identificar",
+   "inicio": 75.94,
+   "fim": 76.72,
+   "linha": "L15",
+   "destaque": false
+  },
+  {
+   "texto": "cada",
+   "inicio": 77.08,
+   "fim": 77.38,
+   "linha": "L15",
+   "destaque": false
+  },
+  {
+   "texto": "uma",
+   "inicio": 77.62,
+   "fim": 77.8,
+   "linha": "L15",
+   "destaque": false
+  },
+  {
+   "texto": "dessas",
+   "inicio": 77.88,
+   "fim": 78.16,
+   "linha": "L15",
+   "destaque": false
+  },
+  {
+   "texto": "imagens",
+   "inicio": 78.2,
+   "fim": 78.78,
+   "linha": "L15",
+   "destaque": false
+  },
+  {
+   "texto": "E",
+   "inicio": 79.07,
+   "fim": 79.13,
+   "linha": "L16",
+   "destaque": false
+  },
+  {
+   "texto": "sabe",
+   "inicio": 79.23,
+   "fim": 79.63,
+   "linha": "L16",
+   "destaque": false
+  },
+  {
+   "texto": "o",
+   "inicio": 80.09,
+   "fim": 80.17,
+   "linha": "L16",
+   "destaque": false
+  },
+  {
+   "texto": "mais",
+   "inicio": 80.23,
+   "fim": 80.47,
+   "linha": "L16",
+   "destaque": false
+  },
+  {
+   "texto": "curioso?",
+   "inicio": 80.57,
+   "fim": 81.21,
+   "linha": "L16",
+   "destaque": true
+  },
+  {
+   "texto": "Ela",
+   "inicio": 81.81,
+   "fim": 82.13,
+   "linha": "L17",
+   "destaque": false
+  },
+  {
+   "texto": "disponibilizou",
+   "inicio": 82.49,
+   "fim": 83.31,
+   "linha": "L17",
+   "destaque": false
+  },
+  {
+   "texto": "tudo",
+   "inicio": 83.47,
+   "fim": 83.79,
+   "linha": "L17",
+   "destaque": false
+  },
+  {
+   "texto": "de",
+   "inicio": 83.93,
+   "fim": 84.03,
+   "linha": "L17",
+   "destaque": true
+  },
+  {
+   "texto": "graça",
+   "inicio": 84.07,
+   "fim": 84.49,
+   "linha": "L17",
+   "destaque": true
+  },
+  {
+   "texto": "para",
+   "inicio": 84.67,
+   "fim": 84.95,
+   "linha": "L17",
+   "destaque": false
+  },
+  {
+   "texto": "pesquisadores.",
+   "inicio": 85.39,
+   "fim": 86.21,
+   "linha": "L17",
+   "destaque": false
+  },
+  {
+   "texto": "Aí",
+   "inicio": 86.71,
+   "fim": 87.03,
+   "linha": "L18",
+   "destaque": false
+  },
+  {
+   "texto": "chega",
+   "inicio": 87.53,
+   "fim": 87.95,
+   "linha": "L18",
+   "destaque": false
+  },
+  {
+   "texto": "2012.",
+   "inicio": 88.45,
+   "fim": 89.21,
+   "linha": "L18",
+   "destaque": true
+  },
+  {
+   "texto": "Um",
+   "inicio": 89.43,
+   "fim": 89.53,
+   "linha": "L19",
+   "destaque": false
+  },
+  {
+   "texto": "grupo",
+   "inicio": 89.63,
+   "fim": 90.01,
+   "linha": "L19",
+   "destaque": false
+  },
+  {
+   "texto": "da",
+   "inicio": 90.09,
+   "fim": 90.15,
+   "linha": "L19",
+   "destaque": false
+  },
+  {
+   "texto": "Universidade",
+   "inicio": 90.17,
+   "fim": 90.71,
+   "linha": "L19",
+   "destaque": false
+  },
+  {
+   "texto": "de",
+   "inicio": 90.73,
+   "fim": 90.81,
+   "linha": "L19",
+   "destaque": false
+  },
+  {
+   "texto": "Toronto",
+   "inicio": 90.87,
+   "fim": 91.31,
+   "linha": "L19",
+   "destaque": false
+  },
+  {
+   "texto": "usa",
+   "inicio": 91.549,
+   "fim": 92.049,
+   "linha": "L19",
+   "destaque": false
+  },
+  {
+   "texto": "o",
+   "inicio": 92.049,
+   "fim": 92.309,
+   "linha": "L19",
+   "destaque": false
+  },
+  {
+   "texto": "ImageNet",
+   "inicio": 92.309,
+   "fim": 93.07,
+   "linha": "L19",
+   "destaque": false
+  },
+  {
+   "texto": "para",
+   "inicio": 93.35,
+   "fim": 93.549,
+   "linha": "L19",
+   "destaque": false
+  },
+  {
+   "texto": "treinar",
+   "inicio": 93.59,
+   "fim": 93.989,
+   "linha": "L19",
+   "destaque": false
+  },
+  {
+   "texto": "uma",
+   "inicio": 94.23,
+   "fim": 94.69,
+   "linha": "L19",
+   "destaque": false
+  },
+  {
+   "texto": "rede",
+   "inicio": 94.75,
+   "fim": 95.01,
+   "linha": "L19",
+   "destaque": false
+  },
+  {
+   "texto": "neural",
+   "inicio": 95.049,
+   "fim": 95.57,
+   "linha": "L19",
+   "destaque": false
+  },
+  {
+   "texto": "numa",
+   "inicio": 95.57,
+   "fim": 96.15,
+   "linha": "L19",
+   "destaque": false
+  },
+  {
+   "texto": "competição",
+   "inicio": 96.15,
+   "fim": 96.81,
+   "linha": "L19",
+   "destaque": false
+  },
+  {
+   "texto": "de",
+   "inicio": 97.01,
+   "fim": 97.09,
+   "linha": "L19",
+   "destaque": false
+  },
+  {
+   "texto": "reconhecimento",
+   "inicio": 97.11,
+   "fim": 97.87,
+   "linha": "L19",
+   "destaque": true
+  },
+  {
+   "texto": "de",
+   "inicio": 97.87,
+   "fim": 98.43,
+   "linha": "L19",
+   "destaque": true
+  },
+  {
+   "texto": "imagens.",
+   "inicio": 98.43,
+   "fim": 98.93,
+   "linha": "L19",
+   "destaque": true
+  },
+  {
+   "texto": "E",
+   "inicio": 99.13,
+   "fim": 99.21,
+   "linha": "L20",
+   "destaque": false
+  },
+  {
+   "texto": "sabe",
+   "inicio": 99.29,
+   "fim": 99.67,
+   "linha": "L20",
+   "destaque": false
+  },
+  {
+   "texto": "quem",
+   "inicio": 99.93,
+   "fim": 100.15,
+   "linha": "L20",
+   "destaque": false
+  },
+  {
+   "texto": "estava",
+   "inicio": 100.21,
+   "fim": 100.49,
+   "linha": "L20",
+   "destaque": false
+  },
+  {
+   "texto": "nesse",
+   "inicio": 100.53,
+   "fim": 100.79,
+   "linha": "L20",
+   "destaque": false
+  },
+  {
+   "texto": "grupo?",
+   "inicio": 100.83,
+   "fim": 101.21,
+   "linha": "L20",
+   "destaque": false
+  },
+  {
+   "texto": "Geoffrey",
+   "inicio": 101.58,
+   "fim": 102.1,
+   "linha": "L21",
+   "destaque": true
+  },
+  {
+   "texto": "Hinton",
+   "inicio": 102.5,
+   "fim": 102.96,
+   "linha": "L21",
+   "destaque": true
+  },
+  {
+   "texto": "de",
+   "inicio": 103.28,
+   "fim": 103.34,
+   "linha": "L21",
+   "destaque": false
+  },
+  {
+   "texto": "quem",
+   "inicio": 103.48,
+   "fim": 103.72,
+   "linha": "L21",
+   "destaque": false
+  },
+  {
+   "texto": "eu",
+   "inicio": 103.9,
+   "fim": 104.02,
+   "linha": "L21",
+   "destaque": false
+  },
+  {
+   "texto": "já",
+   "inicio": 104.06,
+   "fim": 104.22,
+   "linha": "L21",
+   "destaque": false
+  },
+  {
+   "texto": "falei",
+   "inicio": 104.28,
+   "fim": 104.52,
+   "linha": "L21",
+   "destaque": false
+  },
+  {
+   "texto": "aqui",
+   "inicio": 104.58,
+   "fim": 104.9,
+   "linha": "L21",
+   "destaque": false
+  },
+  {
+   "texto": "no",
+   "inicio": 105.26,
+   "fim": 105.32,
+   "linha": "L21",
+   "destaque": false
+  },
+  {
+   "texto": "meu",
+   "inicio": 105.36,
+   "fim": 105.5,
+   "linha": "L21",
+   "destaque": false
+  },
+  {
+   "texto": "canal",
+   "inicio": 105.54,
+   "fim": 105.82,
+   "linha": "L21",
+   "destaque": false
+  },
+  {
+   "texto": "O",
+   "inicio": 106.42,
+   "fim": 106.48,
+   "linha": "L22",
+   "destaque": false
+  },
+  {
+   "texto": "resultado",
+   "inicio": 106.52,
+   "fim": 107.22,
+   "linha": "L22",
+   "destaque": false
+  },
+  {
+   "texto": "foi",
+   "inicio": 107.28,
+   "fim": 107.4,
+   "linha": "L22",
+   "destaque": false
+  },
+  {
+   "texto": "tão",
+   "inicio": 107.6,
+   "fim": 107.9,
+   "linha": "L22",
+   "destaque": false
+  },
+  {
+   "texto": "superior",
+   "inicio": 107.96,
+   "fim": 108.52,
+   "linha": "L22",
+   "destaque": false
+  },
+  {
+   "texto": "ao",
+   "inicio": 108.74,
+   "fim": 108.88,
+   "linha": "L22",
+   "destaque": false
+  },
+  {
+   "texto": "concorrente",
+   "inicio": 108.92,
+   "fim": 109.62,
+   "linha": "L22",
+   "destaque": false
+  },
+  {
+   "texto": "e",
+   "inicio": 109.76,
+   "fim": 109.8,
+   "linha": "L22",
+   "destaque": false
+  },
+  {
+   "texto": "naquele",
+   "inicio": 109.86,
+   "fim": 110.3,
+   "linha": "L22",
+   "destaque": false
+  },
+  {
+   "texto": "momento",
+   "inicio": 110.34,
+   "fim": 110.92,
+   "linha": "L22",
+   "destaque": false
+  },
+  {
+   "texto": "começou",
+   "inicio": 111.08,
+   "fim": 111.7,
+   "linha": "L22",
+   "destaque": false
+  },
+  {
+   "texto": "a",
+   "inicio": 112.08,
+   "fim": 112.12,
+   "linha": "L22",
+   "destaque": false
+  },
+  {
+   "texto": "mudar",
+   "inicio": 112.22,
+   "fim": 112.6,
+   "linha": "L22",
+   "destaque": false
+  },
+  {
+   "texto": "o",
+   "inicio": 112.92,
+   "fim": 112.98,
+   "linha": "L22",
+   "destaque": false
+  },
+  {
+   "texto": "rumo",
+   "inicio": 113.04,
+   "fim": 113.32,
+   "linha": "L22",
+   "destaque": false
+  },
+  {
+   "texto": "da",
+   "inicio": 113.5,
+   "fim": 113.6,
+   "linha": "L22",
+   "destaque": false
+  },
+  {
+   "texto": "inteligência",
+   "inicio": 113.64,
+   "fim": 114.26,
+   "linha": "L22",
+   "destaque": true
+  },
+  {
+   "texto": "artificial",
+   "inicio": 114.5,
+   "fim": 115.17,
+   "linha": "L22",
+   "destaque": true
+  },
+  {
+   "texto": "Mas",
+   "inicio": 115.72,
+   "fim": 115.88,
+   "linha": "L23",
+   "destaque": false
+  },
+  {
+   "texto": "olha",
+   "inicio": 115.94,
+   "fim": 116.14,
+   "linha": "L23",
+   "destaque": false
+  },
+  {
+   "texto": "só",
+   "inicio": 116.2,
+   "fim": 116.34,
+   "linha": "L23",
+   "destaque": false
+  },
+  {
+   "texto": "que",
+   "inicio": 116.6,
+   "fim": 116.7,
+   "linha": "L23",
+   "destaque": false
+  },
+  {
+   "texto": "interessante",
+   "inicio": 116.74,
+   "fim": 117.54,
+   "linha": "L23",
+   "destaque": false
+  },
+  {
+   "texto": "A",
+   "inicio": 118.11,
+   "fim": 118.23,
+   "linha": "L24",
+   "destaque": false
+  },
+  {
+   "texto": "IA",
+   "inicio": 118.27,
+   "fim": 118.79,
+   "linha": "L24",
+   "destaque": false
+  },
+  {
+   "texto": "era",
+   "inicio": 119.13,
+   "fim": 119.35,
+   "linha": "L24",
+   "destaque": false
+  },
+  {
+   "texto": "deles.",
+   "inicio": 119.43,
+   "fim": 119.81,
+   "linha": "L24",
+   "destaque": true
+  },
+  {
+   "texto": "Os",
+   "inicio": 120.13,
+   "fim": 120.29,
+   "linha": "L25",
+   "destaque": false
+  },
+  {
+   "texto": "exemplos",
+   "inicio": 120.35,
+   "fim": 121.01,
+   "linha": "L25",
+   "destaque": true
+  },
+  {
+   "texto": "eram",
+   "inicio": 121.63,
+   "fim": 121.87,
+   "linha": "L25",
+   "destaque": false
+  },
+  {
+   "texto": "dela.",
+   "inicio": 122.17,
+   "fim": 122.49,
+   "linha": "L25",
+   "destaque": false
+  },
+  {
+   "texto": "Hoje",
+   "inicio": 123.08,
+   "fim": 123.44,
+   "linha": "L26",
+   "destaque": false
+  },
+  {
+   "texto": "a",
+   "inicio": 123.76,
+   "fim": 123.82,
+   "linha": "L26",
+   "destaque": false
+  },
+  {
+   "texto": "imprensa",
+   "inicio": 123.86,
+   "fim": 124.44,
+   "linha": "L26",
+   "destaque": false
+  },
+  {
+   "texto": "chama",
+   "inicio": 124.76,
+   "fim": 125.14,
+   "linha": "L26",
+   "destaque": false
+  },
+  {
+   "texto": "a",
+   "inicio": 125.36,
+   "fim": 125.44,
+   "linha": "L26",
+   "destaque": false
+  },
+  {
+   "texto": "Fei-Fei",
+   "inicio": 125.6,
+   "fim": 126.0,
+   "linha": "L26",
+   "destaque": false
+  },
+  {
+   "texto": "Li",
+   "inicio": 126.08,
+   "fim": 126.24,
+   "linha": "L26",
+   "destaque": false
+  },
+  {
+   "texto": "da",
+   "inicio": 126.46,
+   "fim": 126.54,
+   "linha": "L26",
+   "destaque": true
+  },
+  {
+   "texto": "madrinha",
+   "inicio": 126.64,
+   "fim": 127.16,
+   "linha": "L26",
+   "destaque": true
+  },
+  {
+   "texto": "da",
+   "inicio": 127.32,
+   "fim": 127.4,
+   "linha": "L26",
+   "destaque": true
+  },
+  {
+   "texto": "inteligência",
+   "inicio": 127.44,
+   "fim": 128.0,
+   "linha": "L26",
+   "destaque": true
+  },
+  {
+   "texto": "artificial",
+   "inicio": 128.04,
+   "fim": 128.58,
+   "linha": "L26",
+   "destaque": true
+  },
+  {
+   "texto": "E",
+   "inicio": 128.82,
+   "fim": 128.88,
+   "linha": "L27",
+   "destaque": false
+  },
+  {
+   "texto": "a",
+   "inicio": 128.9,
+   "fim": 128.96,
+   "linha": "L27",
+   "destaque": false
+  },
+  {
+   "texto": "história",
+   "inicio": 128.94,
+   "fim": 129.34,
+   "linha": "L27",
+   "destaque": false
+  },
+  {
+   "texto": "dela",
+   "inicio": 129.38,
+   "fim": 129.66,
+   "linha": "L27",
+   "destaque": false
+  },
+  {
+   "texto": "mostra",
+   "inicio": 129.98,
+   "fim": 130.485,
+   "linha": "L27",
+   "destaque": false
+  },
+  {
+   "texto": "uma",
+   "inicio": 130.56,
+   "fim": 130.78,
+   "linha": "L27",
+   "destaque": false
+  },
+  {
+   "texto": "coisa",
+   "inicio": 130.84,
+   "fim": 131.16,
+   "linha": "L27",
+   "destaque": false
+  },
+  {
+   "texto": "muito",
+   "inicio": 131.56,
+   "fim": 131.88,
+   "linha": "L27",
+   "destaque": false
+  },
+  {
+   "texto": "importante:",
+   "inicio": 131.92,
+   "fim": 132.535,
+   "linha": "L27",
+   "destaque": true
+  },
+  {
+   "texto": "A",
+   "inicio": 133.18,
+   "fim": 133.24,
+   "linha": "L28",
+   "destaque": false
+  },
+  {
+   "texto": "inteligência",
+   "inicio": 133.28,
+   "fim": 133.76,
+   "linha": "L28",
+   "destaque": false
+  },
+  {
+   "texto": "artificial",
+   "inicio": 133.8,
+   "fim": 134.46,
+   "linha": "L28",
+   "destaque": false
+  },
+  {
+   "texto": "não",
+   "inicio": 134.72,
+   "fim": 134.84,
+   "linha": "L28",
+   "destaque": false
+  },
+  {
+   "texto": "aprende",
+   "inicio": 134.9,
+   "fim": 135.4,
+   "linha": "L28",
+   "destaque": false
+  },
+  {
+   "texto": "por",
+   "inicio": 135.68,
+   "fim": 135.8,
+   "linha": "L28",
+   "destaque": false
+  },
+  {
+   "texto": "mágica",
+   "inicio": 135.92,
+   "fim": 136.34,
+   "linha": "L28",
+   "destaque": true
+  },
+  {
+   "texto": "Ela",
+   "inicio": 136.64,
+   "fim": 137.0,
+   "linha": "L29",
+   "destaque": false
+  },
+  {
+   "texto": "aprende",
+   "inicio": 137.08,
+   "fim": 137.66,
+   "linha": "L29",
+   "destaque": false
+  },
+  {
+   "texto": "porque",
+   "inicio": 137.92,
+   "fim": 138.14,
+   "linha": "L29",
+   "destaque": false
+  },
+  {
+   "texto": "alguém",
+   "inicio": 138.2,
+   "fim": 138.64,
+   "linha": "L29",
+   "destaque": false
+  },
+  {
+   "texto": "teve",
+   "inicio": 138.84,
+   "fim": 139.12,
+   "linha": "L29",
+   "destaque": false
+  },
+  {
+   "texto": "o",
+   "inicio": 139.14,
+   "fim": 139.2,
+   "linha": "L29",
+   "destaque": false
+  },
+  {
+   "texto": "trabalho",
+   "inicio": 139.22,
+   "fim": 139.78,
+   "linha": "L29",
+   "destaque": false
+  },
+  {
+   "texto": "de",
+   "inicio": 139.98,
+   "fim": 140.22,
+   "linha": "L29",
+   "destaque": false
+  },
+  {
+   "texto": "organizar",
+   "inicio": 140.28,
+   "fim": 140.7,
+   "linha": "L29",
+   "destaque": false
+  },
+  {
+   "texto": "informações",
+   "inicio": 140.74,
+   "fim": 141.44,
+   "linha": "L29",
+   "destaque": false
+  },
+  {
+   "texto": "ensinar",
+   "inicio": 141.7,
+   "fim": 142.26,
+   "linha": "L29",
+   "destaque": false
+  },
+  {
+   "texto": "o",
+   "inicio": 142.44,
+   "fim": 142.48,
+   "linha": "L29",
+   "destaque": false
+  },
+  {
+   "texto": "que",
+   "inicio": 142.54,
+   "fim": 142.66,
+   "linha": "L29",
+   "destaque": false
+  },
+  {
+   "texto": "cada",
+   "inicio": 142.7,
+   "fim": 142.86,
+   "linha": "L29",
+   "destaque": false
+  },
+  {
+   "texto": "coisa",
+   "inicio": 142.96,
+   "fim": 143.22,
+   "linha": "L29",
+   "destaque": false
+  },
+  {
+   "texto": "significa",
+   "inicio": 143.34,
+   "fim": 143.92,
+   "linha": "L29",
+   "destaque": true
+  },
+  {
+   "texto": "E,",
+   "inicio": 144.16,
+   "fim": 144.24,
+   "linha": "L30",
+   "destaque": false
+  },
+  {
+   "texto": "às",
+   "inicio": 144.28,
+   "fim": 144.42,
+   "linha": "L30",
+   "destaque": false
+  },
+  {
+   "texto": "vezes,",
+   "inicio": 144.46,
+   "fim": 144.92,
+   "linha": "L30",
+   "destaque": false
+  },
+  {
+   "texto": "quem",
+   "inicio": 145.2,
+   "fim": 145.36,
+   "linha": "L30",
+   "destaque": false
+  },
+  {
+   "texto": "ajuda",
+   "inicio": 145.42,
+   "fim": 145.88,
+   "linha": "L30",
+   "destaque": false
+  },
+  {
+   "texto": "a",
+   "inicio": 146.0,
+   "fim": 146.06,
+   "linha": "L30",
+   "destaque": false
+  },
+  {
+   "texto": "mudar",
+   "inicio": 146.12,
+   "fim": 146.4,
+   "linha": "L30",
+   "destaque": false
+  },
+  {
+   "texto": "o",
+   "inicio": 146.42,
+   "fim": 146.48,
+   "linha": "L30",
+   "destaque": false
+  },
+  {
+   "texto": "futuro…",
+   "inicio": 146.56,
+   "fim": 147.04,
+   "linha": "L30",
+   "destaque": true
+  },
+  {
+   "texto": "é",
+   "inicio": 147.36,
+   "fim": 147.42,
+   "linha": "L31",
+   "destaque": false
+  },
+  {
+   "texto": "aquela",
+   "inicio": 147.5,
+   "fim": 147.72,
+   "linha": "L31",
+   "destaque": false
+  },
+  {
+   "texto": "adolescente",
+   "inicio": 147.76,
+   "fim": 148.36,
+   "linha": "L31",
+   "destaque": false
+  },
+  {
+   "texto": "que",
+   "inicio": 148.56,
+   "fim": 148.64,
+   "linha": "L31",
+   "destaque": false
+  },
+  {
+   "texto": "um",
+   "inicio": 148.7,
+   "fim": 148.78,
+   "linha": "L31",
+   "destaque": false
+  },
+  {
+   "texto": "dia",
+   "inicio": 148.9,
+   "fim": 149.18,
+   "linha": "L31",
+   "destaque": false
+  },
+  {
+   "texto": "precisou",
+   "inicio": 149.48,
+   "fim": 150.02,
+   "linha": "L31",
+   "destaque": false
+  },
+  {
+   "texto": "traduzir",
+   "inicio": 150.32,
+   "fim": 150.84,
+   "linha": "L31",
+   "destaque": true
+  },
+  {
+   "texto": "tudo",
+   "inicio": 151.1,
+   "fim": 151.44,
+   "linha": "L31",
+   "destaque": true
+  },
+  {
+   "texto": "para",
+   "inicio": 151.96,
+   "fim": 152.12,
+   "linha": "L31",
+   "destaque": false
+  },
+  {
+   "texto": "sua",
+   "inicio": 152.16,
+   "fim": 152.32,
+   "linha": "L31",
+   "destaque": false
+  },
+  {
+   "texto": "própria",
+   "inicio": 152.34,
+   "fim": 152.6,
+   "linha": "L31",
+   "destaque": false
+  },
+  {
+   "texto": "família",
+   "inicio": 152.7,
+   "fim": 153.1,
+   "linha": "L31",
+   "destaque": false
+  },
+  {
+   "texto": "Comenta",
+   "inicio": 154.02,
+   "fim": 154.54,
+   "linha": "L32",
+   "destaque": false
+  },
+  {
+   "texto": "AULA",
+   "inicio": 154.82,
+   "fim": 155.08,
+   "linha": "L32",
+   "destaque": true
+  },
+  {
+   "texto": "aqui",
+   "inicio": 155.16,
+   "fim": 155.26,
+   "linha": "L32",
+   "destaque": false
+  },
+  {
+   "texto": "embaixo",
+   "inicio": 155.28,
+   "fim": 155.72,
+   "linha": "L32",
+   "destaque": false
+  },
+  {
+   "texto": "eu",
+   "inicio": 156.06,
+   "fim": 156.16,
+   "linha": "L32",
+   "destaque": false
+  },
+  {
+   "texto": "te",
+   "inicio": 156.18,
+   "fim": 156.24,
+   "linha": "L32",
+   "destaque": false
+  },
+  {
+   "texto": "envio",
+   "inicio": 156.26,
+   "fim": 156.66,
+   "linha": "L32",
+   "destaque": false
+  },
+  {
+   "texto": "no",
+   "inicio": 156.86,
+   "fim": 156.96,
+   "linha": "L32",
+   "destaque": false
+  },
+  {
+   "texto": "seu",
+   "inicio": 156.98,
+   "fim": 157.14,
+   "linha": "L32",
+   "destaque": false
+  },
+  {
+   "texto": "direct",
+   "inicio": 157.16,
+   "fim": 157.54,
+   "linha": "L32",
+   "destaque": false
+  },
+  {
+   "texto": "uma",
+   "inicio": 157.78,
+   "fim": 157.86,
+   "linha": "L32",
+   "destaque": false
+  },
+  {
+   "texto": "entrevista",
+   "inicio": 157.9,
+   "fim": 158.4,
+   "linha": "L32",
+   "destaque": false
+  },
+  {
+   "texto": "completa",
+   "inicio": 158.52,
+   "fim": 159.04,
+   "linha": "L32",
+   "destaque": false
+  },
+  {
+   "texto": "sobre",
+   "inicio": 159.32,
+   "fim": 159.62,
+   "linha": "L32",
+   "destaque": false
+  },
+  {
+   "texto": "a",
+   "inicio": 159.88,
+   "fim": 159.94,
+   "linha": "L32",
+   "destaque": false
+  },
+  {
+   "texto": "Fei-Fei",
+   "inicio": 160.04,
+   "fim": 160.38,
+   "linha": "L32",
+   "destaque": false
+  },
+  {
+   "texto": "Li",
+   "inicio": 160.42,
+   "fim": 160.58,
+   "linha": "L32",
+   "destaque": false
+  },
+  {
+   "texto": "São",
+   "inicio": 160.78,
+   "fim": 160.92,
+   "linha": "L33",
+   "destaque": false
+  },
+  {
+   "texto": "somente",
+   "inicio": 160.96,
+   "fim": 161.3,
+   "linha": "L33",
+   "destaque": false
+  },
+  {
+   "texto": "18",
+   "inicio": 161.42,
+   "fim": 161.8,
+   "linha": "L33",
+   "destaque": false
+  },
+  {
+   "texto": "minutos",
+   "inicio": 161.88,
+   "fim": 162.28,
+   "linha": "L33",
+   "destaque": false
+  },
+  {
+   "texto": "com",
+   "inicio": 162.42,
+   "fim": 162.48,
+   "linha": "L33",
+   "destaque": false
+  },
+  {
+   "texto": "a",
+   "inicio": 162.5,
+   "fim": 162.54,
+   "linha": "L33",
+   "destaque": false
+  },
+  {
+   "texto": "legenda",
+   "inicio": 162.58,
+   "fim": 163.12,
+   "linha": "L33",
+   "destaque": false
+  },
+  {
+   "texto": "em",
+   "inicio": 163.28,
+   "fim": 163.42,
+   "linha": "L33",
+   "destaque": false
+  },
+  {
+   "texto": "português",
+   "inicio": 163.44,
+   "fim": 163.92,
+   "linha": "L33",
+   "destaque": true
+  },
+  {
+   "texto": "E",
+   "inicio": 164.18,
+   "fim": 164.28,
+   "linha": "L34",
+   "destaque": false
+  },
+  {
+   "texto": "manda",
+   "inicio": 164.34,
+   "fim": 164.54,
+   "linha": "L34",
+   "destaque": false
+  },
+  {
+   "texto": "esse",
+   "inicio": 164.56,
+   "fim": 164.78,
+   "linha": "L34",
+   "destaque": false
+  },
+  {
+   "texto": "vídeo",
+   "inicio": 164.84,
+   "fim": 165.12,
+   "linha": "L34",
+   "destaque": false
+  },
+  {
+   "texto": "pra",
+   "inicio": 165.42,
+   "fim": 165.48,
+   "linha": "L34",
+   "destaque": false
+  },
+  {
+   "texto": "alguém",
+   "inicio": 165.5,
+   "fim": 165.82,
+   "linha": "L34",
+   "destaque": false
+  },
+  {
+   "texto": "que",
+   "inicio": 165.9,
+   "fim": 166.0,
+   "linha": "L34",
+   "destaque": false
+  },
+  {
+   "texto": "já",
+   "inicio": 166.04,
+   "fim": 166.24,
+   "linha": "L34",
+   "destaque": false
+  },
+  {
+   "texto": "foi",
+   "inicio": 166.32,
+   "fim": 166.655,
+   "linha": "L34",
+   "destaque": false
+  },
+  {
+   "texto": "o",
+   "inicio": 166.76,
+   "fim": 166.82,
+   "linha": "L34",
+   "destaque": false
+  },
+  {
+   "texto": "tradutor",
+   "inicio": 166.84,
+   "fim": 167.32,
+   "linha": "L34",
+   "destaque": true
+  },
+  {
+   "texto": "da",
+   "inicio": 167.68,
+   "fim": 167.74,
+   "linha": "L34",
+   "destaque": true
+  },
+  {
+   "texto": "família.",
+   "inicio": 167.84,
+   "fim": 168.3,
+   "linha": "L34",
+   "destaque": true
+  }
+ ],
+ "duracao_saida": 168.44,
+ "zoom_no_corte": true,
+ "audio": {
+  "loudnorm_lufs": -14,
+  "true_peak": -1.5,
+  "musica": "musica/opcao-1.mp3",
+  "ducking": true
+ },
+ "variantes": [
+  {
+   "linha": "L01B",
+   "alternativa_de": "L01",
+   "take": "L01B-T1",
+   "fonte": "praq0993",
+   "in": 71.56,
+   "out": 77.68,
+   "cortes_internos": [
+    [
+     72.52,
+     72.64
+    ],
+    [
+     74.28,
+     74.88
+    ]
+   ],
+   "status": "parafrase"
+  },
+  {
+   "linha": "L01C",
+   "alternativa_de": "L01",
+   "take": "L01C-T1",
+   "fonte": "praq0994",
+   "in": 6.76,
+   "out": 13.24,
+   "cortes_internos": [
+    [
+     10.04,
+     10.24
+    ],
+    [
+     11.24,
+     11.48
+    ]
+   ],
+   "status": "parafrase"
+  }
+ ],
+ "gerado_em": "2026-10-17T05:20:47+01:00",
+ "notas": [
+  "17/10 legendas: 17 linhas com a FALA REAL (qa/transcricao-corte.json, revisão 1) — cópia anterior em edl.antes-legendas.json"
+ ]
+}

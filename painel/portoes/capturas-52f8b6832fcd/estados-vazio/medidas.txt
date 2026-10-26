@@ -1,0 +1,8 @@
+# capturar.sh · 2026-10-25T21:46:29.001Z
+# alvo	largura pedida	innerWidth	scrollWidth	altura	HTTP	png	passa da borda
+/biblioteca	1440	1440	1440	1527	200	/Users/teste/Documents/CONTENT AI/painel/portoes/capturas-52f8b6832fcd/estados-vazio/biblioteca-1440.png	
+/biblioteca	375	375	375	2535	200	/Users/teste/Documents/CONTENT AI/painel/portoes/capturas-52f8b6832fcd/estados-vazio/biblioteca-375.png	
+/equipe	1440	1440	1440	900	200	/Users/teste/Documents/CONTENT AI/painel/portoes/capturas-52f8b6832fcd/estados-vazio/equipe-1440.png	
+/equipe	375	375	375	812	200	/Users/teste/Documents/CONTENT AI/painel/portoes/capturas-52f8b6832fcd/estados-vazio/equipe-375.png	
+/tokens	1440	1440	1440	1739	200	/Users/teste/Documents/CONTENT AI/painel/portoes/capturas-52f8b6832fcd/estados-vazio/tokens-1440.png	
+/tokens	375	375	375	2465	200	/Users/teste/Documents/CONTENT AI/painel/portoes/capturas-52f8b6832fcd/estados-vazio/tokens-375.png	

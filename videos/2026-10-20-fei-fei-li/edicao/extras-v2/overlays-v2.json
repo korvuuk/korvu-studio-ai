@@ -1,0 +1,992 @@
+{
+  "origem": "edicao/sequencia-extras.md (v2, 17/10)",
+  "overlays": [
+    {
+      "linhas": [
+        "L03"
+      ],
+      "tipo": "extra",
+      "extra": "V01",
+      "extra_tipo": "imagem",
+      "arquivo": "edicao/extras-v2/CAPA-01.jpg",
+      "modo": "full",
+      "som": false,
+      "credito": "Stanford HAI / QEPrize",
+      "faltando": false,
+      "saida_inicio": 8.88,
+      "saida_fim": 11.28,
+      "enquadrar": {
+        "x": 0.5,
+        "y": 0.3,
+        "zoom": 1.04
+      },
+      "descricao": "v2 #1 CAPA-01"
+    },
+    {
+      "linhas": [
+        "L04"
+      ],
+      "tipo": "extra",
+      "extra": "V02",
+      "extra_tipo": "imagem",
+      "arquivo": "edicao/extras-v2/Y01.png",
+      "modo": "full",
+      "som": false,
+      "credito": "Bloomberg Originals",
+      "faltando": false,
+      "saida_inicio": 11.28,
+      "saida_fim": 13.04,
+      "enquadrar": {
+        "x": 0.5,
+        "y": 0.45,
+        "area": {
+          "x": 538,
+          "y": 108,
+          "largura": 882,
+          "altura": 870
+        }
+      },
+      "descricao": "v2 #2 Y01"
+    },
+    {
+      "linhas": [
+        "L04"
+      ],
+      "tipo": "extra",
+      "extra": "V03",
+      "extra_tipo": "imagem",
+      "arquivo": "edicao/extras-v2/Y03.png",
+      "modo": "full",
+      "som": false,
+      "credito": "Bloomberg Originals / Daily Record",
+      "faltando": false,
+      "saida_inicio": 13.04,
+      "saida_fim": 16.32,
+      "enquadrar": {
+        "x": 0.32,
+        "xFim": 0.45,
+        "y": 0.35,
+        "area": {
+          "x": 0,
+          "y": 70,
+          "largura": 1920,
+          "altura": 1010
+        }
+      },
+      "descricao": "v2 #3 Y03"
+    },
+    {
+      "linhas": [
+        "L05"
+      ],
+      "tipo": "extra",
+      "extra": "V04",
+      "extra_tipo": "video",
+      "arquivo": "edicao/extras-v2/V04-E02.mp4",
+      "modo": "full",
+      "som": false,
+      "credito": "San Francisco Public Library",
+      "faltando": false,
+      "saida_inicio": 16.32,
+      "saida_fim": 19.72,
+      "enquadrar": {
+        "x": 0.49,
+        "y": 0.45
+      },
+      "descricao": "v2 #4 E02",
+      "in": 0.0
+    },
+    {
+      "linhas": [
+        "L06"
+      ],
+      "tipo": "extra",
+      "extra": "V05",
+      "extra_tipo": "imagem",
+      "arquivo": "edicao/extras-v2/Y04.png",
+      "modo": "full",
+      "som": false,
+      "credito": "Bloomberg Originals",
+      "faltando": false,
+      "saida_inicio": 19.72,
+      "saida_fim": 24.27,
+      "enquadrar": {
+        "x": 0.58,
+        "y": 0.5,
+        "area": {
+          "x": 0,
+          "y": 70,
+          "largura": 1920,
+          "altura": 1010
+        }
+      },
+      "descricao": "v2 #5 Y04"
+    },
+    {
+      "linhas": [
+        "L06"
+      ],
+      "tipo": "extra",
+      "extra": "V06",
+      "extra_tipo": "video",
+      "arquivo": "edicao/extras-v2/V06-E04.mp4",
+      "modo": "full",
+      "som": false,
+      "credito": "TED2015 / Fei-Fei Li",
+      "faltando": false,
+      "saida_inicio": 24.27,
+      "saida_fim": 28.04,
+      "enquadrar": {
+        "x": 0.5,
+        "y": 0.5,
+        "area": {
+          "x": 0,
+          "y": 58,
+          "largura": 1280,
+          "altura": 597
+        }
+      },
+      "descricao": "v2 #6 E04",
+      "in": 5.0
+    },
+    {
+      "linhas": [
+        "L07",
+        "L08"
+      ],
+      "tipo": "extra",
+      "extra": "V07",
+      "extra_tipo": "imagem",
+      "arquivo": "edicao/extras-v2/CAPA-03.jpg",
+      "modo": "full",
+      "som": false,
+      "credito": "PD Soros Fellowship",
+      "faltando": false,
+      "saida_inicio": 28.04,
+      "saida_fim": 30.95,
+      "enquadrar": {
+        "x": 0.5,
+        "y": 0.42
+      },
+      "descricao": "v2 #7 CAPA-03"
+    },
+    {
+      "linhas": [
+        "L08"
+      ],
+      "tipo": "extra",
+      "extra": "V08",
+      "extra_tipo": "imagem",
+      "arquivo": "edicao/extras-v2/F03.jpg",
+      "modo": "full",
+      "som": false,
+      "credito": "Princeton (1999)",
+      "faltando": false,
+      "saida_inicio": 30.95,
+      "saida_fim": 33.44,
+      "enquadrar": {
+        "x": 0.47,
+        "y": 0.5,
+        "xFim": 0.48
+      },
+      "descricao": "v2 #8 F03"
+    },
+    {
+      "linhas": [
+        "L09"
+      ],
+      "tipo": "extra",
+      "extra": "V09",
+      "extra_tipo": "imagem",
+      "arquivo": "edicao/extras-v2/F04.jpg",
+      "modo": "pilha",
+      "som": false,
+      "credito": null,
+      "faltando": false,
+      "saida_inicio": 33.44,
+      "saida_fim": 40.48,
+      "pilha": [
+        {
+          "id": "F04",
+          "arquivo": "edicao/extras-v2/F04.jpg",
+          "extra_tipo": "imagem",
+          "som": false,
+          "enquadrar": {
+            "x": 0.5,
+            "y": 0.55
+          },
+          "credito": "Nassau Hall, Princeton — Wikimedia Commons"
+        },
+        {
+          "id": "Y09",
+          "arquivo": "edicao/extras-v2/Y09.png",
+          "extra_tipo": "imagem",
+          "som": false,
+          "enquadrar": {
+            "x": 0.4,
+            "y": 0.45,
+            "area": {
+              "x": 0,
+              "y": 70,
+              "largura": 1920,
+              "altura": 1010
+            }
+          },
+          "credito": "Bloomberg Originals"
+        },
+        {
+          "id": "Y08",
+          "arquivo": "edicao/extras-v2/Y08.png",
+          "extra_tipo": "imagem",
+          "som": false,
+          "enquadrar": {
+            "x": 0.5,
+            "y": 0.5,
+            "area": {
+              "x": 0,
+              "y": 70,
+              "largura": 1920,
+              "altura": 840
+            }
+          },
+          "credito": "CBS Mornings"
+        }
+      ],
+      "descricao": "v2 #9 pilha F04+Y09+Y08"
+    },
+    {
+      "linhas": [
+        "L10"
+      ],
+      "tipo": "extra",
+      "extra": "V10",
+      "extra_tipo": "video",
+      "arquivo": "edicao/extras-v2/V10-Y14.mp4",
+      "modo": "pilha",
+      "som": false,
+      "credito": null,
+      "faltando": false,
+      "saida_inicio": 40.48,
+      "saida_fim": 45.44,
+      "pilha": [
+        {
+          "id": "Y14",
+          "arquivo": "edicao/extras-v2/V10-Y14.mp4",
+          "extra_tipo": "video",
+          "som": false,
+          "enquadrar": {
+            "x": 0.5,
+            "y": 0.45
+          },
+          "credito": "TED2015 / Fei-Fei Li",
+          "in": 0.0
+        },
+        {
+          "id": "Y10",
+          "arquivo": "edicao/extras-v2/Y10.png",
+          "extra_tipo": "imagem",
+          "som": false,
+          "enquadrar": {
+            "x": 0.42,
+            "y": 0.45
+          },
+          "credito": "TED2015 / Fei-Fei Li"
+        },
+        {
+          "id": "Y11",
+          "arquivo": "edicao/extras-v2/Y11.png",
+          "extra_tipo": "imagem",
+          "som": false,
+          "enquadrar": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "credito": "TED2015 / Fei-Fei Li"
+        }
+      ],
+      "descricao": "v2 #10 pilha Y14+Y10+Y11"
+    },
+    {
+      "linhas": [
+        "L11"
+      ],
+      "tipo": "extra",
+      "extra": "V11",
+      "extra_tipo": "video",
+      "arquivo": "edicao/extras-v2/V11-Y12.mp4",
+      "modo": "pilha",
+      "som": false,
+      "credito": null,
+      "faltando": false,
+      "saida_inicio": 45.44,
+      "saida_fim": 49.62,
+      "pilha": [
+        {
+          "id": "Y12",
+          "arquivo": "edicao/extras-v2/V11-Y12.mp4",
+          "extra_tipo": "video",
+          "som": false,
+          "enquadrar": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "credito": "TED2015 / Fei-Fei Li",
+          "in": 0.0
+        },
+        {
+          "id": "Y13",
+          "arquivo": "edicao/extras-v2/Y13.png",
+          "extra_tipo": "imagem",
+          "som": false,
+          "enquadrar": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "credito": "TED2015 / Fei-Fei Li"
+        },
+        {
+          "id": "Y19",
+          "arquivo": "edicao/extras-v2/Y19.png",
+          "extra_tipo": "imagem",
+          "som": false,
+          "enquadrar": {
+            "x": 0.45,
+            "y": 0.55
+          },
+          "credito": "TED2015 / Fei-Fei Li"
+        }
+      ],
+      "descricao": "v2 #11 pilha Y12+Y13+Y19"
+    },
+    {
+      "linhas": [
+        "L11"
+      ],
+      "tipo": "extra",
+      "extra": "V12",
+      "extra_tipo": "video",
+      "arquivo": "edicao/extras-v2/V12-Y20.mp4",
+      "modo": "full",
+      "som": false,
+      "credito": "TED2015 / Fei-Fei Li",
+      "faltando": false,
+      "saida_inicio": 49.62,
+      "saida_fim": 52.36,
+      "enquadrar": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "descricao": "v2 #12 Y20",
+      "in": 0.0
+    },
+    {
+      "linhas": [
+        "L12"
+      ],
+      "tipo": "extra",
+      "extra": "V13",
+      "extra_tipo": "video",
+      "arquivo": "edicao/extras-v2/V13-Y40.mp4",
+      "modo": "pilha",
+      "som": false,
+      "credito": null,
+      "faltando": false,
+      "saida_inicio": 52.36,
+      "saida_fim": 56.56,
+      "pilha": [
+        {
+          "id": "Y40",
+          "arquivo": "edicao/extras-v2/V13-Y40.mp4",
+          "extra_tipo": "video",
+          "som": false,
+          "enquadrar": {
+            "x": 0.45,
+            "y": 0.5,
+            "area": {
+              "x": 0,
+              "y": 70,
+              "largura": 1920,
+              "altura": 840
+            }
+          },
+          "credito": "CBS Mornings",
+          "in": 0.0
+        },
+        {
+          "id": "Y37",
+          "arquivo": "edicao/extras-v2/Y37.png",
+          "extra_tipo": "imagem",
+          "som": false,
+          "enquadrar": {
+            "x": 0.5,
+            "y": 0.5,
+            "area": {
+              "x": 0,
+              "y": 70,
+              "largura": 1920,
+              "altura": 840
+            }
+          },
+          "credito": "CBS Mornings"
+        },
+        {
+          "id": "Y38",
+          "arquivo": "edicao/extras-v2/V13-Y38.mp4",
+          "extra_tipo": "video",
+          "som": false,
+          "enquadrar": {
+            "x": 0.5,
+            "y": 0.5,
+            "area": {
+              "x": 0,
+              "y": 70,
+              "largura": 1920,
+              "altura": 840
+            }
+          },
+          "credito": "CBS Mornings",
+          "in": 0.0
+        }
+      ],
+      "descricao": "v2 #13 pilha Y40+Y37+Y38"
+    },
+    {
+      "linhas": [
+        "L13"
+      ],
+      "tipo": "extra",
+      "extra": "V14",
+      "extra_tipo": "imagem",
+      "arquivo": "edicao/extras-v2/CAPA-04.jpg",
+      "modo": "full",
+      "som": false,
+      "credito": "Princeton (2007)",
+      "faltando": false,
+      "saida_inicio": 56.56,
+      "saida_fim": 58.39,
+      "enquadrar": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "descricao": "v2 #14 CAPA-04"
+    },
+    {
+      "linhas": [
+        "L13"
+      ],
+      "tipo": "extra",
+      "extra": "V15",
+      "extra_tipo": "video",
+      "arquivo": "edicao/extras-v2/V15-Y22.mp4",
+      "modo": "pilha",
+      "som": false,
+      "credito": null,
+      "faltando": false,
+      "saida_inicio": 58.39,
+      "saida_fim": 60.96,
+      "pilha": [
+        {
+          "id": "Y22",
+          "arquivo": "edicao/extras-v2/V15-Y22.mp4",
+          "extra_tipo": "video",
+          "som": false,
+          "enquadrar": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "credito": "TED2015 / Fei-Fei Li",
+          "in": 0.0
+        },
+        {
+          "id": "F07",
+          "arquivo": "edicao/extras-v2/F07.jpg",
+          "extra_tipo": "imagem",
+          "som": false,
+          "enquadrar": {
+            "x": 0.3,
+            "y": 0.2,
+            "xFim": 0.45,
+            "yFim": 0.4
+          },
+          "credito": "ImageNet (2011)"
+        },
+        {
+          "id": "Y17",
+          "arquivo": "edicao/extras-v2/V15-Y17.mp4",
+          "extra_tipo": "video",
+          "som": false,
+          "enquadrar": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "credito": "TED2015 / Fei-Fei Li",
+          "in": 0.0
+        }
+      ],
+      "descricao": "v2 #15 pilha Y22+F07+Y17"
+    },
+    {
+      "linhas": [
+        "L14"
+      ],
+      "tipo": "extra",
+      "extra": "V16",
+      "extra_tipo": "video",
+      "arquivo": "edicao/extras-v2/V16-Y15.mp4",
+      "modo": "full",
+      "som": false,
+      "credito": "TED2015 / Fei-Fei Li",
+      "faltando": false,
+      "saida_inicio": 60.96,
+      "saida_fim": 65.25,
+      "enquadrar": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "descricao": "v2 #16 Y15",
+      "in": 0.0
+    },
+    {
+      "linhas": [
+        "L14"
+      ],
+      "tipo": "extra",
+      "extra": "V17",
+      "extra_tipo": "video",
+      "arquivo": "edicao/extras-v2/V17-Y59.mp4",
+      "modo": "full",
+      "som": false,
+      "credito": "TED2024 / Fei-Fei Li",
+      "faltando": false,
+      "saida_inicio": 65.25,
+      "saida_fim": 70.08,
+      "enquadrar": {
+        "x": 0.42,
+        "y": 0.45,
+        "area": {
+          "x": 0,
+          "y": 115,
+          "largura": 1920,
+          "altura": 855
+        }
+      },
+      "descricao": "v2 #17 Y59",
+      "in": 0.0
+    },
+    {
+      "linhas": [
+        "L15"
+      ],
+      "tipo": "extra",
+      "extra": "V18",
+      "extra_tipo": "imagem",
+      "arquivo": "edicao/extras-v2/Y23.png",
+      "modo": "pilha",
+      "som": false,
+      "credito": null,
+      "faltando": false,
+      "saida_inicio": 70.08,
+      "saida_fim": 73.51,
+      "pilha": [
+        {
+          "id": "Y23",
+          "arquivo": "edicao/extras-v2/Y23.png",
+          "extra_tipo": "imagem",
+          "som": false,
+          "enquadrar": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "credito": "TED2015 / Fei-Fei Li"
+        },
+        {
+          "id": "E05",
+          "arquivo": "edicao/extras-v2/V18-E05.mp4",
+          "extra_tipo": "video",
+          "som": false,
+          "enquadrar": {
+            "x": 0.5,
+            "y": 0.4
+          },
+          "credito": "TED2015 / Fei-Fei Li",
+          "in": 0.0
+        },
+        {
+          "id": "Y36",
+          "arquivo": "edicao/extras-v2/V18-Y36.mp4",
+          "extra_tipo": "video",
+          "som": false,
+          "enquadrar": {
+            "x": 0.5,
+            "y": 0.5,
+            "area": {
+              "x": 0,
+              "y": 70,
+              "largura": 1920,
+              "altura": 840
+            }
+          },
+          "credito": "CBS Mornings",
+          "in": 0.0
+        }
+      ],
+      "descricao": "v2 #18 pilha Y23+E05+Y36"
+    },
+    {
+      "linhas": [
+        "L15"
+      ],
+      "tipo": "extra",
+      "extra": "V19",
+      "extra_tipo": "video",
+      "arquivo": "edicao/extras-v2/V19-Y16.mp4",
+      "modo": "full",
+      "som": false,
+      "credito": "TED2015 / Fei-Fei Li",
+      "faltando": false,
+      "saida_inicio": 73.51,
+      "saida_fim": 78.96,
+      "enquadrar": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "descricao": "v2 #19 Y16",
+      "in": 0.0
+    },
+    {
+      "linhas": [
+        "L17"
+      ],
+      "tipo": "extra",
+      "extra": "V20",
+      "extra_tipo": "video",
+      "arquivo": "edicao/extras-v2/V20-E09.mp4",
+      "modo": "full",
+      "som": false,
+      "credito": "TED2015 / Fei-Fei Li",
+      "faltando": false,
+      "saida_inicio": 81.68,
+      "saida_fim": 86.64,
+      "enquadrar": {
+        "x": 0.42,
+        "y": 0.45
+      },
+      "descricao": "v2 #20 E09",
+      "in": 2.3
+    },
+    {
+      "linhas": [
+        "L18"
+      ],
+      "tipo": "extra",
+      "extra": "V21",
+      "extra_tipo": "imagem",
+      "arquivo": "edicao/extras-v2/Y25.png",
+      "modo": "full",
+      "som": false,
+      "credito": "Bloomberg Originals",
+      "faltando": false,
+      "saida_inicio": 86.64,
+      "saida_fim": 89.36,
+      "enquadrar": {
+        "x": 0.5,
+        "y": 0.45,
+        "zoom": 1.02,
+        "area": {
+          "x": 0,
+          "y": 70,
+          "largura": 1920,
+          "altura": 1010
+        }
+      },
+      "descricao": "v2 #21 Y25"
+    },
+    {
+      "linhas": [
+        "L19"
+      ],
+      "tipo": "extra",
+      "extra": "V22",
+      "extra_tipo": "imagem",
+      "arquivo": "edicao/extras-v2/Y24.png",
+      "modo": "full",
+      "som": false,
+      "credito": "Bloomberg Originals / U of Toronto",
+      "faltando": false,
+      "saida_inicio": 89.36,
+      "saida_fim": 91.55,
+      "enquadrar": {
+        "x": 0.22,
+        "xFim": 0.5,
+        "y": 0.45,
+        "area": {
+          "x": 0,
+          "y": 70,
+          "largura": 1920,
+          "altura": 750
+        }
+      },
+      "descricao": "v2 #22 Y24"
+    },
+    {
+      "linhas": [
+        "L19"
+      ],
+      "tipo": "extra",
+      "extra": "V23",
+      "extra_tipo": "imagem",
+      "arquivo": "edicao/extras-v2/Y20b.png",
+      "modo": "pilha",
+      "som": false,
+      "credito": null,
+      "faltando": false,
+      "saida_inicio": 91.55,
+      "saida_fim": 95.57,
+      "pilha": [
+        {
+          "id": "Y20b",
+          "arquivo": "edicao/extras-v2/Y20b.png",
+          "extra_tipo": "imagem",
+          "som": false,
+          "enquadrar": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "credito": "TED2015 / Fei-Fei Li"
+        },
+        {
+          "id": "Y26",
+          "arquivo": "edicao/extras-v2/V23-Y26.mp4",
+          "extra_tipo": "video",
+          "som": false,
+          "enquadrar": {
+            "x": 0.5,
+            "y": 0.5,
+            "area": {
+              "x": 0,
+              "y": 70,
+              "largura": 1920,
+              "altura": 1010
+            }
+          },
+          "credito": "Bloomberg Originals",
+          "in": 0.0
+        },
+        {
+          "id": "F21",
+          "arquivo": "edicao/extras-v2/F21.jpg",
+          "extra_tipo": "imagem",
+          "som": false,
+          "enquadrar": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "credito": "University of Toronto / CHM"
+        }
+      ],
+      "descricao": "v2 #23 pilha Y20b+Y26+F21"
+    },
+    {
+      "linhas": [
+        "L19"
+      ],
+      "tipo": "extra",
+      "extra": "V24",
+      "extra_tipo": "video",
+      "arquivo": "edicao/extras-v2/V24-Y21.mp4",
+      "modo": "full",
+      "som": false,
+      "credito": "TED2015 / Fei-Fei Li",
+      "faltando": false,
+      "saida_inicio": 95.57,
+      "saida_fim": 99.08,
+      "enquadrar": {
+        "x": 0.5,
+        "y": 0.5,
+        "area": {
+          "x": 0,
+          "y": 110,
+          "largura": 1280,
+          "altura": 610
+        }
+      },
+      "descricao": "v2 #24 Y21",
+      "in": 0.0
+    },
+    {
+      "linhas": [
+        "L20",
+        "L21"
+      ],
+      "tipo": "extra",
+      "extra": "V25",
+      "extra_tipo": "imagem",
+      "arquivo": "edicao/extras-v2/F20.jpg",
+      "modo": "full",
+      "som": false,
+      "credito": "Johnny Guatto / University of Toronto",
+      "faltando": false,
+      "saida_inicio": 99.08,
+      "saida_fim": 106.28,
+      "enquadrar": {
+        "x": 0.25,
+        "xFim": 0.78,
+        "y": 0.5
+      },
+      "descricao": "v2 #25 F20"
+    },
+    {
+      "linhas": [
+        "L22"
+      ],
+      "tipo": "extra",
+      "extra": "V26",
+      "extra_tipo": "video",
+      "arquivo": "edicao/extras-v2/V26-Y60.mp4",
+      "modo": "full",
+      "som": false,
+      "credito": "TED2024 / Fei-Fei Li",
+      "faltando": false,
+      "saida_inicio": 106.28,
+      "saida_fim": 115.64,
+      "enquadrar": {
+        "x": 0.22,
+        "xFim": 0.5,
+        "y": 0.5,
+        "area": {
+          "x": 0,
+          "y": 200,
+          "largura": 1920,
+          "altura": 770
+        }
+      },
+      "descricao": "v2 #26 Y60",
+      "in": 0.0
+    },
+    {
+      "linhas": [
+        "L24"
+      ],
+      "tipo": "extra",
+      "extra": "V27",
+      "extra_tipo": "imagem",
+      "arquivo": "edicao/extras-v2/N12.jpg",
+      "modo": "full",
+      "som": false,
+      "credito": "Stanford HAI / QEPrize",
+      "faltando": false,
+      "saida_inicio": 118.0,
+      "saida_fim": 119.96,
+      "enquadrar": {
+        "x": 0.45,
+        "xFim": 0.6,
+        "y": 0.45
+      },
+      "descricao": "v2 #27 N12"
+    },
+    {
+      "linhas": [
+        "L25"
+      ],
+      "tipo": "extra",
+      "extra": "V28",
+      "extra_tipo": "imagem",
+      "arquivo": "edicao/extras-v2/Y59b.png",
+      "modo": "pilha",
+      "som": false,
+      "credito": null,
+      "faltando": false,
+      "saida_inicio": 119.96,
+      "saida_fim": 123.0,
+      "pilha": [
+        {
+          "id": "Y59b",
+          "arquivo": "edicao/extras-v2/Y59b.png",
+          "extra_tipo": "imagem",
+          "som": false,
+          "enquadrar": {
+            "x": 0.42,
+            "y": 0.45,
+            "area": {
+              "x": 0,
+              "y": 115,
+              "largura": 1920,
+              "altura": 855
+            }
+          },
+          "credito": "TED2024 / Fei-Fei Li"
+        },
+        {
+          "id": "Y19b",
+          "arquivo": "edicao/extras-v2/Y19b.png",
+          "extra_tipo": "imagem",
+          "som": false,
+          "enquadrar": {
+            "x": 0.45,
+            "y": 0.55
+          },
+          "credito": "TED2015 / Fei-Fei Li"
+        },
+        {
+          "id": "Y12b",
+          "arquivo": "edicao/extras-v2/Y12b.png",
+          "extra_tipo": "imagem",
+          "som": false,
+          "enquadrar": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "credito": "TED2015 / Fei-Fei Li"
+        }
+      ],
+      "descricao": "v2 #28 pilha Y59b+Y19b+Y12b"
+    },
+    {
+      "linhas": [
+        "L26"
+      ],
+      "tipo": "extra",
+      "extra": "V29",
+      "extra_tipo": "imagem",
+      "arquivo": "edicao/extras-v2/N14.jpg",
+      "modo": "full",
+      "som": false,
+      "credito": "Stanford HAI / QEPrize (2025)",
+      "faltando": false,
+      "saida_inicio": 123.0,
+      "saida_fim": 125.52,
+      "enquadrar": {
+        "x": 0.55,
+        "y": 0.45
+      },
+      "descricao": "v2 #29 N14"
+    },
+    {
+      "linhas": [
+        "L26"
+      ],
+      "tipo": "extra",
+      "extra": "V30",
+      "extra_tipo": "video",
+      "arquivo": "edicao/extras-v2/V30-Y66.mp4",
+      "modo": "full",
+      "som": false,
+      "credito": "National Geographic",
+      "faltando": false,
+      "saida_inicio": 125.52,
+      "saida_fim": 128.72,
+      "enquadrar": {
+        "x": 0.5,
+        "y": 0.4,
+        "area": {
+          "x": 557,
+          "y": 0,
+          "largura": 806,
+          "altura": 1080
+        }
+      },
+      "descricao": "v2 #30 Y66",
+      "in": 0.0
+    }
+  ]
+}

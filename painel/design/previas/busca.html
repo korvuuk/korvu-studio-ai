@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Busca · korvu. painel — design system</title>
+<link rel="stylesheet" href="../tokens.css">
+<link rel="stylesheet" href="../componentes.css">
+<link rel="stylesheet" href="../acrescimos.css">
+<link rel="stylesheet" href="previa.css">
+<script src="../korvu.js"></script>
+<script src="previa.js" defer></script>
+</head>
+<body>
+<main class="pv">
+<header class="pv-head">
+<p class="k-cap">Entradas · <span class="k-mono">k-search</span></p>
+<h1 class="k-h2">Busca</h1>
+<p class="pv-lead">O campo de busca global.</p>
+</header>
+<section class="pv-sec">
+<h2 class="pv-sec-t k-cap">Estados</h2>
+<div class="pv-fila"><div><label class="k-search"><span data-icon="search" data-size="16"></span><input placeholder="Buscar vídeos, agentes…" aria-label="Buscar vídeos e agentes"><span class="k-kbd">⌘K</span></label><span class="pv-cap">repouso</span></div><div><label class="k-search is-focus"><span data-icon="search" data-size="16"></span><input value="portão" aria-label="Buscar vídeos e agentes"><span class="k-kbd">esc</span></label><span class="pv-cap">em foco: borda ink + halo accent-soft</span></div></div>
+</section>
+<section class="pv-sec">
+<h2 class="pv-sec-t k-cap">Regras</h2>
+<ul class="pv-lista"><li>36px, raio 8, borda line-strong. Placeholder em ink-3: “Buscar vídeos, agentes…”. Atalho ⌘K em k-kbd.</li><li>Fica no topo da área principal, à direita do h1. Abaixo de 768px vai para a linha de baixo, na largura toda.</li><li>A borda line-strong (#928874, decisão do Carlos de 23/10) mede 3,13:1 sobre o fundo e 3,33:1 sobre o card — ver contraste.md G01/G02. Nunca sobre surface-sunken (2,94).</li><li>O símbolo ⌘ não existe na Geist: aparece na fonte do sistema.</li></ul>
+</section>
+<footer class="pv-foot"><span>Regras: <a href="../design-system.md">design-system.md</a></span> <a href="index.html">Todas as prévias</a></footer>
+</main>
+</body>
+</html>

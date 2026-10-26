@@ -1,0 +1,693 @@
+{
+ "engine": "mlx",
+ "modelo": "mlx-community/whisper-large-v3-turbo",
+ "versao": 2,
+ "lacunas": 9,
+ "palavras": [
+  {
+   "texto": "Um",
+   "inicio": 2.960000000000001,
+   "fim": 3.9,
+   "conf": 0.84912109375
+  },
+  {
+   "texto": "problema",
+   "inicio": 3.9,
+   "fim": 4.38,
+   "conf": 0.9990234375
+  },
+  {
+   "texto": "que",
+   "inicio": 4.38,
+   "fim": 4.62,
+   "conf": 0.9970703125
+  },
+  {
+   "texto": "traba...",
+   "inicio": 4.62,
+   "fim": 5.3,
+   "conf": 0.4130859375
+  },
+  {
+   "texto": "E",
+   "inicio": 6.216,
+   "fim": 6.5360000000000005,
+   "conf": 0.360595703125
+  },
+  {
+   "texto": "aí",
+   "inicio": 6.5360000000000005,
+   "fim": 6.556,
+   "conf": 0.94384765625
+  },
+  {
+   "texto": "E",
+   "inicio": 8.120000000000001,
+   "fim": 9.06,
+   "conf": 0.04302978515625
+  },
+  {
+   "texto": "isso",
+   "inicio": 9.06,
+   "fim": 10.0,
+   "conf": 0.98681640625
+  },
+  {
+   "texto": "deu",
+   "inicio": 10.0,
+   "fim": 10.18,
+   "conf": 0.98681640625
+  },
+  {
+   "texto": "a",
+   "inicio": 10.18,
+   "fim": 10.36,
+   "conf": 0.99365234375
+  },
+  {
+   "texto": "ele",
+   "inicio": 10.36,
+   "fim": 10.58,
+   "conf": 0.9970703125
+  },
+  {
+   "texto": "o",
+   "inicio": 10.58,
+   "fim": 10.74,
+   "conf": 0.81787109375
+  },
+  {
+   "texto": "Nobel",
+   "inicio": 10.74,
+   "fim": 10.98,
+   "conf": 0.98681640625
+  },
+  {
+   "texto": "de",
+   "inicio": 10.98,
+   "fim": 11.16,
+   "conf": 0.9990234375
+  },
+  {
+   "texto": "Química,",
+   "inicio": 11.16,
+   "fim": 11.62,
+   "conf": 0.92822265625
+  },
+  {
+   "texto": "junto",
+   "inicio": 11.94,
+   "fim": 12.66,
+   "conf": 0.998046875
+  },
+  {
+   "texto": "com",
+   "inicio": 12.66,
+   "fim": 12.98,
+   "conf": 0.99951171875
+  },
+  {
+   "texto": "o",
+   "inicio": 12.98,
+   "fim": 13.04,
+   "conf": 0.98681640625
+  },
+  {
+   "texto": "John",
+   "inicio": 13.04,
+   "fim": 13.26,
+   "conf": 0.96630859375
+  },
+  {
+   "texto": "Jumper.",
+   "inicio": 13.26,
+   "fim": 13.536,
+   "conf": 0.0882568359375
+  },
+  {
+   "texto": "aí",
+   "inicio": 13.536,
+   "fim": 13.916,
+   "conf": 0.94384765625
+  },
+  {
+   "texto": "Um",
+   "inicio": 18.62,
+   "fim": 19.56,
+   "conf": 0.94384765625
+  },
+  {
+   "texto": "problema",
+   "inicio": 19.56,
+   "fim": 20.12,
+   "conf": 1.0
+  },
+  {
+   "texto": "que",
+   "inicio": 20.12,
+   "fim": 20.44,
+   "conf": 1.0
+  },
+  {
+   "texto": "travava",
+   "inicio": 20.44,
+   "fim": 21.06,
+   "conf": 0.994140625
+  },
+  {
+   "texto": "a",
+   "inicio": 21.06,
+   "fim": 21.28,
+   "conf": 0.97900390625
+  },
+  {
+   "texto": "ciência",
+   "inicio": 21.28,
+   "fim": 21.78,
+   "conf": 0.9990234375
+  },
+  {
+   "texto": "havia",
+   "inicio": 21.78,
+   "fim": 22.68,
+   "conf": 0.955078125
+  },
+  {
+   "texto": "50",
+   "inicio": 22.68,
+   "fim": 23.8,
+   "conf": 0.8349609375
+  },
+  {
+   "texto": "anos.",
+   "inicio": 23.8,
+   "fim": 24.52,
+   "conf": 1.0
+  },
+  {
+   "texto": "Quer",
+   "inicio": 28.516,
+   "fim": 28.976,
+   "conf": 0.76611328125
+  },
+  {
+   "texto": "dizer.",
+   "inicio": 28.976,
+   "fim": 29.276,
+   "conf": 0.99951171875
+  },
+  {
+   "texto": "O",
+   "inicio": 29.736,
+   "fim": 30.096,
+   "conf": 0.403564453125
+  },
+  {
+   "texto": "menino",
+   "inicio": 30.096,
+   "fim": 30.496000000000002,
+   "conf": 0.8642578125
+  },
+  {
+   "texto": "do",
+   "inicio": 30.496000000000002,
+   "fim": 30.616,
+   "conf": 0.98828125
+  },
+  {
+   "texto": "xadrez.",
+   "inicio": 30.616,
+   "fim": 31.036,
+   "conf": 0.9951171875
+  },
+  {
+   "texto": "Virou",
+   "inicio": 31.706,
+   "fim": 32.326,
+   "conf": 0.765625
+  },
+  {
+   "texto": "um",
+   "inicio": 32.326,
+   "fim": 32.446,
+   "conf": 0.99951171875
+  },
+  {
+   "texto": "dos",
+   "inicio": 32.446,
+   "fim": 32.566,
+   "conf": 0.99951171875
+  },
+  {
+   "texto": "nomes",
+   "inicio": 32.566,
+   "fim": 32.986,
+   "conf": 0.9990234375
+  },
+  {
+   "texto": "mais",
+   "inicio": 32.986,
+   "fim": 33.286,
+   "conf": 0.98974609375
+  },
+  {
+   "texto": "importantes",
+   "inicio": 33.286,
+   "fim": 33.886,
+   "conf": 0.998046875
+  },
+  {
+   "texto": "da",
+   "inicio": 33.886,
+   "fim": 34.146,
+   "conf": 0.98583984375
+  },
+  {
+   "texto": "IA.",
+   "inicio": 34.146,
+   "fim": 34.306,
+   "conf": 0.84716796875
+  },
+  {
+   "texto": "Quer",
+   "inicio": 35.379999999999995,
+   "fim": 36.4,
+   "conf": 0.552734375
+  },
+  {
+   "texto": "dizer,",
+   "inicio": 36.4,
+   "fim": 36.7,
+   "conf": 1.0
+  },
+  {
+   "texto": "o",
+   "inicio": 37.16,
+   "fim": 37.24,
+   "conf": 0.9873046875
+  },
+  {
+   "texto": "menino",
+   "inicio": 37.24,
+   "fim": 37.76,
+   "conf": 0.9931640625
+  },
+  {
+   "texto": "do",
+   "inicio": 37.76,
+   "fim": 38.36,
+   "conf": 0.99755859375
+  },
+  {
+   "texto": "xadrez",
+   "inicio": 38.36,
+   "fim": 38.9,
+   "conf": 0.998046875
+  },
+  {
+   "texto": "virou",
+   "inicio": 38.9,
+   "fim": 39.82,
+   "conf": 0.9951171875
+  },
+  {
+   "texto": "a",
+   "inicio": 39.82,
+   "fim": 40.3,
+   "conf": 0.939453125
+  },
+  {
+   "texto": "maior",
+   "inicio": 40.3,
+   "fim": 40.72,
+   "conf": 0.99609375
+  },
+  {
+   "texto": "história",
+   "inicio": 40.72,
+   "fim": 41.44,
+   "conf": 0.99853515625
+  },
+  {
+   "texto": "do",
+   "inicio": 41.44,
+   "fim": 42.22,
+   "conf": 0.990234375
+  },
+  {
+   "texto": "AI.",
+   "inicio": 42.22,
+   "fim": 42.72,
+   "conf": 0.96435546875
+  },
+  {
+   "texto": "Quer",
+   "inicio": 45.616,
+   "fim": 46.016,
+   "conf": 0.8251953125
+  },
+  {
+   "texto": "dizer.",
+   "inicio": 46.016,
+   "fim": 46.356,
+   "conf": 0.9990234375
+  },
+  {
+   "texto": "O",
+   "inicio": 46.816,
+   "fim": 47.176,
+   "conf": 0.445068359375
+  },
+  {
+   "texto": "menino",
+   "inicio": 47.176,
+   "fim": 47.576,
+   "conf": 0.880859375
+  },
+  {
+   "texto": "do",
+   "inicio": 47.576,
+   "fim": 47.696000000000005,
+   "conf": 0.9912109375
+  },
+  {
+   "texto": "xadrez.",
+   "inicio": 47.696000000000005,
+   "fim": 48.116,
+   "conf": 0.97021484375
+  },
+  {
+   "texto": "Virou",
+   "inicio": 48.786,
+   "fim": 49.426,
+   "conf": 0.78857421875
+  },
+  {
+   "texto": "um",
+   "inicio": 49.426,
+   "fim": 49.526,
+   "conf": 1.0
+  },
+  {
+   "texto": "dos",
+   "inicio": 49.526,
+   "fim": 49.646,
+   "conf": 1.0
+  },
+  {
+   "texto": "nomes",
+   "inicio": 49.646,
+   "fim": 50.066,
+   "conf": 1.0
+  },
+  {
+   "texto": "mais",
+   "inicio": 50.066,
+   "fim": 50.366,
+   "conf": 0.99169921875
+  },
+  {
+   "texto": "importantes",
+   "inicio": 50.366,
+   "fim": 50.966,
+   "conf": 0.9990234375
+  },
+  {
+   "texto": "da",
+   "inicio": 50.966,
+   "fim": 51.226,
+   "conf": 0.98291015625
+  },
+  {
+   "texto": "IA.",
+   "inicio": 51.226,
+   "fim": 51.386,
+   "conf": 0.8115234375
+  },
+  {
+   "texto": "Quer",
+   "inicio": 53.06,
+   "fim": 54.02,
+   "conf": 0.859375
+  },
+  {
+   "texto": "dizer,",
+   "inicio": 54.02,
+   "fim": 54.4,
+   "conf": 1.0
+  },
+  {
+   "texto": "o",
+   "inicio": 55.2,
+   "fim": 55.28,
+   "conf": 0.97900390625
+  },
+  {
+   "texto": "menino",
+   "inicio": 55.28,
+   "fim": 55.78,
+   "conf": 0.998046875
+  },
+  {
+   "texto": "do",
+   "inicio": 55.78,
+   "fim": 56.32,
+   "conf": 0.99169921875
+  },
+  {
+   "texto": "xadrez",
+   "inicio": 56.32,
+   "fim": 56.82,
+   "conf": 0.9990234375
+  },
+  {
+   "texto": "virou",
+   "inicio": 56.82,
+   "fim": 57.84,
+   "conf": 0.99658203125
+  },
+  {
+   "texto": "um",
+   "inicio": 57.84,
+   "fim": 58.16,
+   "conf": 1.0
+  },
+  {
+   "texto": "dos",
+   "inicio": 58.16,
+   "fim": 58.3,
+   "conf": 1.0
+  },
+  {
+   "texto": "nomes",
+   "inicio": 58.3,
+   "fim": 58.8,
+   "conf": 0.99853515625
+  },
+  {
+   "texto": "mais",
+   "inicio": 58.8,
+   "fim": 59.46,
+   "conf": 0.998046875
+  },
+  {
+   "texto": "importantes",
+   "inicio": 59.46,
+   "fim": 60.26,
+   "conf": 0.99560546875
+  },
+  {
+   "texto": "da",
+   "inicio": 60.26,
+   "fim": 60.72,
+   "conf": 0.99853515625
+  },
+  {
+   "texto": "AI.",
+   "inicio": 60.72,
+   "fim": 61.2,
+   "conf": 0.98095703125
+  },
+  {
+   "texto": "Me",
+   "inicio": 63.646,
+   "fim": 64.046,
+   "conf": 0.837890625
+  },
+  {
+   "texto": "segue",
+   "inicio": 64.046,
+   "fim": 64.406,
+   "conf": 0.9931640625
+  },
+  {
+   "texto": "que",
+   "inicio": 64.406,
+   "fim": 64.586,
+   "conf": 0.8134765625
+  },
+  {
+   "texto": "eu",
+   "inicio": 64.586,
+   "fim": 64.726,
+   "conf": 0.99609375
+  },
+  {
+   "texto": "trago",
+   "inicio": 64.726,
+   "fim": 65.046,
+   "conf": 0.998046875
+  },
+  {
+   "texto": "mais",
+   "inicio": 65.046,
+   "fim": 65.406,
+   "conf": 0.9951171875
+  },
+  {
+   "texto": "histórias",
+   "inicio": 65.406,
+   "fim": 65.846,
+   "conf": 0.9912109375
+  },
+  {
+   "texto": "assim.",
+   "inicio": 65.846,
+   "fim": 66.046,
+   "conf": 0.96435546875
+  },
+  {
+   "texto": "Me",
+   "inicio": 67.0,
+   "fim": 67.96,
+   "conf": 0.85546875
+  },
+  {
+   "texto": "segue",
+   "inicio": 67.96,
+   "fim": 68.36,
+   "conf": 0.998046875
+  },
+  {
+   "texto": "que",
+   "inicio": 68.36,
+   "fim": 68.88,
+   "conf": 0.93408203125
+  },
+  {
+   "texto": "eu",
+   "inicio": 68.88,
+   "fim": 69.0,
+   "conf": 0.99951171875
+  },
+  {
+   "texto": "trago",
+   "inicio": 69.0,
+   "fim": 69.32,
+   "conf": 0.99951171875
+  },
+  {
+   "texto": "mais",
+   "inicio": 69.32,
+   "fim": 69.82,
+   "conf": 0.99951171875
+  },
+  {
+   "texto": "histórias",
+   "inicio": 69.82,
+   "fim": 70.3,
+   "conf": 0.9990234375
+  },
+  {
+   "texto": "assim.",
+   "inicio": 70.3,
+   "fim": 70.56,
+   "conf": 0.99462890625
+  },
+  {
+   "texto": "gravamos",
+   "inicio": 72.72,
+   "fim": 73.18,
+   "conf": 0.5771484375
+  },
+  {
+   "texto": "os",
+   "inicio": 73.18,
+   "fim": 73.38,
+   "conf": 0.95263671875
+  },
+  {
+   "texto": "books",
+   "inicio": 73.38,
+   "fim": 73.6,
+   "conf": 0.5625
+  },
+  {
+   "texto": "alternativos.",
+   "inicio": 73.6,
+   "fim": 74.34,
+   "conf": 0.97998046875
+  },
+  {
+   "texto": "Primeiro,",
+   "inicio": 74.76,
+   "fim": 75.36,
+   "conf": 0.9931640625
+  },
+  {
+   "texto": "um",
+   "inicio": 75.66,
+   "fim": 75.96,
+   "conf": 0.9873046875
+  },
+  {
+   "texto": "jogador",
+   "inicio": 75.96,
+   "fim": 76.48,
+   "conf": 1.0
+  },
+  {
+   "texto": "de",
+   "inicio": 76.48,
+   "fim": 76.64,
+   "conf": 0.9990234375
+  },
+  {
+   "texto": "xadrez",
+   "inicio": 76.64,
+   "fim": 77.12,
+   "conf": 0.9990234375
+  },
+  {
+   "texto": "que",
+   "inicio": 77.12,
+   "fim": 77.66,
+   "conf": 0.78369140625
+  },
+  {
+   "texto": "acabou",
+   "inicio": 77.66,
+   "fim": 78.02,
+   "conf": 0.99560546875
+  },
+  {
+   "texto": "ganhando",
+   "inicio": 78.02,
+   "fim": 78.5,
+   "conf": 0.9990234375
+  },
+  {
+   "texto": "um",
+   "inicio": 78.5,
+   "fim": 78.64,
+   "conf": 0.79443359375
+  },
+  {
+   "texto": "nó.",
+   "inicio": 78.64,
+   "fim": 78.74,
+   "conf": 0.19970703125
+  }
+ ],
+ "texto": " Um problema que traba... E isso deu a ele o Nobel de Química, junto com o John Jumper. Um problema que travava a ciência havia 50 anos. Quer dizer, o menino do xadrez virou a maior história do AI. Quer dizer, o menino do xadrez virou um dos nomes mais importantes da AI. Me segue que eu trago mais histórias assim. gravamos os books alternativos. Primeiro, um jogador de xadrez que acabou ganhando um nó."
+}

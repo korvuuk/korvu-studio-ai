@@ -1,0 +1,3 @@
+# capturar.sh · 2026-10-23T15:56:15.769Z
+# alvo	largura pedida	innerWidth	scrollWidth	altura	HTTP	png	passa da borda
+/sistema	1440	1440	1440	5513	200	/Users/teste/Documents/CONTENT AI/painel/trabalho/frontend/v2/fatias/sistema-1440.png	

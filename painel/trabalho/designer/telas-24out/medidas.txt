@@ -1,0 +1,30 @@
+# capturar.sh · 2026-10-24T21:45:50.671Z
+# alvo	largura pedida	innerWidth	scrollWidth	altura	HTTP	png	passa da borda
+painel/design/telas/visao-geral.html	1440	1440	1440	4562	200	/Users/teste/Documents/CONTENT AI/painel/trabalho/designer/telas-24out/visao-geral-1440.png	
+painel/design/telas/visao-geral.html	1600	1600	1600	4089	200	/Users/teste/Documents/CONTENT AI/painel/trabalho/designer/telas-24out/visao-geral-1600.png	
+painel/design/telas/visao-geral.html	1920	1920	1920	3987	200	/Users/teste/Documents/CONTENT AI/painel/trabalho/designer/telas-24out/visao-geral-1920.png	
+painel/design/telas/visao-geral.html	375	375	375	9046	200	/Users/teste/Documents/CONTENT AI/painel/trabalho/designer/telas-24out/visao-geral-375.png	
+painel/design/telas/equipe.html	1440	1440	1440	3934	200	/Users/teste/Documents/CONTENT AI/painel/trabalho/designer/telas-24out/equipe-1440.png	
+painel/design/telas/equipe.html	1600	1600	1600	3892	200	/Users/teste/Documents/CONTENT AI/painel/trabalho/designer/telas-24out/equipe-1600.png	
+painel/design/telas/equipe.html	1920	1920	1920	3509	200	/Users/teste/Documents/CONTENT AI/painel/trabalho/designer/telas-24out/equipe-1920.png	
+painel/design/telas/equipe.html	375	375	375	7966	200	/Users/teste/Documents/CONTENT AI/painel/trabalho/designer/telas-24out/equipe-375.png	
+painel/design/telas/producao.html	1440	1440	1440	4556	200	/Users/teste/Documents/CONTENT AI/painel/trabalho/designer/telas-24out/producao-1440.png	
+painel/design/telas/producao.html	1600	1600	1600	4466	200	/Users/teste/Documents/CONTENT AI/painel/trabalho/designer/telas-24out/producao-1600.png	
+painel/design/telas/producao.html	1920	1920	1920	4376	200	/Users/teste/Documents/CONTENT AI/painel/trabalho/designer/telas-24out/producao-1920.png	
+painel/design/telas/producao.html	375	375	375	7521	200	/Users/teste/Documents/CONTENT AI/painel/trabalho/designer/telas-24out/producao-375.png	
+painel/design/telas/calendario.html	1440	1440	1440	3607	200	/Users/teste/Documents/CONTENT AI/painel/trabalho/designer/telas-24out/calendario-1440.png	
+painel/design/telas/calendario.html	1600	1600	1600	3560	200	/Users/teste/Documents/CONTENT AI/painel/trabalho/designer/telas-24out/calendario-1600.png	
+painel/design/telas/calendario.html	1920	1920	1920	3100	200	/Users/teste/Documents/CONTENT AI/painel/trabalho/designer/telas-24out/calendario-1920.png	
+painel/design/telas/calendario.html	375	375	375	7054	200	/Users/teste/Documents/CONTENT AI/painel/trabalho/designer/telas-24out/calendario-375.png	
+painel/design/telas/desempenho.html	1440	1440	1440	3441	200	/Users/teste/Documents/CONTENT AI/painel/trabalho/designer/telas-24out/desempenho-1440.png	
+painel/design/telas/desempenho.html	1600	1600	1600	3075	200	/Users/teste/Documents/CONTENT AI/painel/trabalho/designer/telas-24out/desempenho-1600.png	
+painel/design/telas/desempenho.html	1920	1920	1920	3043	200	/Users/teste/Documents/CONTENT AI/painel/trabalho/designer/telas-24out/desempenho-1920.png	
+painel/design/telas/desempenho.html	375	375	375	6724	200	/Users/teste/Documents/CONTENT AI/painel/trabalho/designer/telas-24out/desempenho-375.png	
+painel/design/telas/biblioteca.html	1440	1440	1440	4288	200	/Users/teste/Documents/CONTENT AI/painel/trabalho/designer/telas-24out/biblioteca-1440.png	
+painel/design/telas/biblioteca.html	1600	1600	1600	3781	200	/Users/teste/Documents/CONTENT AI/painel/trabalho/designer/telas-24out/biblioteca-1600.png	
+painel/design/telas/biblioteca.html	1920	1920	1920	3815	200	/Users/teste/Documents/CONTENT AI/painel/trabalho/designer/telas-24out/biblioteca-1920.png	
+painel/design/telas/biblioteca.html	375	375	375	8870	200	/Users/teste/Documents/CONTENT AI/painel/trabalho/designer/telas-24out/biblioteca-375.png	
+painel/design/telas/tokens-e-custos.html	1440	1440	1440	4392	200	/Users/teste/Documents/CONTENT AI/painel/trabalho/designer/telas-24out/tokens-e-custos-1440.png	
+painel/design/telas/tokens-e-custos.html	1600	1600	1600	3795	200	/Users/teste/Documents/CONTENT AI/painel/trabalho/designer/telas-24out/tokens-e-custos-1600.png	
+painel/design/telas/tokens-e-custos.html	1920	1920	1920	3779	200	/Users/teste/Documents/CONTENT AI/painel/trabalho/designer/telas-24out/tokens-e-custos-1920.png	
+painel/design/telas/tokens-e-custos.html	375	375	375	8016	200	/Users/teste/Documents/CONTENT AI/painel/trabalho/designer/telas-24out/tokens-e-custos-375.png	

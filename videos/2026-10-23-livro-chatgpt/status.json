@@ -1,0 +1,130 @@
+{
+  "slug": "2026-10-23-livro-chatgpt",
+  "estado": "agendado",
+  "atualizado": "2026-10-22T16:11:52+01:00",
+  "historico": [
+    {
+      "estado": "roteiro",
+      "em": "2026-10-21T14:00:00+01:00",
+      "nota": "v2 rascunho — réplica do molde oluizsampaio DdUlEGnvo9n, só os livros mudam (v1 'contrato de aluguel' descartada pelo Carlos: nada amarrado à Inglaterra); aguarda aprovação"
+    },
+    {
+      "estado": "roteiro",
+      "em": "2026-10-21T16:15:33+01:00",
+      "nota": "roteiro v2 APROVADO pelo Carlos; produtor-de-material gera o PDF dos 50 comandos"
+    },
+    {
+      "estado": "roteiro",
+      "em": "2026-10-21T16:17:56+01:00",
+      "nota": "material PDF gerado (50-comandos-de-aprendizado.pdf)"
+    },
+    {
+      "estado": "roteiro",
+      "em": "2026-10-21T16:27:14+01:00",
+      "nota": "5 capas baixadas e conferidas em material/capas/ (LIVROS.md com títulos, ISBN, fontes)"
+    },
+    {
+      "estado": "roteiro",
+      "em": "2026-10-21T17:23:47+01:00",
+      "nota": "tela do ChatGPT gravada no Mac + 5 PNG; skill tela-de-computador cortou E02/E04/E06/E08/E10 e copiou E03…E11; E01 montado — brutos/extras/ completo, falta só o principal"
+    },
+    {
+      "estado": "edicao",
+      "em": "2026-10-21T18:29:27+01:00",
+      "nota": "EDL v1 gerada (NÃO aprovada): 9/9 linhas OK, 34,4 s; 2 vozes (ChatGPT monitor, conf. 0,95); par A/B com card→full em edicao/overlays-ab/; previews edicao/preview.mp4 (A) e preview-B.mp4; aguarda aprovação do Carlos"
+    },
+    {
+      "estado": "edl_aprovada",
+      "em": "2026-10-21T18:33:14+01:00",
+      "nota": "EDL v1 aprovada pelo Carlos como está (L09 fica); segue /renderizar com A e B"
+    },
+    {
+      "estado": "revisao",
+      "em": "2026-10-21T18:36:06+01:00"
+    },
+    {
+      "estado": "cor",
+      "em": "2026-10-21T18:40:25+01:00",
+      "nota": "cor v5 + WB/exposicao do Hinton, grao 0.3; rosto 35.6 IRE"
+    },
+    {
+      "estado": "cor",
+      "em": "2026-10-21T19:00:00+01:00",
+      "nota": "capas A/C/D geradas (3 headlines) em capa/, capa.png = A provisoria; frame bruto 24.0/25.5/27.0 s; estado nao alterado"
+    },
+    {
+      "estado": "qa",
+      "em": "2026-10-21T18:59:00+01:00",
+      "nota": "QA final PASS nas versões A e B (3.ª rodada: legenda legível, cartão 900x800, cor refeita pela cadeia da marca)"
+    },
+    {
+      "estado": "pronto",
+      "em": "2026-10-21T18:59:20+01:00",
+      "nota": "pacote em 05-render-pronto/ (vídeo = versão B, final-B.mp4; versão A em edicao/final-A.mp4 para a 2.ª vaga); capa provisória = A, Carlos escolhe entre A/C/D"
+    },
+    {
+      "estado": "pronto",
+      "em": "2026-10-21T19:00:48+01:00",
+      "nota": "capa A escolhida pelo Carlos ('Joga o livro no ChatGPT e escreve isso') = capa/capa.png no pacote e no vídeo"
+    },
+    {
+      "estado": "pronto",
+      "em": "2026-10-21T19:20:26+01:00",
+      "nota": "cartão do campo movido para o peito (1000x330, pé 1250; legendas somem com cartão) — A e B re-renderizados, QA PASS; variante C (= B + fecho L01C) renderizada (38,9 s, qa_check PASS); pacote remontado com as 3"
+    },
+    {
+      "estado": "pronto",
+      "em": "2026-10-21T20:20:01+01:00",
+      "nota": "SEM legenda karaokê (decisão 21/10) — A, B e variante L01C (hook alternativo) re-renderizados, QA 5.ª rodada PASS nos três; variante C (fecho) descartada; pacote com B + A + L01C"
+    },
+    {
+      "estado": "pronto",
+      "em": "2026-10-21T20:43:28+01:00",
+      "nota": "sem título do hook e sem véu escuro (decisões 21/10); 4 finais: B, A, L01C (conteúdo 1.º) e L01C-A (Carlos fala o hook); qa_check PASS nos 4; pacote atualizado"
+    },
+    {
+      "estado": "pronto",
+      "em": "2026-10-21T21:07:38+01:00",
+      "nota": "música trocada para cinematográfica (opção 3 a −13 dB) nas 4 versões; B com a opção 4 para comparar; qa_check PASS"
+    },
+    {
+      "estado": "pronto",
+      "em": "2026-10-21T21:18:46+01:00",
+      "nota": "música opção 4 escolhida pelo Carlos; 4 versões remixadas a −12 dB; qa_check PASS; pacote atualizado (comparação removida)"
+    },
+    {
+      "estado": "agendado",
+      "em": "2026-10-21T21:20:14+01:00"
+    },
+    {
+      "estado": "agendado",
+      "em": "2026-10-21T21:20:40+01:00"
+    },
+    {
+      "estado": "agendado",
+      "em": "2026-10-21T21:25:00+01:00",
+      "nota": "4 publicações em 06-publicar/ (B dom 25/10 19:00 IG+FB; A ter 27/10 21:00; L01C qua 28/10 21:00; L01C-A dom 01/11 19:00; só IG), Trial MANUAL, confirmar:true; ordem combinada: depois do Jensen"
+    },
+    {
+      "estado": "agendado",
+      "em": "2026-10-22T10:13:03+01:00",
+      "nota": "4 capas refeitas com a cadeia de cor certa, headline e pose por versão (B/A/L01C/L01C-A), trocadas nas 4 pastas de 06-publicar/"
+    },
+    {
+      "estado": "agendado",
+      "em": "2026-10-22T16:01:55+01:00"
+    },
+    {
+      "estado": "agendado",
+      "em": "2026-10-22T16:11:52+01:00"
+    },
+    {
+      "estado": "agendado",
+      "em": "2026-10-22T16:11:52+01:00"
+    }
+  ],
+  "material": {
+    "capas": "material/capas/LIVROS.md",
+    "tela": "edicao/tela.json"
+  }
+}

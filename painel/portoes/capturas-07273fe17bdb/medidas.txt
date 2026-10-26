@@ -1,0 +1,16 @@
+# capturar.sh · 2026-10-23T15:56:07.627Z
+# alvo	largura pedida	innerWidth	scrollWidth	altura	HTTP	png	passa da borda
+painel/design/telas/visao-geral.html	1440	1440	1440	4984	200	/Users/teste/Documents/CONTENT AI/painel/portoes/capturas-07273fe17bdb/visao-geral-1440.png	
+painel/design/telas/visao-geral.html	375	375	375	9616	200	/Users/teste/Documents/CONTENT AI/painel/portoes/capturas-07273fe17bdb/visao-geral-375.png	
+painel/design/telas/equipe.html	1440	1440	1440	3654	200	/Users/teste/Documents/CONTENT AI/painel/portoes/capturas-07273fe17bdb/equipe-1440.png	
+painel/design/telas/equipe.html	375	375	375	7556	200	/Users/teste/Documents/CONTENT AI/painel/portoes/capturas-07273fe17bdb/equipe-375.png	
+painel/design/telas/producao.html	1440	1440	1440	4616	200	/Users/teste/Documents/CONTENT AI/painel/portoes/capturas-07273fe17bdb/producao-1440.png	
+painel/design/telas/producao.html	375	375	375	7673	200	/Users/teste/Documents/CONTENT AI/painel/portoes/capturas-07273fe17bdb/producao-375.png	
+painel/design/telas/calendario.html	1440	1440	1440	3662	200	/Users/teste/Documents/CONTENT AI/painel/portoes/capturas-07273fe17bdb/calendario-1440.png	
+painel/design/telas/calendario.html	375	375	375	7214	200	/Users/teste/Documents/CONTENT AI/painel/portoes/capturas-07273fe17bdb/calendario-375.png	
+painel/design/telas/desempenho.html	1440	1440	1440	3487	200	/Users/teste/Documents/CONTENT AI/painel/portoes/capturas-07273fe17bdb/desempenho-1440.png	
+painel/design/telas/desempenho.html	375	375	375	6832	200	/Users/teste/Documents/CONTENT AI/painel/portoes/capturas-07273fe17bdb/desempenho-375.png	
+painel/design/telas/biblioteca.html	1440	1440	1440	2755	200	/Users/teste/Documents/CONTENT AI/painel/portoes/capturas-07273fe17bdb/biblioteca-1440.png	
+painel/design/telas/biblioteca.html	375	375	375	6313	200	/Users/teste/Documents/CONTENT AI/painel/portoes/capturas-07273fe17bdb/biblioteca-375.png	
+painel/design/telas/tokens-e-custos.html	1440	1440	1440	4450	200	/Users/teste/Documents/CONTENT AI/painel/portoes/capturas-07273fe17bdb/tokens-e-custos-1440.png	
+painel/design/telas/tokens-e-custos.html	375	375	375	8118	200	/Users/teste/Documents/CONTENT AI/painel/portoes/capturas-07273fe17bdb/tokens-e-custos-375.png	

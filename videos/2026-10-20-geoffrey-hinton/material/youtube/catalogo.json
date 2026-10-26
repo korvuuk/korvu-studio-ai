@@ -1,0 +1,319 @@
+[
+  {
+    "id": "qrvK_KuIeJk",
+    "url": "https://www.youtube.com/watch?v=qrvK_KuIeJk",
+    "titulo": "\"Godfather of AI\" Geoffrey Hinton: The 60 Minutes Interview",
+    "canal": "60 Minutes",
+    "publicado_em": "2023-10-09",
+    "duracao_s": 792.0,
+    "visualizacoes": 4570270,
+    "licenca": "todos os direitos reservados",
+    "fps": 29.97,
+    "arquivo": "videos/2026-10-20-geoffrey-hinton/material/youtube/qrvK_KuIeJk-Godfather_of_AI_Geoffrey_Hinton_-_The_60_Minutes_Interview.mp4",
+    "proxy": null,
+    "credito": "\"Godfather of AI\" Geoffrey Hinton: The 60 Minutes Interview (60 Minutes)",
+    "uso": "comentario",
+    "baixado_em": "2026-10-14",
+    "linhas": [
+      "L02",
+      "L03",
+      "L04",
+      "L06",
+      "L07",
+      "L08",
+      "L11",
+      "L12",
+      "L13"
+    ],
+    "motivo": "60 Minutes: entrevista principal",
+    "momentos": [
+      {
+        "inicio": "3:50",
+        "fim": "4:10",
+        "inicio_s": 230.0,
+        "fim_s": 250.0,
+        "linha": "L05",
+        "o_que": "CBS explica: caminho certo fica mais forte, o errado mais fraco (referência para a animação E04; imagem é dos robôs, sem Hinton)"
+      }
+    ],
+    "trechos": [
+      {
+        "id": "E02",
+        "inicio": "0:50",
+        "fim": "1:03",
+        "inicio_s": 50.0,
+        "fim_s": 63.0,
+        "duracao_s": 13.0,
+        "o_que": "Hinton de frente, calmo, respondendo no começo da entrevista",
+        "som": false,
+        "arquivo": "videos/2026-10-20-geoffrey-hinton/brutos/extras/E02-hinton-abertura.mp4"
+      },
+      {
+        "id": "E03",
+        "inicio": "1:49",
+        "fim": "1:58",
+        "inicio_s": 109.0,
+        "fim_s": 118.0,
+        "duracao_s": 9.0,
+        "o_que": "Fotos do jovem Hinton, anos 70 em Edimburgo, enquanto a CBS conta a ideia do cérebro",
+        "som": false,
+        "arquivo": "videos/2026-10-20-geoffrey-hinton/brutos/extras/E03-edimburgo-jovem.mp4"
+      },
+      {
+        "id": "E05",
+        "inicio": "2:04",
+        "fim": "2:12",
+        "inicio_s": 124.5,
+        "fim_s": 132.0,
+        "duracao_s": 7.5,
+        "o_que": "Hinton jovem e ele diante do computador; CBS: o orientador mandou largar antes que arruinasse a carreira",
+        "som": false,
+        "arquivo": "videos/2026-10-20-geoffrey-hinton/brutos/extras/E05-orientador.mp4"
+      },
+      {
+        "id": "E07",
+        "inicio": "7:33",
+        "fim": "7:38",
+        "inicio_s": 453.0,
+        "fim_s": 458.2,
+        "duracao_s": 5.2,
+        "o_que": "Hinton (suéter verde e sala de servidores), período após os 10 anos no Google",
+        "som": false,
+        "arquivo": "videos/2026-10-20-geoffrey-hinton/brutos/extras/E07-google-toronto.mp4"
+      },
+      {
+        "id": "E12",
+        "inicio": "2:36",
+        "fim": "2:39",
+        "inicio_s": 156.3,
+        "fim_s": 159.4,
+        "duracao_s": 3.1,
+        "o_que": "Hinton: I always thought I was right",
+        "som": false,
+        "arquivo": "videos/2026-10-20-geoffrey-hinton/brutos/extras/E12-sempre-achei-certo.mp4"
+      }
+    ]
+  },
+  {
+    "id": "-icD_KmvnnM",
+    "url": "https://www.youtube.com/watch?v=-icD_KmvnnM",
+    "titulo": "First reactions | Geoffrey Hinton, Nobel Prize in Physics 2024 | Telephone interview",
+    "canal": "Nobel Prize",
+    "publicado_em": "2024-10-08",
+    "duracao_s": 407.0,
+    "visualizacoes": 107054,
+    "licenca": "todos os direitos reservados",
+    "fps": 25.0,
+    "arquivo": "videos/2026-10-20-geoffrey-hinton/material/youtube/-icD_KmvnnM-First_reactions_Geoffrey_Hinton_Nobel_Prize_in_Physics_2024_Telephone_inter.mp4",
+    "proxy": null,
+    "credito": "First reactions | Geoffrey Hinton, Nobel Prize in Physics 2024 | Telephone interview (Nobel Prize)",
+    "uso": "comentario",
+    "baixado_em": "2026-10-14",
+    "linhas": [
+      "L01",
+      "L14"
+    ],
+    "motivo": "Telefonema do Nobel",
+    "momentos": [],
+    "trechos": []
+  },
+  {
+    "id": "66WiF8fXL0k",
+    "url": "https://www.youtube.com/watch?v=66WiF8fXL0k",
+    "titulo": "Geoffrey Hinton, Nobel Prize in Physics 2024: Official interview",
+    "canal": "Nobel Prize",
+    "publicado_em": "2025-03-14",
+    "duracao_s": 1132.0,
+    "visualizacoes": 105315,
+    "licenca": "todos os direitos reservados",
+    "fps": 25.0,
+    "arquivo": "videos/2026-10-20-geoffrey-hinton/material/youtube/66WiF8fXL0k-Geoffrey_Hinton_Nobel_Prize_in_Physics_2024_-_Official_interview.mp4",
+    "proxy": null,
+    "credito": "Geoffrey Hinton, Nobel Prize in Physics 2024: Official interview (Nobel Prize)",
+    "uso": "comentario",
+    "baixado_em": "2026-10-14",
+    "linhas": [
+      "L15",
+      "L16",
+      "L17"
+    ],
+    "motivo": "Entrevista oficial Nobel",
+    "momentos": [
+      {
+        "inicio": "0:15",
+        "fim": "0:56",
+        "inicio_s": 15.0,
+        "fim_s": 56.0,
+        "linha": "L01",
+        "o_que": "Hinton conta a ligação: celular vibrando no hotel na Califórnia, sotaque sueco (gesticula bastante)"
+      }
+    ],
+    "trechos": [
+      {
+        "id": "E09",
+        "inicio": "0:57",
+        "fim": "1:05",
+        "inicio_s": 57.5,
+        "fim_s": 65.5,
+        "duracao_s": 8.0,
+        "o_que": "Hinton conta: 'could be a prank' (a dúvida se era trote na ligação do Nobel)",
+        "som": false,
+        "arquivo": "videos/2026-10-20-geoffrey-hinton/brutos/extras/E09-ligacao-trote.mp4"
+      }
+    ]
+  },
+  {
+    "id": "DsBGaHywRhs",
+    "url": "https://www.youtube.com/watch?v=DsBGaHywRhs",
+    "titulo": "AI 'godfather' quits Google over dangers of Artificial Intelligence - BBC News",
+    "canal": "BBC News",
+    "publicado_em": "2023-05-02",
+    "duracao_s": 347.0,
+    "visualizacoes": 636469,
+    "licenca": "todos os direitos reservados",
+    "fps": 25.0,
+    "arquivo": "videos/2026-10-20-geoffrey-hinton/material/youtube/DsBGaHywRhs-AI_godfather_quits_Google_over_dangers_of_Artificial_Intelligence_-_BBC_News.mp4",
+    "proxy": null,
+    "credito": "AI 'godfather' quits Google over dangers of Artificial Intelligence - BBC News (BBC News)",
+    "uso": "comentario",
+    "baixado_em": "2026-10-14",
+    "linhas": [
+      "L12",
+      "L13"
+    ],
+    "motivo": "BBC: sai do Google",
+    "momentos": [
+      {
+        "inicio": "0:37",
+        "fim": "1:10",
+        "inicio_s": 37.0,
+        "fim_s": 70.0,
+        "linha": "L12",
+        "o_que": "Hinton sobre IA digital copiar o conhecimento (BBC, Zoom, calmo)"
+      }
+    ],
+    "trechos": [
+      {
+        "id": "E08",
+        "inicio": "1:19",
+        "fim": "1:29",
+        "inicio_s": 79.0,
+        "fim_s": 89.0,
+        "duracao_s": 10.0,
+        "o_que": "Hinton, calmo, fala do ritmo do progresso da IA (BBC, 2023)",
+        "som": false,
+        "arquivo": "videos/2026-10-20-geoffrey-hinton/brutos/extras/E08-riscos-bbc.mp4"
+      }
+    ]
+  },
+  {
+    "id": "gC_PoPye_CQ",
+    "url": "https://www.youtube.com/watch?v=gC_PoPye_CQ",
+    "titulo": "The ImageNet Moment with Geoff Hinton | Best Bits",
+    "canal": "The Robot Brains Podcast",
+    "publicado_em": "2022-06-03",
+    "duracao_s": 232.0,
+    "visualizacoes": 6051,
+    "licenca": "todos os direitos reservados",
+    "fps": 24.0,
+    "arquivo": "videos/2026-10-20-geoffrey-hinton/material/youtube/gC_PoPye_CQ-The_ImageNet_Moment_with_Geoff_Hinton_Best_Bits.mp4",
+    "proxy": null,
+    "credito": "The ImageNet Moment with Geoff Hinton | Best Bits (The Robot Brains Podcast)",
+    "uso": "comentario",
+    "baixado_em": "2026-10-14",
+    "linhas": [
+      "L09",
+      "L10"
+    ],
+    "motivo": "Hinton sobre ImageNet 2012",
+    "momentos": [
+      {
+        "inicio": "2:28",
+        "fim": "2:38",
+        "inicio_s": 148.0,
+        "fim_s": 158.0,
+        "linha": "L09",
+        "o_que": "Hinton conta que Ilya queria fazer o ImageNet e Alex programou (legenda embutida em inglês; só se a animação E06 não servir)"
+      }
+    ],
+    "trechos": []
+  },
+  {
+    "id": "9LeUf7N84J8",
+    "url": "https://www.youtube.com/watch?v=9LeUf7N84J8",
+    "titulo": "WHAT IS AI?  Conversations with SJ Hanson:  Episode 4: Geoffrey Hinton",
+    "canal": "Stephen José Hanson",
+    "publicado_em": "2022-04-17",
+    "duracao_s": 3571.0,
+    "visualizacoes": 1178,
+    "licenca": "Creative Commons Attribution license (reuse allowed)",
+    "fps": 15.0,
+    "arquivo": "videos/2026-10-20-geoffrey-hinton/material/youtube/9LeUf7N84J8-WHAT_IS_AI_Conversations_with_SJ_Hanson_-_Episode_4_-_Geoffrey_Hinton.mp4",
+    "proxy": null,
+    "credito": "WHAT IS AI?  Conversations with SJ Hanson:  Episode 4: Geoffrey Hinton (Stephen José Hanson)",
+    "uso": "comentario",
+    "baixado_em": "2026-10-14",
+    "linhas": [
+      "L04",
+      "L05"
+    ],
+    "motivo": "Entrevista Hanson 2022",
+    "momentos": [
+      {
+        "inicio": "0:00",
+        "fim": "0:30",
+        "inicio_s": 0.0,
+        "fim_s": 30.0,
+        "linha": "L04",
+        "o_que": "entrevista Hanson 2022 baixada; não assistida em detalhe (reserva, canal CC BY)"
+      }
+    ],
+    "trechos": []
+  },
+  {
+    "id": "-f5WQAk3dYo",
+    "url": "https://www.youtube.com/watch?v=-f5WQAk3dYo",
+    "titulo": "Geoffrey Hinton, Nobel Prize in Physics 2024: Banquet speech",
+    "canal": "Nobel Prize",
+    "publicado_em": "2025-07-29",
+    "duracao_s": 202.0,
+    "visualizacoes": 336636,
+    "licenca": "todos os direitos reservados",
+    "fps": 50.0,
+    "arquivo": "videos/2026-10-20-geoffrey-hinton/material/youtube/-f5WQAk3dYo-Geoffrey_Hinton_Nobel_Prize_in_Physics_2024_-_Banquet_speech.mp4",
+    "proxy": null,
+    "credito": "Geoffrey Hinton, Nobel Prize in Physics 2024: Banquet speech (Nobel Prize)",
+    "uso": "comentario",
+    "baixado_em": "2026-10-14",
+    "linhas": [
+      "L15",
+      "L16"
+    ],
+    "motivo": "Discurso do banquete",
+    "momentos": [],
+    "trechos": [
+      {
+        "id": "E10",
+        "inicio": "1:31",
+        "fim": "1:38",
+        "inicio_s": 91.0,
+        "fim_s": 98.5,
+        "duracao_s": 7.5,
+        "o_que": "Hinton no discurso do banquete: aumentar a produtividade em quase todas as indústrias",
+        "som": false,
+        "arquivo": "videos/2026-10-20-geoffrey-hinton/brutos/extras/E10-banquete-produtividade.mp4"
+      },
+      {
+        "id": "E11",
+        "inicio": "2:03",
+        "fim": "2:09",
+        "inicio_s": 123.0,
+        "fim_s": 129.0,
+        "duracao_s": 6.0,
+        "o_que": "Hinton no discurso do banquete: criminosos usando phishing",
+        "som": false,
+        "arquivo": "videos/2026-10-20-geoffrey-hinton/brutos/extras/E11-banquete-golpes.mp4"
+      }
+    ]
+  }
+]

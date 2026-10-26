@@ -1,0 +1,34 @@
+[project]
+name = "content-ai"
+version = "0.1.0"
+description = "Estúdio de Reels da Korvu — scripts de roteiro, edição, cor, capas e publicação"
+authors = [
+    { name = "korvu", email = "korvu.uk@gmail.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "boto3>=1.43.94",
+    "color-matcher>=0.6.0",
+    "colour-science>=0.4.7",
+    "elevenlabs>=2.68.0",
+    "num2words>=0.5.14",
+    "numpy>=2.5.3",
+    "opencv-python-headless>=4.10,<5",
+    "pillow>=12.3.0",
+    "psycopg[binary]>=3.2",
+    "python-dotenv>=1.2.3",
+    "pyyaml>=6.0.3",
+    "rapidfuzz>=3.14.6",
+    "requests>=2.34.2",
+    "scipy>=1.18.1",
+    "soundfile>=0.14.0",
+    "unidecode>=1.4.0",
+]
+
+[project.optional-dependencies]
+local = [
+    "mlx-whisper>=0.4.3",
+]
+
+[tool.uv]
+package = false

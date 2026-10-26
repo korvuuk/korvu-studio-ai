@@ -1,0 +1,1864 @@
+{
+  "linhas": [
+    {
+      "id": "L01",
+      "status": "ok",
+      "escolhido": "L01-T3",
+      "motivo": "último take limpo (sim 0.82); muleta cortada internamente, pausa interna encurtada",
+      "takes": [
+        {
+          "take_id": "L01-T1",
+          "fonte": "praq0969",
+          "i_ini": 46,
+          "i_fim": 47,
+          "inicio": 111.065,
+          "fim": 111.785,
+          "sim": 0.182,
+          "cobertura": 0.182,
+          "flags": [
+            "false_start"
+          ],
+          "score": 0.309,
+          "texto": "Aprendeu xadrez",
+          "prefixo": 1.0,
+          "conf": 0.932,
+          "muletas": [],
+          "pausas": []
+        },
+        {
+          "take_id": "L01-T2",
+          "fonte": "praq0969",
+          "i_ini": 68,
+          "i_fim": 73,
+          "inicio": 123.44,
+          "fim": 125.851,
+          "sim": 0.545,
+          "cobertura": 0.545,
+          "flags": [
+            "false_start"
+          ],
+          "score": 0.606,
+          "texto": "Aprendeu xadrez aos 4 anos e...",
+          "prefixo": 1.0,
+          "conf": 0.86,
+          "muletas": [],
+          "pausas": []
+        },
+        {
+          "take_id": "L01-T3",
+          "fonte": "praq0969",
+          "i_ini": 113,
+          "i_fim": 123,
+          "inicio": 158.695,
+          "fim": 163.12,
+          "sim": 0.818,
+          "cobertura": 0.909,
+          "flags": [
+            "muleta",
+            "pausa_interna"
+          ],
+          "score": 0.862,
+          "texto": "Aprendeu xadrez aos 4 anos? ganhou um Nobel com E .A.",
+          "prefixo": 0.818,
+          "conf": 0.86,
+          "muletas": [
+            122
+          ],
+          "pausas": [
+            [
+              160.696,
+              161.5
+            ]
+          ]
+        }
+      ],
+      "leituras_ia": [
+        {
+          "fonte": "praq0969",
+          "inicio": 108.115,
+          "fim": 110.16,
+          "sim": 0.455,
+          "texto": "Aprendeu xadrez aos quatro anos."
+        },
+        {
+          "fonte": "praq0969",
+          "inicio": 114.766,
+          "fim": 120.476,
+          "sim": 0.462,
+          "texto": "Aprendeu xadrez aos 4 anos. Respira curto. E, Gaeon Jung, eu vou, eu"
+        },
+        {
+          "fonte": "praq0969",
+          "inicio": 150.475,
+          "fim": 154.166,
+          "sim": 0.545,
+          "texto": "Aprendeu xadrez aos quatro anos e Respiro"
+        }
+      ]
+    },
+    {
+      "id": "L02",
+      "status": "parafrase",
+      "escolhido": "L02-T1",
+      "motivo": "paráfrase: melhor sim 0.67 (score 0.75)",
+      "takes": [
+        {
+          "take_id": "L02-T1",
+          "fonte": "praq0969",
+          "i_ini": 163,
+          "i_fim": 168,
+          "inicio": 198.885,
+          "fim": 202.66,
+          "sim": 0.667,
+          "cobertura": 0.667,
+          "flags": [],
+          "score": 0.753,
+          "texto": "Denis Assabi, nascido aqui em Londres.",
+          "prefixo": 0.667,
+          "conf": 0.861,
+          "muletas": [],
+          "pausas": []
+        }
+      ],
+      "leituras_ia": []
+    },
+    {
+      "id": "L03",
+      "status": "parafrase",
+      "escolhido": "L03-T2",
+      "motivo": "paráfrase: melhor sim 0.71 (score 0.82)",
+      "takes": [
+        {
+          "take_id": "L03-T1",
+          "fonte": "praq0969",
+          "i_ini": 235,
+          "i_fim": 246,
+          "inicio": 259.155,
+          "fim": 265.545,
+          "sim": 0.583,
+          "cobertura": 0.727,
+          "flags": [
+            "muleta",
+            "pausa_interna",
+            "final_cortado",
+            "sem_ancora"
+          ],
+          "score": 0.595,
+          "texto": "Aos 13 anos já era mestre de chaves. E aos 17 anos...",
+          "prefixo": 0.583,
+          "conf": 0.873,
+          "muletas": [
+            243
+          ],
+          "pausas": [
+            [
+              261.96,
+              263.485
+            ]
+          ]
+        },
+        {
+          "take_id": "L03-T2",
+          "fonte": "praq0969",
+          "i_ini": 259,
+          "i_fim": 272,
+          "inicio": 278.665,
+          "fim": 285.24,
+          "sim": 0.714,
+          "cobertura": 0.909,
+          "flags": [
+            "muleta",
+            "sem_ancora"
+          ],
+          "score": 0.817,
+          "texto": "Aos 17 anos já era mestre de xadrez e aos 17 anos criava videogames.",
+          "prefixo": 0.714,
+          "conf": 0.918,
+          "muletas": [
+            267
+          ],
+          "pausas": []
+        }
+      ],
+      "leituras_ia": [
+        {
+          "fonte": "praq0969",
+          "inicio": 188.475,
+          "fim": 195.865,
+          "sim": 0.714,
+          "texto": "Aos 13 já era mestre de xadrez. Respiro curto. Aos 17. Criado a video game."
+        },
+        {
+          "fonte": "praq0969",
+          "inicio": 205.365,
+          "fim": 212.346,
+          "sim": 0.692,
+          "texto": "Aos 13 já era mestre de xadrez. Respira gut. Aos 17. Criar a"
+        },
+        {
+          "fonte": "praq0969",
+          "inicio": 240.56,
+          "fim": 246.326,
+          "sim": 1.0,
+          "texto": "Aos 13 já era mestre de xadrez. Aos 17 criava videogame."
+        }
+      ]
+    },
+    {
+      "id": "L04",
+      "status": "parafrase",
+      "escolhido": "L04-T2",
+      "motivo": "paráfrase: melhor sim 0.75 (score 0.83)",
+      "takes": [
+        {
+          "take_id": "L04-T1",
+          "fonte": "praq0969",
+          "i_ini": 281,
+          "i_fim": 284,
+          "inicio": 296.88,
+          "fim": 299.24,
+          "sim": 0.429,
+          "cobertura": 0.429,
+          "flags": [
+            "final_cortado"
+          ],
+          "score": 0.484,
+          "texto": "estudou computações em Cambridge.",
+          "prefixo": 0.75,
+          "conf": 0.956,
+          "muletas": [],
+          "pausas": []
+        },
+        {
+          "take_id": "L04-T2",
+          "fonte": "praq0969",
+          "i_ini": 292,
+          "i_fim": 299,
+          "inicio": 309.265,
+          "fim": 313.26,
+          "sim": 0.75,
+          "cobertura": 0.857,
+          "flags": [],
+          "score": 0.834,
+          "texto": "Estudou computações em Cambridge e depois a Neurociência.",
+          "prefixo": 0.75,
+          "conf": 0.926,
+          "muletas": [],
+          "pausas": []
+        }
+      ],
+      "leituras_ia": [
+        {
+          "fonte": "praq0969",
+          "inicio": 289.315,
+          "fim": 293.076,
+          "sim": 1.0,
+          "texto": "Estudou computação em Cambridge. E depois, Neurociência."
+        },
+        {
+          "fonte": "praq0969",
+          "inicio": 302.145,
+          "fim": 305.825,
+          "sim": 1.0,
+          "texto": "Estudou computação em Cambridge. E depois, Neurociência."
+        }
+      ]
+    },
+    {
+      "id": "L05",
+      "status": "parafrase",
+      "escolhido": "L05-T2",
+      "motivo": "paráfrase: melhor sim 0.71 (score 0.79)",
+      "takes": [
+        {
+          "take_id": "L05-T1",
+          "fonte": "praq0969",
+          "i_ini": 311,
+          "i_fim": 317,
+          "inicio": 324.735,
+          "fim": 327.68,
+          "sim": 0.643,
+          "cobertura": 0.643,
+          "flags": [
+            "final_cortado"
+          ],
+          "score": 0.634,
+          "texto": "Em 2016, juntou tudo aqui em Londres",
+          "prefixo": 0.6,
+          "conf": 0.956,
+          "muletas": [],
+          "pausas": []
+        },
+        {
+          "take_id": "L05-T2",
+          "fonte": "praq0969",
+          "i_ini": 334,
+          "i_fim": 340,
+          "inicio": 342.681,
+          "fim": 345.92,
+          "sim": 0.714,
+          "cobertura": 0.714,
+          "flags": [
+            "final_cortado"
+          ],
+          "score": 0.787,
+          "texto": "Em 2010, juntou tudo aqui em Londres,",
+          "prefixo": 0.7,
+          "conf": 0.993,
+          "muletas": [],
+          "pausas": []
+        }
+      ],
+      "leituras_ia": [
+        {
+          "fonte": "praq0969",
+          "inicio": 317.345,
+          "fim": 320.906,
+          "sim": 0.857,
+          "texto": "Em 2010, juntou tudo numa empresa aqui em Londres."
+        },
+        {
+          "fonte": "praq0969",
+          "inicio": 334.235,
+          "fim": 339.305,
+          "sim": 0.8,
+          "texto": "Em 2010, Aos juntou tudo numa empresa aqui em Londres. Adi, Adi."
+        }
+      ]
+    },
+    {
+      "id": "L06",
+      "status": "parafrase",
+      "escolhido": "L06-T2",
+      "motivo": "paráfrase: melhor sim 0.71 (score 0.82)",
+      "takes": [
+        {
+          "take_id": "L06-T1",
+          "fonte": "praq0969",
+          "i_ini": 360,
+          "i_fim": 373,
+          "inicio": 367.82,
+          "fim": 372.8,
+          "sim": 0.643,
+          "cobertura": 0.769,
+          "flags": [],
+          "score": 0.664,
+          "texto": "quatro anos depois, o Google comprou a sua empresa por 4 milhões de libras.",
+          "prefixo": 0.643,
+          "conf": 0.946,
+          "muletas": [],
+          "pausas": []
+        },
+        {
+          "take_id": "L06-T2",
+          "fonte": "praq0970",
+          "i_ini": 388,
+          "i_fim": 401,
+          "inicio": 8.76,
+          "fim": 15.26,
+          "sim": 0.714,
+          "cobertura": 0.846,
+          "flags": [],
+          "score": 0.819,
+          "texto": "quatro anos depois, o Google comprou a empresa dele por 400 milhões de libras.",
+          "prefixo": 0.714,
+          "conf": 0.998,
+          "muletas": [],
+          "pausas": []
+        }
+      ],
+      "leituras_ia": [
+        {
+          "fonte": "praq0969",
+          "inicio": 351.025,
+          "fim": 356.805,
+          "sim": 1.0,
+          "texto": "Quatro anos depois... O Google comprou por cerca de 400 milhões de libras."
+        },
+        {
+          "fonte": "praq0970",
+          "inicio": 0.475,
+          "fim": 5.775,
+          "sim": 1.0,
+          "texto": "Quatro anos depois, o Google comprou por cerca de 400 milhões de libras."
+        }
+      ]
+    },
+    {
+      "id": "L07",
+      "status": "parafrase",
+      "escolhido": "L07-T1",
+      "motivo": "paráfrase: melhor sim 0.67 (score 0.64)",
+      "takes": [
+        {
+          "take_id": "L07-T1",
+          "fonte": "praq0970",
+          "i_ini": 539,
+          "i_fim": 548,
+          "inicio": 75.62,
+          "fim": 80.56,
+          "sim": 0.667,
+          "cobertura": 0.667,
+          "flags": [
+            "muleta"
+          ],
+          "score": 0.639,
+          "texto": "2016 o AI deles venceu um dos maiores nomes do",
+          "prefixo": 0.727,
+          "conf": 0.758,
+          "muletas": [
+            541
+          ],
+          "pausas": []
+        },
+        {
+          "take_id": "L07-T2",
+          "fonte": "praq0971",
+          "i_ini": 565,
+          "i_fim": 573,
+          "inicio": 8.36,
+          "fim": 14.48,
+          "sim": 0.417,
+          "cobertura": 0.417,
+          "flags": [
+            "pausa_interna"
+          ],
+          "score": 0.582,
+          "texto": "2016, a IA deles venceu o maior nome do",
+          "prefixo": 0.4,
+          "conf": 0.959,
+          "muletas": [],
+          "pausas": [
+            [
+              9.18,
+              10.315
+            ]
+          ]
+        }
+      ],
+      "leituras_ia": [
+        {
+          "fonte": "praq0970",
+          "inicio": 17.825,
+          "fim": 22.56,
+          "sim": 0.833,
+          "texto": "Em 16, a IA deles venceu um dos maiores nomes do"
+        },
+        {
+          "fonte": "praq0971",
+          "inicio": 1.985,
+          "fim": 6.36,
+          "sim": 0.833,
+          "texto": "em 16, a IA deles venceu um dos maiores nomes do"
+        }
+      ]
+    },
+    {
+      "id": "L08",
+      "status": "parafrase",
+      "escolhido": "L08-T1",
+      "motivo": "paráfrase: melhor sim 0.64 (score 0.74)",
+      "takes": [
+        {
+          "take_id": "L08-T1",
+          "fonte": "praq0971",
+          "i_ini": 603,
+          "i_fim": 611,
+          "inicio": 52.851,
+          "fim": 57.64,
+          "sim": 0.636,
+          "cobertura": 0.636,
+          "flags": [],
+          "score": 0.744,
+          "texto": "Um jogo com mais posições com átomos do universo.",
+          "prefixo": 0.556,
+          "conf": 0.984,
+          "muletas": [],
+          "pausas": []
+        }
+      ],
+      "leituras_ia": [
+        {
+          "fonte": "praq0970",
+          "inicio": 59.931,
+          "fim": 64.34,
+          "sim": 0.909,
+          "texto": "Um jogo com mais posições possíveis. Do que átomos no"
+        },
+        {
+          "fonte": "praq0970",
+          "inicio": 69.255,
+          "fim": 71.52,
+          "sim": 0.545,
+          "texto": "Um jogo com mais posições possíveis."
+        },
+        {
+          "fonte": "praq0971",
+          "inicio": 31.815,
+          "fim": 36.66,
+          "sim": 1.0,
+          "texto": "um jogo com mais posições possíveis do que átomos no universo."
+        }
+      ]
+    },
+    {
+      "id": "L09",
+      "status": "parafrase",
+      "escolhido": "L09-T6",
+      "motivo": "paráfrase: melhor sim 0.71 (score 0.80)",
+      "takes": [
+        {
+          "take_id": "L09-T1",
+          "fonte": "praq0971",
+          "i_ini": 640,
+          "i_fim": 643,
+          "inicio": 80.371,
+          "fim": 81.58,
+          "sim": 0.267,
+          "cobertura": 0.267,
+          "flags": [
+            "false_start"
+          ],
+          "score": 0.372,
+          "texto": "Mas o maior feito...",
+          "prefixo": 1.0,
+          "conf": 0.967,
+          "muletas": [],
+          "pausas": []
+        },
+        {
+          "take_id": "L09-T2",
+          "fonte": "praq0972",
+          "i_ini": 710,
+          "i_fim": 718,
+          "inicio": 41.195,
+          "fim": 44.96,
+          "sim": 0.467,
+          "cobertura": 0.467,
+          "flags": [
+            "final_cortado"
+          ],
+          "score": 0.527,
+          "texto": "Mas o maior feito veio depois. O alfa -fold.",
+          "prefixo": 0.778,
+          "conf": 0.919,
+          "muletas": [],
+          "pausas": []
+        },
+        {
+          "take_id": "L09-T3",
+          "fonte": "praq0972",
+          "i_ini": 728,
+          "i_fim": 736,
+          "inicio": 65.875,
+          "fim": 69.46,
+          "sim": 0.467,
+          "cobertura": 0.467,
+          "flags": [
+            "final_cortado"
+          ],
+          "score": 0.545,
+          "texto": "Mas o maior feito veio depois. O alfa -folha",
+          "prefixo": 0.778,
+          "conf": 0.899,
+          "muletas": [],
+          "pausas": []
+        },
+        {
+          "take_id": "L09-T4",
+          "fonte": "praq0974",
+          "i_ini": 816,
+          "i_fim": 821,
+          "inicio": 3.655,
+          "fim": 5.32,
+          "sim": 0.4,
+          "cobertura": 0.4,
+          "flags": [
+            "false_start"
+          ],
+          "score": 0.528,
+          "texto": "mas o maior feito veio depois.",
+          "prefixo": 1.0,
+          "conf": 0.998,
+          "muletas": [],
+          "pausas": []
+        },
+        {
+          "take_id": "L09-T5",
+          "fonte": "praq0974",
+          "i_ini": 836,
+          "i_fim": 851,
+          "inicio": 26.675,
+          "fim": 35.74,
+          "sim": 0.625,
+          "cobertura": 0.667,
+          "flags": [],
+          "score": 0.719,
+          "texto": "Mas o maior feito veio depois. O alfa -foli passou a prever a quebra da proteína.",
+          "prefixo": 0.625,
+          "conf": 0.95,
+          "muletas": [],
+          "pausas": []
+        },
+        {
+          "take_id": "L09-T6",
+          "fonte": "praq0974",
+          "i_ini": 874,
+          "i_fim": 890,
+          "inicio": 47.351,
+          "fim": 55.46,
+          "sim": 0.706,
+          "cobertura": 0.8,
+          "flags": [
+            "pausa_interna"
+          ],
+          "score": 0.796,
+          "texto": "Mas o maior feito veio depois, onde o alfa -fold passou a prever o formato da proteína.",
+          "prefixo": 0.706,
+          "conf": 0.934,
+          "muletas": [],
+          "pausas": [
+            [
+              49.86,
+              50.615
+            ]
+          ]
+        }
+      ],
+      "leituras_ia": [
+        {
+          "fonte": "praq0971",
+          "inicio": 60.385,
+          "fim": 63.795,
+          "sim": 0.467,
+          "texto": "Mas o maior feito veio depois. O Fold..."
+        },
+        {
+          "fonte": "praq0971",
+          "inicio": 68.415,
+          "fim": 74.335,
+          "sim": 0.933,
+          "texto": "Mas o maior feito veio depois. O Alpha Fold passou a prever o formato das proteínas."
+        },
+        {
+          "fonte": "praq0972",
+          "inicio": 24.915,
+          "fim": 31.036,
+          "sim": 0.933,
+          "texto": "Mas o maior feito veio depois. O AlphaFold. Passou a prever o formato das proteínas."
+        },
+        {
+          "fonte": "praq0974",
+          "inicio": 38.695,
+          "fim": 44.796,
+          "sim": 0.933,
+          "texto": "Mas o maior feito veio depois. O AlphaFold. Passou a prever o formato das proteínas."
+        }
+      ]
+    },
+    {
+      "id": "L10",
+      "status": "ok",
+      "escolhido": "L10-T2",
+      "motivo": "último take limpo (sim 0.89)",
+      "takes": [
+        {
+          "take_id": "L10-T1",
+          "fonte": "praq0974",
+          "i_ini": 901,
+          "i_fim": 910,
+          "inicio": 63.515,
+          "fim": 68.2,
+          "sim": 0.6,
+          "cobertura": 0.667,
+          "flags": [
+            "locutor_incerto"
+          ],
+          "score": 0.618,
+          "texto": "O problema que via travado a ciência havia 50 anos.",
+          "prefixo": 0.6,
+          "conf": 0.88,
+          "muletas": [],
+          "pausas": []
+        },
+        {
+          "take_id": "L10-T2",
+          "fonte": "praq0975",
+          "i_ini": 942,
+          "i_fim": 950,
+          "inicio": 19.435,
+          "fim": 24.52,
+          "sim": 0.889,
+          "cobertura": 0.889,
+          "flags": [],
+          "score": 0.919,
+          "texto": "Um problema que travava a ciência havia 50 anos.",
+          "prefixo": 0.889,
+          "conf": 0.967,
+          "muletas": [],
+          "pausas": []
+        }
+      ],
+      "leituras_ia": [
+        {
+          "fonte": "praq0972",
+          "inicio": 3.955,
+          "fim": 7.206,
+          "sim": 0.889,
+          "texto": "Um problema que travava a ciência havia 50 anos."
+        },
+        {
+          "fonte": "praq0972",
+          "inicio": 47.585,
+          "fim": 50.915,
+          "sim": 0.889,
+          "texto": "Um problema que travava a ciência. Havia 50 anos."
+        },
+        {
+          "fonte": "praq0972",
+          "inicio": 75.045,
+          "fim": 78.395,
+          "sim": 0.778,
+          "texto": "um problema que trapava a ciência havia 50 anos."
+        },
+        {
+          "fonte": "praq0974",
+          "inicio": 58.645,
+          "fim": 61.765,
+          "sim": 0.778,
+          "texto": "O problema que travava a ciência havia 50 anos."
+        }
+      ]
+    },
+    {
+      "id": "L11",
+      "status": "faltando",
+      "escolhido": null,
+      "motivo": "a IA leu a linha (2×), mas não há take do Carlos",
+      "takes": [],
+      "leituras_ia": [
+        {
+          "fonte": "praq0974",
+          "inicio": 71.175,
+          "fim": 72.935,
+          "sim": 0.571,
+          "texto": "E isso deu a ele o Nobel de Química."
+        },
+        {
+          "fonte": "praq0975",
+          "inicio": 8.215,
+          "fim": 13.536,
+          "sim": 0.929,
+          "texto": "E isso deu a ele o Nobel de Química, junto com o John Jumper."
+        }
+      ]
+    },
+    {
+      "id": "L12",
+      "status": "ok",
+      "escolhido": "L12-T2",
+      "motivo": "último take limpo (sim 0.93); pausa interna encurtada",
+      "takes": [
+        {
+          "take_id": "L12-T1",
+          "fonte": "praq0975",
+          "i_ini": 965,
+          "i_fim": 973,
+          "inicio": 36.255,
+          "fim": 40.72,
+          "sim": 0.5,
+          "cobertura": 0.571,
+          "flags": [],
+          "score": 0.555,
+          "texto": "Quer dizer, o menino do xadrez virou a maior",
+          "prefixo": 0.778,
+          "conf": 0.94,
+          "muletas": [],
+          "pausas": []
+        },
+        {
+          "take_id": "L12-T2",
+          "fonte": "praq0975",
+          "i_ini": 991,
+          "i_fim": 1003,
+          "inicio": 53.771,
+          "fim": 60.72,
+          "sim": 0.929,
+          "cobertura": 0.929,
+          "flags": [
+            "pausa_interna"
+          ],
+          "score": 0.943,
+          "texto": "Quer dizer, o menino do xadrez virou um dos nomes mais importantes da",
+          "prefixo": 1.0,
+          "conf": 0.986,
+          "muletas": [],
+          "pausas": [
+            [
+              54.4,
+              55.2
+            ]
+          ]
+        }
+      ],
+      "leituras_ia": [
+        {
+          "fonte": "praq0975",
+          "inicio": 28.735,
+          "fim": 34.285,
+          "sim": 1.0,
+          "texto": "Quer dizer. O menino do xadrez. Virou um dos nomes mais importantes da IA."
+        },
+        {
+          "fonte": "praq0975",
+          "inicio": 45.865,
+          "fim": 51.375,
+          "sim": 1.0,
+          "texto": "Quer dizer. O menino do xadrez. Virou um dos nomes mais importantes da IA."
+        }
+      ]
+    },
+    {
+      "id": "L13",
+      "status": "parafrase",
+      "escolhido": "L13-T1",
+      "motivo": "paráfrase: melhor sim 0.57 (score 0.74)",
+      "takes": [
+        {
+          "take_id": "L13-T1",
+          "fonte": "praq0976",
+          "i_ini": 1035,
+          "i_fim": 1048,
+          "inicio": 7.235,
+          "fim": 11.78,
+          "sim": 0.571,
+          "cobertura": 0.889,
+          "flags": [
+            "muleta",
+            "sem_ancora"
+          ],
+          "score": 0.741,
+          "texto": "Para mais conteúdos como esse, é só me seguir e te vejo na próxima.",
+          "prefixo": 0.571,
+          "conf": 0.975,
+          "muletas": [
+            1044
+          ],
+          "pausas": []
+        }
+      ],
+      "leituras_ia": []
+    },
+    {
+      "id": "L01B",
+      "status": "ok",
+      "escolhido": "L01B-T1",
+      "motivo": "último take limpo (sim 0.89)",
+      "takes": [
+        {
+          "take_id": "L01B-T1",
+          "fonte": "praq0976",
+          "i_ini": 1057,
+          "i_fim": 1065,
+          "inicio": 20.451,
+          "fim": 23.86,
+          "sim": 0.889,
+          "cobertura": 0.889,
+          "flags": [],
+          "score": 0.911,
+          "texto": "Um jogador de xadrez que acabou ganhando o Nobel.",
+          "prefixo": 0.889,
+          "conf": 0.889,
+          "muletas": [],
+          "pausas": []
+        }
+      ],
+      "leituras_ia": [
+        {
+          "fonte": "praq0975",
+          "inicio": 75.835,
+          "fim": 78.64,
+          "sim": 0.889,
+          "texto": "um jogador de xadrez que acabou ganhando um"
+        },
+        {
+          "fonte": "praq0976",
+          "inicio": 14.455,
+          "fim": 17.516,
+          "sim": 0.667,
+          "texto": "Um jogador de xadrez. Que acabou"
+        }
+      ],
+      "alternativa_de": "L01"
+    },
+    {
+      "id": "L01C",
+      "status": "ok",
+      "escolhido": "L01C-T2",
+      "motivo": "último take limpo (sim 0.80); pausa interna encurtada",
+      "takes": [
+        {
+          "take_id": "L01C-T1",
+          "fonte": "praq0976",
+          "i_ini": 1078,
+          "i_fim": 1085,
+          "inicio": 34.92,
+          "fim": 38.3,
+          "sim": 0.6,
+          "cobertura": 0.7,
+          "flags": [
+            "final_cortado"
+          ],
+          "score": 0.618,
+          "texto": "DeepMind que nasceu aqui em Londres e mudou",
+          "prefixo": 0.75,
+          "conf": 0.947,
+          "muletas": [],
+          "pausas": []
+        },
+        {
+          "take_id": "L01C-T2",
+          "fonte": "praq0976",
+          "i_ini": 1100,
+          "i_fim": 1108,
+          "inicio": 52.885,
+          "fim": 58.24,
+          "sim": 0.8,
+          "cobertura": 0.8,
+          "flags": [
+            "pausa_interna"
+          ],
+          "score": 0.852,
+          "texto": "A DeepMind nasceu aqui em Londres. E mudou a",
+          "prefixo": 0.778,
+          "conf": 0.982,
+          "muletas": [],
+          "pausas": [
+            [
+              56.18,
+              56.945
+            ]
+          ]
+        }
+      ],
+      "leituras_ia": [
+        {
+          "fonte": "praq0976",
+          "inicio": 26.525,
+          "fim": 31.536,
+          "sim": 0.5,
+          "texto": "A DeepMind nasceu aqui em Londres. Causa curta. E,"
+        },
+        {
+          "fonte": "praq0976",
+          "inicio": 44.435,
+          "fim": 49.9,
+          "sim": 0.636,
+          "texto": "A DeepMind. nasceu aqui em Londres. Pausa curta. E mudou a"
+        }
+      ],
+      "alternativa_de": "L01"
+    }
+  ],
+  "nao_mapeado": [
+    {
+      "fonte": "praq0969",
+      "inicio": 34.101,
+      "fim": 34.82,
+      "texto": "Tchau, tchau.",
+      "i_ini": 10,
+      "i_fim": 11,
+      "so_muletas": false
+    },
+    {
+      "fonte": "praq0969",
+      "inicio": 73.195,
+      "fim": 74.68,
+      "texto": "Ok, eu estou pronto. Vamos ir.",
+      "i_ini": 14,
+      "i_fim": 19,
+      "so_muletas": false
+    },
+    {
+      "fonte": "praq0969",
+      "inicio": 105.725,
+      "fim": 106.866,
+      "texto": "Pronto, pode começar. começar.",
+      "i_ini": 37,
+      "i_fim": 40,
+      "so_muletas": false
+    },
+    {
+      "fonte": "praq0969",
+      "inicio": 137.5,
+      "fim": 138.16,
+      "texto": "o do início.",
+      "i_ini": 86,
+      "i_fim": 88,
+      "so_muletas": false
+    },
+    {
+      "fonte": "praq0969",
+      "inicio": 143.791,
+      "fim": 146.72,
+      "texto": "Não, antes, antes, antes. Primeiro, primeira linha.",
+      "i_ini": 93,
+      "i_fim": 99,
+      "so_muletas": false
+    },
+    {
+      "fonte": "praq0969",
+      "inicio": 171.505,
+      "fim": 172.5,
+      "texto": "Denis Hassabis.",
+      "i_ini": 133,
+      "i_fim": 134,
+      "so_muletas": false
+    },
+    {
+      "fonte": "praq0969",
+      "inicio": 181.945,
+      "fim": 183.086,
+      "texto": "Denis Hassabi.",
+      "i_ini": 145,
+      "i_fim": 146,
+      "so_muletas": false
+    },
+    {
+      "fonte": "praq0969",
+      "inicio": 184.215,
+      "fim": 184.736,
+      "texto": "Nassib.",
+      "i_ini": 147,
+      "i_fim": 147,
+      "so_muletas": false
+    },
+    {
+      "fonte": "praq0969",
+      "inicio": 215.035,
+      "fim": 219.415,
+      "texto": "não precisa dizer respiração tá bom não precisa dizer a respiração",
+      "i_ini": 184,
+      "i_fim": 194,
+      "so_muletas": false
+    },
+    {
+      "fonte": "praq0969",
+      "inicio": 237.3,
+      "fim": 238.7,
+      "texto": "aos 13 anos.",
+      "i_ini": 216,
+      "i_fim": 218,
+      "so_muletas": false
+    },
+    {
+      "fonte": "praq0969",
+      "inicio": 239.28,
+      "fim": 239.5,
+      "texto": "daí.",
+      "i_ini": 220,
+      "i_fim": 220,
+      "so_muletas": false
+    },
+    {
+      "fonte": "praq0969",
+      "inicio": 296.755,
+      "fim": 296.88,
+      "texto": "E",
+      "i_ini": 280,
+      "i_fim": 280,
+      "so_muletas": true
+    },
+    {
+      "fonte": "praq0969",
+      "inicio": 327.68,
+      "fim": 330.071,
+      "texto": "uma empresa chamada DeepMine.",
+      "i_ini": 318,
+      "i_fim": 321,
+      "so_muletas": false
+    },
+    {
+      "fonte": "praq0969",
+      "inicio": 346.365,
+      "fim": 348.5,
+      "texto": "fundou uma empresa, a DeepMind.",
+      "i_ini": 341,
+      "i_fim": 345,
+      "so_muletas": false
+    },
+    {
+      "fonte": "praq0969",
+      "inicio": 367.691,
+      "fim": 367.82,
+      "texto": "E",
+      "i_ini": 359,
+      "i_fim": 359,
+      "so_muletas": true
+    },
+    {
+      "fonte": "praq0970",
+      "inicio": 8.675,
+      "fim": 8.76,
+      "texto": "E",
+      "i_ini": 387,
+      "i_fim": 387,
+      "so_muletas": true
+    },
+    {
+      "fonte": "praq0970",
+      "inicio": 32.905,
+      "fim": 33.86,
+      "texto": "Em 2016,",
+      "i_ini": 415,
+      "i_fim": 416,
+      "so_muletas": false
+    },
+    {
+      "fonte": "praq0970",
+      "inicio": 34.935,
+      "fim": 39.74,
+      "texto": "a EA e deles venceram o maior jogo da competição do gol.",
+      "i_ini": 417,
+      "i_fim": 428,
+      "so_muletas": false
+    },
+    {
+      "fonte": "praq0970",
+      "inicio": 50.381,
+      "fim": 51.18,
+      "texto": "Em 2016,",
+      "i_ini": 504,
+      "i_fim": 505,
+      "so_muletas": false
+    },
+    {
+      "fonte": "praq0970",
+      "inicio": 53.125,
+      "fim": 56.36,
+      "texto": "a EA e deles venceram o maior nome do gol.",
+      "i_ini": 506,
+      "i_fim": 515,
+      "so_muletas": false
+    },
+    {
+      "fonte": "praq0970",
+      "inicio": 65.071,
+      "fim": 66.24,
+      "texto": "vamos repetir antes",
+      "i_ini": 526,
+      "i_fim": 528,
+      "so_muletas": false
+    },
+    {
+      "fonte": "praq0970",
+      "inicio": 72.311,
+      "fim": 75.62,
+      "texto": "não vamos repetir em",
+      "i_ini": 535,
+      "i_fim": 538,
+      "so_muletas": false
+    },
+    {
+      "fonte": "praq0970",
+      "inicio": 80.56,
+      "fim": 80.76,
+      "texto": "gol",
+      "i_ini": 549,
+      "i_fim": 549,
+      "so_muletas": false
+    },
+    {
+      "fonte": "praq0971",
+      "inicio": 8.231,
+      "fim": 8.36,
+      "texto": "Em",
+      "i_ini": 564,
+      "i_fim": 564,
+      "so_muletas": false
+    },
+    {
+      "fonte": "praq0971",
+      "inicio": 14.48,
+      "fim": 14.72,
+      "texto": "gol.",
+      "i_ini": 574,
+      "i_fim": 574,
+      "so_muletas": false
+    },
+    {
+      "fonte": "praq0971",
+      "inicio": 26.155,
+      "fim": 26.62,
+      "texto": "Continua.",
+      "i_ini": 581,
+      "i_fim": 581,
+      "so_muletas": false
+    },
+    {
+      "fonte": "praq0971",
+      "inicio": 63.16,
+      "fim": 63.5,
+      "texto": "Alpha",
+      "i_ini": 620,
+      "i_fim": 620,
+      "so_muletas": false
+    },
+    {
+      "fonte": "praq0972",
+      "inicio": 0.0,
+      "fim": 1.02,
+      "texto": "O maior feito veio depois.",
+      "i_ini": 644,
+      "i_fim": 648,
+      "so_muletas": false
+    },
+    {
+      "fonte": "praq0972",
+      "inicio": 8.24,
+      "fim": 10.48,
+      "texto": "Calma, eu acho que você não está me escutando, você",
+      "i_ini": 660,
+      "i_fim": 669,
+      "so_muletas": false
+    },
+    {
+      "fonte": "praq0972",
+      "inicio": 10.62,
+      "fim": 20.086,
+      "texto": "passando direto, mesmo que eu arrasse, você está passando direto. Vamos repetir, E... mas o maior feito do AlphaFold. isso? Ahn.",
+      "i_ini": 671,
+      "i_fim": 691,
+      "so_muletas": false
+    },
+    {
+      "fonte": "praq0972",
+      "inicio": 69.46,
+      "fim": 69.511,
+      "texto": "previa...",
+      "i_ini": 737,
+      "i_fim": 737,
+      "so_muletas": false
+    },
+    {
+      "fonte": "praq0972",
+      "inicio": 79.365,
+      "fim": 82.06,
+      "texto": "Você tem que me escutar. Quando eu começo a falar...",
+      "i_ini": 749,
+      "i_fim": 758,
+      "so_muletas": false
+    },
+    {
+      "fonte": "praq0973",
+      "inicio": 0.0,
+      "fim": 4.02,
+      "texto": "De uma linha, você vai ter que entender que aquela linha eu quero repetir. Então,",
+      "i_ini": 759,
+      "i_fim": 773,
+      "so_muletas": false
+    },
+    {
+      "fonte": "praq0973",
+      "inicio": 4.54,
+      "fim": 6.0,
+      "texto": "naquela mesma linha que eu estou falando.",
+      "i_ini": 775,
+      "i_fim": 781,
+      "so_muletas": false
+    },
+    {
+      "fonte": "praq0973",
+      "inicio": 36.051,
+      "fim": 37.62,
+      "texto": "mais um maior",
+      "i_ini": 807,
+      "i_fim": 809,
+      "so_muletas": false
+    },
+    {
+      "fonte": "praq0974",
+      "inicio": 0.375,
+      "fim": 2.38,
+      "texto": "Ok, vamos começar no linha A,",
+      "i_ini": 810,
+      "i_fim": 815,
+      "so_muletas": false
+    },
+    {
+      "fonte": "praq0975",
+      "inicio": 3.245,
+      "fim": 5.3,
+      "texto": "Um problema que traba...",
+      "i_ini": 921,
+      "i_fim": 924,
+      "so_muletas": false
+    },
+    {
+      "fonte": "praq0975",
+      "inicio": 40.72,
+      "fim": 42.291,
+      "texto": "história do AI.",
+      "i_ini": 974,
+      "i_fim": 976,
+      "so_muletas": false
+    },
+    {
+      "fonte": "praq0975",
+      "inicio": 60.72,
+      "fim": 61.2,
+      "texto": "AI.",
+      "i_ini": 1004,
+      "i_fim": 1004,
+      "so_muletas": true
+    },
+    {
+      "fonte": "praq0975",
+      "inicio": 67.811,
+      "fim": 70.56,
+      "texto": "Me segue que eu trago mais histórias assim.",
+      "i_ini": 1013,
+      "i_fim": 1020,
+      "so_muletas": false
+    },
+    {
+      "fonte": "praq0976",
+      "inicio": 34.845,
+      "fim": 34.92,
+      "texto": "A",
+      "i_ini": 1077,
+      "i_fim": 1077,
+      "so_muletas": true
+    },
+    {
+      "fonte": "praq0976",
+      "inicio": 38.3,
+      "fim": 39.48,
+      "texto": "a DeepMind.",
+      "i_ini": 1086,
+      "i_fim": 1087,
+      "so_muletas": false
+    },
+    {
+      "fonte": "praq0976",
+      "inicio": 58.24,
+      "fim": 59.96,
+      "texto": "história da AI.",
+      "i_ini": 1109,
+      "i_fim": 1111,
+      "so_muletas": false
+    }
+  ],
+  "separadores": [
+    {
+      "fonte": "praq0969",
+      "inicio": 136.035,
+      "fim": 137.5,
+      "texto": "Repete, repete. Repete"
+    },
+    {
+      "fonte": "praq0969",
+      "inicio": 236.755,
+      "fim": 237.3,
+      "texto": "Repete"
+    },
+    {
+      "fonte": "praq0969",
+      "inicio": 238.88,
+      "fim": 239.28,
+      "texto": "Repete"
+    },
+    {
+      "fonte": "praq0971",
+      "inicio": 66.975,
+      "fim": 67.56,
+      "texto": "De novo."
+    },
+    {
+      "fonte": "praq0973",
+      "inicio": 4.18,
+      "fim": 4.54,
+      "texto": "repete"
+    }
+  ],
+  "fala_ia": [
+    {
+      "fonte": "praq0969",
+      "inicio": 3.995,
+      "fim": 5.325,
+      "texto": "E aí E aí",
+      "i_ini": 0,
+      "i_fim": 3
+    },
+    {
+      "fonte": "praq0969",
+      "inicio": 13.725,
+      "fim": 15.026,
+      "texto": "E aí",
+      "i_ini": 4,
+      "i_fim": 5
+    },
+    {
+      "fonte": "praq0969",
+      "inicio": 28.285,
+      "fim": 30.806,
+      "texto": "E aí E aí",
+      "i_ini": 6,
+      "i_fim": 9
+    },
+    {
+      "fonte": "praq0969",
+      "inicio": 71.445,
+      "fim": 71.765,
+      "texto": "E aí",
+      "i_ini": 12,
+      "i_fim": 13
+    },
+    {
+      "fonte": "praq0969",
+      "inicio": 76.035,
+      "fim": 80.04,
+      "texto": "Ótimo. Me dá o sinal de começar e eu já entro com a primeira linha.",
+      "i_ini": 20,
+      "i_fim": 34
+    },
+    {
+      "fonte": "praq0969",
+      "inicio": 89.395,
+      "fim": 90.716,
+      "texto": "E aí",
+      "i_ini": 35,
+      "i_fim": 36
+    },
+    {
+      "fonte": "praq0969",
+      "inicio": 113.531,
+      "fim": 114.766,
+      "texto": "aos quatro",
+      "i_ini": 48,
+      "i_fim": 49
+    },
+    {
+      "fonte": "praq0969",
+      "inicio": 120.456,
+      "fim": 120.776,
+      "texto": "vou, eu vou, eu vou.",
+      "i_ini": 63,
+      "i_fim": 67
+    },
+    {
+      "fonte": "praq0969",
+      "inicio": 129.085,
+      "fim": 133.395,
+      "texto": "Bem, mis Hassabis. Respiro curto. Nascido aqui em Londres.",
+      "i_ini": 74,
+      "i_fim": 82
+    },
+    {
+      "fonte": "praq0969",
+      "inicio": 140.785,
+      "fim": 143.3,
+      "texto": "Demis Hassabis. Respiro curto.",
+      "i_ini": 89,
+      "i_fim": 92
+    },
+    {
+      "fonte": "praq0969",
+      "inicio": 154.166,
+      "fim": 156.516,
+      "texto": "curto. E ganhão, não deu conha.",
+      "i_ini": 107,
+      "i_fim": 112
+    },
+    {
+      "fonte": "praq0969",
+      "inicio": 164.365,
+      "fim": 170.035,
+      "texto": "Próximo. Denis Hassabis. Respiro curto. Nascido aqui em Londres.",
+      "i_ini": 124,
+      "i_fim": 132
+    },
+    {
+      "fonte": "praq0969",
+      "inicio": 174.075,
+      "fim": 179.755,
+      "texto": "De novo. Denis Hassabis. Respiro curto. Nascido aqui em Londres.",
+      "i_ini": 135,
+      "i_fim": 144
+    },
+    {
+      "fonte": "praq0969",
+      "inicio": 212.346,
+      "fim": 212.846,
+      "texto": "ver videogame.",
+      "i_ini": 182,
+      "i_fim": 183
+    },
+    {
+      "fonte": "praq0969",
+      "inicio": 220.715,
+      "fim": 227.84,
+      "texto": "Entendi. Sem falar das respirações, eu vou direto para o conteúdo da linha. Vamos continuar, enquanto o que você quiser.",
+      "i_ini": 195,
+      "i_fim": 214
+    },
+    {
+      "fonte": "praq0969",
+      "inicio": 246.326,
+      "fim": 246.666,
+      "texto": "Obrigado.",
+      "i_ini": 232,
+      "i_fim": 232
+    },
+    {
+      "fonte": "praq0969",
+      "inicio": 249.146,
+      "fim": 249.505,
+      "texto": "aí",
+      "i_ini": 233,
+      "i_fim": 233
+    },
+    {
+      "fonte": "praq0969",
+      "inicio": 253.195,
+      "fim": 253.666,
+      "texto": "aí",
+      "i_ini": 234,
+      "i_fim": 234
+    },
+    {
+      "fonte": "praq0969",
+      "inicio": 269.365,
+      "fim": 273.44,
+      "texto": "Aos 17 anos já era mestre de chaves. Aos 17,",
+      "i_ini": 247,
+      "i_fim": 256
+    },
+    {
+      "fonte": "praq0969",
+      "inicio": 274.485,
+      "fim": 275.265,
+      "texto": "criava videogame.",
+      "i_ini": 257,
+      "i_fim": 258
+    },
+    {
+      "fonte": "praq0969",
+      "inicio": 321.455,
+      "fim": 322.035,
+      "texto": "Adiv, Mike.",
+      "i_ini": 309,
+      "i_fim": 310
+    },
+    {
+      "fonte": "praq0970",
+      "inicio": 16.775,
+      "fim": 16.915,
+      "texto": "Próximo.",
+      "i_ini": 402,
+      "i_fim": 402
+    },
+    {
+      "fonte": "praq0970",
+      "inicio": 22.56,
+      "fim": 22.695,
+      "texto": "gol.",
+      "i_ini": 414,
+      "i_fim": 414
+    },
+    {
+      "fonte": "praq0970",
+      "inicio": 41.986,
+      "fim": 47.885,
+      "texto": "E, inubar, E, ní, ní, ní, ní, ní, ní, ní, ní, ní, ní, ní, ní, ní, ní, ní, ní, ní, ní, ní, ní, ní, ní, ní, ní, ní, ní, ní, ní, ní, ní, ní, ní, ní, ní, ní, ní, ní, ní, ní, ní, ní, ní, ní, ní, ní, ní, ní, ní, ní, ní, ní, ní, ní, ní, ní, ní, ní, ní, ní, ní, ní, ní, ní, ní, ní, ní, ní, ní, ní, ní, ní, ní",
+      "i_ini": 429,
+      "i_fim": 503
+    },
+    {
+      "fonte": "praq0971",
+      "inicio": 0.725,
+      "fim": 1.1,
+      "texto": "De novo,",
+      "i_ini": 550,
+      "i_fim": 551
+    },
+    {
+      "fonte": "praq0971",
+      "inicio": 6.36,
+      "fim": 6.485,
+      "texto": "gol.",
+      "i_ini": 563,
+      "i_fim": 563
+    },
+    {
+      "fonte": "praq0971",
+      "inicio": 16.985,
+      "fim": 19.14,
+      "texto": "Próximo. Um jogo com o Mai.",
+      "i_ini": 575,
+      "i_fim": 580
+    },
+    {
+      "fonte": "praq0971",
+      "inicio": 30.515,
+      "fim": 31.0,
+      "texto": "De novo,",
+      "i_ini": 582,
+      "i_fim": 583
+    },
+    {
+      "fonte": "praq0971",
+      "inicio": 37.835,
+      "fim": 38.62,
+      "texto": "Ausa de um segundo.",
+      "i_ini": 595,
+      "i_fim": 598
+    },
+    {
+      "fonte": "praq0971",
+      "inicio": 42.635,
+      "fim": 43.335,
+      "texto": "E aí",
+      "i_ini": 599,
+      "i_fim": 600
+    },
+    {
+      "fonte": "praq0971",
+      "inicio": 50.205,
+      "fim": 50.981,
+      "texto": "E aí",
+      "i_ini": 601,
+      "i_fim": 602
+    },
+    {
+      "fonte": "praq0971",
+      "inicio": 59.225,
+      "fim": 59.385,
+      "texto": "Próximo.",
+      "i_ini": 612,
+      "i_fim": 612
+    },
+    {
+      "fonte": "praq0972",
+      "inicio": 2.951,
+      "fim": 3.011,
+      "texto": "Próximo.",
+      "i_ini": 649,
+      "i_fim": 649
+    },
+    {
+      "fonte": "praq0972",
+      "inicio": 7.206,
+      "fim": 8.24,
+      "texto": "Fíjants,",
+      "i_ini": 659,
+      "i_fim": 659
+    },
+    {
+      "fonte": "praq0972",
+      "inicio": 10.48,
+      "fim": 10.62,
+      "texto": "está",
+      "i_ini": 670,
+      "i_fim": 670
+    },
+    {
+      "fonte": "praq0972",
+      "inicio": 38.455,
+      "fim": 39.196,
+      "texto": "hum, hum, hum.",
+      "i_ini": 707,
+      "i_fim": 709
+    },
+    {
+      "fonte": "praq0972",
+      "inicio": 73.805,
+      "fim": 74.195,
+      "texto": "De novo,",
+      "i_ini": 738,
+      "i_fim": 739
+    },
+    {
+      "fonte": "praq0973",
+      "inicio": 7.525,
+      "fim": 16.58,
+      "texto": "Entendi. A partir de agora, se você começar uma linha, eu fico atento àquela linha e repetimos desde o início dela. Tá, corre? Vamos nessa.",
+      "i_ini": 782,
+      "i_fim": 806
+    },
+    {
+      "fonte": "praq0974",
+      "inicio": 7.125,
+      "fim": 12.795,
+      "texto": "Combinado. Vamos começar dessa linha. Assim que você sinalizar, eu refiro certinho.",
+      "i_ini": 822,
+      "i_fim": 833
+    },
+    {
+      "fonte": "praq0974",
+      "inicio": 22.846,
+      "fim": 23.215,
+      "texto": "aí",
+      "i_ini": 834,
+      "i_fim": 834
+    },
+    {
+      "fonte": "praq0974",
+      "inicio": 25.896,
+      "fim": 25.936,
+      "texto": "aí",
+      "i_ini": 835,
+      "i_fim": 835
+    },
+    {
+      "fonte": "praq0974",
+      "inicio": 37.405,
+      "fim": 37.876,
+      "texto": "E, IA, good to have a world.",
+      "i_ini": 852,
+      "i_fim": 858
+    },
+    {
+      "fonte": "praq0974",
+      "inicio": 57.575,
+      "fim": 57.735,
+      "texto": "Próximo.",
+      "i_ini": 891,
+      "i_fim": 891
+    },
+    {
+      "fonte": "praq0974",
+      "inicio": 73.775,
+      "fim": 74.416,
+      "texto": "brofold.",
+      "i_ini": 920,
+      "i_fim": 920
+    },
+    {
+      "fonte": "praq0975",
+      "inicio": 6.216,
+      "fim": 6.556,
+      "texto": "E aí",
+      "i_ini": 925,
+      "i_fim": 926
+    },
+    {
+      "fonte": "praq0975",
+      "inicio": 13.536,
+      "fim": 13.916,
+      "texto": "aí",
+      "i_ini": 941,
+      "i_fim": 941
+    },
+    {
+      "fonte": "praq0975",
+      "inicio": 63.885,
+      "fim": 66.046,
+      "texto": "Me segue que eu trago mais histórias assim.",
+      "i_ini": 1005,
+      "i_fim": 1012
+    },
+    {
+      "fonte": "praq0975",
+      "inicio": 72.72,
+      "fim": 75.36,
+      "texto": "gravamos os books alternativos. Primeiro,",
+      "i_ini": 1021,
+      "i_fim": 1025
+    },
+    {
+      "fonte": "praq0975",
+      "inicio": 78.64,
+      "fim": 78.735,
+      "texto": "nó.",
+      "i_ini": 1034,
+      "i_fim": 1034
+    },
+    {
+      "fonte": "praq0976",
+      "inicio": 17.516,
+      "fim": 18.236,
+      "texto": "vindo lá.",
+      "i_ini": 1055,
+      "i_fim": 1056
+    },
+    {
+      "fonte": "praq0976",
+      "inicio": 31.616,
+      "fim": 32.176,
+      "texto": "modô, Aya.",
+      "i_ini": 1075,
+      "i_fim": 1076
+    },
+    {
+      "fonte": "praq0976",
+      "inicio": 49.9,
+      "fim": 49.98,
+      "texto": "AI.",
+      "i_ini": 1099,
+      "i_fim": 1099
+    },
+    {
+      "fonte": "praq0976",
+      "inicio": 61.715,
+      "fim": 66.02,
+      "texto": "Fim do roteiro. Se precisar de mais alguma repetição ou ajuste, é só falar.",
+      "i_ini": 1112,
+      "i_fim": 1125
+    },
+    {
+      "fonte": "praq0976",
+      "inicio": 75.965,
+      "fim": 76.38,
+      "texto": "E aí",
+      "i_ini": 1126,
+      "i_fim": 1127
+    },
+    {
+      "fonte": "praq0977",
+      "inicio": 0.475,
+      "fim": 1.916,
+      "texto": "E aí",
+      "i_ini": 1128,
+      "i_fim": 1129
+    },
+    {
+      "fonte": "praq0977",
+      "inicio": 3.46,
+      "fim": 5.326,
+      "texto": "E aí aí",
+      "i_ini": 1130,
+      "i_fim": 1132
+    }
+  ],
+  "locutores": {
+    "metodo": "local",
+    "n_locutores": 2,
+    "confianca_papel": 0.778,
+    "sobreposicoes": 2,
+    "segundos_ia": 200.2
+  },
+  "resumo": {
+    "ok": 3,
+    "revisar": 0,
+    "parafrase": 9,
+    "faltando": 1,
+    "nao_mapeado": 38,
+    "leituras_ia": 33,
+    "fala_ia": 56,
+    "palavras_locutor_incerto": 5
+  },
+  "parametros": {
+    "gap_take": 1.5,
+    "pausa_interna": 0.7,
+    "sim_ok": 0.8,
+    "sim_parafrase": 0.45,
+    "pesos": {
+      "sim": 0.55,
+      "cobertura": 0.15,
+      "fluencia": 0.1,
+      "recencia": 0.1,
+      "confianca": 0.1
+    }
+  }
+}

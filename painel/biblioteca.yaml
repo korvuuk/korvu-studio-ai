@@ -1,0 +1,158 @@
+# Biblioteca — o acervo de estilos (decisão do Carlos de 24/10, docs/decisoes.md §5; tela: painel/design/telas/biblioteca.md).
+# Fonte do Carlos, como o equipe.yaml: o painel só LÊ este arquivo. PROPOSTA do engenheiro-backend em 24/10, a aprovar
+# pela coordenação e pelo Carlos.
+#
+# Os looks de cor vêm de 00-marca/cor/luts/*.json + 00-marca/cor/cor.md; aqui o nome, a frase e o rosto medido de
+# cada cartão (seção looks, no fim). As animações vêm de videos/*/animacoes/*/brief.md. O formato completo: docs/contratos.md §12.
+#
+# Leitura estrita (painel/sync/sincronizar.py): chave desconhecida, campo obrigatório faltando ou tipo errado = a passagem
+# para com uma linha ✗ e nada é gravado. Arquivo ausente = capas, legendas, fontes, ferramentas e modelos vazios, com
+# um aviso ⚠. Crescer = só arquivo: um item novo aqui vira uma linha nova no banco, sem código nem migração.
+
+# Estilos de capa (nome e descrição à letra do canvas). Cada exemplo é o slug de um pacote; a imagem é <pasta>/<slug>/capa/capa.png, procurada em
+# 07-publicados/, depois 06-publicar/, depois 05-render-pronto/ (o pacote anda entre as três). SÓ capas com o Carlos,
+# nunca com a foto de outra pessoa (CLAUDE.md regra 3): cada exemplo abaixo foi aberto e conferido em 24/10.
+capas:
+  - id: serifa-e-rabisco
+    nome: Serifa + rabisco
+    descricao: A palavra-chave em Playfair itálico, com um rabisco por baixo.
+    ficha: 00-marca/referencias/capas/estilo-editorial-escuro.md
+    em_uso: false
+    exemplos:
+      - 2026-09-17-demis-hassabis
+  - id: grotesca-e-sublinhado
+    nome: Grotesca + sublinhado
+    descricao: Título grotesco, a última palavra sublinhada (cinza ou laranja). Uma capa por variante.
+    ficha: null
+    em_uso: true
+    exemplos:
+      - 2026-10-23-livro-chatgpt
+      - 2026-10-23-livro-chatgpt-l01c
+
+# Estilos de legenda. A amostra é desenhada pela tela a partir da ficha (não é quadro de vídeo).
+legendas:
+  - id: texto-selecionado
+    nome: Texto Selecionado
+    descricao: As palavras entram no ritmo da fala, com um realce de seleção, a frase de impacto em grotesca pesada e o rabisco na palavra-chave.
+    ficha: 00-marca/referencias/legendas/estilo-selecao.md
+    em_uso: true
+
+# Fontes da marca: as que o remotion/src/brand.ts carrega (remotion = o pacote @remotion/google-fonts/<remotion>, que o
+# sincronizador confere no brand.ts), com os mesmos pesos e estilo (fontes.confere_brand_ts). Textos de uso à letra do
+# canvas (a Inter Tight não está nele). reserva: true = só entra na pilha como alternativa (a tela mostra as outras).
+fontes:
+  - familia: Geist
+    remotion: Geist
+    estilo: normal
+    pesos: [400, 500, 600, 700, 800, 900]
+    uso: Títulos e legendas dos Reels; o painel.
+    reserva: false
+  - familia: Bricolage Grotesque
+    remotion: BricolageGrotesque
+    estilo: normal
+    pesos: [800]
+    uso: Cartão do CTA e o PDF da palavra.
+    reserva: false
+  - familia: Inter
+    remotion: Inter
+    estilo: normal
+    pesos: [500, 600]
+    uso: Texto editorial dos cartões.
+    reserva: false
+  - familia: Playfair Display
+    remotion: PlayfairDisplay
+    estilo: italico
+    pesos: [400, 500]
+    uso: A palavra em itálico da capa.
+    reserva: false
+  - familia: Inter Tight
+    remotion: InterTight
+    estilo: normal
+    pesos: [500, 800]
+    uso: Reserva da Geist nas legendas e títulos.
+    reserva: true
+
+# A stack (Sistema): uma lista fixa, na ordem da tela. tipo = o que a peça é; desc = o que ela faz aqui (decisão de
+# 24/10: para quem chegar pelo GitHub). Textos à letra do canvas (painel/referencias/claude-design/biblioteca-2026-10-24/
+# Biblioteca.dc.html, array STACK); ainda passam pelo Carlos e pela designer — os campos ficam. versao (opcional) = de onde ler a versão em uso, nunca à mão:
+#   {arquivo: <x>.json, pacote: <nome>}  → dependencies/devDependencies do package.json
+#   {arquivo: <x>.toml, chave: <a.b>}    → a chave (pontos = seções)
+#   {arquivo: <outro>}                   → a 1.ª linha não vazia
+ferramentas:
+  - nome: Claude Code
+    tipo: Agente de IA (terminal)
+    desc: "Onde a equipe trabalha: o Atlas (a direção) e os 25 agentes rodam aqui, leem e escrevem os arquivos do projeto e chamam os scripts."
+  - nome: Python 3.12 · uv
+    tipo: Linguagem
+    desc: "Os scripts do pipeline: cortar pelo roteiro, medir o áudio, montar o pacote, publicar, ler métricas e alimentar este painel."
+    versao: {arquivo: .python-version}
+  - nome: ffmpeg
+    tipo: Programa de linha de comando
+    desc: "Corta, junta e converte vídeo e áudio, e aplica os looks de cor (LUTs)."
+  - nome: Remotion 4
+    tipo: Biblioteca de vídeo (React)
+    desc: "Monta o vídeo final por código: legendas, títulos, animações, zooms e o cartão do CTA."
+    versao: {arquivo: remotion/package.json, pacote: remotion}
+  - nome: ElevenLabs
+    tipo: API
+    desc: "Transcreve a fala com o tempo de cada palavra (Scribe) e gera a música de fundo original (Music)."
+  - nome: Meta Graph API
+    tipo: API
+    desc: "Publica os Reels no Instagram e no Facebook, lê as métricas e responde quem comenta a palavra-chave."
+  - nome: Cloudflare R2
+    tipo: Armazenamento na nuvem
+    desc: "Guarda o vídeo e a capa que a Meta baixa para publicar, e o PDF da palavra-chave, com o link que vai no direct."
+  - nome: launchd (macOS)
+    tipo: Agendador do sistema
+    desc: "Roda sozinho: a publicação na hora marcada, as métricas às 09:30, os comentários e a sincronização deste painel."
+  - nome: Next.js 15 · TypeScript
+    tipo: Framework web (front-end)
+    desc: "Este painel: as telas que você está vendo, rodando só neste Mac."
+    versao: {arquivo: painel/web/package.json, pacote: next}
+  - nome: Supabase · Postgres
+    tipo: Banco de dados
+    desc: "Guarda os números que o painel mostra, copiados dos arquivos do projeto a cada 15 min."
+    versao: {arquivo: painel/supabase/config.toml, chave: db.major_version}
+  - nome: Claude Design
+    tipo: Ferramenta de design
+    desc: "Onde as telas do painel e as animações dos vídeos são desenhadas antes de virar código."
+
+# A frase de cada modelo de IA no Sistema (o % dos 30 dias vem do banco, view sistema_modelos). modelo = o id do
+# modelo nos registros do Claude Code (o mesmo da tabela de preços). Textos à letra do canvas (array modelos).
+modelos:
+  - modelo: claude-opus-5-5      # Opus 5.5
+    desc: "O padrão do dia a dia. A maior parte do trabalho; desde 24 out, o padrão de todos os agentes, portões incluídos."
+  - modelo: claude-sonnet-5-5    # Sonnet 5.5
+    desc: "Mais rápido e mais barato. Era o modelo de 11 agentes até 24 out."
+  - modelo: claude-fable-5-1     # Fable 5.1
+    desc: "O mais capaz da Anthropic, e o mais caro. Usado pelo Atlas (a direção) em parte das sessões."
+
+# Os cartões de "looks de cor." (os looks em si vêm de 00-marca/cor/luts/ e o estado do cor.md): o nome e a frase de
+# cada cartão, à letra da maquete aprovada (painel/design/telas/biblioteca.html), e o rosto do Carlos medido em IRE (o
+# critério do cor.md: ≥ 35 IRE no arquivo final). id = vlog, rec709 ou vN. O nome daqui vence o "nome" do .json do look
+# (que fica na ficha). Rosto só em vN; com rosto_ire, medido_em (a data da medição, não a do look) e fonte (arquivo:linhas
+# de onde veio o número) são obrigatórios. Cartão sem item = sem nome próprio, frase nem medida (NULL, sem aviso).
+looks:
+  - id: vlog
+    nome: Original da câmera
+    desc: "Como a S5IIX grava: plano e acinzentado."
+  - id: rec709
+    nome: Só a conversão
+    desc: "V-Log para Rec.709, ainda sem look."
+  - id: v4
+    nome: Look v4
+    desc: "O look “Tenet”, frio e contido; nunca aprovado."
+  - id: v5
+    nome: Look v5 · WAY
+    desc: "O escolhido: “a cor da pele ficou muito boa”."
+    rosto_ire: 23.2
+    medido_em: 2026-09-18
+    amostra: chatgpt02.MOV (regravação, exposição corrigida)
+    fonte: 00-marca/cor/cor.md:7,41
+  - id: v11
+    nome: Look v11
+    desc: "v5 com a pele recuperada (+1 stop). Aprovado como alternativa."
+    rosto_ire: 40.9
+    medido_em: 2026-09-18
+    amostra: chatgpt02.MOV (regravação, exposição corrigida)
+    fonte: 00-marca/cor/cor.md:7,41

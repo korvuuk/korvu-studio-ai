@@ -1,0 +1,16 @@
+# capturar.sh · 2026-10-24T06:49:31.648Z
+# alvo	largura pedida	innerWidth	scrollWidth	altura	HTTP	png	passa da borda
+/producao	1440	1440	1440	1390	200	/Users/teste/Documents/CONTENT AI/painel/portoes/capturas-1f444d78dc16/producao-1440.png	
+/producao	375	375	375	2248	200	/Users/teste/Documents/CONTENT AI/painel/portoes/capturas-1f444d78dc16/producao-375.png	
+/calendario	1440	1440	1440	1628	200	/Users/teste/Documents/CONTENT AI/painel/portoes/capturas-1f444d78dc16/calendario-1440.png	
+/calendario	375	375	375	2558	200	/Users/teste/Documents/CONTENT AI/painel/portoes/capturas-1f444d78dc16/calendario-375.png	
+/biblioteca	1440	1440	1440	1594	200	/Users/teste/Documents/CONTENT AI/painel/portoes/capturas-1f444d78dc16/biblioteca-1440.png	
+/biblioteca	375	375	375	4010	200	/Users/teste/Documents/CONTENT AI/painel/portoes/capturas-1f444d78dc16/biblioteca-375.png	
+/	1440	1440	1440	1731	200	/Users/teste/Documents/CONTENT AI/painel/portoes/capturas-1f444d78dc16/inicio-1440.png	
+/	375	375	375	3924	200	/Users/teste/Documents/CONTENT AI/painel/portoes/capturas-1f444d78dc16/inicio-375.png	
+/equipe	1440	1440	1440	1773	200	/Users/teste/Documents/CONTENT AI/painel/portoes/capturas-1f444d78dc16/equipe-1440.png	
+/equipe	375	375	375	4173	200	/Users/teste/Documents/CONTENT AI/painel/portoes/capturas-1f444d78dc16/equipe-375.png	
+/desempenho	1440	1440	1440	1681	200	/Users/teste/Documents/CONTENT AI/painel/portoes/capturas-1f444d78dc16/desempenho-1440.png	
+/desempenho	375	375	375	3078	200	/Users/teste/Documents/CONTENT AI/painel/portoes/capturas-1f444d78dc16/desempenho-375.png	
+/tokens	1440	1440	1440	2181	200	/Users/teste/Documents/CONTENT AI/painel/portoes/capturas-1f444d78dc16/tokens-1440.png	
+/tokens	375	375	375	3779	200	/Users/teste/Documents/CONTENT AI/painel/portoes/capturas-1f444d78dc16/tokens-375.png	

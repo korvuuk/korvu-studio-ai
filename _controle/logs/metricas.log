@@ -1,0 +1,34 @@
+2026-10-14 09:30:05 INFO    nada a ler: nenhum Reel com ≥ 5 dias sem leitura (use --slug X --forcar para ler já)
+2026-10-15 09:30:01 INFO    nada a ler: nenhum Reel com ≥ 5 dias sem leitura (use --slug X --forcar para ler já)
+2026-10-16 09:30:02 INFO    nada a ler: nenhum Reel com ≥ 5 dias sem leitura (use --slug X --forcar para ler já)
+2026-10-17 09:30:04 INFO    nada a ler: nenhum Reel com ≥ 5 dias sem leitura (use --slug X --forcar para ler já)
+2026-10-18 09:30:02 INFO    nada a ler: nenhum Reel com ≥ 5 dias sem leitura (use --slug X --forcar para ler já)
+2026-10-19 09:30:03 INFO    a Meta recusou o pedido conjunto (#100: (#100) The Media Insights API does not support the follows, profile_visits metric for this media product type.) — peço uma a uma
+2026-10-19 09:30:07 INFO    a Meta recusou o pedido conjunto (#100: (#100) The value must be a valid insights metric) — peço uma a uma
+2026-10-19 09:30:10 INFO    2026-09-17-demis-hassabis instagram: métricas não suportadas: follows, profile_visits
+2026-10-19 09:30:10 INFO    2026-09-17-demis-hassabis facebook: métricas não suportadas: post_impressions_unique
+2026-10-19 09:30:10 INFO    2026-09-17-demis-hassabis (5.68 dias): views=444 alcance=332 tempo médio=11.9 s (20.6%) curtidas=15 coment.=2 salv.=1 compart.=1
+2026-10-19 09:30:10 INFO    leitura: 1 Reel(s) — 2026-09-17-demis-hassabis; 0 erro(s)
+2026-10-20 09:30:06 INFO    nada a ler: nenhum Reel com ≥ 5 dias sem leitura (use --slug X --forcar para ler já)
+2026-10-21 09:30:06 INFO    a Meta recusou o pedido conjunto (#100: (#100) The Media Insights API does not support the follows, profile_visits metric for this media product type.) — peço uma a uma
+2026-10-21 09:30:11 INFO    a Meta recusou o pedido conjunto (#100: (#100) The value must be a valid insights metric) — peço uma a uma
+2026-10-21 09:30:14 INFO    2026-10-20-geoffrey-hinton instagram: métricas não suportadas: follows, profile_visits
+2026-10-21 09:30:14 INFO    2026-10-20-geoffrey-hinton facebook: métricas não suportadas: post_impressions_unique
+2026-10-21 09:30:14 INFO    2026-10-20-geoffrey-hinton (5.91 dias): views=11 alcance=11 tempo médio=43.96 s (27.7%) curtidas=1 coment.=0 salv.=0 compart.=0
+2026-10-21 09:30:14 INFO    leitura: 1 Reel(s) — 2026-10-20-geoffrey-hinton; 0 erro(s)
+2026-10-22 09:30:05 INFO    nada a ler: nenhum Reel com ≥ 5 dias sem leitura (use --slug X --forcar para ler já)
+2026-10-23 09:30:01 INFO    nada a ler: nenhum Reel com ≥ 5 dias sem leitura (use --slug X --forcar para ler já)
+2026-10-24 09:30:05 INFO    a Meta recusou o pedido conjunto (#100: (#100) The Media Insights API does not support the follows, profile_visits metric for this media product type.) — peço uma a uma
+2026-10-24 09:30:09 INFO    a Meta recusou o pedido conjunto (#100: (#100) The value must be a valid insights metric) — peço uma a uma
+2026-10-24 09:30:13 INFO    2026-10-20-fei-fei-li instagram: métricas não suportadas: follows, profile_visits
+2026-10-24 09:30:13 INFO    2026-10-20-fei-fei-li facebook: métricas não suportadas: post_impressions_unique
+2026-10-24 09:30:13 INFO    2026-10-20-fei-fei-li (5.59 dias): views=45 alcance=40 tempo médio=9.05 s (5.4%) curtidas=1 coment.=0 salv.=0 compart.=0
+2026-10-24 09:30:13 INFO    leitura: 1 Reel(s) — 2026-10-20-fei-fei-li; 0 erro(s)
+2026-10-25 09:30:06 INFO    nada a ler: nenhum Reel com ≥ 5 dias sem leitura (use --slug X --forcar para ler já)
+2026-10-26 09:32:24 WARNING rede: ConnectionError — nova tentativa 2/3
+2026-10-26 09:32:27 WARNING rede: ConnectionError — nova tentativa 3/3
+2026-10-26 09:44:44 INFO    a Meta recusou o pedido conjunto (#100: (#100) The Media Insights API does not support the follows, profile_visits metric for this media product type.) — peço uma a uma
+2026-10-26 10:00:00 WARNING rede: ConnectionError — nova tentativa 2/3
+2026-10-26 10:00:03 WARNING rede: ConnectionError — nova tentativa 3/3
+2026-10-26 10:17:57 ERROR   2026-10-20-fei-fei-li-a: Sem ligação a graph.facebook.com (ConnectionError) após 3 tentativas
+2026-10-26 10:17:57 INFO    leitura: 0 Reel(s) — nenhum; 1 erro(s)

@@ -1,0 +1,129 @@
+{
+  "arquivo": "/Users/teste/Documents/CONTENT AI/videos/2026-10-23-livro-chatgpt/edicao/final-L01C.mp4",
+  "resultado": "PASS",
+  "criado_em": "2026-10-21T19:18:29+00:00",
+  "checks": [
+    {
+      "check": "Resolução",
+      "status": "PASS",
+      "valor": "1080×1920",
+      "esperado": "1080×1920"
+    },
+    {
+      "check": "FPS",
+      "status": "PASS",
+      "valor": 25.0,
+      "esperado": "25 ±0,01 (FPS_PROJETO)"
+    },
+    {
+      "check": "Codec vídeo",
+      "status": "PASS",
+      "valor": "h264",
+      "esperado": "h264"
+    },
+    {
+      "check": "Perfil H.264",
+      "status": "PASS",
+      "valor": "High",
+      "esperado": "High"
+    },
+    {
+      "check": "Pixel format",
+      "status": "PASS",
+      "valor": "yuv420p",
+      "esperado": "yuv420p (8-bit)"
+    },
+    {
+      "check": "Cor (tags)",
+      "status": "PASS",
+      "valor": "bt709/bt709/bt709",
+      "esperado": "bt709/bt709/bt709"
+    },
+    {
+      "check": "Codec áudio",
+      "status": "PASS",
+      "valor": "aac",
+      "esperado": "aac"
+    },
+    {
+      "check": "Sample rate",
+      "status": "PASS",
+      "valor": "48000",
+      "esperado": "48000"
+    },
+    {
+      "check": "Duração",
+      "status": "PASS",
+      "valor": "34.82s",
+      "esperado": "3–180 s"
+    },
+    {
+      "check": "Faststart (moov antes do mdat)",
+      "status": "PASS",
+      "valor": "ftyp > moov > free > mdat",
+      "esperado": "moov antes de mdat"
+    },
+    {
+      "check": "Tamanho",
+      "status": "PASS",
+      "valor": "51.4 MB",
+      "esperado": "≤ 300 MB"
+    },
+    {
+      "check": "Bitrate",
+      "status": "PASS",
+      "valor": "12.38 Mbps",
+      "esperado": "≤ 25 Mbps"
+    },
+    {
+      "check": "Loudness integrada",
+      "status": "PASS",
+      "valor": "-14.1 LUFS",
+      "esperado": "−14 ±1 LUFS"
+    },
+    {
+      "check": "True peak",
+      "status": "PASS",
+      "valor": "-1.7 dBTP",
+      "esperado": "≤ −1,5 dBTP"
+    },
+    {
+      "check": "Trechos pretos (≥0,5 s)",
+      "status": "PASS",
+      "valor": 0,
+      "esperado": "0 (revisar se houver)"
+    },
+    {
+      "check": "Congelados (≥2 s)",
+      "status": "PASS",
+      "valor": 0,
+      "esperado": "0 (ok se cartela estática)"
+    },
+    {
+      "check": "Duração vs EDL",
+      "status": "WARN",
+      "valor": "34.82 vs 34.44",
+      "esperado": "±0,2 s"
+    },
+    {
+      "check": "Cenas extras (nenhuma faltando)",
+      "status": "PASS",
+      "valor": "11 ok",
+      "esperado": "0 faltando (placeholder no vídeo)"
+    },
+    {
+      "check": "Legendas vs roteiro",
+      "status": "PASS",
+      "valor": 0,
+      "esperado": "0 divergências"
+    }
+  ],
+  "pretos": [],
+  "congelados": [],
+  "loudness": {
+    "lufs": -14.1,
+    "true_peak": -1.7
+  },
+  "grafia": [],
+  "frames": []
+}

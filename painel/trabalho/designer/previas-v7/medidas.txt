@@ -1,0 +1,16 @@
+# capturar.sh · 2026-10-23T15:52:18.252Z
+# alvo	largura pedida	innerWidth	scrollWidth	altura	HTTP	png	passa da borda
+painel/design/previas/barra-lateral.html	1440	1440	1440	1256	200	/Users/teste/Documents/CONTENT AI/painel/trabalho/designer/previas-v7/barra-lateral-1440.png	
+painel/design/previas/barra-lateral.html	375	375	375	2064	200	/Users/teste/Documents/CONTENT AI/painel/trabalho/designer/previas-v7/barra-lateral-375.png	
+painel/design/previas/casca.html	1440	1440	1440	962	200	/Users/teste/Documents/CONTENT AI/painel/trabalho/designer/previas-v7/casca-1440.png	
+painel/design/previas/casca.html	375	375	375	1644	200	/Users/teste/Documents/CONTENT AI/painel/trabalho/designer/previas-v7/casca-375.png	
+painel/design/previas/casca-menu.html	1440	1440	1440	962	200	/Users/teste/Documents/CONTENT AI/painel/trabalho/designer/previas-v7/casca-menu-1440.png	
+painel/design/previas/casca-menu.html	375	375	375	1644	200	/Users/teste/Documents/CONTENT AI/painel/trabalho/designer/previas-v7/casca-menu-375.png	
+painel/design/previas/carregando.html	1440	1440	1440	900	200	/Users/teste/Documents/CONTENT AI/painel/trabalho/designer/previas-v7/carregando-1440.png	
+painel/design/previas/carregando.html	375	375	375	1251	200	/Users/teste/Documents/CONTENT AI/painel/trabalho/designer/previas-v7/carregando-375.png	
+painel/design/previas/erro.html	1440	1440	1440	900	200	/Users/teste/Documents/CONTENT AI/painel/trabalho/designer/previas-v7/erro-1440.png	
+painel/design/previas/erro.html	375	375	375	1064	200	/Users/teste/Documents/CONTENT AI/painel/trabalho/designer/previas-v7/erro-375.png	
+painel/design/previas/nao-encontrado.html	1440	1440	1440	900	200	/Users/teste/Documents/CONTENT AI/painel/trabalho/designer/previas-v7/nao-encontrado-1440.png	
+painel/design/previas/nao-encontrado.html	375	375	375	812	200	/Users/teste/Documents/CONTENT AI/painel/trabalho/designer/previas-v7/nao-encontrado-375.png	
+painel/design/previas/index.html	1440	1440	1440	2575	200	/Users/teste/Documents/CONTENT AI/painel/trabalho/designer/previas-v7/index-1440.png	
+painel/design/previas/index.html	375	375	375	4272	200	/Users/teste/Documents/CONTENT AI/painel/trabalho/designer/previas-v7/index-375.png	

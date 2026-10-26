@@ -1,0 +1,90 @@
+A história completa do vídeo: quinze coisas que a IA já faz no seu negócio
+
+Este texto é pra você ouvir antes de gravar. Não é o roteiro. É o contexto inteiro, pra você entender cada item e depois falar com as suas palavras. Quando eu disser IA, é inteligência artificial.
+
+A ideia do vídeo
+
+Muita gente que tem um negócio pequeno já ouviu falar de IA, mas não sabe o que fazer com ela na segunda-feira de manhã. O vídeo responde isso com uma lista: quinze tarefas do dia a dia que a IA já faz, hoje, no ChatGPT ou no Gemini, que é a IA do Google. A lista vai enchendo na tela, um item por vez, no ritmo da sua fala.
+
+Por que isso importa pra quem fala português e vive na Europa ou no Reino Unido? Porque, além das tarefas de qualquer negócio, tem a barreira da língua. Responder cliente em inglês, traduzir o cardápio, entender uma carta oficial que chegou em casa. Por isso o último item, o número quinze, é pra quem mora fora.
+
+Como funciona, no geral
+
+Quase tudo da lista é conversa: você escreve o que precisa, com o contexto do seu negócio, e a IA devolve um texto. Isso funciona no ChatGPT e no Gemini, inclusive na versão grátis. Dois itens são diferentes, porque envolvem foto: trocar o fundo da foto do produto e explicar uma carta. Nesses, você manda a imagem junto. Os dois também funcionam na versão grátis, segundo as páginas de ajuda da OpenAI, a empresa do ChatGPT, e a cobertura sobre o Gemini. Mas com um limite de uso por dia, que muda de conta pra conta e de país pra país.
+
+Os quinze itens, um por um
+
+Um, responder cliente no WhatsApp. Você cola a mensagem do cliente, diz o que pode informar, horário, preço, prazo, e pede uma resposta curta e educada.
+
+Dois, responder em inglês, sem travar. Você escreve a resposta em português e pede pra traduzir pra um inglês simples e educado. Dica: pedir pra ela explicar em português o que mudou, pra você aprender junto.
+
+Três, o cardápio já traduzido. Cola o cardápio e pede a tradução, explicando em uma frase os pratos que não têm tradução direta. Tipo coxinha, pastel de nata, feijoada.
+
+Quatro, legenda de post. Pede três opções de legenda curta pro Instagram sobre um produto, com o tom do seu negócio.
+
+Cinco, descrição de produto. Aqui tem um cuidado: dá as características reais e pede pra ela usar só isso, sem inventar. Senão ela enfeita.
+
+Seis, trocar o fundo da foto do produto. Manda a foto e pede, por exemplo, fundo branco liso, mantendo o produto igual. Atenção: a IA cria uma imagem nova, então o produto pode mudar um pouco. Confere.
+
+Sete, orçamento bem organizado. Cola o pedido bagunçado do cliente e pede uma tabela com item, quantidade, valor e total.
+
+Oito, a parte chata: cobrança educada. Diz quanto o cliente deve e desde quando, e pede uma mensagem firme, mas educada.
+
+Nove, escala da equipe. Dá os nomes, as restrições de cada um e o horário de funcionamento, e pede a escala da semana em tabela.
+
+Dez, fórmula de planilha que você nunca lembra. Explica o cálculo que quer, em quais colunas estão os dados, e pede a fórmula com uma frase explicando.
+
+Onze, ideia de promoção pra semana fraca. Diz quando o movimento cai e pede cinco promoções simples e baratas.
+
+Doze, roteiro de vídeo. Pede um roteiro curto, de trinta segundos, sobre um assunto do seu negócio.
+
+Treze, resposta pras perguntas que todo cliente repete. Lista as perguntas que você mais recebe e pede uma resposta curta pra cada uma. Aí você salva e reaproveita.
+
+Catorze, anúncio de vaga. Cargo, cidade, tarefas, horário, e pede um anúncio em linguagem clara.
+
+E a quinze, pra quem mora fora: a carta oficial em inglês que chegou em casa. Pode ser da prefeitura, do banco, da escola, de algum órgão do governo. Você tira uma foto e pede pra ela explicar em português simples: quem mandou, o que estão pedindo, o que você precisa fazer e até quando.
+
+Os limites honestos
+
+Primeiro: ela ainda erra. Pode errar um valor, inventar um detalhe, traduzir uma palavra de um jeito estranho. Confere tudo antes de mandar pra cliente.
+
+Segundo: na carta oficial, tapa os seus dados antes de mandar a foto. Número de documento, de conta, de contribuinte, endereço. E a IA pode errar um prazo ou um valor da carta. Ela não substitui contador nem advogado. Na dúvida, confirma com quem mandou a carta.
+
+Terceiro: nunca cola dado pessoal de cliente na conversa. Nome completo, telefone, endereço, dado de pagamento.
+
+Quarto: a versão grátis tem limite por dia. Se acabar, volta no outro dia, ou divide as tarefas entre o ChatGPT e o Gemini.
+
+E sem promessa: o vídeo não diz que você vai economizar tantas horas ou ganhar tanto. Diz que a IA já faz essas tarefas com você. Quem decide e confere é você.
+
+A sugestão do fim
+
+A ideia de "salva pra fazer um por dia" é pra não assustar. Ninguém precisa testar as quinze de uma vez. Um item por dia, e em duas semanas você testou tudo.
+
+Os momentos que estão no vídeo
+
+Antes de falar, a pose da capa: mão aberta mostrando os cinco dedos, sobrancelha erguida, três segundos em silêncio.
+
+Primeiro, o gancho. Quinze coisas que a IA já faz no seu negócio. Pode ser: "Olha quinze coisas que a IA já faz pelo seu negócio." O número quinze vem logo de cara.
+
+Segundo, a promessa. Espera a quinze, que é pra quem mora fora, e no final eu te mando tudo. Pode ser: "Fica até a número quinze, que é especial pra quem mora fora. E no final eu te mando a lista toda."
+
+Do terceiro ao décimo sexto, os itens, em ritmo rápido, um atrás do outro, sem pausa. Responder cliente no WhatsApp. Responder em inglês, sem travar. O cardápio já traduzido. Legenda de post. Descrição de produto. Trocar o fundo da foto do produto. Orçamento bem organizado. Aí a parte chata, cobrança educada. Escala da equipe. Fórmula de planilha que você nunca lembra. Ideia de promoção pra semana fraca. Roteiro de vídeo. Resposta pras perguntas que todo cliente repete. Anúncio de vaga. Aqui dá pra variar o jeito, por exemplo "mandar cobrança sem ser grosso" ou "aquela fórmula do Excel que você sempre esquece", mas a ordem tem que ser essa, porque a lista na tela escreve cada item na hora em que você fala.
+
+Décimo sétimo e décimo oitavo, o item quinze. A carta oficial em inglês que chegou em casa; tira uma foto e ela te explica em português. Pode ser: "E a quinze, pra quem mora fora: chegou aquela carta oficial em inglês? Tira foto e ela te explica tudo em português."
+
+Décimo nono, onde fazer. Tudo no ChatGPT ou no Gemini, até na versão grátis, com limite por dia. Pode ser: "Dá pra fazer tudo no ChatGPT ou no Gemini, até de graça, só que com limite por dia." O "com limite por dia" não pode sair.
+
+Vigésimo, o aviso. Ela ainda erra; confere antes de mandar, e tapa seus dados na carta. Pode ser: "Mas atenção: ela erra. Confere antes de mandar, e cobre seus dados na foto da carta." Esse aviso fica inteiro.
+
+Por fim, o pedido. Comenta LISTA pros quinze pedidos, e salva pra fazer um por dia. Pode ser: "Escreve LISTA aqui embaixo que eu te mando os quinze pedidos prontos. E salva o vídeo pra testar um por dia." A palavra é LISTA, sem trocar, são quinze pedidos, e o pedido de salvar fica.
+
+Fontes (não precisa ler em voz alta)
+
+OpenAI, Images in ChatGPT (editar foto enviada, inclusive no grátis, com limite): https://help.openai.com/en/articles/11084440
+OpenAI, File Uploads FAQ (enviar fotos e arquivos): https://help.openai.com/en/articles/8555545-file-uploads-faq
+Google, Gemini, geração e edição de imagens: https://gemini.google/overview/image-generation/
+9to5Google, edição de imagem no app Gemini, 04/09/2025: https://9to5google.com/2025/09/04/gemini-app-nano-banana/
+Digit, edição de fotos no Gemini: https://www.digit.in/news/general/gemini-app-can-now-blend-restyle-and-edit-photos-with-a-single-text-prompt-heres-how.html/amp/
+Neowin, edição de imagem no Gemini: https://www.neowin.net/news/the-gemini-app-now-lets-you-edit-images-directly/
+OpenAI, Helping a small business go big with ChatGPT: https://www.youtube.com/watch?v=mPAmXQnhv2E
+Google, Help Wanted, Help Found (Gemini num pequeno negócio): https://www.youtube.com/watch?v=q-dnq2Fsq2Y

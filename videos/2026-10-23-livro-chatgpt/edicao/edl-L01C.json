@@ -1,0 +1,1030 @@
+{
+ "versao": 5,
+ "slug": "2026-10-23-livro-chatgpt",
+ "fps": 25,
+ "sr": 48000,
+ "largura": 1080,
+ "altura": 1920,
+ "aprovado": true,
+ "aprovado_em": "2026-10-21T18:33:14+01:00",
+ "fontes": {
+  "praq0996": "edicao/fontes/praq0996.mp4"
+ },
+ "segmentos": [
+  {
+   "n": 1,
+   "linha": "L01C",
+   "take": "L01C-T1",
+   "fonte": "praq0996",
+   "in": 561.88,
+   "out": 566.32,
+   "cortes_internos": [],
+   "saida_inicio": 0.0,
+   "saida_fim": 4.44,
+   "layout": "split",
+   "zoom": null,
+   "zoom_origem": "39.7% 30.5%",
+   "zoom_pecas": [
+    1.0
+   ],
+   "voz_ia": 0.0,
+   "nota": "hook alternativo L01C no lugar da L01 (pedido do Carlos, 21/10)"
+  },
+  {
+   "n": 2,
+   "linha": "L02",
+   "take": "L02-T2",
+   "fonte": "praq0996",
+   "in": 89.52,
+   "out": 92.76,
+   "cortes_internos": [
+    [
+     90.84,
+     91.12
+    ]
+   ],
+   "saida_inicio": 4.44,
+   "saida_fim": 7.4,
+   "layout": "split",
+   "zoom": null,
+   "zoom_origem": "43.9% 27.5%",
+   "zoom_pecas": [
+    1.12,
+    1.0
+   ],
+   "voz_ia": 0.0
+  },
+  {
+   "n": 3,
+   "linha": "L03",
+   "take": "L03-T3",
+   "fonte": "praq0996",
+   "in": 236.96,
+   "out": 242.24,
+   "cortes_internos": [
+    [
+     238.72,
+     239.44
+    ]
+   ],
+   "saida_inicio": 7.4,
+   "saida_fim": 11.96,
+   "layout": "split",
+   "zoom": null,
+   "zoom_origem": "41.2% 27.7%",
+   "zoom_pecas": [
+    1.12,
+    1.0
+   ],
+   "voz_ia": 0.0
+  },
+  {
+   "n": 4,
+   "linha": "L04",
+   "take": "L04-T3",
+   "fonte": "praq0996",
+   "in": 366.56,
+   "out": 372.08,
+   "cortes_internos": [
+    [
+     367.48,
+     368.8
+    ]
+   ],
+   "saida_inicio": 11.96,
+   "saida_fim": 16.16,
+   "layout": "split",
+   "zoom": null,
+   "zoom_origem": "33.4% 29.2%",
+   "zoom_pecas": [
+    1.12,
+    1.0
+   ],
+   "voz_ia": 0.0
+  },
+  {
+   "n": 5,
+   "linha": "L05",
+   "take": "L05-T1",
+   "fonte": "praq0996",
+   "in": 397.99,
+   "out": 403.76,
+   "cortes_internos": [
+    [
+     399.72,
+     400.64
+    ]
+   ],
+   "saida_inicio": 16.16,
+   "saida_fim": 21.0,
+   "layout": "split",
+   "zoom": null,
+   "zoom_origem": "40.8% 28.3%",
+   "zoom_pecas": [
+    1.12,
+    1.0
+   ],
+   "voz_ia": 0.0
+  },
+  {
+   "n": 6,
+   "linha": "L06",
+   "take": "L06-T1",
+   "fonte": "praq0996",
+   "in": 463.2,
+   "out": 469.24,
+   "cortes_internos": [
+    [
+     464.64,
+     465.52
+    ]
+   ],
+   "saida_inicio": 21.0,
+   "saida_fim": 26.16,
+   "layout": "split",
+   "zoom": null,
+   "zoom_origem": "37.9% 29.0%",
+   "zoom_pecas": [
+    1.12,
+    1.0
+   ],
+   "voz_ia": 0.0
+  },
+  {
+   "n": 7,
+   "linha": "L07",
+   "take": "L07-T2",
+   "fonte": "praq0996",
+   "in": 498.0,
+   "out": 500.84,
+   "cortes_internos": [],
+   "saida_inicio": 26.16,
+   "saida_fim": 29.0,
+   "layout": "full",
+   "zoom": null,
+   "zoom_origem": "45.0% 28.7%",
+   "zoom_pecas": [
+    1.12
+   ],
+   "voz_ia": 0.0
+  },
+  {
+   "n": 8,
+   "linha": "L08",
+   "take": "L08-T1",
+   "fonte": "praq0996",
+   "in": 509.2,
+   "out": 511.92,
+   "cortes_internos": [],
+   "saida_inicio": 29.0,
+   "saida_fim": 31.72,
+   "layout": "full",
+   "zoom": null,
+   "zoom_origem": "46.4% 28.0%",
+   "zoom_pecas": [
+    1.0
+   ],
+   "voz_ia": 0.0
+  },
+  {
+   "n": 9,
+   "linha": "L09",
+   "take": "L09-T1",
+   "fonte": "praq0996",
+   "in": 519.4,
+   "out": 522.44,
+   "cortes_internos": [],
+   "saida_inicio": 31.72,
+   "saida_fim": 34.76,
+   "layout": "full",
+   "zoom": null,
+   "zoom_origem": "50% 28%",
+   "zoom_pecas": [
+    1.12
+   ],
+   "voz_ia": 0.0
+  }
+ ],
+ "overlays": [
+  {
+   "linhas": [
+    "L01"
+   ],
+   "tipo": "extra",
+   "extra": "E02",
+   "extra_tipo": "tela",
+   "arquivo": "edicao/extras/E02.mp4",
+   "modo": "card",
+   "som": false,
+   "credito": null,
+   "faltando": false,
+   "saida_inicio": 1.84,
+   "saida_fim": 4.12,
+   "descricao": "Gravação de ecrã do ChatGPT no celular: a foto da capa anexada e `/mindmap` sendo digitado. Mostra o \"como\" uma vez, inteiro, em ~2 s acelerado",
+   "in": 1.37,
+   "out": 3.65
+  },
+  {
+   "linhas": [
+    "L02"
+   ],
+   "tipo": "extra",
+   "extra": "E03",
+   "extra_tipo": "imagem",
+   "arquivo": "edicao/extras/E03.png",
+   "modo": "full",
+   "som": false,
+   "credito": null,
+   "faltando": false,
+   "saida_inicio": 4.12,
+   "saida_fim": 7.08,
+   "descricao": "Resultado 1: o mapa mental de *Como Fazer Amigos e Influenciar Pessoas* gerado pelo ChatGPT, em tela cheia — a revelação",
+   "enquadrar": {
+    "x": 0.5,
+    "y": 0.45,
+    "xFim": 0.3,
+    "yFim": 0.3
+   }
+  },
+  {
+   "linhas": [
+    "L03"
+   ],
+   "tipo": "extra",
+   "extra": "E04",
+   "extra_tipo": "tela",
+   "arquivo": "edicao/extras/E04.mp4",
+   "modo": "card",
+   "som": false,
+   "credito": null,
+   "faltando": false,
+   "saida_inicio": 7.08,
+   "saida_fim": 8.84,
+   "descricao": "Flash de `/sketchnote` sendo digitado, com a capa de *A Única Coisa* (Gary Keller) anexada (~0,7 s, acelerado)",
+   "in": 2.68,
+   "out": 4.44
+  },
+  {
+   "linhas": [
+    "L03"
+   ],
+   "tipo": "extra",
+   "extra": "E05",
+   "extra_tipo": "imagem",
+   "arquivo": "edicao/extras/E05.png",
+   "modo": "full",
+   "som": false,
+   "credito": null,
+   "faltando": false,
+   "saida_inicio": 8.84,
+   "saida_fim": 11.64,
+   "descricao": "Resultado 2: a anotação ilustrada (sketchnote) de *A Única Coisa*"
+  },
+  {
+   "linhas": [
+    "L04"
+   ],
+   "tipo": "extra",
+   "extra": "E06",
+   "extra_tipo": "tela",
+   "arquivo": "edicao/extras/E06.mp4",
+   "modo": "card",
+   "som": false,
+   "credito": null,
+   "faltando": false,
+   "saida_inicio": 11.64,
+   "saida_fim": 13.52,
+   "descricao": "Flash de `/flashcards` com a capa de *Hábitos Atômicos* (James Clear) (~0,7 s)",
+   "in": 2.04,
+   "out": 3.92
+  },
+  {
+   "linhas": [
+    "L04"
+   ],
+   "tipo": "extra",
+   "extra": "E07",
+   "extra_tipo": "imagem",
+   "arquivo": "edicao/extras/E07.png",
+   "modo": "full",
+   "som": false,
+   "credito": null,
+   "faltando": false,
+   "saida_inicio": 13.52,
+   "saida_fim": 15.84,
+   "descricao": "Resultado 3: os cartões (pergunta/resposta) de *Hábitos Atômicos*",
+   "enquadrar": {
+    "x": 0.12,
+    "y": 0.5,
+    "xFim": 0.55,
+    "yFim": 0.5
+   }
+  },
+  {
+   "linhas": [
+    "L05"
+   ],
+   "tipo": "extra",
+   "extra": "E08",
+   "extra_tipo": "tela",
+   "arquivo": "edicao/extras/E08.mp4",
+   "modo": "card",
+   "som": false,
+   "credito": null,
+   "faltando": false,
+   "saida_inicio": 15.84,
+   "saida_fim": 17.56,
+   "descricao": "Flash de `/fluxograma` com a capa de *O Poder do Hábito* (Charles Duhigg) (~0,7 s)",
+   "in": 2.52,
+   "out": 4.24
+  },
+  {
+   "linhas": [
+    "L05"
+   ],
+   "tipo": "extra",
+   "extra": "E09",
+   "extra_tipo": "imagem",
+   "arquivo": "edicao/extras/E09.png",
+   "modo": "full",
+   "som": false,
+   "credito": null,
+   "faltando": false,
+   "saida_inicio": 17.56,
+   "saida_fim": 20.68,
+   "descricao": "Resultado 4: o fluxograma de *O Poder do Hábito*",
+   "enquadrar": {
+    "x": 0.25,
+    "y": 0.3,
+    "xFim": 0.72,
+    "yFim": 0.45
+   }
+  },
+  {
+   "linhas": [
+    "L06"
+   ],
+   "tipo": "extra",
+   "extra": "E10",
+   "extra_tipo": "tela",
+   "arquivo": "edicao/extras/E10.mp4",
+   "modo": "card",
+   "som": false,
+   "credito": null,
+   "faltando": false,
+   "saida_inicio": 20.68,
+   "saida_fim": 22.12,
+   "descricao": "Flash de `/quadrinhos` com a capa de *Os Segredos da Mente Milionária* (T. Harv Eker) (~0,7 s)",
+   "in": 1.8,
+   "out": 3.24
+  },
+  {
+   "linhas": [
+    "L06"
+   ],
+   "tipo": "extra",
+   "extra": "E11",
+   "extra_tipo": "imagem",
+   "arquivo": "edicao/extras/E11.png",
+   "modo": "full",
+   "som": false,
+   "credito": null,
+   "faltando": false,
+   "saida_inicio": 22.12,
+   "saida_fim": 25.84,
+   "descricao": "Resultado 5: a tirinha com as ideias principais de *Os Segredos da Mente Milionária* (personagens desenhados, nenhuma pessoa real)"
+  }
+ ],
+ "palavras_saida": [
+  {
+   "texto": "Você",
+   "inicio": 0.12,
+   "fim": 0.38,
+   "linha": "L01C",
+   "destaque": false
+  },
+  {
+   "texto": "nunca",
+   "inicio": 0.44,
+   "fim": 0.84,
+   "linha": "L01C",
+   "destaque": false
+  },
+  {
+   "texto": "mais",
+   "inicio": 0.88,
+   "fim": 1.06,
+   "linha": "L01C",
+   "destaque": false
+  },
+  {
+   "texto": "vai",
+   "inicio": 1.1,
+   "fim": 1.22,
+   "linha": "L01C",
+   "destaque": false
+  },
+  {
+   "texto": "ler",
+   "inicio": 1.24,
+   "fim": 1.36,
+   "linha": "L01C",
+   "destaque": false
+  },
+  {
+   "texto": "um",
+   "inicio": 1.38,
+   "fim": 1.46,
+   "linha": "L01C",
+   "destaque": false
+  },
+  {
+   "texto": "livro",
+   "inicio": 1.56,
+   "fim": 1.9,
+   "linha": "L01C",
+   "destaque": false
+  },
+  {
+   "texto": "sem",
+   "inicio": 2.22,
+   "fim": 2.56,
+   "linha": "L01C",
+   "destaque": false
+  },
+  {
+   "texto": "fazer",
+   "inicio": 2.6,
+   "fim": 2.92,
+   "linha": "L01C",
+   "destaque": false
+  },
+  {
+   "texto": "isso",
+   "inicio": 3.06,
+   "fim": 3.28,
+   "linha": "L01C",
+   "destaque": true
+  },
+  {
+   "texto": "no",
+   "inicio": 3.32,
+   "fim": 3.44,
+   "linha": "L01C",
+   "destaque": false
+  },
+  {
+   "texto": "ChatGPT",
+   "inicio": 3.5,
+   "fim": 4.28,
+   "linha": "L01C",
+   "destaque": false
+  },
+  {
+   "texto": "Ele",
+   "inicio": 4.62,
+   "fim": 4.86,
+   "linha": "L02",
+   "destaque": false
+  },
+  {
+   "texto": "te",
+   "inicio": 4.92,
+   "fim": 5.02,
+   "linha": "L02",
+   "destaque": false
+  },
+  {
+   "texto": "devolve",
+   "inicio": 5.06,
+   "fim": 5.62,
+   "linha": "L02",
+   "destaque": false
+  },
+  {
+   "texto": "o",
+   "inicio": 5.62,
+   "fim": 6.1,
+   "linha": "L02",
+   "destaque": false
+  },
+  {
+   "texto": "mapa",
+   "inicio": 6.1,
+   "fim": 6.36,
+   "linha": "L02",
+   "destaque": true
+  },
+  {
+   "texto": "mental",
+   "inicio": 6.4,
+   "fim": 6.76,
+   "linha": "L02",
+   "destaque": true
+  },
+  {
+   "texto": "do",
+   "inicio": 6.8,
+   "fim": 6.86,
+   "linha": "L02",
+   "destaque": false
+  },
+  {
+   "texto": "livro.",
+   "inicio": 6.94,
+   "fim": 7.26,
+   "linha": "L02",
+   "destaque": false
+  },
+  {
+   "texto": "Barra",
+   "inicio": 7.4,
+   "fim": 7.54,
+   "linha": "L03",
+   "destaque": true
+  },
+  {
+   "texto": "sketchnote:",
+   "inicio": 7.54,
+   "fim": 9.09,
+   "linha": "L03",
+   "destaque": true
+  },
+  {
+   "texto": "o",
+   "inicio": 9.24,
+   "fim": 9.3,
+   "linha": "L03",
+   "destaque": false
+  },
+  {
+   "texto": "resumo",
+   "inicio": 9.34,
+   "fim": 9.78,
+   "linha": "L03",
+   "destaque": false
+  },
+  {
+   "texto": "do",
+   "inicio": 9.82,
+   "fim": 9.88,
+   "linha": "L03",
+   "destaque": false
+  },
+  {
+   "texto": "livro",
+   "inicio": 9.96,
+   "fim": 10.3,
+   "linha": "L03",
+   "destaque": false
+  },
+  {
+   "texto": "em",
+   "inicio": 10.56,
+   "fim": 10.68,
+   "linha": "L03",
+   "destaque": false
+  },
+  {
+   "texto": "anotação",
+   "inicio": 10.7,
+   "fim": 11.18,
+   "linha": "L03",
+   "destaque": false
+  },
+  {
+   "texto": "ilustrada.",
+   "inicio": 11.22,
+   "fim": 11.82,
+   "linha": "L03",
+   "destaque": false
+  },
+  {
+   "texto": "Barra",
+   "inicio": 11.96,
+   "fim": 12.02,
+   "linha": "L04",
+   "destaque": true
+  },
+  {
+   "texto": "flashcards:",
+   "inicio": 12.02,
+   "fim": 12.78,
+   "linha": "L04",
+   "destaque": true
+  },
+  {
+   "texto": "ele",
+   "inicio": 12.96,
+   "fim": 13.12,
+   "linha": "L04",
+   "destaque": false
+  },
+  {
+   "texto": "te",
+   "inicio": 13.14,
+   "fim": 13.2,
+   "linha": "L04",
+   "destaque": false
+  },
+  {
+   "texto": "entrega",
+   "inicio": 13.24,
+   "fim": 13.76,
+   "linha": "L04",
+   "destaque": false
+  },
+  {
+   "texto": "cartões",
+   "inicio": 13.96,
+   "fim": 14.52,
+   "linha": "L04",
+   "destaque": false
+  },
+  {
+   "texto": "com",
+   "inicio": 14.56,
+   "fim": 14.66,
+   "linha": "L04",
+   "destaque": false
+  },
+  {
+   "texto": "o",
+   "inicio": 14.66,
+   "fim": 14.72,
+   "linha": "L04",
+   "destaque": false
+  },
+  {
+   "texto": "resumo",
+   "inicio": 14.7,
+   "fim": 15.2,
+   "linha": "L04",
+   "destaque": false
+  },
+  {
+   "texto": "do",
+   "inicio": 15.34,
+   "fim": 15.42,
+   "linha": "L04",
+   "destaque": false
+  },
+  {
+   "texto": "conteúdo.",
+   "inicio": 15.46,
+   "fim": 16.045,
+   "linha": "L04",
+   "destaque": false
+  },
+  {
+   "texto": "Barra",
+   "inicio": 16.16,
+   "fim": 16.221,
+   "linha": "L05",
+   "destaque": true
+  },
+  {
+   "texto": "fluxograma:",
+   "inicio": 16.221,
+   "fim": 17.74,
+   "linha": "L05",
+   "destaque": true
+  },
+  {
+   "texto": "ele",
+   "inicio": 17.96,
+   "fim": 18.18,
+   "linha": "L05",
+   "destaque": false
+  },
+  {
+   "texto": "resume",
+   "inicio": 18.24,
+   "fim": 18.6,
+   "linha": "L05",
+   "destaque": false
+  },
+  {
+   "texto": "o",
+   "inicio": 18.62,
+   "fim": 18.7,
+   "linha": "L05",
+   "destaque": false
+  },
+  {
+   "texto": "livro",
+   "inicio": 18.74,
+   "fim": 19.08,
+   "linha": "L05",
+   "destaque": false
+  },
+  {
+   "texto": "num",
+   "inicio": 19.2,
+   "fim": 19.3,
+   "linha": "L05",
+   "destaque": false
+  },
+  {
+   "texto": "fluxo",
+   "inicio": 19.44,
+   "fim": 19.86,
+   "linha": "L05",
+   "destaque": false
+  },
+  {
+   "texto": "de",
+   "inicio": 20.04,
+   "fim": 20.12,
+   "linha": "L05",
+   "destaque": false
+  },
+  {
+   "texto": "aprendizado.",
+   "inicio": 20.16,
+   "fim": 20.855,
+   "linha": "L05",
+   "destaque": false
+  },
+  {
+   "texto": "E",
+   "inicio": 21.08,
+   "fim": 21.14,
+   "linha": "L06",
+   "destaque": false
+  },
+  {
+   "texto": "barra",
+   "inicio": 21.14,
+   "fim": 21.24,
+   "linha": "L06",
+   "destaque": true
+  },
+  {
+   "texto": "quadrinhos:",
+   "inicio": 21.24,
+   "fim": 22.38,
+   "linha": "L06",
+   "destaque": true
+  },
+  {
+   "texto": "ele",
+   "inicio": 22.54,
+   "fim": 22.72,
+   "linha": "L06",
+   "destaque": false
+  },
+  {
+   "texto": "resume",
+   "inicio": 22.78,
+   "fim": 23.34,
+   "linha": "L06",
+   "destaque": false
+  },
+  {
+   "texto": "as",
+   "inicio": 23.4,
+   "fim": 23.5,
+   "linha": "L06",
+   "destaque": false
+  },
+  {
+   "texto": "ideias",
+   "inicio": 23.56,
+   "fim": 24.04,
+   "linha": "L06",
+   "destaque": false
+  },
+  {
+   "texto": "principais",
+   "inicio": 24.14,
+   "fim": 24.805,
+   "linha": "L06",
+   "destaque": false
+  },
+  {
+   "texto": "em",
+   "inicio": 24.94,
+   "fim": 25.08,
+   "linha": "L06",
+   "destaque": false
+  },
+  {
+   "texto": "quadrinhos.",
+   "inicio": 25.12,
+   "fim": 25.68,
+   "linha": "L06",
+   "destaque": false
+  },
+  {
+   "texto": "Comenta",
+   "inicio": 26.3,
+   "fim": 26.72,
+   "linha": "L07",
+   "destaque": false
+  },
+  {
+   "texto": "a",
+   "inicio": 26.74,
+   "fim": 26.8,
+   "linha": "L07",
+   "destaque": false
+  },
+  {
+   "texto": "palavra",
+   "inicio": 26.86,
+   "fim": 27.26,
+   "linha": "L07",
+   "destaque": false
+  },
+  {
+   "texto": "LIVRO",
+   "inicio": 27.32,
+   "fim": 27.68,
+   "linha": "L07",
+   "destaque": true
+  },
+  {
+   "texto": "que",
+   "inicio": 27.96,
+   "fim": 28.02,
+   "linha": "L07",
+   "destaque": false
+  },
+  {
+   "texto": "eu",
+   "inicio": 28.04,
+   "fim": 28.12,
+   "linha": "L07",
+   "destaque": false
+  },
+  {
+   "texto": "vou",
+   "inicio": 28.18,
+   "fim": 28.28,
+   "linha": "L07",
+   "destaque": false
+  },
+  {
+   "texto": "te",
+   "inicio": 28.36,
+   "fim": 28.42,
+   "linha": "L07",
+   "destaque": false
+  },
+  {
+   "texto": "enviar",
+   "inicio": 28.44,
+   "fim": 28.84,
+   "linha": "L07",
+   "destaque": false
+  },
+  {
+   "texto": "mais",
+   "inicio": 29.16,
+   "fim": 29.46,
+   "linha": "L08",
+   "destaque": false
+  },
+  {
+   "texto": "50",
+   "inicio": 29.76,
+   "fim": 30.14,
+   "linha": "L08",
+   "destaque": true
+  },
+  {
+   "texto": "comandos",
+   "inicio": 30.16,
+   "fim": 30.68,
+   "linha": "L08",
+   "destaque": true
+  },
+  {
+   "texto": "no",
+   "inicio": 30.82,
+   "fim": 30.88,
+   "linha": "L08",
+   "destaque": false
+  },
+  {
+   "texto": "seu",
+   "inicio": 30.98,
+   "fim": 31.14,
+   "linha": "L08",
+   "destaque": false
+  },
+  {
+   "texto": "direct.",
+   "inicio": 31.18,
+   "fim": 31.58,
+   "linha": "L08",
+   "destaque": false
+  },
+  {
+   "texto": "E",
+   "inicio": 31.78,
+   "fim": 31.84,
+   "linha": "L09",
+   "destaque": false
+  },
+  {
+   "texto": "manda",
+   "inicio": 31.94,
+   "fim": 32.3,
+   "linha": "L09",
+   "destaque": false
+  },
+  {
+   "texto": "pra",
+   "inicio": 32.32,
+   "fim": 32.42,
+   "linha": "L09",
+   "destaque": false
+  },
+  {
+   "texto": "quem",
+   "inicio": 32.5,
+   "fim": 32.64,
+   "linha": "L09",
+   "destaque": false
+  },
+  {
+   "texto": "tem",
+   "inicio": 32.7,
+   "fim": 32.88,
+   "linha": "L09",
+   "destaque": false
+  },
+  {
+   "texto": "livro",
+   "inicio": 32.9,
+   "fim": 33.26,
+   "linha": "L09",
+   "destaque": false
+  },
+  {
+   "texto": "parado",
+   "inicio": 33.36,
+   "fim": 33.86,
+   "linha": "L09",
+   "destaque": false
+  },
+  {
+   "texto": "na",
+   "inicio": 33.86,
+   "fim": 34.22,
+   "linha": "L09",
+   "destaque": false
+  },
+  {
+   "texto": "estante.",
+   "inicio": 34.22,
+   "fim": 34.62,
+   "linha": "L09",
+   "destaque": false
+  }
+ ],
+ "duracao_saida": 34.76,
+ "zoom_no_corte": true,
+ "audio": {
+  "loudnorm_lufs": -14,
+  "true_peak": -1.5,
+  "musica": null,
+  "ducking": true
+ },
+ "variantes": [
+  {
+   "linha": "L01B",
+   "alternativa_de": "L01",
+   "take": "L01B-T1",
+   "fonte": "praq0996",
+   "in": 539.08,
+   "out": 545.88,
+   "cortes_internos": [
+    [
+     539.6,
+     539.72
+    ],
+    [
+     543.24,
+     543.4
+    ]
+   ],
+   "status": "parafrase"
+  },
+  {
+   "linha": "L01C",
+   "alternativa_de": "L01",
+   "take": "L01C-T1",
+   "fonte": "praq0996",
+   "in": 561.88,
+   "out": 566.32,
+   "cortes_internos": [],
+   "status": "ok"
+  }
+ ],
+ "gerado_em": "2026-10-21T18:28:57+01:00",
+ "aprovado_por": "Carlos (21/10: 'EDL aprovada como está (L09 fica)')",
+ "variante": "L01C: hook alternativo no lugar da L01"
+}

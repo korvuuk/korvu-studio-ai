@@ -1,0 +1,85 @@
+A história completa do vídeo: o comando secreto do ChatGPT que não é secreto
+
+Este texto é pra você ouvir antes de gravar. Não é o roteiro. É tudo o que está por trás dele, pra você entender o assunto e depois falar do seu jeito. Quando eu disser IA, é inteligência artificial.
+
+De onde vem a moda dos comandos secretos
+
+Faz alguns meses que circulam no Instagram e no TikTok vídeos com o título "códigos secretos do ChatGPT". A pessoa coloca uma foto no ChatGPT, escreve uma barra e uma palavra em inglês, tipo barra cinematic, barra droneview, barra goldenhour, e a foto volta transformada. Um criador brasileiro fez dois vídeos assim que passaram de dois milhões e de três milhões de visualizações. Um deles teve mais de cinquenta e cinco mil comentários, porque no fim ele pedia pra comentar uma palavra em troca de mais cem códigos.
+
+Depois disso, apareceram listas com noventa e nove, cem, cento e cinquenta comandos. Cinema, moda, luz, filme fotográfico, ângulo de câmera, clima. Barra vogue, barra polaroid, barra kodak portra. Muita gente acredita que são botões escondidos do ChatGPT, uma coisa que a OpenAI colocou lá e não contou pra ninguém.
+
+O que acontece de verdade
+
+Não existe comando secreto. A OpenAI, que é a empresa que faz o ChatGPT, não tem nenhuma lista de comandos de barra pra foto. A barra não faz nada. Quem faz o trabalho é a palavra.
+
+Quando você escreve barra cinematic, o ChatGPT lê a palavra cinematic do mesmo jeito que leria "deixa essa foto com jeito de cinema". Ele entende o pedido pela palavra, não pela barra. Um guia espanhol que reuniu noventa e nove desses comandos diz isso com todas as letras: nenhum é um comando de verdade, a barra não faz nada, a palavra sim, e com barra ou sem barra o resultado é o mesmo. Outro guia diz que o ChatGPT entende igual "golden hour" escrito normal e barra goldenhour.
+
+É por isso que o vídeo tem a virada. Primeiro você mostra os resultados, que são bonitos e chamam atenção. Depois você conta a verdade: chamam isso de comando secreto, mas a barra não muda nada. E prova: escreve neblina, em português, sem barra, e funciona igual. Isso muda a cabeça de quem assiste, porque a pessoa entende que pode inventar o próprio estilo. Não precisa decorar lista nenhuma.
+
+Uma curiosidade: quando você digita a barra no ChatGPT, abre um menu de ferramentas, tipo criar imagem, pesquisar, pesquisa aprofundada. Esse menu é do ChatGPT mesmo, e não tem nada a ver com os estilos. É só continuar digitando e mandar. Quando você escreve neblina sem barra, o menu nem abre. É mais uma prova de que a barra não é o segredo.
+
+O que é oficial
+
+O que a OpenAI tem de verdade é uma área de Imagens no ChatGPT, na barra do lado, com alguns estilos prontos e ideias pra começar. Esses estilos mudam com o tempo e com o país. Então, no vídeo, a gente não fala deles. Fica só a verdade simples: a palavra é que funciona.
+
+Os três comandos e a neblina
+
+Barra cinematic: a sua foto vira cena de filme. Cor de cinema, contraste, luz dramática.
+
+Barra goldenhour: golden hour é como os fotógrafos chamam aquela luz dourada de fim de tarde, quando o sol está baixo. A foto fica quente e suave.
+
+Barra droneview: a mesma cena vista de cima, como se tivesse sido tirada por um drone. Esse é o que mais impressiona, mas também o que mais pode mudar o seu rosto, porque a câmera vai pro alto. Se no teste o rosto não ficar o seu, a gente troca por barra polaroid, a foto instantânea com a moldura branca.
+
+Neblina, sem barra: a mesma foto no meio da neblina. Esse é o que prova a virada. Precisa ser testado antes de gravar: se não funcionar de primeira, a fala muda pro que aconteceu de verdade.
+
+Como fazer o pedido sem estragar o rosto
+
+O ChatGPT não retoca a foto pixel por pixel. Ele olha a sua foto e cria uma imagem nova parecida. Por isso o rosto pode mudar um pouco. Pra evitar, junto com o comando vai sempre a mesma frase, que a gente chama de trava: "Mantenha o rosto, a identidade, o cabelo, a roupa e a pose exatamente iguais. Mude só o estilo." E a proporção: nove por dezesseis pra Reels e Stories, quatro por cinco pro feed.
+
+Duas dicas que o guia oficial da OpenAI também dá: repete a trava em todo pedido, e parte sempre da foto original, não da que já foi editada. Se você vai editando a editada, o rosto vai mudando aos poucos. Por isso, na gravação, a foto original é anexada de novo em cada pedido.
+
+O resultado muda um pouco cada vez que você pede. Isso é normal.
+
+Como fixar o seu próprio atalho
+
+Se você quer que barra meuestilo sempre faça a mesma coisa, dá pra escrever isso nas Instruções personalizadas do ChatGPT, que fica nas configurações, em Personalização. Por exemplo: "Quando eu escrever barra meuestilo, deixe a foto em preto e branco com luz de janela." Aí sim vira um atalho seu. Isso está no PDF.
+
+O que vai no PDF
+
+Quem comentar ESTILO recebe no direct a lista com os comandos de estilo para fotos: os comandos separados por família, cinema, luz, filme, ângulo, clima, moda, ilustração, umas combinações prontas, e o como usar em três passos: anexa a foto e escreve o comando com o que você quer, cola a trava do rosto e a proporção, e cria o seu atalho nas Instruções personalizadas. São duas páginas, curtinhas.
+
+Cuidados
+
+Só foto sua. Nada de foto de outra pessoa sem ela saber, nada de pessoa famosa, nada de criança. E o plano grátis do ChatGPT tem poucas imagens por dia. Se acabar, é só esperar o dia seguinte. A gente não fala número, porque muda.
+
+Os momentos que estão no vídeo
+
+Abertura. Coloca sua foto no ChatGPT e escreve barra cinematic. Pode ser: "Põe uma foto sua no ChatGPT e escreve barra cinematic." Ou: "Pega uma foto sua, joga no ChatGPT e escreve barra cinematic."
+
+Primeiro resultado. Ela vira cena de filme. Pode ser: "Olha, virou cena de filme."
+
+Segundo. Barra goldenhour: luz de fim de tarde. Pode ser: "Barra goldenhour, e vem a luz do fim da tarde."
+
+Terceiro. Barra droneview: foto de drone. Pode ser: "Barra droneview, e parece que foi tirada de drone." Se o droneview sair do vídeo, fica: "Barra polaroid: foto instantânea."
+
+A virada. Chamam isso de comando secreto. Mas a barra não muda nada. Pode ser: "Tem gente chamando isso de comando secreto. Só que a barra não muda nada."
+
+A explicação. Quem faz o trabalho é o nome do estilo. Pode ser: "Quem trabalha mesmo é a palavra, o nome do estilo."
+
+A prova. Escreve neblina, sem barra, e funciona igual. Pode ser: "Escreve só neblina, sem barra nenhuma, e funciona do mesmo jeito." Essa fala só vale se o teste funcionou.
+
+O convite. Então inventa o seu estilo. Pode ser: "Então cria o seu próprio estilo." Depois, uma pausa.
+
+O pedido. Comenta a palavra ESTILO que eu vou te enviar a lista dos comandos no seu direct. Pode ser: "Comenta ESTILO aqui embaixo que eu te mando a lista dos comandos no direct." E: "E manda pra quem ama tirar selfie." Pode ser: "Manda pra aquele amigo que vive tirando selfie."
+
+O que não pode mudar: a palavra é ESTILO, sem trocar. Os três comandos, cinematic, goldenhour e droneview, ou polaroid no lugar do droneview. A neblina sem barra. A frase de que a barra não muda nada. E o pedido de mandar pra alguém no fim. Não chamar de código secreto de verdade, nem dizer que é função escondida da OpenAI, nem dizer número de comandos.
+
+Fontes (não precisa ler em voz alta)
+
+iaempresa, 99 comandos de imagens no ChatGPT, guia 2026 (revisado em 16/10/2026): https://iaempresa.com/guias/99-comandos-chatgpt
+graphemics, 99 comandos de imagem para ChatGPT: https://graphemics.net/99-comandos-de-imagen-para-chatgpt-la-lista-completa-en-espanol/
+Jörg Schieb, comandos de imagem do ChatGPT, /droneview e companhia (04/09/2026): https://www.schieb.de/?p=814488
+OpenAI, guia de pedidos de imagem: https://developers.openai.com/api/docs/guides/image-prompting
+OpenAI, The new ChatGPT Images is here (dezembro de 2025): https://openai.com/index/new-chatgpt-images-is-here/
+Referência de formato, @cauetgurgell: https://www.instagram.com/reel/DdElzdKzRY9/ e https://www.instagram.com/reel/DdRHFKOz7hv/
+Biblioteca de comandos da Korvu (todas as fontes): 01-ideias/pesquisas/2026-10-21-biblioteca-comandos.md

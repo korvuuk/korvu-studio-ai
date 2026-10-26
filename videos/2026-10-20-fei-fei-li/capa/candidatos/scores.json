@@ -1,0 +1,397 @@
+{
+  "pose_capa": "mão em forma de telefone no ouvido, olhar sério",
+  "video": "edicao/cor/corte-cor.mp4",
+  "detector": "haar",
+  "amostragem": "corte",
+  "lut_visualizacao": false,
+  "pesos": {
+    "nitidez": 0.22,
+    "rosto": 0.16,
+    "centragem": 0.13,
+    "olhos": 0.15,
+    "exposicao": 0.04,
+    "boca": 0.18,
+    "parado": 0.12
+  },
+  "criado_em": "2026-10-17T04:34:58+00:00",
+  "candidatos": [
+    {
+      "tempo": 55.107142857142854,
+      "linha": "pausa-capa",
+      "origem": "pausa",
+      "notas": {
+        "nitidez": 0.745,
+        "rosto": 1.0,
+        "centragem": 0.956,
+        "olhos": 0.5,
+        "exposicao": 0.678,
+        "boca": 0.0,
+        "parado": 0.9
+      },
+      "total": 0.6583,
+      "laplaciano": 308.4,
+      "olhos_detectados": 1,
+      "abertura_boca": 0.1618,
+      "movimento": 1.7,
+      "rosto": {
+        "x": 416,
+        "y": 450,
+        "w": 692,
+        "h": 692
+      },
+      "arquivo": "cand-01.jpg",
+      "secao": null
+    },
+    {
+      "tempo": 53.82142857142857,
+      "linha": "pausa-capa",
+      "origem": "pausa",
+      "notas": {
+        "nitidez": 0.772,
+        "rosto": 1.0,
+        "centragem": 0.954,
+        "olhos": 0.5,
+        "exposicao": 0.677,
+        "boca": 0.0,
+        "parado": 0.809
+      },
+      "total": 0.653,
+      "laplaciano": 350.6,
+      "olhos_detectados": 1,
+      "abertura_boca": 0.1596,
+      "movimento": 2.15,
+      "rosto": {
+        "x": 410,
+        "y": 440,
+        "w": 708,
+        "h": 708
+      },
+      "arquivo": "cand-02.jpg",
+      "secao": null
+    },
+    {
+      "tempo": 54.67857142857143,
+      "linha": "pausa-capa",
+      "origem": "pausa",
+      "notas": {
+        "nitidez": 0.745,
+        "rosto": 1.0,
+        "centragem": 0.958,
+        "olhos": 0.5,
+        "exposicao": 0.678,
+        "boca": 0.0,
+        "parado": 0.84
+      },
+      "total": 0.6514,
+      "laplaciano": 309.1,
+      "olhos_detectados": 1,
+      "abertura_boca": 0.1743,
+      "movimento": 2.0,
+      "rosto": {
+        "x": 410,
+        "y": 446,
+        "w": 700,
+        "h": 700
+      },
+      "arquivo": "cand-03.jpg",
+      "secao": null
+    },
+    {
+      "tempo": 53.392857142857146,
+      "linha": "pausa-capa",
+      "origem": "pausa",
+      "notas": {
+        "nitidez": 0.771,
+        "rosto": 1.0,
+        "centragem": 0.964,
+        "olhos": 0.5,
+        "exposicao": 0.673,
+        "boca": 0.0,
+        "parado": 0.784
+      },
+      "total": 0.6509,
+      "laplaciano": 348.8,
+      "olhos_detectados": 1,
+      "abertura_boca": 0.1585,
+      "movimento": 2.28,
+      "rosto": {
+        "x": 408,
+        "y": 450,
+        "w": 694,
+        "h": 694
+      },
+      "arquivo": "cand-04.jpg",
+      "secao": null
+    },
+    {
+      "tempo": 54.25,
+      "linha": "pausa-capa",
+      "origem": "pausa",
+      "notas": {
+        "nitidez": 0.743,
+        "rosto": 1.0,
+        "centragem": 0.954,
+        "olhos": 0.5,
+        "exposicao": 0.677,
+        "boca": 0.0,
+        "parado": 0.62
+      },
+      "total": 0.624,
+      "laplaciano": 306.5,
+      "olhos_detectados": 1,
+      "abertura_boca": 0.1638,
+      "movimento": 3.1,
+      "rosto": {
+        "x": 416,
+        "y": 446,
+        "w": 696,
+        "h": 696
+      },
+      "arquivo": "cand-05.jpg",
+      "secao": null
+    },
+    {
+      "tempo": 136.698,
+      "linha": "L29",
+      "origem": "corte",
+      "notas": {
+        "nitidez": 0.631,
+        "rosto": 1.0,
+        "centragem": 0.946,
+        "olhos": 0.0,
+        "exposicao": 0.649,
+        "boca": 0.892,
+        "parado": 0.0
+      },
+      "total": 0.6083,
+      "laplaciano": 182.9,
+      "olhos_detectados": 0,
+      "abertura_boca": 0.0608,
+      "movimento": 7.1,
+      "rosto": {
+        "x": 324,
+        "y": 390,
+        "w": 510,
+        "h": 510
+      },
+      "arquivo": "cand-06.jpg",
+      "secao": "payoff"
+    },
+    {
+      "tempo": 1.386,
+      "linha": "L01",
+      "origem": "corte",
+      "notas": {
+        "nitidez": 0.652,
+        "rosto": 1.0,
+        "centragem": 0.889,
+        "olhos": 0.0,
+        "exposicao": 0.69,
+        "boca": 0.884,
+        "parado": 0.0
+      },
+      "total": 0.6057,
+      "laplaciano": 201.2,
+      "olhos_detectados": 0,
+      "abertura_boca": 0.0616,
+      "movimento": 6.99,
+      "rosto": {
+        "x": 352,
+        "y": 422,
+        "w": 536,
+        "h": 536
+      },
+      "arquivo": "cand-07.jpg",
+      "secao": "hook"
+    },
+    {
+      "tempo": 142.673,
+      "linha": "L29",
+      "origem": "corte",
+      "notas": {
+        "nitidez": 0.599,
+        "rosto": 1.0,
+        "centragem": 0.81,
+        "olhos": 0.0,
+        "exposicao": 0.644,
+        "boca": 1.0,
+        "parado": 0.0
+      },
+      "total": 0.6028,
+      "laplaciano": 157.4,
+      "olhos_detectados": 0,
+      "abertura_boca": 0.04,
+      "movimento": 6.22,
+      "rosto": {
+        "x": 78,
+        "y": 418,
+        "w": 650,
+        "h": 650
+      },
+      "arquivo": "cand-08.jpg",
+      "secao": "payoff"
+    },
+    {
+      "tempo": 1.88,
+      "linha": "L01",
+      "origem": "corte",
+      "notas": {
+        "nitidez": 0.529,
+        "rosto": 1.0,
+        "centragem": 0.914,
+        "olhos": 0.0,
+        "exposicao": 0.655,
+        "boca": 0.989,
+        "parado": 0.0
+      },
+      "total": 0.5994,
+      "laplaciano": 114.5,
+      "olhos_detectados": 0,
+      "abertura_boca": 0.0511,
+      "movimento": 8.66,
+      "rosto": {
+        "x": 318,
+        "y": 416,
+        "w": 568,
+        "h": 568
+      },
+      "arquivo": "cand-09.jpg",
+      "secao": "hook"
+    },
+    {
+      "tempo": 97.547,
+      "linha": "L19",
+      "origem": "corte",
+      "notas": {
+        "nitidez": 0.503,
+        "rosto": 1.0,
+        "centragem": 0.949,
+        "olhos": 0.0,
+        "exposicao": 0.633,
+        "boca": 1.0,
+        "parado": 0.0
+      },
+      "total": 0.5993,
+      "laplaciano": 101.6,
+      "olhos_detectados": 0,
+      "abertura_boca": 0.0418,
+      "movimento": 7.69,
+      "rosto": {
+        "x": 254,
+        "y": 400,
+        "w": 646,
+        "h": 646
+      },
+      "arquivo": "cand-10.jpg",
+      "secao": "payoff"
+    },
+    {
+      "tempo": 126.535,
+      "linha": "L26",
+      "origem": "corte",
+      "notas": {
+        "nitidez": 0.5,
+        "rosto": 1.0,
+        "centragem": 0.881,
+        "olhos": 0.0,
+        "exposicao": 0.67,
+        "boca": 1.0,
+        "parado": 0.0
+      },
+      "total": 0.5913,
+      "laplaciano": 100.2,
+      "olhos_detectados": 0,
+      "abertura_boca": 0.0444,
+      "movimento": 6.83,
+      "rosto": {
+        "x": 184,
+        "y": 400,
+        "w": 540,
+        "h": 540
+      },
+      "arquivo": "cand-11.jpg",
+      "secao": "payoff"
+    },
+    {
+      "tempo": 55.535714285714285,
+      "linha": "pausa-capa",
+      "origem": "pausa",
+      "notas": {
+        "nitidez": 0.744,
+        "rosto": 1.0,
+        "centragem": 0.954,
+        "olhos": 0.0,
+        "exposicao": 0.675,
+        "boca": 0.0,
+        "parado": 0.924
+      },
+      "total": 0.5856,
+      "laplaciano": 307.0,
+      "olhos_detectados": 0,
+      "abertura_boca": 0.1695,
+      "movimento": 1.58,
+      "rosto": {
+        "x": 416,
+        "y": 454,
+        "w": 696,
+        "h": 696
+      },
+      "arquivo": "cand-12.jpg",
+      "secao": null
+    },
+    {
+      "tempo": 0.891,
+      "linha": "L01",
+      "origem": "corte",
+      "notas": {
+        "nitidez": 0.628,
+        "rosto": 1.0,
+        "centragem": 0.965,
+        "olhos": 0.0,
+        "exposicao": 0.641,
+        "boca": 0.689,
+        "parado": 0.0
+      },
+      "total": 0.5733,
+      "laplaciano": 180.4,
+      "olhos_detectados": 0,
+      "abertura_boca": 0.0811,
+      "movimento": 9.67,
+      "rosto": {
+        "x": 306,
+        "y": 412,
+        "w": 518,
+        "h": 518
+      },
+      "arquivo": "cand-13.jpg",
+      "secao": "hook"
+    },
+    {
+      "tempo": 10.389,
+      "linha": "L03",
+      "origem": "corte",
+      "notas": {
+        "nitidez": 0.447,
+        "rosto": 1.0,
+        "centragem": 0.992,
+        "olhos": 0.0,
+        "exposicao": 0.666,
+        "boca": 0.797,
+        "parado": 0.0
+      },
+      "total": 0.5574,
+      "laplaciano": 78.4,
+      "olhos_detectados": 0,
+      "abertura_boca": 0.0703,
+      "movimento": 7.56,
+      "rosto": {
+        "x": 226,
+        "y": 328,
+        "w": 640,
+        "h": 640
+      },
+      "arquivo": "cand-14.jpg",
+      "secao": "hook"
+    }
+  ]
+}

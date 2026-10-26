@@ -1,0 +1,38 @@
+{
+  "slug": "2026-10-20-fei-fei-li",
+  "publicar_em": "2026-10-18T19:00:00+01:00",
+  "plataformas": [
+    "instagram",
+    "facebook"
+  ],
+  "estado": "publicado",
+  "confirmar": false,
+  "instagram": {
+    "legenda_arquivo": "legenda-instagram.txt",
+    "capa": "capa/capa.png",
+    "share_to_feed": true,
+    "trial": {
+      "graduation_strategy": "MANUAL"
+    },
+    "container_id": "18638648503014052",
+    "media_id": "17926070661200224",
+    "permalink": "https://www.instagram.com/reel/DepSlbLADfM/"
+  },
+  "facebook": {
+    "legenda_arquivo": "legenda-facebook.txt",
+    "tipo": "video",
+    "video_id": "1636967341113142",
+    "permalink": "https://www.facebook.com/reel/1636967341113142/"
+  },
+  "material": {
+    "palavra": "AULA",
+    "arquivo": "material/palestra-fei-fei-li-ted2015.pdf",
+    "titulo": "o link da palestra da Fei-Fei Li",
+    "url": "https://media.korvuai.com/reels/2026-10-20-fei-fei-li/material/palestra-fei-fei-li-ted2015.pdf"
+  },
+  "publicado_em": "2026-10-18T19:14:09+01:00",
+  "erros": [],
+  "notas": [
+    "17/10: par A/B (docs/decisoes.md §5b) — esta é a B (conteúdo primeiro, C5); trial MANUAL; a A (Carlos desde 0, só IG) sai ≥ 24 h depois"
+  ]
+}

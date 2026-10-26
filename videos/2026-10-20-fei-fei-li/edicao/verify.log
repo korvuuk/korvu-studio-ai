@@ -1,0 +1,39 @@
+[verify] transcrevendo edicao/corte.mp4 com scribe...
+   L01   presente                     WER 22.2%
+   L02   presente                     WER 10.0%
+   L03   presente                     WER 0.0%
+   L04   presente                     WER 27.3%
+   L05   presente                     WER 0.0%
+   L06   presente                     WER 64.7%
+   L07   presente                     WER 0.0%
+   L08   presente                     WER 63.6%
+   L09   presente                     WER 28.6%
+   L10   presente                     WER 55.6%
+   L11   presente                     WER 0.0%
+   L12   presente                     WER 42.9%
+   L13   presente                     WER 0.0%
+   L14   presente                     WER 36.8%
+   L15   presente                     WER 40.0%
+   L16   presente                     WER 0.0%
+   L17   presente                     WER 14.3%
+   L18   presente                     WER 16.7%
+   L19   presente                     WER 30.0%
+   L20   presente                     WER 0.0%
+   L21   presente                     WER 0.0%
+   L22   presente                     WER 27.8%
+   L23   presente                     WER 25.0%
+   L24   presente                     WER 25.0%
+   L25   presente                     WER 25.0%
+   L26   presente                     WER 18.2%
+   L27   presente                     WER 0.0%
+   L28   presente                     WER 60.0%
+   L29   presente                     WER 21.1%
+   L30   presente                     WER 0.0%
+   L31   presente                     WER 7.7%
+   L32   presente                     WER 100.0%
+   L33   presente                     WER 28.6%
+   L34   presente                     WER 0.0%
+[verify] FALHOU · WER geral 27.0% · vídeo 168.400s / áudio 168.440s (Δ 40.0 ms) · extras 1 · voz da IA 2.78s (EDL 0.00s) -> qa/diff.md
+   motivo: 2.78s de voz da IA detectados no áudio do corte (limite 0.2s)
+   motivo: WER geral 27.0% > 8%
+exit 1

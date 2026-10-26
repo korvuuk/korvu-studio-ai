@@ -1,0 +1,3083 @@
+{
+  "linhas": [
+    {
+      "id": "L01",
+      "status": "ok",
+      "escolhido": "L01-T1",
+      "motivo": "último take limpo (sim 0.82); muleta cortada internamente",
+      "takes": [
+        {
+          "take_id": "L01-T1",
+          "fonte": "praq0987",
+          "i_ini": 47,
+          "i_fim": 57,
+          "inicio": 83.34,
+          "fim": 88.3,
+          "sim": 0.818,
+          "cobertura": 1.0,
+          "flags": [
+            "muleta"
+          ],
+          "score": 0.896,
+          "texto": "Imagina chegar adolescente num país novo e sem falar o inglês.",
+          "prefixo": 0.818,
+          "conf": 1.0,
+          "muletas": [
+            53
+          ],
+          "pausas": []
+        }
+      ],
+      "leituras_ia": [
+        {
+          "fonte": "praq0987",
+          "inicio": 64.459,
+          "fim": 68.715,
+          "sim": 1.0,
+          "texto": "Imagina chegar adolescente num país novo sem falar inglês."
+        },
+        {
+          "fonte": "praq0987",
+          "inicio": 77.14,
+          "fim": 81.385,
+          "sim": 1.0,
+          "texto": "Imagina chegar adolescente num país novo sem falar inglês."
+        }
+      ]
+    },
+    {
+      "id": "L02",
+      "status": "ok",
+      "escolhido": "L02-T1",
+      "motivo": "último take limpo (sim 1.00)",
+      "takes": [
+        {
+          "take_id": "L02-T1",
+          "fonte": "praq0987",
+          "i_ini": 69,
+          "i_fim": 78,
+          "inicio": 95.5,
+          "fim": 98.755,
+          "sim": 1.0,
+          "cobertura": 1.0,
+          "flags": [],
+          "score": 0.999,
+          "texto": "E anos depois, ajudar as máquinas a enxergar o mundo.",
+          "prefixo": 1.0,
+          "conf": 0.985,
+          "muletas": [],
+          "pausas": []
+        }
+      ],
+      "leituras_ia": [
+        {
+          "fonte": "praq0987",
+          "inicio": 90.78,
+          "fim": 94.175,
+          "sim": 1.0,
+          "texto": "E anos depois, ajudar as máquinas a enxergar o mundo."
+        }
+      ]
+    },
+    {
+      "id": "L03",
+      "status": "ok",
+      "escolhido": "L03-T2",
+      "motivo": "último take limpo (sim 1.00)",
+      "takes": [
+        {
+          "take_id": "L03-T1",
+          "fonte": "praq0987",
+          "i_ini": 87,
+          "i_fim": 93,
+          "inicio": 104.86,
+          "fim": 107.02,
+          "sim": 0.857,
+          "cobertura": 0.857,
+          "flags": [],
+          "score": 0.8,
+          "texto": "Essa é a história do Fei-Fei Li.",
+          "prefixo": 0.857,
+          "conf": 1.0,
+          "muletas": [],
+          "pausas": []
+        },
+        {
+          "take_id": "L03-T2",
+          "fonte": "praq0987",
+          "i_ini": 106,
+          "i_fim": 112,
+          "inicio": 117.38,
+          "fim": 119.54,
+          "sim": 1.0,
+          "cobertura": 1.0,
+          "flags": [],
+          "score": 1.0,
+          "texto": "Essa é a história da Fei-Fei Li.",
+          "prefixo": 1.0,
+          "conf": 1.0,
+          "muletas": [],
+          "pausas": []
+        }
+      ],
+      "leituras_ia": [
+        {
+          "fonte": "praq0987",
+          "inicio": 101.3,
+          "fim": 103.58,
+          "sim": 1.0,
+          "texto": "Essa é a história da Fei-Fei Li."
+        }
+      ]
+    },
+    {
+      "id": "L04",
+      "status": "ok",
+      "escolhido": "L04-T1",
+      "motivo": "último take limpo (sim 0.83); muleta cortada internamente, pausa interna encurtada",
+      "takes": [
+        {
+          "take_id": "L04-T1",
+          "fonte": "praq0987",
+          "i_ini": 126,
+          "i_fim": 137,
+          "inicio": 130.259,
+          "fim": 135.945,
+          "sim": 0.833,
+          "cobertura": 0.909,
+          "flags": [
+            "muleta",
+            "pausa_interna"
+          ],
+          "score": 0.883,
+          "texto": "Ela nasceu na China e chegou nos Estados Unido e ainda adolescente.",
+          "prefixo": 0.833,
+          "conf": 0.99,
+          "muletas": [
+            135
+          ],
+          "pausas": [
+            [
+              131.64,
+              132.58
+            ]
+          ]
+        }
+      ],
+      "leituras_ia": [
+        {
+          "fonte": "praq0987",
+          "inicio": 111.14,
+          "fim": 115.985,
+          "sim": 1.0,
+          "texto": "Ela nasceu na China e chegou aos Estados Unidos ainda adolescente."
+        },
+        {
+          "fonte": "praq0987",
+          "inicio": 123.74,
+          "fim": 128.615,
+          "sim": 1.0,
+          "texto": "Ela nasceu na China e chegou aos Estados Unidos ainda adolescente."
+        }
+      ]
+    },
+    {
+      "id": "L05",
+      "status": "ok",
+      "escolhido": "L05-T1",
+      "motivo": "último take limpo (sim 1.00)",
+      "takes": [
+        {
+          "take_id": "L05-T1",
+          "fonte": "praq0987",
+          "i_ini": 146,
+          "i_fim": 151,
+          "inicio": 145.8,
+          "fim": 148.8,
+          "sim": 1.0,
+          "cobertura": 1.0,
+          "flags": [],
+          "score": 1.0,
+          "texto": "os pais praticamente não falavam inglês.",
+          "prefixo": 1.0,
+          "conf": 1.0,
+          "muletas": [],
+          "pausas": []
+        }
+      ],
+      "leituras_ia": [
+        {
+          "fonte": "praq0987",
+          "inicio": 138.48,
+          "fim": 140.835,
+          "sim": 1.0,
+          "texto": "Os pais praticamente não falavam inglês."
+        }
+      ]
+    },
+    {
+      "id": "L06",
+      "status": "parafrase",
+      "escolhido": "L06-T2",
+      "motivo": "paráfrase: melhor sim 0.50 (score 0.65)",
+      "takes": [
+        {
+          "take_id": "L06-T1",
+          "fonte": "praq0987",
+          "i_ini": 171,
+          "i_fim": 184,
+          "inicio": 172.34,
+          "fim": 178.56,
+          "sim": 0.529,
+          "cobertura": 0.647,
+          "flags": [
+            "muleta",
+            "pausa_interna",
+            "final_cortado"
+          ],
+          "score": 0.566,
+          "texto": "Então, na lavanderia da família, ela é que atendia telefone e até falava com",
+          "prefixo": 0.5,
+          "conf": 0.997,
+          "muletas": [
+            177
+          ],
+          "pausas": [
+            [
+              174.24,
+              175.02
+            ]
+          ]
+        },
+        {
+          "take_id": "L06-T2",
+          "fonte": "praq0987",
+          "i_ini": 207,
+          "i_fim": 224,
+          "inicio": 202.9,
+          "fim": 212.18,
+          "sim": 0.5,
+          "cobertura": 0.588,
+          "flags": [
+            "muleta",
+            "pausa_interna"
+          ],
+          "score": 0.646,
+          "texto": "Então, na lavanderia da família, ela atendia os telefone e fazia as cobranças e até atendia os fiscais.",
+          "prefixo": 0.5,
+          "conf": 0.985,
+          "muletas": [
+            216
+          ],
+          "pausas": [
+            [
+              205.12,
+              205.92
+            ],
+            [
+              207.74,
+              208.64
+            ]
+          ]
+        }
+      ],
+      "leituras_ia": [
+        {
+          "fonte": "praq0987",
+          "inicio": 152.96,
+          "fim": 162.715,
+          "sim": 0.944,
+          "texto": "Então, na lavanderia da família, quem atendia o telefone resolvia a cobrança e até falava com o fiscal."
+        },
+        {
+          "fonte": "praq0987",
+          "inicio": 181.9,
+          "fim": 191.625,
+          "sim": 0.944,
+          "texto": "Então, na lavanderia da família, quem atendia o telefone resolvia a cobrança e até falava com o fiscal."
+        }
+      ]
+    },
+    {
+      "id": "L07",
+      "status": "ok",
+      "escolhido": "L07-T1",
+      "motivo": "último take limpo (sim 1.00)",
+      "takes": [
+        {
+          "take_id": "L07-T1",
+          "fonte": "praq0987",
+          "i_ini": 227,
+          "i_fim": 227,
+          "inicio": 219.0,
+          "fim": 219.32,
+          "sim": 1.0,
+          "cobertura": 1.0,
+          "flags": [],
+          "score": 1.0,
+          "texto": "Ela.",
+          "prefixo": 1.0,
+          "conf": 1.0,
+          "muletas": [],
+          "pausas": []
+        }
+      ],
+      "leituras_ia": [
+        {
+          "fonte": "praq0987",
+          "inicio": 214.82,
+          "fim": 214.975,
+          "sim": 1.0,
+          "texto": "Ela."
+        }
+      ]
+    },
+    {
+      "id": "L08",
+      "status": "parafrase",
+      "escolhido": "L08-T1",
+      "motivo": "paráfrase: melhor sim 0.60 (score 0.74)",
+      "takes": [
+        {
+          "take_id": "L08-T1",
+          "fonte": "praq0987",
+          "i_ini": 240,
+          "i_fim": 254,
+          "inicio": 227.22,
+          "fim": 232.165,
+          "sim": 0.6,
+          "cobertura": 0.818,
+          "flags": [
+            "muleta",
+            "pausa_interna",
+            "sem_ancora"
+          ],
+          "score": 0.743,
+          "texto": "E foi assim, ela contou que foi assim que ela ajudou a pagar as faculdade.",
+          "prefixo": 0.6,
+          "conf": 0.999,
+          "muletas": [
+            247
+          ],
+          "pausas": [
+            [
+              227.98,
+              228.86
+            ]
+          ]
+        }
+      ],
+      "leituras_ia": [
+        {
+          "fonte": "praq0987",
+          "inicio": 221.84,
+          "fim": 225.775,
+          "sim": 1.0,
+          "texto": "E foi assim, ela conta que ajudou a pagar a faculdade."
+        }
+      ]
+    },
+    {
+      "id": "L09",
+      "status": "parafrase",
+      "escolhido": "L09-T2",
+      "motivo": "paráfrase: melhor sim 0.77 (score 0.86)",
+      "takes": [
+        {
+          "take_id": "L09-T1",
+          "fonte": "praq0987",
+          "i_ini": 306,
+          "i_fim": 322,
+          "inicio": 293.52,
+          "fim": 300.245,
+          "sim": 0.765,
+          "cobertura": 0.929,
+          "flags": [
+            "muleta",
+            "pausa_interna"
+          ],
+          "score": 0.75,
+          "texto": "Fei-Fei estudou Física em Princeton e foi aí que ela entrou para o mundo da inteligência artificial.",
+          "prefixo": 0.765,
+          "conf": 0.999,
+          "muletas": [
+            313
+          ],
+          "pausas": [
+            [
+              295.82,
+              296.94
+            ]
+          ]
+        },
+        {
+          "take_id": "L09-T2",
+          "fonte": "praq0987",
+          "i_ini": 334,
+          "i_fim": 350,
+          "inicio": 313.68,
+          "fim": 320.195,
+          "sim": 0.765,
+          "cobertura": 0.929,
+          "flags": [
+            "muleta"
+          ],
+          "score": 0.856,
+          "texto": "Fei-Fei estudou Física em Princeton e foi aí que ela entrou para o mundo da inteligência artificial.",
+          "prefixo": 0.765,
+          "conf": 1.0,
+          "muletas": [
+            341
+          ],
+          "pausas": []
+        }
+      ],
+      "leituras_ia": [
+        {
+          "fonte": "praq0987",
+          "inicio": 234.775,
+          "fim": 241.175,
+          "sim": 1.0,
+          "texto": "Fei-Fei estudou Física em Princeton e depois entrou para o mundo da inteligência artificial."
+        },
+        {
+          "fonte": "praq0987",
+          "inicio": 264.405,
+          "fim": 270.735,
+          "sim": 1.0,
+          "texto": "Fei-Fei estudou Física em Princeton e depois entrou para o mundo da inteligência artificial."
+        }
+      ]
+    },
+    {
+      "id": "L10",
+      "status": "parafrase",
+      "escolhido": "L10-T1",
+      "motivo": "paráfrase: melhor sim 0.70 (score 0.80)",
+      "takes": [
+        {
+          "take_id": "L10-T1",
+          "fonte": "praq0987",
+          "i_ini": 365,
+          "i_fim": 374,
+          "inicio": 330.16,
+          "fim": 334.78,
+          "sim": 0.7,
+          "cobertura": 0.778,
+          "flags": [],
+          "score": 0.8,
+          "texto": "daí, ela começou a pensar em uma coisa muito simples.",
+          "prefixo": 0.7,
+          "conf": 0.981,
+          "muletas": [],
+          "pausas": []
+        }
+      ],
+      "leituras_ia": [
+        {
+          "fonte": "praq0987",
+          "inicio": 277.8,
+          "fim": 280.745,
+          "sim": 1.0,
+          "texto": "E ela começou a pensar numa coisa muito simples."
+        },
+        {
+          "fonte": "praq0987",
+          "inicio": 302.96,
+          "fim": 305.955,
+          "sim": 1.0,
+          "texto": "E ela começou a pensar numa coisa muito simples."
+        },
+        {
+          "fonte": "praq0987",
+          "inicio": 323.18,
+          "fim": 326.105,
+          "sim": 1.0,
+          "texto": "E ela começou a pensar numa coisa muito simples."
+        }
+      ]
+    },
+    {
+      "id": "L11",
+      "status": "ok",
+      "escolhido": "L11-T6",
+      "motivo": "último take limpo (sim 1.00); pausa interna encurtada",
+      "takes": [
+        {
+          "take_id": "L11-T1",
+          "fonte": "praq0987",
+          "i_ini": 387,
+          "i_fim": 399,
+          "inicio": 346.14,
+          "fim": 352.675,
+          "sim": 0.462,
+          "cobertura": 0.545,
+          "flags": [
+            "pausa_interna",
+            "final_cortado"
+          ],
+          "score": 0.518,
+          "texto": "Uma criança aprendeu ou aprende a ler o mundo através do simples imagem.",
+          "prefixo": 0.462,
+          "conf": 1.0,
+          "muletas": [],
+          "pausas": [
+            [
+              347.06,
+              347.82
+            ]
+          ]
+        },
+        {
+          "take_id": "L11-T2",
+          "fonte": "praq0987",
+          "i_ini": 413,
+          "i_fim": 424,
+          "inicio": 365.18,
+          "fim": 370.74,
+          "sim": 0.75,
+          "cobertura": 0.818,
+          "flags": [],
+          "score": 0.755,
+          "texto": "Uma criança aprendeu a reconhecer o mundo através de milhares de exemplos.",
+          "prefixo": 0.75,
+          "conf": 0.994,
+          "muletas": [],
+          "pausas": []
+        },
+        {
+          "take_id": "L11-T3",
+          "fonte": "praq0987",
+          "i_ini": 433,
+          "i_fim": 444,
+          "inicio": 391.82,
+          "fim": 399.2,
+          "sim": 0.75,
+          "cobertura": 0.818,
+          "flags": [
+            "pausa_interna"
+          ],
+          "score": 0.769,
+          "texto": "Uma criança aprende a reconhecer o mundo através de milhões de imagens.",
+          "prefixo": 0.75,
+          "conf": 1.0,
+          "muletas": [],
+          "pausas": [
+            [
+              395.44,
+              396.46
+            ]
+          ]
+        },
+        {
+          "take_id": "L11-T4",
+          "fonte": "praq0987",
+          "i_ini": 454,
+          "i_fim": 465,
+          "inicio": 447.66,
+          "fim": 455.1,
+          "sim": 0.833,
+          "cobertura": 0.909,
+          "flags": [
+            "pausa_interna",
+            "fala_ia_interna"
+          ],
+          "score": 0.842,
+          "texto": "Uma criança aprende a reconhecer o mundo através de milhões de exemplos.",
+          "prefixo": 0.833,
+          "conf": 0.991,
+          "muletas": [],
+          "pausas": [
+            [
+              448.52,
+              449.22
+            ],
+            [
+              451.62,
+              452.7
+            ]
+          ]
+        },
+        {
+          "take_id": "L11-T5",
+          "fonte": "praq0987",
+          "i_ini": 466,
+          "i_fim": 476,
+          "inicio": 462.06,
+          "fim": 468.095,
+          "sim": 1.0,
+          "cobertura": 1.0,
+          "flags": [],
+          "score": 0.98,
+          "texto": "Uma criança aprende a reconhecer o mundo vendo milhões de exemplos.",
+          "prefixo": 1.0,
+          "conf": 1.0,
+          "muletas": [],
+          "pausas": []
+        },
+        {
+          "take_id": "L11-T6",
+          "fonte": "praq0987",
+          "i_ini": 477,
+          "i_fim": 487,
+          "inicio": 475.9,
+          "fim": 483.58,
+          "sim": 1.0,
+          "cobertura": 1.0,
+          "flags": [
+            "pausa_interna"
+          ],
+          "score": 0.982,
+          "texto": "Uma criança aprende a reconhecer o mundo vendo milhões de exemplos.",
+          "prefixo": 1.0,
+          "conf": 1.0,
+          "muletas": [],
+          "pausas": [
+            [
+              478.82,
+              479.6
+            ],
+            [
+              479.94,
+              480.98
+            ],
+            [
+              481.66,
+              482.6
+            ]
+          ]
+        }
+      ],
+      "leituras_ia": [
+        {
+          "fonte": "praq0987",
+          "inicio": 338.72,
+          "fim": 343.455,
+          "sim": 1.0,
+          "texto": "Uma criança aprende a reconhecer o mundo vendo milhões de exemplos."
+        },
+        {
+          "fonte": "praq0987",
+          "inicio": 355.56,
+          "fim": 360.12,
+          "sim": 1.0,
+          "texto": "Uma criança aprende a reconhecer o mundo vendo milhões de exemplos"
+        }
+      ]
+    },
+    {
+      "id": "L12",
+      "status": "parafrase",
+      "escolhido": "L12-T2",
+      "motivo": "paráfrase: melhor sim 0.67 (score 0.79)",
+      "takes": [
+        {
+          "take_id": "L12-T1",
+          "fonte": "praq0987",
+          "i_ini": 535,
+          "i_fim": 543,
+          "inicio": 545.5,
+          "fim": 549.695,
+          "sim": 0.556,
+          "cobertura": 0.714,
+          "flags": [],
+          "score": 0.613,
+          "texto": "Então, por que que o computador deveria ser diferente?",
+          "prefixo": 0.556,
+          "conf": 1.0,
+          "muletas": [],
+          "pausas": []
+        },
+        {
+          "take_id": "L12-T2",
+          "fonte": "praq0987",
+          "i_ini": 544,
+          "i_fim": 552,
+          "inicio": 563.56,
+          "fim": 567.675,
+          "sim": 0.667,
+          "cobertura": 0.857,
+          "flags": [
+            "pausa_interna"
+          ],
+          "score": 0.789,
+          "texto": "Então, por que que um computador deveria ser diferente?",
+          "prefixo": 0.667,
+          "conf": 1.0,
+          "muletas": [],
+          "pausas": [
+            [
+              564.76,
+              565.48
+            ]
+          ]
+        }
+      ],
+      "leituras_ia": [
+        {
+          "fonte": "praq0987",
+          "inicio": 375.26,
+          "fim": 378.445,
+          "sim": 1.0,
+          "texto": "Então por que um computador seria diferente?"
+        },
+        {
+          "fonte": "praq0987",
+          "inicio": 402.52,
+          "fim": 405.775,
+          "sim": 1.0,
+          "texto": "Então por que um computador seria diferente?"
+        }
+      ]
+    },
+    {
+      "id": "L13",
+      "status": "ok",
+      "escolhido": "L13-T3",
+      "motivo": "último take limpo (sim 1.00)",
+      "takes": [
+        {
+          "take_id": "L13-T1",
+          "fonte": "praq0987",
+          "i_ini": 576,
+          "i_fim": 582,
+          "inicio": 590.34,
+          "fim": 594.04,
+          "sim": 0.75,
+          "cobertura": 0.909,
+          "flags": [
+            "muleta"
+          ],
+          "score": 0.745,
+          "texto": "Em 2027, ela começou um projeto chamado...",
+          "prefixo": 0.75,
+          "conf": 1.0,
+          "muletas": [
+            577
+          ],
+          "pausas": []
+        },
+        {
+          "take_id": "L13-T2",
+          "fonte": "praq0987",
+          "i_ini": 603,
+          "i_fim": 609,
+          "inicio": 614.28,
+          "fim": 617.88,
+          "sim": 0.909,
+          "cobertura": 0.909,
+          "flags": [],
+          "score": 0.886,
+          "texto": "Em 2007, ela começou um projeto chamado",
+          "prefixo": 1.0,
+          "conf": 1.0,
+          "muletas": [],
+          "pausas": []
+        },
+        {
+          "take_id": "L13-T3",
+          "fonte": "praq0987",
+          "i_ini": 611,
+          "i_fim": 618,
+          "inicio": 632.72,
+          "fim": 637.18,
+          "sim": 1.0,
+          "cobertura": 1.0,
+          "flags": [],
+          "score": 1.0,
+          "texto": "Em 2007, ela começou um projeto chamado ImageNet.",
+          "prefixo": 1.0,
+          "conf": 1.0,
+          "muletas": [],
+          "pausas": []
+        }
+      ],
+      "leituras_ia": [
+        {
+          "fonte": "praq0987",
+          "inicio": 570.82,
+          "fim": 575.535,
+          "sim": 1.0,
+          "texto": "Em 2007, ela começou um projeto chamado ImageNet."
+        },
+        {
+          "fonte": "praq0987",
+          "inicio": 584.1,
+          "fim": 588.8,
+          "sim": 1.0,
+          "texto": "Em 2007, ela começou um projeto chamado ImageNet."
+        }
+      ]
+    },
+    {
+      "id": "L14",
+      "status": "parafrase",
+      "escolhido": "L14-T3",
+      "motivo": "paráfrase: melhor sim 0.55 (score 0.69)",
+      "takes": [
+        {
+          "take_id": "L14-T1",
+          "fonte": "praq0987",
+          "i_ini": 619,
+          "i_fim": 628,
+          "inicio": 654.0,
+          "fim": 659.1,
+          "sim": 0.421,
+          "cobertura": 0.421,
+          "flags": [
+            "final_cortado"
+          ],
+          "score": 0.483,
+          "texto": "A ideia era reunir milhões de imagens e passar para",
+          "prefixo": 0.8,
+          "conf": 1.0,
+          "muletas": [],
+          "pausas": []
+        },
+        {
+          "take_id": "L14-T2",
+          "fonte": "praq0987",
+          "i_ini": 635,
+          "i_fim": 637,
+          "inicio": 704.04,
+          "fim": 705.66,
+          "sim": 0.158,
+          "cobertura": 0.158,
+          "flags": [
+            "false_start"
+          ],
+          "score": 0.349,
+          "texto": "A ideia era-",
+          "prefixo": 1.0,
+          "conf": 1.0,
+          "muletas": [],
+          "pausas": []
+        },
+        {
+          "take_id": "L14-T3",
+          "fonte": "praq0987",
+          "i_ini": 659,
+          "i_fim": 678,
+          "inicio": 720.22,
+          "fim": 730.36,
+          "sim": 0.55,
+          "cobertura": 0.632,
+          "flags": [
+            "pausa_interna"
+          ],
+          "score": 0.687,
+          "texto": "A ideia era reunir milhões de imagem e passar para o com-- para o computador reconhecer exatamente cada uma delas",
+          "prefixo": 0.55,
+          "conf": 0.959,
+          "muletas": [],
+          "pausas": [
+            [
+              727.18,
+              727.98
+            ]
+          ]
+        }
+      ],
+      "leituras_ia": [
+        {
+          "fonte": "praq0987",
+          "inicio": 598.22,
+          "fim": 605.985,
+          "sim": 1.0,
+          "texto": "A ideia era reunir milhões de imagens e dizer ao computador exatamente o que aparecia em cada uma delas."
+        },
+        {
+          "fonte": "praq0987",
+          "inicio": 708.62,
+          "fim": 716.475,
+          "sim": 1.0,
+          "texto": "A ideia era reunir milhões de imagens e dizer ao computador exatamente o que aparecia em cada uma delas"
+        }
+      ]
+    },
+    {
+      "id": "L15",
+      "status": "parafrase",
+      "escolhido": "L15-T4",
+      "motivo": "paráfrase: melhor sim 0.67 (score 0.79)",
+      "takes": [
+        {
+          "take_id": "L15-T1",
+          "fonte": "praq0987",
+          "i_ini": 692,
+          "i_fim": 702,
+          "inicio": 745.09,
+          "fim": 751.79,
+          "sim": 0.6,
+          "cobertura": 0.6,
+          "flags": [
+            "pausa_interna",
+            "sem_ancora"
+          ],
+          "score": 0.614,
+          "texto": "Segundo ela, 50 mil pessoas ajudaram ela a reorganizar essas imagem.",
+          "prefixo": 0.545,
+          "conf": 0.996,
+          "muletas": [],
+          "pausas": [
+            [
+              745.89,
+              746.99
+            ]
+          ]
+        },
+        {
+          "take_id": "L15-T2",
+          "fonte": "praq0987",
+          "i_ini": 720,
+          "i_fim": 731,
+          "inicio": 768.71,
+          "fim": 776.03,
+          "sim": 0.733,
+          "cobertura": 0.733,
+          "flags": [
+            "pausa_interna",
+            "sem_ancora"
+          ],
+          "score": 0.74,
+          "texto": "Segundo ela, 50 mil pessoas ajudaram pela internet a organizaram essas imagem",
+          "prefixo": 0.75,
+          "conf": 0.991,
+          "muletas": [],
+          "pausas": [
+            [
+              769.45,
+              770.23
+            ]
+          ]
+        },
+        {
+          "take_id": "L15-T3",
+          "fonte": "praq0987",
+          "i_ini": 743,
+          "i_fim": 755,
+          "inicio": 796.17,
+          "fim": 803.31,
+          "sim": 0.533,
+          "cobertura": 0.667,
+          "flags": [
+            "pausa_interna"
+          ],
+          "score": 0.654,
+          "texto": "Segundo ela, mais de 50 mil pessoas pela internet ajudaram a organizar essas",
+          "prefixo": 0.538,
+          "conf": 1.0,
+          "muletas": [],
+          "pausas": [
+            [
+              796.91,
+              797.85
+            ]
+          ]
+        },
+        {
+          "take_id": "L15-T4",
+          "fonte": "praq0987",
+          "i_ini": 762,
+          "i_fim": 779,
+          "inicio": 822.89,
+          "fim": 833.525,
+          "sim": 0.667,
+          "cobertura": 0.867,
+          "flags": [
+            "pausa_interna"
+          ],
+          "score": 0.785,
+          "texto": "Segundo ela, mais de 50 mil pessoas pela internet ajudaram a organizar e identificar cada uma dessas imagens.",
+          "prefixo": 0.667,
+          "conf": 1.0,
+          "muletas": [],
+          "pausas": [
+            [
+              823.81,
+              824.61
+            ],
+            [
+              827.19,
+              828.07
+            ]
+          ]
+        }
+      ],
+      "leituras_ia": [
+        {
+          "fonte": "praq0987",
+          "inicio": 756.45,
+          "fim": 764.685,
+          "sim": 1.0,
+          "texto": "Segundo ela, quase 50 mil pessoas ajudaram pela internet a organizar e identificar essas imagens."
+        }
+      ]
+    },
+    {
+      "id": "L16",
+      "status": "ok",
+      "escolhido": "L16-T1",
+      "motivo": "último take limpo (sim 1.00)",
+      "takes": [
+        {
+          "take_id": "L16-T1",
+          "fonte": "praq0987",
+          "i_ini": 793,
+          "i_fim": 797,
+          "inicio": 859.99,
+          "fim": 862.13,
+          "sim": 1.0,
+          "cobertura": 1.0,
+          "flags": [],
+          "score": 1.0,
+          "texto": "E sabe o mais curioso?",
+          "prefixo": 1.0,
+          "conf": 1.0,
+          "muletas": [],
+          "pausas": []
+        }
+      ],
+      "leituras_ia": [
+        {
+          "fonte": "praq0987",
+          "inicio": 781.295,
+          "fim": 782.59,
+          "sim": 1.0,
+          "texto": "E sabe o mais curioso?"
+        }
+      ]
+    },
+    {
+      "id": "L17",
+      "status": "ok",
+      "escolhido": "L17-T1",
+      "motivo": "último take limpo (sim 0.88)",
+      "takes": [
+        {
+          "take_id": "L17-T1",
+          "fonte": "praq0987",
+          "i_ini": 807,
+          "i_fim": 814,
+          "inicio": 872.77,
+          "fim": 877.93,
+          "sim": 0.875,
+          "cobertura": 1.0,
+          "flags": [],
+          "score": 0.931,
+          "texto": "Ela disponibilizou tudo de graça para os pesquisadores.",
+          "prefixo": 0.875,
+          "conf": 1.0,
+          "muletas": [],
+          "pausas": []
+        }
+      ],
+      "leituras_ia": [
+        {
+          "fonte": "praq0987",
+          "inicio": 849.97,
+          "fim": 853.745,
+          "sim": 1.0,
+          "texto": "Ela disponibilizou tudo de graça para pesquisadores."
+        },
+        {
+          "fonte": "praq0987",
+          "inicio": 866.71,
+          "fim": 870.485,
+          "sim": 1.0,
+          "texto": "Ela disponibilizou tudo de graça para pesquisadores."
+        }
+      ]
+    },
+    {
+      "id": "L18",
+      "status": "ok",
+      "escolhido": "L18-T1",
+      "motivo": "último take limpo (sim 0.86)",
+      "takes": [
+        {
+          "take_id": "L18-T1",
+          "fonte": "praq0987",
+          "i_ini": 819,
+          "i_fim": 822,
+          "inicio": 885.39,
+          "fim": 887.89,
+          "sim": 0.857,
+          "cobertura": 1.0,
+          "flags": [],
+          "score": 0.921,
+          "texto": "Aí chega o 2012.",
+          "prefixo": 0.857,
+          "conf": 1.0,
+          "muletas": [],
+          "pausas": []
+        }
+      ],
+      "leituras_ia": [
+        {
+          "fonte": "praq0987",
+          "inicio": 880.77,
+          "fim": 882.135,
+          "sim": 1.0,
+          "texto": "Aí chega 2012."
+        }
+      ]
+    },
+    {
+      "id": "L19",
+      "status": "ok",
+      "escolhido": "L19-T2",
+      "motivo": "último take limpo (sim 0.81); muleta cortada internamente, pausa interna encurtada",
+      "takes": [
+        {
+          "take_id": "L19-T1",
+          "fonte": "praq0987",
+          "i_ini": 844,
+          "i_fim": 860,
+          "inicio": 928.93,
+          "fim": 938.33,
+          "sim": 0.55,
+          "cobertura": 0.55,
+          "flags": [
+            "muleta",
+            "final_cortado"
+          ],
+          "score": 0.569,
+          "texto": "Um grupo de universidade em Toronto utilizaram a ImageNet para treinar uma rede neurais para identificação de",
+          "prefixo": 0.647,
+          "conf": 0.997,
+          "muletas": [
+            851
+          ],
+          "pausas": []
+        },
+        {
+          "take_id": "L19-T2",
+          "fonte": "praq0987",
+          "i_ini": 862,
+          "i_fim": 882,
+          "inicio": 948.85,
+          "fim": 961.53,
+          "sim": 0.81,
+          "cobertura": 0.85,
+          "flags": [
+            "muleta",
+            "pausa_interna"
+          ],
+          "score": 0.784,
+          "texto": "Um grupo da Universidade de Toronto utilizaram a ImageNet para treinar uma rede neurais em uma competição de reconhecimento de imagens.",
+          "prefixo": 0.81,
+          "conf": 1.0,
+          "muletas": [
+            869
+          ],
+          "pausas": [
+            [
+              951.31,
+              952.05
+            ],
+            [
+              953.87,
+              954.67
+            ],
+            [
+              957.09,
+              957.87
+            ]
+          ]
+        },
+        {
+          "take_id": "L19-T3",
+          "fonte": "praq0987",
+          "i_ini": 883,
+          "i_fim": 893,
+          "inicio": 975.41,
+          "fim": 982.235,
+          "sim": 0.45,
+          "cobertura": 0.45,
+          "flags": [
+            "muleta",
+            "pausa_interna",
+            "final_cortado"
+          ],
+          "score": 0.552,
+          "texto": "Um grupo da Universidade de Toronto usou a ImageNet para treinar...",
+          "prefixo": 0.818,
+          "conf": 0.987,
+          "muletas": [
+            890
+          ],
+          "pausas": [
+            [
+              977.83,
+              979.15
+            ],
+            [
+              980.57,
+              981.29
+            ]
+          ]
+        },
+        {
+          "take_id": "L19-T4",
+          "fonte": "praq0987",
+          "i_ini": 894,
+          "i_fim": 914,
+          "inicio": 989.47,
+          "fim": 1000.65,
+          "sim": 0.762,
+          "cobertura": 0.8,
+          "flags": [
+            "muleta",
+            "pausa_interna"
+          ],
+          "score": 0.829,
+          "texto": "Um grupo da Universidade de Toronto usaram a ImageNet para treinar uma rede neurais em uma competição de reconhecimento das imagens.",
+          "prefixo": 0.762,
+          "conf": 1.0,
+          "muletas": [
+            901
+          ],
+          "pausas": [
+            [
+              996.33,
+              997.27
+            ]
+          ]
+        }
+      ],
+      "leituras_ia": [
+        {
+          "fonte": "praq0987",
+          "inicio": 890.795,
+          "fim": 899.695,
+          "sim": 1.0,
+          "texto": "Um grupo da Universidade de Toronto usa o ImageNet para treinar uma rede neural numa competição de reconhecimento de imagens."
+        }
+      ]
+    },
+    {
+      "id": "L20",
+      "status": "ok",
+      "escolhido": "L20-T1",
+      "motivo": "último take limpo (sim 1.00)",
+      "takes": [
+        {
+          "take_id": "L20-T1",
+          "fonte": "praq0987",
+          "i_ini": 922,
+          "i_fim": 927,
+          "inicio": 1015.37,
+          "fim": 1017.45,
+          "sim": 1.0,
+          "cobertura": 1.0,
+          "flags": [],
+          "score": 1.0,
+          "texto": "E sabe quem tava nesse grupo?",
+          "prefixo": 1.0,
+          "conf": 1.0,
+          "muletas": [],
+          "pausas": []
+        }
+      ],
+      "leituras_ia": [
+        {
+          "fonte": "praq0987",
+          "inicio": 1008.93,
+          "fim": 1010.835,
+          "sim": 1.0,
+          "texto": "E sabe quem estava nesse grupo?"
+        }
+      ]
+    },
+    {
+      "id": "L21",
+      "status": "ok",
+      "escolhido": "L21-T1",
+      "motivo": "último take limpo (sim 1.00)",
+      "takes": [
+        {
+          "take_id": "L21-T1",
+          "fonte": "praq0987",
+          "i_ini": 964,
+          "i_fim": 971,
+          "inicio": 1051.515,
+          "fim": 1054.93,
+          "sim": 1.0,
+          "cobertura": 1.0,
+          "flags": [],
+          "score": 1.0,
+          "texto": "Geoffrey Hinton, de quem eu já falei aqui",
+          "prefixo": 1.0,
+          "conf": 1.0,
+          "muletas": [],
+          "pausas": []
+        }
+      ],
+      "leituras_ia": [
+        {
+          "fonte": "praq0987",
+          "inicio": 1020.35,
+          "fim": 1023.175,
+          "sim": 1.0,
+          "texto": "Geoffrey Hinton, de quem eu já falei aqui."
+        },
+        {
+          "fonte": "praq0987",
+          "inicio": 1038.99,
+          "fim": 1041.815,
+          "sim": 1.0,
+          "texto": "Geoffrey Hinton, de quem eu já falei aqui."
+        }
+      ]
+    },
+    {
+      "id": "L22",
+      "status": "ok",
+      "escolhido": "L22-T4",
+      "motivo": "último take limpo (sim 0.83); muleta cortada internamente",
+      "takes": [
+        {
+          "take_id": "L22-T1",
+          "fonte": "praq0987",
+          "i_ini": 994,
+          "i_fim": 1005,
+          "inicio": 1071.03,
+          "fim": 1078.145,
+          "sim": 0.556,
+          "cobertura": 0.556,
+          "flags": [
+            "pausa_interna"
+          ],
+          "score": 0.583,
+          "texto": "O resultado foi tão surpreendente que mudou o rumo da inteligência artificial.",
+          "prefixo": 0.333,
+          "conf": 0.996,
+          "muletas": [],
+          "pausas": [
+            [
+              1073.55,
+              1074.41
+            ]
+          ]
+        },
+        {
+          "take_id": "L22-T2",
+          "fonte": "praq0987",
+          "i_ini": 1013,
+          "i_fim": 1030,
+          "inicio": 1101.59,
+          "fim": 1110.67,
+          "sim": 0.722,
+          "cobertura": 0.778,
+          "flags": [
+            "muleta"
+          ],
+          "score": 0.743,
+          "texto": "o resultado foi tão surpreendente aos concorrente, foi aí que começou a mudar o rumo da inteligência artificial.",
+          "prefixo": 0.722,
+          "conf": 1.0,
+          "muletas": [
+            1021
+          ],
+          "pausas": []
+        },
+        {
+          "take_id": "L22-T3",
+          "fonte": "praq0987",
+          "i_ini": 1031,
+          "i_fim": 1048,
+          "inicio": 1122.53,
+          "fim": 1131.49,
+          "sim": 0.778,
+          "cobertura": 0.833,
+          "flags": [
+            "muleta"
+          ],
+          "score": 0.815,
+          "texto": "O resultado foi tão superior aos concorrentes, foi aí que começou a mudar o rumo da inteligência artificial.",
+          "prefixo": 0.778,
+          "conf": 0.996,
+          "muletas": [
+            1039
+          ],
+          "pausas": []
+        },
+        {
+          "take_id": "L22-T4",
+          "fonte": "praq0987",
+          "i_ini": 1049,
+          "i_fim": 1066,
+          "inicio": 1141.69,
+          "fim": 1151.335,
+          "sim": 0.833,
+          "cobertura": 0.833,
+          "flags": [
+            "muleta"
+          ],
+          "score": 0.879,
+          "texto": "O resultado foi tão superior ao concorrente e naquele momento começou a mudar o rumo da inteligência artificial.",
+          "prefixo": 0.833,
+          "conf": 0.999,
+          "muletas": [
+            1056
+          ],
+          "pausas": []
+        }
+      ],
+      "leituras_ia": [
+        {
+          "fonte": "praq0987",
+          "inicio": 1060.81,
+          "fim": 1068.535,
+          "sim": 1.0,
+          "texto": "O resultado foi tão superior aos concorrentes, que aquele momento ajudou a mudar o rumo da inteligência artificial."
+        }
+      ]
+    },
+    {
+      "id": "L23",
+      "status": "ok",
+      "escolhido": "L23-T1",
+      "motivo": "último take limpo (sim 0.80)",
+      "takes": [
+        {
+          "take_id": "L23-T1",
+          "fonte": "praq0987",
+          "i_ini": 1068,
+          "i_fim": 1072,
+          "inicio": 1158.99,
+          "fim": 1160.83,
+          "sim": 0.8,
+          "cobertura": 1.0,
+          "flags": [],
+          "score": 0.89,
+          "texto": "mas olha só que interessante.",
+          "prefixo": 0.8,
+          "conf": 1.0,
+          "muletas": [],
+          "pausas": []
+        }
+      ],
+      "leituras_ia": [
+        {
+          "fonte": "praq0987",
+          "inicio": 1081.65,
+          "fim": 1082.97,
+          "sim": 1.0,
+          "texto": "Mas olha que interessante."
+        }
+      ]
+    },
+    {
+      "id": "L24",
+      "status": "ok",
+      "escolhido": "L24-T1",
+      "motivo": "último take limpo (sim 1.00)",
+      "takes": [
+        {
+          "take_id": "L24-T1",
+          "fonte": "praq0987",
+          "i_ini": 1078,
+          "i_fim": 1081,
+          "inicio": 1173.55,
+          "fim": 1175.25,
+          "sim": 1.0,
+          "cobertura": 1.0,
+          "flags": [],
+          "score": 0.99,
+          "texto": "A IA era deles.",
+          "prefixo": 1.0,
+          "conf": 0.898,
+          "muletas": [],
+          "pausas": []
+        }
+      ],
+      "leituras_ia": [
+        {
+          "fonte": "praq0987",
+          "inicio": 1166.99,
+          "fim": 1168.075,
+          "sim": 1.0,
+          "texto": "A IA era deles."
+        }
+      ]
+    },
+    {
+      "id": "L25",
+      "status": "parafrase",
+      "escolhido": "L25-T1",
+      "motivo": "paráfrase: melhor sim 0.75 (score 0.82)",
+      "takes": [
+        {
+          "take_id": "L25-T1",
+          "fonte": "praq0987",
+          "i_ini": 1087,
+          "i_fim": 1090,
+          "inicio": 1182.77,
+          "fim": 1185.49,
+          "sim": 0.75,
+          "cobertura": 0.75,
+          "flags": [],
+          "score": 0.825,
+          "texto": "Os exemplos era dela.",
+          "prefixo": 0.75,
+          "conf": 1.0,
+          "muletas": [],
+          "pausas": []
+        }
+      ],
+      "leituras_ia": [
+        {
+          "fonte": "praq0987",
+          "inicio": 1179.85,
+          "fim": 1181.245,
+          "sim": 1.0,
+          "texto": "Os exemplos eram dela."
+        }
+      ]
+    },
+    {
+      "id": "L26",
+      "status": "ok",
+      "escolhido": "L26-T1",
+      "motivo": "último take limpo (sim 0.83); muleta cortada internamente",
+      "takes": [
+        {
+          "take_id": "L26-T1",
+          "fonte": "praq0987",
+          "i_ini": 1103,
+          "i_fim": 1114,
+          "inicio": 1194.93,
+          "fim": 1200.93,
+          "sim": 0.833,
+          "cobertura": 0.909,
+          "flags": [
+            "muleta"
+          ],
+          "score": 0.89,
+          "texto": "Hoje, a imprensa chama a Fei-Fei Li da madrinha da inteligência artificial",
+          "prefixo": 0.833,
+          "conf": 0.999,
+          "muletas": [
+            1107
+          ],
+          "pausas": []
+        }
+      ],
+      "leituras_ia": [
+        {
+          "fonte": "praq0987",
+          "inicio": 1188.27,
+          "fim": 1193.145,
+          "sim": 1.0,
+          "texto": "Hoje, a imprensa chama Fei-Fei Li de madrinha da inteligência artificial."
+        }
+      ]
+    },
+    {
+      "id": "L27",
+      "status": "ok",
+      "escolhido": "L27-T1",
+      "motivo": "último take limpo (sim 1.00)",
+      "takes": [
+        {
+          "take_id": "L27-T1",
+          "fonte": "praq0988",
+          "i_ini": 1125,
+          "i_fim": 1133,
+          "inicio": 7.42,
+          "fim": 11.415,
+          "sim": 1.0,
+          "cobertura": 1.0,
+          "flags": [],
+          "score": 1.0,
+          "texto": "E a história dela mostra uma coisa muito importante",
+          "prefixo": 1.0,
+          "conf": 1.0,
+          "muletas": [],
+          "pausas": []
+        }
+      ],
+      "leituras_ia": [
+        {
+          "fonte": "praq0988",
+          "inicio": 3.355,
+          "fim": 6.18,
+          "sim": 1.0,
+          "texto": "E a história dela mostra uma coisa muito importante"
+        }
+      ]
+    },
+    {
+      "id": "L28",
+      "status": "ok",
+      "escolhido": "L28-T2",
+      "motivo": "último take limpo (sim 0.80)",
+      "takes": [
+        {
+          "take_id": "L28-T1",
+          "fonte": "praq0988",
+          "i_ini": 1141,
+          "i_fim": 1147,
+          "inicio": 26.68,
+          "fim": 29.52,
+          "sim": 0.571,
+          "cobertura": 0.8,
+          "flags": [
+            "muleta"
+          ],
+          "score": 0.633,
+          "texto": "AI não aprende as coisas por mágica",
+          "prefixo": 0.571,
+          "conf": 0.987,
+          "muletas": [],
+          "pausas": []
+        },
+        {
+          "take_id": "L28-T2",
+          "fonte": "praq0988",
+          "i_ini": 1158,
+          "i_fim": 1161,
+          "inicio": 40.2,
+          "fim": 41.84,
+          "sim": 0.8,
+          "cobertura": 0.8,
+          "flags": [],
+          "score": 0.86,
+          "texto": "não aprende por mágica",
+          "prefixo": 0.5,
+          "conf": 1.0,
+          "muletas": [],
+          "pausas": []
+        }
+      ],
+      "leituras_ia": [
+        {
+          "fonte": "praq0988",
+          "inicio": 16.26,
+          "fim": 17.875,
+          "sim": 1.0,
+          "texto": "IA não aprende por mágica"
+        },
+        {
+          "fonte": "praq0988",
+          "inicio": 34.74,
+          "fim": 36.245,
+          "sim": 1.0,
+          "texto": "IA não aprende por mágica"
+        }
+      ]
+    },
+    {
+      "id": "L29",
+      "status": "parafrase",
+      "escolhido": "L29-T5",
+      "motivo": "paráfrase: melhor sim 0.53 (score 0.66); L29-T3 pontua mais (0.80 vs 0.66) — peça a troca se preferir",
+      "takes": [
+        {
+          "take_id": "L29-T1",
+          "fonte": "praq0988",
+          "i_ini": 1182,
+          "i_fim": 1191,
+          "inicio": 67.3,
+          "fim": 72.42,
+          "sim": 0.526,
+          "cobertura": 0.526,
+          "flags": [],
+          "score": 0.568,
+          "texto": "Ela aprende porque alguém teve trabalho de ensinar cada coisa",
+          "prefixo": 0.6,
+          "conf": 1.0,
+          "muletas": [],
+          "pausas": []
+        },
+        {
+          "take_id": "L29-T2",
+          "fonte": "praq0989",
+          "i_ini": 1214,
+          "i_fim": 1232,
+          "inicio": 35.2,
+          "fim": 45.58,
+          "sim": 0.579,
+          "cobertura": 0.737,
+          "flags": [
+            "muleta",
+            "pausa_interna"
+          ],
+          "score": 0.643,
+          "texto": "Ela aprendeu porque alguém teve trabalho de organizar essas ideias, ensinar cada coisa e o que cada coisa significa.",
+          "prefixo": 0.579,
+          "conf": 0.994,
+          "muletas": [
+            1227
+          ],
+          "pausas": [
+            [
+              40.42,
+              41.26
+            ]
+          ]
+        },
+        {
+          "take_id": "L29-T3",
+          "fonte": "praq0989",
+          "i_ini": 1233,
+          "i_fim": 1248,
+          "inicio": 65.68,
+          "fim": 75.5,
+          "sim": 0.789,
+          "cobertura": 0.789,
+          "flags": [
+            "pausa_interna",
+            "sem_ancora"
+          ],
+          "score": 0.796,
+          "texto": "Ela aprende porque alguém teve o trabalho de organizar informações, ensinar o que cada coisa significa.",
+          "prefixo": 0.562,
+          "conf": 0.998,
+          "muletas": [],
+          "pausas": [
+            [
+              71.02,
+              73.24
+            ]
+          ]
+        },
+        {
+          "take_id": "L29-T4",
+          "fonte": "praq0990",
+          "i_ini": 1249,
+          "i_fim": 1253,
+          "inicio": 7.36,
+          "fim": 9.94,
+          "sim": 0.263,
+          "cobertura": 0.263,
+          "flags": [
+            "false_start"
+          ],
+          "score": 0.446,
+          "texto": "Ela aprende porque alguém teve...",
+          "prefixo": 1.0,
+          "conf": 0.991,
+          "muletas": [],
+          "pausas": []
+        },
+        {
+          "take_id": "L29-T5",
+          "fonte": "praq0990",
+          "i_ini": 1254,
+          "i_fim": 1269,
+          "inicio": 33.48,
+          "fim": 43.04,
+          "sim": 0.526,
+          "cobertura": 0.526,
+          "flags": [
+            "pausa_interna"
+          ],
+          "score": 0.656,
+          "texto": "Ela aprende porque alguém teve trabalho de ensinar como organizar as informações, como qualificar cada coisa",
+          "prefixo": 0.438,
+          "conf": 0.995,
+          "muletas": [],
+          "pausas": [
+            [
+              37.08,
+              37.9
+            ],
+            [
+              39.8,
+              40.98
+            ]
+          ]
+        }
+      ],
+      "leituras_ia": [
+        {
+          "fonte": "praq0988",
+          "inicio": 46.72,
+          "fim": 55.335,
+          "sim": 1.0,
+          "texto": "Ela aprende porque alguém teve o trabalho de mostrar exemplos, organizar informação e ensinar o que cada coisa significa"
+        },
+        {
+          "fonte": "praq0988",
+          "inicio": 75.58,
+          "fim": 81.58,
+          "sim": 0.632,
+          "texto": "Ela aprende porque alguém teve o trabalho de mostrar exemplos, organizar informação"
+        }
+      ]
+    },
+    {
+      "id": "L30",
+      "status": "ok",
+      "escolhido": "L30-T1",
+      "motivo": "último take limpo (sim 1.00)",
+      "takes": [
+        {
+          "take_id": "L30-T1",
+          "fonte": "praq0991",
+          "i_ini": 1289,
+          "i_fim": 1297,
+          "inicio": 17.12,
+          "fim": 20.0,
+          "sim": 1.0,
+          "cobertura": 1.0,
+          "flags": [],
+          "score": 1.0,
+          "texto": "E às vezes, quem ajuda a mudar o futuro-",
+          "prefixo": 1.0,
+          "conf": 0.999,
+          "muletas": [],
+          "pausas": []
+        }
+      ],
+      "leituras_ia": [
+        {
+          "fonte": "praq0991",
+          "inicio": 10.72,
+          "fim": 13.86,
+          "sim": 1.0,
+          "texto": "E às vezes, quem ajuda a mudar o futuro-"
+        }
+      ]
+    },
+    {
+      "id": "L31",
+      "status": "ok",
+      "escolhido": "L31-T7",
+      "motivo": "último take limpo (sim 0.92); pausa interna encurtada",
+      "takes": [
+        {
+          "take_id": "L31-T1",
+          "fonte": "praq0991",
+          "i_ini": 1312,
+          "i_fim": 1320,
+          "inicio": 32.545,
+          "fim": 36.76,
+          "sim": 0.538,
+          "cobertura": 0.538,
+          "flags": [],
+          "score": 0.576,
+          "texto": "...é aquela adolescente que precisava traduzir tudo pela família",
+          "prefixo": 0.444,
+          "conf": 0.99,
+          "muletas": [],
+          "pausas": []
+        },
+        {
+          "take_id": "L31-T2",
+          "fonte": "praq0991",
+          "i_ini": 1342,
+          "i_fim": 1351,
+          "inicio": 49.42,
+          "fim": 54.32,
+          "sim": 0.692,
+          "cobertura": 0.692,
+          "flags": [],
+          "score": 0.701,
+          "texto": "É aquela adolescente que precisava traduzir tudo para a família-",
+          "prefixo": 0.5,
+          "conf": 0.995,
+          "muletas": [],
+          "pausas": []
+        },
+        {
+          "take_id": "L31-T3",
+          "fonte": "praq0991",
+          "i_ini": 1364,
+          "i_fim": 1366,
+          "inicio": 80.66,
+          "fim": 82.04,
+          "sim": 0.231,
+          "cobertura": 0.231,
+          "flags": [
+            "false_start"
+          ],
+          "score": 0.383,
+          "texto": "É aquela adolescente",
+          "prefixo": 1.0,
+          "conf": 0.996,
+          "muletas": [],
+          "pausas": []
+        },
+        {
+          "take_id": "L31-T4",
+          "fonte": "praq0992",
+          "i_ini": 1374,
+          "i_fim": 1381,
+          "inicio": 14.92,
+          "fim": 18.9,
+          "sim": 0.615,
+          "cobertura": 0.615,
+          "flags": [
+            "final_cortado"
+          ],
+          "score": 0.668,
+          "texto": "É aquela adolescente que um dia precisou traduzir--",
+          "prefixo": 1.0,
+          "conf": 0.993,
+          "muletas": [],
+          "pausas": []
+        },
+        {
+          "take_id": "L31-T5",
+          "fonte": "praq0992",
+          "i_ini": 1384,
+          "i_fim": 1396,
+          "inicio": 33.76,
+          "fim": 40.18,
+          "sim": 1.0,
+          "cobertura": 1.0,
+          "flags": [],
+          "score": 0.966,
+          "texto": "É aquela adolescente que um dia precisou traduzir tudo para a própria família.",
+          "prefixo": 1.0,
+          "conf": 0.989,
+          "muletas": [],
+          "pausas": []
+        },
+        {
+          "take_id": "L31-T6",
+          "fonte": "praq0992",
+          "i_ini": 1397,
+          "i_fim": 1410,
+          "inicio": 44.26,
+          "fim": 52.32,
+          "sim": 0.929,
+          "cobertura": 1.0,
+          "flags": [
+            "pausa_interna"
+          ],
+          "score": 0.932,
+          "texto": "É aquela adolescente que um dia precisou traduzir tudo para a sua própria família.",
+          "prefixo": 0.929,
+          "conf": 1.0,
+          "muletas": [],
+          "pausas": [
+            [
+              48.0,
+              48.76
+            ],
+            [
+              49.8,
+              50.72
+            ]
+          ]
+        },
+        {
+          "take_id": "L31-T7",
+          "fonte": "praq0992",
+          "i_ini": 1411,
+          "i_fim": 1423,
+          "inicio": 63.26,
+          "fim": 70.06,
+          "sim": 0.923,
+          "cobertura": 0.923,
+          "flags": [
+            "pausa_interna"
+          ],
+          "score": 0.94,
+          "texto": "É aquela adolescente que um dia precisou traduzir tudo para sua própria família.",
+          "prefixo": 0.923,
+          "conf": 1.0,
+          "muletas": [],
+          "pausas": [
+            [
+              65.94,
+              66.88
+            ]
+          ]
+        }
+      ],
+      "leituras_ia": [
+        {
+          "fonte": "praq0991",
+          "inicio": 24.96,
+          "fim": 30.255,
+          "sim": 1.0,
+          "texto": "É aquela adolescente que um dia precisou traduzir tudo para a própria família"
+        },
+        {
+          "fonte": "praq0991",
+          "inicio": 42.12,
+          "fim": 47.415,
+          "sim": 1.0,
+          "texto": "É aquela adolescente que um dia precisou traduzir tudo para a própria família"
+        }
+      ]
+    },
+    {
+      "id": "L32",
+      "status": "parafrase",
+      "escolhido": "L32-T3",
+      "motivo": "paráfrase: melhor sim 0.46 (score 0.61)",
+      "takes": [
+        {
+          "take_id": "L32-T1",
+          "fonte": "praq0992",
+          "i_ini": 1424,
+          "i_fim": 1428,
+          "inicio": 80.22,
+          "fim": 82.02,
+          "sim": 0.455,
+          "cobertura": 0.455,
+          "flags": [
+            "false_start"
+          ],
+          "score": 0.504,
+          "texto": "Comenta \"aula\" aqui embaixo que",
+          "prefixo": 1.0,
+          "conf": 0.97,
+          "muletas": [],
+          "pausas": []
+        },
+        {
+          "take_id": "L32-T2",
+          "fonte": "praq0993",
+          "i_ini": 1442,
+          "i_fim": 1448,
+          "inicio": 11.62,
+          "fim": 14.26,
+          "sim": 0.545,
+          "cobertura": 0.545,
+          "flags": [
+            "final_cortado"
+          ],
+          "score": 0.619,
+          "texto": "Comenta \"aula\" aqui embaixo, eu te envio",
+          "prefixo": 0.714,
+          "conf": 0.999,
+          "muletas": [],
+          "pausas": []
+        },
+        {
+          "take_id": "L32-T3",
+          "fonte": "praq0993",
+          "i_ini": 1460,
+          "i_fim": 1466,
+          "inicio": 26.46,
+          "fim": 29.84,
+          "sim": 0.455,
+          "cobertura": 0.545,
+          "flags": [
+            "pausa_interna",
+            "final_cortado"
+          ],
+          "score": 0.614,
+          "texto": "Comenta \"aulas\" aqui embaixo, eu vou te",
+          "prefixo": 0.714,
+          "conf": 1.0,
+          "muletas": [],
+          "pausas": [
+            [
+              28.66,
+              29.58
+            ]
+          ]
+        }
+      ],
+      "leituras_ia": [
+        {
+          "fonte": "praq0991",
+          "inicio": 57.76,
+          "fim": 61.045,
+          "sim": 1.0,
+          "texto": "Comenta aula aqui embaixo que eu te mando a palestra dela"
+        }
+      ]
+    },
+    {
+      "id": "L33",
+      "status": "parafrase",
+      "escolhido": "L33-T1",
+      "motivo": "paráfrase: melhor sim 0.78 (score 0.87)",
+      "takes": [
+        {
+          "take_id": "L33-T1",
+          "fonte": "praq0993",
+          "i_ini": 1487,
+          "i_fim": 1495,
+          "inicio": 46.58,
+          "fim": 49.74,
+          "sim": 0.778,
+          "cobertura": 1.0,
+          "flags": [
+            "muleta",
+            "sem_ancora"
+          ],
+          "score": 0.874,
+          "texto": "São somente 18 minutos com a legenda em português.",
+          "prefixo": 0.778,
+          "conf": 1.0,
+          "muletas": [
+            1492
+          ],
+          "pausas": []
+        }
+      ],
+      "leituras_ia": [
+        {
+          "fonte": "praq0993",
+          "inicio": 41.375,
+          "fim": 44.875,
+          "sim": 1.0,
+          "texto": "São 18 minutos com legenda em português."
+        }
+      ]
+    },
+    {
+      "id": "L34",
+      "status": "ok",
+      "escolhido": "L34-T1",
+      "motivo": "último take limpo (sim 1.00)",
+      "takes": [
+        {
+          "take_id": "L34-T1",
+          "fonte": "praq0993",
+          "i_ini": 1510,
+          "i_fim": 1522,
+          "inicio": 57.02,
+          "fim": 61.14,
+          "sim": 1.0,
+          "cobertura": 1.0,
+          "flags": [],
+          "score": 1.0,
+          "texto": "E manda esse vídeo pra alguém que já foi o tradutor da família.",
+          "prefixo": 1.0,
+          "conf": 1.0,
+          "muletas": [],
+          "pausas": []
+        }
+      ],
+      "leituras_ia": [
+        {
+          "fonte": "praq0993",
+          "inicio": 52.66,
+          "fim": 55.725,
+          "sim": 1.0,
+          "texto": "E manda esse vídeo pra alguém que já foi o tradutor da família."
+        }
+      ]
+    },
+    {
+      "id": "L01B",
+      "status": "parafrase",
+      "escolhido": "L01B-T1",
+      "motivo": "paráfrase: melhor sim 0.67 (score 0.77)",
+      "takes": [
+        {
+          "take_id": "L01B-T1",
+          "fonte": "praq0993",
+          "i_ini": 1541,
+          "i_fim": 1552,
+          "inicio": 71.66,
+          "fim": 77.535,
+          "sim": 0.667,
+          "cobertura": 0.727,
+          "flags": [
+            "pausa_interna",
+            "sem_ancora"
+          ],
+          "score": 0.77,
+          "texto": "Imagina escutar dos seus colegas que seria melhor fazer algo muito útil.",
+          "prefixo": 0.667,
+          "conf": 1.0,
+          "muletas": [],
+          "pausas": [
+            [
+              74.24,
+              74.94
+            ]
+          ]
+        }
+      ],
+      "leituras_ia": [
+        {
+          "fonte": "praq0993",
+          "inicio": 66.64,
+          "fim": 70.28,
+          "sim": 1.0,
+          "texto": "imagina ouvir dos colegas que era melhor fazer algo mais útil."
+        }
+      ],
+      "alternativa_de": "L01"
+    },
+    {
+      "id": "L01C",
+      "status": "parafrase",
+      "escolhido": "L01C-T1",
+      "motivo": "paráfrase: melhor sim 0.40 (score 0.61)",
+      "takes": [
+        {
+          "take_id": "L01C-T1",
+          "fonte": "praq0994",
+          "i_ini": 1566,
+          "i_fim": 1580,
+          "inicio": 6.92,
+          "fim": 13.08,
+          "sim": 0.4,
+          "cobertura": 0.583,
+          "flags": [
+            "sem_ancora"
+          ],
+          "score": 0.606,
+          "texto": "Imagina você ficar brincando que você vai reab-reabrir uma lavanderia pra pagar sua própria pesquisa",
+          "prefixo": 0.4,
+          "conf": 0.99,
+          "muletas": [],
+          "pausas": []
+        }
+      ],
+      "leituras_ia": [
+        {
+          "fonte": "praq0994",
+          "inicio": 0.32,
+          "fim": 5.105,
+          "sim": 1.0,
+          "texto": "Imagina brincar que ia reabrir a lavanderia pra pagar a sua pesquisa"
+        }
+      ],
+      "alternativa_de": "L01"
+    }
+  ],
+  "nao_mapeado": [
+    {
+      "fonte": "praq0987",
+      "inicio": 0.28,
+      "fim": 1.98,
+      "texto": "Você já tem o roteiro, ok?",
+      "i_ini": 0,
+      "i_fim": 5,
+      "so_muletas": false
+    },
+    {
+      "fonte": "praq0987",
+      "inicio": 5.58,
+      "fim": 6.44,
+      "texto": "Tá com o roteiro pronto?",
+      "i_ini": 6,
+      "i_fim": 10,
+      "so_muletas": false
+    },
+    {
+      "fonte": "praq0987",
+      "inicio": 10.16,
+      "fim": 11.36,
+      "texto": "Ok. Hum.",
+      "i_ini": 11,
+      "i_fim": 12,
+      "so_muletas": false
+    },
+    {
+      "fonte": "praq0987",
+      "inicio": 21.74,
+      "fim": 24.115,
+      "texto": "Ok, podemos começar? Tudo pronto?",
+      "i_ini": 13,
+      "i_fim": 17,
+      "so_muletas": false
+    },
+    {
+      "fonte": "praq0987",
+      "inicio": 60.5,
+      "fim": 60.6,
+      "texto": "Ok.",
+      "i_ini": 21,
+      "i_fim": 21,
+      "so_muletas": false
+    },
+    {
+      "fonte": "praq0987",
+      "inicio": 62.14,
+      "fim": 63.04,
+      "texto": "Pronto, podemos ir.",
+      "i_ini": 22,
+      "i_fim": 24,
+      "so_muletas": false
+    },
+    {
+      "fonte": "praq0987",
+      "inicio": 71.6,
+      "fim": 72.3,
+      "texto": "Imagina--",
+      "i_ini": 34,
+      "i_fim": 34,
+      "so_muletas": false
+    },
+    {
+      "fonte": "praq0987",
+      "inicio": 145.7,
+      "fim": 145.76,
+      "texto": "E",
+      "i_ini": 145,
+      "i_fim": 145,
+      "so_muletas": true
+    },
+    {
+      "fonte": "praq0987",
+      "inicio": 178.58,
+      "fim": 179.2,
+      "texto": "os ficais.",
+      "i_ini": 185,
+      "i_fim": 186,
+      "so_muletas": false
+    },
+    {
+      "fonte": "praq0987",
+      "inicio": 257.899,
+      "fim": 261.459,
+      "texto": "Fei-Fei Li estudou Física em Princeton.",
+      "i_ini": 270,
+      "i_fim": 275,
+      "so_muletas": false
+    },
+    {
+      "fonte": "praq0987",
+      "inicio": 272.56,
+      "fim": 274.88,
+      "texto": "Fei-Fei estudou em Princeton.",
+      "i_ini": 292,
+      "i_fim": 295,
+      "so_muletas": false
+    },
+    {
+      "fonte": "praq0987",
+      "inicio": 329.66,
+      "fim": 330.12,
+      "texto": "E a partir",
+      "i_ini": 362,
+      "i_fim": 364,
+      "so_muletas": false
+    },
+    {
+      "fonte": "praq0987",
+      "inicio": 507.36,
+      "fim": 516.3,
+      "texto": "Foi aí que ela tem uma sacada. Ela pensou assim: \"Por que, então, que um computador não pode fazer o mesmo?\"",
+      "i_ini": 488,
+      "i_fim": 508,
+      "so_muletas": false
+    },
+    {
+      "fonte": "praq0987",
+      "inicio": 522.72,
+      "fim": 530.58,
+      "texto": "Então, foi aí que ela teve uma sacada. Por que, então, que um computador não pode fazer o mesmo?",
+      "i_ini": 509,
+      "i_fim": 527,
+      "so_muletas": false
+    },
+    {
+      "fonte": "praq0987",
+      "inicio": 542.38,
+      "fim": 544.94,
+      "texto": "Foi aí que ela teve uma sacada.",
+      "i_ini": 528,
+      "i_fim": 534,
+      "so_muletas": false
+    },
+    {
+      "fonte": "praq0987",
+      "inicio": 576.98,
+      "fim": 579.22,
+      "texto": "E aí, em 2027-",
+      "i_ini": 562,
+      "i_fim": 565,
+      "so_muletas": false
+    },
+    {
+      "fonte": "praq0987",
+      "inicio": 620.24,
+      "fim": 620.88,
+      "texto": "ImageMed.",
+      "i_ini": 610,
+      "i_fim": 610,
+      "so_muletas": false
+    },
+    {
+      "fonte": "praq0987",
+      "inicio": 685.36,
+      "fim": 689.28,
+      "texto": "o computador reconhecer cada uma delas.",
+      "i_ini": 629,
+      "i_fim": 634,
+      "so_muletas": false
+    },
+    {
+      "fonte": "praq0987",
+      "inicio": 776.51,
+      "fim": 778.29,
+      "texto": "e reconhecer cada uma delas.",
+      "i_ini": 732,
+      "i_fim": 736,
+      "so_muletas": false
+    },
+    {
+      "fonte": "praq0987",
+      "inicio": 803.35,
+      "fim": 806.33,
+      "texto": "imagem para reconhecer cada uma delas.",
+      "i_ini": 756,
+      "i_fim": 761,
+      "so_muletas": false
+    },
+    {
+      "fonte": "praq0987",
+      "inicio": 844.93,
+      "fim": 845.79,
+      "texto": "E sabe qual a ma-",
+      "i_ini": 780,
+      "i_fim": 784,
+      "so_muletas": false
+    },
+    {
+      "fonte": "praq0987",
+      "inicio": 938.37,
+      "fim": 938.89,
+      "texto": "imagem.",
+      "i_ini": 861,
+      "i_fim": 861,
+      "so_muletas": false
+    },
+    {
+      "fonte": "praq0987",
+      "inicio": 1006.75,
+      "fim": 1007.19,
+      "texto": "Próximo.",
+      "i_ini": 915,
+      "i_fim": 915,
+      "so_muletas": false
+    },
+    {
+      "fonte": "praq0987",
+      "inicio": 1026.77,
+      "fim": 1028.35,
+      "texto": "Ninguém mais de que o",
+      "i_ini": 937,
+      "i_fim": 941,
+      "so_muletas": false
+    },
+    {
+      "fonte": "praq0987",
+      "inicio": 1030.05,
+      "fim": 1035.805,
+      "texto": "Geoffrey Hinton. Foi a pessoa que eu falei anteriormente no vídeo passado.",
+      "i_ini": 942,
+      "i_fim": 953,
+      "so_muletas": false
+    },
+    {
+      "fonte": "praq0987",
+      "inicio": 1055.29,
+      "fim": 1055.885,
+      "texto": "no meu canal.",
+      "i_ini": 972,
+      "i_fim": 974,
+      "so_muletas": false
+    },
+    {
+      "fonte": "praq0987",
+      "inicio": 1100.65,
+      "fim": 1101.15,
+      "texto": "Os resulta--",
+      "i_ini": 1011,
+      "i_fim": 1012,
+      "so_muletas": false
+    },
+    {
+      "fonte": "praq0987",
+      "inicio": 1158.19,
+      "fim": 1158.55,
+      "texto": "Agora,",
+      "i_ini": 1067,
+      "i_fim": 1067,
+      "so_muletas": false
+    },
+    {
+      "fonte": "praq0987",
+      "inicio": 1164.77,
+      "fim": 1165.21,
+      "texto": "Próximo.",
+      "i_ini": 1073,
+      "i_fim": 1073,
+      "so_muletas": false
+    },
+    {
+      "fonte": "praq0988",
+      "inicio": 26.42,
+      "fim": 26.64,
+      "texto": "As",
+      "i_ini": 1140,
+      "i_fim": 1140,
+      "so_muletas": false
+    },
+    {
+      "fonte": "praq0988",
+      "inicio": 38.64,
+      "fim": 39.94,
+      "texto": "A inteligência artificial",
+      "i_ini": 1155,
+      "i_fim": 1157,
+      "so_muletas": false
+    },
+    {
+      "fonte": "praq0990",
+      "inicio": 43.26,
+      "fim": 43.72,
+      "texto": "e como,",
+      "i_ini": 1270,
+      "i_fim": 1271,
+      "so_muletas": false
+    },
+    {
+      "fonte": "praq0990",
+      "inicio": 45.14,
+      "fim": 47.4,
+      "texto": "como identificar. Caramba",
+      "i_ini": 1272,
+      "i_fim": 1274,
+      "so_muletas": false
+    },
+    {
+      "fonte": "praq0991",
+      "inicio": 3.5,
+      "fim": 5.735,
+      "texto": "Ela aprende porque? Caramba.",
+      "i_ini": 1275,
+      "i_fim": 1278,
+      "so_muletas": false
+    },
+    {
+      "fonte": "praq0991",
+      "inicio": 8.5,
+      "fim": 8.94,
+      "texto": "Próximo.",
+      "i_ini": 1279,
+      "i_fim": 1279,
+      "so_muletas": false
+    },
+    {
+      "fonte": "praq0991",
+      "inicio": 37.18,
+      "fim": 39.3,
+      "texto": "que um dia mudava o mundo.",
+      "i_ini": 1321,
+      "i_fim": 1326,
+      "so_muletas": false
+    },
+    {
+      "fonte": "praq0992",
+      "inicio": 0.64,
+      "fim": 4.585,
+      "texto": "Que precisava traduzir tudo para sua família.",
+      "i_ini": 1367,
+      "i_fim": 1373,
+      "so_muletas": false
+    },
+    {
+      "fonte": "praq0993",
+      "inicio": 0.0,
+      "fim": 4.58,
+      "texto": "eu te mando no seu direct a entrevista completo da Fei Fei Li.",
+      "i_ini": 1429,
+      "i_fim": 1441,
+      "so_muletas": false
+    },
+    {
+      "fonte": "praq0993",
+      "inicio": 14.46,
+      "fim": 18.435,
+      "texto": "no seu direct uma entrevista completa sobre a Fei Fei Li.",
+      "i_ini": 1449,
+      "i_fim": 1459,
+      "so_muletas": false
+    },
+    {
+      "fonte": "praq0993",
+      "inicio": 29.86,
+      "fim": 33.6,
+      "texto": "enviar no seu direct a entrevista completo sobre a Fei Fei Li.",
+      "i_ini": 1467,
+      "i_fim": 1478,
+      "so_muletas": false
+    },
+    {
+      "fonte": "praq0993",
+      "inicio": 37.32,
+      "fim": 37.76,
+      "texto": "Próximo.",
+      "i_ini": 1479,
+      "i_fim": 1479,
+      "so_muletas": false
+    },
+    {
+      "fonte": "praq0994",
+      "inicio": 21.26,
+      "fim": 21.62,
+      "texto": "Tá bom.",
+      "i_ini": 1595,
+      "i_fim": 1596,
+      "so_muletas": false
+    },
+    {
+      "fonte": "praq0994",
+      "inicio": 23.98,
+      "fim": 25.62,
+      "texto": "Tchau. Cansado.",
+      "i_ini": 1597,
+      "i_fim": 1598,
+      "so_muletas": false
+    }
+  ],
+  "separadores": [],
+  "fala_ia": [
+    {
+      "fonte": "praq0987",
+      "inicio": 33.105,
+      "fim": 34.215,
+      "texto": "Segure três segundos.",
+      "i_ini": 18,
+      "i_fim": 20
+    },
+    {
+      "fonte": "praq0987",
+      "inicio": 73.84,
+      "fim": 74.035,
+      "texto": "não.",
+      "i_ini": 35,
+      "i_fim": 35
+    },
+    {
+      "fonte": "praq0987",
+      "inicio": 75.78,
+      "fim": 76.195,
+      "texto": "De novo.",
+      "i_ini": 36,
+      "i_fim": 37
+    },
+    {
+      "fonte": "praq0987",
+      "inicio": 89.655,
+      "fim": 89.975,
+      "texto": "Próximo.",
+      "i_ini": 58,
+      "i_fim": 58
+    },
+    {
+      "fonte": "praq0987",
+      "inicio": 100.105,
+      "fim": 100.325,
+      "texto": "Próximo.",
+      "i_ini": 79,
+      "i_fim": 79
+    },
+    {
+      "fonte": "praq0987",
+      "inicio": 109.9,
+      "fim": 110.245,
+      "texto": "Próximo.",
+      "i_ini": 94,
+      "i_fim": 94
+    },
+    {
+      "fonte": "praq0987",
+      "inicio": 122.46,
+      "fim": 122.855,
+      "texto": "De novo.",
+      "i_ini": 113,
+      "i_fim": 114
+    },
+    {
+      "fonte": "praq0987",
+      "inicio": 137.265,
+      "fim": 137.545,
+      "texto": "Próximo.",
+      "i_ini": 138,
+      "i_fim": 138
+    },
+    {
+      "fonte": "praq0987",
+      "inicio": 151.785,
+      "fim": 152.24,
+      "texto": "Próximo.",
+      "i_ini": 152,
+      "i_fim": 152
+    },
+    {
+      "fonte": "praq0987",
+      "inicio": 180.62,
+      "fim": 181.025,
+      "texto": "De novo.",
+      "i_ini": 187,
+      "i_fim": 188
+    },
+    {
+      "fonte": "praq0987",
+      "inicio": 213.58,
+      "fim": 213.805,
+      "texto": "Próximo.",
+      "i_ini": 225,
+      "i_fim": 225
+    },
+    {
+      "fonte": "praq0987",
+      "inicio": 220.715,
+      "fim": 220.945,
+      "texto": "Próximo.",
+      "i_ini": 228,
+      "i_fim": 228
+    },
+    {
+      "fonte": "praq0987",
+      "inicio": 233.585,
+      "fim": 233.775,
+      "texto": "Próximo.",
+      "i_ini": 255,
+      "i_fim": 255
+    },
+    {
+      "fonte": "praq0987",
+      "inicio": 263.02,
+      "fim": 263.395,
+      "texto": "De novo.",
+      "i_ini": 276,
+      "i_fim": 277
+    },
+    {
+      "fonte": "praq0987",
+      "inicio": 276.545,
+      "fim": 276.795,
+      "texto": "Próximo.",
+      "i_ini": 296,
+      "i_fim": 296
+    },
+    {
+      "fonte": "praq0987",
+      "inicio": 301.7,
+      "fim": 302.075,
+      "texto": "De novo.",
+      "i_ini": 323,
+      "i_fim": 324
+    },
+    {
+      "fonte": "praq0987",
+      "inicio": 321.86,
+      "fim": 322.235,
+      "texto": "De novo.",
+      "i_ini": 351,
+      "i_fim": 352
+    },
+    {
+      "fonte": "praq0987",
+      "inicio": 337.535,
+      "fim": 337.745,
+      "texto": "Próximo.",
+      "i_ini": 375,
+      "i_fim": 375
+    },
+    {
+      "fonte": "praq0987",
+      "inicio": 354.2,
+      "fim": 354.585,
+      "texto": "De novo.",
+      "i_ini": 400,
+      "i_fim": 401
+    },
+    {
+      "fonte": "praq0987",
+      "inicio": 374.16,
+      "fim": 374.405,
+      "texto": "Próxima.",
+      "i_ini": 425,
+      "i_fim": 425
+    },
+    {
+      "fonte": "praq0987",
+      "inicio": 401.26,
+      "fim": 401.625,
+      "texto": "De novo.",
+      "i_ini": 445,
+      "i_fim": 446
+    },
+    {
+      "fonte": "praq0987",
+      "inicio": 569.615,
+      "fim": 569.945,
+      "texto": "Próxima.",
+      "i_ini": 553,
+      "i_fim": 553
+    },
+    {
+      "fonte": "praq0987",
+      "inicio": 582.8,
+      "fim": 583.205,
+      "texto": "De novo.",
+      "i_ini": 566,
+      "i_fim": 567
+    },
+    {
+      "fonte": "praq0987",
+      "inicio": 597.125,
+      "fim": 597.455,
+      "texto": "Próxima.",
+      "i_ini": 583,
+      "i_fim": 583
+    },
+    {
+      "fonte": "praq0987",
+      "inicio": 707.345,
+      "fim": 707.735,
+      "texto": "De novo.",
+      "i_ini": 638,
+      "i_fim": 639
+    },
+    {
+      "fonte": "praq0987",
+      "inicio": 735.05,
+      "fim": 741.71,
+      "texto": "Quase 50 mil pessoas ajudaram pela internet a organizar e identificar essas imagens.",
+      "i_ini": 679,
+      "i_fim": 691
+    },
+    {
+      "fonte": "praq0987",
+      "inicio": 755.055,
+      "fim": 755.455,
+      "texto": "De novo.",
+      "i_ini": 703,
+      "i_fim": 704
+    },
+    {
+      "fonte": "praq0987",
+      "inicio": 780.085,
+      "fim": 780.275,
+      "texto": "Próximo.",
+      "i_ini": 737,
+      "i_fim": 737
+    },
+    {
+      "fonte": "praq0987",
+      "inicio": 848.73,
+      "fim": 849.065,
+      "texto": "Próximo.",
+      "i_ini": 785,
+      "i_fim": 785
+    },
+    {
+      "fonte": "praq0987",
+      "inicio": 865.39,
+      "fim": 865.785,
+      "texto": "De novo.",
+      "i_ini": 798,
+      "i_fim": 799
+    },
+    {
+      "fonte": "praq0987",
+      "inicio": 879.595,
+      "fim": 879.815,
+      "texto": "Próximo.",
+      "i_ini": 815,
+      "i_fim": 815
+    },
+    {
+      "fonte": "praq0987",
+      "inicio": 889.505,
+      "fim": 889.745,
+      "texto": "Próximo.",
+      "i_ini": 823,
+      "i_fim": 823
+    },
+    {
+      "fonte": "praq0987",
+      "inicio": 1019.065,
+      "fim": 1019.325,
+      "texto": "Próximo.",
+      "i_ini": 928,
+      "i_fim": 928
+    },
+    {
+      "fonte": "praq0987",
+      "inicio": 1037.63,
+      "fim": 1037.995,
+      "texto": "De novo.",
+      "i_ini": 954,
+      "i_fim": 955
+    },
+    {
+      "fonte": "praq0987",
+      "inicio": 1059.61,
+      "fim": 1059.945,
+      "texto": "Próximo.",
+      "i_ini": 975,
+      "i_fim": 975
+    },
+    {
+      "fonte": "praq0987",
+      "inicio": 1080.375,
+      "fim": 1080.615,
+      "texto": "Próximo.",
+      "i_ini": 1006,
+      "i_fim": 1006
+    },
+    {
+      "fonte": "praq0987",
+      "inicio": 1178.655,
+      "fim": 1178.925,
+      "texto": "Próximo.",
+      "i_ini": 1082,
+      "i_fim": 1082
+    },
+    {
+      "fonte": "praq0987",
+      "inicio": 1187.075,
+      "fim": 1187.405,
+      "texto": "Próximo.",
+      "i_ini": 1091,
+      "i_fim": 1091
+    },
+    {
+      "fonte": "praq0988",
+      "inicio": 2.115,
+      "fim": 2.345,
+      "texto": "Próxima.",
+      "i_ini": 1115,
+      "i_fim": 1115
+    },
+    {
+      "fonte": "praq0988",
+      "inicio": 15.065,
+      "fim": 15.415,
+      "texto": "Próxima.",
+      "i_ini": 1134,
+      "i_fim": 1134
+    },
+    {
+      "fonte": "praq0988",
+      "inicio": 33.42,
+      "fim": 33.835,
+      "texto": "De novo.",
+      "i_ini": 1148,
+      "i_fim": 1149
+    },
+    {
+      "fonte": "praq0988",
+      "inicio": 45.46,
+      "fim": 45.845,
+      "texto": "Próxima.",
+      "i_ini": 1162,
+      "i_fim": 1162
+    },
+    {
+      "fonte": "praq0988",
+      "inicio": 74.26,
+      "fim": 74.635,
+      "texto": "De novo.",
+      "i_ini": 1192,
+      "i_fim": 1193
+    },
+    {
+      "fonte": "praq0989",
+      "inicio": 0.0,
+      "fim": 2.585,
+      "texto": "ação e ensinar o que cada coisa significa.",
+      "i_ini": 1206,
+      "i_fim": 1213
+    },
+    {
+      "fonte": "praq0991",
+      "inicio": 23.705,
+      "fim": 23.955,
+      "texto": "Próximo.",
+      "i_ini": 1298,
+      "i_fim": 1298
+    },
+    {
+      "fonte": "praq0991",
+      "inicio": 40.78,
+      "fim": 41.175,
+      "texto": "De novo.",
+      "i_ini": 1327,
+      "i_fim": 1328
+    },
+    {
+      "fonte": "praq0991",
+      "inicio": 56.56,
+      "fim": 56.955,
+      "texto": "Próximo.",
+      "i_ini": 1352,
+      "i_fim": 1352
+    },
+    {
+      "fonte": "praq0992",
+      "inicio": 19.72,
+      "fim": 20.24,
+      "texto": "fuck now.",
+      "i_ini": 1382,
+      "i_fim": 1383
+    },
+    {
+      "fonte": "praq0993",
+      "inicio": 51.86,
+      "fim": 52.245,
+      "texto": "Próxima.",
+      "i_ini": 1496,
+      "i_fim": 1496
+    },
+    {
+      "fonte": "praq0993",
+      "inicio": 63.28,
+      "fim": 65.98,
+      "texto": "Agora vamos para os looks alternativos. Primeiro,",
+      "i_ini": 1523,
+      "i_fim": 1529
+    },
+    {
+      "fonte": "praq0993",
+      "inicio": 81.145,
+      "fim": 81.465,
+      "texto": "Próxima",
+      "i_ini": 1553,
+      "i_fim": 1553
+    },
+    {
+      "fonte": "praq0994",
+      "inicio": 14.915,
+      "fim": 19.035,
+      "texto": "Fim do roteiro. Se quiser gravar de novo ou ajustar algo, é só falar",
+      "i_ini": 1581,
+      "i_fim": 1594
+    }
+  ],
+  "locutores": {
+    "metodo": "local",
+    "n_locutores": 2,
+    "confianca_papel": 0.927,
+    "sobreposicoes": 0,
+    "segundos_ia": 212.92
+  },
+  "resumo": {
+    "ok": 23,
+    "revisar": 0,
+    "parafrase": 11,
+    "faltando": 0,
+    "nao_mapeado": 42,
+    "leituras_ia": 51,
+    "fala_ia": 52,
+    "palavras_locutor_incerto": 0
+  },
+  "parametros": {
+    "gap_take": 1.5,
+    "pausa_interna": 0.7,
+    "sim_ok": 0.8,
+    "sim_parafrase": 0.45,
+    "pesos": {
+      "sim": 0.55,
+      "cobertura": 0.15,
+      "fluencia": 0.1,
+      "recencia": 0.1,
+      "confianca": 0.1
+    }
+  }
+}

@@ -1,0 +1,315 @@
+{
+ "engine": "mlx",
+ "modelo": "mlx-community/whisper-large-v3-turbo",
+ "versao": 2,
+ "lacunas": 0,
+ "palavras": [
+  {
+   "texto": "De",
+   "inicio": 0.0,
+   "fim": 0.56,
+   "conf": 0.043365478515625
+  },
+  {
+   "texto": "uma",
+   "inicio": 0.56,
+   "fim": 0.7,
+   "conf": 0.99658203125
+  },
+  {
+   "texto": "linha,",
+   "inicio": 0.7,
+   "fim": 1.0,
+   "conf": 0.99951171875
+  },
+  {
+   "texto": "você",
+   "inicio": 1.3,
+   "fim": 1.8,
+   "conf": 0.99267578125
+  },
+  {
+   "texto": "vai",
+   "inicio": 1.8,
+   "fim": 1.96,
+   "conf": 0.9990234375
+  },
+  {
+   "texto": "ter",
+   "inicio": 1.96,
+   "fim": 2.12,
+   "conf": 0.9970703125
+  },
+  {
+   "texto": "que",
+   "inicio": 2.12,
+   "fim": 2.24,
+   "conf": 0.99658203125
+  },
+  {
+   "texto": "entender",
+   "inicio": 2.24,
+   "fim": 2.5,
+   "conf": 0.99560546875
+  },
+  {
+   "texto": "que",
+   "inicio": 2.5,
+   "fim": 2.66,
+   "conf": 0.87353515625
+  },
+  {
+   "texto": "aquela",
+   "inicio": 2.66,
+   "fim": 2.88,
+   "conf": 0.935546875
+  },
+  {
+   "texto": "linha",
+   "inicio": 2.88,
+   "fim": 3.08,
+   "conf": 1.0
+  },
+  {
+   "texto": "eu",
+   "inicio": 3.08,
+   "fim": 3.18,
+   "conf": 0.96728515625
+  },
+  {
+   "texto": "quero",
+   "inicio": 3.18,
+   "fim": 3.32,
+   "conf": 0.998046875
+  },
+  {
+   "texto": "repetir.",
+   "inicio": 3.32,
+   "fim": 3.78,
+   "conf": 1.0
+  },
+  {
+   "texto": "Então,",
+   "inicio": 3.9,
+   "fim": 4.02,
+   "conf": 0.99462890625
+  },
+  {
+   "texto": "repete",
+   "inicio": 4.18,
+   "fim": 4.54,
+   "conf": 0.99365234375
+  },
+  {
+   "texto": "naquela",
+   "inicio": 4.54,
+   "fim": 4.84,
+   "conf": 0.9990234375
+  },
+  {
+   "texto": "mesma",
+   "inicio": 4.84,
+   "fim": 5.08,
+   "conf": 0.99951171875
+  },
+  {
+   "texto": "linha",
+   "inicio": 5.08,
+   "fim": 5.34,
+   "conf": 1.0
+  },
+  {
+   "texto": "que",
+   "inicio": 5.34,
+   "fim": 5.48,
+   "conf": 1.0
+  },
+  {
+   "texto": "eu",
+   "inicio": 5.48,
+   "fim": 5.56,
+   "conf": 0.9990234375
+  },
+  {
+   "texto": "estou",
+   "inicio": 5.56,
+   "fim": 5.64,
+   "conf": 0.89111328125
+  },
+  {
+   "texto": "falando.",
+   "inicio": 5.64,
+   "fim": 6.0,
+   "conf": 1.0
+  },
+  {
+   "texto": "Entendi.",
+   "inicio": 7.460000000000001,
+   "fim": 7.98,
+   "conf": 0.90234375
+  },
+  {
+   "texto": "A",
+   "inicio": 8.24,
+   "fim": 8.56,
+   "conf": 0.99755859375
+  },
+  {
+   "texto": "partir",
+   "inicio": 8.56,
+   "fim": 8.88,
+   "conf": 1.0
+  },
+  {
+   "texto": "de",
+   "inicio": 8.88,
+   "fim": 9.02,
+   "conf": 1.0
+  },
+  {
+   "texto": "agora,",
+   "inicio": 9.02,
+   "fim": 9.3,
+   "conf": 1.0
+  },
+  {
+   "texto": "se",
+   "inicio": 9.48,
+   "fim": 9.56,
+   "conf": 1.0
+  },
+  {
+   "texto": "você",
+   "inicio": 9.56,
+   "fim": 9.82,
+   "conf": 1.0
+  },
+  {
+   "texto": "começar",
+   "inicio": 9.82,
+   "fim": 10.4,
+   "conf": 0.99951171875
+  },
+  {
+   "texto": "uma",
+   "inicio": 10.4,
+   "fim": 10.58,
+   "conf": 0.99951171875
+  },
+  {
+   "texto": "linha,",
+   "inicio": 10.58,
+   "fim": 10.82,
+   "conf": 1.0
+  },
+  {
+   "texto": "eu",
+   "inicio": 11.1,
+   "fim": 11.4,
+   "conf": 0.99853515625
+  },
+  {
+   "texto": "fico",
+   "inicio": 11.4,
+   "fim": 11.7,
+   "conf": 1.0
+  },
+  {
+   "texto": "atento",
+   "inicio": 11.7,
+   "fim": 12.12,
+   "conf": 1.0
+  },
+  {
+   "texto": "àquela",
+   "inicio": 12.12,
+   "fim": 12.4,
+   "conf": 0.9951171875
+  },
+  {
+   "texto": "linha",
+   "inicio": 12.4,
+   "fim": 12.64,
+   "conf": 1.0
+  },
+  {
+   "texto": "e",
+   "inicio": 12.64,
+   "fim": 13.12,
+   "conf": 0.89111328125
+  },
+  {
+   "texto": "repetimos",
+   "inicio": 13.12,
+   "fim": 13.6,
+   "conf": 0.998046875
+  },
+  {
+   "texto": "desde",
+   "inicio": 13.6,
+   "fim": 13.82,
+   "conf": 0.99951171875
+  },
+  {
+   "texto": "o",
+   "inicio": 13.82,
+   "fim": 13.96,
+   "conf": 1.0
+  },
+  {
+   "texto": "início",
+   "inicio": 13.96,
+   "fim": 14.18,
+   "conf": 0.9990234375
+  },
+  {
+   "texto": "dela.",
+   "inicio": 14.18,
+   "fim": 14.44,
+   "conf": 0.99853515625
+  },
+  {
+   "texto": "Tá,",
+   "inicio": 14.86,
+   "fim": 15.02,
+   "conf": 0.48291015625
+  },
+  {
+   "texto": "corre?",
+   "inicio": 15.14,
+   "fim": 15.28,
+   "conf": 0.5791015625
+  },
+  {
+   "texto": "Vamos",
+   "inicio": 15.78,
+   "fim": 16.3,
+   "conf": 0.99267578125
+  },
+  {
+   "texto": "nessa.",
+   "inicio": 16.3,
+   "fim": 16.58,
+   "conf": 0.99853515625
+  },
+  {
+   "texto": "mais",
+   "inicio": 34.88,
+   "fim": 36.28,
+   "conf": 0.456787109375
+  },
+  {
+   "texto": "um",
+   "inicio": 36.28,
+   "fim": 36.48,
+   "conf": 0.6796875
+  },
+  {
+   "texto": "maior",
+   "inicio": 36.48,
+   "fim": 37.62,
+   "conf": 0.46240234375
+  }
+ ],
+ "texto": " De uma linha, você vai ter que entender que aquela linha eu quero repetir. Então, repete naquela mesma linha que eu estou falando. Entendi. A partir de agora, se você começar uma linha, eu fico atento àquela linha e repetimos desde o início dela. Tá, corre? Vamos nessa. mais um maior"
+}

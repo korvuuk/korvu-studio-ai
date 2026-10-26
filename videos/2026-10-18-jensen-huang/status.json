@@ -1,0 +1,46 @@
+{
+  "slug": "2026-10-18-jensen-huang",
+  "estado": "roteiro",
+  "atualizado": "2026-10-17T16:20:54+01:00",
+  "historico": [
+    {
+      "estado": "roteiro",
+      "em": "2026-10-17T08:05:00+01:00",
+      "nota": "pasta criada; dossiê copiado de 01-ideias/pesquisas/perfis/jensen-huang; roteiro narrativo em curso"
+    },
+    {
+      "estado": "roteiro",
+      "em": "2026-10-17T08:40:00+01:00",
+      "nota": "roteiro v1 NARRATIVO (19 linhas, 182 palavras, ~87 s a 2,1 p/s; parser 93,6 s conservador): 1.ª virada L04 ~19 s, PRATO na L05 (~22 s) e na L18 (CTA); parse_roteiro.py sem erros nem avisos. Falta: revisor-de-roteiro, PDF PRATO (produtor-de-material), buscador-de-videos, leitura (limpo/teleprompter/monitor/historia-completa)"
+    },
+    {
+      "estado": "roteiro",
+      "em": "2026-10-17T08:20:08+01:00",
+      "nota": "material PDF gerado: material/discurso-jensen-huang-cmu2026.pdf (2 páginas, 13 links; discurso da CMU + entrevista Stanford GSB; tradução automática da legenda explicada, sem 'legenda em português'; trechos 2:32-5:45 conferidos na legenda automática). Estado não mudou"
+    },
+    {
+      "estado": "roteiro",
+      "em": "2026-10-17T11:40:00+01:00",
+      "nota": "roteiro v1 APROVADO COM AJUSTES pelo revisor; leitura gerada (roteiro-limpo, teleprompter, monitor); PDF PRATO pronto; fotos (51) catalogadas"
+    },
+    {
+      "estado": "roteiro",
+      "em": "2026-10-17T15:53:29+01:00",
+      "nota": "buscador-de-videos: 22 vídeos baixados (inclui o discurso da CMU inteiro, sem legenda PT oficial, só automática) e 126 cortes Y001-Y126 (11,8 min) + stills + contato.jpg em material/youtube/cortes; catalogo-insert.md com 'Fatos ditos nos vídeos'; roteiro.md e material/fotos/ não foram tocados"
+    },
+    {
+      "estado": "roteiro",
+      "em": "2026-10-17T16:20:54+01:00",
+      "nota": "proposta de sequência de extras v1 (antes da gravação): edicao/sequencia-extras.md + qa/sequencia-extras-contato.jpg + edicao/extras-v2/montar_v1.py (tempos estimados 2,1 p/s até a EDL; par A/B: B1–B4 cobrem L01–L02, Carlos entra na L03 ~9,4 s). Estado não mudou"
+    }
+  ],
+  "material": {
+    "dossie": "material/dossie.md",
+    "fontes": "material/fontes.json",
+    "pdf": "material/discurso-jensen-huang-cmu2026.pdf",
+    "fotos": "material/fotos/catalogo.md",
+    "youtube": "material/youtube/catalogo.md",
+    "youtube_insert": "material/youtube/catalogo-insert.md",
+    "sequencia_extras": "edicao/sequencia-extras.md"
+  }
+}

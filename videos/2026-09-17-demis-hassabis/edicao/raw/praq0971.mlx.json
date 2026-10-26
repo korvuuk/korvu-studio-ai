@@ -1,0 +1,573 @@
+{
+ "engine": "mlx",
+ "modelo": "mlx-community/whisper-large-v3-turbo",
+ "versao": 2,
+ "lacunas": 2,
+ "palavras": [
+  {
+   "texto": "De",
+   "inicio": 0.0,
+   "fim": 0.84,
+   "conf": 0.349609375
+  },
+  {
+   "texto": "novo,",
+   "inicio": 0.84,
+   "fim": 1.1,
+   "conf": 0.99951171875
+  },
+  {
+   "texto": "em",
+   "inicio": 1.6,
+   "fim": 2.14,
+   "conf": 0.99560546875
+  },
+  {
+   "texto": "16,",
+   "inicio": 2.14,
+   "fim": 2.56,
+   "conf": 0.1966552734375
+  },
+  {
+   "texto": "a",
+   "inicio": 3.32,
+   "fim": 3.84,
+   "conf": 0.99072265625
+  },
+  {
+   "texto": "IA",
+   "inicio": 3.84,
+   "fim": 4.04,
+   "conf": 0.56591796875
+  },
+  {
+   "texto": "deles",
+   "inicio": 4.04,
+   "fim": 4.42,
+   "conf": 0.96826171875
+  },
+  {
+   "texto": "venceu",
+   "inicio": 4.42,
+   "fim": 4.98,
+   "conf": 0.9990234375
+  },
+  {
+   "texto": "um",
+   "inicio": 4.98,
+   "fim": 5.12,
+   "conf": 0.98095703125
+  },
+  {
+   "texto": "dos",
+   "inicio": 5.12,
+   "fim": 5.26,
+   "conf": 1.0
+  },
+  {
+   "texto": "maiores",
+   "inicio": 5.26,
+   "fim": 5.84,
+   "conf": 1.0
+  },
+  {
+   "texto": "nomes",
+   "inicio": 5.84,
+   "fim": 6.24,
+   "conf": 0.9951171875
+  },
+  {
+   "texto": "do",
+   "inicio": 6.24,
+   "fim": 6.36,
+   "conf": 0.994140625
+  },
+  {
+   "texto": "gol.",
+   "inicio": 6.36,
+   "fim": 6.54,
+   "conf": 0.982421875
+  },
+  {
+   "texto": "Em",
+   "inicio": 7.36,
+   "fim": 8.36,
+   "conf": 0.849609375
+  },
+  {
+   "texto": "2016,",
+   "inicio": 8.36,
+   "fim": 9.18,
+   "conf": 0.951171875
+  },
+  {
+   "texto": "a",
+   "inicio": 9.8,
+   "fim": 10.46,
+   "conf": 0.99951171875
+  },
+  {
+   "texto": "IA",
+   "inicio": 10.46,
+   "fim": 10.8,
+   "conf": 0.984375
+  },
+  {
+   "texto": "deles",
+   "inicio": 10.8,
+   "fim": 11.2,
+   "conf": 0.9990234375
+  },
+  {
+   "texto": "venceu",
+   "inicio": 11.2,
+   "fim": 12.18,
+   "conf": 1.0
+  },
+  {
+   "texto": "o",
+   "inicio": 12.18,
+   "fim": 12.96,
+   "conf": 0.71142578125
+  },
+  {
+   "texto": "maior",
+   "inicio": 12.96,
+   "fim": 13.26,
+   "conf": 0.9970703125
+  },
+  {
+   "texto": "nome",
+   "inicio": 13.26,
+   "fim": 13.74,
+   "conf": 0.99755859375
+  },
+  {
+   "texto": "do",
+   "inicio": 13.74,
+   "fim": 14.48,
+   "conf": 0.99951171875
+  },
+  {
+   "texto": "gol.",
+   "inicio": 14.48,
+   "fim": 14.72,
+   "conf": 0.998046875
+  },
+  {
+   "texto": "Próximo.",
+   "inicio": 16.4,
+   "fim": 17.4,
+   "conf": 0.7919921875
+  },
+  {
+   "texto": "Um",
+   "inicio": 17.9,
+   "fim": 18.18,
+   "conf": 0.93505859375
+  },
+  {
+   "texto": "jogo",
+   "inicio": 18.18,
+   "fim": 18.58,
+   "conf": 0.99755859375
+  },
+  {
+   "texto": "com",
+   "inicio": 18.58,
+   "fim": 18.84,
+   "conf": 0.99462890625
+  },
+  {
+   "texto": "o",
+   "inicio": 18.84,
+   "fim": 18.96,
+   "conf": 0.8857421875
+  },
+  {
+   "texto": "Mai.",
+   "inicio": 18.96,
+   "fim": 19.14,
+   "conf": 0.281005859375
+  },
+  {
+   "texto": "Continua.",
+   "inicio": 25.62,
+   "fim": 26.62,
+   "conf": 0.98828125
+  },
+  {
+   "texto": "De",
+   "inicio": 30.0,
+   "fim": 30.68,
+   "conf": 0.7412109375
+  },
+  {
+   "texto": "novo,",
+   "inicio": 30.68,
+   "fim": 31.0,
+   "conf": 1.0
+  },
+  {
+   "texto": "um",
+   "inicio": 31.48,
+   "fim": 31.96,
+   "conf": 0.9873046875
+  },
+  {
+   "texto": "jogo",
+   "inicio": 31.96,
+   "fim": 32.38,
+   "conf": 0.99951171875
+  },
+  {
+   "texto": "com",
+   "inicio": 32.38,
+   "fim": 32.62,
+   "conf": 0.99951171875
+  },
+  {
+   "texto": "mais",
+   "inicio": 32.62,
+   "fim": 32.98,
+   "conf": 0.99951171875
+  },
+  {
+   "texto": "posições",
+   "inicio": 32.98,
+   "fim": 33.52,
+   "conf": 0.9990234375
+  },
+  {
+   "texto": "possíveis",
+   "inicio": 33.52,
+   "fim": 34.16,
+   "conf": 0.998046875
+  },
+  {
+   "texto": "do",
+   "inicio": 34.16,
+   "fim": 35.48,
+   "conf": 0.98291015625
+  },
+  {
+   "texto": "que",
+   "inicio": 35.48,
+   "fim": 35.64,
+   "conf": 0.99951171875
+  },
+  {
+   "texto": "átomos",
+   "inicio": 35.64,
+   "fim": 36.14,
+   "conf": 0.99072265625
+  },
+  {
+   "texto": "no",
+   "inicio": 36.14,
+   "fim": 36.28,
+   "conf": 0.681640625
+  },
+  {
+   "texto": "universo.",
+   "inicio": 36.28,
+   "fim": 36.66,
+   "conf": 0.90966796875
+  },
+  {
+   "texto": "Ausa",
+   "inicio": 37.36,
+   "fim": 38.08,
+   "conf": 0.703125
+  },
+  {
+   "texto": "de",
+   "inicio": 38.08,
+   "fim": 38.24,
+   "conf": 0.998046875
+  },
+  {
+   "texto": "um",
+   "inicio": 38.24,
+   "fim": 38.34,
+   "conf": 0.90234375
+  },
+  {
+   "texto": "segundo.",
+   "inicio": 38.34,
+   "fim": 38.62,
+   "conf": 0.99169921875
+  },
+  {
+   "texto": "E",
+   "inicio": 42.396,
+   "fim": 42.876,
+   "conf": 0.322021484375
+  },
+  {
+   "texto": "aí",
+   "inicio": 42.876,
+   "fim": 43.396,
+   "conf": 0.9658203125
+  },
+  {
+   "texto": "E",
+   "inicio": 49.966,
+   "fim": 50.286,
+   "conf": 0.226318359375
+  },
+  {
+   "texto": "aí",
+   "inicio": 50.286,
+   "fim": 51.026,
+   "conf": 0.96533203125
+  },
+  {
+   "texto": "Um",
+   "inicio": 52.52,
+   "fim": 53.48,
+   "conf": 0.970703125
+  },
+  {
+   "texto": "jogo",
+   "inicio": 53.48,
+   "fim": 53.9,
+   "conf": 0.9970703125
+  },
+  {
+   "texto": "com",
+   "inicio": 53.9,
+   "fim": 54.44,
+   "conf": 0.9970703125
+  },
+  {
+   "texto": "mais",
+   "inicio": 54.44,
+   "fim": 54.82,
+   "conf": 0.99951171875
+  },
+  {
+   "texto": "posições",
+   "inicio": 54.82,
+   "fim": 55.6,
+   "conf": 0.9990234375
+  },
+  {
+   "texto": "com",
+   "inicio": 55.6,
+   "fim": 55.9,
+   "conf": 0.94580078125
+  },
+  {
+   "texto": "átomos",
+   "inicio": 55.9,
+   "fim": 56.56,
+   "conf": 0.9990234375
+  },
+  {
+   "texto": "do",
+   "inicio": 56.56,
+   "fim": 57.06,
+   "conf": 0.9443359375
+  },
+  {
+   "texto": "universo.",
+   "inicio": 57.06,
+   "fim": 57.64,
+   "conf": 0.9990234375
+  },
+  {
+   "texto": "Próximo.",
+   "inicio": 58.66,
+   "fim": 59.62,
+   "conf": 0.88037109375
+  },
+  {
+   "texto": "Mas",
+   "inicio": 60.0,
+   "fim": 60.58,
+   "conf": 0.50439453125
+  },
+  {
+   "texto": "o",
+   "inicio": 60.58,
+   "fim": 60.76,
+   "conf": 0.97021484375
+  },
+  {
+   "texto": "maior",
+   "inicio": 60.76,
+   "fim": 61.02,
+   "conf": 0.99169921875
+  },
+  {
+   "texto": "feito",
+   "inicio": 61.02,
+   "fim": 61.42,
+   "conf": 0.9951171875
+  },
+  {
+   "texto": "veio",
+   "inicio": 61.42,
+   "fim": 61.7,
+   "conf": 0.97607421875
+  },
+  {
+   "texto": "depois.",
+   "inicio": 61.7,
+   "fim": 62.1,
+   "conf": 0.998046875
+  },
+  {
+   "texto": "O",
+   "inicio": 62.78,
+   "fim": 63.16,
+   "conf": 0.66015625
+  },
+  {
+   "texto": "Alpha",
+   "inicio": 63.16,
+   "fim": 63.5,
+   "conf": 0.76220703125
+  },
+  {
+   "texto": "Fold...",
+   "inicio": 63.5,
+   "fim": 64.3,
+   "conf": 0.45166015625
+  },
+  {
+   "texto": "De",
+   "inicio": 66.44,
+   "fim": 67.2,
+   "conf": 0.9287109375
+  },
+  {
+   "texto": "novo.",
+   "inicio": 67.2,
+   "fim": 67.56,
+   "conf": 1.0
+  },
+  {
+   "texto": "Mas",
+   "inicio": 68.1,
+   "fim": 68.62,
+   "conf": 0.9951171875
+  },
+  {
+   "texto": "o",
+   "inicio": 68.62,
+   "fim": 68.86,
+   "conf": 1.0
+  },
+  {
+   "texto": "maior",
+   "inicio": 68.86,
+   "fim": 69.1,
+   "conf": 0.9990234375
+  },
+  {
+   "texto": "feito",
+   "inicio": 69.1,
+   "fim": 69.56,
+   "conf": 1.0
+  },
+  {
+   "texto": "veio",
+   "inicio": 69.56,
+   "fim": 69.8,
+   "conf": 0.998046875
+  },
+  {
+   "texto": "depois.",
+   "inicio": 69.8,
+   "fim": 70.18,
+   "conf": 0.99951171875
+  },
+  {
+   "texto": "O",
+   "inicio": 70.78,
+   "fim": 71.26,
+   "conf": 0.99560546875
+  },
+  {
+   "texto": "Alpha",
+   "inicio": 71.26,
+   "fim": 71.56,
+   "conf": 0.99853515625
+  },
+  {
+   "texto": "Fold",
+   "inicio": 71.56,
+   "fim": 71.92,
+   "conf": 0.99609375
+  },
+  {
+   "texto": "passou",
+   "inicio": 71.92,
+   "fim": 72.7,
+   "conf": 0.99755859375
+  },
+  {
+   "texto": "a",
+   "inicio": 72.7,
+   "fim": 72.9,
+   "conf": 1.0
+  },
+  {
+   "texto": "prever",
+   "inicio": 72.9,
+   "fim": 73.12,
+   "conf": 0.99609375
+  },
+  {
+   "texto": "o",
+   "inicio": 73.12,
+   "fim": 73.28,
+   "conf": 0.9990234375
+  },
+  {
+   "texto": "formato",
+   "inicio": 73.28,
+   "fim": 73.7,
+   "conf": 1.0
+  },
+  {
+   "texto": "das",
+   "inicio": 73.7,
+   "fim": 73.9,
+   "conf": 0.99853515625
+  },
+  {
+   "texto": "proteínas.",
+   "inicio": 73.9,
+   "fim": 74.48,
+   "conf": 0.99755859375
+  },
+  {
+   "texto": "Mas",
+   "inicio": 79.84,
+   "fim": 80.6,
+   "conf": 0.98388671875
+  },
+  {
+   "texto": "o",
+   "inicio": 80.6,
+   "fim": 80.9,
+   "conf": 0.99853515625
+  },
+  {
+   "texto": "maior",
+   "inicio": 80.9,
+   "fim": 81.2,
+   "conf": 0.99853515625
+  },
+  {
+   "texto": "feito...",
+   "inicio": 81.2,
+   "fim": 81.58,
+   "conf": 0.88671875
+  }
+ ],
+ "texto": " De novo, em 16, a IA deles venceu um dos maiores nomes do gol. Em 2016, a IA deles venceu o maior nome do gol. Próximo. Um jogo com o Mai. Continua. De novo, um jogo com mais posições possíveis do que átomos no universo. Ausa de um segundo. Um jogo com mais posições com átomos do universo. Próximo. Mas o maior feito veio depois. O Alpha Fold... De novo. Mas o maior feito veio depois. O Alpha Fold passou a prever o formato das proteínas. Mas o maior feito..."
+}

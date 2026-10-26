@@ -1,0 +1,10 @@
+# capturar.sh · 2026-10-24T22:00:52.712Z
+# alvo	largura pedida	innerWidth	scrollWidth	altura	HTTP	png	passa da borda
+painel/design/previas/portao.html	1440	1440	1440	1676	200	/Users/teste/Documents/CONTENT AI/painel/trabalho/designer/previas-24out-v2/portao-1440.png	
+painel/design/previas/portao.html	375	375	375	2092	200	/Users/teste/Documents/CONTENT AI/painel/trabalho/designer/previas-24out-v2/portao-375.png	
+painel/design/previas/fundamentos.html	1440	1440	1440	3310	200	/Users/teste/Documents/CONTENT AI/painel/trabalho/designer/previas-24out-v2/fundamentos-1440.png	
+painel/design/previas/fundamentos.html	375	375	375	6253	200	/Users/teste/Documents/CONTENT AI/painel/trabalho/designer/previas-24out-v2/fundamentos-375.png	
+painel/design/previas/botao.html	1440	1440	1440	900	200	/Users/teste/Documents/CONTENT AI/painel/trabalho/designer/previas-24out-v2/botao-1440.png	
+painel/design/previas/botao.html	375	375	375	1172	200	/Users/teste/Documents/CONTENT AI/painel/trabalho/designer/previas-24out-v2/botao-375.png	
+painel/design/previas/chip.html	1440	1440	1440	1368	200	/Users/teste/Documents/CONTENT AI/painel/trabalho/designer/previas-24out-v2/chip-1440.png	
+painel/design/previas/chip.html	375	375	375	2165	200	/Users/teste/Documents/CONTENT AI/painel/trabalho/designer/previas-24out-v2/chip-375.png	

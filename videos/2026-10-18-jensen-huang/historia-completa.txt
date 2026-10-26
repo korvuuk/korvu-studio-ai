@@ -1,0 +1,142 @@
+A história completa do Jensen Huang
+
+Este texto é pra você ouvir antes de gravar. Não é o roteiro. É tudo o que está por trás dele, na ordem em que aconteceu, pra você entender a história inteira e depois contar do seu jeito.
+
+Uma regra antes de começar: o que só uma fonte conta vem com "segundo fulano". O resto foi conferido em pelo menos duas fontes, ou saiu da boca dele, no discurso de formatura que ele fez na Universidade Carnegie Mellon, nos Estados Unidos, em maio de dois mil e vinte e seis. É esse discurso que vai no PDF da palavra PRATO.
+
+Quem é ele
+
+O Jensen Huang é um dos três fundadores da Nvidia, e o chefe da empresa desde o primeiro dia, em mil novecentos e noventa e três. O nome se fala "Djén-sen Huáng". A empresa se fala "En-ví-dia".
+
+A Nvidia faz GPUs. GPU é o nome técnico da placa de vídeo, o chip que desenha a imagem na tela do computador. Hoje, é nesses chips que a inteligência artificial roda. Daqui em diante, quando eu disser IA, é inteligência artificial. Pensa assim: se o ChatGPT é o carro, a Nvidia faz o motor.
+
+Em dois mil e vinte e cinco, a Nvidia virou a primeira empresa do mundo a passar de cinco trilhões de dólares em valor de mercado. Mas a história começa bem longe disso.
+
+Da Tailândia ao Kentucky
+
+Ele nasceu em Taiwan. Segundo a Wikipédia, nasceu em Taipei, em mil novecentos e sessenta e três, e passou parte da infância na Tailândia. No discurso, ele se apresenta como imigrante de primeira geração. Conta que o pai sonhava criar a família nos Estados Unidos e que, quando ele tinha nove anos, o pai mandou ele e o irmão mais velho na frente, pra morar com um tio.
+
+A Fortune e ele mesmo falam em nove anos; a Wikipédia, em dez. Por isso o roteiro diz "ainda criança". Se quiser dizer a idade, diga "com uns nove anos". E não diga que ele era pobre nem que chegou sem nada: foi a família que mandou os dois estudar fora.
+
+Os dois foram parar num internato, o Oneida Baptist Institute, no Kentucky. Kentucky se fala "Kentâki". Ele descreve o lugar como região de mina de carvão, numa cidadezinha de poucas centenas de pessoas. Segundo a Wikipédia, os tios matricularam os dois achando que era um colégio de prestígio. Na verdade, era uma escola pra jovens com problema de comportamento. Por isso o roteiro diz "a família achava que era escola boa", e não "ele achava".
+
+E lá, o trabalho dele era limpar os banheiros. Segundo a Fortune, os banheiros de uns cem meninos. Ele conta isso com graça: "Eu só queria que eles fossem um pouquinho mais cuidadosos." Os relatos de briga nessa escola não batem entre si, então ficam de fora.
+
+Dois anos depois, conta ele no discurso, os pais deixaram tudo pra trás e foram encontrar os filhos. E a mãe acordava o filho às quatro da manhã pra ele entregar jornal.
+
+O Denny's do Oregon
+
+A família foi morar perto de Portland, no Oregon. E é aqui que entra o Denny's, que se fala "Dénis". É uma rede americana de lanchonetes.
+
+Segundo a Fortune, ele começou lá aos quinze anos. E quem arrumou o emprego, conta ele, foi o irmão mais velho. Lavou prato, depois foi ajudante de garçom, e depois garçom. E tem orgulho disso. Numa conversa em Stanford, ele disse: "Eu era, provavelmente, o melhor lavador de pratos do Denny's." E no discurso ele conta que aquele emprego, na época, parecia uma grande promoção na carreira.
+
+Agora, um detalhe que confunde muita gente. Esse Denny's, onde ele lavava prato, fica perto de Portland. A Nvidia nasceu anos depois, num outro Denny's, na Califórnia. Tem reportagem dizendo que é o mesmo. Não é. Por isso o roteiro diz "num outro Denny's", e a palavra "outro" não pode sumir.
+
+Depois, ele estudou na Universidade Estadual do Oregon, onde conheceu a Lori, a mulher dele até hoje.
+
+Mil novecentos e noventa e três: a mesa do outro Denny's
+
+Em mil novecentos e noventa e três, com trinta anos, casado e com dois filhos, ele sentou numa mesa de um Denny's em San Jose, na Califórnia, com dois amigos, o Chris Malachowsky e o Curtis Priem. Ali, os três decidiram criar a empresa. A ideia era um chip de gráficos em três dimensões pro computador de casa. A Nvidia foi registrada em abril daquele ano, segundo o relatório oficial que ela entrega à SEC, a comissão que fiscaliza a bolsa americana.
+
+Sobre essa mesa, ele disse à CNBC: "Nenhum de nós sabia fazer nada." E no discurso: "A gente não tinha a menor ideia de como montar uma empresa. Eu só pensei: quão difícil pode ser?" Se essa ideia voltar no improviso, que venha como fala dele: "segundo ele".
+
+Sobre quanto dinheiro eles tinham no começo, circulam números sem fonte firme. Então não diga valor nenhum.
+
+O chip errado e o pedido à Sega
+
+O primeiro chip, o "ene vê um", saiu em mil novecentos e noventa e cinco. E foi o primeiro grande erro. Pensa assim: pra desenhar um jogo em três dimensões, o computador monta as figuras com pedacinhos. A Nvidia apostou em curvas. Só que a Microsoft, a dona do Windows, escolheu os triângulos como padrão, e o chip encalhou. No discurso, ele diz: "A nossa primeira tecnologia nem funcionou. Quase ficamos sem dinheiro."
+
+A Sega, a empresa japonesa de videogame, tinha contratado a Nvidia pra fazer um chip. Ele voou até o Japão e explicou ao chefe da Sega que a tecnologia não ia funcionar. Pediu pra sair do contrato e pediu que eles pagassem assim mesmo. Sem aquele dinheiro, diz ele, a Nvidia ia evaporar. Ele conta que foi humilhante, uma das coisas mais difíceis que já fez. E o chefe da Sega disse sim. Segundo a Wikipédia e o site The Next Web, a Sega transformou aquele pagamento num investimento de cinco milhões de dólares na Nvidia.
+
+Atenção: uma reportagem dá um nome pra esse chefe da Sega, e o próprio Jensen, no discurso, dá outro. Então diga só "o chefe da Sega".
+
+A lição que ele tirou, segundo o discurso, é que honestidade e humildade podem ser respondidas com generosidade, até nos negócios.
+
+Trinta dias de fechar
+
+Com o dinheiro da Sega, eles recomeçaram. Em mil novecentos e noventa e sete saiu o Riva cento e vinte e oito, já com triângulos, e foi esse chip que salvou a empresa.
+
+E tem uma frase que ele costuma dizer: "A nossa empresa está a trinta dias de fechar as portas." Segundo a Wikipédia, por muito tempo ele abriu as apresentações pra equipe assim. Use sempre como "ele costuma dizer". No roteiro, fica só "a empresa quase quebrou".
+
+Dos jogos à inteligência artificial
+
+A Nvidia nasceu fazendo chip de gráfico pro computador de casa. Só que esses chips viraram outra coisa. No discurso, ele explica: durante décadas, a pessoa escrevia o programa e o computador obedecia. Agora a máquina aprende. E as redes neurais, as máquinas que aprendem imitando o cérebro, do vídeo do Hinton, rodam nas GPUs.
+
+Não diga que o ChatGPT roda só em Nvidia, nem cite empresa nenhuma como cliente dela.
+
+A volta ao Denny's
+
+Em dois mil e vinte e três, segundo o blog da Nvidia, ele voltou ao Denny's de San Jose, junto com a CEO da rede, e disse: "A gente veio bem aqui, sentou bem ali no fundo, e nós três decidimos começar a empresa." E explicou a escolha do lugar: "Tinha todo o café que você conseguisse beber, e ninguém te expulsava."
+
+Os cinco trilhões
+
+Em vinte e nove de outubro de dois mil e vinte e cinco, a Nvidia virou a primeira empresa do mundo a chegar a cinco trilhões de dólares em valor de mercado. Valor de mercado é quanto valem, somadas, todas as ações dela na bolsa. Não é o dinheiro dele, e muda todo dia. Por isso, não diga quanto ela vale hoje, nem a fortuna dele, nem lista de mais ricos.
+
+O prêmio em Londres
+
+Em novembro de dois mil e vinte e cinco, ele esteve aqui em Londres pra receber o Queen Elizabeth Prize for Engineering, um prêmio britânico de engenharia, junto com o Bill Dally, o cientista-chefe da Nvidia. Quem entregou foi o rei Charles, que se fala "Chárls", no Palácio de Saint James. Antes, teve uma mesa-redonda em Downing Street, onde fica o primeiro-ministro britânico.
+
+O prêmio foi dividido com outros nomes da IA, entre eles o Geoffrey Hinton e a Fei-Fei Li, dos vídeos anteriores. As reportagens não batem em quantas pessoas foram premiadas, então não diga o número. E não chame de Nobel: é um prêmio de engenharia. Uma história de carta do rei pra ele não deu pra conferir e fica de fora.
+
+Dois mil e vinte e seis: o discurso e o obrigado à Sega
+
+Em maio de dois mil e vinte e seis, ele fez o discurso de formatura da Carnegie Mellon. É esse que vai no PDF: dezoito minutos, no canal oficial da universidade, em inglês. A legenda é a automática, em inglês, que o próprio YouTube traduz, e o PDF ensina como ligar. Por isso, nunca diga "com legenda em português". A história dele vai mais ou menos do minuto dois e meio até perto do minuto seis.
+
+Em julho, segundo o The Next Web, que cita a agência Reuters, ele foi a Tóquio agradecer pessoalmente à Sega.
+
+O que ele defende
+
+No discurso, ele diz que a carreira dele começou com a revolução do computador pessoal, e que a de quem se forma agora começa com a da IA. Diz que toda revolução da tecnologia trouxe medo junto com oportunidade, e que a IA tem de avançar com sabedoria. E dá um exemplo que conversa com o seu público: agora um lojista pode pedir à IA pra criar um site e fazer o negócio crescer.
+
+A lição pra quem tá recomeçando
+
+Repara no caminho dele. Um menino longe de casa. Um adolescente lavando prato com orgulho. Três amigos numa mesa de lanchonete que não sabiam montar uma empresa. Um chip que deu errado. E um pedido de ajuda, honesto, a um cliente.
+
+Pra quem mora fora e começou de baixo, isso bate forte. É o que o vídeo quer dizer com "o seu Denny's pode ser onde você está agora": o lugar pequeno onde uma coisa grande pode começar. E, pro dono de negócio, errar o primeiro produto não é o fim, se ainda tem fôlego. Mas o vídeo não promete resultado nem dinheiro.
+
+Os momentos que estão no vídeo
+
+Aqui vão a ideia de cada momento e outras formas de dizer, se na hora sair diferente.
+
+Antes de falar, a pose da capa: segurando um prato branco ao lado do rosto, com a sobrancelha erguida. Três segundos parado, em silêncio.
+
+O gancho. As duas primeiras frases podem ir com imagem por cima, só com a sua voz, então elas têm de se entender sozinhas. Imagina você lavar prato numa lanchonete… e, anos depois, criar a primeira empresa de cinco trilhões de dólares. Pois é. Essa é a história do Jensen Huang, da Nvidia. Pode ser: "Imagina você começar lavando prato numa lanchonete…". Termine com o nome dele e o da Nvidia. Grave também os ganchos alternativos: "Imagina limpar banheiro num internato, ainda criança, longe de casa…" e "Imagina ser o melhor lavador de pratos da lanchonete…".
+
+A primeira virada. E olha só que interessante: ela nasceu numa mesa de lanchonete. É a primeira das três frases em que o vídeo volta pra você: pode falar devagar. Pode ser: "E olha só que interessante: essa empresa nasceu numa mesa de lanchonete." Logo depois: Se quiser ver ele contando, comenta PRATO. Pode ser: "Se você quiser ver ele mesmo contando, comenta a palavra PRATO."
+
+A história. Ele nasceu em Taiwan e, ainda criança, foi parar num internato no Kentucky. A família achava que era escola boa… mas ele limpava os banheiros. Depois, ele foi lavar prato num Denny's. Em mil novecentos e noventa e três, num outro Denny's, ele e dois amigos planejaram a Nvidia. Pode ser: "Com uns nove anos, ele foi mandado com o irmão pros Estados Unidos." Ou: "E aí, em mil novecentos e noventa e três, num outro Denny's, ele e dois amigos sentaram numa mesa e planejaram a Nvidia." Nunca "no mesmo Denny's".
+
+O desafio. Só que a empresa quase quebrou. É a segunda frase em que o vídeo volta pra você: curta e devagar. Pode ser: "Só que aí que tá o problema: a empresa quase quebrou." Ou: "Só que o primeiro chip não funcionou, e a empresa quase quebrou."
+
+A virada. Anos depois, chegou a inteligência artificial. Se o ChatGPT é o carro, a Nvidia faz o motor. Pode ser: "E aí, anos depois, chegou a inteligência artificial. Pensa assim: se o ChatGPT é o carro, a Nvidia é quem faz o motor."
+
+O clímax. Aqui em Londres, ele recebeu do Rei Charles o mesmo prêmio do Hinton e da Fei-Fei Li, de quem eu já falei aqui. Pode ser, em pergunta e resposta: "E onde ele recebeu o prêmio? Aqui em Londres, das mãos do Rei Charles."
+
+A reflexão. A história dele mostra uma coisa: o seu Denny's pode ser onde você está agora. "A história dele mostra uma coisa" é a terceira frase em que o vídeo volta pra você, com pausa depois. Pode ser: "o seu Denny's pode ser o lugar onde você está agora."
+
+O pedido, todo em você, sem imagem por cima. Salva pra rever quando achar que começou pequeno demais. Comenta a palavra PRATO que eu vou te enviar o discurso dele. E manda pra quem tá recomeçando aqui na Europa. Pode ser: "Salva esse vídeo pra rever quando você achar que começou pequeno demais." E: "E também não esquece de mandar pra alguém que tá recomeçando aqui na Europa." Se sair "entrevista" em vez de "discurso", tudo bem: o PDF traz as duas.
+
+O que não pode mudar: o nome Jensen Huang, a Nvidia, mil novecentos e noventa e três, o Denny's, com "num outro Denny's" na fundação, o Kentucky, os cinco trilhões, o "comenta PRATO" dito duas vezes, uma no começo e outra no pedido final, o pedido de salvar, o pedido de enviar, "aqui em Londres" e "o mesmo prêmio do Hinton e da Fei-Fei Li".
+
+E o que não entra, nem no improviso: o valor da Nvidia hoje, a fortuna dele, o nome do chefe da Sega, "o mesmo Denny's", "legenda em português", e uma frase dele, dita em Stanford, em que ele deseja dor e sofrimento aos estudantes. Soa a coach.
+
+Fontes (não precisa ler em voz alta)
+
+Discurso de formatura na Carnegie Mellon, 10/05/2026 (canal oficial, 18:22; material do PDF; a história vai de 2:32 a 5:45): https://www.youtube.com/watch?v=FZh_0uRgrg4
+Resumo do discurso no blog da Nvidia, 10/05/2026: https://blogs.nvidia.com/blog/nvidia-ceo-carnegie-mellon-commencement-address/
+Blog da Nvidia, a volta ao Denny's (26/09/2023): https://blogs.nvidia.com/blog/nvidia-dennys-trillion/
+CNBC via NBC Connecticut, a mesa do Denny's (mar/2024): https://www.nbcconnecticut.com/news/business/money-report/jensen-huang-started-his-2-trillion-company-nvidia-at-a-dennys-breakfast-booth/3282560/
+Relatório 10-K da Nvidia na SEC ("incorporated in California in April 1993"): https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/nvda-20260125.htm
+Fortune, 12/03/2024, o Denny's aos 15 anos: https://fortune.com/2024/03/12/billionaire-nvidia-ceo-first-job-dennys
+Fortune, 05/12/2025, o internato aos 9 anos: https://fortune.com/2025/12/05/jensen-huang-nine-year-old-janitor-before-nvidia-joe-rogan-podcast
+Fortune, 28/08/2024, os banheiros: https://www.fortune.com/2024/08/28/nvidias-billionaire-boss-i-used-to-clean-bathrooms-and-now-im-the-ceo
+Stanford GSB, "Denny's best dishwasher" (transcrição): https://www.gsb.stanford.edu/insights/jensen-huang-how-use-first-principles-thinking-drive-decisions
+Stanford GSB no YouTube, View From The Top, 56:27 (bônus do PDF): https://www.youtube.com/watch?v=lXLBTBBil2U
+The Next Web, 15/07/2026, a Sega e os US$ 5 milhões: https://thenextweb.com/news/nvidia-sega-1995-5-million-rescue
+Wikipédia, Jensen Huang: https://en.wikipedia.org/wiki/Jensen_Huang
+Dawn, texto da AFP, primeira empresa de US$ 5 trilhões (29/10/2025): https://www.dawn.com/news/1952086/ai-chip-giant-nvidia-becomes-worlds-first-5-trillion-firm
+AP via Yahoo Finance, fechamento em US$ 5,03 trilhões: https://finance.yahoo.com/news/nvidia-started-5-trillion-club-172246928.html
+Blog da Nvidia, Queen Elizabeth Prize for Engineering: https://blogs.nvidia.com/blog/nvidia-founder-and-ceo-jensen-huang-and-chief-scientist-bill-dally-awarded-prestigious-queen-elizabeth-prize-for-engineering
+UKTech.news, 06/11/2025, a entrega pelo rei Charles: https://www.uktech.news/ai/jensen-huang-and-other-ai-leaders-presented-award-by-king-charles-20251106
+QEPrize, a entrega no St James's Palace: https://qeprize.org/news/king-presentation-qeprize
+Royal Academy of Engineering, os premiados de 2025: https://raeng.org.uk/news/modern-machine-learning-innovators-win-2025-queen-elizabeth-prize-for-engineering/

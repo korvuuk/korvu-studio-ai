@@ -1,0 +1,15 @@
+# Câmbio do custo de IA no painel (decisão do Carlos, 23/10 — docs/decisoes.md §5: o custo aparece sempre em libras).
+# O banco guarda o custo em US$ (preço de tabela da API); a tela converte pela taxa MAIS RECENTE da moeda e mostra
+# qual usou (valor, fonte e data). O sincronizador só LÊ este arquivo (tabela `cambio`).
+#
+# Para atualizar: ACRESCENTE uma linha com a data nova (não apague as antigas — é o histórico).
+#   data:  AAAA-MM-DD (data de referência da taxa)
+#   moeda: código de 3 letras (GBP)
+#   valor: quanto vale 1 US$ nessa moeda, com ponto decimal (até 6 casas)
+#   fonte: de onde veio a taxa
+# Valor inválido ou arquivo ausente = a passagem do painel para com "✗" e nada é gravado.
+taxas:
+  - data: 2026-10-23
+    moeda: GBP
+    valor: 0.7465
+    fonte: XE, média de mercado

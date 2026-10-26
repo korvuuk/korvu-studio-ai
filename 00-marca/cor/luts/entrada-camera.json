@@ -1,0 +1,69 @@
+{
+  "nome": "entrada-camera",
+  "provisorio": true,
+  "criado_em": "2026-09-15T18:28:00+01:00",
+  "camera": "Panasonic Lumix S5IIX",
+  "metodo": "colour.log_decoding_VLog → linear V-Gamut → RGB_to_RGB V-Gamut→BT.709 (D65, sem CAT) → exposição (18% fica 18%) → soft-clip de gamut (RGC simplificado) → curva fílmica por canal f=m·(x/(x+s0))^p, g=f²/(f+t) com reconstrução parcial da matiz → inverso BT.1886 (g^(1/2.4)) → clamp 0–1",
+  "cube": "00-marca/cor/luts/entrada-camera.cube",
+  "tamanho": 65,
+  "interp": "tetrahedral",
+  "entrada": {
+    "curva": "Panasonic V-Log",
+    "gamut": "V-Gamut",
+    "dominio": "RGB 0–1 como o lut3d vê após yuv limited (tv) → RGB full (in_range=tv)",
+    "codigo_para_x": "x = (código10 − 64)/876",
+    "x_para_vlog": "V = (64 + 876·x)/1023",
+    "nota": "super-brancos > 940 (> +6.8 stops) cortados; S5IIX satura antes (~+6 stops)"
+  },
+  "saida": {
+    "espaco": "Rec.709 / BT.1886 (gamma 2.4), RGB 0–1 full range",
+    "intencao": "equivalente técnico à LUT V-709 da Panasonic (não é a oficial)"
+  },
+  "parametros": {
+    "m": 1.011859,
+    "s0": 0.630894,
+    "p": 1.3,
+    "t": 0.012,
+    "cinza": 0.43,
+    "preservar_matiz": 0.7,
+    "gamut_limiar": 0.8,
+    "gamut_limite": [
+      1.2,
+      1.3,
+      1.3
+    ],
+    "gamut_potencia": 1.2,
+    "matriz_vgamut_para_709": [
+      [
+        1.806574,
+        -0.695698,
+        -0.110879
+      ],
+      [
+        -0.170089,
+        1.305955,
+        -0.135865
+      ],
+      [
+        -0.025206,
+        -0.154468,
+        1.179674
+      ]
+    ]
+  },
+  "saida_neutros_codigo": {
+    "-6 stops": 0.0175,
+    "-4 stops": 0.0685,
+    "-2 stops": 0.2012,
+    "+0 stops": 0.43,
+    "+1 stops": 0.5703,
+    "+2 stops": 0.7068,
+    "+2.32 stops": 0.7461,
+    "+3 stops": 0.8189,
+    "+4 stops": 0.897,
+    "+5 stops": 0.9446,
+    "+6 stops": 0.9712,
+    "+6.8 stops": 0.9832,
+    "preto V-Log (código 128)": 0.0
+  }
+}

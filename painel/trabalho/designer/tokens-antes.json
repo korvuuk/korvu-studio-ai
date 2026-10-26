@@ -1,0 +1,497 @@
+{
+  "nome": "korvu. painel",
+  "versao": 1,
+  "origem": {
+    "artefato": "Claude Design — design system \"korvu. painel\", feito pelo Carlos (23/10/2026)",
+    "copia_exata": "painel/referencias/claude-design/korvu-painel-2026-10-23/tokens.json",
+    "regra": "Valores idênticos à fonte. `chart-1` e `focus` são alias de `accent` na fonte: aqui vêm resolvidos (campo `valor`) e com o alias anotado (campo `alias`). Textos de uso traduzidos para PT-BR.",
+    "conferir": "uv run python -I painel/design/verificacao/fidelidade.py"
+  },
+  "tema": {
+    "id": "light",
+    "nome": "Marfim",
+    "nota": "Único tema do sistema. Não existe modo escuro."
+  },
+  "cor": {
+    "bg": {
+      "valor": "#f5f2e8",
+      "css": "--bg",
+      "uso": "Fundo principal de todas as telas (marfim quente). Nunca branco puro."
+    },
+    "surface": {
+      "valor": "#fbf9f4",
+      "css": "--surface",
+      "uso": "Fundo de cards, tabelas, popovers e campos — um passo mais claro que `bg`."
+    },
+    "surface-sunken": {
+      "valor": "#efebe0",
+      "css": "--surface-sunken",
+      "uso": "Áreas rebaixadas: trilho de progresso, chips neutros, células vazias do calendário, hover de linha. Só `ink` e `ink-2` sobre ele."
+    },
+    "surface-hover": {
+      "valor": "#f8f5ee",
+      "css": "--surface-hover",
+      "uso": "Hover discreto de card e de linha de tabela."
+    },
+    "line": {
+      "valor": "#e4dfd2",
+      "css": "--line",
+      "uso": "Borda fina (1px) de cards, divisórias de tabela e separadores. Decorativa: nunca é a única pista de um controle."
+    },
+    "line-strong": {
+      "valor": "#a8a090",
+      "css": "--line-strong",
+      "uso": "Borda de controles (campos, dropdown, botão secundário) — 3:1 sobre `bg` e `surface`."
+    },
+    "ink": {
+      "valor": "#111111",
+      "css": "--ink",
+      "uso": "Texto principal, títulos, números de métricas. Sobre `bg`, `surface`, `surface-sunken` e `accent`."
+    },
+    "ink-2": {
+      "valor": "#6b6458",
+      "css": "--ink-2",
+      "uso": "Texto secundário (cinza quente): descrições, rótulos, eixos de gráfico. Sobre `bg`, `surface`, `surface-sunken`."
+    },
+    "ink-3": {
+      "valor": "#736c60",
+      "css": "--ink-3",
+      "uso": "Meta e legendas pequenas (horários, contagens). Só sobre `bg` e `surface`."
+    },
+    "sidebar": {
+      "valor": "#111111",
+      "css": "--sidebar",
+      "uso": "Fundo da barra lateral fixa (quase preto) e das dicas (tooltips)."
+    },
+    "sidebar-raised": {
+      "valor": "#1d1c1a",
+      "css": "--sidebar-raised",
+      "uso": "Item ativo e hover dentro da barra lateral."
+    },
+    "sidebar-line": {
+      "valor": "#2c2a27",
+      "css": "--sidebar-line",
+      "uso": "Divisórias dentro da barra lateral."
+    },
+    "sidebar-ink": {
+      "valor": "#f5f2e8",
+      "css": "--sidebar-ink",
+      "uso": "Texto ativo e o `korvu.` do logotipo sobre `sidebar`."
+    },
+    "sidebar-ink-2": {
+      "valor": "#9a9385",
+      "css": "--sidebar-ink-2",
+      "uso": "Itens inativos e a palavra `painel` sobre `sidebar` (6:1)."
+    },
+    "accent": {
+      "valor": "#ff4d00",
+      "css": "--accent",
+      "uso": "Laranja Korvu: botão primário, item ativo, foco, série principal dos gráficos. Como texto, só sobre `sidebar` ou a partir de 24px — sobre `bg` use `accent-ink`."
+    },
+    "accent-hover": {
+      "valor": "#e64500",
+      "css": "--accent-hover",
+      "uso": "Hover/pressionado do botão primário."
+    },
+    "accent-soft": {
+      "valor": "#ffe8dc",
+      "css": "--accent-soft",
+      "uso": "Fundo do chip `Em produção` e de destaques laranja suaves."
+    },
+    "accent-ink": {
+      "valor": "#b33600",
+      "css": "--accent-ink",
+      "uso": "Texto laranja sobre `bg`, `surface` e `accent-soft` (≥4.5:1)."
+    },
+    "on-accent": {
+      "valor": "#111111",
+      "css": "--on-accent",
+      "uso": "Texto e ícones sobre `accent` (5.7:1). Branco sobre o laranja falha o contraste em 14px."
+    },
+    "positive": {
+      "valor": "#1e7a45",
+      "css": "--positive",
+      "uso": "Só métricas positivas (▲ +12%) e o chip `Aprovado`. Sobre `bg`, `surface`, `positive-soft`."
+    },
+    "positive-soft": {
+      "valor": "#e3f0e4",
+      "css": "--positive-soft",
+      "uso": "Fundo do chip `Aprovado` e do delta positivo."
+    },
+    "danger": {
+      "valor": "#c2271b",
+      "css": "--danger",
+      "uso": "Só alertas: chip `Bloqueado`, custo acima do orçamento, erros. Sobre `bg`, `surface`, `danger-soft`."
+    },
+    "danger-soft": {
+      "valor": "#fbe3df",
+      "css": "--danger-soft",
+      "uso": "Fundo do chip `Bloqueado` e das notificações de alerta."
+    },
+    "chart-1": {
+      "valor": "#ff4d00",
+      "css": "--chart-1",
+      "uso": "Série principal de qualquer gráfico (a que está em foco).",
+      "alias": "accent"
+    },
+    "chart-2": {
+      "valor": "#111111",
+      "css": "--chart-2",
+      "uso": "Segunda série / comparação (período anterior, Facebook)."
+    },
+    "chart-3": {
+      "valor": "#a39b8b",
+      "css": "--chart-3",
+      "uso": "Terceira série (taupe)."
+    },
+    "chart-4": {
+      "valor": "#d6ccb5",
+      "css": "--chart-4",
+      "uso": "Quarta série e restos (\"Outros\") em gráficos de rosca (donut)."
+    },
+    "chart-5": {
+      "valor": "#4f6475",
+      "css": "--chart-5",
+      "uso": "Quinta série, só quando funcionalmente necessária (ardósia)."
+    },
+    "chart-grid": {
+      "valor": "#e9e4d8",
+      "css": "--chart-grid",
+      "uso": "Linhas de grade dos gráficos."
+    },
+    "focus": {
+      "valor": "#ff4d00",
+      "css": "--focus",
+      "uso": "Anel de foco 2px + afastamento 2px em todos os controles (3:1 sobre `bg`/`surface`).",
+      "alias": "accent"
+    }
+  },
+  "fonte": {
+    "familias": {
+      "sans": {
+        "valor": "Geist, Inter, system-ui, sans-serif",
+        "css": "--font-sans"
+      },
+      "mono": {
+        "valor": "\"Geist Mono\", ui-monospace, monospace",
+        "css": "--font-mono"
+      }
+    },
+    "arquivos": [
+      {
+        "familia": "Geist",
+        "arquivo": "fontes/Geist-Variable.woff2",
+        "peso": "100 900",
+        "estilo": "normal",
+        "licenca": "SIL Open Font License 1.1 — fontes/OFL.txt"
+      },
+      {
+        "familia": "Geist Mono",
+        "arquivo": "fontes/GeistMono-Variable.woff2",
+        "peso": "100 900",
+        "estilo": "normal",
+        "licenca": "SIL Open Font License 1.1 — fontes/OFL.txt"
+      }
+    ]
+  },
+  "tipografia": {
+    "display": {
+      "grupo": "Títulos",
+      "familia": "sans",
+      "fontSize": "56px",
+      "lineHeight": "60px",
+      "fontWeight": 800,
+      "letterSpacing": "-0.035em",
+      "amostra": "Operação de conteúdo",
+      "uso": "Só em capas e estados de boas-vindas. No máximo uma por tela."
+    },
+    "h1": {
+      "grupo": "Títulos",
+      "familia": "sans",
+      "fontSize": "44px",
+      "lineHeight": "48px",
+      "fontWeight": 800,
+      "letterSpacing": "-0.03em",
+      "amostra": "Visão geral",
+      "uso": "Título da página (topo da área principal)."
+    },
+    "h2": {
+      "grupo": "Títulos",
+      "familia": "sans",
+      "fontSize": "30px",
+      "lineHeight": "36px",
+      "fontWeight": 700,
+      "letterSpacing": "-0.02em",
+      "amostra": "Vídeos em produção",
+      "uso": "Título de seção dentro da página."
+    },
+    "h3": {
+      "grupo": "Títulos",
+      "familia": "sans",
+      "fontSize": "22px",
+      "lineHeight": "28px",
+      "fontWeight": 700,
+      "letterSpacing": "-0.015em",
+      "amostra": "Portão de aprovação",
+      "uso": "Título de card grande, modal ou painel lateral."
+    },
+    "body": {
+      "grupo": "Texto",
+      "familia": "sans",
+      "fontSize": "15px",
+      "lineHeight": "22px",
+      "fontWeight": 400,
+      "letterSpacing": "normal",
+      "amostra": "O roteiro foi aprovado e segue para a gravação.",
+      "uso": "Texto corrido, células de tabela, descrições."
+    },
+    "body-strong": {
+      "grupo": "Texto",
+      "familia": "sans",
+      "fontSize": "15px",
+      "lineHeight": "22px",
+      "fontWeight": 600,
+      "letterSpacing": "normal",
+      "amostra": "Marina Costa · Roteiro",
+      "uso": "Nomes, títulos de linha e de card pequeno."
+    },
+    "small": {
+      "grupo": "Texto",
+      "familia": "sans",
+      "fontSize": "13px",
+      "lineHeight": "18px",
+      "fontWeight": 500,
+      "letterSpacing": "normal",
+      "amostra": "Atualizado há 4 min",
+      "uso": "Rótulos de botão, chips, barra lateral, texto auxiliar."
+    },
+    "caption": {
+      "grupo": "Texto",
+      "familia": "sans",
+      "fontSize": "11px",
+      "lineHeight": "14px",
+      "fontWeight": 600,
+      "letterSpacing": "0.08em",
+      "textTransform": "uppercase",
+      "amostra": "TOKENS · ESTA SEMANA",
+      "uso": "Rótulos de seção e de KPI em MAIÚSCULAS, sempre em `ink-2` ou `ink-3`."
+    },
+    "metric-xl": {
+      "grupo": "Números",
+      "familia": "sans",
+      "fontSize": "40px",
+      "lineHeight": "44px",
+      "fontWeight": 700,
+      "letterSpacing": "-0.03em",
+      "amostra": "128,4K",
+      "uso": "Valor principal do KPI card. Algarismos tabulares (`font-variant-numeric: tabular-nums`)."
+    },
+    "metric-l": {
+      "grupo": "Números",
+      "familia": "sans",
+      "fontSize": "24px",
+      "lineHeight": "28px",
+      "fontWeight": 700,
+      "letterSpacing": "-0.02em",
+      "amostra": "€ 42,18",
+      "uso": "Valores secundários e totais em tabelas e cards de equipe."
+    },
+    "mono": {
+      "grupo": "Números",
+      "familia": "mono",
+      "fontSize": "12px",
+      "lineHeight": "16px",
+      "fontWeight": 500,
+      "letterSpacing": "normal",
+      "amostra": "claude-sonnet · 1,2M tk",
+      "uso": "Modelos, IDs, contagens de tokens e códigos HEX."
+    }
+  },
+  "espaco": {
+    "space-4": {
+      "valor": "4px",
+      "css": "--space-4",
+      "uso": "Ícone ↔ texto em chips; ajustes finos."
+    },
+    "space-8": {
+      "valor": "8px",
+      "css": "--space-8",
+      "uso": "Ícone ↔ rótulo em botões e itens da barra lateral; espaço entre chips."
+    },
+    "space-12": {
+      "valor": "12px",
+      "css": "--space-12",
+      "uso": "Padding vertical de linhas de tabela e itens de lista."
+    },
+    "space-16": {
+      "valor": "16px",
+      "css": "--space-16",
+      "uso": "Padding de cards pequenos; espaço entre campos."
+    },
+    "space-24": {
+      "valor": "24px",
+      "css": "--space-24",
+      "uso": "Padding de cards e gutter da grade de 12 colunas."
+    },
+    "space-32": {
+      "valor": "32px",
+      "css": "--space-32",
+      "uso": "Entre blocos de uma seção; padding lateral da área principal."
+    },
+    "space-48": {
+      "valor": "48px",
+      "css": "--space-48",
+      "uso": "Entre seções da página."
+    },
+    "space-64": {
+      "valor": "64px",
+      "css": "--space-64",
+      "uso": "Do topo da página até o H1; respiros editoriais."
+    }
+  },
+  "raio": {
+    "radius-sm": {
+      "valor": "6px",
+      "css": "--radius-sm",
+      "uso": "Checkbox, dica (tooltip), células do calendário."
+    },
+    "radius-btn": {
+      "valor": "8px",
+      "css": "--radius-btn",
+      "uso": "Botões, campos, busca, dropdown, itens da barra lateral."
+    },
+    "radius-card": {
+      "valor": "12px",
+      "css": "--radius-card",
+      "uso": "Cards, popovers, notificações."
+    },
+    "radius-panel": {
+      "valor": "14px",
+      "css": "--radius-panel",
+      "uso": "Painéis grandes e modais."
+    },
+    "radius-pill": {
+      "valor": "999px",
+      "css": "--radius-pill",
+      "uso": "Chips de estado, avatares redondos em pilhas, barras de progresso."
+    }
+  },
+  "sombra": {
+    "shadow-card": {
+      "valor": "0 1px 2px rgba(17,17,17,0.04)",
+      "css": "--shadow-card",
+      "uso": "Cards em repouso — quase invisível; a borda `line` faz o trabalho."
+    },
+    "shadow-hover": {
+      "valor": "0 6px 20px rgba(17,17,17,0.07)",
+      "css": "--shadow-hover",
+      "uso": "Hover de card clicável (com borda `line-strong`)."
+    },
+    "shadow-pop": {
+      "valor": "0 12px 32px rgba(17,17,17,0.12)",
+      "css": "--shadow-pop",
+      "uso": "Dropdowns, popovers, notificações flutuantes."
+    }
+  },
+  "layout": {
+    "nota": "Desktop 1440px · barra lateral fixa de 208px · área principal fluida com grade de 12 colunas.",
+    "viewport-desktop": {
+      "valor": "1440px",
+      "css": "--viewport-desktop",
+      "uso": "Largura de referência de todas as telas."
+    },
+    "sidebar-width": {
+      "valor": "208px",
+      "css": "--sidebar-width",
+      "uso": "Barra lateral fixa à esquerda."
+    },
+    "content-padding": {
+      "valor": "32px",
+      "css": "--content-padding",
+      "uso": "Padding lateral da área principal."
+    },
+    "grid-columns": {
+      "valor": "12",
+      "css": "--grid-columns",
+      "uso": "Colunas da área principal."
+    },
+    "grid-gutter": {
+      "valor": "24px",
+      "css": "--grid-gutter",
+      "uso": "Espaço entre colunas (20px abaixo de 1280px)."
+    },
+    "row-height": {
+      "valor": "56px",
+      "css": "--row-height",
+      "uso": "Altura de linha de tabela (linha de vídeo)."
+    },
+    "control-height": {
+      "valor": "36px",
+      "css": "--control-height",
+      "uso": "Altura de botões, busca e dropdown."
+    }
+  },
+  "acrescimos": {
+    "nota": "Grupo fora do artefato do Claude Design. `movimento` foi LIDO do CSS dos componentes (bundle.css/README); `layout-estreito` é proposta da designer-de-produto (23/10) para 375 px, que o sistema não cobria — vai ao Carlos.",
+    "movimento": {
+      "origem": "lido de components/bundle.css e components/Tooltip/README.md (não é token da fonte)",
+      "tokens": {
+        "duracao-padrao": {
+          "valor": "150ms",
+          "css": "--duracao-padrao",
+          "uso": "Transição de borda, sombra, fundo e cor (cards, botões, itens da barra lateral)."
+        },
+        "duracao-linha": {
+          "valor": "120ms",
+          "css": "--duracao-linha",
+          "uso": "Fundo da linha de tabela no hover."
+        },
+        "atraso-dica": {
+          "valor": "300ms",
+          "css": "--atraso-dica",
+          "uso": "Tempo de hover/foco até a dica (tooltip) aparecer."
+        },
+        "curva": {
+          "valor": "ease",
+          "css": "--curva",
+          "uso": "A fonte não define curva: vale o padrão do CSS (`ease`)."
+        }
+      }
+    },
+    "layout-estreito": {
+      "origem": "proposta da designer-de-produto, 23/10 — o sistema veio só para 1440px; vai ao Carlos",
+      "tokens": {
+        "bp-sm": {
+          "valor": "640px",
+          "css": "--bp-sm",
+          "uso": "Abaixo disto: uma coluna (KPIs, cards de equipe, calendário)."
+        },
+        "bp-md": {
+          "valor": "768px",
+          "css": "--bp-md",
+          "uso": "Abaixo disto: padding da área principal `space-16`, h1 no tamanho do h2, topo `space-24`."
+        },
+        "bp-lg": {
+          "valor": "1024px",
+          "css": "--bp-lg",
+          "uso": "Abaixo disto: a barra lateral vira barra de topo + menu; KPIs em 2 colunas; gráfico e lateral empilham."
+        },
+        "bp-xl": {
+          "valor": "1280px",
+          "css": "--bp-xl",
+          "uso": "Abaixo disto: gutter 20px (regra da fonte)."
+        },
+        "topbar-height": {
+          "valor": "56px",
+          "css": "--topbar-height",
+          "uso": "Altura da barra de topo abaixo de 1024px (o mesmo valor de `row-height`)."
+        },
+        "content-padding-estreito": {
+          "valor": "16px",
+          "css": "--content-padding-estreito",
+          "uso": "Padding lateral da área principal abaixo de 768px (`space-16`)."
+        }
+      }
+    }
+  }
+}

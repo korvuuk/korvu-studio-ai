@@ -1,0 +1,78 @@
+TIRA 1 FOTO DO SEU PRODUTO COM O CELULAR E PEDE ISSO PRO CHATGPT
+TELEPROMPTER
+
+COMO LER
+/    respiro curto
+//   pausa (1 segundo)
+///  pausa longa (2 segundos)
+MAIÚSCULAS = ênfase
+Errou? Diga "de novo" e repita
+a linha inteira desde o começo.
+
+━━━━ POSE DA CAPA ━━━━
+Segurando o celular virado pra
+câmera, mostrando a foto.
+Segure 3 SEGUNDOS, em silêncio.
+É daqui que sai a capa do feed.
+
+L01
+Foto de celular, /
+em cima do balcão.
+/ Virou ISSO. //
+
+L02
+Anexa a foto no CHATGPT e pede.
+
+L03
+Fundo branco, /
+de CATÁLOGO.
+
+L04
+Numa mesa de café, /
+fim de tarde.
+
+L05
+Na vitrine, /
+à noite.
+
+L06
+Olha essa: /
+de cima, /
+tipo REVISTA.
+
+L07
+Aí vira POST PRONTO, /
+com nome e preço.
+
+L08
+E até cartaz de PROMOÇÃO /
+pra colar na porta.
+
+L09
+Só confere se o produto saiu
+IGUAL. //
+
+L10
+Comenta FOTO /
+que eu te mando os seis pedidos
+prontos.
+
+L11
+E manda pra quem ainda fotografa /
+em cima do BALCÃO.
+
+
+━━━━ HOOKS ALTERNATIVOS — GRAVAR NO FIM ━━━━
+
+L01B
+Se você tem loja, /
+tira UMA FOTO e pede isso pro
+ChatGPT.
+
+L01C
+Antes de pagar fotógrafo, /
+testa isso com a foto do seu
+PRODUTO.
+
+━━━━ FIM ━━━━
+Conferir: L01 a L11 + L01B, L01C

@@ -1,0 +1,6 @@
+# capturar.sh · 2026-10-23T15:16:01.385Z
+# alvo	largura pedida	innerWidth	scrollWidth	altura	HTTP	png	passa da borda
+painel/trabalho/designer/canvas/Main.html	1920	1920	1920	1200	200	/Users/teste/Documents/CONTENT AI/painel/trabalho/designer/canvas/fotos/main-1920.png	
+painel/trabalho/designer/canvas/Equipe.html	1920	1920	1920	1200	200	/Users/teste/Documents/CONTENT AI/painel/trabalho/designer/canvas/fotos/equipe-1920.png	
+painel/trabalho/designer/canvas/Biblioteca.html	1920	1920	1920	1200	200	/Users/teste/Documents/CONTENT AI/painel/trabalho/designer/canvas/fotos/biblioteca-1920.png	
+painel/trabalho/designer/canvas/Tokens.html	1920	1920	1920	1200	200	/Users/teste/Documents/CONTENT AI/painel/trabalho/designer/canvas/fotos/tokens-1920.png	

@@ -1,0 +1,4 @@
+# capturar.sh · 2026-10-23T19:40:35.951Z
+# alvo	largura pedida	innerWidth	scrollWidth	altura	HTTP	png	passa da borda
+/desempenho	1440	1440	1440	2803	200	/Users/teste/Documents/CONTENT AI/painel/trabalho/frontend/v4/desempenho-1440.png	
+/desempenho	375	375	375	4503	200	/Users/teste/Documents/CONTENT AI/painel/trabalho/frontend/v4/desempenho-375.png	

@@ -1,0 +1,699 @@
+{
+ "engine": "mlx",
+ "modelo": "mlx-community/whisper-large-v3-turbo",
+ "versao": 2,
+ "lacunas": 9,
+ "palavras": [
+  {
+   "texto": "O",
+   "inicio": 0.0,
+   "fim": 0.0,
+   "conf": 0.1064453125
+  },
+  {
+   "texto": "maior",
+   "inicio": 0.0,
+   "fim": 0.1,
+   "conf": 0.454833984375
+  },
+  {
+   "texto": "feito",
+   "inicio": 0.1,
+   "fim": 0.16,
+   "conf": 0.978515625
+  },
+  {
+   "texto": "veio",
+   "inicio": 0.16,
+   "fim": 0.58,
+   "conf": 0.9326171875
+  },
+  {
+   "texto": "depois.",
+   "inicio": 0.58,
+   "fim": 1.02,
+   "conf": 0.98974609375
+  },
+  {
+   "texto": "Próximo.",
+   "inicio": 2.6,
+   "fim": 3.28,
+   "conf": 0.7431640625
+  },
+  {
+   "texto": "Um",
+   "inicio": 3.7,
+   "fim": 4.06,
+   "conf": 0.8525390625
+  },
+  {
+   "texto": "problema",
+   "inicio": 4.06,
+   "fim": 4.54,
+   "conf": 0.99755859375
+  },
+  {
+   "texto": "que",
+   "inicio": 4.54,
+   "fim": 4.72,
+   "conf": 0.99072265625
+  },
+  {
+   "texto": "travava",
+   "inicio": 4.72,
+   "fim": 5.2,
+   "conf": 0.97802734375
+  },
+  {
+   "texto": "a",
+   "inicio": 5.2,
+   "fim": 5.36,
+   "conf": 0.990234375
+  },
+  {
+   "texto": "ciência",
+   "inicio": 5.36,
+   "fim": 5.78,
+   "conf": 0.9892578125
+  },
+  {
+   "texto": "havia",
+   "inicio": 5.78,
+   "fim": 6.52,
+   "conf": 0.482177734375
+  },
+  {
+   "texto": "50",
+   "inicio": 6.52,
+   "fim": 7.0,
+   "conf": 0.64453125
+  },
+  {
+   "texto": "anos.",
+   "inicio": 7.0,
+   "fim": 7.206,
+   "conf": 0.94677734375
+  },
+  {
+   "texto": "Fíjants,",
+   "inicio": 7.206,
+   "fim": 8.24,
+   "conf": 0.04766845703125
+  },
+  {
+   "texto": "Calma,",
+   "inicio": 8.24,
+   "fim": 8.92,
+   "conf": 0.97705078125
+  },
+  {
+   "texto": "eu",
+   "inicio": 9.02,
+   "fim": 9.1,
+   "conf": 0.99267578125
+  },
+  {
+   "texto": "acho",
+   "inicio": 9.1,
+   "fim": 9.26,
+   "conf": 0.99951171875
+  },
+  {
+   "texto": "que",
+   "inicio": 9.26,
+   "fim": 9.34,
+   "conf": 0.99951171875
+  },
+  {
+   "texto": "você",
+   "inicio": 9.34,
+   "fim": 9.5,
+   "conf": 0.99853515625
+  },
+  {
+   "texto": "não",
+   "inicio": 9.5,
+   "fim": 9.62,
+   "conf": 0.9990234375
+  },
+  {
+   "texto": "está",
+   "inicio": 9.62,
+   "fim": 9.7,
+   "conf": 0.73974609375
+  },
+  {
+   "texto": "me",
+   "inicio": 9.7,
+   "fim": 9.82,
+   "conf": 0.998046875
+  },
+  {
+   "texto": "escutando,",
+   "inicio": 9.82,
+   "fim": 10.28,
+   "conf": 0.99951171875
+  },
+  {
+   "texto": "você",
+   "inicio": 10.4,
+   "fim": 10.48,
+   "conf": 0.9892578125
+  },
+  {
+   "texto": "está",
+   "inicio": 10.48,
+   "fim": 10.62,
+   "conf": 0.96923828125
+  },
+  {
+   "texto": "passando",
+   "inicio": 10.62,
+   "fim": 11.02,
+   "conf": 0.9990234375
+  },
+  {
+   "texto": "direto,",
+   "inicio": 11.02,
+   "fim": 11.4,
+   "conf": 0.9990234375
+  },
+  {
+   "texto": "mesmo",
+   "inicio": 11.44,
+   "fim": 11.64,
+   "conf": 0.9853515625
+  },
+  {
+   "texto": "que",
+   "inicio": 11.64,
+   "fim": 11.88,
+   "conf": 0.994140625
+  },
+  {
+   "texto": "eu",
+   "inicio": 11.88,
+   "fim": 12.02,
+   "conf": 0.625
+  },
+  {
+   "texto": "arrasse,",
+   "inicio": 12.02,
+   "fim": 12.36,
+   "conf": 0.7421875
+  },
+  {
+   "texto": "você",
+   "inicio": 12.48,
+   "fim": 12.56,
+   "conf": 0.990234375
+  },
+  {
+   "texto": "está",
+   "inicio": 12.56,
+   "fim": 12.7,
+   "conf": 0.99169921875
+  },
+  {
+   "texto": "passando",
+   "inicio": 12.7,
+   "fim": 13.02,
+   "conf": 1.0
+  },
+  {
+   "texto": "direto.",
+   "inicio": 13.02,
+   "fim": 13.42,
+   "conf": 0.99951171875
+  },
+  {
+   "texto": "Vamos",
+   "inicio": 13.8,
+   "fim": 14.28,
+   "conf": 0.998046875
+  },
+  {
+   "texto": "repetir,",
+   "inicio": 14.28,
+   "fim": 14.726,
+   "conf": 1.0
+  },
+  {
+   "texto": "E...",
+   "inicio": 14.726,
+   "fim": 15.026000000000002,
+   "conf": 0.779296875
+  },
+  {
+   "texto": "mas",
+   "inicio": 15.62,
+   "fim": 16.2,
+   "conf": 0.98876953125
+  },
+  {
+   "texto": "o",
+   "inicio": 16.2,
+   "fim": 16.34,
+   "conf": 0.998046875
+  },
+  {
+   "texto": "maior",
+   "inicio": 16.34,
+   "fim": 16.54,
+   "conf": 0.9990234375
+  },
+  {
+   "texto": "feito",
+   "inicio": 16.54,
+   "fim": 17.08,
+   "conf": 0.9990234375
+  },
+  {
+   "texto": "do",
+   "inicio": 17.08,
+   "fim": 18.34,
+   "conf": 0.9189453125
+  },
+  {
+   "texto": "AlphaFold.",
+   "inicio": 18.34,
+   "fim": 19.486,
+   "conf": 0.525390625
+  },
+  {
+   "texto": "isso?",
+   "inicio": 19.486,
+   "fim": 19.546,
+   "conf": 0.6025390625
+  },
+  {
+   "texto": "Ahn.",
+   "inicio": 19.926,
+   "fim": 20.086,
+   "conf": 0.003917694091796875
+  },
+  {
+   "texto": "Mas",
+   "inicio": 24.686,
+   "fim": 25.186,
+   "conf": 0.8583984375
+  },
+  {
+   "texto": "o",
+   "inicio": 25.186,
+   "fim": 25.366,
+   "conf": 0.9921875
+  },
+  {
+   "texto": "maior",
+   "inicio": 25.366,
+   "fim": 25.646,
+   "conf": 0.9970703125
+  },
+  {
+   "texto": "feito",
+   "inicio": 25.646,
+   "fim": 26.086,
+   "conf": 0.99755859375
+  },
+  {
+   "texto": "veio",
+   "inicio": 26.086,
+   "fim": 26.346,
+   "conf": 0.9970703125
+  },
+  {
+   "texto": "depois.",
+   "inicio": 26.346,
+   "fim": 26.626,
+   "conf": 0.99951171875
+  },
+  {
+   "texto": "O",
+   "inicio": 27.156,
+   "fim": 27.816,
+   "conf": 0.65966796875
+  },
+  {
+   "texto": "AlphaFold.",
+   "inicio": 27.816,
+   "fim": 28.456,
+   "conf": 0.50732421875
+  },
+  {
+   "texto": "Passou",
+   "inicio": 28.656,
+   "fim": 29.296,
+   "conf": 0.8408203125
+  },
+  {
+   "texto": "a",
+   "inicio": 29.296,
+   "fim": 29.416,
+   "conf": 0.99951171875
+  },
+  {
+   "texto": "prever",
+   "inicio": 29.416,
+   "fim": 29.695999999999998,
+   "conf": 0.9990234375
+  },
+  {
+   "texto": "o",
+   "inicio": 29.695999999999998,
+   "fim": 29.816,
+   "conf": 0.99951171875
+  },
+  {
+   "texto": "formato",
+   "inicio": 29.816,
+   "fim": 30.235999999999997,
+   "conf": 1.0
+  },
+  {
+   "texto": "das",
+   "inicio": 30.235999999999997,
+   "fim": 30.416,
+   "conf": 0.9990234375
+  },
+  {
+   "texto": "proteínas.",
+   "inicio": 30.416,
+   "fim": 31.035999999999998,
+   "conf": 0.99951171875
+  },
+  {
+   "texto": "hum,",
+   "inicio": 38.216,
+   "fim": 38.616,
+   "conf": 0.004238128662109375
+  },
+  {
+   "texto": "hum,",
+   "inicio": 38.856,
+   "fim": 38.996,
+   "conf": 0.8662109375
+  },
+  {
+   "texto": "hum.",
+   "inicio": 39.156,
+   "fim": 39.196,
+   "conf": 0.9580078125
+  },
+  {
+   "texto": "Mas",
+   "inicio": 40.64,
+   "fim": 41.4,
+   "conf": 0.8662109375
+  },
+  {
+   "texto": "o",
+   "inicio": 41.4,
+   "fim": 41.58,
+   "conf": 0.99072265625
+  },
+  {
+   "texto": "maior",
+   "inicio": 41.58,
+   "fim": 41.94,
+   "conf": 0.99658203125
+  },
+  {
+   "texto": "feito",
+   "inicio": 41.94,
+   "fim": 42.54,
+   "conf": 0.998046875
+  },
+  {
+   "texto": "veio",
+   "inicio": 42.54,
+   "fim": 43.1,
+   "conf": 0.99267578125
+  },
+  {
+   "texto": "depois.",
+   "inicio": 43.1,
+   "fim": 43.56,
+   "conf": 0.99951171875
+  },
+  {
+   "texto": "O",
+   "inicio": 43.86,
+   "fim": 44.24,
+   "conf": 0.95947265625
+  },
+  {
+   "texto": "alfa",
+   "inicio": 44.24,
+   "fim": 44.56,
+   "conf": 0.654296875
+  },
+  {
+   "texto": "-fold.",
+   "inicio": 44.56,
+   "fim": 44.96,
+   "conf": 0.8173828125
+  },
+  {
+   "texto": "Um",
+   "inicio": 47.336,
+   "fim": 47.716,
+   "conf": 0.54541015625
+  },
+  {
+   "texto": "problema",
+   "inicio": 47.716,
+   "fim": 48.116,
+   "conf": 0.9970703125
+  },
+  {
+   "texto": "que",
+   "inicio": 48.116,
+   "fim": 48.376,
+   "conf": 0.9970703125
+  },
+  {
+   "texto": "travava",
+   "inicio": 48.376,
+   "fim": 48.896,
+   "conf": 0.9833984375
+  },
+  {
+   "texto": "a",
+   "inicio": 48.896,
+   "fim": 49.056,
+   "conf": 0.98779296875
+  },
+  {
+   "texto": "ciência.",
+   "inicio": 49.056,
+   "fim": 49.396,
+   "conf": 0.9970703125
+  },
+  {
+   "texto": "Havia",
+   "inicio": 49.616,
+   "fim": 50.256,
+   "conf": 0.796875
+  },
+  {
+   "texto": "50",
+   "inicio": 50.256,
+   "fim": 50.676,
+   "conf": 0.9208984375
+  },
+  {
+   "texto": "anos.",
+   "inicio": 50.676,
+   "fim": 51.016,
+   "conf": 0.9990234375
+  },
+  {
+   "texto": "Mas",
+   "inicio": 65.12,
+   "fim": 66.08,
+   "conf": 0.77587890625
+  },
+  {
+   "texto": "o",
+   "inicio": 66.08,
+   "fim": 66.26,
+   "conf": 0.9365234375
+  },
+  {
+   "texto": "maior",
+   "inicio": 66.26,
+   "fim": 66.52,
+   "conf": 0.9921875
+  },
+  {
+   "texto": "feito",
+   "inicio": 66.52,
+   "fim": 67.04,
+   "conf": 0.98291015625
+  },
+  {
+   "texto": "veio",
+   "inicio": 67.04,
+   "fim": 67.6,
+   "conf": 0.94873046875
+  },
+  {
+   "texto": "depois.",
+   "inicio": 67.6,
+   "fim": 68.12,
+   "conf": 0.9931640625
+  },
+  {
+   "texto": "O",
+   "inicio": 68.58,
+   "fim": 68.64,
+   "conf": 0.978515625
+  },
+  {
+   "texto": "alfa",
+   "inicio": 68.64,
+   "fim": 68.98,
+   "conf": 0.6689453125
+  },
+  {
+   "texto": "-folha",
+   "inicio": 68.98,
+   "fim": 69.46,
+   "conf": 0.8115234375
+  },
+  {
+   "texto": "previa...",
+   "inicio": 69.46,
+   "fim": 71.08,
+   "conf": 0.80419921875
+  },
+  {
+   "texto": "De",
+   "inicio": 73.16000000000001,
+   "fim": 73.9,
+   "conf": 0.53759765625
+  },
+  {
+   "texto": "novo,",
+   "inicio": 73.9,
+   "fim": 74.2,
+   "conf": 0.9990234375
+  },
+  {
+   "texto": "um",
+   "inicio": 74.76,
+   "fim": 75.16,
+   "conf": 0.9921875
+  },
+  {
+   "texto": "problema",
+   "inicio": 75.16,
+   "fim": 75.62,
+   "conf": 0.99951171875
+  },
+  {
+   "texto": "que",
+   "inicio": 75.62,
+   "fim": 75.86,
+   "conf": 0.9990234375
+  },
+  {
+   "texto": "trapava",
+   "inicio": 75.86,
+   "fim": 76.36,
+   "conf": 0.70263671875
+  },
+  {
+   "texto": "a",
+   "inicio": 76.36,
+   "fim": 76.52,
+   "conf": 0.9833984375
+  },
+  {
+   "texto": "ciência",
+   "inicio": 76.52,
+   "fim": 76.9,
+   "conf": 0.99755859375
+  },
+  {
+   "texto": "havia",
+   "inicio": 76.9,
+   "fim": 77.66,
+   "conf": 0.8017578125
+  },
+  {
+   "texto": "50",
+   "inicio": 77.66,
+   "fim": 78.12,
+   "conf": 0.8212890625
+  },
+  {
+   "texto": "anos.",
+   "inicio": 78.12,
+   "fim": 78.58,
+   "conf": 0.9990234375
+  },
+  {
+   "texto": "Você",
+   "inicio": 78.9,
+   "fim": 79.56,
+   "conf": 0.98193359375
+  },
+  {
+   "texto": "tem",
+   "inicio": 79.56,
+   "fim": 79.72,
+   "conf": 0.99951171875
+  },
+  {
+   "texto": "que",
+   "inicio": 79.72,
+   "fim": 79.86,
+   "conf": 0.9990234375
+  },
+  {
+   "texto": "me",
+   "inicio": 79.86,
+   "fim": 80.0,
+   "conf": 0.99951171875
+  },
+  {
+   "texto": "escutar.",
+   "inicio": 80.0,
+   "fim": 80.36,
+   "conf": 0.9990234375
+  },
+  {
+   "texto": "Quando",
+   "inicio": 80.54,
+   "fim": 80.72,
+   "conf": 0.998046875
+  },
+  {
+   "texto": "eu",
+   "inicio": 80.72,
+   "fim": 80.86,
+   "conf": 0.98779296875
+  },
+  {
+   "texto": "começo",
+   "inicio": 80.86,
+   "fim": 81.24,
+   "conf": 0.99951171875
+  },
+  {
+   "texto": "a",
+   "inicio": 81.24,
+   "fim": 81.74,
+   "conf": 0.9599609375
+  },
+  {
+   "texto": "falar...",
+   "inicio": 81.74,
+   "fim": 82.06,
+   "conf": 0.8095703125
+  }
+ ],
+ "texto": " O maior feito veio depois. Próximo. Um problema que travava a ciência havia 50 anos. Calma, eu acho que você não está me escutando, você está passando direto, mesmo que eu arrasse, você está passando direto. Vamos repetir, mas o maior feito do AlphaFold. Mas o maior feito veio depois. O alfa-fold. Mas o maior feito veio depois. O alfa-folha previa... De novo, um problema que trapava a ciência havia 50 anos. Você tem que me escutar. Quando eu começo a falar..."
+}

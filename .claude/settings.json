@@ -1,0 +1,30 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(uv run python .claude/skills/*)",
+      "Bash(uv run python scripts/montar_pacote.py:*)",
+      "Bash(uv run python scripts/publicar.py agendar:*)",
+      "Bash(uv run python scripts/publicar.py --due --dry-run:*)",
+      "Bash(uv run python scripts/publicar.py verificar-tokens:*)",
+      "Bash(/Users/teste/bin/ffmpeg:*)",
+      "Bash(ffmpeg:*)",
+      "Bash(ffprobe:*)",
+      "Bash(npx remotion:*)",
+      "Bash(npx tsc:*)",
+      "Bash(yt-dlp:*)",
+      "Bash(ls:*)",
+      "Bash(mkdir:*)",
+      "Bash(git status:*)",
+      "Bash(git diff:*)"
+    ],
+    "ask": [
+      "Bash(uv run python scripts/publicar.py publicar:*)",
+      "Bash(uv run python scripts/publicar.py --due)"
+    ],
+    "deny": [
+      "Read(./.env)",
+      "Read(./.env.local)",
+      "Bash(cat .env:*)"
+    ]
+  }
+}

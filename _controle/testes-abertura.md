@@ -1,0 +1,20 @@
+# Teste A/B da abertura — A: Carlos desde o 1.º segundo × B: conteúdo primeiro (desde 17/10)
+
+> Decisão do Carlos (17/10, `docs/decisoes.md` §5b): "nos primeiros segundos, em vez de eu aparecer, passar a imagem do conteúdo… e eu apareço depois". Regra em `_controle/estrategia-de-alcance.md` §2.8.
+> TODO vídeo sai em DUAS versões (A e B), as duas como Trial Reel com graduação MANUAL, B primeiro e A ≥ 24 h depois; o FB recebe só a B. Regra em `_controle/estrategia-de-alcance.md` §2.8. A vencedora (a analista diz) é a única que o Carlos compartilha com os seguidores.
+> **22/10 (Carlos): a A sai NORMAL na página (IG + FB) e a B vai para o Trial (só IG).** Atenção ao comparar: a A recebe seguidores + não seguidores e a B só não seguidores — comparar % pulados / fica aos 5 s / tempo médio **entre não seguidores**, não o alcance total.
+> Preenche: editor (variante e segundo de entrada) · analista-de-metricas (números do app aos 5 dias, a partir dos prints do Carlos).
+
+| Slug | Variante | Carlos entra em (s) | O que abre a tela | Pulados % | Fica aos 5 s % | Tempo médio | Alcance | Não seguidores % | Obs. |
+|---|---|---|---|---|---|---|---|---|---|
+| 2026-09-17-demis-hassabis | controle (Carlos desde 0) | 0 | Carlos | 49,4 | ~50 | 11 s | 334 | 62,2 | Reel normal, 58 s |
+| 2026-10-20-geoffrey-hinton | controle (Carlos desde 0) | 0 | Carlos | 55,6 | ~55 | 34 s | 9 | 100 | Trial repostado, 158 s — não comparável |
+| 2026-10-20-fei-fei-li | **B** (conteúdo 1.º) | 8,88 | Fei-Fei em tela cheia em L01–L02: Y55 Bloomberg (0–5,0 s) + Y67 National Geographic (5,0–8,88 s); o Carlos entra na L03 | | | | | | 1.º teste; agendado 18/10 19:00; vídeo do pacote trocado 17/10 |
+| 2026-10-20-fei-fei-li-a | **A** (Carlos desde 0) | 0 | Carlos | | | | | | par da B; IG só; agendado ter 20/10 21:00 (50 h depois da B); trial MANUAL; pacote `06-publicar/2026-10-20-fei-fei-li-a/` (vídeo = `edicao/final-A.mp4`, 168,49 s); só a abertura difere (Carlos desde o quadro 0) |
+| 2026-10-23-livro-chatgpt | **B** (conteúdo 1.º) | **7,08** (medido no render final de 21/10; EDL aprovada) | E01 capa *Como Fazer Amigos* + logo ChatGPT em tela cheia (pan capa→logo) 0–4,12 s, card E02 (/mindmap digitado) por cima 1,84–4,12, mapa mental E03 4,12–7,08; o Carlos entra na L03 atrás do card E04 (tela cheia livre só no CTA, 25,84 s) | | | | | | 1.º "rápido de comandos" (~34 s); `edicao/overlays-ab/overlays-B.json`; conferir o 1.º quadro no render; agendado dom 25/10 19:00 (IG+FB); trial MANUAL; confirmar; ordem combinada: depois do Jensen |
+| 2026-10-23-livro-chatgpt-a | **A** (Carlos desde 0) | 0 | Carlos ("Joga o livro no ChatGPT"); card E02 a partir de 1,84 s | | | | | | par da B; `overlays-A.json`; agendado ter 27/10 21:00 (só IG); trial MANUAL; confirmar; ordem combinada: depois do Jensen |
+| 2026-10-23-livro-chatgpt-l01c | **hook L01C** ("Você nunca mais vai ler um livro sem fazer isso no ChatGPT"), abertura de conteúdo como a B | 7,4 (previsto; QA viu o Carlos em 9 s) | capa+logo → card /mindmap sobre "sem fazer isso no ChatGPT" → mapa mental | | | | | | variável extra pedida pelo Carlos (21/10); `edicao/final-L01C.mp4`; sem legenda karaokê como as outras; agendado qua 28/10 21:00 (só IG); trial MANUAL; confirmar; ordem combinada: depois do Jensen |
+| 2026-10-23-livro-chatgpt-l01c-a | **hook L01C com o Carlos em tela desde 0** | 0 | Carlos fala "Você nunca mais vai ler um livro sem fazer isso no ChatGPT"; card /mindmap ~2,2 s; mapa mental ~4,4 s | | | | | | variável extra pedida pelo Carlos (21/10): "uma versão onde eu apareço falando o hook do L01C completo"; `edicao/final-L01C-A.mp4`; agendado dom 01/11 19:00 (só IG); trial MANUAL; confirmar; ordem combinada: depois do Jensen |
+
+
+> Livro-ChatGPT (21/10): par A/B (hook L01) + par A/B do hook L01C = 2 variáveis (abertura B×A e hook L01×L01C). Datas: B 25/10, A 27/10, L01C 28/10, L01C-A 01/11.

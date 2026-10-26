@@ -1,0 +1,7 @@
+[audio] voz: corte-audio.wav (master sem perdas) · RMS da fala -33.2 dBFS · piso -74.0 dBFS · crest 22.6 dB
+[audio] compressor 1.5:1 · limiar -24.2 dBFS (RMS da fala +9 dB) · ataque 30 ms · release 300 ms · joelho suave
+[audio] comprimido: I -30.69 LUFS · TP -11.50 dBTP -> ganho +16.69 dB, teto -1.80 dBTP
+[audio] passada 1: I -14.25 LUFS · TP -1.65 dBTP · LRA 2.80 LU
+[audio] resultado: I -14.2 LUFS · TP -1.6 dBTP · crest da fala 22.6 -> 8.4 dB · AAC 256k -> videos/2026-10-20-fei-fei-li/edicao/final.mp4
+exit 0
+leve exit 0

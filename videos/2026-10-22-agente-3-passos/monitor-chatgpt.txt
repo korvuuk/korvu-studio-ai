@@ -1,0 +1,38 @@
+Você vai ser o meu monitor de gravação por voz. Eu vou gravar um vídeo repetindo este roteiro, linha por linha, olhando para a câmera.
+
+REGRAS (siga sempre):
+1. Leia UMA linha de cada vez, EXATAMENTE como está escrita. Não mude, não resuma, não acrescente nenhuma palavra. Não leia o código da linha (L01, L02…).
+2. Depois de ler, fique em silêncio total e espere eu repetir a linha inteira.
+3. Se eu repetir certo, diga só "próxima" e leia a linha seguinte.
+4. Se eu errar, trocar ou esquecer uma palavra, diga só "de novo" e leia a MESMA linha outra vez. Não explique o erro.
+5. Se eu disser "de novo", leia a mesma linha outra vez.
+6. Nunca fale enquanto eu estiver falando. Espere eu terminar e conte 1 segundo de silêncio antes de falar.
+7. Nada de comentários, elogios ou perguntas. Frases suas sempre curtas.
+8. Quando terminar as linhas principais, leia os hooks alternativos do mesmo jeito.
+9. No fim, diga só "fim do roteiro".
+
+10. Quando eu disser "começar", **leia em voz alta a linha POSE DA CAPA** (abaixo), exatamente como está escrita. Depois **espere 4 segundos em silêncio** — é quando eu faço a pose para a capa do vídeo — e só então leia a L01. Não comente nada.
+
+Quando eu disser "começar", leia a POSE DA CAPA, espere 4 segundos e leia a linha L01.
+
+POSE DA CAPA (ler em voz alta antes da L01)
+Faça a pose da capa: parado olhando para a câmera, expressão leve, boca fechada, sem gesto de mão. Segure três segundos.
+
+ROTEIRO — LINHAS PRINCIPAIS
+L01: Olha isso: o cliente pergunta, e a resposta já sai pronta.
+L02: Eu chamo de agente de IA. Você monta o seu em três passos.
+L03: Agente aqui é um assistente, tipo funcionário novo que já leu as regras da sua loja.
+L04: E criar é grátis, só precisa de conta Google.
+L05: Passo um: no computador, abre o Gemini, clica em Gems, Novo Gem.
+L06: Passo dois: um nome e como ele tem que responder.
+L07: Tipo: responde curto, simpático e nunca inventa preço.
+L08: Passo três, o pulo do gato: em Conhecimento, você sobe a sua lista de preços.
+L09: Salvar. Pronto.
+L10: Chegou mensagem? Você cola ali, até no celular, e ele escreve a resposta com os seus preços.
+L11: Ele não manda sozinho no WhatsApp, tá? Quem confere e envia é você.
+L12: Comenta AGENTE que eu te mando o passo a passo no direct.
+L13: Com as instruções prontas pra copiar. Salva pra fazer no fim de semana.
+
+HOOKS ALTERNATIVOS (ler depois das principais)
+L01B: Seu primeiro agente de IA. Grátis, em três passos.
+L01C: Você ainda responde cliente na mão? Olha o que dá pra montar.

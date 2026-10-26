@@ -1,0 +1,157 @@
+A história completa da Fei-Fei Li
+
+Este texto é pra você ouvir antes de gravar. Não é o roteiro. É tudo o que está por trás dele, na ordem em que aconteceu, pra você entender a história inteira e depois contar do seu jeito.
+
+Uma regra antes de começar: o que só uma fonte conta vem com "segundo fulano". O resto foi conferido em pelo menos duas fontes, ou saiu da boca dela, na palestra que ela deu no TED em 2015. O TED é aquela série famosa de palestras curtas, gravadas e postadas de graça na internet.
+
+Quem é ela
+
+A Fei-Fei Li é cientista da computação. É professora da Universidade Stanford, na Califórnia, e uma das diretoras do instituto de inteligência artificial de lá. A partir daqui, quando eu disser IA, é inteligência artificial. Ela também fundou uma empresa chamada World Labs, que faz IA capaz de criar mundos em três dimensões.
+
+A imprensa americana chama ela de "madrinha da IA". É apelido de jornal, não é título. A revista Fortune chegou a contar que, no começo, ela ficava desconfortável com esse apelido. Por isso, no vídeo, a gente diz "chamam ela de madrinha da IA", e não "ela é a madrinha da IA".
+
+O nome se fala "fêi-fêi li".
+
+A infância na China
+
+Ela nasceu na China. Segundo a biografia dela na Wikipédia, nasceu em Pequim, em 1976, e cresceu na cidade de Chengdu. Sobre a infância, as fontes que a gente conferiu falam pouco, então não vou inventar detalhe. O que importa pra história é o que vem depois: a mudança.
+
+Segundo a mesma biografia, o pai foi na frente, pros Estados Unidos, por volta de 1988, e se instalou numa cidade pequena de Nova Jersey chamada Parsippany. Uns anos depois, ela e a mãe foram ao encontro dele.
+
+A chegada, adolescente, sem falar inglês
+
+Aqui tem um detalhe que as fontes não batem. A Fortune e o Business Insider dizem que ela chegou com quinze anos. A Wikipédia diz dezesseis. Numa conversa gravada na Biblioteca Pública de São Francisco, ela mesma fala em quinze. Por isso, no vídeo, a gente diz só "adolescente". É verdade nas duas versões.
+
+O que todas as fontes confirmam: ela chegou praticamente sem falar inglês.
+
+Tem um detalhe que só o instituto de Stanford conta: que a família chegou com não mais que vinte dólares. Como é uma fonte só, se você quiser usar, diga "segundo Stanford". No roteiro, isso ficou de fora.
+
+A lavanderia
+
+A família teve uma lavanderia, dessas de lavar e passar roupa a seco. E aqui está o coração da história. Os pais não falavam inglês. A única da casa que falava era ela.
+
+Então era ela que atendia o telefone. Era ela que cuidava da cobrança. Era ela que falava com o fiscal. Ela brinca que era a "CEO" da loja, a diretora-geral. Numa entrevista citada pelo Business Insider, ela disse uma frase simples: "Eu era a que falava inglês. Então eu atendia todas as ligações dos clientes."
+
+Quando exatamente a lavanderia abriu, as fontes divergem. Uma diz que foi quando ela entrou na faculdade, por causa da saúde da mãe. Outra diz que ela já trabalhava lá nos fins de semana, no ensino médio. Por isso, a gente fala só "a lavanderia da família".
+
+O que é certo: ela tocou essa lavanderia por uns sete anos. Durante toda a faculdade, e depois, à distância, até a metade do doutorado. Ou seja: estudava física e, ao mesmo tempo, resolvia problema de cliente pelo telefone.
+
+E na palestra do TED ela mesma diz, com todas as letras: foi assim que ela pagou a faculdade. Por isso, no vídeo, a gente diz "foi assim, ela conta, que pagou a faculdade". Quem afirma é ela.
+
+Pra quem mora fora e tem um filho, um sobrinho ou um irmão mais novo que traduz tudo pra família, essa parte vai bater forte. É exatamente essa vivência: o adolescente que vira a voz da família no banco, no médico, na loja.
+
+A faculdade
+
+Ela entrou na Universidade de Princeton, uma das mais prestigiadas dos Estados Unidos, e se formou em física em 1999. Segundo o instituto de Stanford, entrou com bolsa integral, e ficou tão surpresa que pediu a dois professores da escola que lessem a carta de aprovação, pra ter certeza de que era verdade. Ela disse, sobre esses professores: "Eles viram algo em mim antes de eu mesma ver." Isso também é de uma fonte só, então, se usar, é "segundo Stanford".
+
+Depois, segundo a biografia dela, fez mestrado e doutorado no Caltech, o Instituto de Tecnologia da Califórnia, terminando o doutorado em 2005.
+
+A ideia: a criança que aprende vendo
+
+A palestra dela no TED começa com um vídeo de uma menininha de três anos olhando fotos e dizendo o que vê: "é um gato sentado na cama". Coisa simples pra uma criança. Dificílimo pra um computador.
+
+E a pergunta dela foi: como a criança aprendeu isso? Ninguém deu uma regra pra ela. Ela viu. Nos primeiros anos de vida, uma criança vê milhões e milhões de imagens do mundo, e alguém vai dizendo o nome das coisas. Então, se o computador vai aprender a enxergar, ele também precisa ver milhões de exemplos, com o nome de cada coisa.
+
+Ela mesma disse no TED que, em 2007, essa ideia não era nada óbvia.
+
+O ImageNet, e por que duvidaram
+
+Em 2007, já como professora em Princeton, ela lançou o projeto, junto com o professor Kai Li. O nome: ImageNet. Se fala "imêidj-nét". É, basicamente, um banco gigante de fotos, cada uma com uma etiqueta dizendo o que aparece nela.
+
+E os colegas duvidaram. Ela conta, com bom humor, que colegas muito simpáticos aconselharam ela a fazer algo mais útil pra carreira.
+
+E não tinha dinheiro. Aí vem a frase mais bonita da história, dita ao vivo no palco do TED. Ela conta que chegou a brincar com os alunos que ia reabrir a lavanderia pra pagar o ImageNet. E completa: afinal, foi assim que ela pagou a faculdade.
+
+Atenção: foi uma piada. Ela não reabriu a lavanderia. Se você disser que ela reabriu, vira mentira.
+
+Os cinquenta mil voluntários
+
+Como você etiqueta milhões de fotos? Uma pessoa sozinha levaria a vida inteira. Segundo ela, o time baixou quase um bilhão de imagens da internet e depois usou uma plataforma da Amazon que paga pessoas pela internet pra fazer tarefas pequenas. Segundo ela, quase cinquenta mil pessoas, de cento e sessenta e sete países, ajudaram a limpar e etiquetar as fotos.
+
+Uma observação honesta: no roteiro, a gente diz "pessoas", e não "voluntários", porque eram trabalhadores pagos por tarefa. E o número vem com "segundo ela", porque é a conta dela.
+
+Em 2009 o banco ficou pronto. Segundo ela, cerca de quinze milhões de fotos, divididas em vinte e duas mil categorias. Outras fontes falam em catorze milhões. Por isso, no vídeo, a gente diz só "milhões de fotos".
+
+E aqui tem a decisão que mudou tudo: ela liberou o banco inteiro de graça, pra pesquisadores do mundo todo. Palavras dela, no TED.
+
+2012: o ano em que a IA aprendeu a enxergar
+
+Junto com o banco, nasceu um desafio anual: grupos do mundo inteiro tentavam criar o programa que mais acertava o que tinha em cada foto.
+
+Em 2012, um grupo da Universidade de Toronto, no Canadá, ganhou com uma folga enorme. O grupo era de Alex Krizhevsky, Ilya Sutskever e Geoffrey Hinton. O programa deles aprendeu com as fotos do ImageNet.
+
+Os números, do resultado oficial: o programa de Toronto errou quinze vírgula três por cento. O segundo colocado errou vinte e seis vírgula dois por cento. Mas atenção ao detalhe: nesse desafio, a IA podia dar cinco palpites por foto. Contava como acerto se a resposta certa estivesse entre os cinco. No vídeo, a gente diz só que o resultado foi muito superior. Sem isso, quem ouve entende que a IA acertou de primeira oitenta e cinco fotos em cem, e não foi isso.
+
+E aqui tem um cuidado importante: ela não inventou a IA, nem o programa que ganhou. O programa era do grupo de Toronto. O que ela fez foram os exemplos, o banco de fotos. Por isso o roteiro diz: "A IA era deles. Os exemplos eram dela."
+
+O que veio depois
+
+Segundo a biografia dela, entre 2017 e 2018 ela tirou licença de Stanford e foi cientista-chefe de IA no Google Cloud, e depois voltou.
+
+Em março de 2019, Stanford lançou um instituto chamado, em português, Instituto de Inteligência Artificial Centrada no Ser Humano. Ela é uma das diretoras, junto com John Etchemendy.
+
+Em 2023, ela lançou um livro de memórias, em inglês, chamado "The Worlds I See", algo como "Os mundos que eu vejo", em que conta a vida de imigrante, a família e a lavanderia.
+
+Em fevereiro de 2025, ela foi uma das sete pessoas premiadas com o Queen Elizabeth Prize for Engineering, um prêmio britânico de engenharia, anunciado em Londres, no Science Museum. Os outros seis foram Yoshua Bengio, Bill Dally, Geoffrey Hinton, John Hopfield, Jensen Huang e Yann LeCun. O prêmio dividiu o crédito: alguns pelas redes neurais, outros pelos chips, e ela pelos dados, pelo ImageNet.
+
+A World Labs e o acordo com a AMD
+
+Em 2024, ela cofundou a World Labs. A empresa trabalha com o que ela chama de inteligência espacial: IA que entende e cria mundos em três dimensões a partir de um texto ou de uma foto. Ela explicou essa ideia em outra palestra no TED, em 2024.
+
+E agora, a notícia mais recente. No dia 28 de setembro de 2026, a AMD, uma das grandes fabricantes de chips do mundo, anunciou um acordo definitivo pra comprar a World Labs, por cerca de oito vírgula dois bilhões de dólares, pagos em ações. Pelo comunicado, o negócio ainda depende de aprovação dos órgãos reguladores e deve fechar até o fim de 2026. Depois do fechamento, ela entraria na AMD como vice-presidente executiva e cientista-chefe, respondendo à presidente da AMD, Lisa Su. Num texto que ela publicou no mesmo dia, ela conta que a Lisa Su foi uma das primeiras investidoras da World Labs.
+
+Cuidado com as palavras aqui. É um acordo anunciado. Não diga que ela vendeu a empresa, nem que ela já está na AMD, nem que ela ganhou oito bilhões. O valor é da empresa inteira, em ações, e ninguém sabe a parte dela. Essa notícia ficou fora do roteiro, mas, se você quiser comentar de improviso, a forma segura é: "a AMD anunciou um acordo pra comprar a empresa dela".
+
+O que ela defende
+
+O nome do instituto já diz: IA centrada no ser humano. A ideia de que a IA tem que servir às pessoas, e não o contrário.
+
+E ela fecha a palestra de 2015 falando do filho, o Leo. Diz que a missão dela é dar inteligência visual aos computadores e criar um futuro melhor pro Leo e pro mundo.
+
+A lição pra quem tem negócio
+
+A IA não aprende por mágica. Aprende com exemplo bem organizado, que alguém teve o trabalho de juntar. Pro dono de um pequeno negócio, as suas fotos de produto, as perguntas que os clientes mais fazem e as respostas certas são o seu ImageNet. Mas sem promessa: isso não garante venda nem resultado. É só onde a coisa começa.
+
+Os momentos que estão no vídeo
+
+Este é o seu texto, do jeito que você escreveu. Aqui vão a ideia de cada momento e outras formas de dizer, se na hora sair diferente.
+
+Antes de falar, a pose da capa: mão em forma de telefone no ouvido, olhar sério, três segundos em silêncio.
+
+O gancho. Imagina chegar adolescente num país novo, sem falar inglês, e anos depois ajudar as máquinas a enxergar o mundo. Essa é a história da Fei-Fei Li. Pode ser: "Imagina mudar de país ainda adolescente, sem saber a língua… e, anos depois, ensinar o computador a ver." Termine sempre com o nome dela.
+
+A chegada e a lavanderia. Nasceu na China, chegou adolescente aos Estados Unidos. Os pais praticamente não falavam inglês. Então, na lavanderia da família, quem atendia o telefone, resolvia cobrança e falava com o fiscal? Ela. Pode ser: "E quem resolvia tudo na lavanderia, telefone, cobrança, fiscal? Ela." Diga adolescente, sem idade exata. O "Ela." sozinho, olhando pra câmera, é um dos momentos em que o vídeo volta pra você.
+
+A faculdade e Princeton. Foi assim, ela conta, que ajudou a pagar a faculdade. Estudou física em Princeton e depois entrou pro mundo da inteligência artificial. Pode ser: "Ela mesma conta que foi esse trabalho que ajudou a pagar a faculdade. Estudou física em Princeton…" O "ela conta" fica.
+
+A ideia. Uma criança aprende a reconhecer o mundo vendo milhões de exemplos. Então por que um computador seria diferente? Pode ser: "Criança aprende a ver olhando milhões de coisas. Por que com o computador seria diferente?"
+
+O ImageNet. Em 2007 ela começou o ImageNet: reunir milhões de imagens e dizer ao computador o que aparece em cada uma. Segundo ela, quase 50 mil pessoas ajudaram pela internet. E sabe o mais curioso? Ela liberou tudo de graça pra pesquisadores. O ano é 2007, o número é 50 mil, e o "segundo ela" fica.
+
+O clímax, 2012. Um grupo da Universidade de Toronto usa o ImageNet pra treinar uma rede neural numa competição de reconhecimento de imagens. E sabe quem estava nesse grupo? Geoffrey Hinton, de quem eu já falei aqui. O resultado foi tão superior que ajudou a mudar o rumo da IA. Pode ser: "Lembra do Geoffrey Hinton, do vídeo do Nobel? Ele estava nesse grupo." Não mude 2012 nem Toronto, e nunca diga que ela criou a IA vencedora.
+
+Mas olha que interessante: a IA era deles. Os exemplos eram dela. Essa dupla de frases não muda: é o coração do vídeo.
+
+A reflexão. Hoje, a imprensa chama a Fei-Fei Li de madrinha da inteligência artificial. IA não aprende por mágica: aprende porque alguém teve o trabalho de mostrar exemplos, organizar informação e ensinar o que cada coisa significa. E, às vezes, quem ajuda a mudar o futuro é aquela adolescente que um dia precisou traduzir tudo pra própria família. Mantenha "a imprensa chama": ela mesma não usa o apelido.
+
+O pedido. Comenta AULA aqui embaixo que eu te mando a palestra dela. São 18 minutos, com legenda em português. E manda esse vídeo pra alguém que já foi o tradutor da família. A palavra é AULA, sem trocar. Os 18 minutos, a legenda em português e o pedido final ficam.
+
+O que não pode mudar: o nome Fei-Fei Li, Princeton, 2007, 50 mil com "segundo ela", 2012, Toronto e Geoffrey Hinton, "a IA era deles, os exemplos eram dela", "a imprensa chama", a palavra AULA, os 18 minutos com legenda em português e o pedido final.
+
+Fontes (não precisa ler em voz alta)
+
+Palestra TED2015: https://www.ted.com/talks/fei_fei_li_how_we_re_teaching_computers_to_understand_pictures
+Transcrição da palestra: https://www.ted.com/talks/fei_fei_li_how_we_re_teaching_computers_to_understand_pictures/transcript
+Fortune, 24/11/2025: https://www.fortune.com/2025/11/24/fei-fei-li-godmother-of-ai-ran-parents-dry-cleaning-world-labs
+Business Insider via AOL: https://www.aol.com/articles/fei-fei-li-godmother-ai-195730189.html
+Stanford HAI: https://hai.stanford.edu/news/fei-fei-li-candid-look-young-immigrants-rise-ai-trailblazer
+Wikipédia: https://en.wikipedia.org/wiki/Fei-Fei_Li
+Princeton: https://www.princeton.edu/news/2024/02/23/worlds-i-see-ai-visionary-fei-fei-li-99-selected-princeton-pre-read
+Resultado oficial ImageNet 2012: https://image-net.org/challenges/LSVRC/2012/results.html
+Wikipédia AlexNet: https://en.wikipedia.org/wiki/AlexNet
+Stanford News, criação do HAI (18/03/2019): https://news.stanford.edu/2019/03/18/stanford_university_launches_human-centered_ai/
+Queen Elizabeth Prize 2025: https://qeprize.org/winners/event-gallery/qeprize-winner-announcement-2025
+Comunicado da AMD (28/09/2026): https://ir.amd.com/news-events/press-releases/detail/1299/amd-to-acquire-world-labs-to-advance-the-future-of-ai-compute
+Texto dela sobre a AMD: https://drfeifei.substack.com/p/worldlabs-joining-amd
+TED2024, inteligência espacial: https://www.ted.com/talks/fei_fei_li_with_spatial_intelligence_ai_will_understand_the_real_world
+Conversa na San Francisco Public Library: https://www.youtube.com/watch?v=qQrEZ0X4nEY

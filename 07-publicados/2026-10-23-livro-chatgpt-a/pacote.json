@@ -1,0 +1,34 @@
+{
+  "slug": "2026-10-23-livro-chatgpt-a",
+  "criado_em": "2026-10-21T19:19:39+01:00",
+  "duracao": 34.44,
+  "qa": "PASS",
+  "arquivos": {
+    "video": "video/video-final-A-carlos-desde-0.mp4",
+    "variantes": [],
+    "capa": "capa/capa.png",
+    "legendas": "legendas/legendas.srt",
+    "material": "material/50-comandos-de-aprendizado.pdf",
+    "roteiro": "roteiro.md",
+    "qa": "qa-relatorio.md"
+  },
+  "cta_palavra": "LIVRO",
+  "material_titulo": "a lista com os 50 comandos de aprendizado",
+  "tema": "Joga o livro no ChatGPT e escreve isso: mapa mental, anotação ilustrada, flashcards, fluxograma e quadrinhos de 5 livros conhecidos",
+  "pilar": "tutoriais-rapidos",
+  "capa_escolhida": {
+    "opcao": "A",
+    "headline": "Joga o livro no ChatGPT e escreve isso",
+    "escolhida_por": "Carlos",
+    "em": "2026-10-21"
+  },
+  "variantes_extra": {},
+  "legendas_no_video": false,
+  "titulo_no_video": false,
+  "musica": {
+    "escolhida": 4,
+    "escolhida_por": "Carlos (21/10)",
+    "clima": "cinematográfico ambiente (cello e drone grave, pulso de cordas suave, sem vocal)",
+    "nivel_db": -12
+  }
+}

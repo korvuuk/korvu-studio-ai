@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Erro · korvu. painel — design system</title>
+<link rel="stylesheet" href="../tokens.css">
+<link rel="stylesheet" href="../componentes.css">
+<link rel="stylesheet" href="../acrescimos.css">
+<link rel="stylesheet" href="previa.css">
+<script src="../korvu.js"></script>
+<script src="previa.js" defer></script>
+</head>
+<body>
+<a class="k-skip" href="#conteudo">Pular para o conteúdo</a>
+<div class="k-shell">
+<header class="k-topbar"><a href="index.html" aria-label="korvu. painel — início"><span data-logo="ivory" data-h="19"></span></a><button class="k-menu-btn" type="button" aria-expanded="false" aria-controls="menu">Menu<span data-icon="chevron-down" data-size="16"></span></button></header>
+<nav class="k-sidebar" id="menu" aria-label="Menu principal">
+<a class="k-sidebar-logo" href="index.html" aria-label="korvu. painel — início"><span data-logo="ivory" data-h="19"></span></a>
+<a class="k-nav-item is-active" aria-current="page" href="#"><span data-icon="visao-geral" data-size="18"></span><span>Visão geral</span></a>
+<a class="k-nav-item" href="#"><span data-icon="equipe" data-size="18"></span><span>Equipe</span><span class="k-nav-count">26<span class="k-sr-only"> pessoas</span></span></a>
+<a class="k-nav-item" href="#"><span data-icon="videos-portoes" data-size="18"></span><span>Produção de conteúdo</span></a>
+<a class="k-nav-item" href="#"><span data-icon="calendario" data-size="18"></span><span>Calendário</span></a>
+<a class="k-nav-item" href="#"><span data-icon="desempenho" data-size="18"></span><span>Desempenho</span></a>
+<a class="k-nav-item" href="#"><span data-icon="biblioteca" data-size="18"></span><span>Biblioteca</span></a>
+<a class="k-nav-item" href="#"><span data-icon="tokens-custos" data-size="18"></span><span>Tokens e custos</span></a>
+<div class="k-sidebar-foot"><div class="k-sidebar-owner">@korvu_oficial<small>Instagram · Facebook</small></div></div>
+</nav>
+<main class="k-main" id="conteudo">
+<section class="k-section"><div class="k-state k-state--erro" role="alert"><span class="k-state-icon"><span data-icon="alert" data-size="22"></span></span><h1 class="k-h1">Não deu para ler os dados</h1><p class="k-state-text">O banco do painel não respondeu. Isso costuma acontecer depois de reiniciar o Mac, quando o Docker ainda não subiu.</p><div class="k-card k-pad" style="width:100%"><p class="k-cap" style="margin:0 0 12px">Como resolver</p><ol class="k-passos"><li><span>Abra o Docker e ligue o banco do painel: <code class="k-code">cd painel &amp;&amp; supabase start</code></span></li><li><span>Sincronize os arquivos com o banco: <code class="k-code">uv run python painel/sync/sincronizar.py</code></span></li><li><span>Tente de novo.</span></li></ol></div><div class="k-state-actions"><button class="k-btn k-btn-primary" type="button">Tentar de novo</button></div><p class="k-mono k-muted" style="margin:0">Código do erro (aparece no terminal do painel): 1928374650 <span class="pv-tag">exemplo</span></p></div></section><section class="k-section"><div class="k-section-head"><h2 class="k-h2">Erro de bloco</h2></div><div class="k-grid"><div class="k-card k-span-6"><div class="k-note k-note--alert" role="alert"><span class="k-note-icon"><span data-icon="alert" data-size="16"></span></span><div style="flex:1;min-width:0"><div class="k-note-title">Não deu para carregar esta parte</div><div class="k-note-body">O resto da página continua valendo. Se repetir, veja se o banco do painel está ligado.</div><div class="k-note-actions"><button class="k-btn k-btn-secondary k-btn-sm" type="button">Tentar de novo</button></div></div></div></div></div></section><footer class="pv-foot"><span><b>Erro</b> (proposta), no estilo k-note--alert: de página (app/error.tsx, dentro da casca) e de bloco. Comandos = as constantes COMO_LIGAR e COMO_SINCRONIZAR de painel/web/src/lib/db.ts.</span><a href="index.html">Todas as prévias</a></footer>
+</main>
+</div>
+</body>
+</html>

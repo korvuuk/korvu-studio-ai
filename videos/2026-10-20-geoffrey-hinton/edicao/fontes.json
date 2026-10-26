@@ -1,0 +1,718 @@
+{
+  "fontes": {
+    "praq0978": {
+      "arquivo": "edicao/fontes/praq0978.mp4",
+      "wav16k": "edicao/audio16k/praq0978.wav",
+      "wav48k": "edicao/audio48k/praq0978.wav",
+      "bruto": "brutos/principal/PRAQ0978.MOV",
+      "tipo": "camera",
+      "perfil": "vlog",
+      "duracao": 82.08,
+      "largura": 1440,
+      "altura": 2560,
+      "fps": 25,
+      "pix_fmt": "yuv422p10le",
+      "codec": "libx264 high422",
+      "hdr": false,
+      "rotacao": -90,
+      "original": "2160x4096@25/1",
+      "codec_original": "h264 High 4:2:2 Intra yuv422p10le",
+      "cor_original": "bt709/bt709/bt709",
+      "audio": {
+        "faixa": 0,
+        "cadeia": "highpass=f=60:poles=2",
+        "limpar_ruido": false,
+        "faixas": [
+          {
+            "faixa": 0,
+            "piso_db": -79.3,
+            "fala_db": -33.6,
+            "pico_db": -11.4,
+            "snr_db": 45.8
+          },
+          {
+            "faixa": 1,
+            "piso_db": -79.4,
+            "fala_db": -33.4,
+            "pico_db": -11.2,
+            "snr_db": 46.0
+          },
+          {
+            "faixa": 2,
+            "piso_db": -200.0,
+            "fala_db": -200.0,
+            "pico_db": -240.0,
+            "snr_db": 0.0
+          },
+          {
+            "faixa": 3,
+            "piso_db": -200.0,
+            "fala_db": -200.0,
+            "pico_db": -240.0,
+            "snr_db": 0.0
+          }
+        ]
+      },
+      "avisos": [],
+      "cfg": "25|yuv422p10le|vlog|1440x2560|audio-v2|faixa=None|limpar=0",
+      "mtime": 1723637106.0,
+      "tamanho": 4153821771
+    },
+    "praq0979": {
+      "arquivo": "edicao/fontes/praq0979.mp4",
+      "wav16k": "edicao/audio16k/praq0979.wav",
+      "wav48k": "edicao/audio48k/praq0979.wav",
+      "bruto": "brutos/principal/PRAQ0979.MOV",
+      "tipo": "camera",
+      "perfil": "vlog",
+      "duracao": 81.6,
+      "largura": 1440,
+      "altura": 2560,
+      "fps": 25,
+      "pix_fmt": "yuv422p10le",
+      "codec": "libx264 high422",
+      "hdr": false,
+      "rotacao": -90,
+      "original": "2160x4096@25/1",
+      "codec_original": "h264 High 4:2:2 Intra yuv422p10le",
+      "cor_original": "bt709/bt709/bt709",
+      "audio": {
+        "faixa": 0,
+        "cadeia": "highpass=f=60:poles=2",
+        "limpar_ruido": false,
+        "faixas": [
+          {
+            "faixa": 0,
+            "piso_db": -80.5,
+            "fala_db": -29.5,
+            "pico_db": -13.4,
+            "snr_db": 51.0
+          },
+          {
+            "faixa": 1,
+            "piso_db": -80.5,
+            "fala_db": -29.3,
+            "pico_db": -13.2,
+            "snr_db": 51.2
+          },
+          {
+            "faixa": 2,
+            "piso_db": -200.0,
+            "fala_db": -200.0,
+            "pico_db": -240.0,
+            "snr_db": 0.0
+          },
+          {
+            "faixa": 3,
+            "piso_db": -200.0,
+            "fala_db": -200.0,
+            "pico_db": -240.0,
+            "snr_db": 0.0
+          }
+        ]
+      },
+      "avisos": [],
+      "cfg": "25|yuv422p10le|vlog|1440x2560|audio-v2|faixa=None|limpar=0",
+      "mtime": 1723637188.0,
+      "tamanho": 4137452568
+    },
+    "praq0980": {
+      "arquivo": "edicao/fontes/praq0980.mp4",
+      "wav16k": "edicao/audio16k/praq0980.wav",
+      "wav48k": "edicao/audio48k/praq0980.wav",
+      "bruto": "brutos/principal/PRAQ0980.MOV",
+      "tipo": "camera",
+      "perfil": "vlog",
+      "duracao": 81.6,
+      "largura": 1440,
+      "altura": 2560,
+      "fps": 25,
+      "pix_fmt": "yuv422p10le",
+      "codec": "libx264 high422",
+      "hdr": false,
+      "rotacao": -90,
+      "original": "2160x4096@25/1",
+      "codec_original": "h264 High 4:2:2 Intra yuv422p10le",
+      "cor_original": "bt709/bt709/bt709",
+      "audio": {
+        "faixa": 0,
+        "cadeia": "highpass=f=60:poles=2",
+        "limpar_ruido": false,
+        "faixas": [
+          {
+            "faixa": 0,
+            "piso_db": -81.7,
+            "fala_db": -29.7,
+            "pico_db": -13.1,
+            "snr_db": 52.0
+          },
+          {
+            "faixa": 1,
+            "piso_db": -81.4,
+            "fala_db": -29.5,
+            "pico_db": -12.9,
+            "snr_db": 51.9
+          },
+          {
+            "faixa": 2,
+            "piso_db": -200.0,
+            "fala_db": -200.0,
+            "pico_db": -240.0,
+            "snr_db": 0.0
+          },
+          {
+            "faixa": 3,
+            "piso_db": -200.0,
+            "fala_db": -200.0,
+            "pico_db": -240.0,
+            "snr_db": 0.0
+          }
+        ]
+      },
+      "avisos": [],
+      "cfg": "25|yuv422p10le|vlog|1440x2560|audio-v2|faixa=None|limpar=0",
+      "mtime": 1723637268.0,
+      "tamanho": 4137397035
+    },
+    "praq0981": {
+      "arquivo": "edicao/fontes/praq0981.mp4",
+      "wav16k": "edicao/audio16k/praq0981.wav",
+      "wav48k": "edicao/audio48k/praq0981.wav",
+      "bruto": "brutos/principal/PRAQ0981.MOV",
+      "tipo": "camera",
+      "perfil": "vlog",
+      "duracao": 81.6,
+      "largura": 1440,
+      "altura": 2560,
+      "fps": 25,
+      "pix_fmt": "yuv422p10le",
+      "codec": "libx264 high422",
+      "hdr": false,
+      "rotacao": -90,
+      "original": "2160x4096@25/1",
+      "codec_original": "h264 High 4:2:2 Intra yuv422p10le",
+      "cor_original": "bt709/bt709/bt709",
+      "audio": {
+        "faixa": 0,
+        "cadeia": "highpass=f=60:poles=2",
+        "limpar_ruido": false,
+        "faixas": [
+          {
+            "faixa": 0,
+            "piso_db": -81.0,
+            "fala_db": -29.4,
+            "pico_db": -12.4,
+            "snr_db": 51.5
+          },
+          {
+            "faixa": 1,
+            "piso_db": -80.3,
+            "fala_db": -29.2,
+            "pico_db": -12.1,
+            "snr_db": 51.1
+          },
+          {
+            "faixa": 2,
+            "piso_db": -200.0,
+            "fala_db": -200.0,
+            "pico_db": -240.0,
+            "snr_db": 0.0
+          },
+          {
+            "faixa": 3,
+            "piso_db": -200.0,
+            "fala_db": -200.0,
+            "pico_db": -240.0,
+            "snr_db": 0.0
+          }
+        ]
+      },
+      "avisos": [],
+      "cfg": "25|yuv422p10le|vlog|1440x2560|audio-v2|faixa=None|limpar=0",
+      "mtime": 1723637350.0,
+      "tamanho": 4138939659
+    },
+    "praq0982": {
+      "arquivo": "edicao/fontes/praq0982.mp4",
+      "wav16k": "edicao/audio16k/praq0982.wav",
+      "wav48k": "edicao/audio48k/praq0982.wav",
+      "bruto": "brutos/principal/PRAQ0982.MOV",
+      "tipo": "camera",
+      "perfil": "vlog",
+      "duracao": 81.6,
+      "largura": 1440,
+      "altura": 2560,
+      "fps": 25,
+      "pix_fmt": "yuv422p10le",
+      "codec": "libx264 high422",
+      "hdr": false,
+      "rotacao": -90,
+      "original": "2160x4096@25/1",
+      "codec_original": "h264 High 4:2:2 Intra yuv422p10le",
+      "cor_original": "bt709/bt709/bt709",
+      "audio": {
+        "faixa": 0,
+        "cadeia": "highpass=f=60:poles=2",
+        "limpar_ruido": false,
+        "faixas": [
+          {
+            "faixa": 0,
+            "piso_db": -79.0,
+            "fala_db": -29.2,
+            "pico_db": -11.9,
+            "snr_db": 49.8
+          },
+          {
+            "faixa": 1,
+            "piso_db": -79.2,
+            "fala_db": -29.0,
+            "pico_db": -11.7,
+            "snr_db": 50.2
+          },
+          {
+            "faixa": 2,
+            "piso_db": -200.0,
+            "fala_db": -200.0,
+            "pico_db": -240.0,
+            "snr_db": 0.0
+          },
+          {
+            "faixa": 3,
+            "piso_db": -200.0,
+            "fala_db": -200.0,
+            "pico_db": -240.0,
+            "snr_db": 0.0
+          }
+        ]
+      },
+      "avisos": [],
+      "cfg": "25|yuv422p10le|vlog|1440x2560|audio-v2|faixa=None|limpar=0",
+      "mtime": 1723637432.0,
+      "tamanho": 4139251760
+    },
+    "praq0983": {
+      "arquivo": "edicao/fontes/praq0983.mp4",
+      "wav16k": "edicao/audio16k/praq0983.wav",
+      "wav48k": "edicao/audio48k/praq0983.wav",
+      "bruto": "brutos/principal/PRAQ0983.MOV",
+      "tipo": "camera",
+      "perfil": "vlog",
+      "duracao": 81.6,
+      "largura": 1440,
+      "altura": 2560,
+      "fps": 25,
+      "pix_fmt": "yuv422p10le",
+      "codec": "libx264 high422",
+      "hdr": false,
+      "rotacao": -90,
+      "original": "2160x4096@25/1",
+      "codec_original": "h264 High 4:2:2 Intra yuv422p10le",
+      "cor_original": "bt709/bt709/bt709",
+      "audio": {
+        "faixa": 0,
+        "cadeia": "highpass=f=60:poles=2",
+        "limpar_ruido": false,
+        "faixas": [
+          {
+            "faixa": 0,
+            "piso_db": -81.4,
+            "fala_db": -28.9,
+            "pico_db": -13.1,
+            "snr_db": 52.5
+          },
+          {
+            "faixa": 1,
+            "piso_db": -80.8,
+            "fala_db": -28.7,
+            "pico_db": -12.9,
+            "snr_db": 52.1
+          },
+          {
+            "faixa": 2,
+            "piso_db": -200.0,
+            "fala_db": -200.0,
+            "pico_db": -240.0,
+            "snr_db": 0.0
+          },
+          {
+            "faixa": 3,
+            "piso_db": -200.0,
+            "fala_db": -200.0,
+            "pico_db": -240.0,
+            "snr_db": 0.0
+          }
+        ]
+      },
+      "avisos": [],
+      "cfg": "25|yuv422p10le|vlog|1440x2560|audio-v2|faixa=None|limpar=0",
+      "mtime": 1723637514.0,
+      "tamanho": 4138188239
+    },
+    "praq0984": {
+      "arquivo": "edicao/fontes/praq0984.mp4",
+      "wav16k": "edicao/audio16k/praq0984.wav",
+      "wav48k": "edicao/audio48k/praq0984.wav",
+      "bruto": "brutos/principal/PRAQ0984.MOV",
+      "tipo": "camera",
+      "perfil": "vlog",
+      "duracao": 81.6,
+      "largura": 1440,
+      "altura": 2560,
+      "fps": 25,
+      "pix_fmt": "yuv422p10le",
+      "codec": "libx264 high422",
+      "hdr": false,
+      "rotacao": -90,
+      "original": "2160x4096@25/1",
+      "codec_original": "h264 High 4:2:2 Intra yuv422p10le",
+      "cor_original": "bt709/bt709/bt709",
+      "audio": {
+        "faixa": 0,
+        "cadeia": "highpass=f=60:poles=2",
+        "limpar_ruido": false,
+        "faixas": [
+          {
+            "faixa": 0,
+            "piso_db": -79.0,
+            "fala_db": -29.1,
+            "pico_db": -9.5,
+            "snr_db": 49.9
+          },
+          {
+            "faixa": 1,
+            "piso_db": -78.8,
+            "fala_db": -28.9,
+            "pico_db": -9.3,
+            "snr_db": 49.9
+          },
+          {
+            "faixa": 2,
+            "piso_db": -200.0,
+            "fala_db": -200.0,
+            "pico_db": -240.0,
+            "snr_db": 0.0
+          },
+          {
+            "faixa": 3,
+            "piso_db": -200.0,
+            "fala_db": -200.0,
+            "pico_db": -240.0,
+            "snr_db": 0.0
+          }
+        ]
+      },
+      "avisos": [],
+      "cfg": "25|yuv422p10le|vlog|1440x2560|audio-v2|faixa=None|limpar=0",
+      "mtime": 1723637596.0,
+      "tamanho": 4137333892
+    },
+    "praq0985": {
+      "arquivo": "edicao/fontes/praq0985.mp4",
+      "wav16k": "edicao/audio16k/praq0985.wav",
+      "wav48k": "edicao/audio48k/praq0985.wav",
+      "bruto": "brutos/principal/PRAQ0985.MOV",
+      "tipo": "camera",
+      "perfil": "vlog",
+      "duracao": 32.64,
+      "largura": 1440,
+      "altura": 2560,
+      "fps": 25,
+      "pix_fmt": "yuv422p10le",
+      "codec": "libx264 high422",
+      "hdr": false,
+      "rotacao": -90,
+      "original": "2160x4096@25/1",
+      "codec_original": "h264 High 4:2:2 Intra yuv422p10le",
+      "cor_original": "bt709/bt709/bt709",
+      "audio": {
+        "faixa": 0,
+        "cadeia": "highpass=f=60:poles=2",
+        "limpar_ruido": false,
+        "faixas": [
+          {
+            "faixa": 0,
+            "piso_db": -79.6,
+            "fala_db": -27.8,
+            "pico_db": -12.1,
+            "snr_db": 51.8
+          },
+          {
+            "faixa": 1,
+            "piso_db": -78.8,
+            "fala_db": -27.5,
+            "pico_db": -11.9,
+            "snr_db": 51.3
+          },
+          {
+            "faixa": 2,
+            "piso_db": -200.0,
+            "fala_db": -200.0,
+            "pico_db": -240.0,
+            "snr_db": 0.0
+          },
+          {
+            "faixa": 3,
+            "piso_db": -200.0,
+            "fala_db": -200.0,
+            "pico_db": -240.0,
+            "snr_db": 0.0
+          }
+        ]
+      },
+      "avisos": [],
+      "cfg": "25|yuv422p10le|vlog|1440x2560|audio-v2|faixa=None|limpar=0",
+      "mtime": 1723637628.0,
+      "tamanho": 1663967951
+    },
+    "praq0986": {
+      "arquivo": "edicao/fontes/praq0986.mp4",
+      "wav16k": "edicao/audio16k/praq0986.wav",
+      "wav48k": "edicao/audio48k/praq0986.wav",
+      "bruto": "brutos/principal/PRAQ0986.MOV",
+      "tipo": "camera",
+      "perfil": "vlog",
+      "duracao": 426.72,
+      "largura": 1440,
+      "altura": 2560,
+      "fps": 25,
+      "pix_fmt": "yuv422p10le",
+      "codec": "libx264 high422",
+      "hdr": false,
+      "rotacao": -90,
+      "original": "2160x4096@25/1",
+      "codec_original": "h264 High 4:2:2 Intra yuv422p10le",
+      "cor_original": "bt709/bt709/bt709",
+      "audio": {
+        "faixa": 0,
+        "cadeia": "highpass=f=60:poles=2",
+        "limpar_ruido": false,
+        "faixas": [
+          {
+            "faixa": 0,
+            "piso_db": -81.3,
+            "fala_db": -29.2,
+            "pico_db": -8.7,
+            "snr_db": 52.1
+          },
+          {
+            "faixa": 1,
+            "piso_db": -81.0,
+            "fala_db": -28.9,
+            "pico_db": -8.5,
+            "snr_db": 52.0
+          },
+          {
+            "faixa": 2,
+            "piso_db": -200.0,
+            "fala_db": -200.0,
+            "pico_db": -240.0,
+            "snr_db": 0.0
+          },
+          {
+            "faixa": 3,
+            "piso_db": -200.0,
+            "fala_db": -200.0,
+            "pico_db": -240.0,
+            "snr_db": 0.0
+          }
+        ]
+      },
+      "avisos": [],
+      "cfg": "25|yuv422p10le|vlog|1440x2560|audio-v2|faixa=None|limpar=0",
+      "mtime": 1723638052.0,
+      "tamanho": 21586673656
+    }
+  },
+  "extras": {
+    "E02": {
+      "arquivo_bruto": "brutos/extras/E02-hinton-abertura.mp4",
+      "arquivo": "edicao/extras/E02.mp4",
+      "tipo": "video",
+      "perfil": "sdr",
+      "duracao": 13.0,
+      "largura": 1080,
+      "altura": 608,
+      "fps": 25,
+      "pix_fmt": "yuv420p",
+      "tem_audio": false,
+      "original": "1920x1080@25/1",
+      "declarado": true,
+      "avisos": [],
+      "cfg": "25|extra-v1|vlog",
+      "mtime": 1791975626.2487159,
+      "tamanho": 4596661
+    },
+    "E03": {
+      "arquivo_bruto": "brutos/extras/E03-edimburgo-jovem.mp4",
+      "arquivo": "edicao/extras/E03.mp4",
+      "tipo": "video",
+      "perfil": "sdr",
+      "duracao": 9.0,
+      "largura": 1080,
+      "altura": 608,
+      "fps": 25,
+      "pix_fmt": "yuv420p",
+      "tem_audio": false,
+      "original": "1920x1080@25/1",
+      "declarado": true,
+      "avisos": [],
+      "cfg": "25|extra-v1|vlog",
+      "mtime": 1791975632.5878973,
+      "tamanho": 3344514
+    },
+    "E05": {
+      "arquivo_bruto": "brutos/extras/E05-orientador.mp4",
+      "arquivo": "edicao/extras/E05.mp4",
+      "tipo": "video",
+      "perfil": "sdr",
+      "duracao": 7.52,
+      "largura": 1080,
+      "altura": 608,
+      "fps": 25,
+      "pix_fmt": "yuv420p",
+      "tem_audio": false,
+      "original": "1920x1080@25/1",
+      "declarado": true,
+      "avisos": [],
+      "cfg": "25|extra-v1|vlog",
+      "mtime": 1791975637.904115,
+      "tamanho": 2509104
+    },
+    "E07": {
+      "arquivo_bruto": "brutos/extras/E07-google-toronto.mp4",
+      "arquivo": "edicao/extras/E07.mp4",
+      "tipo": "video",
+      "perfil": "sdr",
+      "duracao": 5.2,
+      "largura": 1080,
+      "altura": 608,
+      "fps": 25,
+      "pix_fmt": "yuv420p",
+      "tem_audio": false,
+      "original": "1920x1080@25/1",
+      "declarado": true,
+      "avisos": [],
+      "cfg": "25|extra-v1|vlog",
+      "mtime": 1791975706.0728612,
+      "tamanho": 4972767
+    },
+    "E08": {
+      "arquivo_bruto": "brutos/extras/E08-riscos-bbc.mp4",
+      "arquivo": "edicao/extras/E08.mp4",
+      "tipo": "video",
+      "perfil": "sdr",
+      "duracao": 10.0,
+      "largura": 1080,
+      "altura": 608,
+      "fps": 25,
+      "pix_fmt": "yuv420p",
+      "tem_audio": false,
+      "original": "1920x1080@25/1",
+      "declarado": true,
+      "avisos": [],
+      "cfg": "25|extra-v1|vlog",
+      "mtime": 1791975650.7442088,
+      "tamanho": 3791530
+    },
+    "E09": {
+      "arquivo_bruto": "brutos/extras/E09-ligacao-trote.mp4",
+      "arquivo": "edicao/extras/E09.mp4",
+      "tipo": "video",
+      "perfil": "sdr",
+      "duracao": 8.0,
+      "largura": 1080,
+      "altura": 608,
+      "fps": 25,
+      "pix_fmt": "yuv420p",
+      "tem_audio": false,
+      "original": "1920x1080@25/1",
+      "declarado": true,
+      "avisos": [],
+      "cfg": "25|extra-v1|vlog",
+      "mtime": 1791975708.0419302,
+      "tamanho": 1298408
+    },
+    "E10": {
+      "arquivo_bruto": "brutos/extras/E10-banquete-produtividade.mp4",
+      "arquivo": "edicao/extras/E10.mp4",
+      "tipo": "video",
+      "perfil": "sdr",
+      "duracao": 7.52,
+      "largura": 1080,
+      "altura": 608,
+      "fps": 25,
+      "pix_fmt": "yuv420p",
+      "tem_audio": false,
+      "original": "1920x1080@25/1",
+      "declarado": true,
+      "avisos": [],
+      "cfg": "25|extra-v1|vlog",
+      "mtime": 1791975662.6947365,
+      "tamanho": 3756377
+    },
+    "E11": {
+      "arquivo_bruto": "brutos/extras/E11-banquete-golpes.mp4",
+      "arquivo": "edicao/extras/E11.mp4",
+      "tipo": "video",
+      "perfil": "sdr",
+      "duracao": 6.0,
+      "largura": 1080,
+      "altura": 608,
+      "fps": 25,
+      "pix_fmt": "yuv420p",
+      "tem_audio": false,
+      "original": "1920x1080@25/1",
+      "declarado": true,
+      "avisos": [],
+      "cfg": "25|extra-v1|vlog",
+      "mtime": 1791975665.620307,
+      "tamanho": 3111399
+    },
+    "E12": {
+      "arquivo_bruto": "brutos/extras/E12-sempre-achei-certo.mp4",
+      "arquivo": "edicao/extras/E12.mp4",
+      "tipo": "video",
+      "perfil": "sdr",
+      "duracao": 3.12,
+      "largura": 1080,
+      "altura": 608,
+      "fps": 25,
+      "pix_fmt": "yuv420p",
+      "tem_audio": false,
+      "original": "1920x1080@25/1",
+      "declarado": true,
+      "avisos": [],
+      "cfg": "25|extra-v1|vlog",
+      "mtime": 1791975702.96445,
+      "tamanho": 1289623
+    },
+    "E01": {
+      "arquivo_bruto": null,
+      "arquivo": null,
+      "tipo": "animacao",
+      "perfil": null,
+      "duracao": null,
+      "declarado": true,
+      "faltando": false
+    },
+    "E04": {
+      "arquivo_bruto": null,
+      "arquivo": null,
+      "tipo": "animacao",
+      "perfil": null,
+      "duracao": null,
+      "declarado": true,
+      "faltando": false
+    },
+    "E06": {
+      "arquivo_bruto": null,
+      "arquivo": null,
+      "tipo": "animacao",
+      "perfil": null,
+      "duracao": null,
+      "declarado": true,
+      "faltando": false
+    }
+  },
+  "atualizado": "2026-10-15T00:04:38+01:00"
+}

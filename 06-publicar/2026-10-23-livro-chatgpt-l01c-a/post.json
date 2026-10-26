@@ -1,0 +1,39 @@
+{
+  "slug": "2026-10-23-livro-chatgpt-l01c-a",
+  "publicar_em": "2026-11-01T19:00:00+00:00",
+  "plataformas": [
+    "instagram"
+  ],
+  "estado": "agendado",
+  "confirmar": false,
+  "instagram": {
+    "legenda_arquivo": "legenda-instagram.txt",
+    "capa": "capa/capa.png",
+    "share_to_feed": true,
+    "trial": {
+      "graduation_strategy": "MANUAL"
+    },
+    "container_id": null,
+    "media_id": null,
+    "permalink": null
+  },
+  "facebook": {
+    "legenda_arquivo": "legenda-facebook.txt",
+    "tipo": null,
+    "video_id": null,
+    "permalink": null
+  },
+  "material": {
+    "palavra": "LIVRO",
+    "arquivo": "material/50-comandos-de-aprendizado.pdf",
+    "titulo": "a lista com os 50 comandos de aprendizado",
+    "url": null
+  },
+  "publicado_em": null,
+  "erros": [],
+  "notas": [
+    "ordem combinada: depois do Jensen — se o Jensen ficar pronto antes, reordenar no /fila",
+    "variável extra: hook L01C com o Carlos em tela desde 0, só IG; legenda/hashtags/capa idênticas; Trial MANUAL",
+    "confirmado pelo Carlos em 2026-10-21T21:30 ('Confirma os quatro posts na fila com essas datas')"
+  ]
+}

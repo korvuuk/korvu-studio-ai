@@ -1,0 +1,625 @@
+{
+  "slug": "2026-10-24-comando-secreto",
+  "versao": 2,
+  "tema": "O comando secreto do ChatGPT pra foto… que não é secreto: 3 comandos de estilo na mesma foto e a virada (a barra não muda nada, quem faz o trabalho é o nome do estilo)",
+  "pilar": "tutoriais-rapidos",
+  "estrutura": "comando-repetido (MESA §3 linha 2 · cauetgurgell DdElzdKzRY9/DdRHFKOz7hv): 1 foto → 3 comandos → 3 resultados → virada (a barra não faz nada) → 4.º resultado sem barra",
+  "hook_template": "resultado-primeiro",
+  "duracao_alvo": 35.0,
+  "wps_ref": 2.3,
+  "hooks": {
+    "A": {
+      "fala": "Coloca sua foto no ChatGPT e escreve barra cinematic.",
+      "tela": "SUA FOTO + 1 PALAVRA",
+      "visual": "quadro 0: a foto original do Carlos (E01, ~1,5 s) → campo do ChatGPT com a foto anexada e /cinematic digitado (E02) → a foto como cena de filme (E03) antes de 4 s. Par A/B (decisões 17/10): B = E01→E02→E03 em tela cheia do quadro 0 até o fim da L02, o Carlos entra na L03 (~6 s); A = o Carlos desde o quadro 0, com o extra em cima"
+    },
+    "B": {
+      "fala": "O tal comando secreto pra foto no ChatGPT: barra cinematic.",
+      "tela": "O TAL COMANDO SECRETO",
+      "visual": "o campo com /cinematic sendo digitado (E02) e corte seco para o resultado de cinema (E03) antes de 3 s"
+    },
+    "C": {
+      "fala": "Uma foto sua e uma palavra no ChatGPT: barra cinematic.",
+      "tela": "1 FOTO, 1 PALAVRA",
+      "visual": "os 4 resultados passando em cortes rápidos (E03, E05, E07, E09) e parando no de cinema"
+    }
+  },
+  "hook_escolhido": "A",
+  "titulo": {
+    "contexto": "O comando secreto do ChatGPT",
+    "impacto": "que não é secreto",
+    "cinza": 2,
+    "rabisco": "não"
+  },
+  "pose_capa": "indicador nos lábios pedindo segredo, olhar de canto",
+  "cta_tipo": "palavra-material",
+  "cta_palavra": "ESTILO",
+  "material": "PDF de no máximo 2 páginas (regra de 21/10) com a biblioteca de comandos de foto da Korvu: abre JÁ com os comandos de estilo por família (cinema, luz, filme e câmera, ângulo, clima, moda, ilustração… — §1 da biblioteca, um por linha: comando → o que faz), as combinações prontas (§2), e depois um 'como usar' de 3 passos: a fórmula do pedido (/comando + o que você quer + a trava + a proporção), a trava do rosto pronta para colar ('Mantenha o rosto, a identidade, o cabelo, a roupa e a pose exatamente iguais. Mude só o estilo.') e como fixar um atalho seu nas Instruções personalizadas. Uma linha honesta: a barra não é botão oficial — o ChatGPT lê a palavra, com ou sem barra",
+  "material_titulo": "a lista com os comandos de estilo para suas fotos",
+  "total_palavras": 81,
+  "duracao_estimada": 37.8,
+  "extras": [
+    {
+      "id": "E01",
+      "tipo": "imagem",
+      "descricao": "Quadro 0: a foto original do Carlos (selfie ou retrato, sem filtro) — o \"antes\" que todo o vídeo transforma. **Na versão B é o quadro 0 do vídeo**",
+      "fonte": "O Carlos tira a foto (celular, luz de janela, rosto inteiro, fundo simples) e guarda o arquivo original → `material/img/foto-original.jpg` + cópia em `brutos/extras/E01-foto-original.jpg` — FALTANDO",
+      "credito": null,
+      "som": false,
+      "linhas": [
+        "L01",
+        "L01B",
+        "L01C"
+      ]
+    },
+    {
+      "id": "E02",
+      "tipo": "tela",
+      "descricao": "Campo de digitação do ChatGPT no Mac: a foto anexada aparece no campo → `/cinematic` digitado → trava colada → enviar",
+      "fonte": "Gravação de tela do ChatGPT no Mac (uma gravação só, os 4 pedidos na mesma conversa, a foto original anexada de novo em cada pedido) → skill `tela-de-computador` corta `brutos/extras/E02-tela-cinematic.mp4` (recorte do campo, `card` no peito, ~4 s) — FALTANDO",
+      "credito": null,
+      "som": false,
+      "linhas": [
+        "L01",
+        "L01B",
+        "L01C"
+      ]
+    },
+    {
+      "id": "E03",
+      "tipo": "imagem",
+      "descricao": "Resultado 1: a foto do Carlos como cena de filme (/cinematic), em tela cheia — a revelação",
+      "fonte": "PNG baixado do ChatGPT (9:16) → `material/img/E03.png` → `brutos/extras/E03-cinematic.png` (em pé → `full`) — FALTANDO. Conferir que o rosto é o dele",
+      "credito": null,
+      "som": false,
+      "linhas": [
+        "L01",
+        "L02",
+        "L01B",
+        "L01C"
+      ]
+    },
+    {
+      "id": "E04",
+      "tipo": "tela",
+      "descricao": "Flash do campo: foto anexada + `/goldenhour` digitado e enviado (~2 s, acelerado)",
+      "fonte": "Mesma gravação de tela → `brutos/extras/E04-tela-goldenhour.mp4` (`card`) — FALTANDO",
+      "credito": null,
+      "som": false,
+      "linhas": [
+        "L03"
+      ]
+    },
+    {
+      "id": "E05",
+      "tipo": "imagem",
+      "descricao": "Resultado 2: a mesma foto com luz dourada de fim de tarde (/goldenhour)",
+      "fonte": "PNG 9:16 → `brutos/extras/E05-goldenhour.png` (`full`) — FALTANDO",
+      "credito": null,
+      "som": false,
+      "linhas": [
+        "L03"
+      ]
+    },
+    {
+      "id": "E06",
+      "tipo": "tela",
+      "descricao": "Flash do campo: foto anexada + `/droneview` digitado e enviado (~2 s)",
+      "fonte": "Mesma gravação → `brutos/extras/E06-tela-droneview.mp4` (`card`) — FALTANDO",
+      "credito": null,
+      "som": false,
+      "linhas": [
+        "L04"
+      ]
+    },
+    {
+      "id": "E07",
+      "tipo": "imagem",
+      "descricao": "Resultado 3: a cena vista de cima, de drone (/droneview). Plano B: /polaroid (ver nota do topo)",
+      "fonte": "PNG 9:16 → `brutos/extras/E07-droneview.png` (`full`) — FALTANDO",
+      "credito": null,
+      "som": false,
+      "linhas": [
+        "L04"
+      ]
+    },
+    {
+      "id": "E08",
+      "tipo": "tela",
+      "descricao": "O campo com `neblina` digitado **sem barra** (o menu de ferramentas não abre) + trava → enviar. É a prova da virada: o cartão tem de deixar ler que não há \"/\"",
+      "fonte": "Mesma gravação → `brutos/extras/E08-tela-neblina.mp4` (`card`, ~3 s, sem acelerar o texto) — FALTANDO",
+      "credito": null,
+      "som": false,
+      "linhas": [
+        "L07"
+      ]
+    },
+    {
+      "id": "E09",
+      "tipo": "imagem",
+      "descricao": "Resultado 4: a mesma foto no meio da neblina — funcionou sem barra",
+      "fonte": "PNG 9:16 → `brutos/extras/E09-neblina.png` (`full`) — FALTANDO",
+      "credito": null,
+      "som": false,
+      "linhas": [
+        "L07",
+        "L08"
+      ]
+    }
+  ],
+  "linhas": [
+    {
+      "id": "L01",
+      "secao": "hook",
+      "bloco": "hook",
+      "fala": "Coloca sua foto no ChatGPT e escreve barra cinematic.",
+      "fala_original": "Coloca sua foto no ChatGPT / e escreve **barra cinematic**.",
+      "palavras": [
+        "coloca",
+        "sua",
+        "foto",
+        "no",
+        "chatgpt",
+        "e",
+        "escreve",
+        "barra",
+        "cinematic"
+      ],
+      "destaques": [
+        "barra cinematic"
+      ],
+      "pausa_depois": "normal",
+      "tela": "",
+      "animacao": null,
+      "extras_ref": [
+        {
+          "id": "E01",
+          "modo": "split",
+          "in": null,
+          "out": null
+        },
+        {
+          "id": "E02",
+          "modo": "split",
+          "in": null,
+          "out": null
+        },
+        {
+          "id": "E03",
+          "modo": "split",
+          "in": null,
+          "out": null
+        }
+      ],
+      "alternativa_de": null,
+      "tempo_estimado": [
+        0.0,
+        4.11
+      ]
+    },
+    {
+      "id": "L02",
+      "secao": "promessa",
+      "bloco": "promessa",
+      "fala": "Ela vira cena de filme.",
+      "fala_original": "Ela vira / cena de filme.",
+      "palavras": [
+        "ela",
+        "vira",
+        "cena",
+        "de",
+        "filme"
+      ],
+      "destaques": [],
+      "pausa_depois": "normal",
+      "tela": "",
+      "animacao": null,
+      "extras_ref": [
+        {
+          "id": "E03",
+          "modo": "split",
+          "in": null,
+          "out": null
+        }
+      ],
+      "alternativa_de": null,
+      "tempo_estimado": [
+        4.11,
+        6.49
+      ]
+    },
+    {
+      "id": "L03",
+      "secao": "corpo",
+      "bloco": "corpo",
+      "fala": "Barra goldenhour: luz de fim de tarde.",
+      "fala_original": "**Barra goldenhour**: / luz de fim de tarde.",
+      "palavras": [
+        "barra",
+        "goldenhour",
+        "luz",
+        "de",
+        "fim",
+        "de",
+        "tarde"
+      ],
+      "destaques": [
+        "Barra goldenhour"
+      ],
+      "pausa_depois": "normal",
+      "tela": "",
+      "animacao": null,
+      "extras_ref": [
+        {
+          "id": "E04",
+          "modo": "split",
+          "in": null,
+          "out": null
+        },
+        {
+          "id": "E05",
+          "modo": "split",
+          "in": null,
+          "out": null
+        }
+      ],
+      "alternativa_de": null,
+      "tempo_estimado": [
+        6.49,
+        9.73
+      ]
+    },
+    {
+      "id": "L04",
+      "secao": "corpo",
+      "bloco": "corpo",
+      "fala": "Barra droneview: foto de drone.",
+      "fala_original": "**Barra droneview**: / foto de drone.",
+      "palavras": [
+        "barra",
+        "droneview",
+        "foto",
+        "de",
+        "drone"
+      ],
+      "destaques": [
+        "Barra droneview"
+      ],
+      "pausa_depois": "normal",
+      "tela": "",
+      "animacao": null,
+      "extras_ref": [
+        {
+          "id": "E06",
+          "modo": "split",
+          "in": null,
+          "out": null
+        },
+        {
+          "id": "E07",
+          "modo": "split",
+          "in": null,
+          "out": null
+        }
+      ],
+      "alternativa_de": null,
+      "tempo_estimado": [
+        9.73,
+        12.1
+      ]
+    },
+    {
+      "id": "L05",
+      "secao": "corpo",
+      "bloco": "virada",
+      "fala": "Chamam isso de comando secreto. Mas a barra não muda nada.",
+      "fala_original": "Chamam isso de **comando secreto**. / Mas a barra não muda nada.",
+      "palavras": [
+        "chamam",
+        "isso",
+        "de",
+        "comando",
+        "secreto",
+        "mas",
+        "a",
+        "barra",
+        "não",
+        "muda",
+        "nada"
+      ],
+      "destaques": [
+        "comando secreto"
+      ],
+      "pausa_depois": "normal",
+      "tela": "",
+      "animacao": null,
+      "extras_ref": [],
+      "alternativa_de": null,
+      "tempo_estimado": [
+        12.1,
+        17.09
+      ]
+    },
+    {
+      "id": "L06",
+      "secao": "corpo",
+      "bloco": "virada",
+      "fala": "Quem faz o trabalho é o nome do estilo.",
+      "fala_original": "Quem faz o trabalho / é o nome do **estilo**.",
+      "palavras": [
+        "quem",
+        "faz",
+        "o",
+        "trabalho",
+        "é",
+        "o",
+        "nome",
+        "do",
+        "estilo"
+      ],
+      "destaques": [
+        "estilo"
+      ],
+      "pausa_depois": "normal",
+      "tela": "",
+      "animacao": null,
+      "extras_ref": [],
+      "alternativa_de": null,
+      "tempo_estimado": [
+        17.09,
+        21.2
+      ]
+    },
+    {
+      "id": "L07",
+      "secao": "payoff",
+      "bloco": "climax",
+      "fala": "Escreve neblina, sem barra, e funciona igual.",
+      "fala_original": "Escreve **neblina**, sem barra, / e funciona igual.",
+      "palavras": [
+        "escreve",
+        "neblina",
+        "sem",
+        "barra",
+        "e",
+        "funciona",
+        "igual"
+      ],
+      "destaques": [
+        "neblina"
+      ],
+      "pausa_depois": "normal",
+      "tela": "",
+      "animacao": null,
+      "extras_ref": [
+        {
+          "id": "E08",
+          "modo": "split",
+          "in": null,
+          "out": null
+        },
+        {
+          "id": "E09",
+          "modo": "split",
+          "in": null,
+          "out": null
+        }
+      ],
+      "alternativa_de": null,
+      "tempo_estimado": [
+        21.2,
+        24.44
+      ]
+    },
+    {
+      "id": "L08",
+      "secao": "payoff",
+      "bloco": "reflexao",
+      "fala": "Então inventa o seu estilo.",
+      "fala_original": "Então inventa o seu **estilo**. [pausa]",
+      "palavras": [
+        "então",
+        "inventa",
+        "o",
+        "seu",
+        "estilo"
+      ],
+      "destaques": [
+        "estilo"
+      ],
+      "pausa_depois": "pausa",
+      "tela": "",
+      "animacao": null,
+      "extras_ref": [
+        {
+          "id": "E09",
+          "modo": "split",
+          "in": null,
+          "out": null
+        }
+      ],
+      "alternativa_de": null,
+      "tempo_estimado": [
+        24.44,
+        27.22
+      ]
+    },
+    {
+      "id": "L09",
+      "secao": "cta",
+      "bloco": "cta",
+      "fala": "Comenta a palavra ESTILO que eu vou te enviar",
+      "fala_original": "Comenta a palavra **ESTILO** / que eu vou te enviar",
+      "palavras": [
+        "comenta",
+        "a",
+        "palavra",
+        "estilo",
+        "que",
+        "eu",
+        "vou",
+        "te",
+        "enviar"
+      ],
+      "destaques": [
+        "ESTILO"
+      ],
+      "pausa_depois": "normal",
+      "tela": "",
+      "animacao": null,
+      "extras_ref": [],
+      "alternativa_de": null,
+      "tempo_estimado": [
+        27.22,
+        31.33
+      ]
+    },
+    {
+      "id": "L10",
+      "secao": "cta",
+      "bloco": "cta",
+      "fala": "a lista dos comandos no seu direct.",
+      "fala_original": "a lista dos comandos / no seu direct.",
+      "palavras": [
+        "a",
+        "lista",
+        "dos",
+        "comandos",
+        "no",
+        "seu",
+        "direct"
+      ],
+      "destaques": [],
+      "pausa_depois": "normal",
+      "tela": "",
+      "animacao": null,
+      "extras_ref": [],
+      "alternativa_de": null,
+      "tempo_estimado": [
+        31.33,
+        34.57
+      ]
+    },
+    {
+      "id": "L11",
+      "secao": "cta",
+      "bloco": "cta",
+      "fala": "E manda pra quem ama tirar selfie.",
+      "fala_original": "E manda pra quem / ama tirar selfie.",
+      "palavras": [
+        "e",
+        "manda",
+        "pra",
+        "quem",
+        "ama",
+        "tirar",
+        "selfie"
+      ],
+      "destaques": [],
+      "pausa_depois": "normal",
+      "tela": "",
+      "animacao": null,
+      "extras_ref": [],
+      "alternativa_de": null,
+      "tempo_estimado": [
+        34.57,
+        37.82
+      ]
+    },
+    {
+      "id": "L01B",
+      "secao": "hook-alt",
+      "bloco": "hook-alt",
+      "fala": "O tal comando secreto pra foto no ChatGPT: barra cinematic.",
+      "fala_original": "O tal **comando secreto** pra foto no ChatGPT: / **barra cinematic**.",
+      "palavras": [
+        "o",
+        "tal",
+        "comando",
+        "secreto",
+        "pra",
+        "foto",
+        "no",
+        "chatgpt",
+        "barra",
+        "cinematic"
+      ],
+      "destaques": [
+        "comando secreto",
+        "barra cinematic"
+      ],
+      "pausa_depois": "normal",
+      "tela": "",
+      "animacao": null,
+      "extras_ref": [
+        {
+          "id": "E01",
+          "modo": "split",
+          "in": null,
+          "out": null
+        },
+        {
+          "id": "E02",
+          "modo": "split",
+          "in": null,
+          "out": null
+        },
+        {
+          "id": "E03",
+          "modo": "split",
+          "in": null,
+          "out": null
+        }
+      ],
+      "alternativa_de": "L01",
+      "tempo_estimado": null
+    },
+    {
+      "id": "L01C",
+      "secao": "hook-alt",
+      "bloco": "hook-alt",
+      "fala": "Uma foto sua e uma palavra no ChatGPT: barra cinematic.",
+      "fala_original": "Uma foto sua / e uma palavra no ChatGPT: / **barra cinematic**.",
+      "palavras": [
+        "uma",
+        "foto",
+        "sua",
+        "e",
+        "uma",
+        "palavra",
+        "no",
+        "chatgpt",
+        "barra",
+        "cinematic"
+      ],
+      "destaques": [
+        "barra cinematic"
+      ],
+      "pausa_depois": "normal",
+      "tela": "",
+      "animacao": null,
+      "extras_ref": [
+        {
+          "id": "E01",
+          "modo": "split",
+          "in": null,
+          "out": null
+        },
+        {
+          "id": "E02",
+          "modo": "split",
+          "in": null,
+          "out": null
+        },
+        {
+          "id": "E03",
+          "modo": "split",
+          "in": null,
+          "out": null
+        }
+      ],
+      "alternativa_de": "L01",
+      "tempo_estimado": null
+    }
+  ]
+}

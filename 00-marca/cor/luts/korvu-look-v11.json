@@ -1,0 +1,29 @@
+{
+ "versao": "v11",
+ "tipo": "parametrico",
+ "nome": "WAY v5 + pele recuperada (1.0 stop)",
+ "aprovada": false,
+ "criado_em": "2026-09-17",
+ "parametros": {
+  "nome": "WAY v5 + pele recuperada (1.0 stop)",
+  "sat": 0.72,
+  "pele_sat": 1.0,
+  "pele_calor": 0.012,
+  "pele_centro": 35.0,
+  "pele_sigma": 28.0,
+  "sombra": "-0.030,0.012,0.004",
+  "alta": "0.010,0.004,-0.010",
+  "pele_croma_min": 0.015,
+  "pele_croma_rampa": 0.06,
+  "neutro": "0,0,0",
+  "neutro_croma": 0.06,
+  "exposicao": 1.0,
+  "contraste": 1.0,
+  "pivo": 0.42,
+  "preto": 0.0,
+  "branco": 1.0,
+  "base": "00-marca/cor/luts/korvu-look-v5.cube"
+ },
+ "motivo": "APROVADA pelo Carlos em 2026-09-17: rosto 22,8 IRE, preto 1,3 IRE, branco 98 IRE (sem estourar) · 2026-09-18: DESMARCADA como padrão — o Carlos comparou v5 x v11 na regravação e escolheu o v5 pela pele. Medições continuam a favor do v11 (rosto 40,9 vs 23,2 IRE); a escolha é dele e a pele tem prioridade no cor.md.",
+ "aprovada_em": "2026-09-17"
+}

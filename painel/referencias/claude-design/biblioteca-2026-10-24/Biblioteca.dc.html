@@ -1,0 +1,382 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<title>Biblioteca · korvu. painel</title>
+<script src="./support.js"></script>
+<link rel="stylesheet" href="ds/korvu/components/bundle.css">
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous">
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,800&amp;family=Geist:wght@100..900&amp;family=Geist+Mono:wght@100..900&amp;family=Inter:wght@500;600&amp;family=Playfair+Display:ital,wght@1,600&amp;display=swap" rel="stylesheet">
+<style>
+:root{
+--bg:#f5f2e8;--surface:#fbf9f4;--surface-sunken:#efebe0;--surface-hover:#f8f5ee;
+--line:#e4dfd2;--line-strong:#928874;
+--ink:#111111;--ink-2:#6b6458;--ink-3:#736c60;
+--sidebar:#111111;--sidebar-raised:#1d1c1a;--sidebar-line:#2c2a27;--sidebar-ink:#f5f2e8;--sidebar-ink-2:#9a9385;
+--accent:#ff4d00;--accent-hover:#e64500;--accent-soft:#ffe8dc;--accent-ink:#b33600;--on-accent:#111111;
+--positive:#1e7a45;--positive-soft:#e3f0e4;--danger:#c2271b;--danger-soft:#fbe3df;
+--chart-1:#ff4d00;--chart-2:#111111;--chart-3:#a39b8b;--chart-4:#d6ccb5;--chart-5:#4f6475;--chart-grid:#e9e4d8;--focus:#b33600;--focus-on-dark:#ff4d00;
+--font-sans:Geist, Inter, system-ui, sans-serif;--font-mono:"Geist Mono", ui-monospace, monospace;
+--space-4:4px;--space-8:8px;--space-12:12px;--space-16:16px;--space-24:24px;--space-32:32px;--space-48:48px;--space-64:64px;
+--radius-sm:6px;--radius-btn:8px;--radius-card:12px;--radius-panel:14px;--radius-pill:999px;
+--shadow-card:0 1px 2px rgba(17,17,17,0.04);--shadow-hover:0 6px 20px rgba(17,17,17,0.07);--shadow-pop:0 12px 32px rgba(17,17,17,0.12);
+--sidebar-width:208px;--content-padding:32px;--grid-gutter:24px;--row-height:56px;--control-height:36px;
+}
+body{margin:0;background:#f5f2e8}
+a{color:#b33600}a:hover{color:#111111}
+.sec{margin:0;font-size:22px;line-height:28px;font-weight:700;letter-spacing:-.015em;color:var(--ink)}
+.sub{font-size:12px;line-height:16px;color:var(--ink-3)}
+.fchip{display:inline-flex;align-items:center;gap:6px;height:30px;padding:0 12px;border-radius:999px;border:1px solid var(--line);background:transparent;color:var(--ink-2);font:600 12px/1 var(--font-sans);cursor:pointer;white-space:nowrap;transition:background .15s,color .15s,border-color .15s}
+.fchip:hover{background:var(--surface-sunken);color:var(--ink)}
+.fchip.is-on{background:var(--ink);border-color:var(--ink);color:var(--bg)}
+.fchip-n{font:500 11px/1 var(--font-mono);opacity:.72}
+.fchip-n:empty{display:none}
+.look{display:flex;flex-direction:column;overflow:hidden;min-width:0}
+.look.is-uso{border-color:var(--accent);box-shadow:0 0 0 1px var(--accent)}
+.look-th{position:relative;aspect-ratio:4/5;background:var(--surface-sunken);border-bottom:1px solid var(--line);overflow:hidden}
+.look-th img{width:100%;height:100%;object-fit:cover;object-position:50% 30%;display:block}
+.lchip{display:inline-flex;align-items:center;height:22px;padding:0 8px;border-radius:6px;font:600 10px/1 var(--font-sans);letter-spacing:.06em;text-transform:uppercase;white-space:nowrap;flex:none}
+.look-th .lchip{position:absolute;left:10px;top:10px}
+.lchip-uso{background:var(--accent);color:var(--on-accent)}
+.lchip-alt{background:var(--surface);color:var(--ink);border:1px solid var(--line-strong)}
+.lchip-ref{background:rgba(251,249,244,.94);color:var(--ink-2);border:1px solid var(--line)}
+.lchip-arq{background:var(--surface-sunken);color:var(--ink-3);border:1px solid var(--line)}
+.mat-b{display:flex;flex-direction:column;gap:3px;padding:12px 14px 14px;min-width:0}
+.mat-n{font-size:14px;line-height:19px;font-weight:600;color:var(--ink);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.mat-m{font:500 11px/15px var(--font-mono);color:var(--ink-3);white-space:nowrap}
+.look-d{font-size:12px;line-height:17px;color:var(--ink-2)}
+.capa{width:80px;aspect-ratio:9/16;object-fit:cover;border-radius:8px;border:1px solid var(--line);flex:none;display:block}
+.leg{aspect-ratio:9/16;width:112px;border-radius:8px;background:#111 repeating-linear-gradient(90deg,transparent 0 24px,rgba(255,255,255,.05) 24px 25px);display:flex;flex-direction:column;justify-content:center;gap:10px;padding:0 9px;box-sizing:border-box;text-align:center}
+.leg-1{font:500 9.5px/13px Geist,sans-serif;color:#f2f2f2}
+.leg-1 mark{background:#3a6fd8;color:#fff;padding:0 2px;border-radius:2px}
+.leg-2{font:800 17px/17px Geist,sans-serif;letter-spacing:-.02em;color:#f2f2f2}
+.leg-r{background:linear-gradient(transparent 78%,#ff4d00 78% 90%,transparent 90%)}
+.fonte{display:flex;flex-direction:column;gap:4px;padding:14px 14px 16px;min-width:0}
+.fonte-a{font-size:40px;line-height:48px;color:var(--ink)}
+.an{display:grid;grid-template-columns:32px minmax(0,1fr) auto;gap:12px;align-items:center;min-height:52px;border-bottom:1px solid var(--line)}
+.an:last-child{border-bottom:0}
+.an-i{width:32px;height:32px;border-radius:8px;background:var(--surface-sunken);display:flex;align-items:center;justify-content:center;color:var(--ink)}
+.tag{display:inline-flex;align-items:center;height:20px;padding:0 7px;border-radius:6px;background:var(--surface-sunken);border:1px solid var(--line);font:600 10.5px/1 var(--font-sans);color:var(--ink-2);white-space:nowrap;flex:none}
+.sis{display:grid;grid-template-columns:220px 190px minmax(0,1fr);gap:16px;align-items:center;min-height:44px;border-bottom:1px solid var(--line)}
+.sis:last-child{border-bottom:0}
+.st{display:grid;grid-template-columns:10px minmax(0,1fr) auto;gap:8px;align-items:center;height:26px}
+.pv{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:10px;align-items:center;height:28px;border-bottom:1px solid var(--line)}
+.pv:last-child{border-bottom:0}
+</style>
+</helmet>
+<div style="width: 1920px; height: 1080px; display: flex; background: var(--bg); color: var(--ink); font-family: var(--font-sans); overflow: hidden; -webkit-font-smoothing: antialiased">
+
+<aside class="k-sidebar" style="height: 1080px; flex: none">
+<div class="k-sidebar-logo" style="display: flex; align-items: baseline">
+<span style="font-size: 19px; line-height: 19px; font-weight: 800; letter-spacing: -0.04em; color: var(--sidebar-ink)">korvu.</span>
+<span style="font-size: 19px; line-height: 19px; font-weight: 500; letter-spacing: -0.02em; color: var(--sidebar-ink-2); margin-left: 5px">painel</span>
+</div>
+<nav aria-label="Navegação principal" style="display: flex; flex-direction: column; gap: 2px">
+<a class="k-nav-item" href="Main.dc.html"><span data-icon="visao-geral"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3.5" y="3.5" width="7" height="9" rx="1.5"></rect><rect x="13.5" y="3.5" width="7" height="5" rx="1.5"></rect><rect x="13.5" y="11.5" width="7" height="9" rx="1.5"></rect><rect x="3.5" y="15.5" width="7" height="5" rx="1.5"></rect></svg></span>Visão geral</a>
+<a class="k-nav-item" href="Equipe.dc.html"><span data-icon="equipe"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="9" cy="8" r="3.25"></circle><path d="M3 20c.4-3.4 2.9-5.5 6-5.5s5.6 2.1 6 5.5"></path><path d="M15.5 4.9a3 3 0 0 1 0 6.2"></path><path d="M17.5 14.8c2 .7 3.2 2.5 3.5 5.2"></path></svg></span>Equipe</a>
+<a class="k-nav-item" href="Producao.dc.html"><span data-icon="videos-portoes"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5.5" width="13" height="13" rx="2"></rect><path d="M16 10.5l4.2-2.6a.5.5 0 0 1 .8.4v7.4a.5.5 0 0 1-.8.4L16 13.5"></path><path d="M7.5 12.2l1.8 1.8 3.2-3.5"></path></svg></span>Produção de conteúdo</a>
+<a class="k-nav-item" href="Calendario.dc.html"><span data-icon="calendario"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3.5" y="5" width="17" height="15.5" rx="2"></rect><path d="M3.5 10h17M8 3v4M16 3v4"></path><path d="M8 14h2M14 14h2M8 17h2"></path></svg></span>Calendário</a>
+<a class="k-nav-item" href="Desempenho.dc.html"><span data-icon="desempenho"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3.5 20.5h17"></path><path d="M4.5 15.5l4.5-4.5 3.5 3 7-7"></path><path d="M15 7h4.5v4.5"></path></svg></span>Desempenho</a>
+<a class="k-nav-item is-active" href="#biblioteca" aria-current="page"><span data-icon="biblioteca"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3.5" y="4" width="4" height="16.5" rx="1"></rect><rect x="9.5" y="4" width="4" height="16.5" rx="1"></rect><path d="M15.6 5.4l3.4-.9a1 1 0 0 1 1.2.7l3.3 12.9-4.6 1.2-3.3-13a.8.8 0 0 1 0-.9z" transform="translate(-2.3 .3)"></path></svg></span>Biblioteca</a>
+<a class="k-nav-item" href="Tokens.dc.html"><span data-icon="tokens-custos"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><ellipse cx="12" cy="6" rx="7" ry="2.75"></ellipse><path d="M5 6v6c0 1.5 3.1 2.75 7 2.75S19 13.5 19 12V6"></path><path d="M5 12v6c0 1.5 3.1 2.75 7 2.75S19 19.5 19 18v-6"></path></svg></span>Tokens e custos</a>
+</nav>
+<div class="k-sidebar-foot">
+<div style="display: flex; flex-direction: column; gap: 2px; padding: 0 4px">
+<span style="font-size: 12px; line-height: 16px; font-weight: 600; color: var(--sidebar-ink)">@korvu_oficial</span>
+<span style="font-size: 11px; line-height: 14px; color: var(--sidebar-ink-2)">Instagram · Facebook</span>
+</div>
+</div>
+</aside>
+
+<main style="flex: 1; min-width: 0; display: flex; flex-direction: column">
+
+<header style="height: 64px; flex: none; display: flex; align-items: center; gap: 16px; padding: 0 32px; border-bottom: 1px solid var(--line)">
+<label class="k-search" style="width: 440px">
+<svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="6.5"></circle><path d="M20 20l-4.3-4.3"></path></svg>
+<input type="search" placeholder="Buscar vídeos, agentes, portões..." aria-label="Buscar vídeos, agentes, portões">
+<span class="k-kbd">⌘K</span>
+</label>
+<div style="flex: 1"></div>
+<button type="button" class="k-btn k-btn-ghost k-btn-icon" aria-label="Notificações, 3 novas" style="position: relative; color: var(--ink)">
+<svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 16.5V11a6 6 0 0 1 12 0v5.5l1.5 2h-15z"></path><path d="M10 20.5a2 2 0 0 0 4 0"></path></svg>
+<span style="position: absolute; top: 7px; right: 8px; width: 8px; height: 8px; border-radius: 50%; background: var(--accent); border: 2px solid var(--bg); box-sizing: content-box"></span>
+</button>
+<span aria-hidden="true" style="width: 1px; height: 24px; background: var(--line)"></span>
+<button type="button" aria-label="Conta de Carlos, proprietário" style="display: flex; align-items: center; gap: 10px; background: transparent; border: 0; padding: 4px 6px; border-radius: 8px; cursor: pointer; font: inherit; color: inherit">
+<span class="k-avatar is-round" style="width: 32px; height: 32px; font-size: 12px">CM</span>
+<span style="display: flex; flex-direction: column; align-items: flex-start">
+<span style="font-size: 13px; line-height: 16px; font-weight: 600; color: var(--ink)">Carlos</span>
+<span style="font-size: 11px; line-height: 14px; color: var(--ink-3)">Proprietário</span>
+</span>
+<svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="color: var(--ink-2)"><path d="M6.5 9.5l5.5 5.5 5.5-5.5"></path></svg>
+</button>
+</header>
+
+
+<div style="flex: 1; min-height: 0; padding: 20px 32px 24px; display: flex; flex-direction: column">
+
+<div aria-label="Mostrar" style="display: flex; gap: 6px; flex: none">
+<sc-for list="{{abas}}" as="a" hint-placeholder-count="7">
+<button type="button" class="{{a.cls}}" aria-pressed="{{a.on}}" onClick="{{a.pick}}">{{a.nome}}<span class="fchip-n">{{a.n}}</span></button>
+</sc-for>
+</div>
+
+<div style="display: grid; grid-template-columns: repeat(12, minmax(0, 1fr)); gap: 24px; margin-top: 18px; flex: 1; min-height: 0">
+
+<div style="grid-column: span 9; display: flex; flex-direction: column; gap: 22px; min-width: 0; min-height: 0">
+
+<sc-if value="{{verLooks}}" hint-placeholder-val="{{true}}">
+<section style="flex: none">
+<div style="display: flex; align-items: baseline; gap: 12px"><h2 class="sec">looks de cor.</h2><span class="sub">a sua imagem com cada look · o mesmo quadro da gravação de 16 set, sem outra correção</span></div>
+<div style="display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 16px; margin-top: 12px">
+<sc-for list="{{looks}}" as="l" hint-placeholder-count="5">
+<article class="{{l.cls}}">
+<div class="look-th"><img src="{{l.img}}" alt="{{l.alt}}"><span class="{{l.chipCls}}">{{l.chip}}</span></div>
+<div class="mat-b">
+<span class="mat-n" title="{{l.nome}}">{{l.nome}}</span>
+<span class="mat-m">{{l.meta}}</span>
+<span class="look-d">{{l.desc}}</span>
+</div>
+</article>
+</sc-for>
+</div>
+</section>
+</sc-if>
+
+<div style="display: grid; grid-template-columns: repeat(9, minmax(0, 1fr)); gap: 24px; flex: none">
+
+<sc-if value="{{verCapas}}" hint-placeholder-val="{{true}}">
+<section style="grid-column: span 5; min-width: 0">
+<div style="display: flex; align-items: baseline; gap: 12px"><h2 class="sec">capas.</h2><span class="sub">2 estilos, sempre com a sua foto</span></div>
+<div class="k-card" style="margin-top: 12px; padding: 16px; display: grid; grid-template-columns: 0.85fr 1.15fr; gap: 16px">
+<div style="display: flex; gap: 12px; min-width: 0">
+<img class="capa" src="/_blob/4b94a1615584b1ad173dc1027a8e3c0b" alt="Capa do Reel do Demis Hassabis: Quem é o gênio que ganhou o Nobel com IA">
+<div style="display: flex; flex-direction: column; gap: 4px; min-width: 0">
+<span class="mat-n">Serifa + rabisco</span>
+<span class="look-d">A palavra-chave em Playfair itálico, com um rabisco por baixo.</span>
+<span class="mat-m" style="margin-top: auto">usado em 17 set · Demis Hassabis</span>
+</div>
+</div>
+<div style="display: flex; gap: 12px; min-width: 0">
+<img class="capa" src="/_blob/3d84a111f3fcab95bd5a94d35c0600e2" alt="Capa do Reel do livro: Joga o livro no ChatGPT e escreve isso">
+<img class="capa" src="/_blob/55de156f019ec357b7c55a25ec998f0c" alt="Capa da variante: Nunca mais leia um livro sem fazer isso">
+<div style="display: flex; flex-direction: column; gap: 4px; min-width: 0">
+<span class="mat-n">Grotesca + sublinhado</span>
+<span class="look-d">Título grotesco, a última palavra sublinhada (cinza ou laranja). Uma capa por variante.</span>
+<span class="mat-m" style="margin-top: auto">em uso desde 23 out</span>
+</div>
+</div>
+</div>
+</section>
+</sc-if>
+
+<sc-if value="{{verLegendas}}" hint-placeholder-val="{{true}}">
+<section style="grid-column: span 4; min-width: 0">
+<div style="display: flex; align-items: baseline; gap: 12px"><h2 class="sec">legendas.</h2><span class="sub">1 estilo</span></div>
+<div class="k-card" style="margin-top: 12px; padding: 16px; display: grid; grid-template-columns: 112px minmax(0, 1fr); gap: 16px">
+<div class="leg" role="img" aria-label="Amostra do estilo Texto Selecionado">
+<span class="leg-1">a gente joga o livro no <mark>ChatGPT</mark></span>
+<span class="leg-2"><span style="color: #9b9b9b">e ele</span> resume <span class="leg-r">tudo</span></span>
+</div>
+<div style="display: flex; flex-direction: column; gap: 4px; min-width: 0">
+<span class="mat-n">Texto Selecionado</span>
+<span class="look-d">As palavras entram no ritmo da fala, com um realce de seleção, a frase de impacto em grotesca pesada e o rabisco na palavra-chave.</span>
+<span class="mat-m" style="margin-top: auto">em todos os Reels</span>
+</div>
+</div>
+</section>
+</sc-if>
+
+</div>
+
+<div style="display: grid; grid-template-columns: repeat(9, minmax(0, 1fr)); gap: 24px; flex: none">
+
+<sc-if value="{{verFontes}}" hint-placeholder-val="{{true}}">
+<section style="grid-column: span 5; min-width: 0">
+<div style="display: flex; align-items: baseline; gap: 12px"><h2 class="sec">fontes.</h2><span class="sub">4 famílias em uso</span></div>
+<div style="display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 12px; margin-top: 12px">
+<sc-for list="{{fontes}}" as="f" hint-placeholder-count="4">
+<div class="k-card fonte">
+<span class="fonte-a" style="{{f.estilo}}">Aa</span>
+<span class="mat-n" title="{{f.nome}}">{{f.nome}}</span>
+<span class="look-d">{{f.uso}}</span>
+</div>
+</sc-for>
+</div>
+</section>
+</sc-if>
+
+<sc-if value="{{verAnim}}" hint-placeholder-val="{{true}}">
+<section style="grid-column: span 4; min-width: 0">
+<div style="display: flex; align-items: baseline; gap: 12px"><h2 class="sec">animações.</h2><span class="sub">estilos para os próximos vídeos</span></div>
+<div class="k-card" style="margin-top: 12px; padding: 4px 16px">
+<sc-for list="{{anims}}" as="n" hint-placeholder-count="4">
+<div class="an">
+<span class="an-i"><svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5.5" width="18" height="13" rx="2"></rect><path d="M10 9.5l4.5 2.5-4.5 2.5z"></path></svg></span>
+<div style="display: flex; flex-direction: column; min-width: 0">
+<span style="font-size: 13px; line-height: 18px; font-weight: 600; white-space: nowrap; overflow: hidden; text-overflow: ellipsis" title="{{n.nome}}">{{n.nome}}</span>
+<span class="mat-m">{{n.meta}}</span>
+</div>
+<span class="{{n.chipCls}}">{{n.chip}}</span>
+</div>
+</sc-for>
+</div>
+</section>
+</sc-if>
+
+</div>
+
+<sc-if value="{{verSistema}}" hint-placeholder-val="{{false}}">
+<section style="flex: none">
+<div style="display: flex; align-items: baseline; gap: 12px"><h2 class="sec">sistema.</h2><span class="sub">o que cada peça é e o que faz neste estúdio · para quem chegar pelo GitHub</span></div>
+<div style="display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 16px; margin-top: 12px">
+<sc-for list="{{modelos}}" as="m" hint-placeholder-count="3">
+<div class="k-card" style="padding: 14px 16px; display: flex; flex-direction: column; gap: 4px; min-width: 0">
+<div style="display: flex; align-items: center; justify-content: space-between; gap: 8px"><span class="mat-n">{{m.nome}}</span><span class="tag">Modelo de IA</span></div>
+<span class="k-num" style="font-size: 24px; line-height: 30px; font-weight: 700; color: var(--accent-ink)">{{m.pct}}</span>
+<span class="look-d">{{m.desc}}</span>
+</div>
+</sc-for>
+</div>
+<div class="k-card" style="margin-top: 16px; padding: 4px 18px">
+<sc-for list="{{stack}}" as="s" hint-placeholder-count="11">
+<div class="sis">
+<span class="mat-n" title="{{s.nome}}">{{s.nome}}</span>
+<span><span class="tag">{{s.tipo}}</span></span>
+<span class="look-d">{{s.desc}}</span>
+</div>
+</sc-for>
+</div>
+</section>
+</sc-if>
+
+<sc-if value="{{nada}}" hint-placeholder-val="{{false}}">
+<div style="display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 6px; height: 220px; border: 1px dashed var(--line-strong); border-radius: 12px; text-align: center">
+<span style="font-size: 15px; line-height: 22px; font-weight: 600">Nada aqui ainda.</span>
+<span style="font-size: 13px; line-height: 18px; color: var(--ink-2)">Quando a equipe criar um estilo novo, ele aparece nesta lista.</span>
+</div>
+</sc-if>
+
+</div>
+
+<div style="grid-column: span 3; display: flex; flex-direction: column; gap: 16px; min-width: 0; min-height: 0">
+
+<section class="k-card" style="padding: 18px 20px; flex: none">
+<div class="k-card-head"><h2 class="k-card-title">Armazenamento</h2><span class="sub">hoje</span></div>
+<div style="display: flex; align-items: baseline; gap: 8px; margin-top: 10px">
+<span class="k-num" style="font-size: 34px; line-height: 38px; font-weight: 700; letter-spacing: -0.03em">123,8</span>
+<span style="font-size: 15px; line-height: 20px; font-weight: 600; color: var(--ink-2)">GB no Mac</span>
+</div>
+<span class="sub">gravações da câmera e material, só neste Mac</span>
+<div role="img" aria-label="Gravações da câmera 117,0 GB, material e cenas extras 6,7 GB" style="display: flex; height: 10px; border-radius: 999px; overflow: hidden; background: var(--surface-sunken); margin-top: 14px">
+<span style="width: 94.6%; background: var(--chart-1)"></span>
+<span style="width: 5.4%; background: var(--chart-2)"></span>
+</div>
+<div style="display: flex; flex-direction: column; margin-top: 10px">
+<div class="st"><i style="width: 9px; height: 9px; border-radius: 2px; background: var(--chart-1)"></i><span style="font-size: 12px">Gravações da câmera</span><span class="mat-m" style="color: var(--ink)">117,0 GB</span></div>
+<div class="st"><i style="width: 9px; height: 9px; border-radius: 2px; background: var(--chart-2)"></i><span style="font-size: 12px">Material e cenas extras</span><span class="mat-m" style="color: var(--ink)">6,7 GB</span></div>
+</div>
+</section>
+
+<section class="k-card" style="padding: 18px 20px; display: flex; flex-direction: column; flex: 1; min-height: 0">
+<div class="k-card-head"><h2 class="k-card-title">Sistema</h2><span class="sub">o que faz o estúdio rodar</span></div>
+<span class="sub" style="margin-top: 10px">Modelos de IA · tokens dos últimos 30 dias</span>
+<div style="display: flex; flex-direction: column; margin-top: 4px">
+<div class="pv"><span style="font-size: 12px">Opus 5.5</span><span class="mat-m" style="text-align: right; color: var(--accent-ink); font-weight: 600">82,7 %</span></div>
+<div class="pv"><span style="font-size: 12px">Sonnet 5.5</span><span class="mat-m" style="text-align: right; color: var(--ink)">12,4 %</span></div>
+<div class="pv"><span style="font-size: 12px">Fable 5.1</span><span class="mat-m" style="text-align: right; color: var(--ink)">4,8 %</span></div>
+</div>
+<span class="sub" style="margin-top: 14px">Ferramentas · a aba Sistema explica cada uma</span>
+<div style="display: flex; flex-direction: column; margin-top: 4px">
+<sc-for list="{{stack}}" as="s" hint-placeholder-count="7">
+<div class="pv"><span style="font-size: 12px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis" title="{{s.nome}}">{{s.nome}}</span><span class="tag">{{s.tipo}}</span></div>
+</sc-for>
+</div>
+<span class="sub" style="margin-top: auto; padding-top: 10px">25 agentes · 24 habilidades · 19 comandos</span>
+</section>
+
+</div>
+
+</div>
+
+</div>
+</main>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":1920,"height":1080}}'>
+class Component extends DCLogic {
+  constructor(props) {
+    super(props);
+    this.state = { aba: 'tudo' };
+  }
+  renderVals() {
+    var self = this;
+    var aba = this.state.aba;
+    // [chave, nome, quantidade]
+    var ABAS = [['tudo', 'Tudo', ''], ['looks', 'Looks de cor', '3'], ['capas', 'Capas', '2'], ['legendas', 'Legendas', '1'], ['fontes', 'Fontes', '4'], ['anim', 'Animações', '3'], ['sistema', 'Sistema', '11']];
+    var abas = ABAS.map(function (a) {
+      return { nome: a[1], n: a[2], on: aba === a[0], cls: aba === a[0] ? 'fchip is-on' : 'fchip', pick: function () { self.setState({ aba: a[0] }); } };
+    });
+    var ve = function (k) { return aba === 'tudo' || aba === k; };
+    // 00-marca/cor/luts/*.json + 00-marca/cor/cor.md (versao_ativa: v5); rosto medido na regravação de 18 set
+    var LOOKS = [
+      ['Original da câmera', 'V-Log, sem conversão', 'Como a S5IIX grava: plano e acinzentado.', '/_blob/602e297d6a5fb5fa90c9b3a9dbba1ff3', 'Referência', 'ref'],
+      ['Só a conversão', 'Rec.709 · entrada-camera.cube', 'V-Log para Rec.709, ainda sem look.', '/_blob/b82fcdd2d23eae16f6b1875bd1aaa87d', 'Base', 'ref'],
+      ['Look v4', 'korvu-look-v4 · 15 set', 'O look "Tenet", frio e contido; nunca aprovado.', '/_blob/ab90aeed9768243b5f0780a9fe57b601', 'Arquivado', 'arq'],
+      ['Look v5 · WAY', 'rosto 23,2 IRE · medido em 18 set', 'O escolhido: "a cor da pele ficou muito boa".', '/_blob/5d617ceaf02f9a94142dde0ab94450ee', 'Em uso', 'uso'],
+      ['Look v11', 'rosto 40,9 IRE · medido em 18 set', 'v5 com a pele recuperada (+1 stop). Aprovado como alternativa.', '/_blob/8d73b137d723c740d005c730213bfc63', 'Alternativa', 'alt']
+    ];
+    var looks = LOOKS.map(function (l) {
+      return { nome: l[0], meta: l[1], desc: l[2], img: l[3], alt: 'Carlos com ' + l[0], chip: l[4], chipCls: 'lchip lchip-' + l[5], cls: l[5] === 'uso' ? 'k-card look is-uso' : 'k-card look' };
+    });
+    // remotion/src/brand.ts (FONTE) + painel
+    var fontes = [
+      { nome: 'Geist', uso: 'Títulos e legendas dos Reels; o painel.', estilo: 'font-family: Geist, sans-serif; font-weight: 700' },
+      { nome: 'Bricolage Grotesque', uso: 'Cartão do CTA e o PDF da palavra.', estilo: 'font-family: "Bricolage Grotesque", sans-serif; font-weight: 800' },
+      { nome: 'Inter', uso: 'Texto editorial dos cartões.', estilo: 'font-family: Inter, sans-serif; font-weight: 600' },
+      { nome: 'Playfair Display', uso: 'A palavra em itálico da capa.', estilo: 'font-family: "Playfair Display", serif; font-style: italic; font-weight: 600' }
+    ];
+    // videos/2026-10-20-geoffrey-hinton/animacoes/E0x/brief.md
+    var anims = [
+      { nome: 'Ligação de madrugada', meta: 'metade de cima · 6,8 s · Hinton', chip: 'Roteirizada', chipCls: 'lchip lchip-alt' },
+      { nome: 'Máquina que imita a mente', meta: 'metade de cima · 10,2 s · Hinton', chip: 'Roteirizada', chipCls: 'lchip lchip-alt' },
+      { nome: '2012: reconhecer imagens', meta: 'metade de cima · 10,7 s · Hinton', chip: 'Roteirizada', chipCls: 'lchip lchip-alt' }
+    ];
+    // tipo = o que a peça é; desc = o que ela faz aqui (painel/biblioteca.yaml no app)
+    var STACK = [
+      ['Claude Code', 'Agente de IA (terminal)', 'Onde a equipe trabalha: o Atlas (a direção) e os 25 agentes rodam aqui, leem e escrevem os arquivos do projeto e chamam os scripts.'],
+      ['Python 3.12 · uv', 'Linguagem', 'Os scripts do pipeline: cortar pelo roteiro, medir o áudio, montar o pacote, publicar, ler métricas e alimentar este painel.'],
+      ['ffmpeg', 'Programa de linha de comando', 'Corta, junta e converte vídeo e áudio, e aplica os looks de cor (LUTs).'],
+      ['Remotion 4', 'Biblioteca de vídeo (React)', 'Monta o vídeo final por código: legendas, títulos, animações, zooms e o cartão do CTA.'],
+      ['ElevenLabs', 'API', 'Transcreve a fala com o tempo de cada palavra (Scribe) e gera a música de fundo original (Music).'],
+      ['Meta Graph API', 'API', 'Publica os Reels no Instagram e no Facebook, lê as métricas e responde quem comenta a palavra-chave.'],
+      ['Cloudflare R2', 'Armazenamento na nuvem', 'Guarda o vídeo e a capa que a Meta baixa para publicar, e o PDF da palavra-chave, com o link que vai no direct.'],
+      ['launchd (macOS)', 'Agendador do sistema', 'Roda sozinho: a publicação na hora marcada, as métricas às 09:30, os comentários e a sincronização deste painel.'],
+      ['Next.js 15 · TypeScript', 'Framework web (front-end)', 'Este painel: as telas que você está vendo, rodando só neste Mac.'],
+      ['Supabase · Postgres', 'Banco de dados', 'Guarda os números que o painel mostra, copiados dos arquivos do projeto a cada 15 min.'],
+      ['Claude Design', 'Ferramenta de design', 'Onde as telas do painel e as animações dos vídeos são desenhadas antes de virar código.']
+    ];
+    var stack = STACK.map(function (t) { return { nome: t[0], tipo: t[1], desc: t[2] }; });
+    // tokens dos últimos 30 dias (até 23 out), registros do Claude Code
+    var modelos = [
+      { nome: 'Opus 5.5', pct: '82,7 %', desc: 'O padrão do dia a dia. A maior parte do trabalho; desde 24 out, o padrão de todos os agentes, portões incluídos.' },
+      { nome: 'Sonnet 5.5', pct: '12,4 %', desc: 'Mais rápido e mais barato. Era o modelo de 11 agentes até 24 out.' },
+      { nome: 'Fable 5.1', pct: '4,8 %', desc: 'O mais capaz da Anthropic, e o mais caro. Usado pelo Atlas (a direção) em parte das sessões.' }
+    ];
+
+    return {
+      abas: abas,
+      verLooks: ve('looks'), verCapas: ve('capas'), verLegendas: ve('legendas'), verFontes: ve('fontes'), verAnim: ve('anim'), verSistema: aba === 'sistema',
+      nada: false,
+      looks: looks, fontes: fontes, anims: anims, stack: stack, modelos: modelos
+    };
+  }
+}
+</script>
+</body>
+</html>

@@ -1,0 +1,539 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<title>Produção de conteúdo · korvu. painel</title>
+
+<link rel="stylesheet" href="../../../design/tokens.css"><link rel="stylesheet" href="../../../design/componentes.css">
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous">
+<link href="https://fonts.googleapis.com/css2?family=Geist:wght@100..900&amp;family=Geist+Mono:wght@100..900&amp;display=swap" rel="stylesheet">
+<style>
+:root{
+--bg:#f5f2e8;--surface:#fbf9f4;--surface-sunken:#efebe0;--surface-hover:#f8f5ee;
+--line:#e4dfd2;--line-strong:#a8a090;
+--ink:#111111;--ink-2:#6b6458;--ink-3:#736c60;
+--sidebar:#111111;--sidebar-raised:#1d1c1a;--sidebar-line:#2c2a27;--sidebar-ink:#f5f2e8;--sidebar-ink-2:#9a9385;
+--accent:#ff4d00;--accent-hover:#e64500;--accent-soft:#ffe8dc;--accent-ink:#b33600;--on-accent:#111111;
+--positive:#1e7a45;--positive-soft:#e3f0e4;--danger:#c2271b;--danger-soft:#fbe3df;
+--chart-1:#ff4d00;--chart-2:#111111;--chart-3:#a39b8b;--chart-4:#d6ccb5;--chart-5:#4f6475;--chart-grid:#e9e4d8;--focus:#ff4d00;
+--font-sans:Geist, Inter, system-ui, sans-serif;--font-mono:"Geist Mono", ui-monospace, monospace;
+--space-4:4px;--space-8:8px;--space-12:12px;--space-16:16px;--space-24:24px;--space-32:32px;--space-48:48px;--space-64:64px;
+--radius-sm:6px;--radius-btn:8px;--radius-card:12px;--radius-panel:14px;--radius-pill:999px;
+--shadow-card:0 1px 2px rgba(17,17,17,0.04);--shadow-hover:0 6px 20px rgba(17,17,17,0.07);--shadow-pop:0 12px 32px rgba(17,17,17,0.12);
+--sidebar-width:208px;--content-padding:32px;--grid-gutter:24px;--row-height:56px;--control-height:36px;
+}
+body{margin:0;background:#f5f2e8}
+a{color:#b33600}a:hover{color:#111111}
+.fchip{display:inline-flex;align-items:center;gap:6px;height:30px;padding:0 12px;border-radius:999px;border:1px solid var(--line);background:transparent;color:var(--ink-2);font:600 12px/1 var(--font-sans);cursor:pointer;white-space:nowrap;transition:background .15s,color .15s,border-color .15s}
+.fchip:hover{background:var(--surface-sunken);color:var(--ink)}
+.fchip.is-on{background:var(--ink);border-color:var(--ink);color:var(--bg)}
+.fase{position:relative;display:flex;flex-direction:column;align-items:flex-start;gap:4px;height:118px;padding:14px 16px;text-align:left;background:var(--surface);border:1px solid var(--line);border-radius:12px;box-shadow:var(--shadow-card);font:inherit;color:var(--ink);cursor:pointer;min-width:0;transition:border-color .15s,box-shadow .15s}
+.fase:hover{border-color:var(--line-strong);box-shadow:var(--shadow-hover)}
+.fase.is-on{border-color:var(--ink);box-shadow:var(--shadow-hover)}
+.fase.is-on::after{content:"";position:absolute;top:16px;right:16px;width:7px;height:7px;border-radius:50%;background:var(--accent)}
+.fase-n{font-size:32px;line-height:36px;font-weight:700;letter-spacing:-.03em;font-variant-numeric:tabular-nums}
+.fase-d{font-size:13px;line-height:18px;color:var(--ink-2)}
+.fase-m{font-size:12px;line-height:16px;color:var(--ink-3);white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:100%}
+.conn{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:4px;color:var(--ink-3);font-size:10px;line-height:12px;font-weight:600;letter-spacing:.05em;text-transform:uppercase;text-align:center}
+.tr{display:grid;column-gap:12px;align-items:center;height:56px;padding:0 20px;border-bottom:1px solid var(--line);transition:background .12s}
+.tb .tr:last-child{border-bottom:0}
+.tb .tr:hover{background:var(--surface-hover)}
+.th{height:36px;background:var(--surface-sunken);border-top:1px solid var(--line)}
+.c-rot{grid-template-columns:minmax(0,1fr) 72px 64px 96px 52px 96px 128px 136px 88px}
+.c-grav{grid-template-columns:minmax(0,1fr) 104px 220px 124px 124px 160px 96px}
+.c-pr{grid-template-columns:minmax(0,1fr) 72px 104px 120px 104px 104px 190px 92px}
+.c-ag{grid-template-columns:minmax(0,1fr) 150px 210px 104px 96px 96px 96px}
+.c-pub{grid-template-columns:minmax(0,1fr) 104px 92px 64px 72px 96px 68px 56px 236px}
+.ch{display:inline-flex;align-items:center;gap:3px;height:22px;padding:0 7px;border-radius:6px;font:600 11px/1 var(--font-sans);white-space:nowrap;text-decoration:none}
+.ch-on{border:1px solid var(--line-strong);background:var(--surface);color:var(--ink)}
+a.ch-on:hover{background:var(--surface-sunken);color:var(--ink)}
+.ch-off{border:1px dashed var(--line-strong);color:var(--ink-3);font-weight:500}
+.colh{font-size:10px;line-height:12px;font-weight:600;letter-spacing:.05em;text-transform:uppercase;color:var(--ink-2);white-space:nowrap}
+.r{text-align:right}
+.doc{width:32px;height:40px;border-radius:6px;border:1px solid var(--line);background:var(--surface-sunken);display:flex;align-items:center;justify-content:center;color:var(--ink-2);flex:none}
+.thumb{width:27px;height:48px;border-radius:5px;border:1px solid var(--line);background:var(--surface-sunken);overflow:hidden;flex:none}
+.thumb img{width:100%;height:100%;object-fit:cover;display:block}
+.t1{font-size:14px;line-height:19px;font-weight:600;color:var(--ink);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.t2{font-family:var(--font-mono);font-size:11px;line-height:15px;color:var(--ink-3);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.cel{font-size:13px;line-height:18px;color:var(--ink);white-space:nowrap}
+.cel2{font-size:11px;line-height:14px;color:var(--ink-3);white-space:nowrap}
+.mono{font-family:var(--font-mono);font-size:12px;line-height:16px;color:var(--ink);font-variant-numeric:tabular-nums}
+.kw{display:inline-flex;align-items:center;height:22px;padding:0 8px;border-radius:6px;background:var(--surface-sunken);font:600 11px/1 var(--font-mono);letter-spacing:.04em;color:var(--ink)}
+.alc-top{color:var(--accent-ink);font-weight:600}
+.pend{display:inline-flex;align-items:center;gap:6px;font-size:12px;line-height:16px;color:var(--ink-2)}
+</style>
+</helmet>
+<div style="width: 1920px; height: 1080px; display: flex; background: var(--bg); color: var(--ink); font-family: var(--font-sans); overflow: hidden; -webkit-font-smoothing: antialiased">
+
+<aside class="k-sidebar" style="height: 1080px; flex: none">
+<div class="k-sidebar-logo" style="display: flex; align-items: baseline">
+<span style="font-size: 19px; line-height: 19px; font-weight: 800; letter-spacing: -0.04em; color: var(--sidebar-ink)">korvu.</span>
+<span style="font-size: 19px; line-height: 19px; font-weight: 500; letter-spacing: -0.02em; color: var(--sidebar-ink-2); margin-left: 5px">painel</span>
+</div>
+<nav aria-label="Navegação principal" style="display: flex; flex-direction: column; gap: 2px">
+<a class="k-nav-item" href="Main.dc.html"><span data-icon="visao-geral"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3.5" y="3.5" width="7" height="9" rx="1.5"></rect><rect x="13.5" y="3.5" width="7" height="5" rx="1.5"></rect><rect x="13.5" y="11.5" width="7" height="9" rx="1.5"></rect><rect x="3.5" y="15.5" width="7" height="5" rx="1.5"></rect></svg></span>Visão geral</a>
+<a class="k-nav-item" href="Equipe.dc.html"><span data-icon="equipe"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="9" cy="8" r="3.25"></circle><path d="M3 20c.4-3.4 2.9-5.5 6-5.5s5.6 2.1 6 5.5"></path><path d="M15.5 4.9a3 3 0 0 1 0 6.2"></path><path d="M17.5 14.8c2 .7 3.2 2.5 3.5 5.2"></path></svg></span>Equipe</a>
+<a class="k-nav-item is-active" href="#producao" aria-current="page"><span data-icon="videos-portoes"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5.5" width="13" height="13" rx="2"></rect><path d="M16 10.5l4.2-2.6a.5.5 0 0 1 .8.4v7.4a.5.5 0 0 1-.8.4L16 13.5"></path><path d="M7.5 12.2l1.8 1.8 3.2-3.5"></path></svg></span>Produção de conteúdo</a>
+<a class="k-nav-item" href="Calendario.dc.html"><span data-icon="calendario"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3.5" y="5" width="17" height="15.5" rx="2"></rect><path d="M3.5 10h17M8 3v4M16 3v4"></path><path d="M8 14h2M14 14h2M8 17h2"></path></svg></span>Calendário</a>
+<a class="k-nav-item" href="Desempenho.dc.html"><span data-icon="desempenho"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3.5 20.5h17"></path><path d="M4.5 15.5l4.5-4.5 3.5 3 7-7"></path><path d="M15 7h4.5v4.5"></path></svg></span>Desempenho</a>
+<a class="k-nav-item" href="Biblioteca.dc.html"><span data-icon="biblioteca"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3.5" y="4" width="4" height="16.5" rx="1"></rect><rect x="9.5" y="4" width="4" height="16.5" rx="1"></rect><path d="M15.6 5.4l3.4-.9a1 1 0 0 1 1.2.7l3.3 12.9-4.6 1.2-3.3-13a.8.8 0 0 1 0-.9z" transform="translate(-2.3 .3)"></path></svg></span>Biblioteca</a>
+<a class="k-nav-item" href="Tokens.dc.html"><span data-icon="tokens-custos"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><ellipse cx="12" cy="6" rx="7" ry="2.75"></ellipse><path d="M5 6v6c0 1.5 3.1 2.75 7 2.75S19 13.5 19 12V6"></path><path d="M5 12v6c0 1.5 3.1 2.75 7 2.75S19 19.5 19 18v-6"></path></svg></span>Tokens e custos</a>
+</nav>
+<div class="k-sidebar-foot">
+<div style="display: flex; flex-direction: column; gap: 2px; padding: 0 4px">
+<span style="font-size: 12px; line-height: 16px; font-weight: 600; color: var(--sidebar-ink)">@korvu_oficial</span>
+<span style="font-size: 11px; line-height: 14px; color: var(--sidebar-ink-2)">Instagram · Facebook</span>
+</div>
+</div>
+</aside>
+
+<main style="flex: 1; min-width: 0; display: flex; flex-direction: column">
+
+<header style="height: 64px; flex: none; display: flex; align-items: center; gap: 16px; padding: 0 32px; border-bottom: 1px solid var(--line)">
+<label class="k-search" style="width: 440px">
+<svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="6.5"></circle><path d="M20 20l-4.3-4.3"></path></svg>
+<input type="search" placeholder="Buscar vídeos, agentes, portões..." aria-label="Buscar vídeos, agentes, portões">
+<span class="k-kbd">⌘K</span>
+</label>
+<div style="flex: 1"></div>
+<button type="button" class="k-btn k-btn-ghost k-btn-icon" aria-label="Notificações, 3 novas" style="position: relative; color: var(--ink)">
+<svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 16.5V11a6 6 0 0 1 12 0v5.5l1.5 2h-15z"></path><path d="M10 20.5a2 2 0 0 0 4 0"></path></svg>
+<span style="position: absolute; top: 7px; right: 8px; width: 8px; height: 8px; border-radius: 50%; background: var(--accent); border: 2px solid var(--bg); box-sizing: content-box"></span>
+</button>
+<span aria-hidden="true" style="width: 1px; height: 24px; background: var(--line)"></span>
+<button type="button" aria-label="Conta de Carlos, proprietário" style="display: flex; align-items: center; gap: 10px; background: transparent; border: 0; padding: 4px 6px; border-radius: 8px; cursor: pointer; font: inherit; color: inherit">
+<span class="k-avatar is-round" style="width: 32px; height: 32px; font-size: 12px">CM</span>
+<span style="display: flex; flex-direction: column; align-items: flex-start">
+<span style="font-size: 13px; line-height: 16px; font-weight: 600; color: var(--ink)">Carlos</span>
+<span style="font-size: 11px; line-height: 14px; color: var(--ink-3)">Proprietário</span>
+</span>
+<svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="color: var(--ink-2)"><path d="M6.5 9.5l5.5 5.5 5.5-5.5"></path></svg>
+</button>
+</header>
+
+<div style="flex: 1; min-height: 0; padding: 24px 32px 24px; display: flex; flex-direction: column">
+
+<div style="display: flex; align-items: flex-end; justify-content: space-between; gap: 24px; flex: none">
+<div>
+<h1 style="margin: 0; font-size: 44px; line-height: 48px; font-weight: 800; letter-spacing: -0.03em; color: var(--ink)">produção de conteúdo.</h1>
+<p style="margin: 4px 0 0; font-size: 15px; line-height: 22px; color: var(--ink-2)">Do roteiro à publicação: o que está sendo escrito, gravado, finalizado e o que já está no ar.</p>
+</div>
+<div style="display: flex; align-items: center; gap: 12px">
+<label class="k-search" style="width: 300px; min-width: 0">
+<svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="6.5"></circle><path d="M20 20l-4.3-4.3"></path></svg>
+<input type="search" placeholder="Buscar conteúdo..." aria-label="Buscar conteúdo" value="{{busca}}" onChange="{{onBusca}}">
+</label>
+<button type="button" class="k-btn k-btn-primary">
+<svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 5v14M5 12h14"></path></svg>
+Novo conteúdo
+</button>
+</div>
+</div>
+
+<div style="display: flex; align-items: center; justify-content: space-between; gap: 16px; margin-top: 16px; flex: none">
+<div style="display: flex; align-items: center; gap: 10px">
+<span class="k-cap">Formato</span>
+<div aria-label="Filtrar por formato" style="display: flex; gap: 6px">
+<sc-for list="{{formatos}}" as="f" hint-placeholder-count="4">
+<button type="button" class="{{f.cls}}" aria-pressed="{{f.on}}" onClick="{{f.pick}}">{{f.nome}}</button>
+</sc-for>
+</div>
+</div>
+<span style="font-size: 12px; line-height: 16px; color: var(--ink-3)">Lido de <span class="k-mono">videos/</span>, <span class="k-mono">06-publicar/</span> e <span class="k-mono">07-publicados/</span> · 23 out, 15:20</span>
+</div>
+
+<div style="display: grid; grid-template-columns: minmax(0, 1fr) 64px minmax(0, 1fr) 64px minmax(0, 1fr) 64px minmax(0, 1fr) 64px minmax(0, 1fr); margin-top: 20px; flex: none">
+<button type="button" class="{{f1.cls}}" aria-pressed="{{f1.on}}" onClick="{{f1.pick}}">
+<span class="k-cap">Roteiros</span>
+<span class="fase-n">{{f1.n}}</span>
+<span class="fase-d">Só o roteiro. Ainda não gravados.</span>
+<span class="fase-m">{{f1.meta}}</span>
+</button>
+<div class="conn" aria-hidden="true"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"></path></svg>você grava</div>
+<button type="button" class="{{f2.cls}}" aria-pressed="{{f2.on}}" onClick="{{f2.pick}}">
+<span class="k-cap">Gravados</span>
+<span class="fase-n">{{f2.n}}</span>
+<span class="fase-d">Em edição e pós-produção.</span>
+<span class="fase-m">{{f2.meta}}</span>
+</button>
+<div class="conn" aria-hidden="true"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"></path></svg>pós e QA</div>
+<button type="button" class="{{f3.cls}}" aria-pressed="{{f3.on}}" onClick="{{f3.pick}}">
+<span class="k-cap">Prontos</span>
+<span class="fase-n">{{f3.n}}</span>
+<span class="fase-d">Pacote pronto, ainda sem data.</span>
+<span class="fase-m">{{f3.meta}}</span>
+</button>
+<div class="conn" aria-hidden="true"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"></path></svg>você agenda</div>
+<button type="button" class="{{f4.cls}}" aria-pressed="{{f4.on}}" onClick="{{f4.pick}}">
+<span class="k-cap">Agendados</span>
+<span class="fase-n">{{f4.n}}</span>
+<span class="fase-d">Na fila, com data e hora.</span>
+<span class="fase-m">{{f4.meta}}</span>
+</button>
+<div class="conn" aria-hidden="true"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"></path></svg>publica no horário</div>
+<button type="button" class="{{f5.cls}}" aria-pressed="{{f5.on}}" onClick="{{f5.pick}}">
+<span class="k-cap">Publicados</span>
+<span class="fase-n">{{f5.n}}</span>
+<span class="fase-d">No ar no Instagram e no Facebook.</span>
+<span class="fase-m">{{f5.meta}}</span>
+</button>
+</div>
+
+<div style="display: grid; grid-template-columns: repeat(12, minmax(0, 1fr)); gap: 24px; margin-top: 20px; flex: 1; min-height: 0">
+
+<section class="k-card" style="grid-column: span 9; display: flex; flex-direction: column; min-width: 0; min-height: 0; overflow: hidden">
+<div style="display: flex; align-items: center; justify-content: space-between; gap: 16px; padding: 14px 20px; flex: none">
+<div style="display: flex; align-items: baseline; gap: 10px">
+<h2 class="k-card-title">{{tituloTabela}}</h2>
+<span style="font-size: 12px; line-height: 16px; color: var(--ink-3)">{{ordemTabela}}</span>
+</div>
+<span style="font-size: 12px; line-height: 16px; color: var(--ink-2)">{{dicaTabela}}</span>
+</div>
+
+<sc-if value="{{verRot}}" hint-placeholder-val="{{true}}">
+<div class="tr th c-rot" aria-hidden="true">
+<span class="colh">Roteiro</span><span class="colh">Formato</span><span class="colh">Versão</span><span class="colh">Palavra-chave</span><span class="colh">PDF</span><span class="colh">Cenas extras</span><span class="colh">Portão do roteiro</span><span class="colh">Gravação prevista</span><span class="colh">Atualizado</span>
+</div>
+<div class="tb">
+<sc-for list="{{rot}}" as="v" hint-placeholder-count="7">
+<div class="tr c-rot">
+<div style="display: flex; align-items: center; gap: 12px; min-width: 0">
+<span class="doc"><svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6.5 3.5h7l4 4v13h-11z"></path><path d="M13.5 3.5v4h4M9 12h6M9 15.5h6"></path></svg></span>
+<div style="display: flex; flex-direction: column; min-width: 0"><span class="t1">{{v.titulo}}</span><span class="t2">{{v.slug}}</span></div>
+</div>
+<span class="cel">Reels</span>
+<span class="mono" style="color: var(--ink-2)">{{v.versao}}</span>
+<span><span class="kw">{{v.palavra}}</span></span>
+<span class="cel" style="color: var(--ink-2)">{{v.pdf}}</span>
+<span class="cel">{{v.extras}}</span>
+<span class="pend"><svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true" style="color: var(--ink-3)"><circle cx="12" cy="12" r="5.5"></circle></svg>Pendente</span>
+<div style="display: flex; flex-direction: column"><span class="cel">{{v.prevista}}</span><span class="{{v.haCls}}">{{v.ha}}</span></div>
+<div style="display: flex; flex-direction: column"><span class="cel" style="font-size: 12px; line-height: 16px">{{v.dia}}</span><span class="cel2 k-mono">{{v.hora}}</span></div>
+</div>
+</sc-for>
+</div>
+</sc-if>
+
+<sc-if value="{{verGrav}}" hint-placeholder-val="{{false}}">
+<div class="tr th c-grav" aria-hidden="true">
+<span class="colh">Vídeo</span><span class="colh">Gravado em</span><span class="colh">Pós-produção</span><span class="colh">Portão da imagem</span><span class="colh">Portão do corte</span><span class="colh">Responsável</span><span class="colh">Atualizado</span>
+</div>
+<div class="tb">
+<sc-for list="{{grav}}" as="v" hint-placeholder-count="1">
+<div class="tr c-grav">
+<div style="display: flex; align-items: center; gap: 12px; min-width: 0">
+<span class="thumb"><img src="{{v.capa}}" alt="Capa de {{v.titulo}}"></span>
+<div style="display: flex; flex-direction: column; min-width: 0"><span class="t1">{{v.titulo}}</span><span class="t2">{{v.slug}}</span></div>
+</div>
+<span class="cel">{{v.gravado}}</span>
+<div style="display: flex; flex-direction: column; gap: 6px; min-width: 0">
+<span class="k-steps" role="img" aria-label="{{v.posTxt}}" style="width: 150px"><sc-for list="{{v.pos}}" as="s" hint-placeholder-count="6"><i class="{{s.cls}}"></i></sc-for></span>
+<span class="cel2">{{v.posTxt}}</span>
+</div>
+<span class="pend"><svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true" style="color: var(--ink-3)"><circle cx="12" cy="12" r="5.5"></circle></svg>Pendente</span>
+<span class="pend"><svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true" style="color: var(--ink-3)"><circle cx="12" cy="12" r="5.5"></circle></svg>Pendente</span>
+<div style="display: flex; align-items: center; gap: 8px; min-width: 0">
+<span class="k-avatar is-round" style="width: 26px; height: 26px; font-size: 10px; flex: none">{{v.iniciais}}</span>
+<div style="display: flex; flex-direction: column; min-width: 0"><span style="font-size: 12px; line-height: 16px; font-weight: 600; color: var(--ink)">{{v.resp}}</span><span class="cel2">{{v.papel}}</span></div>
+</div>
+<div style="display: flex; flex-direction: column"><span class="cel" style="font-size: 12px; line-height: 16px">{{v.dia}}</span><span class="cel2 k-mono">{{v.hora}}</span></div>
+</div>
+</sc-for>
+</div>
+<sc-if value="{{gravDica}}" hint-placeholder-val="{{true}}">
+<div style="margin: 24px 20px 0; padding: 20px 24px; border: 1px dashed var(--line-strong); border-radius: 12px; display: flex; flex-direction: column; gap: 4px">
+<span style="font-size: 14px; line-height: 20px; font-weight: 600; color: var(--ink)">Os próximos a entrar aqui são os 7 roteiros.</span>
+<span style="font-size: 13px; line-height: 18px; color: var(--ink-2)">Assim que você grava um roteiro, ele vira vídeo e aparece nesta lista até o pacote ficar pronto: corte, cor, legendas, áudio, capa e QA.</span>
+</div>
+</sc-if>
+</sc-if>
+
+<sc-if value="{{verPr}}" hint-placeholder-val="{{false}}">
+<div class="tr th c-pr" aria-hidden="true">
+<span class="colh">Vídeo</span><span class="colh r">Duração</span><span class="colh">Palavra-chave</span><span class="colh">QA</span><span class="colh">Pacote criado</span><span class="colh">Portões</span><span class="colh">Observação</span><span></span>
+</div>
+<div class="tb">
+<sc-for list="{{pr}}" as="v" hint-placeholder-count="1">
+<div class="tr c-pr">
+<div style="display: flex; align-items: center; gap: 12px; min-width: 0">
+<span class="thumb"><img src="{{v.capa}}" alt="Capa de {{v.titulo}}"></span>
+<div style="display: flex; flex-direction: column; min-width: 0"><span class="t1">{{v.titulo}}</span><span class="t2">{{v.slug}}</span></div>
+</div>
+<span class="mono r" style="color: var(--ink-2)">{{v.dur}}</span>
+<span><span class="kw">{{v.palavra}}</span></span>
+<span><span class="k-chip k-chip--aprovado" style="height: 22px; padding: 0 9px; font-size: 11px">QA aprovado</span></span>
+<div style="display: flex; flex-direction: column"><span class="cel" style="font-size: 12px; line-height: 16px">{{v.dia}}</span><span class="cel2 k-mono">{{v.hora}}</span></div>
+<span class="pend"><svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true" style="color: var(--ink-3)"><circle cx="12" cy="12" r="5.5"></circle></svg>Pendente</span>
+<span><span class="k-chip k-chip--bloqueado" style="height: 22px; padding: 0 9px; font-size: 11px">{{v.obs}}</span></span>
+<button type="button" class="k-btn k-btn-secondary k-btn-sm" disabled="{{v.naoAgenda}}">Agendar</button>
+</div>
+</sc-for>
+</div>
+<div style="margin: 24px 20px 0; padding: 20px 24px; border: 1px dashed var(--line-strong); border-radius: 12px; display: flex; flex-direction: column; gap: 4px">
+<span style="font-size: 14px; line-height: 20px; font-weight: 600; color: var(--ink)">Pacote pronto espera aqui até você agendar.</span>
+<span style="font-size: 13px; line-height: 18px; color: var(--ink-2)">Entra depois do QA e dos portões, com vídeo final, capa, legendas e o PDF da palavra-chave. Agendar move para a fila de publicação, e aí ele passa para Agendados.</span>
+</div>
+</sc-if>
+
+<sc-if value="{{verAg}}" hint-placeholder-val="{{false}}">
+<div class="tr th c-ag" aria-hidden="true">
+<span class="colh">Publicação</span><span class="colh">Data e hora</span><span class="colh">Onde vai sair</span><span class="colh">Modo</span><span class="colh">Palavra-chave</span><span class="colh">Portão</span><span class="colh">Estado</span>
+</div>
+<div class="tb">
+<sc-for list="{{ag}}" as="v" hint-placeholder-count="5">
+<div class="tr c-ag">
+<div style="display: flex; align-items: center; gap: 12px; min-width: 0">
+<span class="thumb"><img src="{{v.capa}}" alt="Capa de {{v.titulo}}"></span>
+<div style="display: flex; flex-direction: column; min-width: 0"><span class="t1">{{v.titulo}}</span><span class="t2">{{v.slug}}</span></div>
+</div>
+<div style="display: flex; flex-direction: column"><span class="cel">{{v.dia}} · <span class="k-mono" style="font-size: 12px">{{v.hora}}</span></span><span class="{{v.quandoCls}}">{{v.quando}}</span></div>
+<div style="display: flex; gap: 4px"><sc-for list="{{v.canais}}" as="c" hint-placeholder-count="3"><sc-if value="{{c.on}}" hint-placeholder-val="{{true}}"><span class="ch ch-on" title="{{c.label}}">{{c.nome}}</span></sc-if><sc-if value="{{c.off}}" hint-placeholder-val="{{false}}"><span class="ch ch-off" title="{{c.label}}">{{c.nome}}</span></sc-if></sc-for></div>
+<span><span class="{{v.modoCls}}" style="height: 22px; padding: 0 8px; font-size: 11px">{{v.modo}}</span></span>
+<span><span class="kw">{{v.palavra}}</span></span>
+<span><span class="k-chip k-chip--agendado no-dot" title="Entrou na fila antes dos portões (22 out): publica sem o portão da publicação" style="height: 22px; padding: 0 8px; font-size: 11px">Legado</span></span>
+<span><span class="k-chip k-chip--agendado" style="height: 22px; padding: 0 9px; font-size: 11px">Agendado</span></span>
+</div>
+</sc-for>
+</div>
+</sc-if>
+
+<sc-if value="{{verPub}}" hint-placeholder-val="{{false}}">
+<div class="tr th c-pub" aria-hidden="true">
+<span class="colh">Publicação</span><span class="colh">Publicado em</span><span class="colh">Modo</span><span class="colh r">Duração</span><span class="colh r">Alcance</span><span class="colh r">Visualizações</span><span class="colh r">Curtidas</span><span class="colh r">Salvos</span><span class="colh">Onde foi publicado</span>
+</div>
+<div class="tb">
+<sc-for list="{{pub}}" as="v" hint-placeholder-count="5">
+<div class="tr c-pub">
+<div style="display: flex; align-items: center; gap: 12px; min-width: 0">
+<span class="thumb"><img src="{{v.capa}}" alt="Capa de {{v.titulo}}"></span>
+<div style="display: flex; flex-direction: column; min-width: 0"><span class="t1">{{v.titulo}}</span><span class="t2">{{v.slug}}</span></div>
+</div>
+<div style="display: flex; flex-direction: column"><span class="cel" style="font-size: 12px; line-height: 16px">{{v.dia}}</span><span class="cel2 k-mono">{{v.hora}}</span></div>
+<span><span class="{{v.modoCls}}" style="height: 22px; padding: 0 8px; font-size: 11px">{{v.modo}}</span></span>
+<span class="mono r" style="color: var(--ink-2)">{{v.dur}}</span>
+<span class="{{v.alcCls}}">{{v.alcance}}</span>
+<span class="mono r">{{v.views}}</span>
+<span class="mono r">{{v.likes}}</span>
+<span class="mono r">{{v.salvos}}</span>
+<div style="display: flex; gap: 4px"><sc-for list="{{v.canais}}" as="c" hint-placeholder-count="3"><sc-if value="{{c.on}}" hint-placeholder-val="{{true}}"><a class="ch ch-on" href="{{c.link}}" aria-label="{{c.label}}">{{c.nome}}<svg viewBox="0 0 24 24" width="11" height="11" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M8 16L16 8M9.5 8H16v6.5"></path></svg></a></sc-if><sc-if value="{{c.off}}" hint-placeholder-val="{{false}}"><span class="ch ch-off" title="{{c.label}}">{{c.nome}}</span></sc-if></sc-for></div>
+</div>
+</sc-for>
+</div>
+<p style="margin: 0; padding: 12px 20px; border-top: 1px solid var(--line); font-size: 12px; line-height: 16px; color: var(--ink-3)">Alcance e visualizações do Instagram, última leitura em 22 out. A leitura completa sai 5 dias depois de cada post.</p>
+</sc-if>
+
+<sc-if value="{{vazio}}" hint-placeholder-val="{{false}}">
+<div style="margin: 24px 20px; padding: 40px 24px; border: 1px dashed var(--line-strong); border-radius: 12px; display: flex; flex-direction: column; align-items: center; gap: 6px; text-align: center">
+<span style="font-size: 15px; line-height: 22px; font-weight: 600; color: var(--ink)">{{vazioTitulo}}</span>
+<span style="font-size: 13px; line-height: 18px; color: var(--ink-2); max-width: 420px">{{vazioTexto}}</span>
+</div>
+</sc-if>
+</section>
+
+<div style="grid-column: span 3; display: flex; flex-direction: column; gap: 16px; min-width: 0; min-height: 0">
+
+<section class="k-card" style="padding: 16px 16px 8px; display: flex; flex-direction: column; flex: none">
+<div class="k-card-head" style="padding: 0 4px">
+<h2 class="k-card-title">Precisam de atenção</h2>
+<span class="k-chip k-chip--producao no-dot" style="height: 22px; padding: 0 9px">3</span>
+</div>
+
+<div style="display: flex; gap: 12px; padding: 14px 4px; border-bottom: 1px solid var(--line)">
+<span style="width: 32px; height: 32px; border-radius: 8px; display: flex; align-items: center; justify-content: center; flex: none; background: var(--accent-soft); color: var(--accent-ink)"><svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5.5" width="13" height="13" rx="2"></rect><path d="M16 10.5l4.2-2.6a.5.5 0 0 1 .8.4v7.4a.5.5 0 0 1-.8.4L16 13.5"></path></svg></span>
+<div style="display: flex; flex-direction: column; gap: 2px; min-width: 0; flex: 1">
+<span style="font-size: 13px; line-height: 18px; font-weight: 600; color: var(--ink)">7 roteiros esperando gravação</span>
+<span style="font-size: 13px; line-height: 18px; color: var(--ink-2)">O mais antigo, Jacob Coxon, espera desde 17 set. Comando secreto está previsto para amanhã.</span>
+<button type="button" class="k-btn k-btn-secondary k-btn-sm" onClick="{{f1.pick}}" style="align-self: flex-start; margin-top: 8px">Ver roteiros</button>
+</div>
+</div>
+
+<div style="display: flex; gap: 12px; padding: 14px 4px; border-bottom: 1px solid var(--line)">
+<span style="width: 32px; height: 32px; border-radius: 8px; display: flex; align-items: center; justify-content: center; flex: none; background: var(--danger-soft); color: var(--danger)"><svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 4l9 16H3z"></path><path d="M12 10v4M12 17v.2"></path></svg></span>
+<div style="display: flex; flex-direction: column; gap: 2px; min-width: 0; flex: 1">
+<span style="font-size: 13px; line-height: 18px; font-weight: 600; color: var(--ink)">Pronto, mas não vai ao ar</span>
+<span style="font-size: 13px; line-height: 18px; color: var(--ink-2)">ChatGPT contexto passou no QA em 17 set, mas foi um teste de cor: não publicar.</span>
+<button type="button" class="k-btn k-btn-secondary k-btn-sm" onClick="{{f3.pick}}" style="align-self: flex-start; margin-top: 8px">Ver prontos</button>
+</div>
+</div>
+
+<div style="display: flex; gap: 12px; padding: 14px 4px">
+<span style="width: 32px; height: 32px; border-radius: 8px; display: flex; align-items: center; justify-content: center; flex: none; background: var(--accent-soft); color: var(--accent-ink)"><svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="5" y="10.5" width="14" height="10" rx="2"></rect><path d="M8 10.5V8a4 4 0 0 1 8 0v2.5"></path><path d="M12 14.5v2"></path></svg></span>
+<div style="display: flex; flex-direction: column; gap: 2px; min-width: 0; flex: 1">
+<span style="font-size: 13px; line-height: 18px; font-weight: 600; color: var(--ink)">Portão do roteiro ainda não rodou</span>
+<span style="font-size: 13px; line-height: 18px; color: var(--ink-2)">Os 7 roteiros são anteriores aos portões (22 out). O Otávio Reis revisa cada um antes da gravação.</span>
+<button type="button" class="k-btn k-btn-secondary k-btn-sm" style="align-self: flex-start; margin-top: 8px">Pedir revisão</button>
+</div>
+</div>
+</section>
+
+<section class="k-card" style="padding: 16px 20px; display: flex; flex-direction: column; flex: 1; min-height: 0">
+<div class="k-card-head">
+<h2 class="k-card-title">Portões</h2>
+<span class="k-mono" style="font-size: 11px; color: var(--ink-3)">5 áreas</span>
+</div>
+<p style="margin: 6px 0 0; font-size: 12px; line-height: 17px; color: var(--ink-2)">Nenhum veredicto nos vídeos ainda: os portões começaram em 22 out.</p>
+<div style="display: flex; flex-direction: column; margin-top: 10px">
+<div style="display: grid; grid-template-columns: minmax(0, 1fr) auto; align-items: center; height: 28px; border-bottom: 1px solid var(--line)"><span style="font-size: 13px; line-height: 18px; color: var(--ink)">Pauta</span><span class="mono" style="font-size: 11px; color: var(--ink-2)">10 pendentes</span></div>
+<div style="display: grid; grid-template-columns: minmax(0, 1fr) auto; align-items: center; height: 28px; border-bottom: 1px solid var(--line)"><span style="font-size: 13px; line-height: 18px; color: var(--ink)">Roteiro</span><span class="mono" style="font-size: 11px; color: var(--ink-2)">12 pendentes</span></div>
+<div style="display: grid; grid-template-columns: minmax(0, 1fr) auto; align-items: center; height: 28px; border-bottom: 1px solid var(--line)"><span style="font-size: 13px; line-height: 18px; color: var(--ink)">Imagem</span><span class="mono" style="font-size: 11px; color: var(--ink-2)">10 pendentes</span></div>
+<div style="display: grid; grid-template-columns: minmax(0, 1fr) auto; align-items: center; height: 28px; border-bottom: 1px solid var(--line)"><span style="font-size: 13px; line-height: 18px; color: var(--ink)">Corte</span><span class="mono" style="font-size: 11px; color: var(--ink-2)">5 pendentes</span></div>
+<div style="display: grid; grid-template-columns: minmax(0, 1fr) auto; align-items: center; height: 28px"><span style="font-size: 13px; line-height: 18px; color: var(--ink)">Publicação</span><span class="mono" style="font-size: 11px; color: var(--ink-2)">5 legado</span></div>
+</div>
+</section>
+
+</div>
+</div>
+
+</div>
+</main>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":1920,"height":1080}}'>
+class Component extends DCLogic {
+  constructor(props) {
+    super(props);
+    this.state = { fase: 'roteiros', formato: 'todos', busca: '' };
+  }
+  renderVals() {
+    var self = this;
+    var fase = this.state.fase;
+    var formato = this.state.formato;
+    var sem = function (s) { return (s || '').normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase(); };
+    var q = sem(this.state.busca).trim();
+    var passa = function (titulo, slug) {
+      return (formato === 'todos' || formato === 'reels') && (!q || sem(titulo + ' ' + slug).indexOf(q) !== -1);
+    };
+
+    // Roteiros: videos/<slug>/roteiro.json (versão, palavra), material/*.pdf, brutos/extras/, status.json; nenhum tem brutos/principal/
+    var ROT = [
+      ['Jacob Coxon', '2026-09-17-jacob-coxon', 'v3', '—', false, 2, '17 set', 'há 36 dias', '17 set', '01:59'],
+      ['Jensen Huang', '2026-10-18-jensen-huang', 'v1', 'PRATO', true, 0, '18 out', 'há 5 dias', '17 out', '16:20'],
+      ['Foto da loja', '2026-10-21-foto-da-loja', 'v1', 'FOTO', true, 5, '21 out', 'há 2 dias', '14 out', '02:51'],
+      ['Golpes com IA', '2026-10-21-golpes-com-ia', 'v2', 'GOLPE', true, 4, '21 out', 'há 2 dias', '14 out', '02:48'],
+      ['15 coisas IA negócio', '2026-10-22-15-coisas-ia-negocio', 'v1', 'LISTA', true, 5, '22 out', 'ontem', '14 out', '02:47'],
+      ['Agente 3 passos', '2026-10-22-agente-3-passos', 'v1', 'AGENTE', true, 3, '22 out', 'ontem', '14 out', '02:48'],
+      ['Comando secreto', '2026-10-24-comando-secreto', 'v2', 'ESTILO', true, 0, '24 out', 'amanhã', '22 out', '02:57']
+    ];
+    // Gravados: tem brutos/principal/ e ainda não tem pacote na fila
+    // hoje nenhum: os 7 roteiros não têm gravação e o ChatGPT contexto já tem pacote
+    var GRAV = [];
+    // Prontos: 05-render-pronto/<slug>/pacote.json (QA PASS), ainda fora da fila; _controle/CONTINUAR.md: "teste de cor; não publicar"
+    var PR = [
+      ['ChatGPT contexto', '2026-09-16-chatgpt-contexto', '../../../referencias/claude-design/telas-2026-10-23/capas/capa-chatgpt-contexto.jpg', '0:49', 'PROMPT', '17 set', '23:54', 'Teste de cor · não publicar', true]
+    ];
+    // Agendados: 06-publicar/*/post.json
+    var AG = [
+      ['Fei-Fei Li r2', '2026-10-20-fei-fei-li-r2', '../../../referencias/claude-design/telas-2026-10-23/capas/capa-feifei.jpg', 'Sáb 24 out', '19:00', 'amanhã', 'Normal', 'AULA'],
+      ['Geoffrey Hinton r2', '2026-10-20-geoffrey-hinton-r2', '../../../referencias/claude-design/telas-2026-10-23/capas/capa-hinton.jpg', 'Dom 25 out', '19:00', 'em 2 dias', 'Normal', 'NOBEL'],
+      ['Livro ChatGPT', '2026-10-23-livro-chatgpt', '../../../referencias/claude-design/telas-2026-10-23/capas/capa-livro.jpg', 'Ter 27 out', '21:00', 'em 4 dias', 'Trial Reel', 'LIVRO'],
+      ['Livro ChatGPT L01C', '2026-10-23-livro-chatgpt-l01c', '../../../referencias/claude-design/telas-2026-10-23/capas/capa-livro-l01c.jpg', 'Qua 28 out', '21:00', 'em 5 dias', 'Trial Reel', 'LIVRO'],
+      ['Livro ChatGPT L01C A', '2026-10-23-livro-chatgpt-l01c-a', '../../../referencias/claude-design/telas-2026-10-23/capas/capa-livro-l01c-a.jpg', 'Dom 1 nov', '19:00', 'em 9 dias', 'Trial Reel', 'LIVRO']
+    ];
+    // Publicados: 07-publicados/*/metricas.json (ultima leitura) e post.json
+    var PUB = [
+      // links: Instagram, Facebook, LinkedIn (post.json → instagram.permalink, facebook.permalink; LinkedIn ainda não publica)
+      ['Livro ChatGPT A', '2026-10-23-livro-chatgpt-a', '../../../referencias/claude-design/telas-2026-10-23/capas/pub-livro-a.jpg', '22 out', '21:19', 'Normal', '0:34', null, null, null, null, ['https://www.instagram.com/reel/Dezzw0iimTe/', 'https://www.facebook.com/reel/1829716168045842/', null]],
+      ['Fei-Fei Li A', '2026-10-20-fei-fei-li-a', '../../../referencias/claude-design/telas-2026-10-23/capas/pub-feifei-a.jpg', '20 out', '21:14', 'Trial Reel', '2:48', 4, 8, 0, 0, ['https://www.instagram.com/reel/Deuqi5pDmyf/', null, null]],
+      ['Fei-Fei Li', '2026-10-20-fei-fei-li', '../../../referencias/claude-design/telas-2026-10-23/capas/pub-feifei.jpg', '18 out', '19:14', 'Trial Reel', '2:48', 40, 45, 1, 0, ['https://www.instagram.com/reel/DepSlbLADfM/', 'https://www.facebook.com/reel/1636967341113142/', null]],
+      ['Geoffrey Hinton', '2026-10-20-geoffrey-hinton', '../../../referencias/claude-design/telas-2026-10-23/capas/pub-hinton.jpg', '15 out', '11:44', 'Trial Reel', '2:39', 11, 11, 1, 0, ['https://www.instagram.com/reel/Degw3KFDvcO/', 'https://www.facebook.com/reel/1033107573077272/', null]],
+      ['Demis Hassabis', '2026-09-17-demis-hassabis', '../../../referencias/claude-design/telas-2026-10-23/capas/capa-demis.jpg', '13 out', '17:03', 'Normal', '0:58', 338, 450, 16, 1, ['https://www.instagram.com/reel/DecK5CDk34q/', 'https://www.facebook.com/reel/1350369576981188/', null]]
+    ];
+
+    var CANAIS = ['Instagram', 'Facebook', 'LinkedIn'];
+    var canais = function (links, publicado) {
+      return CANAIS.map(function (nome, i) {
+        var on = !!links[i];
+        var label = on ? (publicado ? 'Abrir no ' : 'Vai sair no ') + nome : (publicado ? 'Não publicado no ' : 'Não vai sair no ') + nome;
+        return { nome: nome, on: on, off: !on, link: typeof links[i] === 'string' ? links[i] : '', label: label };
+      });
+    };
+    var modoCls = function (m) { return m === 'Trial Reel' ? 'k-chip k-chip--model' : 'k-chip k-chip--agendado no-dot'; };
+    var rot = ROT.filter(function (v) { return passa(v[0], v[1]); }).map(function (v) {
+      return {
+        titulo: v[0], slug: v[1], versao: v[2], palavra: v[3], pdf: v[4] ? 'Pronto' : '—',
+        extras: v[5] ? v[5] + (v[5] === 1 ? ' pronta' : ' prontas') : 'Nenhuma',
+        prevista: v[6], ha: v[7], haCls: v[7] === 'amanhã' ? 'cel2' : 'cel2',
+        dia: v[8], hora: v[9]
+      };
+    });
+    var grav = GRAV.filter(function (v) { return passa(v[0], v[1]); }).map(function (v) {
+      return {
+        titulo: v[0], slug: v[1], capa: v[2], gravado: v[3],
+        pos: ['Corte', 'Cor', 'Gráficos', 'Áudio', 'Capa', 'QA'].map(function (_, i) { return { cls: i < v[4] ? 'on' : (i === v[4] ? 'now' : '') }; }),
+        posTxt: v[5], resp: v[6], papel: v[7], iniciais: v[8], dia: v[9], hora: v[10]
+      };
+    });
+    var pr = PR.filter(function (v) { return passa(v[0], v[1]); }).map(function (v) {
+      return { titulo: v[0], slug: v[1], capa: v[2], dur: v[3], palavra: v[4], dia: v[5], hora: v[6], obs: v[7], naoAgenda: v[8] };
+    });
+    var ag = AG.filter(function (v) { return passa(v[0], v[1]); }).map(function (v) {
+      // 06-publicar/*/post.json → plataformas: hoje só instagram nos 5
+      return { titulo: v[0], slug: v[1], capa: v[2], dia: v[3], hora: v[4], quando: v[5], quandoCls: v[5] === 'amanhã' ? 'cel2' : 'cel2', modo: v[6], modoCls: modoCls(v[6]), palavra: v[7], canais: canais([true, false, false], false) };
+    });
+    var maxAlc = 0;
+    PUB.forEach(function (v) { if (v[7] !== null && v[7] > maxAlc) { maxAlc = v[7]; } });
+    var fmt = function (n) { return n === null ? '—' : String(n).replace(/\B(?=(\d{3})+(?!\d))/g, '.'); };
+    var pub = PUB.filter(function (v) { return passa(v[0], v[1]); }).map(function (v) {
+      return {
+        titulo: v[0], slug: v[1], capa: v[2], dia: v[3], hora: v[4], modo: v[5], modoCls: modoCls(v[5]), dur: v[6],
+        alcance: v[7] === null ? 'lê em 27 out' : fmt(v[7]),
+        alcCls: v[7] === null ? 'cel2 r' : (v[7] === maxAlc ? 'mono r alc-top' : 'mono r'),
+        views: fmt(v[8]), likes: fmt(v[9]), salvos: fmt(v[10]), canais: canais(v[11], true)
+      };
+    });
+
+    var FASES = {
+      roteiros: { n: rot.length, meta: '6 com PDF · o mais antigo espera desde 17 set' },
+      gravados: { n: grav.length, meta: 'Nenhum em edição agora' },
+      prontos: { n: pr.length, meta: 'ChatGPT contexto · teste, não publicar' },
+      agendados: { n: ag.length, meta: '3 vídeos · próxima sáb 24 out, 19:00' },
+      publicados: { n: pub.length, meta: '4 vídeos · melhor: Demis Hassabis' }
+    };
+    var fx = function (id) {
+      return { n: String(FASES[id].n), meta: FASES[id].meta, on: fase === id, cls: fase === id ? 'fase is-on' : 'fase', pick: function () { self.setState({ fase: id }); } };
+    };
+
+    var TAB = {
+      roteiros: ['Roteiros', 'na ordem de gravação prevista', 'Um roteiro vira vídeo quando você grava.', rot.length],
+      gravados: ['Gravados', 'em pós-produção', 'Do corte ao QA: cor, legendas, áudio e capa.', grav.length],
+      prontos: ['Prontos', 'pacotes em 05-render-pronto', 'Agendar move o pacote para a fila de publicação.', pr.length],
+      agendados: ['Agendados', 'pela data de publicação', 'Publica sozinho no horário marcado.', ag.length],
+      publicados: ['Publicados', 'do mais recente ao mais antigo', 'Clique no canal para abrir o post.', pub.length]
+    };
+    var t = TAB[fase];
+    var fora = formato === 'stories' || formato === 'carrossel';
+    var nomeFormato = formato === 'stories' ? 'story' : 'carrossel';
+
+    var formatos = [['todos', 'Todos'], ['reels', 'Reels'], ['stories', 'Stories'], ['carrossel', 'Carrossel']].map(function (f) {
+      return { nome: f[1], on: formato === f[0], cls: formato === f[0] ? 'fchip is-on' : 'fchip', pick: function () { self.setState({ formato: f[0] }); } };
+    });
+
+    return {
+      busca: this.state.busca,
+      onBusca: function (e) { self.setState({ busca: e.target.value }); },
+      formatos: formatos,
+      f1: fx('roteiros'), f2: fx('gravados'), f3: fx('prontos'), f4: fx('agendados'), f5: fx('publicados'),
+      tituloTabela: t[0] + ' · ' + t[3],
+      ordemTabela: t[1],
+      dicaTabela: t[2],
+      rot: rot, grav: grav, ag: ag, pub: pub,
+      verRot: fase === 'roteiros' && rot.length > 0,
+      verGrav: fase === 'gravados' && grav.length > 0,
+      gravDica: grav.length < 3,
+      verPr: fase === 'prontos' && pr.length > 0,
+      verAg: fase === 'agendados' && ag.length > 0,
+      verPub: fase === 'publicados' && pub.length > 0,
+      vazio: t[3] === 0,
+      vazioTitulo: fora ? 'Nenhum ' + nomeFormato + ' ainda.' : (fase === 'gravados' && !q ? 'Nada em edição agora.' : 'Nada encontrado nesta fase.'),
+      vazioTexto: fora ? 'Hoje a operação produz Reels. Quando houver stories ou carrosséis, eles passam pelas mesmas fases e aparecem aqui.' : (fase === 'gravados' && !q ? 'Os próximos a entrar aqui são os 7 roteiros. Assim que você grava, o roteiro vira vídeo e fica nesta lista até o pacote ficar pronto: corte, cor, legendas, áudio, capa e QA.' : 'Limpe a busca ou escolha outra fase acima.')
+    };
+  }
+}
+</script>
+<script src="dc-runtime.js"></script></body>
+</html>

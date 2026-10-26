@@ -1,0 +1,27 @@
+[audio] voz: corte-audio.wav (master sem perdas) · RMS da fala -28.3 dBFS · piso -65.4 dBFS · crest 21.7 dB
+[audio] compressor 1.5:1 · limiar -19.3 dBFS (RMS da fala +9 dB) · ataque 30 ms · release 300 ms · joelho suave
+[audio] comprimido: I -25.24 LUFS · TP -6.89 dBTP -> ganho +11.24 dB, teto -1.80 dBTP
+[audio] passada 1: I -14.26 LUFS · TP -1.69 dBTP · LRA 2.90 LU
+[audio] resultado: I -14.3 LUFS · TP -1.7 dBTP · crest da fala 21.7 -> 6.3 dB · AAC 256k -> videos/2026-10-23-livro-chatgpt/edicao/final-B.mp4
+[audio] voz: corte-audio.wav (master sem perdas) · RMS da fala -28.3 dBFS · piso -65.4 dBFS · crest 21.7 dB
+[audio] compressor 1.5:1 · limiar -19.3 dBFS (RMS da fala +9 dB) · ataque 30 ms · release 300 ms · joelho suave
+[audio] comprimido: I -25.24 LUFS · TP -6.89 dBTP -> ganho +11.24 dB, teto -1.80 dBTP
+[audio] passada 1: I -14.26 LUFS · TP -1.69 dBTP · LRA 2.90 LU
+[audio] resultado: I -14.3 LUFS · TP -1.7 dBTP · crest da fala 21.7 -> 6.3 dB · AAC 256k -> videos/2026-10-23-livro-chatgpt/edicao/final-A.mp4
+[audio] voz: corte-audio-L01C.wav (master sem perdas) · RMS da fala -28.5 dBFS · piso -61.6 dBFS · crest 22.0 dB
+[audio] compressor 1.5:1 · limiar -19.5 dBFS (RMS da fala +9 dB) · ataque 30 ms · release 300 ms · joelho suave
+[audio] comprimido: I -25.48 LUFS · TP -6.46 dBTP -> ganho +11.48 dB, teto -1.80 dBTP
+[audio] passada 1: I -14.25 LUFS · TP -1.67 dBTP · LRA 2.70 LU
+[audio] resultado: I -14.2 LUFS · TP -1.7 dBTP · crest da fala 22.0 -> 6.5 dB · AAC 256k -> videos/2026-10-23-livro-chatgpt/edicao/final-L01C.mp4
+[audio] voz: corte-audio-L01C.wav (master sem perdas) · RMS da fala -28.5 dBFS · piso -61.6 dBFS · crest 22.0 dB
+[audio] compressor 1.5:1 · limiar -19.5 dBFS (RMS da fala +9 dB) · ataque 30 ms · release 300 ms · joelho suave
+[audio] comprimido: I -25.48 LUFS · TP -6.46 dBTP -> ganho +11.48 dB, teto -1.80 dBTP
+[audio] passada 1: I -14.25 LUFS · TP -1.67 dBTP · LRA 2.70 LU
+[audio] resultado: I -14.2 LUFS · TP -1.7 dBTP · crest da fala 22.0 -> 6.5 dB · AAC 256k -> videos/2026-10-23-livro-chatgpt/edicao/final-L01C-A.mp4
+[audio] voz: corte-audio.wav (master sem perdas) · RMS da fala -28.3 dBFS · piso -65.4 dBFS · crest 21.7 dB
+[audio] compressor 1.5:1 · limiar -19.3 dBFS (RMS da fala +9 dB) · ataque 30 ms · release 300 ms · joelho suave
+[audio] comprimido: I -26.32 LUFS · TP -6.94 dBTP -> ganho +12.32 dB, teto -1.80 dBTP
+[audio] passada 1: I -14.47 LUFS · TP -1.64 dBTP · LRA 2.20 LU
+[audio] passada 2: I -14.10 LUFS · TP -1.64 dBTP · LRA 2.10 LU
+[audio] resultado: I -14.1 LUFS · TP -1.6 dBTP · crest da fala 21.7 -> 10.3 dB · AAC 256k -> videos/2026-10-23-livro-chatgpt/edicao/final-B-musica-4.mp4
+chain exit=0

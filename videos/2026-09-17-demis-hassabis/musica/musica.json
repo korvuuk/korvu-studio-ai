@@ -1,0 +1,25 @@
+{
+  "opcoes": [
+    {
+      "n": 1,
+      "arquivo": "videos/2026-09-17-demis-hassabis/musica/opcao-1.mp3",
+      "clima": "cinematic ambient biography, hopeful and wondrous, soft felt piano with warm string pads, gentle pulse, 85 bpm",
+      "prompt": "Instrumental background music bed for a spoken-word social media video (Instagram Reel) about artificial intelligence. No vocals, no choir, no spoken words. Leave room for a male voice in the 200 Hz-4 kHz range: soft, sparse mid-range, no prominent lead melody, no sudden drops, builds or loud hits. Steady energy from start to end, clean ending. Mood: cinematic ambient biography, hopeful and wondrous, soft felt piano with warm string pads, gentle pulse, 85 bpm",
+      "modelo": "music_v2_5",
+      "duracao_s": 63.03,
+      "gerada_em": "2026-10-01T23:13:32",
+      "licenca": "ElevenLabs Music — faixa original, uso comercial pelo plano pago da conta"
+    },
+    {
+      "n": 2,
+      "arquivo": "videos/2026-09-17-demis-hassabis/musica/opcao-2.mp3",
+      "clima": "modern minimal electronic, curious and intelligent, soft plucked arpeggios, light warm synth bass, subtle clean beat, 100 bpm",
+      "prompt": "Instrumental background music bed for a spoken-word social media video (Instagram Reel) about artificial intelligence. No vocals, no choir, no spoken words. Leave room for a male voice in the 200 Hz-4 kHz range: soft, sparse mid-range, no prominent lead melody, no sudden drops, builds or loud hits. Steady energy from start to end, clean ending. Mood: modern minimal electronic, curious and intelligent, soft plucked arpeggios, light warm synth bass, subtle clean beat, 100 bpm",
+      "modelo": "music_v2_5",
+      "duracao_s": 63.03,
+      "gerada_em": "2026-10-01T23:13:41",
+      "licenca": "ElevenLabs Music — faixa original, uso comercial pelo plano pago da conta"
+    }
+  ],
+  "escolhida": 1
+}

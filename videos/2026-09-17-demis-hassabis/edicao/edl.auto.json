@@ -1,0 +1,271 @@
+{
+  "L01|L01-T3": {
+    "fonte": "praq0969",
+    "in": 158.56,
+    "out": 163.28,
+    "cortes_internos": [
+      [
+        161.12,
+        161.36
+      ]
+    ],
+    "zoom": null,
+    "layout": "split",
+    "zoom_pecas": [
+      1.0,
+      1.12
+    ],
+    "zoom_origem": "50% 38%"
+  },
+  "L02|L02-T1": {
+    "fonte": "praq0969",
+    "in": 198.8,
+    "out": 202.8,
+    "cortes_internos": [
+      [
+        200.04,
+        200.88
+      ]
+    ],
+    "zoom": null,
+    "layout": "split",
+    "zoom_pecas": [
+      1.0,
+      1.12
+    ],
+    "zoom_origem": "54.9% 33.3%"
+  },
+  "L03|L03-T2": {
+    "fonte": "praq0969",
+    "in": 278.52,
+    "out": 285.4,
+    "cortes_internos": [
+      [
+        279.88,
+        280.12
+      ],
+      [
+        282.04,
+        282.52
+      ],
+      [
+        283.96,
+        284.16
+      ]
+    ],
+    "zoom": null,
+    "layout": "split",
+    "zoom_pecas": [
+      1.0,
+      1.12,
+      1.12,
+      1.0
+    ],
+    "zoom_origem": "62.1% 31.3%"
+  },
+  "L04|L04-T2": {
+    "fonte": "praq0969",
+    "in": 309.2,
+    "out": 313.4,
+    "cortes_internos": [
+      [
+        311.44,
+        311.72
+      ],
+      [
+        312.32,
+        312.4
+      ]
+    ],
+    "zoom": null,
+    "layout": "split",
+    "zoom_pecas": [
+      1.12,
+      1.0
+    ],
+    "zoom_origem": "53.7% 33.1%"
+  },
+  "L05|L05-T2": {
+    "fonte": "praq0969",
+    "in": 342.64,
+    "out": 346.08,
+    "cortes_internos": [
+      [
+        344.12,
+        344.4
+      ]
+    ],
+    "zoom": null,
+    "layout": "split",
+    "zoom_pecas": [
+      1.12,
+      1.0,
+      1.12
+    ],
+    "zoom_origem": "43.8% 33.0%"
+  },
+  "L06|L06-T2": {
+    "fonte": "praq0970",
+    "in": 8.76,
+    "out": 15.4,
+    "cortes_internos": [
+      [
+        10.16,
+        10.48
+      ],
+      [
+        12.72,
+        12.88
+      ]
+    ],
+    "zoom": null,
+    "layout": "split",
+    "zoom_pecas": [
+      1.0,
+      1.12,
+      1.0
+    ],
+    "zoom_origem": "50% 38%"
+  },
+  "L07|L07-T2": {
+    "fonte": "praq0971",
+    "in": 8.36,
+    "out": 14.48,
+    "cortes_internos": [
+      [
+        9.56,
+        10.24
+      ],
+      [
+        12.36,
+        12.8
+      ],
+      [
+        13.96,
+        14.32
+      ]
+    ],
+    "zoom": null,
+    "layout": "split",
+    "zoom_pecas": [
+      1.12,
+      1.0,
+      1.12,
+      1.0
+    ],
+    "zoom_origem": "50.1% 33.0%"
+  },
+  "L08|L08-T1": {
+    "fonte": "praq0971",
+    "in": 52.2,
+    "out": 58.12,
+    "cortes_internos": [
+      [
+        52.92,
+        53.24
+      ]
+    ],
+    "zoom": null,
+    "layout": "split",
+    "zoom_pecas": [
+      1.0,
+      1.12,
+      1.0
+    ],
+    "zoom_origem": "47.9% 30.2%"
+  },
+  "L09|L09-T6": {
+    "fonte": "praq0974",
+    "in": 47.28,
+    "out": 55.6,
+    "cortes_internos": [
+      [
+        50.0,
+        50.6
+      ],
+      [
+        52.24,
+        52.56
+      ]
+    ],
+    "zoom": null,
+    "layout": "split",
+    "zoom_pecas": [
+      1.0,
+      1.12,
+      1.0,
+      1.12
+    ],
+    "zoom_origem": "48.5% 30.7%"
+  },
+  "L10|L10-T2": {
+    "fonte": "praq0975",
+    "in": 19.36,
+    "out": 24.68,
+    "cortes_internos": [
+      [
+        21.88,
+        22.2
+      ],
+      [
+        22.92,
+        23.36
+      ]
+    ],
+    "zoom": null,
+    "layout": "split",
+    "zoom_pecas": [
+      1.0,
+      1.12
+    ],
+    "zoom_origem": "55.3% 31.4%"
+  },
+  "L12|L12-T2": {
+    "fonte": "praq0975",
+    "in": 53.64,
+    "out": 60.72,
+    "cortes_internos": [
+      [
+        54.64,
+        55.12
+      ],
+      [
+        57.0,
+        57.36
+      ]
+    ],
+    "zoom": null,
+    "layout": "full",
+    "zoom_pecas": [
+      1.0,
+      1.0,
+      1.12,
+      1.0,
+      1.12
+    ],
+    "zoom_origem": "55.1% 31.8%"
+  },
+  "L13|L13-T1": {
+    "fonte": "praq0976",
+    "in": 7.12,
+    "out": 12.04,
+    "cortes_internos": [
+      [
+        8.8,
+        9.0
+      ],
+      [
+        10.04,
+        10.28
+      ]
+    ],
+    "zoom": null,
+    "layout": "full",
+    "zoom_pecas": [
+      1.12,
+      1.0,
+      1.12
+    ],
+    "zoom_origem": "39.6% 30.2%"
+  }
+}

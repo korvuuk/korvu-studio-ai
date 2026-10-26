@@ -1,0 +1,43 @@
+{
+  "slug": "2026-09-17-demis-hassabis",
+  "publicar_em": "2026-10-13T00:00:00+01:00",
+  "plataformas": [
+    "instagram",
+    "facebook"
+  ],
+  "estado": "publicado",
+  "confirmar": true,
+  "instagram": {
+    "legenda_arquivo": "legenda-instagram.txt",
+    "capa": "capa/capa.png",
+    "share_to_feed": true,
+    "trial": null,
+    "container_id": "18636655165014052",
+    "media_id": "18632821522039486",
+    "permalink": "https://www.instagram.com/reel/DecK5CDk34q/"
+  },
+  "facebook": {
+    "legenda_arquivo": "legenda-facebook.txt",
+    "video_id": "1350369576981188",
+    "permalink": "https://www.facebook.com/reel/1350369576981188/"
+  },
+  "material": {
+    "palavra": "DOCUMENTARIO",
+    "arquivo": "material/documentario-the-thinking-game.pdf",
+    "url": "https://media.korvuai.com/reels/2026-09-17-demis-hassabis/material/documentario-the-thinking-game.pdf",
+    "titulo": "o link do documentário The Thinking Game"
+  },
+  "publicado_em": "2026-10-13T17:03:58+01:00",
+  "erros": [
+    {
+      "plataforma": "facebook",
+      "em": "2026-10-13T16:51:19+01:00",
+      "mensagem": "Meta 422 em https://rupload.facebook.com/video-upload/v26.0/1491874599476619 (code None): {'debug_info': {'retriable': False, 'type': 'FileUrlProcessingError', 'message': 'Unable to fetch media from URL, got status code: 403 Forbidden'}}"
+    },
+    {
+      "plataforma": "facebook",
+      "em": "2026-10-13T16:52:30+01:00",
+      "mensagem": "Meta 422 em https://rupload.facebook.com/video-upload/v26.0/967740272469111 (code None): {'debug_info': {'retriable': False, 'type': 'FileUrlProcessingError', 'message': 'Unable to fetch media from URL, got status code: 403 Forbidden'}}"
+    }
+  ]
+}

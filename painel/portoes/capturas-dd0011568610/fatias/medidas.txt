@@ -1,0 +1,7 @@
+# capturar.sh · 2026-10-23T12:14:09.684Z
+# alvo	largura pedida	innerWidth	scrollWidth	altura	HTTP	png	passa da borda
+/desempenho	375	375	375	3512	200	/Users/teste/Documents/CONTENT AI/painel/portoes/capturas-dd0011568610/fatias/desempenho-375.png	
+/equipe	375	375	375	4096	200	/Users/teste/Documents/CONTENT AI/painel/portoes/capturas-dd0011568610/fatias/equipe-375.png	
+/equipe/portao-interface	375	375	375	2157	200	/Users/teste/Documents/CONTENT AI/painel/portoes/capturas-dd0011568610/fatias/equipe-portao-interface-375.png	
+/equipe/nao-existe	375	375	375	812	200	/Users/teste/Documents/CONTENT AI/painel/portoes/capturas-dd0011568610/fatias/equipe-nao-existe-375.png	
+/rota-inexistente	375	375	375	812	404	/Users/teste/Documents/CONTENT AI/painel/portoes/capturas-dd0011568610/fatias/rota-inexistente-375.png	

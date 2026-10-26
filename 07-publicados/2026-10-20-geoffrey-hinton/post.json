@@ -1,0 +1,47 @@
+{
+  "slug": "2026-10-20-geoffrey-hinton",
+  "publicar_em": "2026-10-15T11:25:44+01:00",
+  "plataformas": [
+    "instagram",
+    "facebook"
+  ],
+  "estado": "publicado",
+  "confirmar": false,
+  "instagram": {
+    "legenda_arquivo": "legenda-instagram.txt",
+    "capa": "capa/capa.png",
+    "share_to_feed": true,
+    "trial": {
+      "graduation_strategy": "SS_PERFORMANCE"
+    },
+    "container_id": "18637334560014052",
+    "media_id": "18112116653114941",
+    "permalink": "https://www.instagram.com/reel/Degw3KFDvcO/"
+  },
+  "facebook": {
+    "legenda_arquivo": "legenda-facebook.txt",
+    "tipo": "video",
+    "video_id": "1033107573077272",
+    "permalink": "https://www.facebook.com/reel/1033107573077272/"
+  },
+  "material": {
+    "palavra": "NOBEL",
+    "arquivo": "material/entrevista-geoffrey-hinton.pdf",
+    "titulo": "o link da entrevista do Hinton",
+    "url": "https://media.korvuai.com/reels/2026-10-20-geoffrey-hinton/material/entrevista-geoffrey-hinton.pdf"
+  },
+  "publicado_em": "2026-10-15T11:44:34+01:00",
+  "erros": [],
+  "anterior": {
+    "instagram": {
+      "media_id": "18019839653734429",
+      "permalink": "https://www.instagram.com/reel/Degr_FiEwkh/"
+    },
+    "facebook": {
+      "video_id": "1096621502974365",
+      "permalink": "https://www.facebook.com/reel/1096621502974365/"
+    },
+    "publicado_em": "2026-10-15T11:08:42+01:00",
+    "motivo": "cor errada (WB pela folha); FB apagado via API, IG apagar no app"
+  }
+}

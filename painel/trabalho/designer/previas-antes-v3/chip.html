@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Chip de estado · korvu. painel — design system</title>
+<link rel="stylesheet" href="../tokens.css">
+<link rel="stylesheet" href="../componentes.css">
+<link rel="stylesheet" href="../acrescimos.css">
+<link rel="stylesheet" href="previa.css">
+<script src="../korvu.js"></script>
+<script src="previa.js" defer></script>
+</head>
+<body>
+<main class="pv">
+<header class="pv-head">
+<p class="k-cap">Estado · <span class="k-mono">k-chip</span></p>
+<h1 class="k-h2">Chip de estado</h1>
+<p class="pv-lead">Chips de 24px, totalmente arredondados, sempre com palavra — a cor nunca é a única pista.</p>
+</header>
+<section class="pv-sec">
+<h2 class="pv-sec-t k-cap">Os chips do sistema (como o Carlos desenhou)</h2>
+<div class="k-row" style="gap:6px"><span class="k-chip k-chip--aprovado">Aprovado</span><span class="k-chip k-chip--producao">Em produção</span><span class="k-chip k-chip--bloqueado">Bloqueado</span><span class="k-chip k-chip--agendado">Agendado</span><span class="k-chip k-chip--publicado">Publicado</span><span class="k-chip k-chip--portao"><span data-icon="lock" data-size="12"></span>Portão</span></div><p class="pv-nota">O conjunto do Claude Design. Cada chip pertence a uma das três famílias abaixo — “Aprovado” é o estado de um portão (família 1); os outros cinco, o estado do vídeo (família 3).</p>
+</section>
+<section class="pv-sec">
+<h2 class="pv-sec-t k-cap">Modelos <span class="pv-tag pv-tag--real">dados reais · banco do painel</span></h2>
+<div class="k-row" style="gap:6px"><span class="k-chip k-chip--model">Sonnet 5.5</span><span class="k-chip k-chip--opus">Opus 5.5</span></div><p class="pv-nota">Na equipe hoje: 15 pessoas em Opus 5.5 e 11 em Sonnet 5.5 (tabela agentes; a versão vem da tabela apelido → modelo, bloco telas_modelos). <b>Sempre com a versão</b> (decisão de 23/10) — nunca “Opus” sozinho. Opus em fundo sólido, Sonnet em contorno, como a fonte desenhou.</p>
+</section>
+<section class="pv-sec">
+<h2 class="pv-sec-t k-cap">Família 1 · estado de cada portão do GAUNTLET — um mapa só <span class="pv-tag pv-tag--proposta">proposta · vai ao Carlos</span></h2>
+<div class="pv-grade pv-grade-3"><div><span class="k-chip k-chip--aprovado">Aprovado</span><span class="pv-cap">aprovado — o portão aprovou</span></div><div><span class="k-chip k-chip--bloqueado">Bloqueado</span><span class="pv-cap">bloqueado — o portão achou S0/S1 — volta ao construtor</span></div><div><span class="k-chip k-chip--bloqueado">Escalado</span><span class="pv-cap">escalado — 3.ª volta bloqueada — decisão do Carlos</span></div><div><span class="k-chip k-chip--bloqueado">Vencido</span><span class="pv-cap">vencido — arquivo mudou depois do APROVADO — rodar de novo</span></div><div><span class="k-chip k-chip--agendado">Ainda não rodou</span><span class="pv-cap">pendente — o portão ainda não rodou</span></div><div><span class="k-chip k-chip--agendado no-dot">Não se aplica</span><span class="pv-cap">não se aplica — a etapa não existe para este item</span></div><div><span class="k-chip k-chip--agendado no-dot">Legado · sem selo</span><span class="pv-cap">legado — pacote da lista congelada (fila.legado): publica sem selo, não espera portão</span></div></div><p class="pv-nota"><b>Um mapa só</b> — o mesmo no chip, no card do portão (ApprovalGate) e no calendário. A palavra carrega o estado (a cor nunca sozinha); o vermelho fica para o que pede ação. <b>Legado</b> vem de <span class="k-mono">fila.legado</span> e vence o “pendente” do banco.</p>
+</section>
+<section class="pv-sec">
+<h2 class="pv-sec-t k-cap">Família 2 · decisão do Carlos (card do portão) <span class="pv-tag pv-tag--proposta">proposta · vai ao Carlos</span></h2>
+<div class="k-row" style="gap:6px"><span class="k-chip k-chip--portao">Aguarda</span><span class="k-chip k-chip--portao">Ajustes</span></div><p class="pv-nota">A <b>decisão do Carlos</b>, não o estado de um portão: aparece só no card do portão em modo Decisão (todos os portões do vídeo aprovados), no contorno laranja que a fonte desenhou. Das três palavras da fonte (Aguarda · Aprovado · Ajustes), “Aprovado” não vira chip: “Aprovar e agendar” agenda o vídeo, que passa a <b>Agendado</b> e sai do modo Decisão — assim “Aprovado” tem um desenho só (o verde).</p>
+</section>
+<section class="pv-sec">
+<h2 class="pv-sec-t k-cap">Família 3 · estado do vídeo — em ordem <span class="pv-tag pv-tag--proposta">proposta · vai ao Carlos</span></h2>
+<div class="pv-grade pv-grade-3"><div><span class="k-chip k-chip--bloqueado">Bloqueado</span><span class="pv-cap">1 · algum portão do vídeo bloqueado, escalado ou vencido — vem antes de tudo</span></div><div><span class="k-chip k-chip--publicado">Publicado</span><span class="pv-cap">2 · status publicado</span></div><div><span class="k-chip k-chip--agendado">Agendado</span><span class="pv-cap">3 · status agendado</span></div><div><span class="k-chip k-chip--portao"><span data-icon="lock" data-size="12"></span>Portão</span><span class="pv-cap">4 · todos os portões aprovaram e falta a decisão do Carlos</span></div><div><span class="k-chip k-chip--producao">Em produção</span><span class="pv-cap">5 · o resto</span></div></div><p class="pv-nota">Lido <b>em ordem</b>: vale a primeira linha verdadeira. Um vídeo agendado com o portão da imagem vencido é <b>Bloqueado</b>, não Agendado.</p>
+</section>
+<footer class="pv-foot"><span>Regras: <a href="../design-system.md">design-system.md</a></span> <a href="index.html">Todas as prévias</a></footer>
+</main>
+</body>
+</html>

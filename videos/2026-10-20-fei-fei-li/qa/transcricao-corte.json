@@ -1,0 +1,3280 @@
+{
+  "engine": "scribe",
+  "idioma": "pt",
+  "fontes": {
+    "saida": {
+      "arquivo": "edicao/corte.mp4",
+      "duracao": 168.44
+    }
+  },
+  "palavras": [
+    {
+      "texto": "Imagina",
+      "inicio": 0.14,
+      "fim": 0.74,
+      "conf": 0.987,
+      "locutor_bruto": "speaker_0",
+      "i": 0,
+      "fonte": "saida"
+    },
+    {
+      "texto": "chegar",
+      "inicio": 0.84,
+      "fim": 1.08,
+      "conf": 1.0,
+      "locutor_bruto": "speaker_0",
+      "i": 1,
+      "fonte": "saida"
+    },
+    {
+      "texto": "adolescente",
+      "inicio": 1.12,
+      "fim": 1.84,
+      "conf": 0.998,
+      "locutor_bruto": "speaker_0",
+      "i": 2,
+      "fonte": "saida"
+    },
+    {
+      "texto": "num",
+      "inicio": 2.02,
+      "fim": 2.2,
+      "conf": 0.998,
+      "locutor_bruto": "speaker_0",
+      "i": 3,
+      "fonte": "saida"
+    },
+    {
+      "texto": "país",
+      "inicio": 2.22,
+      "fim": 2.52,
+      "conf": 1.0,
+      "locutor_bruto": "speaker_0",
+      "i": 4,
+      "fonte": "saida"
+    },
+    {
+      "texto": "novo",
+      "inicio": 2.56,
+      "fim": 2.92,
+      "conf": 1.0,
+      "locutor_bruto": "speaker_0",
+      "i": 5,
+      "fonte": "saida"
+    },
+    {
+      "texto": "e",
+      "inicio": 3.1,
+      "fim": 3.16,
+      "conf": 1.0,
+      "locutor_bruto": "speaker_0",
+      "i": 6,
+      "fonte": "saida"
+    },
+    {
+      "texto": "sem",
+      "inicio": 3.3,
+      "fim": 3.6,
+      "conf": 1.0,
+      "locutor_bruto": "speaker_0",
+      "i": 7,
+      "fonte": "saida"
+    },
+    {
+      "texto": "falar",
+      "inicio": 3.8,
+      "fim": 4.08,
+      "conf": 1.0,
+      "locutor_bruto": "speaker_0",
+      "i": 8,
+      "fonte": "saida"
+    },
+    {
+      "texto": "o",
+      "inicio": 4.28,
+      "fim": 4.36,
+      "conf": 1.0,
+      "locutor_bruto": "speaker_0",
+      "i": 9,
+      "fonte": "saida"
+    },
+    {
+      "texto": "inglês.",
+      "inicio": 4.4,
+      "fim": 4.84,
+      "conf": 0.934,
+      "locutor_bruto": "speaker_0",
+      "i": 10,
+      "fonte": "saida"
+    },
+    {
+      "texto": "E",
+      "inicio": 5.1,
+      "fim": 5.2,
+      "conf": 1.0,
+      "locutor_bruto": "speaker_0",
+      "i": 11,
+      "fonte": "saida"
+    },
+    {
+      "texto": "ano",
+      "inicio": 5.26,
+      "fim": 5.4,
+      "conf": 0.955,
+      "locutor_bruto": "speaker_0",
+      "i": 12,
+      "fonte": "saida"
+    },
+    {
+      "texto": "depois,",
+      "inicio": 5.44,
+      "fim": 5.86,
+      "conf": 0.999,
+      "locutor_bruto": "speaker_0",
+      "i": 13,
+      "fonte": "saida"
+    },
+    {
+      "texto": "ajudar",
+      "inicio": 6.08,
+      "fim": 6.4,
+      "conf": 1.0,
+      "locutor_bruto": "speaker_0",
+      "i": 14,
+      "fonte": "saida"
+    },
+    {
+      "texto": "as",
+      "inicio": 6.44,
+      "fim": 6.62,
+      "conf": 1.0,
+      "locutor_bruto": "speaker_0",
+      "i": 15,
+      "fonte": "saida"
+    },
+    {
+      "texto": "máquinas",
+      "inicio": 6.68,
+      "fim": 7.16,
+      "conf": 1.0,
+      "locutor_bruto": "speaker_0",
+      "i": 16,
+      "fonte": "saida"
+    },
+    {
+      "texto": "a",
+      "inicio": 7.36,
+      "fim": 7.42,
+      "conf": 1.0,
+      "locutor_bruto": "speaker_0",
+      "i": 17,
+      "fonte": "saida"
+    },
+    {
+      "texto": "enxergar",
+      "inicio": 7.46,
+      "fim": 7.92,
+      "conf": 0.997,
+      "locutor_bruto": "speaker_0",
+      "i": 18,
+      "fonte": "saida"
+    },
+    {
+      "texto": "o",
+      "inicio": 7.96,
+      "fim": 8.0,
+      "conf": 1.0,
+      "locutor_bruto": "speaker_0",
+      "i": 19,
+      "fonte": "saida"
+    },
+    {
+      "texto": "mundo.",
+      "inicio": 8.08,
+      "fim": 8.345,
+      "conf": 1.0,
+      "locutor_bruto": "speaker_0",
+      "i": 20,
+      "fonte": "saida"
+    },
+    {
+      "texto": "Essa",
+      "inicio": 9.0,
+      "fim": 9.2,
+      "conf": 1.0,
+      "locutor_bruto": "speaker_0",
+      "i": 21,
+      "fonte": "saida"
+    },
+    {
+      "texto": "é",
+      "inicio": 9.24,
+      "fim": 9.3,
+      "conf": 1.0,
+      "locutor_bruto": "speaker_0",
+      "i": 22,
+      "fonte": "saida"
+    },
+    {
+      "texto": "a",
+      "inicio": 9.34,
+      "fim": 9.38,
+      "conf": 1.0,
+      "locutor_bruto": "speaker_0",
+      "i": 23,
+      "fonte": "saida"
+    },
+    {
+      "texto": "história",
+      "inicio": 9.44,
+      "fim": 9.94,
+      "conf": 1.0,
+      "locutor_bruto": "speaker_0",
+      "i": 24,
+      "fonte": "saida"
+    },
+    {
+      "texto": "da",
+      "inicio": 10.18,
+      "fim": 10.26,
+      "conf": 1.0,
+      "locutor_bruto": "speaker_0",
+      "i": 25,
+      "fonte": "saida"
+    },
+    {
+      "texto": "Fei-Fei",
+      "inicio": 10.44,
+      "fim": 10.88,
+      "conf": 0.996,
+      "locutor_bruto": "speaker_0",
+      "i": 26,
+      "fonte": "saida"
+    },
+    {
+      "texto": "Li.",
+      "inicio": 10.92,
+      "fim": 11.08,
+      "conf": 1.0,
+      "locutor_bruto": "speaker_0",
+      "i": 27,
+      "fonte": "saida"
+    },
+    {
+      "texto": "Ela",
+      "inicio": 11.38,
+      "fim": 11.62,
+      "conf": 1.0,
+      "locutor_bruto": "speaker_0",
+      "i": 28,
+      "fonte": "saida"
+    },
+    {
+      "texto": "nasceu",
+      "inicio": 11.76,
+      "fim": 12.12,
+      "conf": 1.0,
+      "locutor_bruto": "speaker_0",
+      "i": 29,
+      "fonte": "saida"
+    },
+    {
+      "texto": "na",
+      "inicio": 12.16,
+      "fim": 12.24,
+      "conf": 1.0,
+      "locutor_bruto": "speaker_0",
+      "i": 30,
+      "fonte": "saida"
+    },
+    {
+      "texto": "China",
+      "inicio": 12.38,
+      "fim": 12.76,
+      "conf": 1.0,
+      "locutor_bruto": "speaker_0",
+      "i": 31,
+      "fonte": "saida"
+    },
+    {
+      "texto": "e",
+      "inicio": 13.04,
+      "fim": 13.16,
+      "conf": 1.0,
+      "locutor_bruto": "speaker_0",
+      "i": 32,
+      "fonte": "saida"
+    },
+    {
+      "texto": "chegou",
+      "inicio": 13.34,
+      "fim": 13.68,
+      "conf": 1.0,
+      "locutor_bruto": "speaker_0",
+      "i": 33,
+      "fonte": "saida"
+    },
+    {
+      "texto": "nos",
+      "inicio": 13.72,
+      "fim": 13.88,
+      "conf": 1.0,
+      "locutor_bruto": "speaker_0",
+      "i": 34,
+      "fonte": "saida"
+    },
+    {
+      "texto": "Estados",
+      "inicio": 13.94,
+      "fim": 14.2,
+      "conf": 1.0,
+      "locutor_bruto": "speaker_0",
+      "i": 35,
+      "fonte": "saida"
+    },
+    {
+      "texto": "Unidos,",
+      "inicio": 14.26,
+      "fim": 14.62,
+      "conf": 0.876,
+      "locutor_bruto": "speaker_0",
+      "i": 36,
+      "fonte": "saida"
+    },
+    {
+      "texto": "e",
+      "inicio": 14.82,
+      "fim": 14.92,
+      "conf": 1.0,
+      "locutor_bruto": "speaker_0",
+      "i": 37,
+      "fonte": "saida"
+    },
+    {
+      "texto": "ainda",
+      "inicio": 14.98,
+      "fim": 15.5,
+      "conf": 1.0,
+      "locutor_bruto": "speaker_0",
+      "i": 38,
+      "fonte": "saida"
+    },
+    {
+      "texto": "adolescente.",
+      "inicio": 15.56,
+      "fim": 16.175,
+      "conf": 1.0,
+      "locutor_bruto": "speaker_0",
+      "i": 39,
+      "fonte": "saida"
+    },
+    {
+      "texto": "E",
+      "inicio": 16.48,
+      "fim": 16.52,
+      "conf": 1.0,
+      "locutor_bruto": "speaker_0",
+      "i": 40,
+      "fonte": "saida"
+    },
+    {
+      "texto": "os",
+      "inicio": 16.56,
+      "fim": 16.66,
+      "conf": 1.0,
+      "locutor_bruto": "speaker_0",
+      "i": 41,
+      "fonte": "saida"
+    },
+    {
+      "texto": "pais",
+      "inicio": 16.78,
+      "fim": 17.06,
+      "conf": 1.0,
+      "locutor_bruto": "speaker_0",
+      "i": 42,
+      "fonte": "saida"
+    },
+    {
+      "texto": "praticamente",
+      "inicio": 17.42,
+      "fim": 18.24,
+      "conf": 0.947,
+      "locutor_bruto": "speaker_0",
+      "i": 43,
+      "fonte": "saida"
+    },
+    {
+      "texto": "não",
+      "inicio": 18.5,
+      "fim": 18.7,
+      "conf": 1.0,
+      "locutor_bruto": "speaker_0",
+      "i": 44,
+      "fonte": "saida"
+    },
+    {
+      "texto": "falavam",
+      "inicio": 18.74,
+      "fim": 19.1,
+      "conf": 1.0,
+      "locutor_bruto": "speaker_0",
+      "i": 45,
+      "fonte": "saida"
+    },
+    {
+      "texto": "inglês.",
+      "inicio": 19.14,
+      "fim": 19.54,
+      "conf": 1.0,
+      "locutor_bruto": "speaker_0",
+      "i": 46,
+      "fonte": "saida"
+    },
+    {
+      "texto": "Então,",
+      "inicio": 19.86,
+      "fim": 20.2,
+      "conf": 1.0,
+      "locutor_bruto": "speaker_0",
+      "i": 47,
+      "fonte": "saida"
+    },
+    {
+      "texto": "na",
+      "inicio": 20.8,
+      "fim": 20.86,
+      "conf": 1.0,
+      "locutor_bruto": "speaker_0",
+      "i": 48,
+      "fonte": "saida"
+    },
+    {
+      "texto": "lavanderia",
+      "inicio": 20.9,
+      "fim": 21.38,
+      "conf": 1.0,
+      "locutor_bruto": "speaker_0",
+      "i": 49,
+      "fonte": "saida"
+    },
+    {
+      "texto": "da",
+      "inicio": 21.42,
+      "fim": 21.48,
+      "conf": 1.0,
+      "locutor_bruto": "speaker_0",
+      "i": 50,
+      "fonte": "saida"
+    },
+    {
+      "texto": "família,",
+      "inicio": 21.58,
+      "fim": 22.04,
+      "conf": 1.0,
+      "locutor_bruto": "speaker_0",
+      "i": 51,
+      "fonte": "saida"
+    },
+    {
+      "texto": "ela",
+      "inicio": 22.28,
+      "fim": 22.54,
+      "conf": 1.0,
+      "locutor_bruto": "speaker_0",
+      "i": 52,
+      "fonte": "saida"
+    },
+    {
+      "texto": "atendia",
+      "inicio": 22.78,
+      "fim": 23.3,
+      "conf": 1.0,
+      "locutor_bruto": "speaker_0",
+      "i": 53,
+      "fonte": "saida"
+    },
+    {
+      "texto": "os",
+      "inicio": 23.32,
+      "fim": 23.5,
+      "conf": 1.0,
+      "locutor_bruto": "speaker_0",
+      "i": 54,
+      "fonte": "saida"
+    },
+    {
+      "texto": "telefones",
+      "inicio": 23.52,
+      "fim": 24.185,
+      "conf": 0.679,
+      "locutor_bruto": "speaker_0",
+      "i": 55,
+      "fonte": "saida"
+    },
+    {
+      "texto": "e",
+      "inicio": 24.36,
+      "fim": 24.46,
+      "conf": 1.0,
+      "locutor_bruto": "speaker_0",
+      "i": 56,
+      "fonte": "saida"
+    },
+    {
+      "texto": "fazia",
+      "inicio": 24.62,
+      "fim": 24.9,
+      "conf": 1.0,
+      "locutor_bruto": "speaker_0",
+      "i": 57,
+      "fonte": "saida"
+    },
+    {
+      "texto": "as",
+      "inicio": 25.06,
+      "fim": 25.14,
+      "conf": 0.999,
+      "locutor_bruto": "speaker_0",
+      "i": 58,
+      "fonte": "saida"
+    },
+    {
+      "texto": "cobranças",
+      "inicio": 25.22,
+      "fim": 25.78,
+      "conf": 0.998,
+      "locutor_bruto": "speaker_0",
+      "i": 59,
+      "fonte": "saida"
+    },
+    {
+      "texto": "e",
+      "inicio": 25.88,
+      "fim": 25.96,
+      "conf": 1.0,
+      "locutor_bruto": "speaker_0",
+      "i": 60,
+      "fonte": "saida"
+    },
+    {
+      "texto": "até",
+      "inicio": 26.02,
+      "fim": 26.535,
+      "conf": 1.0,
+      "locutor_bruto": "speaker_0",
+      "i": 61,
+      "fonte": "saida"
+    },
+    {
+      "texto": "atendia",
+      "inicio": 26.62,
+      "fim": 27.18,
+      "conf": 1.0,
+      "locutor_bruto": "speaker_0",
+      "i": 62,
+      "fonte": "saida"
+    },
+    {
+      "texto": "os",
+      "inicio": 27.22,
+      "fim": 27.38,
+      "conf": 1.0,
+      "locutor_bruto": "speaker_0",
+      "i": 63,
+      "fonte": "saida"
+    },
+    {
+      "texto": "fiscais.",
+      "inicio": 27.42,
+      "fim": 27.9,
+      "conf": 1.0,
+      "locutor_bruto": "speaker_0",
+      "i": 64,
+      "fonte": "saida"
+    },
+    {
+      "texto": "Ela,",
+      "inicio": 28.24,
+      "fim": 28.5,
+      "conf": 1.0,
+      "locutor_bruto": "speaker_0",
+      "i": 65,
+      "fonte": "saida"
+    },
+    {
+      "texto": "e",
+      "inicio": 28.98,
+      "fim": 29.02,
+      "conf": 1.0,
+      "locutor_bruto": "speaker_0",
+      "i": 66,
+      "fonte": "saida"
+    },
+    {
+      "texto": "foi",
+      "inicio": 29.16,
+      "fim": 29.34,
+      "conf": 1.0,
+      "locutor_bruto": "speaker_0",
+      "i": 67,
+      "fonte": "saida"
+    },
+    {
+      "texto": "assim,",
+      "inicio": 29.38,
+      "fim": 29.74,
+      "conf": 1.0,
+      "locutor_bruto": "speaker_0",
+      "i": 68,
+      "fonte": "saida"
+    },
+    {
+      "texto": "ela",
+      "inicio": 30.0,
+      "fim": 30.18,
+      "conf": 1.0,
+      "locutor_bruto": "speaker_0",
+      "i": 69,
+      "fonte": "saida"
+    },
+    {
+      "texto": "contou,",
+      "inicio": 30.3,
+      "fim": 30.66,
+      "conf": 1.0,
+      "locutor_bruto": "speaker_0",
+      "i": 70,
+      "fonte": "saida"
+    },
+    {
+      "texto": "que",
+      "inicio": 31.24,
+      "fim": 31.34,
+      "conf": 1.0,
+      "locutor_bruto": "speaker_0",
+      "i": 71,
+      "fonte": "saida"
+    },
+    {
+      "texto": "foi",
+      "inicio": 31.4,
+      "fim": 31.5,
+      "conf": 1.0,
+      "locutor_bruto": "speaker_0",
+      "i": 72,
+      "fonte": "saida"
+    },
+    {
+      "texto": "assim",
+      "inicio": 31.54,
+      "fim": 31.78,
+      "conf": 1.0,
+      "locutor_bruto": "speaker_0",
+      "i": 73,
+      "fonte": "saida"
+    },
+    {
+      "texto": "que",
+      "inicio": 31.86,
+      "fim": 31.9,
+      "conf": 1.0,
+      "locutor_bruto": "speaker_0",
+      "i": 74,
+      "fonte": "saida"
+    },
+    {
+      "texto": "ela",
+      "inicio": 31.92,
+      "fim": 32.02,
+      "conf": 1.0,
+      "locutor_bruto": "speaker_0",
+      "i": 75,
+      "fonte": "saida"
+    },
+    {
+      "texto": "ajudou",
+      "inicio": 32.04,
+      "fim": 32.34,
+      "conf": 1.0,
+      "locutor_bruto": "speaker_0",
+      "i": 76,
+      "fonte": "saida"
+    },
+    {
+      "texto": "a",
+      "inicio": 32.38,
+      "fim": 32.4,
+      "conf": 1.0,
+      "locutor_bruto": "speaker_0",
+      "i": 77,
+      "fonte": "saida"
+    },
+    {
+      "texto": "pagar",
+      "inicio": 32.479,
+      "fim": 32.659,
+      "conf": 1.0,
+      "locutor_bruto": "speaker_0",
+      "i": 78,
+      "fonte": "saida"
+    },
+    {
+      "texto": "as",
+      "inicio": 32.7,
+      "fim": 32.78,
+      "conf": 1.0,
+      "locutor_bruto": "speaker_0",
+      "i": 79,
+      "fonte": "saida"
+    },
+    {
+      "texto": "faculdades.",
+      "inicio": 32.82,
+      "fim": 33.28,
+      "conf": 0.989,
+      "locutor_bruto": "speaker_0",
+      "i": 80,
+      "fonte": "saida"
+    },
+    {
+      "texto": "Fei-Fei",
+      "inicio": 33.58,
+      "fim": 34.06,
+      "conf": 0.997,
+      "locutor_bruto": "speaker_0",
+      "i": 81,
+      "fonte": "saida"
+    },
+    {
+      "texto": "estudou",
+      "inicio": 34.34,
+      "fim": 34.74,
+      "conf": 0.999,
+      "locutor_bruto": "speaker_0",
+      "i": 82,
+      "fonte": "saida"
+    },
+    {
+      "texto": "física",
+      "inicio": 34.94,
+      "fim": 35.38,
+      "conf": 0.893,
+      "locutor_bruto": "speaker_0",
+      "i": 83,
+      "fonte": "saida"
+    },
+    {
+      "texto": "em",
+      "inicio": 35.44,
+      "fim": 35.56,
+      "conf": 1.0,
+      "locutor_bruto": "speaker_0",
+      "i": 84,
+      "fonte": "saida"
+    },
+    {
+      "texto": "Princeton",
+      "inicio": 35.66,
+      "fim": 36.12,
+      "conf": 1.0,
+      "locutor_bruto": "speaker_0",
+      "i": 85,
+      "fonte": "saida"
+    },
+    {
+      "texto": "e",
+      "inicio": 36.58,
+      "fim": 36.62,
+      "conf": 1.0,
+      "locutor_bruto": "speaker_0",
+      "i": 86,
+      "fonte": "saida"
+    },
+    {
+      "texto": "foi",
+      "inicio": 36.74,
+      "fim": 36.9,
+      "conf": 1.0,
+      "locutor_bruto": "speaker_0",
+      "i": 87,
+      "fonte": "saida"
+    },
+    {
+      "texto": "aí",
+      "inicio": 36.96,
+      "fim": 37.18,
+      "conf": 1.0,
+      "locutor_bruto": "speaker_0",
+      "i": 88,
+      "fonte": "saida"
+    },
+    {
+      "texto": "que",
+      "inicio": 37.38,
+      "fim": 37.48,
+      "conf": 1.0,
+      "locutor_bruto": "speaker_0",
+      "i": 89,
+      "fonte": "saida"
+    },
+    {
+      "texto": "ela",
+      "inicio": 37.5,
+      "fim": 37.66,
+      "conf": 1.0,
+      "locutor_bruto": "speaker_0",
+      "i": 90,
+      "fonte": "saida"
+    },
+    {
+      "texto": "entrou",
+      "inicio": 37.68,
+      "fim": 38.1,
+      "conf": 1.0,
+      "locutor_bruto": "speaker_0",
+      "i": 91,
+      "fonte": "saida"
+    },
+    {
+      "texto": "para",
+      "inicio": 38.32,
+      "fim": 38.44,
+      "conf": 1.0,
+      "locutor_bruto": "speaker_0",
+      "i": 92,
+      "fonte": "saida"
+    },
+    {
+      "texto": "o",
+      "inicio": 38.46,
+      "fim": 38.5,
+      "conf": 1.0,
+      "locutor_bruto": "speaker_0",
+      "i": 93,
+      "fonte": "saida"
+    },
+    {
+      "texto": "mundo",
+      "inicio": 38.6,
+      "fim": 38.86,
+      "conf": 1.0,
+      "locutor_bruto": "speaker_0",
+      "i": 94,
+      "fonte": "saida"
+    },
+    {
+      "texto": "da",
+      "inicio": 38.92,
+      "fim": 39.0,
+      "conf": 1.0,
+      "locutor_bruto": "speaker_0",
+      "i": 95,
+      "fonte": "saida"
+    },
+    {
+      "texto": "inteligência",
+      "inicio": 39.02,
+      "fim": 39.48,
+      "conf": 0.986,
+      "locutor_bruto": "speaker_0",
+      "i": 96,
+      "fonte": "saida"
+    },
+    {
+      "texto": "artificial.",
+      "inicio": 39.5,
+      "fim": 40.06,
+      "conf": 1.0,
+      "locutor_bruto": "speaker_0",
+      "i": 97,
+      "fonte": "saida"
+    },
+    {
+      "texto": "E",
+      "inicio": 40.62,
+      "fim": 40.68,
+      "conf": 1.0,
+      "locutor_bruto": "speaker_0",
+      "i": 98,
+      "fonte": "saida"
+    },
+    {
+      "texto": "a",
+      "inicio": 40.72,
+      "fim": 40.74,
+      "conf": 1.0,
+      "locutor_bruto": "speaker_0",
+      "i": 99,
+      "fonte": "saida"
+    },
+    {
+      "texto": "partir",
+      "inicio": 40.82,
+      "fim": 41.08,
+      "conf": 1.0,
+      "locutor_bruto": "speaker_0",
+      "i": 100,
+      "fonte": "saida"
+    },
+    {
+      "texto": "daí,",
+      "inicio": 41.12,
+      "fim": 41.46,
+      "conf": 0.956,
+      "locutor_bruto": "speaker_0",
+      "i": 101,
+      "fonte": "saida"
+    },
+    {
+      "texto": "ela",
+      "inicio": 41.74,
+      "fim": 42.04,
+      "conf": 0.622,
+      "locutor_bruto": "speaker_0",
+      "i": 102,
+      "fonte": "saida"
+    },
+    {
+      "texto": "começou",
+      "inicio": 42.08,
+      "fim": 42.66,
+      "conf": 1.0,
+      "locutor_bruto": "speaker_0",
+      "i": 103,
+      "fonte": "saida"
+    },
+    {
+      "texto": "a",
+      "inicio": 42.92,
+      "fim": 42.94,
+      "conf": 1.0,
+      "locutor_bruto": "speaker_0",
+      "i": 104,
+      "fonte": "saida"
+    },
+    {
+      "texto": "pensar",
+      "inicio": 43.04,
+      "fim": 43.38,
+      "conf": 1.0,
+      "locutor_bruto": "speaker_0",
+      "i": 105,
+      "fonte": "saida"
+    },
+    {
+      "texto": "em",
+      "inicio": 43.42,
+      "fim": 43.52,
+      "conf": 1.0,
+      "locutor_bruto": "speaker_0",
+      "i": 106,
+      "fonte": "saida"
+    },
+    {
+      "texto": "uma",
+      "inicio": 43.56,
+      "fim": 43.7,
+      "conf": 1.0,
+      "locutor_bruto": "speaker_0",
+      "i": 107,
+      "fonte": "saida"
+    },
+    {
+      "texto": "coisa",
+      "inicio": 43.8,
+      "fim": 44.06,
+      "conf": 1.0,
+      "locutor_bruto": "speaker_0",
+      "i": 108,
+      "fonte": "saida"
+    },
+    {
+      "texto": "muito",
+      "inicio": 44.2,
+      "fim": 44.66,
+      "conf": 1.0,
+      "locutor_bruto": "speaker_0",
+      "i": 109,
+      "fonte": "saida"
+    },
+    {
+      "texto": "simples:",
+      "inicio": 44.82,
+      "fim": 45.3,
+      "conf": 1.0,
+      "locutor_bruto": "speaker_0",
+      "i": 110,
+      "fonte": "saida"
+    },
+    {
+      "texto": "uma",
+      "inicio": 45.56,
+      "fim": 45.7,
+      "conf": 1.0,
+      "locutor_bruto": "speaker_0",
+      "i": 111,
+      "fonte": "saida"
+    },
+    {
+      "texto": "criança",
+      "inicio": 45.78,
+      "fim": 46.36,
+      "conf": 1.0,
+      "locutor_bruto": "speaker_0",
+      "i": 112,
+      "fonte": "saida"
+    },
+    {
+      "texto": "aprende",
+      "inicio": 46.6,
+      "fim": 47.2,
+      "conf": 0.999,
+      "locutor_bruto": "speaker_0",
+      "i": 113,
+      "fonte": "saida"
+    },
+    {
+      "texto": "a",
+      "inicio": 47.24,
+      "fim": 47.28,
+      "conf": 1.0,
+      "locutor_bruto": "speaker_0",
+      "i": 114,
+      "fonte": "saida"
+    },
+    {
+      "texto": "reconhecer",
+      "inicio": 47.3,
+      "fim": 47.8,
+      "conf": 0.995,
+      "locutor_bruto": "speaker_0",
+      "i": 115,
+      "fonte": "saida"
+    },
+    {
+      "texto": "o",
+      "inicio": 47.84,
+      "fim": 47.86,
+      "conf": 1.0,
+      "locutor_bruto": "speaker_0",
+      "i": 116,
+      "fonte": "saida"
+    },
+    {
+      "texto": "mundo",
+      "inicio": 47.98,
+      "fim": 48.34,
+      "conf": 0.999,
+      "locutor_bruto": "speaker_0",
+      "i": 117,
+      "fonte": "saida"
+    },
+    {
+      "texto": "vendo",
+      "inicio": 49.0,
+      "fim": 49.34,
+      "conf": 0.992,
+      "locutor_bruto": "speaker_0",
+      "i": 118,
+      "fonte": "saida"
+    },
+    {
+      "texto": "milhões",
+      "inicio": 49.9,
+      "fim": 50.56,
+      "conf": 1.0,
+      "locutor_bruto": "speaker_0",
+      "i": 119,
+      "fonte": "saida"
+    },
+    {
+      "texto": "de",
+      "inicio": 51.24,
+      "fim": 51.38,
+      "conf": 1.0,
+      "locutor_bruto": "speaker_0",
+      "i": 120,
+      "fonte": "saida"
+    },
+    {
+      "texto": "exemplos.",
+      "inicio": 51.6,
+      "fim": 52.22,
+      "conf": 1.0,
+      "locutor_bruto": "speaker_0",
+      "i": 121,
+      "fonte": "saida"
+    },
+    {
+      "texto": "Então,",
+      "inicio": 52.48,
+      "fim": 52.86,
+      "conf": 1.0,
+      "locutor_bruto": "speaker_0",
+      "i": 122,
+      "fonte": "saida"
+    },
+    {
+      "texto": "por",
+      "inicio": 53.34,
+      "fim": 53.44,
+      "conf": 1.0,
+      "locutor_bruto": "speaker_0",
+      "i": 123,
+      "fonte": "saida"
+    },
+    {
+      "texto": "que",
+      "inicio": 53.56,
+      "fim": 53.68,
+      "conf": 0.997,
+      "locutor_bruto": "speaker_0",
+      "i": 124,
+      "fonte": "saida"
+    },
+    {
+      "texto": "que",
+      "inicio": 53.88,
+      "fim": 53.98,
+      "conf": 0.889,
+      "locutor_bruto": "speaker_0",
+      "i": 125,
+      "fonte": "saida"
+    },
+    {
+      "texto": "um",
+      "inicio": 54.0,
+      "fim": 54.1,
+      "conf": 1.0,
+      "locutor_bruto": "speaker_0",
+      "i": 126,
+      "fonte": "saida"
+    },
+    {
+      "texto": "computador",
+      "inicio": 54.14,
+      "fim": 54.56,
+      "conf": 0.992,
+      "locutor_bruto": "speaker_0",
+      "i": 127,
+      "fonte": "saida"
+    },
+    {
+      "texto": "deveria",
+      "inicio": 55.0,
+      "fim": 55.34,
+      "conf": 1.0,
+      "locutor_bruto": "speaker_0",
+      "i": 128,
+      "fonte": "saida"
+    },
+    {
+      "texto": "ser",
+      "inicio": 55.4,
+      "fim": 55.52,
+      "conf": 1.0,
+      "locutor_bruto": "speaker_0",
+      "i": 129,
+      "fonte": "saida"
+    },
+    {
+      "texto": "diferente?",
+      "inicio": 55.54,
+      "fim": 56.075,
+      "conf": 1.0,
+      "locutor_bruto": "speaker_0",
+      "i": 130,
+      "fonte": "saida"
+    },
+    {
+      "texto": "Em",
+      "inicio": 56.68,
+      "fim": 56.84,
+      "conf": 1.0,
+      "locutor_bruto": "speaker_0",
+      "i": 131,
+      "fonte": "saida"
+    },
+    {
+      "texto": "2007,",
+      "inicio": 57.08,
+      "fim": 57.88,
+      "conf": 1.0,
+      "locutor_bruto": "speaker_0",
+      "i": 132,
+      "fonte": "saida"
+    },
+    {
+      "texto": "ela",
+      "inicio": 58.1,
+      "fim": 58.34,
+      "conf": 1.0,
+      "locutor_bruto": "speaker_0",
+      "i": 133,
+      "fonte": "saida"
+    },
+    {
+      "texto": "começou",
+      "inicio": 58.44,
+      "fim": 58.78,
+      "conf": 1.0,
+      "locutor_bruto": "speaker_0",
+      "i": 134,
+      "fonte": "saida"
+    },
+    {
+      "texto": "um",
+      "inicio": 58.8,
+      "fim": 58.88,
+      "conf": 1.0,
+      "locutor_bruto": "speaker_0",
+      "i": 135,
+      "fonte": "saida"
+    },
+    {
+      "texto": "projeto",
+      "inicio": 58.9,
+      "fim": 59.34,
+      "conf": 0.999,
+      "locutor_bruto": "speaker_0",
+      "i": 136,
+      "fonte": "saida"
+    },
+    {
+      "texto": "chamado",
+      "inicio": 59.42,
+      "fim": 59.86,
+      "conf": 1.0,
+      "locutor_bruto": "speaker_0",
+      "i": 137,
+      "fonte": "saida"
+    },
+    {
+      "texto": "ImageNet.",
+      "inicio": 60.1,
+      "fim": 60.8,
+      "conf": 0.827,
+      "locutor_bruto": "speaker_0",
+      "i": 138,
+      "fonte": "saida"
+    },
+    {
+      "texto": "A",
+      "inicio": 61.1,
+      "fim": 61.2,
+      "conf": 1.0,
+      "locutor_bruto": "speaker_0",
+      "i": 139,
+      "fonte": "saida"
+    },
+    {
+      "texto": "ideia",
+      "inicio": 61.3,
+      "fim": 61.76,
+      "conf": 1.0,
+      "locutor_bruto": "speaker_0",
+      "i": 140,
+      "fonte": "saida"
+    },
+    {
+      "texto": "era",
+      "inicio": 62.04,
+      "fim": 62.26,
+      "conf": 1.0,
+      "locutor_bruto": "speaker_0",
+      "i": 141,
+      "fonte": "saida"
+    },
+    {
+      "texto": "reunir",
+      "inicio": 62.72,
+      "fim": 63.14,
+      "conf": 1.0,
+      "locutor_bruto": "speaker_0",
+      "i": 142,
+      "fonte": "saida"
+    },
+    {
+      "texto": "milhões",
+      "inicio": 63.5,
+      "fim": 63.98,
+      "conf": 1.0,
+      "locutor_bruto": "speaker_0",
+      "i": 143,
+      "fonte": "saida"
+    },
+    {
+      "texto": "de",
+      "inicio": 64.019,
+      "fim": 64.04,
+      "conf": 1.0,
+      "locutor_bruto": "speaker_0",
+      "i": 144,
+      "fonte": "saida"
+    },
+    {
+      "texto": "imagens",
+      "inicio": 64.08,
+      "fim": 64.62,
+      "conf": 0.731,
+      "locutor_bruto": "speaker_0",
+      "i": 145,
+      "fonte": "saida"
+    },
+    {
+      "texto": "e",
+      "inicio": 65.16,
+      "fim": 65.2,
+      "conf": 1.0,
+      "locutor_bruto": "speaker_0",
+      "i": 146,
+      "fonte": "saida"
+    },
+    {
+      "texto": "passar",
+      "inicio": 65.3,
+      "fim": 65.56,
+      "conf": 1.0,
+      "locutor_bruto": "speaker_0",
+      "i": 147,
+      "fonte": "saida"
+    },
+    {
+      "texto": "para",
+      "inicio": 65.6,
+      "fim": 65.7,
+      "conf": 1.0,
+      "locutor_bruto": "speaker_0",
+      "i": 148,
+      "fonte": "saida"
+    },
+    {
+      "texto": "o",
+      "inicio": 65.72,
+      "fim": 65.78,
+      "conf": 1.0,
+      "locutor_bruto": "speaker_0",
+      "i": 149,
+      "fonte": "saida"
+    },
+    {
+      "texto": "computador",
+      "inicio": 65.8,
+      "fim": 66.24,
+      "conf": 1.0,
+      "locutor_bruto": "speaker_0",
+      "i": 150,
+      "fonte": "saida"
+    },
+    {
+      "texto": "reconhecer",
+      "inicio": 66.64,
+      "fim": 67.3,
+      "conf": 0.997,
+      "locutor_bruto": "speaker_0",
+      "i": 151,
+      "fonte": "saida"
+    },
+    {
+      "texto": "exatamente",
+      "inicio": 67.54,
+      "fim": 68.36,
+      "conf": 1.0,
+      "locutor_bruto": "speaker_0",
+      "i": 152,
+      "fonte": "saida"
+    },
+    {
+      "texto": "cada",
+      "inicio": 68.62,
+      "fim": 68.92,
+      "conf": 1.0,
+      "locutor_bruto": "speaker_0",
+      "i": 153,
+      "fonte": "saida"
+    },
+    {
+      "texto": "uma",
+      "inicio": 69.18,
+      "fim": 69.42,
+      "conf": 1.0,
+      "locutor_bruto": "speaker_0",
+      "i": 154,
+      "fonte": "saida"
+    },
+    {
+      "texto": "delas.",
+      "inicio": 69.48,
+      "fim": 69.92,
+      "conf": 1.0,
+      "locutor_bruto": "speaker_0",
+      "i": 155,
+      "fonte": "saida"
+    },
+    {
+      "texto": "Segundo",
+      "inicio": 70.28,
+      "fim": 70.72,
+      "conf": 0.999,
+      "locutor_bruto": "speaker_0",
+      "i": 156,
+      "fonte": "saida"
+    },
+    {
+      "texto": "ela,",
+      "inicio": 70.9,
+      "fim": 71.14,
+      "conf": 1.0,
+      "locutor_bruto": "speaker_0",
+      "i": 157,
+      "fonte": "saida"
+    },
+    {
+      "texto": "cinquenta",
+      "inicio": 71.28,
+      "fim": 71.8,
+      "conf": 0.997,
+      "locutor_bruto": "speaker_0",
+      "i": 158,
+      "fonte": "saida"
+    },
+    {
+      "texto": "mil",
+      "inicio": 71.86,
+      "fim": 71.98,
+      "conf": 1.0,
+      "locutor_bruto": "speaker_0",
+      "i": 159,
+      "fonte": "saida"
+    },
+    {
+      "texto": "pessoas",
+      "inicio": 72.08,
+      "fim": 72.64,
+      "conf": 1.0,
+      "locutor_bruto": "speaker_0",
+      "i": 160,
+      "fonte": "saida"
+    },
+    {
+      "texto": "pela",
+      "inicio": 72.72,
+      "fim": 72.88,
+      "conf": 1.0,
+      "locutor_bruto": "speaker_0",
+      "i": 161,
+      "fonte": "saida"
+    },
+    {
+      "texto": "internet",
+      "inicio": 72.92,
+      "fim": 73.38,
+      "conf": 1.0,
+      "locutor_bruto": "speaker_0",
+      "i": 162,
+      "fonte": "saida"
+    },
+    {
+      "texto": "ajudaram",
+      "inicio": 73.64,
+      "fim": 74.4,
+      "conf": 0.999,
+      "locutor_bruto": "speaker_0",
+      "i": 163,
+      "fonte": "saida"
+    },
+    {
+      "texto": "a",
+      "inicio": 74.64,
+      "fim": 74.82,
+      "conf": 1.0,
+      "locutor_bruto": "speaker_0",
+      "i": 164,
+      "fonte": "saida"
+    },
+    {
+      "texto": "organizar",
+      "inicio": 74.88,
+      "fim": 75.54,
+      "conf": 1.0,
+      "locutor_bruto": "speaker_0",
+      "i": 165,
+      "fonte": "saida"
+    },
+    {
+      "texto": "e",
+      "inicio": 75.84,
+      "fim": 75.88,
+      "conf": 1.0,
+      "locutor_bruto": "speaker_0",
+      "i": 166,
+      "fonte": "saida"
+    },
+    {
+      "texto": "identificar",
+      "inicio": 75.94,
+      "fim": 76.72,
+      "conf": 0.994,
+      "locutor_bruto": "speaker_0",
+      "i": 167,
+      "fonte": "saida"
+    },
+    {
+      "texto": "cada",
+      "inicio": 77.08,
+      "fim": 77.38,
+      "conf": 1.0,
+      "locutor_bruto": "speaker_0",
+      "i": 168,
+      "fonte": "saida"
+    },
+    {
+      "texto": "uma",
+      "inicio": 77.62,
+      "fim": 77.8,
+      "conf": 1.0,
+      "locutor_bruto": "speaker_0",
+      "i": 169,
+      "fonte": "saida"
+    },
+    {
+      "texto": "dessas",
+      "inicio": 77.88,
+      "fim": 78.16,
+      "conf": 1.0,
+      "locutor_bruto": "speaker_0",
+      "i": 170,
+      "fonte": "saida"
+    },
+    {
+      "texto": "imagens.",
+      "inicio": 78.2,
+      "fim": 78.78,
+      "conf": 1.0,
+      "locutor_bruto": "speaker_0",
+      "i": 171,
+      "fonte": "saida"
+    },
+    {
+      "texto": "E",
+      "inicio": 79.06,
+      "fim": 79.16,
+      "conf": 1.0,
+      "locutor_bruto": "speaker_0",
+      "i": 172,
+      "fonte": "saida"
+    },
+    {
+      "texto": "sabe",
+      "inicio": 79.24,
+      "fim": 79.64,
+      "conf": 1.0,
+      "locutor_bruto": "speaker_0",
+      "i": 173,
+      "fonte": "saida"
+    },
+    {
+      "texto": "o",
+      "inicio": 80.1,
+      "fim": 80.18,
+      "conf": 1.0,
+      "locutor_bruto": "speaker_0",
+      "i": 174,
+      "fonte": "saida"
+    },
+    {
+      "texto": "mais",
+      "inicio": 80.24,
+      "fim": 80.46,
+      "conf": 1.0,
+      "locutor_bruto": "speaker_0",
+      "i": 175,
+      "fonte": "saida"
+    },
+    {
+      "texto": "curioso?",
+      "inicio": 80.58,
+      "fim": 81.2,
+      "conf": 1.0,
+      "locutor_bruto": "speaker_0",
+      "i": 176,
+      "fonte": "saida"
+    },
+    {
+      "texto": "Ela",
+      "inicio": 81.8,
+      "fim": 82.12,
+      "conf": 1.0,
+      "locutor_bruto": "speaker_0",
+      "i": 177,
+      "fonte": "saida"
+    },
+    {
+      "texto": "disponibilizou",
+      "inicio": 82.5,
+      "fim": 83.3,
+      "conf": 1.0,
+      "locutor_bruto": "speaker_0",
+      "i": 178,
+      "fonte": "saida"
+    },
+    {
+      "texto": "tudo",
+      "inicio": 83.46,
+      "fim": 83.8,
+      "conf": 1.0,
+      "locutor_bruto": "speaker_0",
+      "i": 179,
+      "fonte": "saida"
+    },
+    {
+      "texto": "de",
+      "inicio": 83.92,
+      "fim": 84.04,
+      "conf": 1.0,
+      "locutor_bruto": "speaker_0",
+      "i": 180,
+      "fonte": "saida"
+    },
+    {
+      "texto": "graça",
+      "inicio": 84.08,
+      "fim": 84.5,
+      "conf": 1.0,
+      "locutor_bruto": "speaker_0",
+      "i": 181,
+      "fonte": "saida"
+    },
+    {
+      "texto": "para",
+      "inicio": 84.68,
+      "fim": 84.96,
+      "conf": 1.0,
+      "locutor_bruto": "speaker_0",
+      "i": 182,
+      "fonte": "saida"
+    },
+    {
+      "texto": "os",
+      "inicio": 85.2,
+      "fim": 85.36,
+      "conf": 1.0,
+      "locutor_bruto": "speaker_0",
+      "i": 183,
+      "fonte": "saida"
+    },
+    {
+      "texto": "pesquisadores.",
+      "inicio": 85.4,
+      "fim": 86.2,
+      "conf": 1.0,
+      "locutor_bruto": "speaker_0",
+      "i": 184,
+      "fonte": "saida"
+    },
+    {
+      "texto": "Aí",
+      "inicio": 86.72,
+      "fim": 87.02,
+      "conf": 1.0,
+      "locutor_bruto": "speaker_0",
+      "i": 185,
+      "fonte": "saida"
+    },
+    {
+      "texto": "chega",
+      "inicio": 87.54,
+      "fim": 87.94,
+      "conf": 0.982,
+      "locutor_bruto": "speaker_0",
+      "i": 186,
+      "fonte": "saida"
+    },
+    {
+      "texto": "o",
+      "inicio": 88.22,
+      "fim": 88.3,
+      "conf": 1.0,
+      "locutor_bruto": "speaker_0",
+      "i": 187,
+      "fonte": "saida"
+    },
+    {
+      "texto": "2012.",
+      "inicio": 88.56,
+      "fim": 89.2,
+      "conf": 1.0,
+      "locutor_bruto": "speaker_0",
+      "i": 188,
+      "fonte": "saida"
+    },
+    {
+      "texto": "Um",
+      "inicio": 89.44,
+      "fim": 89.54,
+      "conf": 1.0,
+      "locutor_bruto": "speaker_0",
+      "i": 189,
+      "fonte": "saida"
+    },
+    {
+      "texto": "grupo",
+      "inicio": 89.64,
+      "fim": 90.02,
+      "conf": 1.0,
+      "locutor_bruto": "speaker_0",
+      "i": 190,
+      "fonte": "saida"
+    },
+    {
+      "texto": "da",
+      "inicio": 90.1,
+      "fim": 90.14,
+      "conf": 1.0,
+      "locutor_bruto": "speaker_0",
+      "i": 191,
+      "fonte": "saida"
+    },
+    {
+      "texto": "Universidade",
+      "inicio": 90.18,
+      "fim": 90.72,
+      "conf": 0.998,
+      "locutor_bruto": "speaker_0",
+      "i": 192,
+      "fonte": "saida"
+    },
+    {
+      "texto": "de",
+      "inicio": 90.74,
+      "fim": 90.8,
+      "conf": 1.0,
+      "locutor_bruto": "speaker_0",
+      "i": 193,
+      "fonte": "saida"
+    },
+    {
+      "texto": "Toronto",
+      "inicio": 90.86,
+      "fim": 91.3,
+      "conf": 1.0,
+      "locutor_bruto": "speaker_0",
+      "i": 194,
+      "fonte": "saida"
+    },
+    {
+      "texto": "usaram",
+      "inicio": 91.56,
+      "fim": 92.04,
+      "conf": 1.0,
+      "locutor_bruto": "speaker_0",
+      "i": 195,
+      "fonte": "saida"
+    },
+    {
+      "texto": "a",
+      "inicio": 92.12,
+      "fim": 92.24,
+      "conf": 1.0,
+      "locutor_bruto": "speaker_0",
+      "i": 196,
+      "fonte": "saida"
+    },
+    {
+      "texto": "ImageNet",
+      "inicio": 92.32,
+      "fim": 93.06,
+      "conf": 0.999,
+      "locutor_bruto": "speaker_0",
+      "i": 197,
+      "fonte": "saida"
+    },
+    {
+      "texto": "para",
+      "inicio": 93.36,
+      "fim": 93.54,
+      "conf": 1.0,
+      "locutor_bruto": "speaker_0",
+      "i": 198,
+      "fonte": "saida"
+    },
+    {
+      "texto": "treinar",
+      "inicio": 93.58,
+      "fim": 94.0,
+      "conf": 1.0,
+      "locutor_bruto": "speaker_0",
+      "i": 199,
+      "fonte": "saida"
+    },
+    {
+      "texto": "uma",
+      "inicio": 94.24,
+      "fim": 94.56,
+      "conf": 1.0,
+      "locutor_bruto": "speaker_0",
+      "i": 200,
+      "fonte": "saida"
+    },
+    {
+      "texto": "rede",
+      "inicio": 94.76,
+      "fim": 95.02,
+      "conf": 1.0,
+      "locutor_bruto": "speaker_0",
+      "i": 201,
+      "fonte": "saida"
+    },
+    {
+      "texto": "neurais",
+      "inicio": 95.04,
+      "fim": 95.54,
+      "conf": 0.979,
+      "locutor_bruto": "speaker_0",
+      "i": 202,
+      "fonte": "saida"
+    },
+    {
+      "texto": "em",
+      "inicio": 95.76,
+      "fim": 95.86,
+      "conf": 1.0,
+      "locutor_bruto": "speaker_0",
+      "i": 203,
+      "fonte": "saida"
+    },
+    {
+      "texto": "uma",
+      "inicio": 95.92,
+      "fim": 96.12,
+      "conf": 1.0,
+      "locutor_bruto": "speaker_0",
+      "i": 204,
+      "fonte": "saida"
+    },
+    {
+      "texto": "competição",
+      "inicio": 96.16,
+      "fim": 96.78,
+      "conf": 1.0,
+      "locutor_bruto": "speaker_0",
+      "i": 205,
+      "fonte": "saida"
+    },
+    {
+      "texto": "de",
+      "inicio": 97.02,
+      "fim": 97.08,
+      "conf": 1.0,
+      "locutor_bruto": "speaker_0",
+      "i": 206,
+      "fonte": "saida"
+    },
+    {
+      "texto": "reconhecimento",
+      "inicio": 97.12,
+      "fim": 97.88,
+      "conf": 1.0,
+      "locutor_bruto": "speaker_0",
+      "i": 207,
+      "fonte": "saida"
+    },
+    {
+      "texto": "das",
+      "inicio": 98.18,
+      "fim": 98.38,
+      "conf": 1.0,
+      "locutor_bruto": "speaker_0",
+      "i": 208,
+      "fonte": "saida"
+    },
+    {
+      "texto": "imagens.",
+      "inicio": 98.44,
+      "fim": 98.92,
+      "conf": 1.0,
+      "locutor_bruto": "speaker_0",
+      "i": 209,
+      "fonte": "saida"
+    },
+    {
+      "texto": "E",
+      "inicio": 99.12,
+      "fim": 99.2,
+      "conf": 1.0,
+      "locutor_bruto": "speaker_0",
+      "i": 210,
+      "fonte": "saida"
+    },
+    {
+      "texto": "sabe",
+      "inicio": 99.3,
+      "fim": 99.66,
+      "conf": 1.0,
+      "locutor_bruto": "speaker_0",
+      "i": 211,
+      "fonte": "saida"
+    },
+    {
+      "texto": "quem",
+      "inicio": 99.94,
+      "fim": 100.18,
+      "conf": 1.0,
+      "locutor_bruto": "speaker_0",
+      "i": 212,
+      "fonte": "saida"
+    },
+    {
+      "texto": "tava",
+      "inicio": 100.22,
+      "fim": 100.48,
+      "conf": 0.995,
+      "locutor_bruto": "speaker_0",
+      "i": 213,
+      "fonte": "saida"
+    },
+    {
+      "texto": "nesse",
+      "inicio": 100.52,
+      "fim": 100.78,
+      "conf": 1.0,
+      "locutor_bruto": "speaker_0",
+      "i": 214,
+      "fonte": "saida"
+    },
+    {
+      "texto": "grupo?",
+      "inicio": 100.82,
+      "fim": 101.2,
+      "conf": 1.0,
+      "locutor_bruto": "speaker_0",
+      "i": 215,
+      "fonte": "saida"
+    },
+    {
+      "texto": "Geoffrey",
+      "inicio": 101.58,
+      "fim": 102.1,
+      "conf": 0.999,
+      "locutor_bruto": "speaker_0",
+      "i": 216,
+      "fonte": "saida"
+    },
+    {
+      "texto": "Hinton,",
+      "inicio": 102.5,
+      "fim": 102.96,
+      "conf": 1.0,
+      "locutor_bruto": "speaker_0",
+      "i": 217,
+      "fonte": "saida"
+    },
+    {
+      "texto": "de",
+      "inicio": 103.28,
+      "fim": 103.34,
+      "conf": 1.0,
+      "locutor_bruto": "speaker_0",
+      "i": 218,
+      "fonte": "saida"
+    },
+    {
+      "texto": "quem",
+      "inicio": 103.48,
+      "fim": 103.72,
+      "conf": 1.0,
+      "locutor_bruto": "speaker_0",
+      "i": 219,
+      "fonte": "saida"
+    },
+    {
+      "texto": "eu",
+      "inicio": 103.9,
+      "fim": 104.02,
+      "conf": 1.0,
+      "locutor_bruto": "speaker_0",
+      "i": 220,
+      "fonte": "saida"
+    },
+    {
+      "texto": "já",
+      "inicio": 104.06,
+      "fim": 104.22,
+      "conf": 1.0,
+      "locutor_bruto": "speaker_0",
+      "i": 221,
+      "fonte": "saida"
+    },
+    {
+      "texto": "falei",
+      "inicio": 104.28,
+      "fim": 104.52,
+      "conf": 1.0,
+      "locutor_bruto": "speaker_0",
+      "i": 222,
+      "fonte": "saida"
+    },
+    {
+      "texto": "aqui",
+      "inicio": 104.58,
+      "fim": 104.9,
+      "conf": 1.0,
+      "locutor_bruto": "speaker_0",
+      "i": 223,
+      "fonte": "saida"
+    },
+    {
+      "texto": "no",
+      "inicio": 105.26,
+      "fim": 105.32,
+      "conf": 1.0,
+      "locutor_bruto": "speaker_0",
+      "i": 224,
+      "fonte": "saida"
+    },
+    {
+      "texto": "meu",
+      "inicio": 105.36,
+      "fim": 105.5,
+      "conf": 1.0,
+      "locutor_bruto": "speaker_0",
+      "i": 225,
+      "fonte": "saida"
+    },
+    {
+      "texto": "canal.",
+      "inicio": 105.54,
+      "fim": 105.82,
+      "conf": 1.0,
+      "locutor_bruto": "speaker_0",
+      "i": 226,
+      "fonte": "saida"
+    },
+    {
+      "texto": "O",
+      "inicio": 106.42,
+      "fim": 106.48,
+      "conf": 1.0,
+      "locutor_bruto": "speaker_0",
+      "i": 227,
+      "fonte": "saida"
+    },
+    {
+      "texto": "resultado",
+      "inicio": 106.52,
+      "fim": 107.22,
+      "conf": 1.0,
+      "locutor_bruto": "speaker_0",
+      "i": 228,
+      "fonte": "saida"
+    },
+    {
+      "texto": "foi",
+      "inicio": 107.28,
+      "fim": 107.4,
+      "conf": 1.0,
+      "locutor_bruto": "speaker_0",
+      "i": 229,
+      "fonte": "saida"
+    },
+    {
+      "texto": "tão",
+      "inicio": 107.6,
+      "fim": 107.9,
+      "conf": 1.0,
+      "locutor_bruto": "speaker_0",
+      "i": 230,
+      "fonte": "saida"
+    },
+    {
+      "texto": "superior",
+      "inicio": 107.96,
+      "fim": 108.52,
+      "conf": 1.0,
+      "locutor_bruto": "speaker_0",
+      "i": 231,
+      "fonte": "saida"
+    },
+    {
+      "texto": "ao",
+      "inicio": 108.74,
+      "fim": 108.88,
+      "conf": 1.0,
+      "locutor_bruto": "speaker_0",
+      "i": 232,
+      "fonte": "saida"
+    },
+    {
+      "texto": "concorrente",
+      "inicio": 108.92,
+      "fim": 109.62,
+      "conf": 0.999,
+      "locutor_bruto": "speaker_0",
+      "i": 233,
+      "fonte": "saida"
+    },
+    {
+      "texto": "e",
+      "inicio": 109.76,
+      "fim": 109.8,
+      "conf": 0.999,
+      "locutor_bruto": "speaker_0",
+      "i": 234,
+      "fonte": "saida"
+    },
+    {
+      "texto": "naquele",
+      "inicio": 109.86,
+      "fim": 110.3,
+      "conf": 0.818,
+      "locutor_bruto": "speaker_0",
+      "i": 235,
+      "fonte": "saida"
+    },
+    {
+      "texto": "momento",
+      "inicio": 110.34,
+      "fim": 110.92,
+      "conf": 1.0,
+      "locutor_bruto": "speaker_0",
+      "i": 236,
+      "fonte": "saida"
+    },
+    {
+      "texto": "começou",
+      "inicio": 111.08,
+      "fim": 111.7,
+      "conf": 0.999,
+      "locutor_bruto": "speaker_0",
+      "i": 237,
+      "fonte": "saida"
+    },
+    {
+      "texto": "a",
+      "inicio": 112.08,
+      "fim": 112.12,
+      "conf": 1.0,
+      "locutor_bruto": "speaker_0",
+      "i": 238,
+      "fonte": "saida"
+    },
+    {
+      "texto": "mudar",
+      "inicio": 112.22,
+      "fim": 112.6,
+      "conf": 1.0,
+      "locutor_bruto": "speaker_0",
+      "i": 239,
+      "fonte": "saida"
+    },
+    {
+      "texto": "o",
+      "inicio": 112.92,
+      "fim": 112.98,
+      "conf": 1.0,
+      "locutor_bruto": "speaker_0",
+      "i": 240,
+      "fonte": "saida"
+    },
+    {
+      "texto": "rumo",
+      "inicio": 113.04,
+      "fim": 113.32,
+      "conf": 1.0,
+      "locutor_bruto": "speaker_0",
+      "i": 241,
+      "fonte": "saida"
+    },
+    {
+      "texto": "da",
+      "inicio": 113.5,
+      "fim": 113.6,
+      "conf": 1.0,
+      "locutor_bruto": "speaker_0",
+      "i": 242,
+      "fonte": "saida"
+    },
+    {
+      "texto": "inteligência",
+      "inicio": 113.64,
+      "fim": 114.26,
+      "conf": 1.0,
+      "locutor_bruto": "speaker_0",
+      "i": 243,
+      "fonte": "saida"
+    },
+    {
+      "texto": "artificial.",
+      "inicio": 114.5,
+      "fim": 115.175,
+      "conf": 1.0,
+      "locutor_bruto": "speaker_0",
+      "i": 244,
+      "fonte": "saida"
+    },
+    {
+      "texto": "Mas",
+      "inicio": 115.72,
+      "fim": 115.88,
+      "conf": 1.0,
+      "locutor_bruto": "speaker_0",
+      "i": 245,
+      "fonte": "saida"
+    },
+    {
+      "texto": "olha",
+      "inicio": 115.94,
+      "fim": 116.14,
+      "conf": 1.0,
+      "locutor_bruto": "speaker_0",
+      "i": 246,
+      "fonte": "saida"
+    },
+    {
+      "texto": "só",
+      "inicio": 116.2,
+      "fim": 116.34,
+      "conf": 1.0,
+      "locutor_bruto": "speaker_0",
+      "i": 247,
+      "fonte": "saida"
+    },
+    {
+      "texto": "que",
+      "inicio": 116.6,
+      "fim": 116.7,
+      "conf": 1.0,
+      "locutor_bruto": "speaker_0",
+      "i": 248,
+      "fonte": "saida"
+    },
+    {
+      "texto": "interessante:",
+      "inicio": 116.74,
+      "fim": 117.54,
+      "conf": 0.988,
+      "locutor_bruto": "speaker_0",
+      "i": 249,
+      "fonte": "saida"
+    },
+    {
+      "texto": "a",
+      "inicio": 118.12,
+      "fim": 118.22,
+      "conf": 1.0,
+      "locutor_bruto": "speaker_0",
+      "i": 250,
+      "fonte": "saida"
+    },
+    {
+      "texto": "AI",
+      "inicio": 118.28,
+      "fim": 118.48,
+      "conf": 1.0,
+      "locutor_bruto": "speaker_0",
+      "i": 251,
+      "fonte": "saida"
+    },
+    {
+      "texto": "era",
+      "inicio": 119.16,
+      "fim": 119.34,
+      "conf": 1.0,
+      "locutor_bruto": "speaker_0",
+      "i": 252,
+      "fonte": "saida"
+    },
+    {
+      "texto": "deles,",
+      "inicio": 119.44,
+      "fim": 119.78,
+      "conf": 1.0,
+      "locutor_bruto": "speaker_0",
+      "i": 253,
+      "fonte": "saida"
+    },
+    {
+      "texto": "os",
+      "inicio": 120.12,
+      "fim": 120.3,
+      "conf": 1.0,
+      "locutor_bruto": "speaker_0",
+      "i": 254,
+      "fonte": "saida"
+    },
+    {
+      "texto": "exemplos",
+      "inicio": 120.38,
+      "fim": 121.02,
+      "conf": 1.0,
+      "locutor_bruto": "speaker_0",
+      "i": 255,
+      "fonte": "saida"
+    },
+    {
+      "texto": "era",
+      "inicio": 121.62,
+      "fim": 121.86,
+      "conf": 1.0,
+      "locutor_bruto": "speaker_0",
+      "i": 256,
+      "fonte": "saida"
+    },
+    {
+      "texto": "dela.",
+      "inicio": 122.18,
+      "fim": 122.5,
+      "conf": 1.0,
+      "locutor_bruto": "speaker_0",
+      "i": 257,
+      "fonte": "saida"
+    },
+    {
+      "texto": "Hoje,",
+      "inicio": 123.08,
+      "fim": 123.44,
+      "conf": 1.0,
+      "locutor_bruto": "speaker_0",
+      "i": 258,
+      "fonte": "saida"
+    },
+    {
+      "texto": "a",
+      "inicio": 123.76,
+      "fim": 123.82,
+      "conf": 1.0,
+      "locutor_bruto": "speaker_0",
+      "i": 259,
+      "fonte": "saida"
+    },
+    {
+      "texto": "imprensa",
+      "inicio": 123.86,
+      "fim": 124.44,
+      "conf": 1.0,
+      "locutor_bruto": "speaker_0",
+      "i": 260,
+      "fonte": "saida"
+    },
+    {
+      "texto": "chama",
+      "inicio": 124.76,
+      "fim": 125.14,
+      "conf": 1.0,
+      "locutor_bruto": "speaker_0",
+      "i": 261,
+      "fonte": "saida"
+    },
+    {
+      "texto": "a",
+      "inicio": 125.36,
+      "fim": 125.44,
+      "conf": 1.0,
+      "locutor_bruto": "speaker_0",
+      "i": 262,
+      "fonte": "saida"
+    },
+    {
+      "texto": "Fei-Fei",
+      "inicio": 125.6,
+      "fim": 126.0,
+      "conf": 1.0,
+      "locutor_bruto": "speaker_0",
+      "i": 263,
+      "fonte": "saida"
+    },
+    {
+      "texto": "Li",
+      "inicio": 126.08,
+      "fim": 126.24,
+      "conf": 1.0,
+      "locutor_bruto": "speaker_0",
+      "i": 264,
+      "fonte": "saida"
+    },
+    {
+      "texto": "da",
+      "inicio": 126.46,
+      "fim": 126.54,
+      "conf": 0.994,
+      "locutor_bruto": "speaker_0",
+      "i": 265,
+      "fonte": "saida"
+    },
+    {
+      "texto": "madrinha",
+      "inicio": 126.64,
+      "fim": 127.16,
+      "conf": 0.999,
+      "locutor_bruto": "speaker_0",
+      "i": 266,
+      "fonte": "saida"
+    },
+    {
+      "texto": "da",
+      "inicio": 127.32,
+      "fim": 127.4,
+      "conf": 1.0,
+      "locutor_bruto": "speaker_0",
+      "i": 267,
+      "fonte": "saida"
+    },
+    {
+      "texto": "inteligência",
+      "inicio": 127.44,
+      "fim": 128.0,
+      "conf": 0.998,
+      "locutor_bruto": "speaker_0",
+      "i": 268,
+      "fonte": "saida"
+    },
+    {
+      "texto": "artificial.",
+      "inicio": 128.039,
+      "fim": 128.58,
+      "conf": 1.0,
+      "locutor_bruto": "speaker_0",
+      "i": 269,
+      "fonte": "saida"
+    },
+    {
+      "texto": "E",
+      "inicio": 128.8,
+      "fim": 128.86,
+      "conf": 1.0,
+      "locutor_bruto": "speaker_0",
+      "i": 270,
+      "fonte": "saida"
+    },
+    {
+      "texto": "a",
+      "inicio": 128.9,
+      "fim": 128.92,
+      "conf": 1.0,
+      "locutor_bruto": "speaker_0",
+      "i": 271,
+      "fonte": "saida"
+    },
+    {
+      "texto": "história",
+      "inicio": 129.0,
+      "fim": 129.34,
+      "conf": 1.0,
+      "locutor_bruto": "speaker_0",
+      "i": 272,
+      "fonte": "saida"
+    },
+    {
+      "texto": "dela",
+      "inicio": 129.38,
+      "fim": 129.66,
+      "conf": 1.0,
+      "locutor_bruto": "speaker_0",
+      "i": 273,
+      "fonte": "saida"
+    },
+    {
+      "texto": "mostra",
+      "inicio": 129.979,
+      "fim": 130.38,
+      "conf": 1.0,
+      "locutor_bruto": "speaker_0",
+      "i": 274,
+      "fonte": "saida"
+    },
+    {
+      "texto": "uma",
+      "inicio": 130.56,
+      "fim": 130.775,
+      "conf": 1.0,
+      "locutor_bruto": "speaker_0",
+      "i": 275,
+      "fonte": "saida"
+    },
+    {
+      "texto": "coisa",
+      "inicio": 130.84,
+      "fim": 131.16,
+      "conf": 1.0,
+      "locutor_bruto": "speaker_0",
+      "i": 276,
+      "fonte": "saida"
+    },
+    {
+      "texto": "muito",
+      "inicio": 131.56,
+      "fim": 131.88,
+      "conf": 1.0,
+      "locutor_bruto": "speaker_0",
+      "i": 277,
+      "fonte": "saida"
+    },
+    {
+      "texto": "importante:",
+      "inicio": 131.92,
+      "fim": 132.495,
+      "conf": 1.0,
+      "locutor_bruto": "speaker_0",
+      "i": 278,
+      "fonte": "saida"
+    },
+    {
+      "texto": "a",
+      "inicio": 133.18,
+      "fim": 133.24,
+      "conf": 1.0,
+      "locutor_bruto": "speaker_0",
+      "i": 279,
+      "fonte": "saida"
+    },
+    {
+      "texto": "inteligência",
+      "inicio": 133.28,
+      "fim": 133.76,
+      "conf": 1.0,
+      "locutor_bruto": "speaker_0",
+      "i": 280,
+      "fonte": "saida"
+    },
+    {
+      "texto": "artificial",
+      "inicio": 133.8,
+      "fim": 134.46,
+      "conf": 1.0,
+      "locutor_bruto": "speaker_0",
+      "i": 281,
+      "fonte": "saida"
+    },
+    {
+      "texto": "não",
+      "inicio": 134.72,
+      "fim": 134.84,
+      "conf": 1.0,
+      "locutor_bruto": "speaker_0",
+      "i": 282,
+      "fonte": "saida"
+    },
+    {
+      "texto": "aprende",
+      "inicio": 134.9,
+      "fim": 135.4,
+      "conf": 1.0,
+      "locutor_bruto": "speaker_0",
+      "i": 283,
+      "fonte": "saida"
+    },
+    {
+      "texto": "por",
+      "inicio": 135.68,
+      "fim": 135.8,
+      "conf": 1.0,
+      "locutor_bruto": "speaker_0",
+      "i": 284,
+      "fonte": "saida"
+    },
+    {
+      "texto": "mágica.",
+      "inicio": 135.92,
+      "fim": 136.34,
+      "conf": 1.0,
+      "locutor_bruto": "speaker_0",
+      "i": 285,
+      "fonte": "saida"
+    },
+    {
+      "texto": "Ela",
+      "inicio": 136.64,
+      "fim": 137.005,
+      "conf": 1.0,
+      "locutor_bruto": "speaker_0",
+      "i": 286,
+      "fonte": "saida"
+    },
+    {
+      "texto": "aprende",
+      "inicio": 137.08,
+      "fim": 137.66,
+      "conf": 1.0,
+      "locutor_bruto": "speaker_0",
+      "i": 287,
+      "fonte": "saida"
+    },
+    {
+      "texto": "porque",
+      "inicio": 137.92,
+      "fim": 138.14,
+      "conf": 1.0,
+      "locutor_bruto": "speaker_0",
+      "i": 288,
+      "fonte": "saida"
+    },
+    {
+      "texto": "alguém",
+      "inicio": 138.2,
+      "fim": 138.64,
+      "conf": 1.0,
+      "locutor_bruto": "speaker_0",
+      "i": 289,
+      "fonte": "saida"
+    },
+    {
+      "texto": "teve",
+      "inicio": 138.84,
+      "fim": 139.12,
+      "conf": 1.0,
+      "locutor_bruto": "speaker_0",
+      "i": 290,
+      "fonte": "saida"
+    },
+    {
+      "texto": "o",
+      "inicio": 139.14,
+      "fim": 139.2,
+      "conf": 1.0,
+      "locutor_bruto": "speaker_0",
+      "i": 291,
+      "fonte": "saida"
+    },
+    {
+      "texto": "trabalho",
+      "inicio": 139.22,
+      "fim": 139.78,
+      "conf": 1.0,
+      "locutor_bruto": "speaker_0",
+      "i": 292,
+      "fonte": "saida"
+    },
+    {
+      "texto": "de",
+      "inicio": 139.98,
+      "fim": 140.22,
+      "conf": 1.0,
+      "locutor_bruto": "speaker_0",
+      "i": 293,
+      "fonte": "saida"
+    },
+    {
+      "texto": "organizar",
+      "inicio": 140.28,
+      "fim": 140.7,
+      "conf": 1.0,
+      "locutor_bruto": "speaker_0",
+      "i": 294,
+      "fonte": "saida"
+    },
+    {
+      "texto": "informações,",
+      "inicio": 140.74,
+      "fim": 141.44,
+      "conf": 1.0,
+      "locutor_bruto": "speaker_0",
+      "i": 295,
+      "fonte": "saida"
+    },
+    {
+      "texto": "ensinar",
+      "inicio": 141.7,
+      "fim": 142.26,
+      "conf": 1.0,
+      "locutor_bruto": "speaker_0",
+      "i": 296,
+      "fonte": "saida"
+    },
+    {
+      "texto": "o",
+      "inicio": 142.44,
+      "fim": 142.48,
+      "conf": 1.0,
+      "locutor_bruto": "speaker_0",
+      "i": 297,
+      "fonte": "saida"
+    },
+    {
+      "texto": "que",
+      "inicio": 142.54,
+      "fim": 142.66,
+      "conf": 1.0,
+      "locutor_bruto": "speaker_0",
+      "i": 298,
+      "fonte": "saida"
+    },
+    {
+      "texto": "cada",
+      "inicio": 142.7,
+      "fim": 142.86,
+      "conf": 1.0,
+      "locutor_bruto": "speaker_0",
+      "i": 299,
+      "fonte": "saida"
+    },
+    {
+      "texto": "coisa",
+      "inicio": 142.96,
+      "fim": 143.22,
+      "conf": 1.0,
+      "locutor_bruto": "speaker_0",
+      "i": 300,
+      "fonte": "saida"
+    },
+    {
+      "texto": "significa.",
+      "inicio": 143.34,
+      "fim": 143.92,
+      "conf": 1.0,
+      "locutor_bruto": "speaker_0",
+      "i": 301,
+      "fonte": "saida"
+    },
+    {
+      "texto": "E",
+      "inicio": 144.16,
+      "fim": 144.24,
+      "conf": 1.0,
+      "locutor_bruto": "speaker_0",
+      "i": 302,
+      "fonte": "saida"
+    },
+    {
+      "texto": "às",
+      "inicio": 144.3,
+      "fim": 144.42,
+      "conf": 0.867,
+      "locutor_bruto": "speaker_0",
+      "i": 303,
+      "fonte": "saida"
+    },
+    {
+      "texto": "vezes,",
+      "inicio": 144.46,
+      "fim": 144.92,
+      "conf": 1.0,
+      "locutor_bruto": "speaker_0",
+      "i": 304,
+      "fonte": "saida"
+    },
+    {
+      "texto": "quem",
+      "inicio": 145.2,
+      "fim": 145.36,
+      "conf": 1.0,
+      "locutor_bruto": "speaker_0",
+      "i": 305,
+      "fonte": "saida"
+    },
+    {
+      "texto": "ajuda",
+      "inicio": 145.44,
+      "fim": 145.975,
+      "conf": 1.0,
+      "locutor_bruto": "speaker_0",
+      "i": 306,
+      "fonte": "saida"
+    },
+    {
+      "texto": "a",
+      "inicio": 146.0,
+      "fim": 146.06,
+      "conf": 1.0,
+      "locutor_bruto": "speaker_0",
+      "i": 307,
+      "fonte": "saida"
+    },
+    {
+      "texto": "mudar",
+      "inicio": 146.12,
+      "fim": 146.4,
+      "conf": 1.0,
+      "locutor_bruto": "speaker_0",
+      "i": 308,
+      "fonte": "saida"
+    },
+    {
+      "texto": "o",
+      "inicio": 146.44,
+      "fim": 146.46,
+      "conf": 1.0,
+      "locutor_bruto": "speaker_0",
+      "i": 309,
+      "fonte": "saida"
+    },
+    {
+      "texto": "futuro",
+      "inicio": 146.56,
+      "fim": 147.04,
+      "conf": 1.0,
+      "locutor_bruto": "speaker_0",
+      "i": 310,
+      "fonte": "saida"
+    },
+    {
+      "texto": "é",
+      "inicio": 147.36,
+      "fim": 147.42,
+      "conf": 1.0,
+      "locutor_bruto": "speaker_0",
+      "i": 311,
+      "fonte": "saida"
+    },
+    {
+      "texto": "aquela",
+      "inicio": 147.5,
+      "fim": 147.72,
+      "conf": 1.0,
+      "locutor_bruto": "speaker_0",
+      "i": 312,
+      "fonte": "saida"
+    },
+    {
+      "texto": "adolescente",
+      "inicio": 147.76,
+      "fim": 148.36,
+      "conf": 1.0,
+      "locutor_bruto": "speaker_0",
+      "i": 313,
+      "fonte": "saida"
+    },
+    {
+      "texto": "que",
+      "inicio": 148.56,
+      "fim": 148.64,
+      "conf": 1.0,
+      "locutor_bruto": "speaker_0",
+      "i": 314,
+      "fonte": "saida"
+    },
+    {
+      "texto": "um",
+      "inicio": 148.7,
+      "fim": 148.78,
+      "conf": 1.0,
+      "locutor_bruto": "speaker_0",
+      "i": 315,
+      "fonte": "saida"
+    },
+    {
+      "texto": "dia",
+      "inicio": 148.9,
+      "fim": 149.18,
+      "conf": 1.0,
+      "locutor_bruto": "speaker_0",
+      "i": 316,
+      "fonte": "saida"
+    },
+    {
+      "texto": "precisou",
+      "inicio": 149.48,
+      "fim": 150.02,
+      "conf": 1.0,
+      "locutor_bruto": "speaker_0",
+      "i": 317,
+      "fonte": "saida"
+    },
+    {
+      "texto": "traduzir",
+      "inicio": 150.32,
+      "fim": 150.84,
+      "conf": 1.0,
+      "locutor_bruto": "speaker_0",
+      "i": 318,
+      "fonte": "saida"
+    },
+    {
+      "texto": "tudo",
+      "inicio": 151.1,
+      "fim": 151.44,
+      "conf": 1.0,
+      "locutor_bruto": "speaker_0",
+      "i": 319,
+      "fonte": "saida"
+    },
+    {
+      "texto": "para",
+      "inicio": 151.96,
+      "fim": 152.12,
+      "conf": 1.0,
+      "locutor_bruto": "speaker_0",
+      "i": 320,
+      "fonte": "saida"
+    },
+    {
+      "texto": "sua",
+      "inicio": 152.16,
+      "fim": 152.32,
+      "conf": 0.999,
+      "locutor_bruto": "speaker_0",
+      "i": 321,
+      "fonte": "saida"
+    },
+    {
+      "texto": "própria",
+      "inicio": 152.34,
+      "fim": 152.6,
+      "conf": 1.0,
+      "locutor_bruto": "speaker_0",
+      "i": 322,
+      "fonte": "saida"
+    },
+    {
+      "texto": "família.",
+      "inicio": 152.7,
+      "fim": 153.1,
+      "conf": 1.0,
+      "locutor_bruto": "speaker_0",
+      "i": 323,
+      "fonte": "saida"
+    },
+    {
+      "texto": "Comenta",
+      "inicio": 154.02,
+      "fim": 154.54,
+      "conf": 1.0,
+      "locutor_bruto": "speaker_0",
+      "i": 324,
+      "fonte": "saida"
+    },
+    {
+      "texto": "\"aula\"",
+      "inicio": 154.82,
+      "fim": 155.08,
+      "conf": 1.0,
+      "locutor_bruto": "speaker_0",
+      "i": 325,
+      "fonte": "saida"
+    },
+    {
+      "texto": "aqui",
+      "inicio": 155.16,
+      "fim": 155.26,
+      "conf": 1.0,
+      "locutor_bruto": "speaker_0",
+      "i": 326,
+      "fonte": "saida"
+    },
+    {
+      "texto": "embaixo,",
+      "inicio": 155.28,
+      "fim": 155.72,
+      "conf": 1.0,
+      "locutor_bruto": "speaker_0",
+      "i": 327,
+      "fonte": "saida"
+    },
+    {
+      "texto": "eu",
+      "inicio": 156.06,
+      "fim": 156.16,
+      "conf": 1.0,
+      "locutor_bruto": "speaker_0",
+      "i": 328,
+      "fonte": "saida"
+    },
+    {
+      "texto": "te",
+      "inicio": 156.18,
+      "fim": 156.24,
+      "conf": 1.0,
+      "locutor_bruto": "speaker_0",
+      "i": 329,
+      "fonte": "saida"
+    },
+    {
+      "texto": "envio",
+      "inicio": 156.26,
+      "fim": 156.66,
+      "conf": 0.982,
+      "locutor_bruto": "speaker_0",
+      "i": 330,
+      "fonte": "saida"
+    },
+    {
+      "texto": "no",
+      "inicio": 156.86,
+      "fim": 156.96,
+      "conf": 1.0,
+      "locutor_bruto": "speaker_0",
+      "i": 331,
+      "fonte": "saida"
+    },
+    {
+      "texto": "seu",
+      "inicio": 156.98,
+      "fim": 157.14,
+      "conf": 1.0,
+      "locutor_bruto": "speaker_0",
+      "i": 332,
+      "fonte": "saida"
+    },
+    {
+      "texto": "direct",
+      "inicio": 157.16,
+      "fim": 157.54,
+      "conf": 0.998,
+      "locutor_bruto": "speaker_0",
+      "i": 333,
+      "fonte": "saida"
+    },
+    {
+      "texto": "uma",
+      "inicio": 157.78,
+      "fim": 157.86,
+      "conf": 1.0,
+      "locutor_bruto": "speaker_0",
+      "i": 334,
+      "fonte": "saida"
+    },
+    {
+      "texto": "entrevista",
+      "inicio": 157.9,
+      "fim": 158.4,
+      "conf": 1.0,
+      "locutor_bruto": "speaker_0",
+      "i": 335,
+      "fonte": "saida"
+    },
+    {
+      "texto": "completa",
+      "inicio": 158.52,
+      "fim": 159.04,
+      "conf": 1.0,
+      "locutor_bruto": "speaker_0",
+      "i": 336,
+      "fonte": "saida"
+    },
+    {
+      "texto": "sobre",
+      "inicio": 159.32,
+      "fim": 159.62,
+      "conf": 1.0,
+      "locutor_bruto": "speaker_0",
+      "i": 337,
+      "fonte": "saida"
+    },
+    {
+      "texto": "a",
+      "inicio": 159.88,
+      "fim": 159.94,
+      "conf": 1.0,
+      "locutor_bruto": "speaker_0",
+      "i": 338,
+      "fonte": "saida"
+    },
+    {
+      "texto": "Fei-Fei",
+      "inicio": 160.04,
+      "fim": 160.38,
+      "conf": 1.0,
+      "locutor_bruto": "speaker_0",
+      "i": 339,
+      "fonte": "saida"
+    },
+    {
+      "texto": "Li.",
+      "inicio": 160.42,
+      "fim": 160.58,
+      "conf": 1.0,
+      "locutor_bruto": "speaker_0",
+      "i": 340,
+      "fonte": "saida"
+    },
+    {
+      "texto": "São",
+      "inicio": 160.78,
+      "fim": 160.92,
+      "conf": 0.998,
+      "locutor_bruto": "speaker_0",
+      "i": 341,
+      "fonte": "saida"
+    },
+    {
+      "texto": "somente",
+      "inicio": 160.96,
+      "fim": 161.3,
+      "conf": 1.0,
+      "locutor_bruto": "speaker_0",
+      "i": 342,
+      "fonte": "saida"
+    },
+    {
+      "texto": "dezoito",
+      "inicio": 161.42,
+      "fim": 161.8,
+      "conf": 1.0,
+      "locutor_bruto": "speaker_0",
+      "i": 343,
+      "fonte": "saida"
+    },
+    {
+      "texto": "minutos",
+      "inicio": 161.88,
+      "fim": 162.28,
+      "conf": 1.0,
+      "locutor_bruto": "speaker_0",
+      "i": 344,
+      "fonte": "saida"
+    },
+    {
+      "texto": "com",
+      "inicio": 162.42,
+      "fim": 162.48,
+      "conf": 1.0,
+      "locutor_bruto": "speaker_0",
+      "i": 345,
+      "fonte": "saida"
+    },
+    {
+      "texto": "a",
+      "inicio": 162.5,
+      "fim": 162.54,
+      "conf": 1.0,
+      "locutor_bruto": "speaker_0",
+      "i": 346,
+      "fonte": "saida"
+    },
+    {
+      "texto": "legenda",
+      "inicio": 162.58,
+      "fim": 163.115,
+      "conf": 1.0,
+      "locutor_bruto": "speaker_0",
+      "i": 347,
+      "fonte": "saida"
+    },
+    {
+      "texto": "em",
+      "inicio": 163.28,
+      "fim": 163.42,
+      "conf": 1.0,
+      "locutor_bruto": "speaker_0",
+      "i": 348,
+      "fonte": "saida"
+    },
+    {
+      "texto": "português.",
+      "inicio": 163.44,
+      "fim": 163.92,
+      "conf": 1.0,
+      "locutor_bruto": "speaker_0",
+      "i": 349,
+      "fonte": "saida"
+    },
+    {
+      "texto": "E",
+      "inicio": 164.18,
+      "fim": 164.28,
+      "conf": 1.0,
+      "locutor_bruto": "speaker_0",
+      "i": 350,
+      "fonte": "saida"
+    },
+    {
+      "texto": "manda",
+      "inicio": 164.34,
+      "fim": 164.54,
+      "conf": 0.987,
+      "locutor_bruto": "speaker_0",
+      "i": 351,
+      "fonte": "saida"
+    },
+    {
+      "texto": "esse",
+      "inicio": 164.56,
+      "fim": 164.78,
+      "conf": 1.0,
+      "locutor_bruto": "speaker_0",
+      "i": 352,
+      "fonte": "saida"
+    },
+    {
+      "texto": "vídeo",
+      "inicio": 164.84,
+      "fim": 165.12,
+      "conf": 1.0,
+      "locutor_bruto": "speaker_0",
+      "i": 353,
+      "fonte": "saida"
+    },
+    {
+      "texto": "pra",
+      "inicio": 165.42,
+      "fim": 165.48,
+      "conf": 0.998,
+      "locutor_bruto": "speaker_0",
+      "i": 354,
+      "fonte": "saida"
+    },
+    {
+      "texto": "alguém",
+      "inicio": 165.5,
+      "fim": 165.82,
+      "conf": 1.0,
+      "locutor_bruto": "speaker_0",
+      "i": 355,
+      "fonte": "saida"
+    },
+    {
+      "texto": "que",
+      "inicio": 165.9,
+      "fim": 166.0,
+      "conf": 1.0,
+      "locutor_bruto": "speaker_0",
+      "i": 356,
+      "fonte": "saida"
+    },
+    {
+      "texto": "já",
+      "inicio": 166.04,
+      "fim": 166.26,
+      "conf": 1.0,
+      "locutor_bruto": "speaker_0",
+      "i": 357,
+      "fonte": "saida"
+    },
+    {
+      "texto": "foi",
+      "inicio": 166.32,
+      "fim": 166.54,
+      "conf": 1.0,
+      "locutor_bruto": "speaker_0",
+      "i": 358,
+      "fonte": "saida"
+    },
+    {
+      "texto": "o",
+      "inicio": 166.76,
+      "fim": 166.82,
+      "conf": 1.0,
+      "locutor_bruto": "speaker_0",
+      "i": 359,
+      "fonte": "saida"
+    },
+    {
+      "texto": "tradutor",
+      "inicio": 166.86,
+      "fim": 167.32,
+      "conf": 1.0,
+      "locutor_bruto": "speaker_0",
+      "i": 360,
+      "fonte": "saida"
+    },
+    {
+      "texto": "da",
+      "inicio": 167.68,
+      "fim": 167.76,
+      "conf": 1.0,
+      "locutor_bruto": "speaker_0",
+      "i": 361,
+      "fonte": "saida"
+    },
+    {
+      "texto": "família.",
+      "inicio": 167.84,
+      "fim": 168.3,
+      "conf": 0.999,
+      "locutor_bruto": "speaker_0",
+      "i": 362,
+      "fonte": "saida"
+    }
+  ],
+  "eventos": []
+}

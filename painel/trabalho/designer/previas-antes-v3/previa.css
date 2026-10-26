@@ -1,0 +1,73 @@
+/* Moldura das PRÉVIAS do design system (documentação). Não vai para o app: o app usa tokens.css + componentes.css +
+   acrescimos.css. Aqui só ficam o layout das páginas de prévia, as legendas e os selos "Exemplo" e "Proposta". */
+
+.pv{max-width:1120px;margin:0 auto;padding:var(--space-48) var(--space-32) var(--space-64)}
+.pv-head{display:flex;flex-direction:column;gap:var(--space-8);padding-bottom:var(--space-24);border-bottom:1px solid var(--line)}
+.pv-head .k-cap{color:var(--ink-2)}
+.pv-lead{margin:0;max-width:720px;font-size:15px;line-height:22px;color:var(--ink-2)}
+.pv-sec{margin-top:var(--space-32)}
+.pv-sec-t{margin:0 0 var(--space-12);display:flex;align-items:center;flex-wrap:wrap;gap:var(--space-8)}
+.pv-cap{display:block;margin-top:var(--space-8);font-size:12px;line-height:16px;color:var(--ink-2)}
+.pv-nota{margin:var(--space-12) 0 0;max-width:720px;font-size:13px;line-height:18px;color:var(--ink-2)}
+.pv-nota b{color:var(--ink);font-weight:600}
+.pv-lista{margin:var(--space-8) 0 0;padding-left:18px;max-width:720px;font-size:13px;line-height:20px;color:var(--ink-2)}
+.pv-foot{margin-top:var(--space-48);padding-top:var(--space-16);border-top:1px solid var(--line);display:flex;flex-wrap:wrap;gap:var(--space-8) var(--space-24);font-size:12px;line-height:16px;color:var(--ink-2)}
+.pv a:not(.k-btn):not(.k-card):not(.k-nav-item):not(.k-sidebar-logo){color:var(--ink);text-decoration:underline;text-underline-offset:3px;text-decoration-color:var(--line-strong)}
+.pv a:not(.k-btn):not(.k-card):not(.k-nav-item):not(.k-sidebar-logo):hover{text-decoration-color:var(--ink)}
+.pv-nota .k-mono,.pv-lista .k-mono{white-space:nowrap}
+.pv-foot a{color:var(--ink);text-decoration:underline;text-underline-offset:3px;text-decoration-color:var(--line-strong)}
+.pv-foot a:hover{text-decoration-color:var(--ink)}
+.pv-grade{display:grid;gap:var(--space-16)}
+.pv-grade-2{grid-template-columns:repeat(2,minmax(0,1fr))}
+.pv-grade-3{grid-template-columns:repeat(3,minmax(0,1fr))}
+.pv-grade-4{grid-template-columns:repeat(4,minmax(0,1fr))}
+.pv-item{min-width:0}
+
+/* Selos: "Exemplo" = número/estado sem fonte de dados hoje; "Proposta" = acréscimo da designer que vai ao Carlos. */
+.pv-tag{display:inline-flex;align-items:center;height:20px;padding:0 var(--space-8);border-radius:var(--radius-pill);border:1px dashed var(--line-strong);font:500 11px/1 var(--font-mono);color:var(--ink-2);white-space:nowrap}
+.pv-tag--proposta{border-style:solid;color:var(--ink)}
+.pv-tag--real{border-style:solid;border-color:var(--line);color:var(--ink-2)}
+.pv-sec-t .pv-tag{text-transform:none;letter-spacing:0}
+.pv-icones{display:grid;grid-template-columns:repeat(auto-fill,minmax(112px,1fr));gap:var(--space-8)}
+.pv-fila{display:flex;flex-wrap:wrap;align-items:flex-start;gap:var(--space-24)}
+
+/* Amostras dos fundamentos */
+.pv-sw{border:1px solid var(--line);border-radius:var(--radius-btn);overflow:hidden;background:var(--surface);min-width:0}
+.pv-sw i{display:block;height:40px;border-bottom:1px solid var(--line)}
+.pv-sw div{padding:6px var(--space-8) var(--space-8);display:flex;flex-direction:column;gap:2px}
+.pv-sw b{font-size:12px;line-height:16px;font-weight:600}
+.pv-sw span{font:500 11px/14px var(--font-mono);color:var(--ink-2);overflow-wrap:anywhere}
+.pv-tipo{display:grid;grid-template-columns:120px minmax(0,1fr);gap:var(--space-16);align-items:baseline;padding:var(--space-12) 0;border-bottom:1px solid var(--line)}
+.pv-tipo > span{font:500 11px/16px var(--font-mono);color:var(--ink-2)}
+.pv-tipo > div{min-width:0;overflow-wrap:anywhere}
+.pv-esp{display:flex;align-items:flex-end;flex-wrap:wrap;gap:var(--space-16)}
+.pv-esp div{display:flex;flex-direction:column;align-items:center;gap:6px}
+.pv-esp i{display:block;background:var(--accent);border-radius:2px}
+.pv-esp span,.pv-raio span{font:500 11px/14px var(--font-mono);color:var(--ink-2);text-align:center}
+.pv-raio{display:flex;flex-wrap:wrap;gap:var(--space-16)}
+.pv-raio div{display:flex;flex-direction:column;align-items:center;gap:6px;width:88px}
+.pv-raio i{display:block;width:100%;height:48px;border:1.5px solid var(--ink);border-right:0;border-bottom:0;background:var(--surface)}
+.pv-sombra{height:88px;display:grid;place-items:center;font:500 11px/14px var(--font-mono);color:var(--ink-2);background:var(--surface);border:1px solid var(--line);border-radius:var(--radius-card)}
+.pv-icone{display:flex;flex-direction:column;align-items:center;gap:var(--space-8);padding:14px 4px 10px;border:1px solid var(--line);border-radius:var(--radius-btn);background:var(--surface);text-align:center;min-width:0}
+.pv-icone b{font-size:12px;line-height:14px;font-weight:600}
+.pv-icone span{font:500 11px/14px var(--font-mono);color:var(--ink-2);overflow-wrap:anywhere}
+.pv-quadro{border:1px dashed var(--line-strong);border-radius:var(--radius-card);min-height:120px;display:grid;place-items:center;font:500 12px/16px var(--font-mono);color:var(--ink-2);text-align:center;padding:var(--space-16)}
+.pv-largura{max-width:460px}
+
+/* Índice */
+.pv-indice{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:var(--space-16)}
+.pv-indice a{display:flex;flex-direction:column;gap:var(--space-4);padding:var(--space-16);text-decoration:none;color:inherit}
+.pv-indice a span{font-size:13px;line-height:18px;color:var(--ink-2)}
+
+@media (max-width:1023px){
+  .pv-grade-4{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .pv-indice{grid-template-columns:repeat(2,minmax(0,1fr))}
+}
+@media (max-width:767px){
+  .pv{padding:var(--space-24) var(--space-16) var(--space-48)}
+  .pv-grade-2,.pv-grade-3{grid-template-columns:minmax(0,1fr)}
+  .pv-tipo{grid-template-columns:minmax(0,1fr);gap:var(--space-4)}
+}
+@media (max-width:639px){
+  .pv-grade-4,.pv-indice{grid-template-columns:minmax(0,1fr)}
+}

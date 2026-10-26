@@ -1,0 +1,145 @@
+{
+  "L01|L01-T1": {
+    "fonte": "praq0996",
+    "in": 66.04,
+    "out": 70.16,
+    "cortes_internos": [
+      [
+        67.84,
+        67.92
+      ]
+    ],
+    "zoom": null,
+    "layout": "split",
+    "zoom_pecas": [
+      1.0
+    ],
+    "zoom_origem": "39.7% 30.5%"
+  },
+  "L02|L02-T2": {
+    "fonte": "praq0996",
+    "in": 89.52,
+    "out": 92.76,
+    "cortes_internos": [
+      [
+        90.84,
+        91.12
+      ]
+    ],
+    "zoom": null,
+    "layout": "split",
+    "zoom_pecas": [
+      1.12,
+      1.0
+    ],
+    "zoom_origem": "43.9% 27.5%"
+  },
+  "L03|L03-T3": {
+    "fonte": "praq0996",
+    "in": 237.04,
+    "out": 242.24,
+    "cortes_internos": [
+      [
+        238.72,
+        239.44
+      ]
+    ],
+    "zoom": null,
+    "layout": "split",
+    "zoom_pecas": [
+      1.12,
+      1.0
+    ],
+    "zoom_origem": "41.2% 27.7%"
+  },
+  "L04|L04-T3": {
+    "fonte": "praq0996",
+    "in": 366.4,
+    "out": 372.08,
+    "cortes_internos": [
+      [
+        367.48,
+        368.8
+      ]
+    ],
+    "zoom": null,
+    "layout": "split",
+    "zoom_pecas": [
+      1.12,
+      1.12
+    ],
+    "zoom_origem": "33.4% 29.2%"
+  },
+  "L05|L05-T1": {
+    "fonte": "praq0996",
+    "in": 397.96,
+    "out": 403.76,
+    "cortes_internos": [
+      [
+        399.72,
+        400.64
+      ]
+    ],
+    "zoom": null,
+    "layout": "split",
+    "zoom_pecas": [
+      1.0,
+      1.12
+    ],
+    "zoom_origem": "40.8% 28.3%"
+  },
+  "L06|L06-T1": {
+    "fonte": "praq0996",
+    "in": 463.2,
+    "out": 469.24,
+    "cortes_internos": [
+      [
+        464.64,
+        465.52
+      ]
+    ],
+    "zoom": null,
+    "layout": "split",
+    "zoom_pecas": [
+      1.0,
+      1.12
+    ],
+    "zoom_origem": "37.9% 29.0%"
+  },
+  "L07|L07-T2": {
+    "fonte": "praq0996",
+    "in": 498.0,
+    "out": 500.84,
+    "cortes_internos": [],
+    "zoom": null,
+    "layout": "full",
+    "zoom_pecas": [
+      1.0
+    ],
+    "zoom_origem": "45.0% 28.7%"
+  },
+  "L08|L08-T1": {
+    "fonte": "praq0996",
+    "in": 509.2,
+    "out": 511.92,
+    "cortes_internos": [],
+    "zoom": null,
+    "layout": "full",
+    "zoom_pecas": [
+      1.12
+    ],
+    "zoom_origem": "46.4% 28.0%"
+  },
+  "L09|L09-T1": {
+    "fonte": "praq0996",
+    "in": 519.4,
+    "out": 522.44,
+    "cortes_internos": [],
+    "zoom": null,
+    "layout": "full",
+    "zoom_pecas": [
+      1.0
+    ],
+    "zoom_origem": "50% 38%"
+  }
+}

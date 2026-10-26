@@ -1,0 +1,14 @@
+# capturar.sh · 2026-10-23T13:54:11.890Z
+# alvo	largura pedida	innerWidth	scrollWidth	altura	HTTP	png	passa da borda
+painel/design/previas/casca.html	1440	1440	1440	962	200	/Users/teste/Documents/CONTENT AI/painel/trabalho/designer/capturas-v2/casca-1440.png	
+painel/design/previas/casca.html	375	375	375	1644	200	/Users/teste/Documents/CONTENT AI/painel/trabalho/designer/capturas-v2/casca-375.png	
+painel/design/previas/nao-encontrado.html	1440	1440	1440	900	200	/Users/teste/Documents/CONTENT AI/painel/trabalho/designer/capturas-v2/nao-encontrado-1440.png	
+painel/design/previas/nao-encontrado.html	375	375	375	812	200	/Users/teste/Documents/CONTENT AI/painel/trabalho/designer/capturas-v2/nao-encontrado-375.png	
+painel/design/previas/kpi.html	1440	1440	1440	1018	200	/Users/teste/Documents/CONTENT AI/painel/trabalho/designer/capturas-v2/kpi-1440.png	
+painel/design/previas/kpi.html	375	375	375	1698	200	/Users/teste/Documents/CONTENT AI/painel/trabalho/designer/capturas-v2/kpi-375.png	
+painel/design/previas/barra-lateral.html	1440	1440	1440	1236	200	/Users/teste/Documents/CONTENT AI/painel/trabalho/designer/capturas-v2/barra-lateral-1440.png	
+painel/design/previas/barra-lateral.html	375	375	375	2008	200	/Users/teste/Documents/CONTENT AI/painel/trabalho/designer/capturas-v2/barra-lateral-375.png	
+painel/design/previas/erro.html	1440	1440	1440	900	200	/Users/teste/Documents/CONTENT AI/painel/trabalho/designer/capturas-v2/erro-1440.png	
+painel/design/previas/erro.html	375	375	375	1064	200	/Users/teste/Documents/CONTENT AI/painel/trabalho/designer/capturas-v2/erro-375.png	
+painel/design/previas/graficos.html	1440	1440	1440	1006	200	/Users/teste/Documents/CONTENT AI/painel/trabalho/designer/capturas-v2/graficos-1440.png	
+painel/design/previas/graficos.html	375	375	375	1698	200	/Users/teste/Documents/CONTENT AI/painel/trabalho/designer/capturas-v2/graficos-375.png	

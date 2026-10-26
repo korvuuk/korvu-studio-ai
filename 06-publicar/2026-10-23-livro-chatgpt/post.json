@@ -1,0 +1,41 @@
+{
+  "slug": "2026-10-23-livro-chatgpt",
+  "publicar_em": "2026-10-27T21:00:00+00:00",
+  "plataformas": [
+    "instagram"
+  ],
+  "estado": "agendado",
+  "confirmar": false,
+  "instagram": {
+    "legenda_arquivo": "legenda-instagram.txt",
+    "capa": "capa/capa.png",
+    "share_to_feed": true,
+    "trial": {
+      "graduation_strategy": "MANUAL"
+    },
+    "container_id": null,
+    "media_id": null,
+    "permalink": null
+  },
+  "facebook": {
+    "legenda_arquivo": "legenda-facebook.txt",
+    "tipo": null,
+    "video_id": null,
+    "permalink": null
+  },
+  "material": {
+    "palavra": "LIVRO",
+    "arquivo": "material/50-comandos-de-aprendizado.pdf",
+    "titulo": "a lista com os 50 comandos de aprendizado",
+    "url": null
+  },
+  "publicado_em": null,
+  "erros": [],
+  "notas": [
+    "ordem combinada: depois do Jensen — se o Jensen ficar pronto antes, reordenar no /fila",
+    "B (conteúdo primeiro, IG + FB), 1.ª do teste de abertura; legenda/hashtags/capa idênticas; Trial MANUAL",
+    "confirmado pelo Carlos em 2026-10-21T21:30 ('Confirma os quatro posts na fila com essas datas')",
+    "22/10 (Carlos): sai HOJE 21:00 como Reel NORMAL (sem Trial), IG + FB — para os seguidores testarem a automação da palavra LIVRO; substitui a ordem 'depois do Jensen'",
+    "22/10 (Carlos): a versão de conteúdo primeiro (B) vai para o TRIAL (só IG, MANUAL) — ter 27/10 21:00, trocou de vaga com a A"
+  ]
+}

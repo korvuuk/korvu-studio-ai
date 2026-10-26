@@ -1,0 +1,40 @@
+{
+  "slug": "2026-10-23-livro-chatgpt-a",
+  "publicar_em": "2026-10-22T21:00:00+01:00",
+  "plataformas": [
+    "instagram",
+    "facebook"
+  ],
+  "estado": "publicado",
+  "confirmar": false,
+  "instagram": {
+    "legenda_arquivo": "legenda-instagram.txt",
+    "capa": "capa/capa.png",
+    "share_to_feed": true,
+    "trial": null,
+    "container_id": "18639995038014052",
+    "media_id": "18117599168008235",
+    "permalink": "https://www.instagram.com/reel/Dezzw0iimTe/",
+    "container_impressao": "09463842bedc"
+  },
+  "facebook": {
+    "legenda_arquivo": "legenda-facebook.txt",
+    "tipo": "reel",
+    "video_id": "1829716168045842",
+    "permalink": "https://www.facebook.com/reel/1829716168045842/"
+  },
+  "material": {
+    "palavra": "LIVRO",
+    "arquivo": "material/50-comandos-de-aprendizado.pdf",
+    "titulo": "a lista com os 50 comandos de aprendizado",
+    "url": "https://media.korvuai.com/reels/2026-10-23-livro-chatgpt-a/material/50-comandos-de-aprendizado.pdf"
+  },
+  "publicado_em": "2026-10-22T21:19:22+01:00",
+  "erros": [],
+  "notas": [
+    "ordem combinada: depois do Jensen — se o Jensen ficar pronto antes, reordenar no /fila",
+    "A (Carlos desde 0, mesmo hook), só IG; legenda/hashtags/capa idênticas; Trial MANUAL",
+    "confirmado pelo Carlos em 2026-10-21T21:30 ('Confirma os quatro posts na fila com essas datas')",
+    "22/10 (Carlos): a versão em que ele aparece desde o 1.º segundo (A) é a que sai NORMAL na página, IG + FB — hoje 22/10 21:00, no lugar da B"
+  ]
+}

@@ -1,0 +1,262 @@
+/* painel/web — acréscimos do FRONT-END ao design system "korvu. painel".
+   O design system copiado em ./design/ (tokens.css, componentes.css, acrescimos.css — v2, APROVADO às 21:04 de 23/10)
+   NÃO é editado aqui. Desde a v2, a barra do app, os avisos, o dono, o rótulo de duas linhas, os tokens em destaque e o
+   PI38 vêm do acrescimos.css; o que sobra abaixo é só o que a estrutura do app pede e o livro não desenha: lista da
+   busca, painel do sino, campos de formulário, lista rótulo→valor, seta da dica virada… Prefixo kx-. Só var(--…) de
+   ./design/tokens.css. Vão à designer para entrar no livro. */
+
+/* ========== [FRONT] Casca: o que a estrutura do app pede além do acrescimos.css v2 ==========
+   A busca do app tem um invólucro (.kx-busca) para a lista de resultados; as regras da v2 miram .k-appbar > .k-search e
+   .k-sidebar > .k-search, então o invólucro recebe as mesmas medidas aqui. */
+.k-appbar > .kx-busca{flex:0 1 440px;min-width:0}
+.k-sidebar > .kx-busca{display:none}
+.k-topbar > a{display:flex;align-items:center;min-height:var(--control-height)} /* alvo do logotipo com 36px de altura, não 19 */
+.k-main:focus{outline:none} /* destino do "Pular para o conteúdo": recebe o foco, sem anel em volta da página inteira */
+.kx-nav{display:flex;flex-direction:column;gap:2px}
+.kx-nav-rotulo{min-width:0}
+
+/* ========== [FRONT] Links com cara de componente (sem sublinhado nem cor de link) ========== */
+a.k-card,a.k-note{color:inherit;text-decoration:none}
+a.k-note{transition:background var(--duracao-padrao) var(--curva)}
+a.k-note:hover{background:var(--surface-hover)}
+a.k-note:focus-visible{outline-offset:-2px}
+
+/* ========== [FRONT] Topo de página e seção: texto sob o título ========== */
+.kx-page-head-texto,.kx-section-texto{min-width:0}
+.kx-section-sub{margin:var(--space-4) 0 0;font-size:13px;line-height:18px;color:var(--ink-2);max-width:80ch}
+.kx-sobretitulo{margin:0 0 var(--space-8)}
+.kx-rodape{margin-top:var(--space-48);padding-top:var(--space-16);border-top:1px solid var(--line)} /* com .k-fonte, como nas maquetes */
+.kx-aviso-banco{margin-bottom:var(--space-24)}
+
+/* ========== [FRONT] Utilitários de composição (sem cor, sem fonte) ========== */
+.kx-sem-margem{margin:0}
+.kx-lista-limpa{list-style:none;margin:0;padding:0}
+.kx-recorte{overflow:hidden}
+.kx-cresce{flex:1;min-width:0}
+.kx-largura-toda{width:100%}
+.kx-cap-bloco{margin:0 0 var(--space-12)}
+.kx-card-head{align-items:flex-start;margin-bottom:var(--space-16)}
+.kx-card-head-texto{min-width:0}
+
+/* ========== [FRONT] Estado vazio: título em parágrafo (o sistema estiliza h4; aqui sem pular nível de título) ========== */
+.k-empty .kx-empty-titulo{margin:0;font-size:15px;line-height:22px;font-weight:600;color:var(--ink);max-width:none}
+.kx-empty-acao{margin-top:6px}
+
+/* ========== [FRONT] Nota: coluna do texto (inline nas prévias) ========== */
+.kx-note-texto{flex:1;min-width:0}
+
+/* ========== [FRONT] Dica: seta virada quando a dica abre ABAIXO do elemento; alvo focável ========== */
+.k-tooltip.is-floating.is-abaixo::after{bottom:auto;top:-4px}
+.kx-dica-alvo{position:relative;display:inline-flex;border-radius:var(--radius-pill);cursor:default}
+
+.k-check > .kx-dica-alvo{margin-left:auto;flex:none}
+.k-check.is-on .kx-dica-alvo{text-decoration:none}
+
+/* ========== [FRONT] Busca: lista de resultados (usa .k-menu) ========== */
+.kx-busca{position:relative;min-width:0}
+.kx-busca > .k-search{width:100%;min-width:0}
+/* o "×" nativo do campo de busca (azul do navegador, fora do sistema): o "esc" do próprio campo limpa */
+.kx-busca input::-webkit-search-cancel-button,.kx-busca input::-webkit-search-decoration{-webkit-appearance:none;appearance:none;display:none}
+.kx-busca-pop{position:absolute;left:0;right:0;top:calc(100% + var(--space-4));z-index:40;max-height:min(440px,70vh);overflow-y:auto}
+.kx-busca-pop .k-menu-item{min-width:0}
+.kx-busca-rotulo{white-space:nowrap;overflow:hidden;text-overflow:ellipsis;min-width:0}
+/* detalhe em ink-2, não ink-3: a linha ativa é surface-sunken, onde ink-3 dá 4,36:1 (o livro só deixa ink-3 sobre bg e surface) */
+.kx-busca-detalhe{margin-left:auto;padding-left:var(--space-8);font-size:12px;color:var(--ink-2);white-space:nowrap;overflow:hidden;text-overflow:ellipsis;min-width:0;flex:0 1 auto}
+.kx-busca-grupo{margin:0;padding:var(--space-8) 10px var(--space-4)}
+.kx-busca-vazio{margin:0;padding:var(--space-8) 10px;font-size:13px;line-height:18px;color:var(--ink-2)}
+
+/* ========== [FRONT] Avisos: posição do popover do sino (k-menu + k-note, como na maquete) ========== */
+.kx-avisos{position:relative}
+.kx-avisos-painel{position:absolute;right:0;top:calc(100% + var(--space-8));z-index:40;width:min(380px,calc(100vw - 2 * var(--space-16)));padding:0;overflow:hidden;color:var(--ink)}
+.kx-avisos-cab{margin:0;padding:12px 16px 4px}
+.kx-avisos-lista{max-height:min(480px,65vh);overflow-y:auto}
+
+/* ========== [FRONT] Dropdown: posição do menu ========== */
+.kx-selecao{position:relative;display:inline-block}
+.kx-selecao-menu{position:absolute;left:0;top:calc(100% + var(--space-4));z-index:40}
+.kx-selecao-menu:focus{outline:none}
+.k-select.kx-aberto{border-color:var(--ink)}
+.kx-com-separador{position:relative;margin-top:13px}
+.kx-com-separador::before{content:"";position:absolute;left:4px;right:4px;top:-7px;height:1px;background:var(--line)}
+
+/* ========== [FRONT] Campos de formulário (mesma roupa da k-search) ========== */
+.kx-campo{display:flex;flex-direction:column;gap:6px;min-width:0}
+.kx-entrada{display:block;width:100%;min-height:var(--control-height);padding:8px 12px;border-radius:var(--radius-btn);background:var(--surface);border:1px solid var(--line-strong);color:var(--ink);font:400 13px/18px var(--font-sans)}
+.kx-entrada::placeholder{color:var(--ink-3)}
+.kx-entrada:focus-visible{outline:none;border-color:var(--ink);box-shadow:0 0 0 3px var(--accent-soft)}
+textarea.kx-entrada{resize:vertical}
+.kx-escolha{position:relative;display:block}
+.kx-escolha > select.kx-entrada{appearance:none;padding-right:36px;cursor:pointer}
+.kx-escolha > [data-icon]{position:absolute;right:10px;top:50%;transform:translateY(-50%);pointer-events:none;color:var(--ink-2)}
+
+/* ========== [FRONT] Lista rótulo → valor (ficha de uma pessoa) ========== */
+.kx-dados{margin:0}
+.kx-dados > div{display:grid;grid-template-columns:minmax(0,11rem) minmax(0,1fr);gap:var(--space-4) var(--space-16);padding:var(--space-12) 0;border-top:1px solid var(--line)}
+.kx-dados > div:first-child{border-top:0;padding-top:0}
+.kx-dados > div:last-child{padding-bottom:0}
+.kx-dados dt{padding-top:3px}
+.kx-dados dd{margin:0;min-width:0;font-size:15px;line-height:22px}
+.kx-codigos{display:flex;flex-wrap:wrap;gap:var(--space-4)}
+
+/* ========== [FRONT] Bloco "copie e cole" ========== */
+.kx-pre{margin:0;white-space:pre-wrap;overflow-wrap:anywhere;color:var(--ink)}
+
+/* ========== [FRONT] Ressalva numa célula (ícone de alerta + palavras) ========== */
+.kx-ressalva{display:flex;gap:var(--space-4);align-items:flex-start;margin-top:var(--space-4);font-size:12px;line-height:16px;color:var(--ink-2);white-space:normal;max-width:22rem}
+.kx-ressalva > [data-icon]{color:var(--danger);margin-top:1px}
+
+/* ========== [FRONT] Gráficos: barras, rosca, linha, barra na célula ========== */
+.kx-grafico{display:flex;flex-direction:column;gap:var(--space-12);min-width:0}
+.kx-barras{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:10px}
+.k-bar-row:focus-visible{border-radius:var(--radius-sm)}
+.kx-barra-celula{display:flex;align-items:center;gap:var(--space-8)}
+.kx-barra-celula > .k-bar-track{width:80px;flex:none}
+.kx-rosca{display:flex;align-items:center;gap:var(--space-16);flex-wrap:wrap}
+.kx-rosca-trilho{stroke:var(--surface-sunken)}
+.k-chart .kx-rosca-total{font:700 16px var(--font-sans);fill:var(--ink)}
+.kx-rosca-legenda{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:6px;font-size:12px;line-height:16px;color:var(--ink)}
+.kx-rosca-legenda i{display:inline-block;width:8px;height:8px;border-radius:2px;margin-right:6px}
+.kx-rosca-legenda b{margin-left:4px}
+.kx-linha{width:100%;min-height:180px}
+.k-chart .kx-linha-fim{fill:var(--surface);stroke:var(--accent);stroke-width:2}
+.k-chart .kx-linha-mira{stroke:var(--line-strong);stroke-width:1}
+.k-chart .kx-linha-alvo{fill:transparent;outline:none}
+.k-chart .kx-linha-alvo:focus-visible{stroke:var(--focus);stroke-width:2}
+
+/* ========== [FRONT] Progresso: cabeçalho da barra e etapas ========== */
+.kx-progresso{display:flex;flex-direction:column;gap:var(--space-8)}
+.kx-progresso-cab{display:flex;justify-content:space-between;gap:12px;font-size:13px;line-height:18px}
+.kx-etapas{display:flex;flex-direction:column;gap:6px;min-width:96px}
+
+/* ========== [FRONT] Tabelas: célula de vídeo com teto (o título corta com reticências), etapa, âncora ========== */
+.kx-celula-video .k-video{max-width:20rem}
+.kx-etapa-celula{display:flex;flex-direction:column;gap:6px;min-width:120px}
+.kx-ancora{scroll-margin-top:var(--space-16)}
+.kx-nota-tabela{margin:var(--space-8) 0 0}
+.kx-ancora:target{background:var(--surface-hover)}
+.k-section{scroll-margin-top:var(--space-16)}
+@media (max-width:1023px){
+  .kx-ancora,.k-section{scroll-margin-top:calc(var(--topbar-height) + var(--space-16))}
+}
+
+
+/* ========== [FRONT] Pilhas e etiquetas (vitrine /sistema, só com PAINEL_VITRINE=1; pilhas também na Equipe) ========== */
+.kx-etiqueta{display:inline-flex;align-items:center;height:20px;padding:0 6px;border-radius:var(--radius-sm);background:var(--surface-sunken);color:var(--ink-2);font:500 11px/1 var(--font-mono);vertical-align:middle}
+.kx-fila{display:flex;flex-wrap:wrap;align-items:center;gap:var(--space-8)}
+.kx-pilha{display:flex;flex-direction:column;gap:var(--space-16)}
+.kx-pilha-curta{display:flex;flex-direction:column;gap:var(--space-8)}
+.kx-divisoria{height:1px;background:var(--line)}
+.kx-fundo-escuro{background:var(--sidebar);border-color:var(--sidebar)}
+
+/* ========== Tela estreita ========== */
+@media (max-width:1023px){
+  .k-sidebar > .kx-busca{display:block;width:100%;margin:0 0 var(--space-16)}
+  .k-topbar .kx-avisos-painel{position:fixed;top:calc(var(--topbar-height) + var(--space-8));left:var(--space-16);right:var(--space-16);width:auto}
+}
+@media (max-width:767px){
+  .kx-so-teclado{display:none}
+}
+@media (max-width:639px){
+  .kx-dados > div{grid-template-columns:minmax(0,1fr)}
+}
+
+/* ========== [FRONT] Peças das telas de 23/10 que a maquete fazia com estilo solto ========== */
+.kx-kpi-foot-junto{justify-content:flex-start;gap:8px 10px;flex-wrap:wrap;min-width:0} /* maquete: style="justify-content:flex-start;gap:10px" */
+.kx-kpi-nome{flex:1 0 100%;font-size:13px;line-height:18px;font-weight:600;color:var(--ink)}
+.kx-fonte-bloco{margin-top:14px}
+.k-seg ~ .kx-painel{margin-top:14px}
+.k-filtros ~ .kx-painel{margin-top:var(--space-12)}
+.k-fases ~ .kx-painel{margin-top:var(--space-24)}
+.kx-coluna{display:flex;flex-direction:column}
+.kx-pilha-mini{display:flex;flex-direction:column;gap:2px;flex:1 1 180px;min-width:0}
+.kx-tokens-resumo{display:flex;align-items:center;flex-wrap:wrap;gap:16px 20px;margin-top:var(--space-16)}
+.kx-anel-partes{position:relative;flex:none}
+.kx-anel-centro{position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center}
+.kx-anel-total{font-size:24px;line-height:28px;font-weight:700;letter-spacing:-.02em}
+.kx-legenda-partes{display:flex;flex-direction:column;gap:7px;flex:1;min-width:110px}
+.kx-legenda-partes > li{display:flex;align-items:center;gap:8px}
+.kx-legenda-partes i{width:8px;height:8px;border-radius:2px;flex:none}
+.kx-custo-pe{margin-top:auto;padding-top:14px;border-top:1px solid var(--line);display:flex;align-items:flex-end;justify-content:space-between;gap:12px;flex-wrap:wrap}
+.kx-tokens-resumo + .kx-custo-pe{margin-top:var(--space-16)}
+.kx-moeda{font-size:15px;font-weight:600;color:var(--ink-2);margin-right:var(--space-4)}
+/* Equipe: a linha de pessoa sem a coluna Status (presença é exemplo até existir o dado — telas/equipe.md) */
+.kx-sem-status.k-pessoa-linha{grid-template-columns:32px minmax(0,1fr) 86px 64px 54px 14px}
+.kx-row-8{gap:8px}
+.kx-busca-lista{width:300px;max-width:100%}
+.kx-filtros-linha{margin-top:-8px}
+@media (max-width:639px){
+  .kx-sem-status.k-pessoa-linha{grid-template-columns:32px auto auto minmax(0,1fr)}
+}
+.kx-row-4{gap:4px}
+/* Produção (telas/producao.md): cabeçalho e pé das tabelas da fase, avisos e portões ao lado — valores da maquete */
+.kx-row-10{gap:10px}
+.kx-fase-cab{padding:14px 20px}
+.kx-fonte-ink2{color:var(--ink-2)}
+.kx-vazio-fase{margin:20px}
+.kx-pe-tabela{margin:0;padding:12px 20px;border-top:1px solid var(--line)}
+.kx-nada-fase{margin:0;padding:12px 20px}
+.kx-inline{display:inline}
+.kx-card-atencao{padding:16px 16px 8px}
+.kx-card-head-4{padding:0 4px}
+.kx-pilha-0{display:flex;flex-direction:column}
+.kx-card-portoes{padding:16px 20px}
+.kx-fonte-portoes{margin:6px 0 10px}
+.kx-nowrap{white-space:nowrap}
+/* Calendário */
+.kx-gira [data-icon]{transform:rotate(180deg)}
+a.k-event{text-decoration:none;color:inherit}
+a.k-event:hover{border-color:var(--line-strong)}
+a.k-event:focus-visible{outline-offset:1px}
+.kx-cal-topo{margin-bottom:var(--space-16)}
+.kx-row-20{gap:20px}
+.kx-card-fila{padding:18px 20px}
+.kx-kv-topo{margin-top:var(--space-8)}
+/* Desempenho (telas/desempenho.md): cards de gráfico 20/24, cabeçalho com a frase ao lado, anel de 150, pé com linha */
+.kx-card-grafico{padding:20px 24px;display:flex;flex-direction:column;min-width:0}
+.kx-cab-grafico{align-items:baseline;flex-wrap:wrap}
+.kx-cab-grafico-texto{gap:12px;align-items:baseline;flex-wrap:wrap}
+.kx-corpo-grafico{margin-top:12px}
+.kx-anel-total.kx-anel-maior{font-size:32px;line-height:36px;letter-spacing:-.03em} /* o anel de 150 do "fora da bolha." */
+.kx-bolha{display:flex;align-items:center;flex-wrap:wrap;gap:16px 22px;margin-top:18px;margin-bottom:16px}
+.kx-bolha-legenda{display:flex;flex-direction:column;gap:14px;min-width:0}
+.kx-bolha-legenda .k-metric-l{display:block}
+.kx-amostra-trilho{background:var(--surface-sunken);box-shadow:inset 0 0 0 1px var(--line-strong)}
+.kx-pe-card{margin-top:auto;padding-top:14px;border-top:1px solid var(--line);display:flex;align-items:baseline;justify-content:space-between;flex-wrap:wrap;gap:4px 12px}
+.kx-saldo{font-size:13px;font-weight:600}
+.kx-saldo.is-bom{color:var(--positive)}
+.kx-saldo.is-ruim{color:var(--danger)}
+.kx-paises{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:28px;margin-top:16px}
+.kx-paises .k-card-head{margin-bottom:8px}
+.kx-titulo-lista{font-size:13px;margin:0}
+.kx-fonte-pe{margin-top:auto;padding-top:12px}
+.kx-destaque-pe{margin-top:16px}
+a.k-video-title{color:var(--ink);text-decoration:none}
+a.k-video-title:hover{text-decoration:underline;text-decoration-color:var(--line-strong);text-underline-offset:3px}
+.k-chart .kx-linha-pico{font-weight:600;fill:var(--ink)}
+/* Tokens e custos (telas/tokens-e-custos.md): barras largas do departamento, custo por vídeo com a capa, por modelo */
+.kx-barras-largas{margin-top:16px;gap:12px}
+.kx-barras-capa{display:flex;flex-direction:column;gap:12px}
+.kx-barra-capa{gap:10px}
+.kx-barra-capa-corpo{flex:1;min-width:0}
+.kx-barra-capa-linha{justify-content:space-between;gap:8px;flex-wrap:nowrap}
+.kx-barra-capa .k-video-title{font-size:13px;min-width:0}
+.kx-barra-capa .k-mono{font-size:12px;flex:none}
+.kx-barra-capa .k-bar-track{display:block;height:6px;border-radius:var(--radius-pill);margin-top:4px}
+.kx-barra-capa .k-bar-fill{border-radius:inherit}
+.kx-card-pilha{gap:12px}
+.kx-modelos{display:flex;align-items:center;flex-wrap:wrap;gap:16px 20px;margin-top:16px}
+.kx-modelos .k-kv{flex:1;min-width:170px}
+.kx-amostra{display:inline-block;width:8px;height:8px;border-radius:2px;flex:none}
+.kx-anel-cap{font-size:11px}
+.kx-projecao{padding:20px 24px}
+.kx-projecao-linha{justify-content:space-between;align-items:center}
+.kx-kpi-valor-lado{justify-content:space-between;align-items:center;gap:12px}
+/* Biblioteca · acervo de estilos: os quadros sem imagem (look sem prévia, legenda sem amostra, fonte sem "Aa" desenhado) */
+.kx-look-sem{position:absolute;inset:0;display:grid;place-items:center;color:var(--ink-3)}
+.kx-legenda-sem{width:112px;aspect-ratio:9 / 16;border-radius:var(--radius-btn);background:var(--surface-sunken)}
+.kx-tipo-aa{font-size:40px;line-height:48px;font-weight:600;color:var(--ink)}
+.kx-abas{margin-bottom:18px}
+.kx-meta-ink{color:var(--ink)}
+/* abas da Biblioteca: o bloco que sobra no alto não herda a margem do vizinho escondido */
+.k-acervo-sec[hidden] + .k-acervo-par,.k-acervo-par[hidden] + .k-acervo-par,.k-acervo-par[hidden] + .k-acervo-sec{margin-top:0}
+.kx-meta-lider{font:600 11px/15px var(--font-mono);color:var(--accent-ink)} /* a líder do cartão Sistema, sem o .k-estilo-meta (que a pintaria de ink-3) */

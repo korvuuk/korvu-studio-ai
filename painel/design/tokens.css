@@ -1,0 +1,154 @@
+/* korvu. painel — variáveis de design (tokens).
+   Gerado de painel/design/tokens.json, que copia os valores do Claude Design (Carlos, 23/10/2026), com duas
+   decisões dele de 23/10: --line-strong #928874 e --focus = accent-ink nos fundos claros (--focus-on-dark = accent).
+   Os nomes das variáveis são exatamente os que componentes.css usa (var(--bg), var(--ink-2), var(--space-24)…).
+   Não edite à mão: mude tokens.json (com decisão do Carlos) e gere de novo. */
+
+@font-face {
+  font-family: "Geist";
+  src: url("fontes/Geist-Variable.woff2") format("woff2");
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Geist Mono";
+  src: url("fontes/GeistMono-Variable.woff2") format("woff2");
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+:root {
+  /* Cor — não alterar sem decisão do Carlos. Tema único: claro, "Marfim". */
+  --bg: #f5f2e8;
+  --surface: #fbf9f4;
+  --surface-sunken: #efebe0;
+  --surface-hover: #f8f5ee;
+  --line: #e4dfd2;
+  --line-strong: #928874;
+  --ink: #111111;
+  --ink-2: #6b6458;
+  --ink-3: #736c60;
+  --sidebar: #111111;
+  --sidebar-raised: #1d1c1a;
+  --sidebar-line: #2c2a27;
+  --sidebar-ink: #f5f2e8;
+  --sidebar-ink-2: #9a9385;
+  --accent: #ff4d00;
+  --accent-hover: #e64500;
+  --accent-soft: #ffe8dc;
+  --accent-ink: #b33600;
+  --on-accent: #111111;
+  --positive: #1e7a45;
+  --positive-soft: #e3f0e4;
+  --danger: #c2271b;
+  --danger-soft: #fbe3df;
+  --chart-1: var(--accent); /* alias de accent = #ff4d00 */
+  --chart-2: #111111;
+  --chart-3: #a39b8b;
+  --chart-4: #d6ccb5;
+  --chart-5: #4f6475;
+  --chart-grid: #e9e4d8;
+  --focus: var(--accent-ink); /* alias de accent-ink = #b33600 */
+  --focus-on-dark: var(--accent); /* alias de accent = #ff4d00 */
+
+  /* Famílias */
+  --font-sans: Geist, Inter, system-ui, sans-serif;
+  --font-mono: "Geist Mono", ui-monospace, monospace;
+
+  /* Espaçamento (base 4) */
+  --space-4: 4px;
+  --space-8: 8px;
+  --space-12: 12px;
+  --space-16: 16px;
+  --space-24: 24px;
+  --space-32: 32px;
+  --space-48: 48px;
+  --space-64: 64px;
+
+  /* Raios */
+  --radius-sm: 6px;
+  --radius-btn: 8px;
+  --radius-card: 12px;
+  --radius-panel: 14px;
+  --radius-pill: 999px;
+
+  /* Sombras */
+  --shadow-card: 0 1px 2px rgba(17,17,17,0.04);
+  --shadow-hover: 0 6px 20px rgba(17,17,17,0.07);
+  --shadow-pop: 0 12px 32px rgba(17,17,17,0.12);
+
+  /* Layout */
+  --viewport-desktop: 1440px;
+  --sidebar-width: 208px;
+  --content-padding: 32px;
+  --grid-columns: 12;
+  --grid-gutter: 24px;
+  --row-height: 56px;
+  --control-height: 36px;
+
+  /* Escala tipográfica (tokens.json → tipografia). Usada pelas classes .k-display…k-metric-l de acrescimos.css. */
+  --type-display-size: 56px;
+  --type-display-line: 60px;
+  --type-display-weight: 800;
+  --type-display-tracking: -0.035em;
+  --type-h1-size: 44px;
+  --type-h1-line: 48px;
+  --type-h1-weight: 800;
+  --type-h1-tracking: -0.03em;
+  --type-h2-size: 30px;
+  --type-h2-line: 36px;
+  --type-h2-weight: 700;
+  --type-h2-tracking: -0.02em;
+  --type-h3-size: 22px;
+  --type-h3-line: 28px;
+  --type-h3-weight: 700;
+  --type-h3-tracking: -0.015em;
+  --type-body-size: 15px;
+  --type-body-line: 22px;
+  --type-body-weight: 400;
+  --type-body-tracking: normal;
+  --type-body-strong-size: 15px;
+  --type-body-strong-line: 22px;
+  --type-body-strong-weight: 600;
+  --type-body-strong-tracking: normal;
+  --type-small-size: 13px;
+  --type-small-line: 18px;
+  --type-small-weight: 500;
+  --type-small-tracking: normal;
+  --type-caption-size: 11px;
+  --type-caption-line: 14px;
+  --type-caption-weight: 600;
+  --type-caption-tracking: 0.08em;
+  --type-metric-xl-size: 40px;
+  --type-metric-xl-line: 44px;
+  --type-metric-xl-weight: 700;
+  --type-metric-xl-tracking: -0.03em;
+  --type-metric-l-size: 24px;
+  --type-metric-l-line: 28px;
+  --type-metric-l-weight: 700;
+  --type-metric-l-tracking: -0.02em;
+  --type-mono-size: 12px;
+  --type-mono-line: 16px;
+  --type-mono-weight: 500;
+  --type-mono-tracking: normal;
+
+  /* Acréscimos (fora da fonte): movimento lido do CSS dos componentes; layout estreito = proposta 23/10. */
+  --duracao-padrao: 150ms;
+  --duracao-linha: 120ms;
+  --atraso-dica: 300ms;
+  --curva: ease;
+  --bp-sm: 640px;
+  --bp-md: 768px;
+  --bp-lg: 1024px;
+  --bp-xl: 1280px;
+  --topbar-height: 56px;
+  --content-padding-estreito: 16px;
+}
+
+/* Regra da fonte: gutter 20px abaixo de 1280px. */
+@media (max-width: 1279px) {
+  :root { --grid-gutter: 20px; }
+}

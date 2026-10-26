@@ -1,0 +1,686 @@
+{
+  "slug": "2026-10-21-golpes-com-ia",
+  "versao": 2,
+  "tema": "Golpes com IA: não acredite em tudo o que você vê e ouve — voz clonada, vídeo falso de famoso e a ligação do 'banco'",
+  "pilar": "mitos-e-erros",
+  "estrutura": "1-ruptura",
+  "hook_template": "alerta",
+  "duracao_alvo": 58.0,
+  "wps_ref": 2.3,
+  "hooks": {
+    "A": {
+      "fala": "Não acredite em nada do que você tá vendo aqui.",
+      "tela": "NADA AQUI É REAL",
+      "visual": "frame 1 já é o Carlos de terno num escritório de vidro gerado por IA (E01), com a voz clonada"
+    },
+    "B": {
+      "fala": "Cuidado: metade desse vídeo é mentira.",
+      "tela": "METADE DISSO É MENTIRA",
+      "visual": "mesmo E01 (escritório + terno de IA) desde o frame 1"
+    },
+    "C": {
+      "fala": "Se seus pais vissem esse vídeo, iam acreditar.",
+      "tela": "SEUS PAIS IAM ACREDITAR",
+      "visual": "mesmo E01 (escritório + terno de IA) desde o frame 1"
+    }
+  },
+  "hook_escolhido": "A",
+  "titulo": {
+    "contexto": "Metade desse vídeo é falsa",
+    "impacto": "nem a minha voz",
+    "cinza": 2,
+    "rabisco": "voz"
+  },
+  "pose_capa": "olhando pra câmera, sobrancelha erguida, dedo indicador levantado parado (sem tocar o rosto); ~1 s com a mão já abaixada antes da L01",
+  "cta_tipo": "palavra-material",
+  "cta_palavra": "GOLPE",
+  "material": "PDF de 1–2 páginas: os 5 sinais de que um vídeo, áudio ou ligação é golpe com IA + o que fazer em cada caso (palavra secreta na família, desligar e ligar você pelo canal oficial, onde denunciar no RU/PT/BR), tudo com fonte oficial",
+  "material_titulo": "o guia com os 5 sinais de que é golpe com IA",
+  "total_palavras": 125,
+  "duracao_estimada": 58.6,
+  "extras": [
+    {
+      "id": "E01",
+      "tipo": "video",
+      "descricao": "A **mesma tomada** do Carlos (L01–L02, e L01B/L01C) refeita por IA, vertical, tela cheia, em camadas que vão caindo: L01 = escritório de vidro num arranha-céu + terno; L02 \"Esse escritório?\" = o cenário volta ao real (terno continua); \"Essa roupa?\" = o terno vira a roupa real dele",
+      "fonte": "Vídeo-para-vídeo com IA sobre a gravação do Carlos (ex.: Higgsfield/Runway — o produtor-de-extras escolhe); só o Carlos, nenhuma outra pessoa",
+      "credito": "\"Gerado com IA a partir do Carlos\" (rótulo de IA do Instagram)",
+      "som": false,
+      "linhas": [
+        "L01",
+        "L02"
+      ]
+    },
+    {
+      "id": "E02",
+      "tipo": "animacao",
+      "descricao": "Uma cena por linha: L05 onda sonora de 3 s virando uma \"cópia\" da voz + \"3 SEGUNDOS PODEM BASTAR\" + crédito; L06 título \"3 GOLPES\" com 1-2-3; L07 tela de chamada recebida \"Filho\" com onda de voz e balão \"mãe, preciso de dinheiro urgente\"; L08 grupo \"Família\" combinando a palavra secreta (cadeado)",
+      "fonte": "Claude Design (brief do animador, `00-marca/design-system/korvu-video.md`)",
+      "credito": "L05: \"Fonte: Starling Bank, set/2024\"",
+      "som": false,
+      "linhas": [
+        "L05",
+        "L06",
+        "L07",
+        "L08"
+      ]
+    },
+    {
+      "id": "E03",
+      "tipo": "animacao",
+      "descricao": "Feed de rede social com um anúncio falso: silhueta/ícone genérico de \"famoso\" (sem rosto realista), botão \"investir agora\", selo \"FEITO COM IA\"",
+      "fonte": "Claude Design (mesmo brief, continua a faixa sem pausa)",
+      "credito": null,
+      "som": false,
+      "linhas": [
+        "L09"
+      ]
+    },
+    {
+      "id": "E04",
+      "tipo": "print",
+      "descricao": "Print **recortado só no texto** do alerta da CMVM na 24noticias (sem foto de pessoa, sem logo), com o trecho destacado: não seja \"assumida a autenticidade de vídeos, notícias, entrevistas ou outros conteúdos divulgados nas redes sociais\" + cartão \"CMVM = quem fiscaliza investimentos em Portugal\"",
+      "fonte": "Print de https://24noticias.sapo.pt/atualidade/artigos/cmvm-alerta-para-aumento-de-fraudes-associadas-a-falsos-investimentos",
+      "credito": "\"24noticias / CMVM, 01/09/2026\"",
+      "som": false,
+      "linhas": [
+        "L10"
+      ]
+    },
+    {
+      "id": "E05",
+      "tipo": "animacao",
+      "descricao": "L11 tela de chamada \"Banco\" com número de banco \"certinho\" → carimbo \"NÚMERO FALSIFICADO\"; L12–L13 bandeiras RU + BR, \"senha\" e \"transferência\" riscados + botão vermelho de desligar",
+      "fonte": "Claude Design (mesmo brief)",
+      "credito": "L11: \"Fonte: Take Five (UK Finance)\"; L12–L13: \"Fontes: Take Five via Crimestoppers · Febraban\"",
+      "som": false,
+      "linhas": [
+        "L11",
+        "L12",
+        "L13"
+      ]
+    },
+    {
+      "id": "E06",
+      "tipo": "video",
+      "descricao": "Tela dividida: em cima \"IA\" (Carlos de terno no escritório, de E01), embaixo \"ORIGINAL\" (Carlos real) — o loop com o hook",
+      "fonte": "Montado a partir de E01 + a tomada real da L01",
+      "credito": "\"Gerado com IA a partir do Carlos\"",
+      "som": false,
+      "linhas": [
+        "L14"
+      ]
+    }
+  ],
+  "linhas": [
+    {
+      "id": "L01",
+      "secao": "hook",
+      "fala": "Não acredite em nada do que você tá vendo aqui.",
+      "fala_original": "Não acredite em **nada** do que você tá vendo aqui.",
+      "palavras": [
+        "não",
+        "acredite",
+        "em",
+        "nada",
+        "do",
+        "que",
+        "você",
+        "tá",
+        "vendo",
+        "aqui"
+      ],
+      "destaques": [
+        "nada"
+      ],
+      "pausa_depois": "normal",
+      "tela": "",
+      "animacao": null,
+      "extras_ref": [
+        {
+          "id": "E01",
+          "modo": "split",
+          "in": null,
+          "out": null
+        }
+      ],
+      "alternativa_de": null,
+      "tempo_estimado": [
+        0.0,
+        4.55
+      ]
+    },
+    {
+      "id": "L02",
+      "secao": "corpo",
+      "fala": "Esse escritório? Essa roupa? Nada disso existe.",
+      "fala_original": "Esse escritório? / Essa roupa? / **Nada disso existe**.",
+      "palavras": [
+        "esse",
+        "escritório",
+        "essa",
+        "roupa",
+        "nada",
+        "disso",
+        "existe"
+      ],
+      "destaques": [
+        "Nada disso existe"
+      ],
+      "pausa_depois": "normal",
+      "tela": "",
+      "animacao": null,
+      "extras_ref": [
+        {
+          "id": "E01",
+          "modo": "split",
+          "in": null,
+          "out": null
+        }
+      ],
+      "alternativa_de": null,
+      "tempo_estimado": [
+        4.55,
+        7.79
+      ]
+    },
+    {
+      "id": "L03",
+      "secao": "corpo",
+      "fala": "E nem essa voz é minha.",
+      "fala_original": "E nem essa **voz** é minha. [pausa longa]",
+      "palavras": [
+        "e",
+        "nem",
+        "essa",
+        "voz",
+        "é",
+        "minha"
+      ],
+      "destaques": [
+        "voz"
+      ],
+      "pausa_depois": "pausa_longa",
+      "tela": "",
+      "animacao": null,
+      "extras_ref": [],
+      "alternativa_de": null,
+      "tempo_estimado": [
+        7.79,
+        11.3
+      ]
+    },
+    {
+      "id": "L04",
+      "secao": "corpo",
+      "fala": "Essa é. A outra, a IA copiou.",
+      "fala_original": "Essa é. / A outra, a IA copiou.",
+      "palavras": [
+        "essa",
+        "é",
+        "a",
+        "outra",
+        "a",
+        "ia",
+        "copiou"
+      ],
+      "destaques": [],
+      "pausa_depois": "normal",
+      "tela": "",
+      "animacao": null,
+      "extras_ref": [],
+      "alternativa_de": null,
+      "tempo_estimado": [
+        11.3,
+        14.54
+      ]
+    },
+    {
+      "id": "L05",
+      "secao": "corpo",
+      "fala": "Um banco inglês avisa: três segundos de áudio podem bastar.",
+      "fala_original": "Um banco inglês avisa: / **três segundos** de áudio podem bastar.",
+      "palavras": [
+        "um",
+        "banco",
+        "inglês",
+        "avisa",
+        "três",
+        "segundos",
+        "de",
+        "áudio",
+        "podem",
+        "bastar"
+      ],
+      "destaques": [
+        "três segundos"
+      ],
+      "pausa_depois": "normal",
+      "tela": "",
+      "animacao": null,
+      "extras_ref": [
+        {
+          "id": "E02",
+          "modo": "split",
+          "in": null,
+          "out": null
+        }
+      ],
+      "alternativa_de": null,
+      "tempo_estimado": [
+        14.54,
+        19.09
+      ]
+    },
+    {
+      "id": "L06",
+      "secao": "promessa",
+      "fala": "Três golpes pra você não cair.",
+      "fala_original": "Três golpes / pra você não cair.",
+      "palavras": [
+        "três",
+        "golpes",
+        "pra",
+        "você",
+        "não",
+        "cair"
+      ],
+      "destaques": [],
+      "pausa_depois": "normal",
+      "tela": "",
+      "animacao": null,
+      "extras_ref": [
+        {
+          "id": "E02",
+          "modo": "split",
+          "in": null,
+          "out": null
+        }
+      ],
+      "alternativa_de": null,
+      "tempo_estimado": [
+        19.09,
+        21.9
+      ]
+    },
+    {
+      "id": "L07",
+      "secao": "corpo",
+      "fala": "Um: a voz do seu filho pedindo dinheiro urgente.",
+      "fala_original": "Um: / a voz do seu filho / pedindo dinheiro **urgente**.",
+      "palavras": [
+        "um",
+        "a",
+        "voz",
+        "do",
+        "seu",
+        "filho",
+        "pedindo",
+        "dinheiro",
+        "urgente"
+      ],
+      "destaques": [
+        "urgente"
+      ],
+      "pausa_depois": "normal",
+      "tela": "",
+      "animacao": null,
+      "extras_ref": [
+        {
+          "id": "E02",
+          "modo": "split",
+          "in": null,
+          "out": null
+        }
+      ],
+      "alternativa_de": null,
+      "tempo_estimado": [
+        21.9,
+        26.01
+      ]
+    },
+    {
+      "id": "L08",
+      "secao": "corpo",
+      "fala": "Combina uma palavra secreta com a família.",
+      "fala_original": "Combina uma **palavra secreta** com a família.",
+      "palavras": [
+        "combina",
+        "uma",
+        "palavra",
+        "secreta",
+        "com",
+        "a",
+        "família"
+      ],
+      "destaques": [
+        "palavra secreta"
+      ],
+      "pausa_depois": "normal",
+      "tela": "",
+      "animacao": null,
+      "extras_ref": [
+        {
+          "id": "E02",
+          "modo": "split",
+          "in": null,
+          "out": null
+        }
+      ],
+      "alternativa_de": null,
+      "tempo_estimado": [
+        26.01,
+        29.26
+      ]
+    },
+    {
+      "id": "L09",
+      "secao": "corpo",
+      "fala": "Dois: famoso vendendo investimento milagroso.",
+      "fala_original": "Dois: / famoso vendendo investimento **milagroso**.",
+      "palavras": [
+        "dois",
+        "famoso",
+        "vendendo",
+        "investimento",
+        "milagroso"
+      ],
+      "destaques": [
+        "milagroso"
+      ],
+      "pausa_depois": "normal",
+      "tela": "",
+      "animacao": null,
+      "extras_ref": [
+        {
+          "id": "E03",
+          "modo": "split",
+          "in": null,
+          "out": null
+        }
+      ],
+      "alternativa_de": null,
+      "tempo_estimado": [
+        29.26,
+        31.63
+      ]
+    },
+    {
+      "id": "L10",
+      "secao": "corpo",
+      "fala": "Em Portugal, a CMVM avisou: famoso no vídeo não prova que é verdade.",
+      "fala_original": "Em Portugal, / a CMVM avisou: / famoso no vídeo **não prova que é verdade**.",
+      "palavras": [
+        "em",
+        "portugal",
+        "a",
+        "cmvm",
+        "avisou",
+        "famoso",
+        "no",
+        "vídeo",
+        "não",
+        "prova",
+        "que",
+        "é",
+        "verdade"
+      ],
+      "destaques": [
+        "não prova que é verdade"
+      ],
+      "pausa_depois": "normal",
+      "tela": "",
+      "animacao": null,
+      "extras_ref": [
+        {
+          "id": "E04",
+          "modo": "split",
+          "in": null,
+          "out": null
+        }
+      ],
+      "alternativa_de": null,
+      "tempo_estimado": [
+        31.63,
+        37.48
+      ]
+    },
+    {
+      "id": "L11",
+      "secao": "corpo",
+      "fala": "Três: o banco ligando, com número falsificado.",
+      "fala_original": "Três: / o **banco** ligando, / com número falsificado.",
+      "palavras": [
+        "três",
+        "o",
+        "banco",
+        "ligando",
+        "com",
+        "número",
+        "falsificado"
+      ],
+      "destaques": [
+        "banco"
+      ],
+      "pausa_depois": "normal",
+      "tela": "",
+      "animacao": null,
+      "extras_ref": [
+        {
+          "id": "E05",
+          "modo": "split",
+          "in": null,
+          "out": null
+        }
+      ],
+      "alternativa_de": null,
+      "tempo_estimado": [
+        37.48,
+        40.73
+      ]
+    },
+    {
+      "id": "L12",
+      "secao": "corpo",
+      "fala": "No Reino Unido e no Brasil,",
+      "fala_original": "No Reino Unido e no Brasil,",
+      "palavras": [
+        "no",
+        "reino",
+        "unido",
+        "e",
+        "no",
+        "brasil"
+      ],
+      "destaques": [],
+      "pausa_depois": "normal",
+      "tela": "",
+      "animacao": null,
+      "extras_ref": [
+        {
+          "id": "E05",
+          "modo": "split",
+          "in": null,
+          "out": null
+        }
+      ],
+      "alternativa_de": null,
+      "tempo_estimado": [
+        40.73,
+        43.53
+      ]
+    },
+    {
+      "id": "L13",
+      "secao": "corpo",
+      "fala": "banco não liga pedindo senha nem transferência. Desliga.",
+      "fala_original": "banco não liga pedindo senha nem transferência. / **Desliga**.",
+      "palavras": [
+        "banco",
+        "não",
+        "liga",
+        "pedindo",
+        "senha",
+        "nem",
+        "transferência",
+        "desliga"
+      ],
+      "destaques": [
+        "Desliga"
+      ],
+      "pausa_depois": "normal",
+      "tela": "",
+      "animacao": null,
+      "extras_ref": [
+        {
+          "id": "E05",
+          "modo": "split",
+          "in": null,
+          "out": null
+        }
+      ],
+      "alternativa_de": null,
+      "tempo_estimado": [
+        43.53,
+        47.21
+      ]
+    },
+    {
+      "id": "L14",
+      "secao": "payoff",
+      "fala": "Se deu pra me copiar, imagina quem vive disso.",
+      "fala_original": "Se deu pra me copiar, / imagina quem **vive disso**. [pausa]",
+      "palavras": [
+        "se",
+        "deu",
+        "pra",
+        "me",
+        "copiar",
+        "imagina",
+        "quem",
+        "vive",
+        "disso"
+      ],
+      "destaques": [
+        "vive disso"
+      ],
+      "pausa_depois": "pausa",
+      "tela": "",
+      "animacao": null,
+      "extras_ref": [
+        {
+          "id": "E06",
+          "modo": "split",
+          "in": null,
+          "out": null
+        }
+      ],
+      "alternativa_de": null,
+      "tempo_estimado": [
+        47.21,
+        51.73
+      ]
+    },
+    {
+      "id": "L15",
+      "secao": "cta",
+      "fala": "Comenta GOLPE que eu te mando os cinco sinais.",
+      "fala_original": "Comenta **GOLPE** / que eu te mando os cinco sinais.",
+      "palavras": [
+        "comenta",
+        "golpe",
+        "que",
+        "eu",
+        "te",
+        "mando",
+        "os",
+        "cinco",
+        "sinais"
+      ],
+      "destaques": [
+        "GOLPE"
+      ],
+      "pausa_depois": "normal",
+      "tela": "",
+      "animacao": null,
+      "extras_ref": [],
+      "alternativa_de": null,
+      "tempo_estimado": [
+        51.73,
+        55.84
+      ]
+    },
+    {
+      "id": "L16",
+      "secao": "cta",
+      "fala": "E manda pro grupo da família.",
+      "fala_original": "E manda pro grupo da família.",
+      "palavras": [
+        "e",
+        "manda",
+        "pro",
+        "grupo",
+        "da",
+        "família"
+      ],
+      "destaques": [],
+      "pausa_depois": "normal",
+      "tela": "",
+      "animacao": null,
+      "extras_ref": [],
+      "alternativa_de": null,
+      "tempo_estimado": [
+        55.84,
+        58.65
+      ]
+    },
+    {
+      "id": "L01B",
+      "secao": "hook-alt",
+      "fala": "Cuidado: metade desse vídeo é mentira.",
+      "fala_original": "Cuidado: / **metade** desse vídeo é mentira.",
+      "palavras": [
+        "cuidado",
+        "metade",
+        "desse",
+        "vídeo",
+        "é",
+        "mentira"
+      ],
+      "destaques": [
+        "metade"
+      ],
+      "pausa_depois": "normal",
+      "tela": "",
+      "animacao": null,
+      "extras_ref": [],
+      "alternativa_de": "L01",
+      "tempo_estimado": null
+    },
+    {
+      "id": "L01C",
+      "secao": "hook-alt",
+      "fala": "Se seus pais vissem esse vídeo, iam acreditar.",
+      "fala_original": "Se seus pais vissem esse vídeo, / iam **acreditar**.",
+      "palavras": [
+        "se",
+        "seus",
+        "pais",
+        "vissem",
+        "esse",
+        "vídeo",
+        "iam",
+        "acreditar"
+      ],
+      "destaques": [
+        "acreditar"
+      ],
+      "pausa_depois": "normal",
+      "tela": "",
+      "animacao": null,
+      "extras_ref": [],
+      "alternativa_de": "L01",
+      "tempo_estimado": null
+    }
+  ]
+}

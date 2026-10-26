@@ -1,0 +1,233 @@
+{
+ "variante": "B",
+ "overlays": [
+  {
+   "linhas": [
+    "L01"
+   ],
+   "tipo": "extra",
+   "extra": "E01",
+   "extra_tipo": "imagem",
+   "arquivo": "edicao/extras/E01.png",
+   "modo": "full",
+   "som": false,
+   "credito": null,
+   "faltando": false,
+   "saida_inicio": 0.0,
+   "saida_fim": 4.44,
+   "descricao": "Quadro 0: a capa de *Como Fazer Amigos e Influenciar Pessoas* (Dale Carnegie) e o logo \"ChatGPT\" lado a lado, como na referência — duas coisas conhecidas = o tema sem uma palavra de texto. **Na versão B é o quadro 0 do vídeo**",
+   "enquadrar": {
+    "x": 0.5,
+    "y": 0.42,
+    "zoom": 1.12,
+    "xFim": 0.5,
+    "yFim": 0.56,
+    "kenBurns": 1.18
+   }
+  },
+  {
+   "linhas": [
+    "L01"
+   ],
+   "tipo": "extra",
+   "extra": "E02",
+   "extra_tipo": "tela",
+   "arquivo": "edicao/extras/E02.mp4",
+   "modo": "card",
+   "som": false,
+   "credito": null,
+   "faltando": false,
+   "saida_inicio": 2.16,
+   "saida_fim": 4.44,
+   "descricao": "Gravação de ecrã do ChatGPT no celular: a foto da capa anexada e `/mindmap` sendo digitado. Mostra o \"como\" uma vez, inteiro, em ~2 s acelerado",
+   "in": 1.37,
+   "out": 3.65
+  },
+  {
+   "linhas": [
+    "L02"
+   ],
+   "tipo": "extra",
+   "extra": "E03",
+   "extra_tipo": "imagem",
+   "arquivo": "edicao/extras/E03.png",
+   "modo": "full",
+   "som": false,
+   "credito": null,
+   "faltando": false,
+   "saida_inicio": 4.44,
+   "saida_fim": 7.4,
+   "descricao": "Resultado 1: o mapa mental de *Como Fazer Amigos e Influenciar Pessoas* gerado pelo ChatGPT, em tela cheia — a revelação",
+   "enquadrar": {
+    "x": 0.5,
+    "y": 0.45,
+    "xFim": 0.3,
+    "yFim": 0.3
+   }
+  },
+  {
+   "linhas": [
+    "L03"
+   ],
+   "tipo": "extra",
+   "extra": "E04",
+   "extra_tipo": "tela",
+   "arquivo": "edicao/extras/E04.mp4",
+   "modo": "card",
+   "som": false,
+   "credito": null,
+   "faltando": false,
+   "saida_inicio": 7.4,
+   "saida_fim": 9.16,
+   "descricao": "Flash de `/sketchnote` sendo digitado, com a capa de *A Única Coisa* (Gary Keller) anexada (~0,7 s, acelerado)",
+   "in": 2.68,
+   "out": 4.44
+  },
+  {
+   "linhas": [
+    "L03"
+   ],
+   "tipo": "extra",
+   "extra": "E05",
+   "extra_tipo": "imagem",
+   "arquivo": "edicao/extras/E05.png",
+   "modo": "full",
+   "som": false,
+   "credito": null,
+   "faltando": false,
+   "saida_inicio": 9.16,
+   "saida_fim": 11.96,
+   "descricao": "Resultado 2: a anotação ilustrada (sketchnote) de *A Única Coisa*",
+   "enquadrar": {
+    "x": 0.5,
+    "y": 0.3,
+    "zoom": 1.18,
+    "xFim": 0.5,
+    "yFim": 0.68,
+    "kenBurns": 1.22
+   }
+  },
+  {
+   "linhas": [
+    "L04"
+   ],
+   "tipo": "extra",
+   "extra": "E06",
+   "extra_tipo": "tela",
+   "arquivo": "edicao/extras/E06.mp4",
+   "modo": "card",
+   "som": false,
+   "credito": null,
+   "faltando": false,
+   "saida_inicio": 11.96,
+   "saida_fim": 13.84,
+   "descricao": "Flash de `/flashcards` com a capa de *Hábitos Atômicos* (James Clear) (~0,7 s)",
+   "in": 2.04,
+   "out": 3.92
+  },
+  {
+   "linhas": [
+    "L04"
+   ],
+   "tipo": "extra",
+   "extra": "E07",
+   "extra_tipo": "imagem",
+   "arquivo": "edicao/extras/E07.png",
+   "modo": "full",
+   "som": false,
+   "credito": null,
+   "faltando": false,
+   "saida_inicio": 13.84,
+   "saida_fim": 16.16,
+   "descricao": "Resultado 3: os cartões (pergunta/resposta) de *Hábitos Atômicos*",
+   "enquadrar": {
+    "x": 0.12,
+    "y": 0.5,
+    "xFim": 0.55,
+    "yFim": 0.5
+   }
+  },
+  {
+   "linhas": [
+    "L05"
+   ],
+   "tipo": "extra",
+   "extra": "E08",
+   "extra_tipo": "tela",
+   "arquivo": "edicao/extras/E08.mp4",
+   "modo": "card",
+   "som": false,
+   "credito": null,
+   "faltando": false,
+   "saida_inicio": 16.16,
+   "saida_fim": 17.88,
+   "descricao": "Flash de `/fluxograma` com a capa de *O Poder do Hábito* (Charles Duhigg) (~0,7 s)",
+   "in": 2.52,
+   "out": 4.24
+  },
+  {
+   "linhas": [
+    "L05"
+   ],
+   "tipo": "extra",
+   "extra": "E09",
+   "extra_tipo": "imagem",
+   "arquivo": "edicao/extras/E09.png",
+   "modo": "full",
+   "som": false,
+   "credito": null,
+   "faltando": false,
+   "saida_inicio": 17.88,
+   "saida_fim": 21.0,
+   "descricao": "Resultado 4: o fluxograma de *O Poder do Hábito*",
+   "enquadrar": {
+    "x": 0.25,
+    "y": 0.3,
+    "xFim": 0.72,
+    "yFim": 0.45
+   }
+  },
+  {
+   "linhas": [
+    "L06"
+   ],
+   "tipo": "extra",
+   "extra": "E10",
+   "extra_tipo": "tela",
+   "arquivo": "edicao/extras/E10.mp4",
+   "modo": "card",
+   "som": false,
+   "credito": null,
+   "faltando": false,
+   "saida_inicio": 21.0,
+   "saida_fim": 22.44,
+   "descricao": "Flash de `/quadrinhos` com a capa de *Os Segredos da Mente Milionária* (T. Harv Eker) (~0,7 s)",
+   "in": 1.8,
+   "out": 3.24
+  },
+  {
+   "linhas": [
+    "L06"
+   ],
+   "tipo": "extra",
+   "extra": "E11",
+   "extra_tipo": "imagem",
+   "arquivo": "edicao/extras/E11.png",
+   "modo": "full",
+   "som": false,
+   "credito": null,
+   "faltando": false,
+   "saida_inicio": 22.44,
+   "saida_fim": 26.16,
+   "descricao": "Resultado 5: a tirinha com as ideias principais de *Os Segredos da Mente Milionária* (personagens desenhados, nenhuma pessoa real)",
+   "enquadrar": {
+    "x": 0.5,
+    "y": 0.3,
+    "zoom": 1.18,
+    "xFim": 0.5,
+    "yFim": 0.68,
+    "kenBurns": 1.22
+   }
+  }
+ ]
+}

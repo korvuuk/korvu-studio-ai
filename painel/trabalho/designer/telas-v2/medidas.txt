@@ -1,0 +1,8 @@
+# capturar.sh · 2026-10-23T15:37:52.543Z
+# alvo	largura pedida	innerWidth	scrollWidth	altura	HTTP	png	passa da borda
+painel/design/telas/visao-geral.html	1440	1440	1440	4961	200	/Users/teste/Documents/CONTENT AI/painel/trabalho/designer/telas-v2/visao-geral-1440.png	
+painel/design/telas/visao-geral.html	375	375	375	9546	200	/Users/teste/Documents/CONTENT AI/painel/trabalho/designer/telas-v2/visao-geral-375.png	
+painel/design/telas/biblioteca.html	1440	1440	1440	2732	200	/Users/teste/Documents/CONTENT AI/painel/trabalho/designer/telas-v2/biblioteca-1440.png	
+painel/design/telas/biblioteca.html	375	375	375	6312	200	/Users/teste/Documents/CONTENT AI/painel/trabalho/designer/telas-v2/biblioteca-375.png	
+painel/design/telas/desempenho.html	1440	1440	1440	3464	200	/Users/teste/Documents/CONTENT AI/painel/trabalho/designer/telas-v2/desempenho-1440.png	
+painel/design/telas/desempenho.html	375	375	375	6831	200	/Users/teste/Documents/CONTENT AI/painel/trabalho/designer/telas-v2/desempenho-375.png	

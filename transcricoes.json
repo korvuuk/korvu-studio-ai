@@ -1,0 +1,787 @@
+{
+ "2aC2ly7vKtM.webm": {
+  "lang": "en",
+  "segs": [
+   [
+    0.0,
+    4.1,
+    "I just built the ultimate personal assistant in N8N using absolutely no code. As you can see,"
+   ],
+   [
+    4.2,
+    7.9,
+    "the ultimate assistant has access to these four agents that we built out within N8N."
+   ],
+   [
+    8.2,
+    11.3,
+    "The first one is an email agent. It looks like this. The next agent is a calendar agent. It"
+   ],
+   [
+    11.3,
+    14.5,
+    "looks like this. Then we have a content creator agent that can search the web and then it creates"
+   ],
+   [
+    14.5,
+    18.6,
+    "blog posts for us. Can you please set up a team sync tonight for 6 p.m. with Nate Herkelman"
+   ],
+   [
+    18.6,
+    23.0,
+    "and then send him an email to confirm if that time works? Okay, so right now Telegram just sent"
+   ],
+   [
+    23.0,
+    26.9,
+    "over that audio file. It's getting transcribed. Now the ultimate assistant has to decide what to"
+   ],
+   [
+    26.9,
+    31.4,
+    "do. So first of all, hit the contact agent to get Nate Herkelman's email address. Now it's hitting"
+   ],
+   [
+    31.4,
+    35.6,
+    "calendar and email agent simultaneously to create that event. As you can see, it just popped up right"
+   ],
+   [
+    35.6,
+    40.5,
+    "here and send that email. So we just got a response back from Telegram. The team sync with Nate Herkelman"
+   ],
+   [
+    40.5,
+    44.6,
+    "has been scheduled for tonight at 6 p.m. You can manage the event here. Then hopping into our sent"
+   ],
+   [
+    44.6,
+    48.8,
+    "emails, we can see, hey, Nate, I hope this message finds you well. Could you confirm if 6 p.m. works for"
+   ],
+   [
+    48.8,
+    52.7,
+    "our upcoming team sync? Let me know. If you want to find out how you can build this for yourself or even"
+   ],
+   [
+    52.7,
+    55.3,
+    "download the workflow for free, then go check out the video on my channel."
+   ]
+  ]
+ },
+ "7464683554446953774.mp4": {
+  "lang": "en",
+  "segs": [
+   [
+    0.0,
+    7.1,
+    "That's me with Jensen Wong, the CEO of NVIDIA, which has become one of the most valuable companies in the world."
+   ],
+   [
+    7.4,
+    8.9,
+    "But why, exactly?"
+   ],
+   [
+    9.1,
+    11.3,
+    "The simple answer is this, a GPU."
+   ],
+   [
+    11.8,
+    17.5,
+    "In the 90s, they realized that inside most software, about 10% of the code does 99% of the processing."
+   ],
+   [
+    17.7,
+    20.5,
+    "Up until then, your computer would do all of that step by step."
+   ],
+   [
+    20.8,
+    25.3,
+    "But with the invention of the GPU, you could break it up into smaller parts, doing it all at once."
+   ],
+   [
+    25.7,
+    26.5,
+    "Parallel processing."
+   ],
+   [
+    26.7,
+    29.3,
+    "Which let the computer run way faster and do way more."
+   ],
+   [
+    29.3,
+    31.7,
+    "This revolutionized video games at the time."
+   ],
+   [
+    31.8,
+    34.1,
+    "It took them from this, to this, to this."
+   ],
+   [
+    34.6,
+    40.0,
+    "And what's really crazy is a decade later, it turns out, GPUs are perfect for training AI."
+   ],
+   [
+    40.3,
+    47.2,
+    "A huge amount of the most futuristic tech that you're hearing about relies on new chips and software designed by him and his company."
+   ],
+   [
+    47.5,
+    51.0,
+    "I got to ask Jensen how what he's building now will actually affect your life."
+   ],
+   [
+    51.2,
+    53.6,
+    "And most importantly, what he's building next."
+   ],
+   [
+    54.0,
+    54.8,
+    "Go watch that longer episode."
+   ]
+  ]
+ },
+ "7627825322297134368.mp4": {
+  "lang": "en",
+  "segs": [
+   [
+    0.0,
+    2.0,
+    "you can nest the flowers"
+   ],
+   [
+    4.0,
+    6.0,
+    "I have a flower"
+   ],
+   [
+    8.0,
+    10.0,
+    "telling all the bluebirds"
+   ],
+   [
+    12.0,
+    14.0,
+    "to feeling cool birds"
+   ],
+   [
+    16.0,
+    18.0,
+    "these nuts"
+   ],
+   [
+    20.0,
+    24.0,
+    "head over to google gemini upload the image you want to enhance and use this exact prompt"
+   ],
+   [
+    24.0,
+    28.0,
+    "comment ai and i'll send it to you then click generate same image completely different result"
+   ]
+  ]
+ },
+ "7694694514350361869.mp4": {
+  "lang": "en",
+  "segs": [
+   [
+    0.0,
+    4.9,
+    "10 secret codes to learn anything. Number one, Eli 5. Type this anywhere and chat will explain"
+   ],
+   [
+    4.9,
+    9.8,
+    "things in super simple terms. Number two, 80-20. You can type this anywhere in the prompt and chat"
+   ],
+   [
+    9.8,
+    14.8,
+    "will focus on the most important 20% you need to know. Number three, make sticky notes. ChatGPT"
+   ],
+   [
+    14.8,
+    19.5,
+    "will create a visual sticky note guide like this. Number four, Feynman technique. Type this anywhere."
+   ],
+   [
+    19.6,
+    24.0,
+    "It's a super popular study technique so that you can learn faster. Number five, make a mind map."
+   ],
+   [
+    24.0,
+    29.5,
+    "ChatGPT will make a visual mind map of the key concepts. Number six, quiz me. Chat will quiz you"
+   ],
+   [
+    29.5,
+    34.7,
+    "one question at a time until you understand. Number seven, make visual study guide. ChatGPT will"
+   ],
+   [
+    34.7,
+    39.3,
+    "take the topic and create a one-pager study sheet so that you can learn everything you need. Number"
+   ],
+   [
+    39.3,
+    43.8,
+    "eight, first principles. Type this anywhere in your prompt and chat will explain from first principles"
+   ],
+   [
+    43.8,
+    49.0,
+    "thinking. Number nine, Socrates. This is my favorite. ChatGPT will teach you by asking you questions one"
+   ],
+   [
+    49.0,
+    54.0,
+    "at a time. 10, make schematic. Type this anywhere and chat will make a schematic diagram to explain"
+   ],
+   [
+    54.0,
+    58.4,
+    "things to you. If you want hundreds more secret codes like this, hit follow and comment codes and I'll DM you."
+   ]
+  ]
+ },
+ "BF2k_fKuCVM.webm": {
+  "lang": "en",
+  "segs": [
+   [
+    0.0,
+    2.3,
+    "AI agents explained in three simple steps."
+   ],
+   [
+    2.6,
+    4.3,
+    "Level one, large language models."
+   ],
+   [
+    4.8,
+    8.8,
+    "You give ChatGPT an input, for example, write an email, and it gives you an output."
+   ],
+   [
+    9.3,
+    9.8,
+    "Easy stuff."
+   ],
+   [
+    9.9,
+    14.0,
+    "At this level, the LLM is passive and does not have access to tools."
+   ],
+   [
+    14.3,
+    15.6,
+    "Level two, AI workflows."
+   ],
+   [
+    16.1,
+    19.0,
+    "You give ChatGPT access to a tool like Google Calendar"
+   ],
+   [
+    19.0,
+    23.1,
+    "so that the LLM can manage your calendar based on your instructions."
+   ],
+   [
+    23.1,
+    26.1,
+    "At this level, the LLM has access to tools,"
+   ],
+   [
+    26.4,
+    29.2,
+    "but is still passive and requires your instructions."
+   ],
+   [
+    29.2,
+    31.1,
+    "Level three, AI agents."
+   ],
+   [
+    31.4,
+    34.2,
+    "Instead of a prompt, you give the AI agent a goal."
+   ],
+   [
+    34.5,
+    36.8,
+    "For example, manage my workplace calendar."
+   ],
+   [
+    37.0,
+    41.4,
+    "The AI agent first performs reasoning to decide which meetings to accept or reject,"
+   ],
+   [
+    41.6,
+    45.2,
+    "then takes action by responding to the invitations."
+   ],
+   [
+    45.6,
+    49.1,
+    "At this level, the AI agent not only has access to tools,"
+   ],
+   [
+    49.2,
+    51.3,
+    "but is also acting autonomously."
+   ]
+  ]
+ },
+ "R1bn__sNAaM.webm": {
+  "lang": "en",
+  "segs": [
+   [
+    0.0,
+    1.8,
+    "You know this epic scene from Oppenheimer?"
+   ],
+   [
+    1.8,
+    4.8,
+    "Christopher Nolan wanted to drop a real bomb to film it"
+   ],
+   [
+    4.8,
+    7.2,
+    "because he doesn't believe in CGI at all."
+   ],
+   [
+    7.2,
+    8.1,
+    "But here's what's crazy."
+   ],
+   [
+    8.1,
+    10.0,
+    "This explosion is like fourth on the list"
+   ],
+   [
+    10.0,
+    12.0,
+    "of the wildest stunts he's ever pulled."
+   ],
+   [
+    12.0,
+    13.0,
+    "You remember in Interstellar"
+   ],
+   [
+    13.0,
+    15.2,
+    "when Matthew McConaughey drives through the cornfields"
+   ],
+   [
+    15.2,
+    16.2,
+    "chasing that drone?"
+   ],
+   [
+    16.2,
+    17.3,
+    "Well, fake corn don't sell."
+   ],
+   [
+    17.3,
+    20.8,
+    "Nolan spent $100,000 planting real corn in Canada,"
+   ],
+   [
+    20.8,
+    22.1,
+    "500 acres worth."
+   ],
+   [
+    22.1,
+    23.1,
+    "When the film was finished,"
+   ],
+   [
+    23.1,
+    25.9,
+    "he harvested the remaining corn and sold it for profit."
+   ],
+   [
+    25.9,
+    26.9,
+    "Or how about Inception,"
+   ],
+   [
+    26.9,
+    28.8,
+    "when Joseph Gordon-Levitt's battling the bad guys"
+   ],
+   [
+    28.8,
+    29.9,
+    "in that spinning hallway?"
+   ],
+   [
+    29.9,
+    31.8,
+    "It's one of the most epic scenes in movie history."
+   ],
+   [
+    31.8,
+    34.0,
+    "I thought they just had a camera on a rotating spindle."
+   ],
+   [
+    34.0,
+    36.3,
+    "Turns out Nolan built the entire hallway"
+   ],
+   [
+    36.3,
+    38.8,
+    "in one giant rotating centrifuge"
+   ],
+   [
+    38.8,
+    41.0,
+    "and sent the real actors tumbling around."
+   ],
+   [
+    41.0,
+    43.3,
+    "He actually crashed the truck in Dark Knight."
+   ],
+   [
+    43.3,
+    45.1,
+    "He actually blew up the plane in Tenet."
+   ],
+   [
+    45.1,
+    47.5,
+    "Every one of his stunts are absolutely real."
+   ],
+   [
+    47.5,
+    48.9,
+    "But here's the spookiest part."
+   ],
+   [
+    48.9,
+    51.3,
+    "The real reason Nolan doesn't believe in CGI,"
+   ],
+   [
+    51.3,
+    53.0,
+    "he says it doesn't feel threatening enough"
+   ],
+   [
+    53.0,
+    54.2,
+    "when you watch it back."
+   ]
+  ]
+ },
+ "jJ0i4JxY-tE.webm": {
+  "lang": "en",
+  "segs": [
+   [
+    0.2,
+    5.2,
+    "This is David Cho, a professional graffiti artist who probably made the smartest decision"
+   ],
+   [
+    5.2,
+    7.8,
+    "of his life in 2005."
+   ],
+   [
+    7.8,
+    12.3,
+    "You see when facebook was in its early years the walls of the startups office were rather"
+   ],
+   [
+    12.3,
+    15.8,
+    "bland, they needed someone to liven it up a bit."
+   ],
+   [
+    15.8,
+    20.7,
+    "So they hired professional vandal David Cho to do a few murals in the office."
+   ],
+   [
+    20.7,
+    25.9,
+    "When asked how he wanted to be paid Zuck offered him $60,000 or the equivalent in facebook"
+   ],
+   [
+    25.9,
+    26.9,
+    "stock."
+   ],
+   [
+    26.9,
+    31.2,
+    "David without even having how money works to give him this wisdom decided to go with"
+   ],
+   [
+    31.2,
+    34.0,
+    "facebook stock for his compensation."
+   ],
+   [
+    34.0,
+    39.3,
+    "When facebook went public 6 years later, David's $60,000 in restricted stock had ballooned to"
+   ],
+   [
+    39.3,
+    46.5,
+    "a value of $200 million and represented about 4% of the entire company at IPO."
+   ],
+   [
+    46.5,
+    49.8,
+    "If you want to know how to make smart decisions like David make sure to like and subscribe"
+   ],
+   [
+    49.8,
+    51.7,
+    "to keep on learning how money works."
+   ]
+  ]
+ },
+ "wUx3M5eP20k.webm": {
+  "lang": "en",
+  "segs": [
+   [
+    0.0,
+    3.0,
+    "This guy built a $1.2 million business out of his van"
+   ],
+   [
+    3.0,
+    4.4,
+    "selling eggshells."
+   ],
+   [
+    4.7,
+    5.3,
+    "Check this out."
+   ],
+   [
+    5.7,
+    8.9,
+    "Okay, it's 2020 and the van life trend is popping off."
+   ],
+   [
+    9.1,
+    12.0,
+    "This guy quits his job, moves into a $1,500 junker"
+   ],
+   [
+    12.0,
+    14.0,
+    "and starts calling himself the van man."
+   ],
+   [
+    14.1,
+    15.6,
+    "He has dreams of starting his own business"
+   ],
+   [
+    15.6,
+    17.0,
+    "but no idea what to do."
+   ],
+   [
+    17.1,
+    18.5,
+    "So he just starts posting on Twitter"
+   ],
+   [
+    18.5,
+    20.1,
+    "about what it's like to live in a van."
+   ],
+   [
+    20.2,
+    21.7,
+    "People love this content"
+   ],
+   [
+    21.7,
+    23.3,
+    "and he starts to build a small following."
+   ],
+   [
+    23.5,
+    24.9,
+    "But everything changes one day"
+   ],
+   [
+    24.9,
+    26.1,
+    "when he comes across this video"
+   ],
+   [
+    26.1,
+    28.3,
+    "of Arnold Schwarzenegger breaking an egg"
+   ],
+   [
+    28.3,
+    29.4,
+    "into his protein shake."
+   ],
+   [
+    29.4,
+    30.6,
+    "So he goes down the rabbit hole"
+   ],
+   [
+    30.6,
+    32.0,
+    "reading article after article"
+   ],
+   [
+    32.0,
+    35.2,
+    "and discovers eggshells are actually known to prevent cavities."
+   ],
+   [
+    35.5,
+    37.4,
+    "This gives him an insane idea."
+   ],
+   [
+    37.7,
+    38.8,
+    "Eggshell toothpaste."
+   ],
+   [
+    39.2,
+    41.8,
+    "He searches for it online and it doesn't exist."
+   ],
+   [
+    42.0,
+    43.6,
+    "So he cooks up a recipe in his van"
+   ],
+   [
+    43.6,
+    46.2,
+    "and calls it van man's miracle tooth powder."
+   ],
+   [
+    46.4,
+    47.6,
+    "He sets up a Shopify store,"
+   ],
+   [
+    47.8,
+    48.8,
+    "posts the link on Twitter"
+   ],
+   [
+    48.8,
+    51.8,
+    "and sells $5,000 in the first day."
+   ],
+   [
+    51.9,
+    55.3,
+    "Two years later, the van man makes over $100,000 per month"
+   ],
+   [
+    55.3,
+    56.5,
+    "from his signature toothpaste."
+   ],
+   [
+    56.9,
+    59.1,
+    "Proof that it all starts by sharing your story"
+   ],
+   [
+    59.1,
+    59.7,
+    "with the world."
+   ],
+   [
+    64.7,
+    65.8,
+    "Happy Valentine's Day"
+   ],
+   [
+    66.2,
+    68.2,
+    "among Chologia"
+   ],
+   [
+    70.1,
+    72.0,
+    "who reminded us of land"
+   ],
+   [
+    72.6,
+    72.8,
+    "who neglect available"
+   ],
+   [
+    73.0,
+    75.0,
+    "into happinessShiki.com"
+   ],
+   [
+    75.5,
+    75.9,
+    "Anywho � RIVER"
+   ],
+   [
+    76.3,
+    77.2,
+    "island"
+   ],
+   [
+    77.7,
+    78.9,
+    "Ho"
+   ],
+   [
+    79.7,
+    80.6,
+    "toes"
+   ],
+   [
+    81.6,
+    82.4,
+    "viral"
+   ],
+   [
+    83.4,
+    84.5,
+    "quinho"
+   ]
+  ]
+ }
+}

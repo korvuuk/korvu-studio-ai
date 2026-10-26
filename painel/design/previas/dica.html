@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Dica (tooltip) · korvu. painel — design system</title>
+<link rel="stylesheet" href="../tokens.css">
+<link rel="stylesheet" href="../componentes.css">
+<link rel="stylesheet" href="../acrescimos.css">
+<link rel="stylesheet" href="previa.css">
+<script src="../korvu.js"></script>
+<script src="previa.js" defer></script>
+</head>
+<body>
+<main class="pv">
+<header class="pv-head">
+<p class="k-cap">Feedback · <span class="k-mono">k-tooltip</span></p>
+<h1 class="k-h2">Dica (tooltip)</h1>
+<p class="pv-lead">O valor exato e a explicação curta, ao passar o mouse ou com o Tab.</p>
+</header>
+<section class="pv-sec">
+<h2 class="pv-sec-t k-cap">Estática e ao vivo <span class="pv-tag pv-tag--real">dados reais · banco do painel</span></h2>
+<div style="display:flex;flex-direction:column;align-items:flex-start;gap:8px;padding-left:20px"><div class="k-tooltip"><b>450 visualizações</b><small>Demis Hassabis · leitura de 22 out</small></div><button class="k-btn k-btn-secondary k-btn-icon k-btn-sm" style="margin-left:52px" aria-label="O que é visualização" data-dica="Visualizações|quantas vezes o Reel começou a tocar (Instagram)"><span data-icon="info" data-size="14"></span></button></div>
+</section>
+<section class="pv-sec">
+<h2 class="pv-sec-t k-cap">Regras</h2>
+<ul class="pv-lista"><li>Fundo sidebar, texto sidebar-ink, 2.ª linha sidebar-ink-2, raio 6, seta de 8px. Máximo 2 linhas.</li><li>Aparece depois de 300ms de hover <b>ou foco</b>; fecha ao sair, ao tocar fora e com Esc.</li><li><b>Nunca sai da janela</b>: aberta, fica presa a 8px das bordas (no celular inclusive). Passe o mouse no botão ⓘ para ver.</li><li>A dica complementa, nunca é o único jeito de ler um valor (há rótulo ou tabela).</li></ul>
+</section>
+<footer class="pv-foot"><span>Dados: dados-2026-10-23.json → metricas_demis</span> <span>Regras: <a href="../design-system.md">design-system.md</a></span> <a href="index.html">Todas as prévias</a></footer>
+</main>
+</body>
+</html>

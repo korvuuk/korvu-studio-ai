@@ -1,0 +1,2253 @@
+{
+ "engine": "mlx",
+ "modelo": "mlx-community/whisper-large-v3-turbo",
+ "versao": 2,
+ "lacunas": 39,
+ "palavras": [
+  {
+   "texto": "E",
+   "inicio": 3.0800000000000005,
+   "fim": 4.48,
+   "conf": 0.20751953125
+  },
+  {
+   "texto": "aí",
+   "inicio": 4.48,
+   "fim": 4.5,
+   "conf": 0.9765625
+  },
+  {
+   "texto": "E",
+   "inicio": 4.546,
+   "fim": 4.8660000000000005,
+   "conf": 0.26708984375
+  },
+  {
+   "texto": "aí",
+   "inicio": 4.8660000000000005,
+   "fim": 5.3260000000000005,
+   "conf": 0.94580078125
+  },
+  {
+   "texto": "E",
+   "inicio": 13.486,
+   "fim": 14.666,
+   "conf": 0.145751953125
+  },
+  {
+   "texto": "aí",
+   "inicio": 14.666,
+   "fim": 15.026,
+   "conf": 0.9169921875
+  },
+  {
+   "texto": "E",
+   "inicio": 28.046,
+   "fim": 28.886,
+   "conf": 0.269775390625
+  },
+  {
+   "texto": "aí",
+   "inicio": 28.886,
+   "fim": 29.586,
+   "conf": 0.95068359375
+  },
+  {
+   "texto": "E",
+   "inicio": 29.746,
+   "fim": 30.186,
+   "conf": 0.19677734375
+  },
+  {
+   "texto": "aí",
+   "inicio": 30.186,
+   "fim": 30.805999999999997,
+   "conf": 0.8974609375
+  },
+  {
+   "texto": "Tchau,",
+   "inicio": 33.56,
+   "fim": 34.4,
+   "conf": 0.4599609375
+  },
+  {
+   "texto": "tchau.",
+   "inicio": 34.4,
+   "fim": 34.82,
+   "conf": 0.9521484375
+  },
+  {
+   "texto": "E",
+   "inicio": 71.206,
+   "fim": 71.646,
+   "conf": 0.1759033203125
+  },
+  {
+   "texto": "aí",
+   "inicio": 71.646,
+   "fim": 71.806,
+   "conf": 0.91162109375
+  },
+  {
+   "texto": "Ok,",
+   "inicio": 72.89999999999999,
+   "fim": 73.38,
+   "conf": 0.72119140625
+  },
+  {
+   "texto": "eu",
+   "inicio": 73.54,
+   "fim": 73.62,
+   "conf": 0.8251953125
+  },
+  {
+   "texto": "estou",
+   "inicio": 73.62,
+   "fim": 73.68,
+   "conf": 0.66064453125
+  },
+  {
+   "texto": "pronto.",
+   "inicio": 73.68,
+   "fim": 73.98,
+   "conf": 0.99755859375
+  },
+  {
+   "texto": "Vamos",
+   "inicio": 74.22,
+   "fim": 74.38,
+   "conf": 0.35595703125
+  },
+  {
+   "texto": "ir.",
+   "inicio": 74.38,
+   "fim": 74.68,
+   "conf": 0.484130859375
+  },
+  {
+   "texto": "Ótimo.",
+   "inicio": 75.96,
+   "fim": 76.44,
+   "conf": 0.94140625
+  },
+  {
+   "texto": "Me",
+   "inicio": 76.78,
+   "fim": 77.04,
+   "conf": 0.98388671875
+  },
+  {
+   "texto": "dá",
+   "inicio": 77.04,
+   "fim": 77.2,
+   "conf": 0.998046875
+  },
+  {
+   "texto": "o",
+   "inicio": 77.2,
+   "fim": 77.34,
+   "conf": 0.9892578125
+  },
+  {
+   "texto": "sinal",
+   "inicio": 77.34,
+   "fim": 77.58,
+   "conf": 0.99951171875
+  },
+  {
+   "texto": "de",
+   "inicio": 77.58,
+   "fim": 77.74,
+   "conf": 0.99951171875
+  },
+  {
+   "texto": "começar",
+   "inicio": 77.74,
+   "fim": 78.22,
+   "conf": 0.9990234375
+  },
+  {
+   "texto": "e",
+   "inicio": 78.22,
+   "fim": 78.84,
+   "conf": 0.86962890625
+  },
+  {
+   "texto": "eu",
+   "inicio": 78.84,
+   "fim": 78.96,
+   "conf": 0.9990234375
+  },
+  {
+   "texto": "já",
+   "inicio": 78.96,
+   "fim": 79.12,
+   "conf": 0.99951171875
+  },
+  {
+   "texto": "entro",
+   "inicio": 79.12,
+   "fim": 79.42,
+   "conf": 0.998046875
+  },
+  {
+   "texto": "com",
+   "inicio": 79.42,
+   "fim": 79.54,
+   "conf": 0.99755859375
+  },
+  {
+   "texto": "a",
+   "inicio": 79.54,
+   "fim": 79.58,
+   "conf": 1.0
+  },
+  {
+   "texto": "primeira",
+   "inicio": 79.58,
+   "fim": 79.82,
+   "conf": 0.998046875
+  },
+  {
+   "texto": "linha.",
+   "inicio": 79.82,
+   "fim": 80.04,
+   "conf": 0.99755859375
+  },
+  {
+   "texto": "E",
+   "inicio": 89.156,
+   "fim": 90.396,
+   "conf": 0.3310546875
+  },
+  {
+   "texto": "aí",
+   "inicio": 90.396,
+   "fim": 90.71600000000001,
+   "conf": 0.9501953125
+  },
+  {
+   "texto": "Pronto,",
+   "inicio": 105.26,
+   "fim": 106.04,
+   "conf": 0.85302734375
+  },
+  {
+   "texto": "pode",
+   "inicio": 106.14,
+   "fim": 106.32,
+   "conf": 0.98388671875
+  },
+  {
+   "texto": "começar.",
+   "inicio": 106.32,
+   "fim": 106.506,
+   "conf": 0.998046875
+  },
+  {
+   "texto": "começar.",
+   "inicio": 106.506,
+   "fim": 106.866,
+   "conf": 0.8349609375
+  },
+  {
+   "texto": "Aprendeu",
+   "inicio": 107.86,
+   "fim": 108.64,
+   "conf": 0.939453125
+  },
+  {
+   "texto": "xadrez",
+   "inicio": 108.64,
+   "fim": 109.1,
+   "conf": 0.9609375
+  },
+  {
+   "texto": "aos",
+   "inicio": 109.1,
+   "fim": 109.38,
+   "conf": 0.95849609375
+  },
+  {
+   "texto": "quatro",
+   "inicio": 109.38,
+   "fim": 109.76,
+   "conf": 0.53759765625
+  },
+  {
+   "texto": "anos.",
+   "inicio": 109.76,
+   "fim": 110.16,
+   "conf": 0.9970703125
+  },
+  {
+   "texto": "Aprendeu",
+   "inicio": 110.8,
+   "fim": 111.58,
+   "conf": 0.890625
+  },
+  {
+   "texto": "xadrez",
+   "inicio": 111.58,
+   "fim": 111.88,
+   "conf": 0.97314453125
+  },
+  {
+   "texto": "aos",
+   "inicio": 111.88,
+   "fim": 113.76,
+   "conf": 0.8544921875
+  },
+  {
+   "texto": "quatro",
+   "inicio": 113.76,
+   "fim": 114.766,
+   "conf": 0.98388671875
+  },
+  {
+   "texto": "Aprendeu",
+   "inicio": 114.766,
+   "fim": 115.30600000000001,
+   "conf": 0.859375
+  },
+  {
+   "texto": "xadrez",
+   "inicio": 115.30600000000001,
+   "fim": 115.726,
+   "conf": 0.9873046875
+  },
+  {
+   "texto": "aos",
+   "inicio": 115.726,
+   "fim": 116.006,
+   "conf": 0.99755859375
+  },
+  {
+   "texto": "4",
+   "inicio": 116.006,
+   "fim": 116.366,
+   "conf": 0.783203125
+  },
+  {
+   "texto": "anos.",
+   "inicio": 116.38,
+   "fim": 116.76,
+   "conf": 0.9912109375
+  },
+  {
+   "texto": "Respira",
+   "inicio": 117.68,
+   "fim": 118.46,
+   "conf": 0.6787109375
+  },
+  {
+   "texto": "curto.",
+   "inicio": 118.46,
+   "fim": 118.82,
+   "conf": 0.7451171875
+  },
+  {
+   "texto": "E,",
+   "inicio": 119.276,
+   "fim": 119.65599999999999,
+   "conf": 0.50634765625
+  },
+  {
+   "texto": "Gaeon",
+   "inicio": 119.696,
+   "fim": 119.976,
+   "conf": 0.09112548828125
+  },
+  {
+   "texto": "Jung,",
+   "inicio": 119.976,
+   "fim": 120.176,
+   "conf": 0.123046875
+  },
+  {
+   "texto": "eu",
+   "inicio": 120.29599999999999,
+   "fim": 120.356,
+   "conf": 0.0814208984375
+  },
+  {
+   "texto": "vou,",
+   "inicio": 120.356,
+   "fim": 120.456,
+   "conf": 0.046051025390625
+  },
+  {
+   "texto": "eu",
+   "inicio": 120.456,
+   "fim": 120.456,
+   "conf": 0.11383056640625
+  },
+  {
+   "texto": "vou,",
+   "inicio": 120.456,
+   "fim": 120.59599999999999,
+   "conf": 0.11865234375
+  },
+  {
+   "texto": "eu",
+   "inicio": 120.59599999999999,
+   "fim": 120.59599999999999,
+   "conf": 0.2447509765625
+  },
+  {
+   "texto": "vou,",
+   "inicio": 120.59599999999999,
+   "fim": 120.676,
+   "conf": 0.14111328125
+  },
+  {
+   "texto": "eu",
+   "inicio": 120.756,
+   "fim": 120.756,
+   "conf": 0.469482421875
+  },
+  {
+   "texto": "vou.",
+   "inicio": 120.756,
+   "fim": 120.756,
+   "conf": 0.3505859375
+  },
+  {
+   "texto": "Aprendeu",
+   "inicio": 123.44,
+   "fim": 124.08,
+   "conf": 0.85107421875
+  },
+  {
+   "texto": "xadrez",
+   "inicio": 124.08,
+   "fim": 124.6,
+   "conf": 0.9296875
+  },
+  {
+   "texto": "aos",
+   "inicio": 124.6,
+   "fim": 124.94,
+   "conf": 0.9931640625
+  },
+  {
+   "texto": "4",
+   "inicio": 124.94,
+   "fim": 125.26,
+   "conf": 0.576171875
+  },
+  {
+   "texto": "anos",
+   "inicio": 125.26,
+   "fim": 125.68,
+   "conf": 0.994140625
+  },
+  {
+   "texto": "e...",
+   "inicio": 125.68,
+   "fim": 127.3,
+   "conf": 0.8173828125
+  },
+  {
+   "texto": "Bem,",
+   "inicio": 128.846,
+   "fim": 129.326,
+   "conf": 0.6591796875
+  },
+  {
+   "texto": "mis",
+   "inicio": 129.42600000000002,
+   "fim": 129.42600000000002,
+   "conf": 0.15283203125
+  },
+  {
+   "texto": "Hassabis.",
+   "inicio": 129.42600000000002,
+   "fim": 129.906,
+   "conf": 0.45068359375
+  },
+  {
+   "texto": "Respiro",
+   "inicio": 130.506,
+   "fim": 131.206,
+   "conf": 0.875
+  },
+  {
+   "texto": "curto.",
+   "inicio": 131.206,
+   "fim": 131.566,
+   "conf": 0.927734375
+  },
+  {
+   "texto": "Nascido",
+   "inicio": 132.066,
+   "fim": 132.786,
+   "conf": 0.9990234375
+  },
+  {
+   "texto": "aqui",
+   "inicio": 132.786,
+   "fim": 133.006,
+   "conf": 0.99853515625
+  },
+  {
+   "texto": "em",
+   "inicio": 133.006,
+   "fim": 133.146,
+   "conf": 0.9931640625
+  },
+  {
+   "texto": "Londres.",
+   "inicio": 133.146,
+   "fim": 133.606,
+   "conf": 0.9990234375
+  },
+  {
+   "texto": "Repete,",
+   "inicio": 135.74,
+   "fim": 136.38,
+   "conf": 0.6953125
+  },
+  {
+   "texto": "repete.",
+   "inicio": 136.44,
+   "fim": 136.86,
+   "conf": 0.9990234375
+  },
+  {
+   "texto": "Repete",
+   "inicio": 137.04,
+   "fim": 137.5,
+   "conf": 0.98828125
+  },
+  {
+   "texto": "o",
+   "inicio": 137.5,
+   "fim": 137.66,
+   "conf": 0.52392578125
+  },
+  {
+   "texto": "do",
+   "inicio": 137.66,
+   "fim": 137.88,
+   "conf": 0.74072265625
+  },
+  {
+   "texto": "início.",
+   "inicio": 137.88,
+   "fim": 138.16,
+   "conf": 0.91259765625
+  },
+  {
+   "texto": "Demis",
+   "inicio": 140.556,
+   "fim": 141.196,
+   "conf": 0.64111328125
+  },
+  {
+   "texto": "Hassabis.",
+   "inicio": 141.196,
+   "fim": 141.696,
+   "conf": 0.57861328125
+  },
+  {
+   "texto": "Respiro",
+   "inicio": 142.346,
+   "fim": 143.046,
+   "conf": 0.70947265625
+  },
+  {
+   "texto": "curto.",
+   "inicio": 143.046,
+   "fim": 143.3,
+   "conf": 0.9677734375
+  },
+  {
+   "texto": "Não,",
+   "inicio": 143.3,
+   "fim": 143.94,
+   "conf": 0.833984375
+  },
+  {
+   "texto": "antes,",
+   "inicio": 144.12,
+   "fim": 144.4,
+   "conf": 0.9990234375
+  },
+  {
+   "texto": "antes,",
+   "inicio": 144.54,
+   "fim": 144.84,
+   "conf": 0.99560546875
+  },
+  {
+   "texto": "antes.",
+   "inicio": 144.98,
+   "fim": 145.26,
+   "conf": 0.99072265625
+  },
+  {
+   "texto": "Primeiro,",
+   "inicio": 145.6,
+   "fim": 146.06,
+   "conf": 0.96875
+  },
+  {
+   "texto": "primeira",
+   "inicio": 146.18,
+   "fim": 146.4,
+   "conf": 0.96533203125
+  },
+  {
+   "texto": "linha.",
+   "inicio": 146.4,
+   "fim": 146.72,
+   "conf": 0.99951171875
+  },
+  {
+   "texto": "Aprendeu",
+   "inicio": 150.18,
+   "fim": 151.02,
+   "conf": 0.966796875
+  },
+  {
+   "texto": "xadrez",
+   "inicio": 151.02,
+   "fim": 151.46,
+   "conf": 0.9833984375
+  },
+  {
+   "texto": "aos",
+   "inicio": 151.46,
+   "fim": 151.72,
+   "conf": 0.9990234375
+  },
+  {
+   "texto": "quatro",
+   "inicio": 151.72,
+   "fim": 152.12,
+   "conf": 0.5146484375
+  },
+  {
+   "texto": "anos",
+   "inicio": 152.12,
+   "fim": 152.48,
+   "conf": 1.0
+  },
+  {
+   "texto": "e",
+   "inicio": 152.48,
+   "fim": 153.506,
+   "conf": 0.666015625
+  },
+  {
+   "texto": "Respiro",
+   "inicio": 153.506,
+   "fim": 154.166,
+   "conf": 0.7998046875
+  },
+  {
+   "texto": "curto.",
+   "inicio": 154.166,
+   "fim": 154.486,
+   "conf": 0.9345703125
+  },
+  {
+   "texto": "E",
+   "inicio": 154.956,
+   "fim": 155.356,
+   "conf": 0.552734375
+  },
+  {
+   "texto": "ganhão,",
+   "inicio": 155.356,
+   "fim": 155.736,
+   "conf": 0.495849609375
+  },
+  {
+   "texto": "não",
+   "inicio": 155.916,
+   "fim": 155.99599999999998,
+   "conf": 0.650390625
+  },
+  {
+   "texto": "deu",
+   "inicio": 155.99599999999998,
+   "fim": 156.176,
+   "conf": 0.75390625
+  },
+  {
+   "texto": "conha.",
+   "inicio": 156.176,
+   "fim": 156.516,
+   "conf": 0.1943359375
+  },
+  {
+   "texto": "Aprendeu",
+   "inicio": 158.456,
+   "fim": 159.43599999999998,
+   "conf": 0.9130859375
+  },
+  {
+   "texto": "xadrez",
+   "inicio": 159.43599999999998,
+   "fim": 159.896,
+   "conf": 0.9755859375
+  },
+  {
+   "texto": "aos",
+   "inicio": 159.896,
+   "fim": 160.05599999999998,
+   "conf": 0.994140625
+  },
+  {
+   "texto": "4",
+   "inicio": 160.05599999999998,
+   "fim": 160.356,
+   "conf": 0.63232421875
+  },
+  {
+   "texto": "anos?",
+   "inicio": 160.356,
+   "fim": 160.696,
+   "conf": 0.9970703125
+  },
+  {
+   "texto": "ganhou",
+   "inicio": 161.5,
+   "fim": 161.92,
+   "conf": 0.998046875
+  },
+  {
+   "texto": "um",
+   "inicio": 161.92,
+   "fim": 162.12,
+   "conf": 0.81640625
+  },
+  {
+   "texto": "Nobel",
+   "inicio": 162.12,
+   "fim": 162.42,
+   "conf": 0.98193359375
+  },
+  {
+   "texto": "com",
+   "inicio": 162.42,
+   "fim": 162.76,
+   "conf": 0.99365234375
+  },
+  {
+   "texto": "E",
+   "inicio": 162.76,
+   "fim": 162.94,
+   "conf": 0.373046875
+  },
+  {
+   "texto": ".A.",
+   "inicio": 162.94,
+   "fim": 163.12,
+   "conf": 0.7880859375
+  },
+  {
+   "texto": "Próximo.",
+   "inicio": 164.24,
+   "fim": 165.08,
+   "conf": 0.89599609375
+  },
+  {
+   "texto": "Denis",
+   "inicio": 165.54,
+   "fim": 165.74,
+   "conf": 0.6904296875
+  },
+  {
+   "texto": "Hassabis.",
+   "inicio": 165.74,
+   "fim": 166.42,
+   "conf": 0.5625
+  },
+  {
+   "texto": "Respiro",
+   "inicio": 166.88,
+   "fim": 167.72,
+   "conf": 0.70458984375
+  },
+  {
+   "texto": "curto.",
+   "inicio": 167.72,
+   "fim": 168.08,
+   "conf": 0.95703125
+  },
+  {
+   "texto": "Nascido",
+   "inicio": 168.48,
+   "fim": 169.32,
+   "conf": 0.998046875
+  },
+  {
+   "texto": "aqui",
+   "inicio": 169.32,
+   "fim": 169.54,
+   "conf": 0.99951171875
+  },
+  {
+   "texto": "em",
+   "inicio": 169.54,
+   "fim": 169.68,
+   "conf": 0.99462890625
+  },
+  {
+   "texto": "Londres.",
+   "inicio": 169.68,
+   "fim": 170.14,
+   "conf": 0.99951171875
+  },
+  {
+   "texto": "Denis",
+   "inicio": 170.98,
+   "fim": 171.82,
+   "conf": 0.923828125
+  },
+  {
+   "texto": "Hassabis.",
+   "inicio": 171.82,
+   "fim": 172.5,
+   "conf": 0.85205078125
+  },
+  {
+   "texto": "De",
+   "inicio": 173.74,
+   "fim": 174.16,
+   "conf": 0.7509765625
+  },
+  {
+   "texto": "novo.",
+   "inicio": 174.16,
+   "fim": 174.48,
+   "conf": 0.9990234375
+  },
+  {
+   "texto": "Denis",
+   "inicio": 175.08,
+   "fim": 175.56,
+   "conf": 0.96875
+  },
+  {
+   "texto": "Hassabis.",
+   "inicio": 175.56,
+   "fim": 176.24,
+   "conf": 0.99951171875
+  },
+  {
+   "texto": "Respiro",
+   "inicio": 176.7,
+   "fim": 177.54,
+   "conf": 0.994140625
+  },
+  {
+   "texto": "curto.",
+   "inicio": 177.54,
+   "fim": 177.88,
+   "conf": 0.998046875
+  },
+  {
+   "texto": "Nascido",
+   "inicio": 178.3,
+   "fim": 179.14,
+   "conf": 0.99951171875
+  },
+  {
+   "texto": "aqui",
+   "inicio": 179.14,
+   "fim": 179.36,
+   "conf": 1.0
+  },
+  {
+   "texto": "em",
+   "inicio": 179.36,
+   "fim": 179.5,
+   "conf": 0.99951171875
+  },
+  {
+   "texto": "Londres.",
+   "inicio": 179.5,
+   "fim": 179.88,
+   "conf": 1.0
+  },
+  {
+   "texto": "Denis",
+   "inicio": 181.706,
+   "fim": 182.446,
+   "conf": 0.68994140625
+  },
+  {
+   "texto": "Hassabi.",
+   "inicio": 182.446,
+   "fim": 183.08599999999998,
+   "conf": 0.841796875
+  },
+  {
+   "texto": "Nassib.",
+   "inicio": 183.976,
+   "fim": 184.736,
+   "conf": 0.4208984375
+  },
+  {
+   "texto": "Aos",
+   "inicio": 188.236,
+   "fim": 188.736,
+   "conf": 0.92578125
+  },
+  {
+   "texto": "13",
+   "inicio": 188.736,
+   "fim": 188.976,
+   "conf": 0.8876953125
+  },
+  {
+   "texto": "já",
+   "inicio": 188.976,
+   "fim": 189.356,
+   "conf": 0.837890625
+  },
+  {
+   "texto": "era",
+   "inicio": 189.356,
+   "fim": 189.596,
+   "conf": 0.99951171875
+  },
+  {
+   "texto": "mestre",
+   "inicio": 189.596,
+   "fim": 190.076,
+   "conf": 0.9736328125
+  },
+  {
+   "texto": "de",
+   "inicio": 190.076,
+   "fim": 190.21599999999998,
+   "conf": 0.99853515625
+  },
+  {
+   "texto": "xadrez.",
+   "inicio": 190.21599999999998,
+   "fim": 190.676,
+   "conf": 0.9990234375
+  },
+  {
+   "texto": "Respiro",
+   "inicio": 191.666,
+   "fim": 192.326,
+   "conf": 0.7880859375
+  },
+  {
+   "texto": "curto.",
+   "inicio": 192.326,
+   "fim": 192.646,
+   "conf": 0.97705078125
+  },
+  {
+   "texto": "Aos",
+   "inicio": 193.126,
+   "fim": 193.626,
+   "conf": 0.8310546875
+  },
+  {
+   "texto": "17.",
+   "inicio": 193.626,
+   "fim": 194.086,
+   "conf": 0.982421875
+  },
+  {
+   "texto": "Criado",
+   "inicio": 194.866,
+   "fim": 195.42600000000002,
+   "conf": 0.446044921875
+  },
+  {
+   "texto": "a",
+   "inicio": 195.42600000000002,
+   "fim": 195.54600000000002,
+   "conf": 0.69287109375
+  },
+  {
+   "texto": "video",
+   "inicio": 195.54600000000002,
+   "fim": 195.686,
+   "conf": 0.321044921875
+  },
+  {
+   "texto": "game.",
+   "inicio": 195.686,
+   "fim": 195.866,
+   "conf": 0.95849609375
+  },
+  {
+   "texto": "Denis",
+   "inicio": 198.29999999999998,
+   "fim": 199.2,
+   "conf": 0.5654296875
+  },
+  {
+   "texto": "Assabi,",
+   "inicio": 199.2,
+   "fim": 199.88,
+   "conf": 0.6572265625
+  },
+  {
+   "texto": "nascido",
+   "inicio": 200.12,
+   "fim": 201.58,
+   "conf": 0.96923828125
+  },
+  {
+   "texto": "aqui",
+   "inicio": 201.58,
+   "fim": 201.98,
+   "conf": 0.982421875
+  },
+  {
+   "texto": "em",
+   "inicio": 201.98,
+   "fim": 202.16,
+   "conf": 0.9951171875
+  },
+  {
+   "texto": "Londres.",
+   "inicio": 202.16,
+   "fim": 202.66,
+   "conf": 0.998046875
+  },
+  {
+   "texto": "Aos",
+   "inicio": 205.126,
+   "fim": 205.666,
+   "conf": 0.9169921875
+  },
+  {
+   "texto": "13",
+   "inicio": 205.666,
+   "fim": 205.906,
+   "conf": 0.83251953125
+  },
+  {
+   "texto": "já",
+   "inicio": 205.906,
+   "fim": 206.246,
+   "conf": 0.7919921875
+  },
+  {
+   "texto": "era",
+   "inicio": 206.246,
+   "fim": 206.526,
+   "conf": 0.99951171875
+  },
+  {
+   "texto": "mestre",
+   "inicio": 206.526,
+   "fim": 206.98600000000002,
+   "conf": 0.984375
+  },
+  {
+   "texto": "de",
+   "inicio": 206.98600000000002,
+   "fim": 207.106,
+   "conf": 0.998046875
+  },
+  {
+   "texto": "xadrez.",
+   "inicio": 207.106,
+   "fim": 207.566,
+   "conf": 0.9990234375
+  },
+  {
+   "texto": "Respira",
+   "inicio": 208.576,
+   "fim": 209.21599999999998,
+   "conf": 0.875
+  },
+  {
+   "texto": "gut.",
+   "inicio": 209.21599999999998,
+   "fim": 209.456,
+   "conf": 0.0261688232421875
+  },
+  {
+   "texto": "Aos",
+   "inicio": 210.036,
+   "fim": 210.536,
+   "conf": 0.8583984375
+  },
+  {
+   "texto": "17.",
+   "inicio": 210.536,
+   "fim": 210.996,
+   "conf": 0.9833984375
+  },
+  {
+   "texto": "Criar",
+   "inicio": 211.786,
+   "fim": 212.266,
+   "conf": 0.489501953125
+  },
+  {
+   "texto": "a",
+   "inicio": 212.266,
+   "fim": 212.346,
+   "conf": 0.3916015625
+  },
+  {
+   "texto": "ver",
+   "inicio": 212.346,
+   "fim": 212.426,
+   "conf": 0.043670654296875
+  },
+  {
+   "texto": "videogame.",
+   "inicio": 212.426,
+   "fim": 212.846,
+   "conf": 0.86328125
+  },
+  {
+   "texto": "não",
+   "inicio": 214.8,
+   "fim": 215.52,
+   "conf": 0.284423828125
+  },
+  {
+   "texto": "precisa",
+   "inicio": 215.52,
+   "fim": 216.02,
+   "conf": 0.9814453125
+  },
+  {
+   "texto": "dizer",
+   "inicio": 216.02,
+   "fim": 216.38,
+   "conf": 0.9775390625
+  },
+  {
+   "texto": "respiração",
+   "inicio": 216.38,
+   "fim": 217.04,
+   "conf": 0.89208984375
+  },
+  {
+   "texto": "tá",
+   "inicio": 217.04,
+   "fim": 217.2,
+   "conf": 0.87548828125
+  },
+  {
+   "texto": "bom",
+   "inicio": 217.2,
+   "fim": 217.38,
+   "conf": 0.998046875
+  },
+  {
+   "texto": "não",
+   "inicio": 217.38,
+   "fim": 218.14,
+   "conf": 0.89599609375
+  },
+  {
+   "texto": "precisa",
+   "inicio": 218.14,
+   "fim": 218.32,
+   "conf": 0.869140625
+  },
+  {
+   "texto": "dizer",
+   "inicio": 218.32,
+   "fim": 218.54,
+   "conf": 0.9384765625
+  },
+  {
+   "texto": "a",
+   "inicio": 218.54,
+   "fim": 218.68,
+   "conf": 0.7109375
+  },
+  {
+   "texto": "respiração",
+   "inicio": 218.68,
+   "fim": 219.92,
+   "conf": 0.98876953125
+  },
+  {
+   "texto": "Entendi.",
+   "inicio": 219.92,
+   "fim": 221.12,
+   "conf": 0.33642578125
+  },
+  {
+   "texto": "Sem",
+   "inicio": 221.38,
+   "fim": 221.96,
+   "conf": 0.98291015625
+  },
+  {
+   "texto": "falar",
+   "inicio": 221.96,
+   "fim": 222.26,
+   "conf": 0.994140625
+  },
+  {
+   "texto": "das",
+   "inicio": 222.26,
+   "fim": 222.46,
+   "conf": 0.99072265625
+  },
+  {
+   "texto": "respirações,",
+   "inicio": 222.46,
+   "fim": 223.12,
+   "conf": 0.998046875
+  },
+  {
+   "texto": "eu",
+   "inicio": 223.38,
+   "fim": 223.8,
+   "conf": 0.9892578125
+  },
+  {
+   "texto": "vou",
+   "inicio": 223.8,
+   "fim": 223.94,
+   "conf": 0.99853515625
+  },
+  {
+   "texto": "direto",
+   "inicio": 223.94,
+   "fim": 224.32,
+   "conf": 0.9990234375
+  },
+  {
+   "texto": "para",
+   "inicio": 224.32,
+   "fim": 224.44,
+   "conf": 0.72509765625
+  },
+  {
+   "texto": "o",
+   "inicio": 224.44,
+   "fim": 224.48,
+   "conf": 0.9990234375
+  },
+  {
+   "texto": "conteúdo",
+   "inicio": 224.48,
+   "fim": 224.86,
+   "conf": 0.99853515625
+  },
+  {
+   "texto": "da",
+   "inicio": 224.86,
+   "fim": 225.08,
+   "conf": 0.96240234375
+  },
+  {
+   "texto": "linha.",
+   "inicio": 225.08,
+   "fim": 225.24,
+   "conf": 0.49853515625
+  },
+  {
+   "texto": "Vamos",
+   "inicio": 226.0,
+   "fim": 226.24,
+   "conf": 0.99072265625
+  },
+  {
+   "texto": "continuar,",
+   "inicio": 226.24,
+   "fim": 226.72,
+   "conf": 0.99853515625
+  },
+  {
+   "texto": "enquanto",
+   "inicio": 226.72,
+   "fim": 227.08,
+   "conf": 0.450927734375
+  },
+  {
+   "texto": "o",
+   "inicio": 227.08,
+   "fim": 227.32,
+   "conf": 0.716796875
+  },
+  {
+   "texto": "que",
+   "inicio": 227.32,
+   "fim": 227.4,
+   "conf": 0.9990234375
+  },
+  {
+   "texto": "você",
+   "inicio": 227.4,
+   "fim": 227.6,
+   "conf": 0.99755859375
+  },
+  {
+   "texto": "quiser.",
+   "inicio": 227.6,
+   "fim": 227.84,
+   "conf": 0.982421875
+  },
+  {
+   "texto": "Repete",
+   "inicio": 236.58,
+   "fim": 237.3,
+   "conf": 0.95703125
+  },
+  {
+   "texto": "aos",
+   "inicio": 237.3,
+   "fim": 237.98,
+   "conf": 0.90478515625
+  },
+  {
+   "texto": "13",
+   "inicio": 237.98,
+   "fim": 238.26,
+   "conf": 0.93505859375
+  },
+  {
+   "texto": "anos.",
+   "inicio": 238.26,
+   "fim": 238.7,
+   "conf": 0.9990234375
+  },
+  {
+   "texto": "Repete",
+   "inicio": 238.88,
+   "fim": 239.28,
+   "conf": 0.9931640625
+  },
+  {
+   "texto": "daí.",
+   "inicio": 239.28,
+   "fim": 239.5,
+   "conf": 0.97265625
+  },
+  {
+   "texto": "Aos",
+   "inicio": 240.56,
+   "fim": 241.22,
+   "conf": 0.9638671875
+  },
+  {
+   "texto": "13",
+   "inicio": 241.22,
+   "fim": 241.52,
+   "conf": 0.9970703125
+  },
+  {
+   "texto": "já",
+   "inicio": 241.52,
+   "fim": 241.78,
+   "conf": 0.71142578125
+  },
+  {
+   "texto": "era",
+   "inicio": 241.78,
+   "fim": 242.04,
+   "conf": 0.99951171875
+  },
+  {
+   "texto": "mestre",
+   "inicio": 242.04,
+   "fim": 242.52,
+   "conf": 0.99853515625
+  },
+  {
+   "texto": "de",
+   "inicio": 242.52,
+   "fim": 242.66,
+   "conf": 0.99951171875
+  },
+  {
+   "texto": "xadrez.",
+   "inicio": 242.66,
+   "fim": 243.06,
+   "conf": 0.9990234375
+  },
+  {
+   "texto": "Aos",
+   "inicio": 243.48,
+   "fim": 244.2,
+   "conf": 0.9990234375
+  },
+  {
+   "texto": "17",
+   "inicio": 244.2,
+   "fim": 244.78,
+   "conf": 0.99951171875
+  },
+  {
+   "texto": "criava",
+   "inicio": 244.78,
+   "fim": 246.04,
+   "conf": 0.6611328125
+  },
+  {
+   "texto": "videogame.",
+   "inicio": 246.04,
+   "fim": 246.326,
+   "conf": 0.974609375
+  },
+  {
+   "texto": "Obrigado.",
+   "inicio": 246.326,
+   "fim": 246.666,
+   "conf": 0.48876953125
+  },
+  {
+   "texto": "aí",
+   "inicio": 249.14600000000002,
+   "fim": 249.526,
+   "conf": 0.94384765625
+  },
+  {
+   "texto": "aí",
+   "inicio": 253.166,
+   "fim": 253.666,
+   "conf": 0.95703125
+  },
+  {
+   "texto": "Aos",
+   "inicio": 258.52,
+   "fim": 259.4,
+   "conf": 0.81640625
+  },
+  {
+   "texto": "13",
+   "inicio": 259.4,
+   "fim": 259.66,
+   "conf": 0.93310546875
+  },
+  {
+   "texto": "anos",
+   "inicio": 259.66,
+   "fim": 260.08,
+   "conf": 0.98388671875
+  },
+  {
+   "texto": "já",
+   "inicio": 260.08,
+   "fim": 260.52,
+   "conf": 0.62158203125
+  },
+  {
+   "texto": "era",
+   "inicio": 260.52,
+   "fim": 260.8,
+   "conf": 0.99853515625
+  },
+  {
+   "texto": "mestre",
+   "inicio": 260.8,
+   "fim": 261.72,
+   "conf": 0.96435546875
+  },
+  {
+   "texto": "de",
+   "inicio": 261.72,
+   "fim": 261.84,
+   "conf": 0.98291015625
+  },
+  {
+   "texto": "chaves.",
+   "inicio": 261.84,
+   "fim": 261.96,
+   "conf": 0.6064453125
+  },
+  {
+   "texto": "E",
+   "inicio": 262.7,
+   "fim": 263.58,
+   "conf": 0.77392578125
+  },
+  {
+   "texto": "aos",
+   "inicio": 263.58,
+   "fim": 263.96,
+   "conf": 0.9912109375
+  },
+  {
+   "texto": "17",
+   "inicio": 263.96,
+   "fim": 264.98,
+   "conf": 0.99560546875
+  },
+  {
+   "texto": "anos...",
+   "inicio": 264.98,
+   "fim": 266.08,
+   "conf": 0.8115234375
+  },
+  {
+   "texto": "Aos",
+   "inicio": 268.78000000000003,
+   "fim": 269.66,
+   "conf": 0.705078125
+  },
+  {
+   "texto": "17",
+   "inicio": 269.66,
+   "fim": 270.0,
+   "conf": 0.5400390625
+  },
+  {
+   "texto": "anos",
+   "inicio": 270.0,
+   "fim": 270.22,
+   "conf": 0.880859375
+  },
+  {
+   "texto": "já",
+   "inicio": 270.22,
+   "fim": 270.28,
+   "conf": 0.390869140625
+  },
+  {
+   "texto": "era",
+   "inicio": 270.28,
+   "fim": 270.52,
+   "conf": 0.94970703125
+  },
+  {
+   "texto": "mestre",
+   "inicio": 270.52,
+   "fim": 271.04,
+   "conf": 0.99755859375
+  },
+  {
+   "texto": "de",
+   "inicio": 271.04,
+   "fim": 271.18,
+   "conf": 0.98583984375
+  },
+  {
+   "texto": "chaves.",
+   "inicio": 271.18,
+   "fim": 271.5,
+   "conf": 0.99560546875
+  },
+  {
+   "texto": "Aos",
+   "inicio": 272.16,
+   "fim": 273.04,
+   "conf": 0.982421875
+  },
+  {
+   "texto": "17,",
+   "inicio": 273.04,
+   "fim": 273.44,
+   "conf": 0.99951171875
+  },
+  {
+   "texto": "criava",
+   "inicio": 274.12,
+   "fim": 274.88,
+   "conf": 0.9951171875
+  },
+  {
+   "texto": "videogame.",
+   "inicio": 274.88,
+   "fim": 275.38,
+   "conf": 0.9541015625
+  },
+  {
+   "texto": "Aos",
+   "inicio": 277.9,
+   "fim": 278.9,
+   "conf": 0.9248046875
+  },
+  {
+   "texto": "17",
+   "inicio": 278.9,
+   "fim": 279.3,
+   "conf": 0.97705078125
+  },
+  {
+   "texto": "anos",
+   "inicio": 279.3,
+   "fim": 279.72,
+   "conf": 0.99609375
+  },
+  {
+   "texto": "já",
+   "inicio": 279.72,
+   "fim": 280.36,
+   "conf": 0.67138671875
+  },
+  {
+   "texto": "era",
+   "inicio": 280.36,
+   "fim": 280.7,
+   "conf": 0.9990234375
+  },
+  {
+   "texto": "mestre",
+   "inicio": 280.7,
+   "fim": 281.42,
+   "conf": 0.982421875
+  },
+  {
+   "texto": "de",
+   "inicio": 281.42,
+   "fim": 281.5,
+   "conf": 0.75244140625
+  },
+  {
+   "texto": "xadrez",
+   "inicio": 281.5,
+   "fim": 281.9,
+   "conf": 0.9912109375
+  },
+  {
+   "texto": "e",
+   "inicio": 281.9,
+   "fim": 282.66,
+   "conf": 0.6669921875
+  },
+  {
+   "texto": "aos",
+   "inicio": 282.66,
+   "fim": 282.9,
+   "conf": 0.94677734375
+  },
+  {
+   "texto": "17",
+   "inicio": 282.9,
+   "fim": 283.34,
+   "conf": 0.99462890625
+  },
+  {
+   "texto": "anos",
+   "inicio": 283.34,
+   "fim": 283.84,
+   "conf": 0.99853515625
+  },
+  {
+   "texto": "criava",
+   "inicio": 283.84,
+   "fim": 284.64,
+   "conf": 0.99560546875
+  },
+  {
+   "texto": "videogames.",
+   "inicio": 284.64,
+   "fim": 285.24,
+   "conf": 0.9482421875
+  },
+  {
+   "texto": "Estudou",
+   "inicio": 289.076,
+   "fim": 289.81600000000003,
+   "conf": 0.8994140625
+  },
+  {
+   "texto": "computação",
+   "inicio": 289.81600000000003,
+   "fim": 290.55600000000004,
+   "conf": 0.8603515625
+  },
+  {
+   "texto": "em",
+   "inicio": 290.55600000000004,
+   "fim": 290.716,
+   "conf": 0.99462890625
+  },
+  {
+   "texto": "Cambridge.",
+   "inicio": 290.716,
+   "fim": 291.076,
+   "conf": 0.99560546875
+  },
+  {
+   "texto": "E",
+   "inicio": 291.536,
+   "fim": 291.856,
+   "conf": 0.52880859375
+  },
+  {
+   "texto": "depois,",
+   "inicio": 291.856,
+   "fim": 292.236,
+   "conf": 0.99365234375
+  },
+  {
+   "texto": "Neurociência.",
+   "inicio": 292.456,
+   "fim": 293.076,
+   "conf": 0.8115234375
+  },
+  {
+   "texto": "E",
+   "inicio": 295.88,
+   "fim": 296.88,
+   "conf": 0.697265625
+  },
+  {
+   "texto": "estudou",
+   "inicio": 296.88,
+   "fim": 297.68,
+   "conf": 0.9794921875
+  },
+  {
+   "texto": "computações",
+   "inicio": 297.68,
+   "fim": 298.38,
+   "conf": 0.8564453125
+  },
+  {
+   "texto": "em",
+   "inicio": 298.38,
+   "fim": 298.9,
+   "conf": 0.9990234375
+  },
+  {
+   "texto": "Cambridge.",
+   "inicio": 298.9,
+   "fim": 299.24,
+   "conf": 0.9912109375
+  },
+  {
+   "texto": "Estudou",
+   "inicio": 301.906,
+   "fim": 302.62600000000003,
+   "conf": 0.87744140625
+  },
+  {
+   "texto": "computação",
+   "inicio": 302.62600000000003,
+   "fim": 303.366,
+   "conf": 0.89892578125
+  },
+  {
+   "texto": "em",
+   "inicio": 303.366,
+   "fim": 303.56600000000003,
+   "conf": 0.990234375
+  },
+  {
+   "texto": "Cambridge.",
+   "inicio": 303.56600000000003,
+   "fim": 303.886,
+   "conf": 0.99462890625
+  },
+  {
+   "texto": "E",
+   "inicio": 304.346,
+   "fim": 304.666,
+   "conf": 0.42822265625
+  },
+  {
+   "texto": "depois,",
+   "inicio": 304.666,
+   "fim": 305.046,
+   "conf": 0.974609375
+  },
+  {
+   "texto": "Neurociência.",
+   "inicio": 305.286,
+   "fim": 305.886,
+   "conf": 0.79296875
+  },
+  {
+   "texto": "Estudou",
+   "inicio": 309.02,
+   "fim": 309.78,
+   "conf": 0.73828125
+  },
+  {
+   "texto": "computações",
+   "inicio": 309.78,
+   "fim": 310.46,
+   "conf": 0.845703125
+  },
+  {
+   "texto": "em",
+   "inicio": 310.46,
+   "fim": 310.84,
+   "conf": 0.998046875
+  },
+  {
+   "texto": "Cambridge",
+   "inicio": 310.84,
+   "fim": 311.14,
+   "conf": 0.99755859375
+  },
+  {
+   "texto": "e",
+   "inicio": 311.14,
+   "fim": 311.84,
+   "conf": 0.951171875
+  },
+  {
+   "texto": "depois",
+   "inicio": 311.84,
+   "fim": 312.2,
+   "conf": 0.9990234375
+  },
+  {
+   "texto": "a",
+   "inicio": 312.2,
+   "fim": 312.48,
+   "conf": 0.98974609375
+  },
+  {
+   "texto": "Neurociência.",
+   "inicio": 312.48,
+   "fim": 313.26,
+   "conf": 0.8916015625
+  },
+  {
+   "texto": "Em",
+   "inicio": 317.106,
+   "fim": 317.486,
+   "conf": 0.6689453125
+  },
+  {
+   "texto": "2010,",
+   "inicio": 317.486,
+   "fim": 318.106,
+   "conf": 0.9931640625
+  },
+  {
+   "texto": "juntou",
+   "inicio": 318.346,
+   "fim": 318.766,
+   "conf": 0.9951171875
+  },
+  {
+   "texto": "tudo",
+   "inicio": 318.766,
+   "fim": 319.166,
+   "conf": 0.99462890625
+  },
+  {
+   "texto": "numa",
+   "inicio": 319.166,
+   "fim": 319.406,
+   "conf": 0.91845703125
+  },
+  {
+   "texto": "empresa",
+   "inicio": 319.406,
+   "fim": 319.94599999999997,
+   "conf": 0.99755859375
+  },
+  {
+   "texto": "aqui",
+   "inicio": 319.94599999999997,
+   "fim": 320.306,
+   "conf": 0.96923828125
+  },
+  {
+   "texto": "em",
+   "inicio": 320.306,
+   "fim": 320.466,
+   "conf": 0.99609375
+  },
+  {
+   "texto": "Londres.",
+   "inicio": 320.466,
+   "fim": 320.906,
+   "conf": 0.99951171875
+  },
+  {
+   "texto": "Adiv,",
+   "inicio": 321.216,
+   "fim": 321.81600000000003,
+   "conf": 0.48828125
+  },
+  {
+   "texto": "Mike.",
+   "inicio": 321.87600000000003,
+   "fim": 322.056,
+   "conf": 0.0660400390625
+  },
+  {
+   "texto": "Em",
+   "inicio": 323.86,
+   "fim": 324.86,
+   "conf": 0.76806640625
+  },
+  {
+   "texto": "2016,",
+   "inicio": 324.86,
+   "fim": 325.54,
+   "conf": 0.953125
+  },
+  {
+   "texto": "juntou",
+   "inicio": 325.92,
+   "fim": 326.5,
+   "conf": 0.99755859375
+  },
+  {
+   "texto": "tudo",
+   "inicio": 326.5,
+   "fim": 326.84,
+   "conf": 0.9970703125
+  },
+  {
+   "texto": "aqui",
+   "inicio": 326.84,
+   "fim": 327.04,
+   "conf": 0.99658203125
+  },
+  {
+   "texto": "em",
+   "inicio": 327.04,
+   "fim": 327.2,
+   "conf": 0.98974609375
+  },
+  {
+   "texto": "Londres",
+   "inicio": 327.2,
+   "fim": 327.68,
+   "conf": 1.0
+  },
+  {
+   "texto": "uma",
+   "inicio": 327.68,
+   "fim": 328.52,
+   "conf": 0.73193359375
+  },
+  {
+   "texto": "empresa",
+   "inicio": 328.52,
+   "fim": 329.02,
+   "conf": 0.99951171875
+  },
+  {
+   "texto": "chamada",
+   "inicio": 329.02,
+   "fim": 329.94,
+   "conf": 0.9248046875
+  },
+  {
+   "texto": "DeepMine.",
+   "inicio": 329.94,
+   "fim": 331.08,
+   "conf": 0.75146484375
+  },
+  {
+   "texto": "Em",
+   "inicio": 333.996,
+   "fim": 334.39599999999996,
+   "conf": 0.63037109375
+  },
+  {
+   "texto": "2010,",
+   "inicio": 334.39599999999996,
+   "fim": 335.07599999999996,
+   "conf": 0.8994140625
+  },
+  {
+   "texto": "Aos",
+   "inicio": 335.39599999999996,
+   "fim": 335.63599999999997,
+   "conf": 0.01421356201171875
+  },
+  {
+   "texto": "juntou",
+   "inicio": 335.63599999999997,
+   "fim": 336.116,
+   "conf": 0.9560546875
+  },
+  {
+   "texto": "tudo",
+   "inicio": 336.116,
+   "fim": 336.51599999999996,
+   "conf": 0.951171875
+  },
+  {
+   "texto": "numa",
+   "inicio": 336.51599999999996,
+   "fim": 336.756,
+   "conf": 0.6748046875
+  },
+  {
+   "texto": "empresa",
+   "inicio": 336.756,
+   "fim": 337.256,
+   "conf": 0.9716796875
+  },
+  {
+   "texto": "aqui",
+   "inicio": 337.256,
+   "fim": 337.596,
+   "conf": 0.87646484375
+  },
+  {
+   "texto": "em",
+   "inicio": 337.596,
+   "fim": 337.736,
+   "conf": 0.982421875
+  },
+  {
+   "texto": "Londres.",
+   "inicio": 337.736,
+   "fim": 338.116,
+   "conf": 0.9775390625
+  },
+  {
+   "texto": "Adi,",
+   "inicio": 338.466,
+   "fim": 339.00600000000003,
+   "conf": 0.3583984375
+  },
+  {
+   "texto": "Adi.",
+   "inicio": 339.086,
+   "fim": 339.306,
+   "conf": 0.492431640625
+  },
+  {
+   "texto": "Em",
+   "inicio": 342.21999999999997,
+   "fim": 343.02,
+   "conf": 0.97412109375
+  },
+  {
+   "texto": "2010,",
+   "inicio": 343.02,
+   "fim": 343.82,
+   "conf": 0.99560546875
+  },
+  {
+   "texto": "juntou",
+   "inicio": 344.2,
+   "fim": 344.86,
+   "conf": 0.99755859375
+  },
+  {
+   "texto": "tudo",
+   "inicio": 344.86,
+   "fim": 345.14,
+   "conf": 0.99951171875
+  },
+  {
+   "texto": "aqui",
+   "inicio": 345.14,
+   "fim": 345.34,
+   "conf": 0.9931640625
+  },
+  {
+   "texto": "em",
+   "inicio": 345.34,
+   "fim": 345.5,
+   "conf": 0.978515625
+  },
+  {
+   "texto": "Londres,",
+   "inicio": 345.5,
+   "fim": 345.92,
+   "conf": 0.99951171875
+  },
+  {
+   "texto": "fundou",
+   "inicio": 346.12,
+   "fim": 346.82,
+   "conf": 0.98486328125
+  },
+  {
+   "texto": "uma",
+   "inicio": 346.82,
+   "fim": 347.06,
+   "conf": 0.990234375
+  },
+  {
+   "texto": "empresa,",
+   "inicio": 347.06,
+   "fim": 347.56,
+   "conf": 0.99951171875
+  },
+  {
+   "texto": "a",
+   "inicio": 347.86,
+   "fim": 347.88,
+   "conf": 0.93701171875
+  },
+  {
+   "texto": "DeepMind.",
+   "inicio": 347.88,
+   "fim": 348.5,
+   "conf": 0.841796875
+  },
+  {
+   "texto": "Quatro",
+   "inicio": 350.796,
+   "fim": 351.356,
+   "conf": 0.6748046875
+  },
+  {
+   "texto": "anos",
+   "inicio": 351.356,
+   "fim": 351.616,
+   "conf": 0.998046875
+  },
+  {
+   "texto": "depois...",
+   "inicio": 351.616,
+   "fim": 352.316,
+   "conf": 0.75390625
+  },
+  {
+   "texto": "O",
+   "inicio": 353.066,
+   "fim": 353.426,
+   "conf": 0.7724609375
+  },
+  {
+   "texto": "Google",
+   "inicio": 353.426,
+   "fim": 353.746,
+   "conf": 0.9599609375
+  },
+  {
+   "texto": "comprou",
+   "inicio": 353.746,
+   "fim": 354.246,
+   "conf": 0.9951171875
+  },
+  {
+   "texto": "por",
+   "inicio": 354.246,
+   "fim": 354.46599999999995,
+   "conf": 0.98681640625
+  },
+  {
+   "texto": "cerca",
+   "inicio": 354.46599999999995,
+   "fim": 354.786,
+   "conf": 0.9931640625
+  },
+  {
+   "texto": "de",
+   "inicio": 354.786,
+   "fim": 354.986,
+   "conf": 0.9951171875
+  },
+  {
+   "texto": "400",
+   "inicio": 354.986,
+   "fim": 355.566,
+   "conf": 0.9775390625
+  },
+  {
+   "texto": "milhões",
+   "inicio": 355.566,
+   "fim": 356.126,
+   "conf": 0.98681640625
+  },
+  {
+   "texto": "de",
+   "inicio": 356.126,
+   "fim": 356.40599999999995,
+   "conf": 0.99853515625
+  },
+  {
+   "texto": "libras.",
+   "inicio": 356.40599999999995,
+   "fim": 356.806,
+   "conf": 0.9892578125
+  },
+  {
+   "texto": "E",
+   "inicio": 367.14,
+   "fim": 367.82,
+   "conf": 0.888671875
+  },
+  {
+   "texto": "quatro",
+   "inicio": 367.82,
+   "fim": 368.12,
+   "conf": 0.58349609375
+  },
+  {
+   "texto": "anos",
+   "inicio": 368.12,
+   "fim": 368.38,
+   "conf": 0.99853515625
+  },
+  {
+   "texto": "depois,",
+   "inicio": 368.38,
+   "fim": 368.72,
+   "conf": 0.99755859375
+  },
+  {
+   "texto": "o",
+   "inicio": 369.28,
+   "fim": 369.34,
+   "conf": 0.98876953125
+  },
+  {
+   "texto": "Google",
+   "inicio": 369.34,
+   "fim": 369.7,
+   "conf": 0.96484375
+  },
+  {
+   "texto": "comprou",
+   "inicio": 369.7,
+   "fim": 370.28,
+   "conf": 0.998046875
+  },
+  {
+   "texto": "a",
+   "inicio": 370.28,
+   "fim": 370.4,
+   "conf": 0.94482421875
+  },
+  {
+   "texto": "sua",
+   "inicio": 370.4,
+   "fim": 370.52,
+   "conf": 0.9951171875
+  },
+  {
+   "texto": "empresa",
+   "inicio": 370.52,
+   "fim": 370.96,
+   "conf": 0.9990234375
+  },
+  {
+   "texto": "por",
+   "inicio": 370.96,
+   "fim": 371.28,
+   "conf": 0.9921875
+  },
+  {
+   "texto": "4",
+   "inicio": 371.28,
+   "fim": 371.7,
+   "conf": 0.79638671875
+  },
+  {
+   "texto": "milhões",
+   "inicio": 371.7,
+   "fim": 372.12,
+   "conf": 0.9921875
+  },
+  {
+   "texto": "de",
+   "inicio": 372.12,
+   "fim": 372.38,
+   "conf": 0.99853515625
+  },
+  {
+   "texto": "libras.",
+   "inicio": 372.38,
+   "fim": 372.8,
+   "conf": 0.9931640625
+  }
+ ],
+ "texto": " E aí Tchau, tchau. Ok, eu estou pronto. Vamos ir. Ótimo. Me dá o sinal de começar e eu já entro com a primeira linha. Pronto, pode começar. Aprendeu xadrez aos quatro anos. Aprendeu xadrez aos quatro anos. Respira curto. Aprendeu xadrez aos 4 anos e... Repete, repete. Repete o do início. Não, antes, antes, antes. Primeiro, primeira linha. Aprendeu xadrez aos quatro anos e ganhou um Nobel com E.A. Próximo. Denis Hassabis. Respiro curto. Nascido aqui em Londres. Denis Hassabis. De novo. Denis Hassabis. Respiro curto. Nascido aqui em Londres. Denis Assabi, nascido aqui em Londres. não precisa dizer respiração tá bom não precisa dizer a respiração Entendi. Sem falar das respirações, eu vou direto para o conteúdo da linha. Vamos continuar, enquanto o que você quiser. Repete aos 13 anos. Repete daí. Aos 13 já era mestre de xadrez. Aos 17 criava videogame. Aos 13 anos já era mestre de chaves. E aos 17 anos... Aos 17 anos já era mestre de chaves. Aos 17, criava videogame. Aos 17 anos já era mestre de xadrez e aos 17 anos criava videogames. E estudou computações em Cambridge. Estudou computações em Cambridge e depois a Neurociência. Em 2016, juntou tudo aqui em Londres uma empresa chamada DeepMine. Em 2010, juntou tudo aqui em Londres, fundou uma empresa, a DeepMind. E quatro anos depois, o Google comprou a sua empresa por 4 milhões de libras."
+}

@@ -1,0 +1,12 @@
+# capturar.sh · 2026-10-23T16:26:43.977Z
+# alvo	largura pedida	innerWidth	scrollWidth	altura	HTTP	png	passa da borda
+/	1440	1440	1440	900	200	/Users/teste/Documents/CONTENT AI/painel/portoes/capturas-0f6e64385aae/estado-fora/inicio-1440.png	
+/	375	375	375	920	200	/Users/teste/Documents/CONTENT AI/painel/portoes/capturas-0f6e64385aae/estado-fora/inicio-375.png	
+/equipe	1440	1440	1440	900	200	/Users/teste/Documents/CONTENT AI/painel/portoes/capturas-0f6e64385aae/estado-fora/equipe-1440.png	
+/equipe	375	375	375	920	200	/Users/teste/Documents/CONTENT AI/painel/portoes/capturas-0f6e64385aae/estado-fora/equipe-375.png	
+/desempenho	1440	1440	1440	900	200	/Users/teste/Documents/CONTENT AI/painel/portoes/capturas-0f6e64385aae/estado-fora/desempenho-1440.png	
+/desempenho	375	375	375	920	200	/Users/teste/Documents/CONTENT AI/painel/portoes/capturas-0f6e64385aae/estado-fora/desempenho-375.png	
+/equipe/roteirista	1440	1440	1440	900	200	/Users/teste/Documents/CONTENT AI/painel/portoes/capturas-0f6e64385aae/estado-fora/equipe-roteirista-1440.png	
+/equipe/roteirista	375	375	375	920	200	/Users/teste/Documents/CONTENT AI/painel/portoes/capturas-0f6e64385aae/estado-fora/equipe-roteirista-375.png	
+/tokens	1440	1440	1440	900	200	/Users/teste/Documents/CONTENT AI/painel/portoes/capturas-0f6e64385aae/estado-fora/tokens-1440.png	
+/tokens	375	375	375	812	200	/Users/teste/Documents/CONTENT AI/painel/portoes/capturas-0f6e64385aae/estado-fora/tokens-375.png	

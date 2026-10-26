@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Linha de vídeo · korvu. painel — design system</title>
+<link rel="stylesheet" href="../tokens.css">
+<link rel="stylesheet" href="../componentes.css">
+<link rel="stylesheet" href="../acrescimos.css">
+<link rel="stylesheet" href="previa.css">
+<script src="../korvu.js"></script>
+<script src="previa.js" defer></script>
+</head>
+<body>
+<main class="pv">
+<header class="pv-head">
+<p class="k-cap">Dados · <span class="k-mono">k-table · k-thumb</span></p>
+<h1 class="k-h2">Linha de vídeo</h1>
+<p class="pv-lead">Cada vídeo, a etapa, o progresso, a data de publicação e o estado — numa linha de 56px.</p>
+</header>
+<section class="pv-sec">
+<h2 class="pv-sec-t k-cap">Com dados reais <span class="pv-tag pv-tag--real">dados reais · banco do painel</span></h2>
+<div class="k-card" style="overflow:hidden">
+<div class="k-table-wrap" role="region" aria-label="Vídeos (a tabela rola para o lado)" tabindex="0" style="--table-min:720px">
+<table class="k-table">
+<thead><tr><th>Vídeo</th><th>Etapa</th><th style="width:140px">Progresso</th><th>Publicação</th><th>Estado</th></tr></thead>
+<tbody>
+<tr><td><div class="k-video"><span class="k-thumb"><span data-icon="play" data-size="14"></span></span><div><div class="k-video-title">Joga o livro no ChatGPT e escreve isso</div><div class="k-video-meta k-mono">2026-10-23-livro-chatgpt</div></div></div></td><td class="k-ink2">Agendado</td><td><div class="k-steps" role="img" aria-label="Etapa 5 de 5: Publicar"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="now"></i></div></td><td class="k-ink2 k-num">27 out · 21:00</td><td><span class="k-chip k-chip--agendado">Agendado</span></td></tr>
+<tr class="is-hover"><td><div class="k-video"><span class="k-thumb"><span data-icon="play" data-size="14"></span></span><div><div class="k-video-title">Você tá usando o ChatGPT errado: dê contexto antes de pedir</div><div class="k-video-meta k-mono">2026-09-16-chatgpt-contexto</div></div></div></td><td class="k-ink2">EDL aprovada</td><td><div class="k-steps" role="img" aria-label="Etapa 3 de 5: Edição"><i class="on"></i><i class="on"></i><i class="now"></i><i></i><i></i></div></td><td class="k-ink2 k-num"><span aria-label="sem data">—</span></td><td><span class="k-chip k-chip--producao">Em produção</span></td></tr>
+<tr><td><div class="k-video"><span class="k-thumb"><span data-icon="play" data-size="14"></span></span><div><div class="k-video-title">Seu primeiro agente de IA em três passos</div><div class="k-video-meta k-mono">2026-10-22-agente-3-passos</div></div></div></td><td class="k-ink2">Roteiro</td><td><div class="k-steps" role="img" aria-label="Etapa 1 de 5: Roteiro"><i class="now"></i><i></i><i></i><i></i><i></i></div></td><td class="k-ink2 k-num"><span aria-label="sem data">—</span></td><td><span class="k-chip k-chip--producao">Em produção</span></td></tr>
+<tr><td><div class="k-video"><span class="k-thumb"><span data-icon="play" data-size="14"></span></span><div><div class="k-video-title">Quem é Demis Hassabis: do xadrez ao Nobel com IA</div><div class="k-video-meta k-mono">2026-09-17-demis-hassabis</div></div></div></td><td class="k-ink2">Publicado</td><td><div class="k-steps" role="img" aria-label="Todas as 5 etapas feitas"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i></div></td><td class="k-ink2 k-num">13 out · 17:03</td><td><span class="k-chip k-chip--publicado">Publicado</span></td></tr>
+</tbody>
+</table>
+</div>
+</div>
+</section>
+<section class="pv-sec">
+<h2 class="pv-sec-t k-cap">Regras</h2>
+<ul class="pv-lista"><li>Linha de 56px dentro de k-table num k-card; cabeçalho em caption; divisórias line; hover surface-hover.</li><li>Miniatura 56×36: frame real quando existe; senão k-thumb neutro com play. As variantes is-dark e is-accent existem no CSS mas a fonte não diz quando usar — use o neutro até o Carlos dizer.</li><li>Título corta com reticências, nunca quebra. Aqui o título é o tema do vídeo até o primeiro “ — ” ou “ (” (o banco não tem um campo de título limpo — ver handoff.md).</li><li>Coluna <b>Responsável</b> (do desenho do Carlos) <b>não aparece</b>: nenhum dado diz quem está com cada vídeo.</li><li>Em tela estreita a tabela rola dentro do card (região com foco e nome para leitor de tela); a página não.</li></ul>
+</section>
+<footer class="pv-foot"><span>Dados: dados-2026-10-23.json → videos, fila, publicacoes (horários no fuso do painel, o de formato.ts)</span> <span>Regras: <a href="../design-system.md">design-system.md</a></span> <a href="index.html">Todas as prévias</a></footer>
+</main>
+</body>
+</html>

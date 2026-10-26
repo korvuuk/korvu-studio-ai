@@ -1,0 +1,366 @@
+{
+  "slug": "2026-10-20-geoffrey-hinton",
+  "publicado_em": "2026-10-15T11:44:34+01:00",
+  "permalink_instagram": "https://www.instagram.com/reel/Degw3KFDvcO/",
+  "permalink_facebook": "https://www.facebook.com/reel/1033107573077272/",
+  "media_id_instagram": "18112116653114941",
+  "video_id_facebook": "1033107573077272",
+  "duracao_s": 158.68,
+  "palavra": "NOBEL",
+  "trial": {
+    "graduation_strategy": "SS_PERFORMANCE"
+  },
+  "tema": "Quem é Geoffrey Hinton: quase 50 anos numa ideia que ninguém levava a sério, até ela mudar o mundo e virar um Nobel",
+  "pilar": "perfil",
+  "nota_retencao": "A API da Meta não dá a curva de retenção segundo a segundo — só o tempo MÉDIO assistido. '% médio assistido' = tempo médio / duração do vídeo. A curva (em que segundo as pessoas saem) só aparece no app do Instagram, em Insights do Reel.",
+  "leituras": [
+    {
+      "lido_em": "2026-10-16T11:11:43+01:00",
+      "dias_desde_publicacao": 0.98,
+      "instagram": {
+        "media_id": "18112116653114941",
+        "campos": {
+          "id": "18112116653114941",
+          "comments_count": 0,
+          "is_shared_to_feed": false,
+          "like_count": 0,
+          "media_product_type": "REELS",
+          "media_type": "VIDEO",
+          "permalink": "https://www.instagram.com/reel/Degw3KFDvcO/",
+          "timestamp": "2026-10-15T10:40:33+0000"
+        },
+        "trial": "campo trial_params não disponível: (#100) Tried accessing nonexisting field (trial_params)",
+        "metricas": {
+          "views": 8,
+          "reach": 9,
+          "likes": 0,
+          "comments": 0,
+          "saved": 0,
+          "shares": 0,
+          "total_interactions": 0,
+          "ig_reels_avg_watch_time": 22791,
+          "ig_reels_video_view_total_time": 205127
+        },
+        "nao_suportadas": {
+          "follows": "(#100) The Media Insights API does not support the follows metric for this media product type.",
+          "profile_visits": "(#100) The Media Insights API does not support the profile_visits metric for this media product type."
+        }
+      },
+      "facebook": {
+        "video_id": "1033107573077272",
+        "metricas": {
+          "blue_reels_play_count": 2,
+          "fb_reels_total_plays": 2,
+          "fb_reels_replay_count": 0,
+          "post_video_avg_time_watched": 2505,
+          "post_video_view_time": 5010,
+          "post_video_followers": 0,
+          "post_video_social_actions": {},
+          "post_video_likes_by_reaction_type": {}
+        },
+        "nao_suportadas": {
+          "post_impressions_unique": "(#100) The value must be a valid insights metric"
+        }
+      },
+      "comentarios_palavra": {
+        "com_palavra": 0,
+        "directs": 0,
+        "pessoas": 0,
+        "fonte": "_controle/comentarios/estado.json"
+      },
+      "resumo": {
+        "instagram": {
+          "views": 8,
+          "alcance": 9,
+          "curtidas": 0,
+          "comentarios": 0,
+          "salvamentos": 0,
+          "compartilhamentos": 0,
+          "seguidores_ganhos": null,
+          "visitas_perfil": null,
+          "tempo_medio_s": 22.79,
+          "pct_medio_assistido": 14.4,
+          "taxas_sobre_alcance_pct": {
+            "salvamentos": 0.0,
+            "comentarios": 0.0,
+            "compartilhamentos": 0.0,
+            "curtidas": 0.0,
+            "comentarios_palavra": 0.0
+          }
+        },
+        "facebook": {
+          "plays": 2,
+          "alcance": null,
+          "tempo_medio_s": 2.5,
+          "pct_medio_assistido": 1.6,
+          "seguidores_ganhos": 0
+        },
+        "palavra": {
+          "comentarios": 0,
+          "directs": 0
+        }
+      }
+    },
+    {
+      "lido_em": "2026-10-21T09:30:04+01:00",
+      "dias_desde_publicacao": 5.91,
+      "instagram": {
+        "media_id": "18112116653114941",
+        "campos": {
+          "id": "18112116653114941",
+          "comments_count": 0,
+          "is_shared_to_feed": false,
+          "like_count": 1,
+          "media_product_type": "REELS",
+          "media_type": "VIDEO",
+          "permalink": "https://www.instagram.com/reel/Degw3KFDvcO/",
+          "timestamp": "2026-10-15T10:40:33+0000"
+        },
+        "trial": "campo trial_params não disponível: (#100) Tried accessing nonexisting field (trial_params)",
+        "metricas": {
+          "views": 11,
+          "reach": 11,
+          "likes": 1,
+          "comments": 0,
+          "saved": 0,
+          "shares": 0,
+          "total_interactions": 1,
+          "ig_reels_avg_watch_time": 43960,
+          "ig_reels_video_view_total_time": 615449
+        },
+        "nao_suportadas": {
+          "follows": "(#100) The Media Insights API does not support the follows metric for this media product type.",
+          "profile_visits": "(#100) The Media Insights API does not support the profile_visits metric for this media product type."
+        }
+      },
+      "facebook": {
+        "video_id": "1033107573077272",
+        "metricas": {
+          "blue_reels_play_count": 4,
+          "fb_reels_total_plays": 5,
+          "fb_reels_replay_count": 1,
+          "post_video_avg_time_watched": 1733,
+          "post_video_view_time": 6933,
+          "post_video_followers": 0,
+          "post_video_social_actions": {},
+          "post_video_likes_by_reaction_type": {}
+        },
+        "nao_suportadas": {
+          "post_impressions_unique": "(#100) The value must be a valid insights metric"
+        }
+      },
+      "comentarios_palavra": {
+        "com_palavra": 0,
+        "directs": 0,
+        "pessoas": 0,
+        "fonte": "_controle/comentarios/estado.json"
+      },
+      "resumo": {
+        "instagram": {
+          "views": 11,
+          "alcance": 11,
+          "curtidas": 1,
+          "comentarios": 0,
+          "salvamentos": 0,
+          "compartilhamentos": 0,
+          "seguidores_ganhos": null,
+          "visitas_perfil": null,
+          "tempo_medio_s": 43.96,
+          "pct_medio_assistido": 27.7,
+          "taxas_sobre_alcance_pct": {
+            "salvamentos": 0.0,
+            "comentarios": 0.0,
+            "compartilhamentos": 0.0,
+            "curtidas": 9.09,
+            "comentarios_palavra": 0.0
+          }
+        },
+        "facebook": {
+          "plays": 4,
+          "alcance": null,
+          "tempo_medio_s": 1.73,
+          "pct_medio_assistido": 1.1,
+          "seguidores_ganhos": 0
+        },
+        "palavra": {
+          "comentarios": 0,
+          "directs": 0
+        }
+      }
+    },
+    {
+      "lido_em": "2026-10-22T14:00:07+01:00",
+      "dias_desde_publicacao": 7.09,
+      "instagram": {
+        "media_id": "18112116653114941",
+        "campos": {
+          "id": "18112116653114941",
+          "comments_count": 0,
+          "is_shared_to_feed": false,
+          "like_count": 1,
+          "media_product_type": "REELS",
+          "media_type": "VIDEO",
+          "permalink": "https://www.instagram.com/reel/Degw3KFDvcO/",
+          "timestamp": "2026-10-15T10:40:33+0000"
+        },
+        "trial": "campo trial_params não disponível: (#100) Tried accessing nonexisting field (trial_params)",
+        "metricas": {
+          "views": 11,
+          "reach": 11,
+          "likes": 1,
+          "comments": 0,
+          "saved": 0,
+          "shares": 0,
+          "total_interactions": 1,
+          "ig_reels_avg_watch_time": 1512694,
+          "ig_reels_video_view_total_time": 22690413
+        },
+        "nao_suportadas": {
+          "follows": "(#100) The Media Insights API does not support the follows metric for this media product type.",
+          "profile_visits": "(#100) The Media Insights API does not support the profile_visits metric for this media product type."
+        }
+      },
+      "facebook": {
+        "video_id": "1033107573077272",
+        "metricas": {
+          "blue_reels_play_count": 4,
+          "fb_reels_total_plays": 5,
+          "fb_reels_replay_count": 1,
+          "post_video_avg_time_watched": 1733,
+          "post_video_view_time": 6933,
+          "post_video_followers": 0,
+          "post_video_social_actions": {},
+          "post_video_likes_by_reaction_type": {}
+        },
+        "nao_suportadas": {
+          "post_impressions_unique": "(#100) The value must be a valid insights metric"
+        }
+      },
+      "comentarios_palavra": {
+        "com_palavra": 0,
+        "directs": 0,
+        "pessoas": 0,
+        "fonte": "_controle/comentarios/estado.json"
+      },
+      "resumo": {
+        "instagram": {
+          "views": 11,
+          "alcance": 11,
+          "curtidas": 1,
+          "comentarios": 0,
+          "salvamentos": 0,
+          "compartilhamentos": 0,
+          "seguidores_ganhos": null,
+          "visitas_perfil": null,
+          "tempo_medio_s": 1512.69,
+          "pct_medio_assistido": 953.3,
+          "taxas_sobre_alcance_pct": {
+            "salvamentos": 0.0,
+            "comentarios": 0.0,
+            "compartilhamentos": 0.0,
+            "curtidas": 9.09,
+            "comentarios_palavra": 0.0
+          }
+        },
+        "facebook": {
+          "plays": 4,
+          "alcance": null,
+          "tempo_medio_s": 1.73,
+          "pct_medio_assistido": 1.1,
+          "seguidores_ganhos": 0
+        },
+        "palavra": {
+          "comentarios": 0,
+          "directs": 0
+        }
+      }
+    }
+  ],
+  "ultima": {
+    "lido_em": "2026-10-22T14:00:07+01:00",
+    "dias_desde_publicacao": 7.09,
+    "instagram": {
+      "media_id": "18112116653114941",
+      "campos": {
+        "id": "18112116653114941",
+        "comments_count": 0,
+        "is_shared_to_feed": false,
+        "like_count": 1,
+        "media_product_type": "REELS",
+        "media_type": "VIDEO",
+        "permalink": "https://www.instagram.com/reel/Degw3KFDvcO/",
+        "timestamp": "2026-10-15T10:40:33+0000"
+      },
+      "trial": "campo trial_params não disponível: (#100) Tried accessing nonexisting field (trial_params)",
+      "metricas": {
+        "views": 11,
+        "reach": 11,
+        "likes": 1,
+        "comments": 0,
+        "saved": 0,
+        "shares": 0,
+        "total_interactions": 1,
+        "ig_reels_avg_watch_time": 1512694,
+        "ig_reels_video_view_total_time": 22690413
+      },
+      "nao_suportadas": {
+        "follows": "(#100) The Media Insights API does not support the follows metric for this media product type.",
+        "profile_visits": "(#100) The Media Insights API does not support the profile_visits metric for this media product type."
+      }
+    },
+    "facebook": {
+      "video_id": "1033107573077272",
+      "metricas": {
+        "blue_reels_play_count": 4,
+        "fb_reels_total_plays": 5,
+        "fb_reels_replay_count": 1,
+        "post_video_avg_time_watched": 1733,
+        "post_video_view_time": 6933,
+        "post_video_followers": 0,
+        "post_video_social_actions": {},
+        "post_video_likes_by_reaction_type": {}
+      },
+      "nao_suportadas": {
+        "post_impressions_unique": "(#100) The value must be a valid insights metric"
+      }
+    },
+    "comentarios_palavra": {
+      "com_palavra": 0,
+      "directs": 0,
+      "pessoas": 0,
+      "fonte": "_controle/comentarios/estado.json"
+    },
+    "resumo": {
+      "instagram": {
+        "views": 11,
+        "alcance": 11,
+        "curtidas": 1,
+        "comentarios": 0,
+        "salvamentos": 0,
+        "compartilhamentos": 0,
+        "seguidores_ganhos": null,
+        "visitas_perfil": null,
+        "tempo_medio_s": 1512.69,
+        "pct_medio_assistido": 953.3,
+        "taxas_sobre_alcance_pct": {
+          "salvamentos": 0.0,
+          "comentarios": 0.0,
+          "compartilhamentos": 0.0,
+          "curtidas": 9.09,
+          "comentarios_palavra": 0.0
+        }
+      },
+      "facebook": {
+        "plays": 4,
+        "alcance": null,
+        "tempo_medio_s": 1.73,
+        "pct_medio_assistido": 1.1,
+        "seguidores_ganhos": 0
+      },
+      "palavra": {
+        "comentarios": 0,
+        "directs": 0
+      }
+    }
+  }
+}

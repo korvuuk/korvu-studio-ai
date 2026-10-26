@@ -1,0 +1,25 @@
+# PORTÃO-INTERFACE · 23/10 13:20 · teste de rede da :3456 (impressão dd0011568610)
+# endereços do Mac:
+#   	inet 127.0.0.1 netmask 0xff000000
+#   	inet6 ::1 prefixlen 128 
+#   	inet6 2a04:4a43:853f:f70d:1c38:7ee3:b9c1:c53f prefixlen 64 autoconf secured 
+#   	inet6 2a04:4a43:853f:f70d:7987:cae4:db3c:6d76 prefixlen 64 autoconf temporary 
+#   	inet 192.168.1.74 netmask 0xffffff00 broadcast 192.168.1.255
+== CONTROLE: node em *:3459 (todas as interfaces) — o teste tem de dar 200 por todos os endereços
+node    84335 teste   12u  IPv6 0x597475b238dd1c02      0t0  TCP *:3459 (LISTEN)
+  localhost:3459                                 200 ip=::1 
+  127.0.0.1:3459                                 200 ip=127.0.0.1 
+  [::1]:3459                                     200 ip=::1 
+  192.168.1.74:3459                              200 ip=192.168.1.74 
+  [2a04:4a43:853f:f70d:1c38:7ee3:b9c1:c53f]:3459 200 ip=2a04:4a43:853f:f70d:1c38:7ee3:b9c1:c53f 
+  [2a04:4a43:853f:f70d:7987:cae4:db3c:6d76]:3459 200 ip=2a04:4a43:853f:f70d:7987:cae4:db3c:6d76 
+== PREVIEW DO CARLOS :3456
+81713 Fri Oct 23 13:04:18 2026     next-server (v15.5.28) 
+node /Users/teste/Documents/CONTENT AI/painel/web/node_modules/.bin/next dev -p 3456 -H 127.0.0.1
+node    81713 teste   13u  IPv4 0x911a6338de58de80      0t0  TCP 127.0.0.1:3456 (LISTEN)
+  localhost:3456                                 200 ip=127.0.0.1 
+  127.0.0.1:3456                                 200 ip=127.0.0.1 
+  [::1]:3456                                     curl: (7) Failed to connect to ::1 port 3456 after 0 ms: Couldn't connect to server 000 ip= 
+  192.168.1.74:3456                              curl: (7) Failed to connect to 192.168.1.74 port 3456 after 1 ms: Couldn't connect to server 000 ip= 
+  [2a04:4a43:853f:f70d:1c38:7ee3:b9c1:c53f]:3456 curl: (7) Failed to connect to 2a04:4a43:853f:f70d:1c38:7ee3:b9c1:c53f port 3456 after 1 ms: Couldn't connect to server 000 ip= 
+  [2a04:4a43:853f:f70d:7987:cae4:db3c:6d76]:3456 curl: (7) Failed to connect to 2a04:4a43:853f:f70d:7987:cae4:db3c:6d76 port 3456 after 1 ms: Couldn't connect to server 000 ip= 

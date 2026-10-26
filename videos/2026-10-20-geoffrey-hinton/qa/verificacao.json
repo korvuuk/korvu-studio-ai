@@ -1,0 +1,423 @@
+{
+  "resultado": "FALHOU",
+  "motivos": [
+    "1.19s de voz da IA detectados no áudio do corte (limite 0.2s)",
+    "WER geral 40.7% > 8%"
+  ],
+  "wer_geral": 0.4071,
+  "linhas": [
+    {
+      "id": "L01",
+      "status": "presente",
+      "wer": 0.0714,
+      "esperado": "Imagina você passar quase 50 anos acreditando numa ideia que ninguém levava a sério…",
+      "ouvido": "Imagina você passar 50 anos acreditando numa ideia que ninguém levava a sério",
+      "S": 0,
+      "D": 1,
+      "I": 0
+    },
+    {
+      "id": "L02",
+      "status": "presente",
+      "wer": 0.0667,
+      "esperado": "E, no final, essa ideia mudar o mundo e ainda te dar um Prêmio Nobel.",
+      "ouvido": "e, no final, essa ideia mudar o mundo e ainda te dá um Prêmio Nobel.",
+      "S": 1,
+      "D": 0,
+      "I": 0
+    },
+    {
+      "id": "L03",
+      "status": "presente",
+      "wer": 0.1111,
+      "esperado": "Pois é. Essa é a história de Geoffrey Hinton.",
+      "ouvido": "Pois é, essa é a história do Geoffrey Hinton.",
+      "S": 1,
+      "D": 0,
+      "I": 0
+    },
+    {
+      "id": "L04",
+      "status": "presente",
+      "wer": 0.1333,
+      "esperado": "Hinton nasceu em Londres, em 1947, numa família de cientistas.",
+      "ouvido": "Hinton nasceu em Londres em 1947, em uma família de cientistas.",
+      "S": 1,
+      "D": 0,
+      "I": 1
+    },
+    {
+      "id": "L05",
+      "status": "presente",
+      "wer": 0.5833,
+      "esperado": "Mas, diferente do que muita gente imagina, ele não começou estudando computadores.",
+      "ouvido": "Mas, diferente que muitas pessoas imaginavam, ele não começou a estudar os computadores.",
+      "S": 4,
+      "D": 1,
+      "I": 2
+    },
+    {
+      "id": "L06",
+      "status": "presente",
+      "wer": 0.125,
+      "esperado": "Ele queria entender como funciona a mente humana.",
+      "ouvido": "Ele queria entender como funcionava a mente humana.",
+      "S": 1,
+      "D": 0,
+      "I": 0
+    },
+    {
+      "id": "L07",
+      "status": "presente",
+      "wer": 0.2308,
+      "esperado": "Nos anos 70, começou a defender uma ideia que parecia impossível naquela época:",
+      "ouvido": "Nos anos 70, ele começou a defender uma ideia que parecia impossível:",
+      "S": 0,
+      "D": 2,
+      "I": 1
+    },
+    {
+      "id": "L08",
+      "status": "presente",
+      "wer": 0.7857,
+      "esperado": "E se a gente conseguisse criar máquinas capazes de aprender como o cérebro humano?",
+      "ouvido": "e se a gente criasse uma máquina que consegue imitar a mente humana? Só que",
+      "S": 10,
+      "D": 0,
+      "I": 1
+    },
+    {
+      "id": "L09",
+      "status": "presente",
+      "wer": 0.375,
+      "esperado": "O problema é que quase ninguém acreditava nisso.",
+      "ouvido": "o problema: quase ninguém acreditava nessa",
+      "S": 1,
+      "D": 2,
+      "I": 0
+    },
+    {
+      "id": "L10",
+      "status": "presente",
+      "wer": 0.8,
+      "esperado": "Até o próprio orientador dele aconselhou que abandonasse essa pesquisa, porque poderia destruir sua carreira.",
+      "ouvido": "ideia. O mais curioso, o próprio orientador dele aconselhou ele a abandonar essa pesquisa, porque essa pesquisa pode comprometer a carreira",
+      "S": 6,
+      "D": 0,
+      "I": 6
+    },
+    {
+      "id": "L11",
+      "status": "presente",
+      "wer": 2.0,
+      "esperado": "Mas Hinton não desistiu.",
+      "ouvido": "dele. Como o cara é fera, ele simplesmente não desistiu.",
+      "S": 2,
+      "D": 0,
+      "I": 6
+    },
+    {
+      "id": "L12",
+      "status": "presente",
+      "wer": 0.3333,
+      "esperado": "Em 2012, junto com dois alunos,",
+      "ouvido": "Em 2012, ele juntou com dois alunos e",
+      "S": 1,
+      "D": 0,
+      "I": 2
+    },
+    {
+      "id": "L13",
+      "status": "presente",
+      "wer": 0.4167,
+      "esperado": "ele desenvolveu um sistema capaz de reconhecer imagens com uma precisão impressionante.",
+      "ouvido": "ele desenvolveu um sistema capaz de reconhecer imagem de forma precisa e",
+      "S": 5,
+      "D": 0,
+      "I": 0
+    },
+    {
+      "id": "L14",
+      "status": "presente",
+      "wer": 1.0,
+      "esperado": "Aquilo mudou completamente o rumo da inteligência artificial.",
+      "ouvido": "impecável. Foi aí que ele acabou de mudar o rumo da inteligência artificial.",
+      "S": 3,
+      "D": 0,
+      "I": 5
+    },
+    {
+      "id": "L15",
+      "status": "presente",
+      "wer": 0.5455,
+      "esperado": "Pouco depois, o Google comprou a empresa que eles tinham criado.",
+      "ouvido": "Pouco depois, o Google acabou de comprar a empresa que eles acabaram de criar.",
+      "S": 3,
+      "D": 0,
+      "I": 3
+    },
+    {
+      "id": "L16",
+      "status": "presente",
+      "wer": 0.5455,
+      "esperado": "E Hinton passou 10 anos trabalhando com a gigante da tecnologia.",
+      "ouvido": "E o Hinton passou mais de dez anos trabalhando junto com gigantes da tecnologia.",
+      "S": 3,
+      "D": 0,
+      "I": 3
+    },
+    {
+      "id": "L17",
+      "status": "presente",
+      "wer": 0.5,
+      "esperado": "Mas olha que interessante…",
+      "ouvido": "Agora, olha só que interessante.",
+      "S": 1,
+      "D": 0,
+      "I": 1
+    },
+    {
+      "id": "L18",
+      "status": "presente",
+      "wer": 0.1818,
+      "esperado": "Em 2023, ele deixou o Google",
+      "ouvido": "Em 2023, ele acabou deixando o Google",
+      "S": 1,
+      "D": 0,
+      "I": 1
+    },
+    {
+      "id": "L19",
+      "status": "presente",
+      "wer": 0.1,
+      "esperado": "para poder falar livremente sobre os riscos da inteligência artificial.",
+      "ouvido": "para poder falar livremente sobre os riscos das inteligência artificial.",
+      "S": 1,
+      "D": 0,
+      "I": 0
+    },
+    {
+      "id": "L20",
+      "status": "presente",
+      "wer": 0.2308,
+      "esperado": "E, um ano e meio depois, recebeu uma ligação às duas da manhã.",
+      "ouvido": "E um ano e meio depois, ele recebeu uma ligação às duas e meia da manhã.",
+      "S": 0,
+      "D": 0,
+      "I": 3
+    },
+    {
+      "id": "L21",
+      "status": "presente",
+      "wer": 0.2,
+      "esperado": "Era o comitê do Nobel.",
+      "ouvido": "era a comitê do Nobel.",
+      "S": 1,
+      "D": 0,
+      "I": 0
+    },
+    {
+      "id": "L22",
+      "status": "presente",
+      "wer": 0.625,
+      "esperado": "Ele tinha acabado de ganhar o Nobel de Física de 2024.",
+      "ouvido": "Ele tinha acabado de ganhado um Nobel e",
+      "S": 2,
+      "D": 8,
+      "I": 0
+    },
+    {
+      "id": "L23",
+      "status": "presente",
+      "wer": 0.0909,
+      "esperado": "Hoje, Geoffrey Hinton é conhecido como o padrinho da inteligência artificial.",
+      "ouvido": "hoje o Geoffrey Hinton é conhecido como o padrinho da inteligência artificial.",
+      "S": 0,
+      "D": 0,
+      "I": 1
+    },
+    {
+      "id": "L24",
+      "status": "presente",
+      "wer": 0.1429,
+      "esperado": "E o mais curioso é que o homem que ajudou a desenvolver essa tecnologia",
+      "ouvido": "E o mais curioso, o homem que ajudou a desenvolver essa tecnologia",
+      "S": 0,
+      "D": 2,
+      "I": 0
+    },
+    {
+      "id": "L25",
+      "status": "presente",
+      "wer": 0.3636,
+      "esperado": "é também um dos que mais alertam sobre os seus riscos.",
+      "ouvido": "é também o que mais alerta sobre os riscos",
+      "S": 2,
+      "D": 2,
+      "I": 0
+    },
+    {
+      "id": "L26",
+      "status": "presente",
+      "wer": 0.0,
+      "esperado": "A história dele mostra uma coisa:",
+      "ouvido": "A história dele mostra uma coisa:",
+      "S": 0,
+      "D": 0,
+      "I": 0
+    },
+    {
+      "id": "L27",
+      "status": "presente",
+      "wer": 0.0,
+      "esperado": "Às vezes, uma ideia que ninguém acredita pode mudar o mundo.",
+      "ouvido": "às vezes, uma ideia que ninguém acredita pode mudar o mundo.",
+      "S": 0,
+      "D": 0,
+      "I": 0
+    },
+    {
+      "id": "L28",
+      "status": "presente",
+      "wer": 0.8333,
+      "esperado": "Comenta NOBEL que eu te mando o link oficial da entrevista dele.",
+      "ouvido": "Comenta a palavra Nobel que eu vou te enviar a entrevista completa e também não",
+      "S": 7,
+      "D": 0,
+      "I": 3
+    },
+    {
+      "id": "L29",
+      "status": "presente",
+      "wer": 0.7,
+      "esperado": "E manda pra alguém que tá desistindo de uma ideia.",
+      "ouvido": "esquece de mandar pra alguém que tá querendo desistir duma grande ideia.",
+      "S": 5,
+      "D": 0,
+      "I": 2
+    }
+  ],
+  "extras": [
+    {
+      "inicio": 114.06,
+      "fim": 114.88,
+      "texto": "E a ligação"
+    },
+    {
+      "inicio": 137.52,
+      "fim": 138.895,
+      "texto": "da inteligência artificial."
+    }
+  ],
+  "duracao": {
+    "video": 158.64,
+    "audio": 158.68,
+    "pecas": 158.68,
+    "edl": 158.68,
+    "alvo": 90.0
+  },
+  "av_ok": true,
+  "duracao_ok": true,
+  "engine": "scribe",
+  "voz_ia": {
+    "aplicavel": true,
+    "segundos": 1.19,
+    "trechos": [
+      [
+        2.181,
+        2.221
+      ],
+      [
+        11.881,
+        11.941
+      ],
+      [
+        22.151,
+        22.221
+      ],
+      [
+        34.911,
+        34.941
+      ],
+      [
+        38.811,
+        38.921
+      ],
+      [
+        59.171,
+        59.231
+      ],
+      [
+        59.671,
+        59.731
+      ],
+      [
+        62.821,
+        62.841
+      ],
+      [
+        66.851,
+        66.871
+      ],
+      [
+        67.261,
+        67.321
+      ],
+      [
+        80.851,
+        81.001
+      ],
+      [
+        95.151,
+        95.261
+      ],
+      [
+        119.311,
+        119.361
+      ],
+      [
+        125.551,
+        125.611
+      ],
+      [
+        128.411,
+        128.521
+      ],
+      [
+        132.861,
+        132.911
+      ],
+      [
+        136.971,
+        137.041
+      ],
+      [
+        152.541,
+        152.601
+      ]
+    ],
+    "palavras_ia": [
+      {
+        "texto": "e",
+        "inicio": 38.84,
+        "fim": 38.9,
+        "llr": 1.93
+      }
+    ],
+    "limiar_llr": 1.5,
+    "segundos_edl": 0.0,
+    "limite": 0.2
+  },
+  "voz_ia_ok": false,
+  "fps": {
+    "video": 25.0,
+    "projeto": 25,
+    "ok": true,
+    "frame_s": 0.04
+  },
+  "formato": {
+    "largura": 1080,
+    "altura": 1920,
+    "pix_fmt": "yuv422p10le"
+  }
+}

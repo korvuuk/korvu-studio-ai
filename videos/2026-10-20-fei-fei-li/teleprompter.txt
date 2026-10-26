@@ -1,0 +1,191 @@
+QUEM É FEI-FEI LI: A ADOLESCENTE QUE CHEGOU SEM FALAR INGLÊS, ERA A VOZ DA FAMÍLIA NA LAVANDERIA E MONTOU O BANCO DE FOTOS QUE AJUDOU A IA A ENXERGAR
+TELEPROMPTER
+
+COMO LER
+/    respiro curto
+//   pausa (1 segundo)
+///  pausa longa (2 segundos)
+MAIÚSCULAS = ênfase
+Errou? Diga "de novo" e repita
+a linha inteira desde o começo.
+
+━━━━ POSE DA CAPA ━━━━
+Mão em forma de telefone no
+ouvido, olhar sério.
+Segure 3 SEGUNDOS, em silêncio.
+É daqui que sai a capa do feed.
+
+L01
+Imagina chegar adolescente num
+país novo, /
+sem falar INGLÊS…
+
+L02
+e, anos depois, /
+ajudar as máquinas /
+a ENXERGAR o mundo. //
+
+L03
+Essa é a história da FEI-FEI LI.
+
+L04
+Ela nasceu na China /
+e chegou aos Estados Unidos /
+ainda ADOLESCENTE.
+
+L05
+Os pais praticamente não falavam
+INGLÊS.
+
+L06
+Então, na lavanderia da família, /
+quem atendia o telefone, /
+resolvia cobrança /
+e até falava com o FISCAL?
+
+L07
+ELA. //
+
+L08
+E foi assim, ela conta, /
+que ajudou a pagar a FACULDADE.
+
+L09
+Fei-Fei estudou física em
+PRINCETON /
+e depois entrou para o mundo da
+inteligência artificial. //
+
+L10
+E ela começou a pensar /
+numa coisa muito SIMPLES:
+
+L11
+Uma criança aprende a reconhecer o
+mundo /
+vendo MILHÕES de exemplos.
+
+L12
+Então por que um COMPUTADOR seria
+diferente? //
+
+L13
+Em 2007, /
+ela começou um projeto chamado
+IMAGENET.
+
+L14
+A ideia era reunir milhões de
+imagens /
+e dizer ao computador /
+exatamente o que aparecia em cada
+uma delas.
+
+L15
+Segundo ela, /
+quase 50 MIL PESSOAS ajudaram pela
+internet /
+a organizar e identificar essas
+imagens.
+
+L16
+E sabe o mais CURIOSO? //
+
+L17
+Ela disponibilizou tudo DE GRAÇA /
+para pesquisadores. //
+
+L18
+Aí chega 2012.
+
+L19
+Um grupo da Universidade de
+Toronto /
+usa o ImageNet para treinar uma
+rede neural /
+numa competição de RECONHECIMENTO
+DE IMAGENS.
+
+L20
+E sabe quem estava nesse grupo?
+
+L21
+GEOFFREY HINTON, /
+de quem eu já falei aqui. //
+
+L22
+O resultado foi tão superior aos
+concorrentes /
+que aquele momento ajudou a mudar
+/
+o rumo da INTELIGÊNCIA ARTIFICIAL. //
+
+L23
+Mas olha que interessante: / //
+
+L24
+A IA era DELES.
+
+L25
+Os EXEMPLOS eram dela. //
+
+L26
+Hoje, a imprensa chama Fei-Fei Li
+/
+de MADRINHA DA INTELIGÊNCIA
+ARTIFICIAL.
+
+L27
+E a história dela mostra uma coisa
+/
+muito IMPORTANTE: //
+
+L28
+IA não aprende por MÁGICA.
+
+L29
+Ela aprende porque alguém teve o
+trabalho /
+de mostrar exemplos, /
+organizar informação /
+e ensinar o que cada coisa
+SIGNIFICA.
+
+L30
+E, às vezes, /
+quem ajuda a mudar o FUTURO…
+
+L31
+é aquela adolescente /
+que um dia precisou TRADUZIR TUDO
+/
+para a própria família. ///
+
+L32
+Comenta AULA aqui embaixo /
+que eu te mando a palestra dela.
+
+L33
+São 18 minutos, /
+com legenda em PORTUGUÊS.
+
+L34
+E manda esse vídeo /
+pra alguém que já foi o TRADUTOR
+DA FAMÍLIA.
+
+
+━━━━ HOOKS ALTERNATIVOS — GRAVAR NO FIM ━━━━
+
+L01B
+Imagina ouvir dos colegas /
+que era melhor fazer ALGO MAIS
+ÚTIL…
+
+L01C
+Imagina brincar que ia reabrir a
+LAVANDERIA /
+pra pagar a sua pesquisa…
+
+━━━━ FIM ━━━━
+Conferir: L01 a L34 + L01B, L01C

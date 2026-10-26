@@ -1,0 +1,7 @@
+# capturar.sh · 2026-10-22T23:33:57.382Z
+# alvo	largura pedida	innerWidth	scrollWidth	altura	HTTP	png	passa da borda
+/	320	320	320	2625	200	/Users/teste/Documents/CONTENT AI/painel/portoes/capturas-aae5d7867e7f/reflow-320/inicio-320.png	
+/equipe	320	320	320	4200	200	/Users/teste/Documents/CONTENT AI/painel/portoes/capturas-aae5d7867e7f/reflow-320/equipe-320.png	
+/equipe/portao-imagem	320	320	320	2520	200	/Users/teste/Documents/CONTENT AI/painel/portoes/capturas-aae5d7867e7f/reflow-320/equipe-portao-imagem-320.png	
+/equipe/contratar	320	320	320	1909	200	/Users/teste/Documents/CONTENT AI/painel/portoes/capturas-aae5d7867e7f/reflow-320/equipe-contratar-320.png	
+/videos	320	320	320	1919	200	/Users/teste/Documents/CONTENT AI/painel/portoes/capturas-aae5d7867e7f/reflow-320/videos-320.png	

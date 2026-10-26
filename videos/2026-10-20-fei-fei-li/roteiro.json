@@ -1,0 +1,1341 @@
+{
+  "slug": "2026-10-20-fei-fei-li",
+  "versao": 4,
+  "tema": "Quem é Fei-Fei Li: a adolescente que chegou sem falar inglês, era a voz da família na lavanderia e montou o banco de fotos que ajudou a IA a enxergar",
+  "pilar": "perfil",
+  "estrutura": "narrativo (00-marca/modelo-roteiro-narrativo.md): gancho → história → desafio → virada → clímax → reflexão → CTA",
+  "hook_template": "curiosity-gap",
+  "duracao_alvo": 165.0,
+  "wps_ref": 2.3,
+  "hooks": {
+    "A": {
+      "fala": "Imagina chegar adolescente num país novo, sem falar inglês…",
+      "tela": "CHEGOU SEM FALAR INGLÊS",
+      "visual": "Carlos em tela cheia; a Fei-Fei Li só aparece na L03"
+    },
+    "B": {
+      "fala": "Imagina ouvir dos colegas que era melhor fazer algo mais útil…",
+      "tela": "\"FAZ ALGO MAIS ÚTIL\"",
+      "visual": "Carlos em tela cheia; a Fei-Fei Li só aparece na L03"
+    },
+    "C": {
+      "fala": "Imagina brincar que ia reabrir a lavanderia pra pagar a sua pesquisa…",
+      "tela": "A PIADA DA LAVANDERIA",
+      "visual": "Carlos em tela cheia; a Fei-Fei Li só aparece na L03"
+    }
+  },
+  "hook_escolhido": "A",
+  "titulo": {
+    "contexto": "Chegou sem falar inglês",
+    "impacto": "e ajudou a IA a enxergar",
+    "cinza": 2,
+    "rabisco": "enxergar"
+  },
+  "pose_capa": "mão em forma de telefone no ouvido, olhar sério",
+  "cta_tipo": "palavra-material",
+  "cta_palavra": "AULA",
+  "material": "PDF de 2 páginas com o link oficial da palestra TED2015 da Fei-Fei Li, 'How we're teaching computers to understand pictures' (cerca de 18 min), e como ligar a legenda em português",
+  "material_titulo": "o link da palestra da Fei-Fei Li",
+  "total_palavras": 331,
+  "duracao_estimada": 155.8,
+  "extras": [
+    {
+      "id": "E01",
+      "tipo": "video",
+      "descricao": "Fei-Fei Li em plano fechado na conversa da SFPL (11:44–11:52, 8 s) — entra no nome dela; volta na reflexão (\"chamam ela de madrinha\")",
+      "fonte": "SFPL, YouTube qQrEZ0X4nEY → `brutos/extras/E01-sfpl-rosto.mp4`",
+      "credito": "San Francisco Public Library — \"The Worlds I See\"",
+      "som": false,
+      "linhas": [
+        "L03",
+        "L26"
+      ]
+    },
+    {
+      "id": "E02",
+      "tipo": "video",
+      "descricao": "Ela conta que chegou aos 15 anos, praticamente sem inglês (14:48–14:53, 5 s)",
+      "fonte": "SFPL, YouTube qQrEZ0X4nEY → `brutos/extras/E02-sfpl-chegada.mp4`",
+      "credito": "San Francisco Public Library — \"The Worlds I See\"",
+      "som": false,
+      "linhas": [
+        "L04",
+        "L05",
+        "L06"
+      ]
+    },
+    {
+      "id": "E08",
+      "tipo": "video",
+      "descricao": "Ela no TED2015 dizendo \"foi assim que paguei a faculdade\" (8:36–8:41, 4,8 s)",
+      "fonte": "TED2015, YouTube 40riCqvRoMs → `brutos/extras/E08-ted-faculdade.mp4`",
+      "credito": "Fei-Fei Li — TED2015 / TED",
+      "som": false,
+      "linhas": [
+        "L08"
+      ]
+    },
+    {
+      "id": "E03",
+      "tipo": "video",
+      "descricao": "Ela no palco do TED2015 explicando como a criança aprende a ver (5:44–5:53, 8,6 s)",
+      "fonte": "TED2015 → `brutos/extras/E03-ted-crianca.mp4`",
+      "credito": "Fei-Fei Li — TED2015 / TED",
+      "som": false,
+      "linhas": [
+        "L10",
+        "L11",
+        "L12"
+      ]
+    },
+    {
+      "id": "E05",
+      "tipo": "video",
+      "descricao": "TED2015: \"quase 50 mil trabalhadores, 167 países\" etiquetando as fotos, na tela atrás dela (7:36–7:44, 7,7 s)",
+      "fonte": "TED2015 → `brutos/extras/E05-ted-50mil.mp4`",
+      "credito": "Fei-Fei Li — TED2015 / TED",
+      "som": false,
+      "linhas": [
+        "L14",
+        "L15"
+      ]
+    },
+    {
+      "id": "E09",
+      "tipo": "video",
+      "descricao": "TED2015: ela, em plano fechado, conta que abriu o banco inteiro de graça (9:25–9:33, 7,7 s)",
+      "fonte": "TED2015 → `brutos/extras/E09-ted-degraca.mp4`",
+      "credito": "Fei-Fei Li — TED2015 / TED",
+      "som": false,
+      "linhas": [
+        "L17"
+      ]
+    },
+    {
+      "id": "E06",
+      "tipo": "print",
+      "descricao": "Resultado oficial do desafio ImageNet 2012, com destaque na linha do grupo de Toronto (SuperVision, 0,153) e na do 2.º lugar (0,262); legenda \"2012 · erro com 5 palpites por foto\" (o resultado é o erro top-5: a resposta certa não estava entre os 5 palpites da IA)",
+      "fonte": "`scripts/print_pagina.py` em image-net.org/challenges/LSVRC/2012/results.html",
+      "credito": "image-net.org (ILSVRC 2012)",
+      "som": false,
+      "linhas": [
+        "L19",
+        "L20",
+        "L21",
+        "L22"
+      ]
+    }
+  ],
+  "linhas": [
+    {
+      "id": "L01",
+      "secao": "hook",
+      "bloco": "gancho",
+      "fala": "Imagina chegar adolescente num país novo, sem falar inglês…",
+      "fala_original": "Imagina chegar adolescente num país novo, / sem falar **inglês**…",
+      "palavras": [
+        "imagina",
+        "chegar",
+        "adolescente",
+        "num",
+        "país",
+        "novo",
+        "sem",
+        "falar",
+        "inglês"
+      ],
+      "destaques": [
+        "inglês"
+      ],
+      "pausa_depois": "normal",
+      "tela": "",
+      "animacao": null,
+      "extras_ref": [],
+      "alternativa_de": null,
+      "tempo_estimado": [
+        0.0,
+        4.11
+      ]
+    },
+    {
+      "id": "L02",
+      "secao": "hook",
+      "bloco": "gancho",
+      "fala": "e, anos depois, ajudar as máquinas a enxergar o mundo.",
+      "fala_original": "e, anos depois, / ajudar as máquinas / a **enxergar** o mundo. [pausa]",
+      "palavras": [
+        "e",
+        "anos",
+        "depois",
+        "ajudar",
+        "as",
+        "máquinas",
+        "a",
+        "enxergar",
+        "o",
+        "mundo"
+      ],
+      "destaques": [
+        "enxergar"
+      ],
+      "pausa_depois": "pausa",
+      "tela": "",
+      "animacao": null,
+      "extras_ref": [],
+      "alternativa_de": null,
+      "tempo_estimado": [
+        4.11,
+        9.06
+      ]
+    },
+    {
+      "id": "L03",
+      "secao": "hook",
+      "bloco": "gancho",
+      "fala": "Essa é a história da Fei-Fei Li.",
+      "fala_original": "Essa é a história da **Fei-Fei Li**.",
+      "palavras": [
+        "essa",
+        "é",
+        "a",
+        "história",
+        "da",
+        "fei-fei",
+        "li"
+      ],
+      "destaques": [
+        "Fei-Fei Li"
+      ],
+      "pausa_depois": "normal",
+      "tela": "",
+      "animacao": null,
+      "extras_ref": [
+        {
+          "id": "E01",
+          "modo": "split",
+          "in": null,
+          "out": null
+        }
+      ],
+      "alternativa_de": null,
+      "tempo_estimado": [
+        9.06,
+        12.3
+      ]
+    },
+    {
+      "id": "L04",
+      "secao": "corpo",
+      "bloco": "historia",
+      "fala": "Ela nasceu na China e chegou aos Estados Unidos ainda adolescente.",
+      "fala_original": "Ela nasceu na China / e chegou aos Estados Unidos / ainda **adolescente**.",
+      "palavras": [
+        "ela",
+        "nasceu",
+        "na",
+        "china",
+        "e",
+        "chegou",
+        "aos",
+        "estados",
+        "unidos",
+        "ainda",
+        "adolescente"
+      ],
+      "destaques": [
+        "adolescente"
+      ],
+      "pausa_depois": "normal",
+      "tela": "",
+      "animacao": null,
+      "extras_ref": [
+        {
+          "id": "E02",
+          "modo": "split",
+          "in": null,
+          "out": null
+        }
+      ],
+      "alternativa_de": null,
+      "tempo_estimado": [
+        12.3,
+        17.29
+      ]
+    },
+    {
+      "id": "L05",
+      "secao": "corpo",
+      "bloco": "historia",
+      "fala": "Os pais praticamente não falavam inglês.",
+      "fala_original": "Os pais praticamente não falavam **inglês**.",
+      "palavras": [
+        "os",
+        "pais",
+        "praticamente",
+        "não",
+        "falavam",
+        "inglês"
+      ],
+      "destaques": [
+        "inglês"
+      ],
+      "pausa_depois": "normal",
+      "tela": "",
+      "animacao": null,
+      "extras_ref": [
+        {
+          "id": "E02",
+          "modo": "split",
+          "in": null,
+          "out": null
+        }
+      ],
+      "alternativa_de": null,
+      "tempo_estimado": [
+        17.29,
+        20.1
+      ]
+    },
+    {
+      "id": "L06",
+      "secao": "corpo",
+      "bloco": "historia",
+      "fala": "Então, na lavanderia da família, quem atendia o telefone, resolvia cobrança e até falava com o fiscal?",
+      "fala_original": "Então, na lavanderia da família, / quem atendia o telefone, / resolvia cobrança / e até falava com o **fiscal**?",
+      "palavras": [
+        "então",
+        "na",
+        "lavanderia",
+        "da",
+        "família",
+        "quem",
+        "atendia",
+        "o",
+        "telefone",
+        "resolvia",
+        "cobrança",
+        "e",
+        "até",
+        "falava",
+        "com",
+        "o",
+        "fiscal"
+      ],
+      "destaques": [
+        "fiscal"
+      ],
+      "pausa_depois": "normal",
+      "tela": "",
+      "animacao": null,
+      "extras_ref": [
+        {
+          "id": "E02",
+          "modo": "split",
+          "in": null,
+          "out": null
+        }
+      ],
+      "alternativa_de": null,
+      "tempo_estimado": [
+        20.1,
+        27.69
+      ]
+    },
+    {
+      "id": "L07",
+      "secao": "corpo",
+      "bloco": "historia",
+      "fala": "Ela.",
+      "fala_original": "**Ela**. [pausa]",
+      "palavras": [
+        "ela"
+      ],
+      "destaques": [
+        "Ela"
+      ],
+      "pausa_depois": "pausa",
+      "tela": "",
+      "animacao": null,
+      "extras_ref": [],
+      "alternativa_de": null,
+      "tempo_estimado": [
+        27.69,
+        28.72
+      ]
+    },
+    {
+      "id": "L08",
+      "secao": "corpo",
+      "bloco": "historia",
+      "fala": "E foi assim, ela conta, que ajudou a pagar a faculdade.",
+      "fala_original": "E foi assim, ela conta, / que ajudou a pagar a **faculdade**.",
+      "palavras": [
+        "e",
+        "foi",
+        "assim",
+        "ela",
+        "conta",
+        "que",
+        "ajudou",
+        "a",
+        "pagar",
+        "a",
+        "faculdade"
+      ],
+      "destaques": [
+        "faculdade"
+      ],
+      "pausa_depois": "normal",
+      "tela": "",
+      "animacao": null,
+      "extras_ref": [
+        {
+          "id": "E08",
+          "modo": "split",
+          "in": null,
+          "out": null
+        }
+      ],
+      "alternativa_de": null,
+      "tempo_estimado": [
+        28.72,
+        33.7
+      ]
+    },
+    {
+      "id": "L09",
+      "secao": "corpo",
+      "bloco": "historia",
+      "fala": "Fei-Fei estudou física em Princeton e depois entrou para o mundo da inteligência artificial.",
+      "fala_original": "Fei-Fei estudou física em **Princeton** / e depois entrou para o mundo da inteligência artificial. [pausa]",
+      "palavras": [
+        "fei-fei",
+        "estudou",
+        "física",
+        "em",
+        "princeton",
+        "e",
+        "depois",
+        "entrou",
+        "para",
+        "o",
+        "mundo",
+        "da",
+        "inteligência",
+        "artificial"
+      ],
+      "destaques": [
+        "Princeton"
+      ],
+      "pausa_depois": "pausa",
+      "tela": "",
+      "animacao": null,
+      "extras_ref": [],
+      "alternativa_de": null,
+      "tempo_estimado": [
+        33.7,
+        40.39
+      ]
+    },
+    {
+      "id": "L10",
+      "secao": "corpo",
+      "bloco": "desafio",
+      "fala": "E ela começou a pensar numa coisa muito simples:",
+      "fala_original": "E ela começou a pensar / numa coisa muito **simples**:",
+      "palavras": [
+        "e",
+        "ela",
+        "começou",
+        "a",
+        "pensar",
+        "numa",
+        "coisa",
+        "muito",
+        "simples"
+      ],
+      "destaques": [
+        "simples"
+      ],
+      "pausa_depois": "normal",
+      "tela": "",
+      "animacao": null,
+      "extras_ref": [
+        {
+          "id": "E03",
+          "modo": "split",
+          "in": null,
+          "out": null
+        }
+      ],
+      "alternativa_de": null,
+      "tempo_estimado": [
+        40.39,
+        44.5
+      ]
+    },
+    {
+      "id": "L11",
+      "secao": "corpo",
+      "bloco": "desafio",
+      "fala": "Uma criança aprende a reconhecer o mundo vendo milhões de exemplos.",
+      "fala_original": "Uma criança aprende a reconhecer o mundo / vendo **milhões** de exemplos.",
+      "palavras": [
+        "uma",
+        "criança",
+        "aprende",
+        "a",
+        "reconhecer",
+        "o",
+        "mundo",
+        "vendo",
+        "milhões",
+        "de",
+        "exemplos"
+      ],
+      "destaques": [
+        "milhões"
+      ],
+      "pausa_depois": "normal",
+      "tela": "",
+      "animacao": null,
+      "extras_ref": [
+        {
+          "id": "E03",
+          "modo": "split",
+          "in": null,
+          "out": null
+        }
+      ],
+      "alternativa_de": null,
+      "tempo_estimado": [
+        44.5,
+        49.49
+      ]
+    },
+    {
+      "id": "L12",
+      "secao": "corpo",
+      "bloco": "desafio",
+      "fala": "Então por que um computador seria diferente?",
+      "fala_original": "Então por que um **computador** seria diferente? [pausa]",
+      "palavras": [
+        "então",
+        "por",
+        "que",
+        "um",
+        "computador",
+        "seria",
+        "diferente"
+      ],
+      "destaques": [
+        "computador"
+      ],
+      "pausa_depois": "pausa",
+      "tela": "",
+      "animacao": null,
+      "extras_ref": [
+        {
+          "id": "E03",
+          "modo": "split",
+          "in": null,
+          "out": null
+        }
+      ],
+      "alternativa_de": null,
+      "tempo_estimado": [
+        49.49,
+        53.13
+      ]
+    },
+    {
+      "id": "L13",
+      "secao": "corpo",
+      "bloco": "virada",
+      "fala": "Em 2007, ela começou um projeto chamado ImageNet.",
+      "fala_original": "Em 2007, / ela começou um projeto chamado **ImageNet**.",
+      "palavras": [
+        "em",
+        "2007",
+        "ela",
+        "começou",
+        "um",
+        "projeto",
+        "chamado",
+        "imagenet"
+      ],
+      "destaques": [
+        "ImageNet"
+      ],
+      "pausa_depois": "normal",
+      "tela": "",
+      "animacao": null,
+      "extras_ref": [],
+      "alternativa_de": null,
+      "tempo_estimado": [
+        53.13,
+        56.81
+      ]
+    },
+    {
+      "id": "L14",
+      "secao": "corpo",
+      "bloco": "virada",
+      "fala": "A ideia era reunir milhões de imagens e dizer ao computador exatamente o que aparecia em cada uma delas.",
+      "fala_original": "A ideia era reunir milhões de imagens / e dizer ao computador / exatamente o que aparecia em cada uma delas.",
+      "palavras": [
+        "a",
+        "ideia",
+        "era",
+        "reunir",
+        "milhões",
+        "de",
+        "imagens",
+        "e",
+        "dizer",
+        "ao",
+        "computador",
+        "exatamente",
+        "o",
+        "que",
+        "aparecia",
+        "em",
+        "cada",
+        "uma",
+        "delas"
+      ],
+      "destaques": [],
+      "pausa_depois": "normal",
+      "tela": "",
+      "animacao": null,
+      "extras_ref": [
+        {
+          "id": "E05",
+          "modo": "split",
+          "in": null,
+          "out": null
+        }
+      ],
+      "alternativa_de": null,
+      "tempo_estimado": [
+        56.81,
+        65.27
+      ]
+    },
+    {
+      "id": "L15",
+      "secao": "corpo",
+      "bloco": "virada",
+      "fala": "Segundo ela, quase 50 mil pessoas ajudaram pela internet a organizar e identificar essas imagens.",
+      "fala_original": "Segundo ela, / quase **50 mil pessoas** ajudaram pela internet / a organizar e identificar essas imagens.",
+      "palavras": [
+        "segundo",
+        "ela",
+        "quase",
+        "50",
+        "mil",
+        "pessoas",
+        "ajudaram",
+        "pela",
+        "internet",
+        "a",
+        "organizar",
+        "e",
+        "identificar",
+        "essas",
+        "imagens"
+      ],
+      "destaques": [
+        "50 mil pessoas"
+      ],
+      "pausa_depois": "normal",
+      "tela": "",
+      "animacao": null,
+      "extras_ref": [
+        {
+          "id": "E05",
+          "modo": "split",
+          "in": null,
+          "out": null
+        }
+      ],
+      "alternativa_de": null,
+      "tempo_estimado": [
+        65.27,
+        71.99
+      ]
+    },
+    {
+      "id": "L16",
+      "secao": "corpo",
+      "bloco": "virada",
+      "fala": "E sabe o mais curioso?",
+      "fala_original": "E sabe o mais **curioso**? [pausa]",
+      "palavras": [
+        "e",
+        "sabe",
+        "o",
+        "mais",
+        "curioso"
+      ],
+      "destaques": [
+        "curioso"
+      ],
+      "pausa_depois": "pausa",
+      "tela": "",
+      "animacao": null,
+      "extras_ref": [],
+      "alternativa_de": null,
+      "tempo_estimado": [
+        71.99,
+        74.77
+      ]
+    },
+    {
+      "id": "L17",
+      "secao": "corpo",
+      "bloco": "virada",
+      "fala": "Ela disponibilizou tudo de graça para pesquisadores.",
+      "fala_original": "Ela disponibilizou tudo **de graça** / para pesquisadores. [pausa]",
+      "palavras": [
+        "ela",
+        "disponibilizou",
+        "tudo",
+        "de",
+        "graça",
+        "para",
+        "pesquisadores"
+      ],
+      "destaques": [
+        "de graça"
+      ],
+      "pausa_depois": "pausa",
+      "tela": "",
+      "animacao": null,
+      "extras_ref": [
+        {
+          "id": "E09",
+          "modo": "split",
+          "in": null,
+          "out": null
+        }
+      ],
+      "alternativa_de": null,
+      "tempo_estimado": [
+        74.77,
+        78.41
+      ]
+    },
+    {
+      "id": "L18",
+      "secao": "payoff",
+      "bloco": "climax",
+      "fala": "Aí chega 2012.",
+      "fala_original": "Aí chega **2012**.",
+      "palavras": [
+        "aí",
+        "chega",
+        "2012"
+      ],
+      "destaques": [
+        "2012"
+      ],
+      "pausa_depois": "normal",
+      "tela": "",
+      "animacao": null,
+      "extras_ref": [],
+      "alternativa_de": null,
+      "tempo_estimado": [
+        78.41,
+        79.91
+      ]
+    },
+    {
+      "id": "L19",
+      "secao": "payoff",
+      "bloco": "climax",
+      "fala": "Um grupo da Universidade de Toronto usa o ImageNet para treinar uma rede neural numa competição de reconhecimento de imagens.",
+      "fala_original": "Um grupo da Universidade de Toronto / usa o ImageNet para treinar uma rede neural / numa competição de **reconhecimento de imagens**.",
+      "palavras": [
+        "um",
+        "grupo",
+        "da",
+        "universidade",
+        "de",
+        "toronto",
+        "usa",
+        "o",
+        "imagenet",
+        "para",
+        "treinar",
+        "uma",
+        "rede",
+        "neural",
+        "numa",
+        "competição",
+        "de",
+        "reconhecimento",
+        "de",
+        "imagens"
+      ],
+      "destaques": [
+        "reconhecimento de imagens"
+      ],
+      "pausa_depois": "normal",
+      "tela": "",
+      "animacao": null,
+      "extras_ref": [
+        {
+          "id": "E06",
+          "modo": "split",
+          "in": null,
+          "out": null
+        }
+      ],
+      "alternativa_de": null,
+      "tempo_estimado": [
+        79.91,
+        88.81
+      ]
+    },
+    {
+      "id": "L20",
+      "secao": "payoff",
+      "bloco": "climax",
+      "fala": "E sabe quem estava nesse grupo?",
+      "fala_original": "E sabe quem estava nesse grupo?",
+      "palavras": [
+        "e",
+        "sabe",
+        "quem",
+        "estava",
+        "nesse",
+        "grupo"
+      ],
+      "destaques": [],
+      "pausa_depois": "normal",
+      "tela": "",
+      "animacao": null,
+      "extras_ref": [
+        {
+          "id": "E06",
+          "modo": "split",
+          "in": null,
+          "out": null
+        }
+      ],
+      "alternativa_de": null,
+      "tempo_estimado": [
+        88.81,
+        91.62
+      ]
+    },
+    {
+      "id": "L21",
+      "secao": "payoff",
+      "bloco": "climax",
+      "fala": "Geoffrey Hinton, de quem eu já falei aqui.",
+      "fala_original": "**Geoffrey Hinton**, / de quem eu já falei aqui. [pausa]",
+      "palavras": [
+        "geoffrey",
+        "hinton",
+        "de",
+        "quem",
+        "eu",
+        "já",
+        "falei",
+        "aqui"
+      ],
+      "destaques": [
+        "Geoffrey Hinton"
+      ],
+      "pausa_depois": "pausa",
+      "tela": "",
+      "animacao": null,
+      "extras_ref": [
+        {
+          "id": "E06",
+          "modo": "split",
+          "in": null,
+          "out": null
+        }
+      ],
+      "alternativa_de": null,
+      "tempo_estimado": [
+        91.62,
+        95.7
+      ]
+    },
+    {
+      "id": "L22",
+      "secao": "payoff",
+      "bloco": "climax",
+      "fala": "O resultado foi tão superior aos concorrentes que aquele momento ajudou a mudar o rumo da inteligência artificial.",
+      "fala_original": "O resultado foi tão superior aos concorrentes / que aquele momento ajudou a mudar / o rumo da **inteligência artificial**. [pausa]",
+      "palavras": [
+        "o",
+        "resultado",
+        "foi",
+        "tão",
+        "superior",
+        "aos",
+        "concorrentes",
+        "que",
+        "aquele",
+        "momento",
+        "ajudou",
+        "a",
+        "mudar",
+        "o",
+        "rumo",
+        "da",
+        "inteligência",
+        "artificial"
+      ],
+      "destaques": [
+        "inteligência artificial"
+      ],
+      "pausa_depois": "pausa",
+      "tela": "",
+      "animacao": null,
+      "extras_ref": [
+        {
+          "id": "E06",
+          "modo": "split",
+          "in": null,
+          "out": null
+        }
+      ],
+      "alternativa_de": null,
+      "tempo_estimado": [
+        95.7,
+        104.12
+      ]
+    },
+    {
+      "id": "L23",
+      "secao": "payoff",
+      "bloco": "climax",
+      "fala": "Mas olha que interessante:",
+      "fala_original": "Mas olha que interessante: [pausa]",
+      "palavras": [
+        "mas",
+        "olha",
+        "que",
+        "interessante"
+      ],
+      "destaques": [],
+      "pausa_depois": "pausa",
+      "tela": "",
+      "animacao": null,
+      "extras_ref": [],
+      "alternativa_de": null,
+      "tempo_estimado": [
+        104.12,
+        106.46
+      ]
+    },
+    {
+      "id": "L24",
+      "secao": "payoff",
+      "bloco": "climax",
+      "fala": "A IA era deles.",
+      "fala_original": "A IA era **deles**.",
+      "palavras": [
+        "a",
+        "ia",
+        "era",
+        "deles"
+      ],
+      "destaques": [
+        "deles"
+      ],
+      "pausa_depois": "normal",
+      "tela": "",
+      "animacao": null,
+      "extras_ref": [],
+      "alternativa_de": null,
+      "tempo_estimado": [
+        106.46,
+        108.4
+      ]
+    },
+    {
+      "id": "L25",
+      "secao": "payoff",
+      "bloco": "climax",
+      "fala": "Os exemplos eram dela.",
+      "fala_original": "Os **exemplos** eram dela. [pausa]",
+      "palavras": [
+        "os",
+        "exemplos",
+        "eram",
+        "dela"
+      ],
+      "destaques": [
+        "exemplos"
+      ],
+      "pausa_depois": "pausa",
+      "tela": "",
+      "animacao": null,
+      "extras_ref": [],
+      "alternativa_de": null,
+      "tempo_estimado": [
+        108.4,
+        110.74
+      ]
+    },
+    {
+      "id": "L26",
+      "secao": "payoff",
+      "bloco": "reflexao",
+      "fala": "Hoje, a imprensa chama Fei-Fei Li de madrinha da inteligência artificial.",
+      "fala_original": "Hoje, a imprensa chama Fei-Fei Li / de **madrinha da inteligência artificial**.",
+      "palavras": [
+        "hoje",
+        "a",
+        "imprensa",
+        "chama",
+        "fei-fei",
+        "li",
+        "de",
+        "madrinha",
+        "da",
+        "inteligência",
+        "artificial"
+      ],
+      "destaques": [
+        "madrinha da inteligência artificial"
+      ],
+      "pausa_depois": "normal",
+      "tela": "",
+      "animacao": null,
+      "extras_ref": [
+        {
+          "id": "E01",
+          "modo": "split",
+          "in": null,
+          "out": null
+        }
+      ],
+      "alternativa_de": null,
+      "tempo_estimado": [
+        110.74,
+        115.72
+      ]
+    },
+    {
+      "id": "L27",
+      "secao": "payoff",
+      "bloco": "reflexao",
+      "fala": "E a história dela mostra uma coisa muito importante:",
+      "fala_original": "E a história dela mostra uma coisa / muito **importante**: [pausa]",
+      "palavras": [
+        "e",
+        "a",
+        "história",
+        "dela",
+        "mostra",
+        "uma",
+        "coisa",
+        "muito",
+        "importante"
+      ],
+      "destaques": [
+        "importante"
+      ],
+      "pausa_depois": "pausa",
+      "tela": "",
+      "animacao": null,
+      "extras_ref": [],
+      "alternativa_de": null,
+      "tempo_estimado": [
+        115.72,
+        120.23
+      ]
+    },
+    {
+      "id": "L28",
+      "secao": "payoff",
+      "bloco": "reflexao",
+      "fala": "IA não aprende por mágica.",
+      "fala_original": "IA não aprende por **mágica**.",
+      "palavras": [
+        "ia",
+        "não",
+        "aprende",
+        "por",
+        "mágica"
+      ],
+      "destaques": [
+        "mágica"
+      ],
+      "pausa_depois": "normal",
+      "tela": "",
+      "animacao": null,
+      "extras_ref": [],
+      "alternativa_de": null,
+      "tempo_estimado": [
+        120.23,
+        122.61
+      ]
+    },
+    {
+      "id": "L29",
+      "secao": "payoff",
+      "bloco": "reflexao",
+      "fala": "Ela aprende porque alguém teve o trabalho de mostrar exemplos, organizar informação e ensinar o que cada coisa significa.",
+      "fala_original": "Ela aprende porque alguém teve o trabalho / de mostrar exemplos, / organizar informação / e ensinar o que cada coisa **significa**.",
+      "palavras": [
+        "ela",
+        "aprende",
+        "porque",
+        "alguém",
+        "teve",
+        "o",
+        "trabalho",
+        "de",
+        "mostrar",
+        "exemplos",
+        "organizar",
+        "informação",
+        "e",
+        "ensinar",
+        "o",
+        "que",
+        "cada",
+        "coisa",
+        "significa"
+      ],
+      "destaques": [
+        "significa"
+      ],
+      "pausa_depois": "normal",
+      "tela": "",
+      "animacao": null,
+      "extras_ref": [],
+      "alternativa_de": null,
+      "tempo_estimado": [
+        122.61,
+        131.07
+      ]
+    },
+    {
+      "id": "L30",
+      "secao": "payoff",
+      "bloco": "reflexao",
+      "fala": "E, às vezes, quem ajuda a mudar o futuro…",
+      "fala_original": "E, às vezes, / quem ajuda a mudar o **futuro**…",
+      "palavras": [
+        "e",
+        "às",
+        "vezes",
+        "quem",
+        "ajuda",
+        "a",
+        "mudar",
+        "o",
+        "futuro"
+      ],
+      "destaques": [
+        "futuro"
+      ],
+      "pausa_depois": "normal",
+      "tela": "",
+      "animacao": null,
+      "extras_ref": [],
+      "alternativa_de": null,
+      "tempo_estimado": [
+        131.07,
+        135.18
+      ]
+    },
+    {
+      "id": "L31",
+      "secao": "payoff",
+      "bloco": "reflexao",
+      "fala": "é aquela adolescente que um dia precisou traduzir tudo para a própria família.",
+      "fala_original": "é aquela adolescente / que um dia precisou **traduzir tudo** / para a própria família. [pausa longa]",
+      "palavras": [
+        "é",
+        "aquela",
+        "adolescente",
+        "que",
+        "um",
+        "dia",
+        "precisou",
+        "traduzir",
+        "tudo",
+        "para",
+        "a",
+        "própria",
+        "família"
+      ],
+      "destaques": [
+        "traduzir tudo"
+      ],
+      "pausa_depois": "pausa_longa",
+      "tela": "",
+      "animacao": null,
+      "extras_ref": [],
+      "alternativa_de": null,
+      "tempo_estimado": [
+        135.18,
+        141.73
+      ]
+    },
+    {
+      "id": "L32",
+      "secao": "cta",
+      "bloco": "cta",
+      "fala": "Comenta AULA aqui embaixo que eu te mando a palestra dela.",
+      "fala_original": "Comenta **AULA** aqui embaixo / que eu te mando a palestra dela.",
+      "palavras": [
+        "comenta",
+        "aula",
+        "aqui",
+        "embaixo",
+        "que",
+        "eu",
+        "te",
+        "mando",
+        "a",
+        "palestra",
+        "dela"
+      ],
+      "destaques": [
+        "AULA"
+      ],
+      "pausa_depois": "normal",
+      "tela": "",
+      "animacao": null,
+      "extras_ref": [],
+      "alternativa_de": null,
+      "tempo_estimado": [
+        141.73,
+        146.72
+      ]
+    },
+    {
+      "id": "L33",
+      "secao": "cta",
+      "bloco": "cta",
+      "fala": "São 18 minutos, com legenda em português.",
+      "fala_original": "São 18 minutos, / com legenda em **português**.",
+      "palavras": [
+        "são",
+        "18",
+        "minutos",
+        "com",
+        "legenda",
+        "em",
+        "português"
+      ],
+      "destaques": [
+        "português"
+      ],
+      "pausa_depois": "normal",
+      "tela": "",
+      "animacao": null,
+      "extras_ref": [],
+      "alternativa_de": null,
+      "tempo_estimado": [
+        146.72,
+        149.96
+      ]
+    },
+    {
+      "id": "L34",
+      "secao": "cta",
+      "bloco": "cta",
+      "fala": "E manda esse vídeo pra alguém que já foi o tradutor da família.",
+      "fala_original": "E manda esse vídeo / pra alguém que já foi o **tradutor da família**.",
+      "palavras": [
+        "e",
+        "manda",
+        "esse",
+        "vídeo",
+        "pra",
+        "alguém",
+        "que",
+        "já",
+        "foi",
+        "o",
+        "tradutor",
+        "da",
+        "família"
+      ],
+      "destaques": [
+        "tradutor da família"
+      ],
+      "pausa_depois": "normal",
+      "tela": "",
+      "animacao": null,
+      "extras_ref": [],
+      "alternativa_de": null,
+      "tempo_estimado": [
+        149.96,
+        155.81
+      ]
+    },
+    {
+      "id": "L01B",
+      "secao": "hook-alt",
+      "bloco": "gancho-alt",
+      "fala": "Imagina ouvir dos colegas que era melhor fazer algo mais útil…",
+      "fala_original": "Imagina ouvir dos colegas / que era melhor fazer **algo mais útil**…",
+      "palavras": [
+        "imagina",
+        "ouvir",
+        "dos",
+        "colegas",
+        "que",
+        "era",
+        "melhor",
+        "fazer",
+        "algo",
+        "mais",
+        "útil"
+      ],
+      "destaques": [
+        "algo mais útil"
+      ],
+      "pausa_depois": "normal",
+      "tela": "",
+      "animacao": null,
+      "extras_ref": [],
+      "alternativa_de": "L01",
+      "tempo_estimado": null
+    },
+    {
+      "id": "L01C",
+      "secao": "hook-alt",
+      "bloco": "gancho-alt",
+      "fala": "Imagina brincar que ia reabrir a lavanderia pra pagar a sua pesquisa…",
+      "fala_original": "Imagina brincar que ia reabrir a **lavanderia** / pra pagar a sua pesquisa…",
+      "palavras": [
+        "imagina",
+        "brincar",
+        "que",
+        "ia",
+        "reabrir",
+        "a",
+        "lavanderia",
+        "pra",
+        "pagar",
+        "a",
+        "sua",
+        "pesquisa"
+      ],
+      "destaques": [
+        "lavanderia"
+      ],
+      "pausa_depois": "normal",
+      "tela": "",
+      "animacao": null,
+      "extras_ref": [],
+      "alternativa_de": "L01",
+      "tempo_estimado": null
+    }
+  ]
+}

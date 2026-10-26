@@ -1,0 +1,18 @@
+{
+  "slug": "2026-09-17-demis-hassabis",
+  "criado_em": "2026-10-02T01:11:32+01:00",
+  "duracao": 57.84,
+  "qa": "PASS",
+  "arquivos": {
+    "video": "video/video-final.mp4",
+    "variantes": [],
+    "capa": "capa/capa.png",
+    "legendas": "legendas/legendas.srt",
+    "material": "material/documentario-the-thinking-game.pdf",
+    "roteiro": "roteiro.md",
+    "qa": "qa-relatorio.md"
+  },
+  "cta_palavra": "DOCUMENTARIO",
+  "tema": "Quem é Demis Hassabis: do menino do xadrez ao Nobel com IA, criando a DeepMind em Londres",
+  "pilar": "perfil"
+}

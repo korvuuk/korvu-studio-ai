@@ -1,0 +1,622 @@
+{
+  "criado_em": "2026-10-02T00:35:23+01:00",
+  "entrada": "videos/2026-09-17-demis-hassabis/edicao/corte.mp4",
+  "saida": "videos/2026-09-17-demis-hassabis/edicao/cor/corte-cor.mp4",
+  "lut": "00-marca/cor/luts/korvu-look-v5.cube",
+  "intensidade": 1.0,
+  "alvo_primaria": {
+    "luma": 0.44657,
+    "rgb_neutro": [
+      0.22375,
+      0.14511,
+      0.08111
+    ],
+    "frac_meios_tons": 0.0463,
+    "frac_recortado": 0.0003,
+    "frac_pele": 0.932,
+    "confiavel": true,
+    "nota": "domínio de entrada da LUT: é a exposição/neutro que a LUT leva até à média da referência. aplicar_cor.py ajusta cada take para cá."
+  },
+  "hdr_para_sdr": false,
+  "lut_entrada_camera": true,
+  "lut_entrada": "00-marca/cor/luts/entrada-camera.cube",
+  "lut_entrada_desc": "00-marca/cor/luts/entrada-camera.cube (gerada, provisória)",
+  "fontes_json": true,
+  "primaria": true,
+  "limites_primaria": {
+    "ev": 0.5,
+    "wb": 0.08
+  },
+  "grao": 0.0,
+  "formato_entrada": {
+    "pix_fmt": "yuv422p10le",
+    "fps": "25/1",
+    "color_range": "tv"
+  },
+  "segmentos": [
+    {
+      "n": 1,
+      "fonte": "praq0969",
+      "take": "L01-T3",
+      "linha": "L01",
+      "tipo": "camera",
+      "perfil": "vlog",
+      "entrada_vlog": true,
+      "saida_inicio": 0.0,
+      "saida_fim": 4.12,
+      "frames": [
+        0,
+        103
+      ],
+      "graduado": true,
+      "medicao": {
+        "luma": 0.62702,
+        "rgb_neutro": [
+          0.7483,
+          0.72358,
+          0.6988
+        ],
+        "frac_meios_tons": 0.2322,
+        "frac_recortado": 0.0,
+        "frac_pele": 0.6386,
+        "confiavel": true,
+        "frames_medidos": 17
+      },
+      "correcao": {
+        "ev": -0.5,
+        "ganhos": [
+          0.9226,
+          0.7954,
+          0.7859
+        ],
+        "nota": "exposição limitada (-1.08 → -0.50 EV); balanço de branco limitado a ±8%/canal"
+      }
+    },
+    {
+      "n": 2,
+      "fonte": "praq0969",
+      "take": "L02-T1",
+      "linha": "L02",
+      "tipo": "camera",
+      "perfil": "vlog",
+      "entrada_vlog": true,
+      "saida_inicio": 4.12,
+      "saida_fim": 7.04,
+      "frames": [
+        103,
+        176
+      ],
+      "graduado": true,
+      "medicao": {
+        "luma": 0.59489,
+        "rgb_neutro": [
+          0.70404,
+          0.67948,
+          0.65506
+        ],
+        "frac_meios_tons": 0.1907,
+        "frac_recortado": 0.0,
+        "frac_pele": 0.7122,
+        "confiavel": true,
+        "frames_medidos": 12
+      },
+      "correcao": {
+        "ev": -0.5,
+        "ganhos": [
+          0.9226,
+          0.7958,
+          0.7859
+        ],
+        "nota": "exposição limitada (-0.91 → -0.50 EV); balanço de branco limitado a ±8%/canal"
+      }
+    },
+    {
+      "n": 3,
+      "fonte": "praq0969",
+      "take": "L03-T2",
+      "linha": "L03",
+      "tipo": "camera",
+      "perfil": "vlog",
+      "entrada_vlog": true,
+      "saida_inicio": 7.04,
+      "saida_fim": 12.08,
+      "frames": [
+        176,
+        302
+      ],
+      "graduado": true,
+      "medicao": {
+        "luma": 0.5918,
+        "rgb_neutro": [
+          0.68651,
+          0.66275,
+          0.63916
+        ],
+        "frac_meios_tons": 0.2112,
+        "frac_recortado": 0.0,
+        "frac_pele": 0.6769,
+        "confiavel": true,
+        "frames_medidos": 20
+      },
+      "correcao": {
+        "ev": -0.5,
+        "ganhos": [
+          0.9226,
+          0.7957,
+          0.7859
+        ],
+        "nota": "exposição limitada (-0.89 → -0.50 EV); balanço de branco limitado a ±8%/canal"
+      }
+    },
+    {
+      "n": 4,
+      "fonte": "praq0969",
+      "take": "L04-T2",
+      "linha": "L04",
+      "tipo": "camera",
+      "perfil": "vlog",
+      "entrada_vlog": true,
+      "saida_inicio": 12.08,
+      "saida_fim": 15.8,
+      "frames": [
+        302,
+        395
+      ],
+      "graduado": true,
+      "medicao": {
+        "luma": 0.57772,
+        "rgb_neutro": [
+          0.64818,
+          0.62413,
+          0.60038
+        ],
+        "frac_meios_tons": 0.2085,
+        "frac_recortado": 0.0,
+        "frac_pele": 0.674,
+        "confiavel": true,
+        "frames_medidos": 15
+      },
+      "correcao": {
+        "ev": -0.5,
+        "ganhos": [
+          0.9226,
+          0.7963,
+          0.7859
+        ],
+        "nota": "exposição limitada (-0.82 → -0.50 EV); balanço de branco limitado a ±8%/canal"
+      }
+    },
+    {
+      "n": 5,
+      "fonte": "praq0969",
+      "take": "L05-T2",
+      "linha": "L05",
+      "tipo": "camera",
+      "perfil": "vlog",
+      "entrada_vlog": true,
+      "saida_inicio": 15.8,
+      "saida_fim": 21.28,
+      "frames": [
+        395,
+        532
+      ],
+      "graduado": true,
+      "medicao": {
+        "luma": 0.58771,
+        "rgb_neutro": [
+          0.68398,
+          0.66014,
+          0.63637
+        ],
+        "frac_meios_tons": 0.2036,
+        "frac_recortado": 0.0,
+        "frac_pele": 0.6899,
+        "confiavel": true,
+        "frames_medidos": 22
+      },
+      "correcao": {
+        "ev": -0.5,
+        "ganhos": [
+          0.9226,
+          0.7958,
+          0.7859
+        ],
+        "nota": "exposição limitada (-0.87 → -0.50 EV); balanço de branco limitado a ±8%/canal"
+      }
+    },
+    {
+      "n": 6,
+      "fonte": "praq0970",
+      "take": "L06-T2",
+      "linha": "L06",
+      "tipo": "camera",
+      "perfil": "vlog",
+      "entrada_vlog": true,
+      "saida_inicio": 21.28,
+      "saida_fim": 27.4,
+      "frames": [
+        532,
+        685
+      ],
+      "graduado": true,
+      "medicao": {
+        "luma": 0.5817,
+        "rgb_neutro": [
+          0.67839,
+          0.65438,
+          0.63044
+        ],
+        "frac_meios_tons": 0.1902,
+        "frac_recortado": 0.0,
+        "frac_pele": 0.7138,
+        "confiavel": true,
+        "frames_medidos": 24
+      },
+      "correcao": {
+        "ev": -0.5,
+        "ganhos": [
+          0.9226,
+          0.7959,
+          0.7859
+        ],
+        "nota": "exposição limitada (-0.84 → -0.50 EV); balanço de branco limitado a ±8%/canal"
+      }
+    },
+    {
+      "n": 7,
+      "fonte": "praq0971",
+      "take": "L07-T2",
+      "linha": "L07",
+      "tipo": "camera",
+      "perfil": "vlog",
+      "entrada_vlog": true,
+      "saida_inicio": 27.4,
+      "saida_fim": 32.56,
+      "frames": [
+        685,
+        814
+      ],
+      "graduado": true,
+      "medicao": {
+        "luma": 0.58401,
+        "rgb_neutro": [
+          0.69259,
+          0.66868,
+          0.6445
+        ],
+        "frac_meios_tons": 0.1958,
+        "frac_recortado": 0.0,
+        "frac_pele": 0.6983,
+        "confiavel": true,
+        "frames_medidos": 21
+      },
+      "correcao": {
+        "ev": -0.5,
+        "ganhos": [
+          0.9226,
+          0.7957,
+          0.7859
+        ],
+        "nota": "exposição limitada (-0.85 → -0.50 EV); balanço de branco limitado a ±8%/canal"
+      }
+    },
+    {
+      "n": 8,
+      "fonte": "praq0971",
+      "take": "L08-T1",
+      "linha": "L08",
+      "tipo": "camera",
+      "perfil": "vlog",
+      "entrada_vlog": true,
+      "saida_inicio": 32.56,
+      "saida_fim": 36.72,
+      "frames": [
+        814,
+        918
+      ],
+      "graduado": true,
+      "medicao": {
+        "luma": 0.58121,
+        "rgb_neutro": [
+          0.66389,
+          0.63995,
+          0.61581
+        ],
+        "frac_meios_tons": 0.2108,
+        "frac_recortado": 0.0,
+        "frac_pele": 0.6708,
+        "confiavel": true,
+        "frames_medidos": 16
+      },
+      "correcao": {
+        "ev": -0.5,
+        "ganhos": [
+          0.9226,
+          0.796,
+          0.7859
+        ],
+        "nota": "exposição limitada (-0.84 → -0.50 EV); balanço de branco limitado a ±8%/canal"
+      }
+    },
+    {
+      "n": 9,
+      "fonte": "praq0974",
+      "take": "L09-T6",
+      "linha": "L09",
+      "tipo": "camera",
+      "perfil": "vlog",
+      "entrada_vlog": true,
+      "saida_inicio": 36.72,
+      "saida_fim": 43.8,
+      "frames": [
+        918,
+        1095
+      ],
+      "graduado": true,
+      "medicao": {
+        "luma": 0.61199,
+        "rgb_neutro": [
+          0.69473,
+          0.66866,
+          0.64384
+        ],
+        "frac_meios_tons": 0.2211,
+        "frac_recortado": 0.0,
+        "frac_pele": 0.7116,
+        "confiavel": true,
+        "frames_medidos": 29
+      },
+      "correcao": {
+        "ev": -0.5,
+        "ganhos": [
+          0.9226,
+          0.7964,
+          0.7859
+        ],
+        "nota": "exposição limitada (-1.00 → -0.50 EV); balanço de branco limitado a ±8%/canal"
+      }
+    },
+    {
+      "n": 10,
+      "fonte": "praq0975",
+      "take": "L10-T2",
+      "linha": "L10",
+      "tipo": "camera",
+      "perfil": "vlog",
+      "entrada_vlog": true,
+      "saida_inicio": 43.8,
+      "saida_fim": 47.56,
+      "frames": [
+        1095,
+        1189
+      ],
+      "graduado": true,
+      "medicao": {
+        "luma": 0.6117,
+        "rgb_neutro": [
+          0.69166,
+          0.66561,
+          0.64114
+        ],
+        "frac_meios_tons": 0.2157,
+        "frac_recortado": 0.0,
+        "frac_pele": 0.7098,
+        "confiavel": true,
+        "frames_medidos": 15
+      },
+      "correcao": {
+        "ev": -0.5,
+        "ganhos": [
+          0.9226,
+          0.7965,
+          0.7859
+        ],
+        "nota": "exposição limitada (-1.00 → -0.50 EV); balanço de branco limitado a ±8%/canal"
+      }
+    },
+    {
+      "n": 11,
+      "fonte": "praq0975",
+      "take": "L12-T2",
+      "linha": "L12",
+      "tipo": "camera",
+      "perfil": "vlog",
+      "entrada_vlog": true,
+      "saida_inicio": 47.56,
+      "saida_fim": 53.68,
+      "frames": [
+        1189,
+        1342
+      ],
+      "graduado": true,
+      "medicao": {
+        "luma": 0.60413,
+        "rgb_neutro": [
+          0.68947,
+          0.66353,
+          0.63853
+        ],
+        "frac_meios_tons": 0.2274,
+        "frac_recortado": 0.0,
+        "frac_pele": 0.711,
+        "confiavel": true,
+        "frames_medidos": 24
+      },
+      "correcao": {
+        "ev": -0.5,
+        "ganhos": [
+          0.9226,
+          0.7964,
+          0.7859
+        ],
+        "nota": "exposição limitada (-0.96 → -0.50 EV); balanço de branco limitado a ±8%/canal"
+      }
+    },
+    {
+      "n": 12,
+      "fonte": "praq0976",
+      "take": "L13-T1",
+      "linha": "L13",
+      "tipo": "camera",
+      "perfil": "vlog",
+      "entrada_vlog": true,
+      "saida_inicio": 53.68,
+      "saida_fim": 57.84,
+      "frames": [
+        1342,
+        null
+      ],
+      "graduado": true,
+      "medicao": {
+        "luma": 0.61963,
+        "rgb_neutro": [
+          0.714,
+          0.6881,
+          0.66268
+        ],
+        "frac_meios_tons": 0.2403,
+        "frac_recortado": 0.0,
+        "frac_pele": 0.6786,
+        "confiavel": true,
+        "frames_medidos": 16
+      },
+      "correcao": {
+        "ev": -0.5,
+        "ganhos": [
+          0.9226,
+          0.7961,
+          0.7859
+        ],
+        "nota": "exposição limitada (-1.04 → -0.50 EV); balanço de branco limitado a ±8%/canal"
+      }
+    }
+  ],
+  "extras": [],
+  "extras_sem_cor": [
+    {
+      "id": "E01",
+      "tipo": "imagem"
+    },
+    {
+      "id": "E02",
+      "tipo": "video"
+    },
+    {
+      "id": "E03",
+      "tipo": "imagem"
+    },
+    {
+      "id": "E04",
+      "tipo": "video"
+    },
+    {
+      "id": "E05",
+      "tipo": "video"
+    },
+    {
+      "id": "E06",
+      "tipo": "video"
+    },
+    {
+      "id": "E07",
+      "tipo": "video"
+    },
+    {
+      "id": "E08",
+      "tipo": "video"
+    },
+    {
+      "id": "E09",
+      "tipo": "video"
+    },
+    {
+      "id": "E10",
+      "tipo": "video"
+    },
+    {
+      "id": "E11",
+      "tipo": "video"
+    },
+    {
+      "id": "E12",
+      "tipo": "video"
+    },
+    {
+      "id": "E13",
+      "tipo": "video"
+    },
+    {
+      "id": "E21",
+      "tipo": "video"
+    },
+    {
+      "id": "E22",
+      "tipo": "video"
+    },
+    {
+      "id": "E23",
+      "tipo": "video"
+    },
+    {
+      "id": "E24",
+      "tipo": "video"
+    },
+    {
+      "id": "E30",
+      "tipo": "video"
+    },
+    {
+      "id": "E31",
+      "tipo": "video"
+    },
+    {
+      "id": "E32",
+      "tipo": "video"
+    },
+    {
+      "id": "E33",
+      "tipo": "video"
+    },
+    {
+      "id": "E34",
+      "tipo": "video"
+    },
+    {
+      "id": "E35",
+      "tipo": "video"
+    },
+    {
+      "id": "E36",
+      "tipo": "video"
+    },
+    {
+      "id": "E37",
+      "tipo": "video"
+    },
+    {
+      "id": "E38",
+      "tipo": "video"
+    },
+    {
+      "id": "E39",
+      "tipo": "video"
+    },
+    {
+      "id": "E41",
+      "tipo": "video"
+    },
+    {
+      "id": "E42",
+      "tipo": "video"
+    },
+    {
+      "id": "E44",
+      "tipo": "video"
+    },
+    {
+      "id": "E45",
+      "tipo": "video"
+    }
+  ],
+  "extras_atualizado_em": "2026-10-02T00:35:24+01:00"
+}

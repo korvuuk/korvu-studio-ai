@@ -1,0 +1,20 @@
+# capturar.sh · 2026-10-22T23:18:45.696Z
+# alvo	largura pedida	innerWidth	scrollWidth	altura	HTTP	png	passa da borda
+/	1440	1440	1440	1503	200	/Users/teste/Documents/CONTENT AI/painel/portoes/capturas-aae5d7867e7f/inicio-1440.png	
+/	375	375	375	2489	200	/Users/teste/Documents/CONTENT AI/painel/portoes/capturas-aae5d7867e7f/inicio-375.png	
+/equipe	1440	1440	1440	1797	200	/Users/teste/Documents/CONTENT AI/painel/portoes/capturas-aae5d7867e7f/equipe-1440.png	
+/equipe	375	375	375	4096	200	/Users/teste/Documents/CONTENT AI/painel/portoes/capturas-aae5d7867e7f/equipe-375.png	
+/equipe/portao-imagem	1440	1440	1440	1585	200	/Users/teste/Documents/CONTENT AI/painel/portoes/capturas-aae5d7867e7f/equipe-portao-imagem-1440.png	
+/equipe/portao-imagem	375	375	375	2340	200	/Users/teste/Documents/CONTENT AI/painel/portoes/capturas-aae5d7867e7f/equipe-portao-imagem-375.png	
+/equipe/portao-interface	1440	1440	1440	1268	200	/Users/teste/Documents/CONTENT AI/painel/portoes/capturas-aae5d7867e7f/equipe-portao-interface-1440.png	
+/equipe/portao-interface	375	375	375	1995	200	/Users/teste/Documents/CONTENT AI/painel/portoes/capturas-aae5d7867e7f/equipe-portao-interface-375.png	
+/equipe/contratar	1440	1440	1440	990	200	/Users/teste/Documents/CONTENT AI/painel/portoes/capturas-aae5d7867e7f/equipe-contratar-1440.png	
+/equipe/contratar	375	375	375	1824	200	/Users/teste/Documents/CONTENT AI/painel/portoes/capturas-aae5d7867e7f/equipe-contratar-375.png	
+/videos	1440	1440	1440	1605	200	/Users/teste/Documents/CONTENT AI/painel/portoes/capturas-aae5d7867e7f/videos-1440.png	
+/videos	375	375	375	1899	200	/Users/teste/Documents/CONTENT AI/painel/portoes/capturas-aae5d7867e7f/videos-375.png	
+/desempenho	1440	1440	1440	2105	200	/Users/teste/Documents/CONTENT AI/painel/portoes/capturas-aae5d7867e7f/desempenho-1440.png	
+/desempenho	375	375	375	3432	200	/Users/teste/Documents/CONTENT AI/painel/portoes/capturas-aae5d7867e7f/desempenho-375.png	
+/equipe/nao-existe	1440	1440	1440	900	200	/Users/teste/Documents/CONTENT AI/painel/portoes/capturas-aae5d7867e7f/equipe-nao-existe-1440.png	
+/equipe/nao-existe	375	375	375	812	200	/Users/teste/Documents/CONTENT AI/painel/portoes/capturas-aae5d7867e7f/equipe-nao-existe-375.png	
+/pagina-que-nao-existe	1440	1440	1440	900	404	/Users/teste/Documents/CONTENT AI/painel/portoes/capturas-aae5d7867e7f/pagina-que-nao-existe-1440.png	
+/pagina-que-nao-existe	375	375	375	812	404	/Users/teste/Documents/CONTENT AI/painel/portoes/capturas-aae5d7867e7f/pagina-que-nao-existe-375.png	

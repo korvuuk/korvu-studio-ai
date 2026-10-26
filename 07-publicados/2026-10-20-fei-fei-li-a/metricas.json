@@ -1,0 +1,160 @@
+{
+  "slug": "2026-10-20-fei-fei-li-a",
+  "publicado_em": "2026-10-20T21:14:31+01:00",
+  "permalink_instagram": "https://www.instagram.com/reel/Deuqi5pDmyf/",
+  "permalink_facebook": null,
+  "media_id_instagram": "18572823736072546",
+  "video_id_facebook": null,
+  "duracao_s": 168.49,
+  "palavra": "AULA",
+  "trial": {
+    "graduation_strategy": "MANUAL"
+  },
+  "tema": "Quem é Fei-Fei Li: a adolescente que chegou sem falar inglês, era a voz da família na lavanderia e montou o banco de fotos que ajudou a IA a enxergar",
+  "pilar": "perfil",
+  "nota_retencao": "A API da Meta não dá a curva de retenção segundo a segundo — só o tempo MÉDIO assistido. '% médio assistido' = tempo médio / duração do vídeo. A curva (em que segundo as pessoas saem) só aparece no app do Instagram, em Insights do Reel.",
+  "leituras": [
+    {
+      "lido_em": "2026-10-22T14:00:01+01:00",
+      "dias_desde_publicacao": 1.7,
+      "instagram": {
+        "media_id": "18572823736072546",
+        "campos": {
+          "id": "18572823736072546",
+          "comments_count": 0,
+          "is_shared_to_feed": false,
+          "like_count": 0,
+          "media_product_type": "REELS",
+          "media_type": "VIDEO",
+          "permalink": "https://www.instagram.com/reel/Deuqi5pDmyf/",
+          "timestamp": "2026-10-20T20:14:22+0000"
+        },
+        "trial": "campo trial_params não disponível: (#100) Tried accessing nonexisting field (trial_params)",
+        "metricas": {
+          "views": 8,
+          "reach": 4,
+          "likes": 0,
+          "comments": 0,
+          "saved": 0,
+          "shares": 0,
+          "total_interactions": 0,
+          "ig_reels_avg_watch_time": 2600,
+          "ig_reels_video_view_total_time": 15604
+        },
+        "nao_suportadas": {
+          "follows": "(#100) The Media Insights API does not support the follows metric for this media product type.",
+          "profile_visits": "(#100) The Media Insights API does not support the profile_visits metric for this media product type."
+        }
+      },
+      "comentarios_palavra": {
+        "com_palavra": 0,
+        "directs": 0,
+        "pessoas": 0,
+        "fonte": "_controle/comentarios/estado.json"
+      },
+      "resumo": {
+        "instagram": {
+          "views": 8,
+          "alcance": 4,
+          "curtidas": 0,
+          "comentarios": 0,
+          "salvamentos": 0,
+          "compartilhamentos": 0,
+          "seguidores_ganhos": null,
+          "visitas_perfil": null,
+          "tempo_medio_s": 2.6,
+          "pct_medio_assistido": 1.5,
+          "taxas_sobre_alcance_pct": {
+            "salvamentos": 0.0,
+            "comentarios": 0.0,
+            "compartilhamentos": 0.0,
+            "curtidas": 0.0,
+            "comentarios_palavra": 0.0
+          }
+        },
+        "facebook": {
+          "plays": null,
+          "alcance": null,
+          "tempo_medio_s": null,
+          "pct_medio_assistido": null,
+          "seguidores_ganhos": null
+        },
+        "palavra": {
+          "comentarios": 0,
+          "directs": 0
+        }
+      }
+    }
+  ],
+  "ultima": {
+    "lido_em": "2026-10-22T14:00:01+01:00",
+    "dias_desde_publicacao": 1.7,
+    "instagram": {
+      "media_id": "18572823736072546",
+      "campos": {
+        "id": "18572823736072546",
+        "comments_count": 0,
+        "is_shared_to_feed": false,
+        "like_count": 0,
+        "media_product_type": "REELS",
+        "media_type": "VIDEO",
+        "permalink": "https://www.instagram.com/reel/Deuqi5pDmyf/",
+        "timestamp": "2026-10-20T20:14:22+0000"
+      },
+      "trial": "campo trial_params não disponível: (#100) Tried accessing nonexisting field (trial_params)",
+      "metricas": {
+        "views": 8,
+        "reach": 4,
+        "likes": 0,
+        "comments": 0,
+        "saved": 0,
+        "shares": 0,
+        "total_interactions": 0,
+        "ig_reels_avg_watch_time": 2600,
+        "ig_reels_video_view_total_time": 15604
+      },
+      "nao_suportadas": {
+        "follows": "(#100) The Media Insights API does not support the follows metric for this media product type.",
+        "profile_visits": "(#100) The Media Insights API does not support the profile_visits metric for this media product type."
+      }
+    },
+    "comentarios_palavra": {
+      "com_palavra": 0,
+      "directs": 0,
+      "pessoas": 0,
+      "fonte": "_controle/comentarios/estado.json"
+    },
+    "resumo": {
+      "instagram": {
+        "views": 8,
+        "alcance": 4,
+        "curtidas": 0,
+        "comentarios": 0,
+        "salvamentos": 0,
+        "compartilhamentos": 0,
+        "seguidores_ganhos": null,
+        "visitas_perfil": null,
+        "tempo_medio_s": 2.6,
+        "pct_medio_assistido": 1.5,
+        "taxas_sobre_alcance_pct": {
+          "salvamentos": 0.0,
+          "comentarios": 0.0,
+          "compartilhamentos": 0.0,
+          "curtidas": 0.0,
+          "comentarios_palavra": 0.0
+        }
+      },
+      "facebook": {
+        "plays": null,
+        "alcance": null,
+        "tempo_medio_s": null,
+        "pct_medio_assistido": null,
+        "seguidores_ganhos": null
+      },
+      "palavra": {
+        "comentarios": 0,
+        "directs": 0
+      }
+    }
+  }
+}

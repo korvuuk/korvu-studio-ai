@@ -1,0 +1,375 @@
+1
+00:00:00,120 --> 00:00:01,820
+Imagina você passar 50
+
+2
+00:00:01,880 --> 00:00:03,540
+anos acreditando numa ideia
+
+3
+00:00:03,600 --> 00:00:05,070
+que ninguém levava
+
+4
+00:00:05,120 --> 00:00:05,730
+a sério
+
+5
+00:00:05,940 --> 00:00:07,180
+E no final essa
+
+6
+00:00:07,240 --> 00:00:08,620
+ideia mudar o mundo
+
+7
+00:00:08,920 --> 00:00:10,140
+e ainda te dá
+
+8
+00:00:10,700 --> 00:00:11,980
+um Prêmio Nobel
+
+9
+00:00:12,540 --> 00:00:14,180
+Pois é essa é
+
+10
+00:00:14,200 --> 00:00:15,100
+a história do
+
+11
+00:00:15,220 --> 00:00:16,360
+Geoffrey Hinton
+
+12
+00:00:16,630 --> 00:00:18,370
+Hinton nasceu em Londres
+
+13
+00:00:18,710 --> 00:00:20,820
+em 1947 em uma
+
+14
+00:00:20,940 --> 00:00:22,180
+família de cientistas
+
+15
+00:00:22,550 --> 00:00:24,610
+Mas diferente que muitas
+
+16
+00:00:24,630 --> 00:00:26,930
+pessoas imaginavam ele não
+
+17
+00:00:26,950 --> 00:00:27,790
+começou a estudar
+
+18
+00:00:27,830 --> 00:00:28,670
+os computadores
+
+19
+00:00:29,020 --> 00:00:31,120
+Ele queria entender como
+
+20
+00:00:31,240 --> 00:00:33,080
+funcionava a mente humana
+
+21
+00:00:33,280 --> 00:00:35,080
+Nos anos 70 ele
+
+22
+00:00:35,160 --> 00:00:36,460
+começou a defender uma
+
+23
+00:00:36,500 --> 00:00:38,540
+ideia que parecia impossível
+
+24
+00:00:38,830 --> 00:00:39,510
+E se a gente
+
+25
+00:00:39,550 --> 00:00:41,270
+criasse uma máquina que
+
+26
+00:00:41,330 --> 00:00:42,950
+consegue imitar a
+
+27
+00:00:43,090 --> 00:00:43,890
+mente humana
+
+28
+00:00:44,490 --> 00:00:45,390
+Só que o problema
+
+29
+00:00:45,570 --> 00:00:47,910
+quase ninguém acreditava
+
+30
+00:00:48,010 --> 00:00:48,740
+nessa ideia
+
+31
+00:00:49,070 --> 00:00:50,290
+O mais curioso o
+
+32
+00:00:50,490 --> 00:00:52,450
+próprio orientador dele aconselhou
+
+33
+00:00:52,530 --> 00:00:54,390
+ele a abandonar essa
+
+34
+00:00:54,430 --> 00:00:56,430
+pesquisa porque essa pesquisa
+
+35
+00:00:56,590 --> 00:00:58,010
+pode comprometer a
+
+36
+00:00:58,090 --> 00:00:58,830
+carreira dele
+
+37
+00:00:59,180 --> 00:01:00,020
+Como o cara é
+
+38
+00:01:00,220 --> 00:01:01,880
+fera ele simplesmente
+
+39
+00:01:02,300 --> 00:01:03,040
+não desistiu
+
+40
+00:01:03,660 --> 00:01:05,840
+Em 2012 ele juntou
+
+41
+00:01:05,940 --> 00:01:06,880
+com dois alunos
+
+42
+00:01:07,180 --> 00:01:08,820
+Ele desenvolveu um sistema
+
+43
+00:01:09,140 --> 00:01:11,640
+capaz de reconhecer imagem
+
+44
+00:01:11,820 --> 00:01:13,040
+de forma precisa
+
+45
+00:01:13,260 --> 00:01:14,090
+e impecável
+
+46
+00:01:14,420 --> 00:01:16,100
+Foi aí que ele
+
+47
+00:01:16,360 --> 00:01:17,920
+acabou de mudar o
+
+48
+00:01:17,980 --> 00:01:20,440
+rumo da inteligência artificial
+
+49
+00:01:20,780 --> 00:01:22,680
+Pouco depois o Google
+
+50
+00:01:23,120 --> 00:01:24,640
+acabou de comprar a
+
+51
+00:01:24,680 --> 00:01:26,920
+empresa que eles acabaram
+
+52
+00:01:26,940 --> 00:01:27,450
+de criar
+
+53
+00:01:27,780 --> 00:01:29,560
+E o Hinton passou
+
+54
+00:01:30,000 --> 00:01:31,100
+mais de 10 anos
+
+55
+00:01:31,560 --> 00:01:33,780
+trabalhando junto com gigantes
+
+56
+00:01:33,800 --> 00:01:34,690
+da tecnologia
+
+57
+00:01:34,980 --> 00:01:35,380
+Agora
+
+58
+00:01:36,100 --> 00:01:37,320
+olha só que interessante
+
+59
+00:01:38,060 --> 00:01:40,260
+Em 2023 ele acabou
+
+60
+00:01:40,300 --> 00:01:41,180
+deixando o Google
+
+61
+00:01:41,440 --> 00:01:43,760
+Para poder falar livremente
+
+62
+00:01:43,920 --> 00:01:45,440
+sobre os riscos da
+
+63
+00:01:45,580 --> 00:01:47,030
+inteligência artificial
+
+64
+00:01:47,300 --> 00:01:47,960
+E um ano e
+
+65
+00:01:48,020 --> 00:01:50,080
+meio depois ele recebeu
+
+66
+00:01:50,400 --> 00:01:52,149
+uma ligação às duas
+
+67
+00:01:52,150 --> 00:01:53,480
+e meia da manhã
+
+68
+00:01:54,060 --> 00:01:55,460
+E a ligação era
+
+69
+00:01:55,700 --> 00:01:56,440
+o comitê
+
+70
+00:01:57,200 --> 00:01:57,690
+do Nobel
+
+71
+00:01:58,000 --> 00:01:59,820
+Ele tinha acabado de
+
+72
+00:01:59,860 --> 00:02:01,480
+ganhado um Nobel
+
+73
+00:02:01,900 --> 00:02:03,620
+E hoje o Geoffrey
+
+74
+00:02:03,780 --> 00:02:05,840
+Hinton é conhecido como
+
+75
+00:02:05,900 --> 00:02:07,040
+o padrinho da
+
+76
+00:02:07,060 --> 00:02:08,540
+inteligência artificial
+
+77
+00:02:08,840 --> 00:02:09,820
+E o mais curioso
+
+78
+00:02:10,040 --> 00:02:11,660
+o homem que ajudou
+
+79
+00:02:11,840 --> 00:02:13,120
+a desenvolver essa tecnologia
+
+80
+00:02:13,420 --> 00:02:14,520
+É também o que
+
+81
+00:02:14,580 --> 00:02:16,740
+mais alerta sobre os
+
+82
+00:02:16,840 --> 00:02:18,910
+riscos da inteligência artificial
+
+83
+00:02:19,220 --> 00:02:20,760
+A história dele mostra
+
+84
+00:02:21,020 --> 00:02:21,640
+uma coisa
+
+85
+00:02:22,220 --> 00:02:24,100
+Às vezes uma ideia
+
+86
+00:02:24,300 --> 00:02:26,240
+que ninguém acredita pode
+
+87
+00:02:26,640 --> 00:02:27,590
+mudar o mundo
+
+88
+00:02:27,920 --> 00:02:29,400
+Comenta a palavra NOBEL
+
+89
+00:02:29,800 --> 00:02:30,200
+que eu vou te
+
+90
+00:02:30,240 --> 00:02:32,220
+enviar a entrevista completa
+
+91
+00:02:32,460 --> 00:02:33,980
+E também não esquece
+
+92
+00:02:34,020 --> 00:02:35,160
+de mandar pra alguém
+
+93
+00:02:35,440 --> 00:02:36,760
+que tá querendo desistir
+
+94
+00:02:37,120 --> 00:02:38,070
+duma grande ideia

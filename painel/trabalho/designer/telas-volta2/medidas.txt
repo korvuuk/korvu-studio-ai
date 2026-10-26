@@ -1,0 +1,30 @@
+# capturar.sh · 2026-10-23T19:50:19.477Z
+# alvo	largura pedida	innerWidth	scrollWidth	altura	HTTP	png	passa da borda
+painel/design/telas/visao-geral.html	1440	1440	1440	4984	200	/Users/teste/Documents/CONTENT AI/painel/trabalho/designer/telas-volta2/visao-geral-1440.png	
+painel/design/telas/visao-geral.html	1600	1600	1600	4533	200	/Users/teste/Documents/CONTENT AI/painel/trabalho/designer/telas-volta2/visao-geral-1600.png	
+painel/design/telas/visao-geral.html	1920	1920	1920	4425	200	/Users/teste/Documents/CONTENT AI/painel/trabalho/designer/telas-volta2/visao-geral-1920.png	
+painel/design/telas/visao-geral.html	375	375	375	9638	200	/Users/teste/Documents/CONTENT AI/painel/trabalho/designer/telas-volta2/visao-geral-375.png	
+painel/design/telas/equipe.html	1440	1440	1440	3702	200	/Users/teste/Documents/CONTENT AI/painel/trabalho/designer/telas-volta2/equipe-1440.png	
+painel/design/telas/equipe.html	1600	1600	1600	3654	200	/Users/teste/Documents/CONTENT AI/painel/trabalho/designer/telas-volta2/equipe-1600.png	
+painel/design/telas/equipe.html	1920	1920	1920	3271	200	/Users/teste/Documents/CONTENT AI/painel/trabalho/designer/telas-volta2/equipe-1920.png	
+painel/design/telas/equipe.html	375	375	375	7592	200	/Users/teste/Documents/CONTENT AI/painel/trabalho/designer/telas-volta2/equipe-375.png	
+painel/design/telas/producao.html	1440	1440	1440	4616	200	/Users/teste/Documents/CONTENT AI/painel/trabalho/designer/telas-volta2/producao-1440.png	
+painel/design/telas/producao.html	1600	1600	1600	4512	200	/Users/teste/Documents/CONTENT AI/painel/trabalho/designer/telas-volta2/producao-1600.png	
+painel/design/telas/producao.html	1920	1920	1920	4422	200	/Users/teste/Documents/CONTENT AI/painel/trabalho/designer/telas-volta2/producao-1920.png	
+painel/design/telas/producao.html	375	375	375	7673	200	/Users/teste/Documents/CONTENT AI/painel/trabalho/designer/telas-volta2/producao-375.png	
+painel/design/telas/calendario.html	1440	1440	1440	3705	200	/Users/teste/Documents/CONTENT AI/painel/trabalho/designer/telas-volta2/calendario-1440.png	
+painel/design/telas/calendario.html	1600	1600	1600	3658	200	/Users/teste/Documents/CONTENT AI/painel/trabalho/designer/telas-volta2/calendario-1600.png	
+painel/design/telas/calendario.html	1920	1920	1920	3198	200	/Users/teste/Documents/CONTENT AI/painel/trabalho/designer/telas-volta2/calendario-1920.png	
+painel/design/telas/calendario.html	375	375	375	7214	200	/Users/teste/Documents/CONTENT AI/painel/trabalho/designer/telas-volta2/calendario-375.png	
+painel/design/telas/desempenho.html	1440	1440	1440	3487	200	/Users/teste/Documents/CONTENT AI/painel/trabalho/designer/telas-volta2/desempenho-1440.png	
+painel/design/telas/desempenho.html	1600	1600	1600	3121	200	/Users/teste/Documents/CONTENT AI/painel/trabalho/designer/telas-volta2/desempenho-1600.png	
+painel/design/telas/desempenho.html	1920	1920	1920	3089	200	/Users/teste/Documents/CONTENT AI/painel/trabalho/designer/telas-volta2/desempenho-1920.png	
+painel/design/telas/desempenho.html	375	375	375	6832	200	/Users/teste/Documents/CONTENT AI/painel/trabalho/designer/telas-volta2/desempenho-375.png	
+painel/design/telas/biblioteca.html	1440	1440	1440	2792	200	/Users/teste/Documents/CONTENT AI/painel/trabalho/designer/telas-volta2/biblioteca-1440.png	
+painel/design/telas/biblioteca.html	1600	1600	1600	2659	200	/Users/teste/Documents/CONTENT AI/painel/trabalho/designer/telas-volta2/biblioteca-1600.png	
+painel/design/telas/biblioteca.html	1920	1920	1920	2392	200	/Users/teste/Documents/CONTENT AI/painel/trabalho/designer/telas-volta2/biblioteca-1920.png	
+painel/design/telas/biblioteca.html	375	375	375	6343	200	/Users/teste/Documents/CONTENT AI/painel/trabalho/designer/telas-volta2/biblioteca-375.png	
+painel/design/telas/tokens-e-custos.html	1440	1440	1440	4450	200	/Users/teste/Documents/CONTENT AI/painel/trabalho/designer/telas-volta2/tokens-e-custos-1440.png	
+painel/design/telas/tokens-e-custos.html	1600	1600	1600	3853	200	/Users/teste/Documents/CONTENT AI/painel/trabalho/designer/telas-volta2/tokens-e-custos-1600.png	
+painel/design/telas/tokens-e-custos.html	1920	1920	1920	3781	200	/Users/teste/Documents/CONTENT AI/painel/trabalho/designer/telas-volta2/tokens-e-custos-1920.png	
+painel/design/telas/tokens-e-custos.html	375	375	375	8118	200	/Users/teste/Documents/CONTENT AI/painel/trabalho/designer/telas-volta2/tokens-e-custos-375.png	

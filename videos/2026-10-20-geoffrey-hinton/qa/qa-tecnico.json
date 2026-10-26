@@ -1,0 +1,466 @@
+{
+  "arquivo": "/Users/teste/Documents/CONTENT AI/videos/2026-10-20-geoffrey-hinton/edicao/final.mp4",
+  "resultado": "FAIL",
+  "criado_em": "2026-10-15T09:31:25+00:00",
+  "checks": [
+    {
+      "check": "Resolução",
+      "status": "PASS",
+      "valor": "1080×1920",
+      "esperado": "1080×1920"
+    },
+    {
+      "check": "FPS",
+      "status": "PASS",
+      "valor": 25.0,
+      "esperado": "25 ±0,01 (FPS_PROJETO)"
+    },
+    {
+      "check": "Codec vídeo",
+      "status": "PASS",
+      "valor": "h264",
+      "esperado": "h264"
+    },
+    {
+      "check": "Perfil H.264",
+      "status": "PASS",
+      "valor": "High",
+      "esperado": "High"
+    },
+    {
+      "check": "Pixel format",
+      "status": "PASS",
+      "valor": "yuv420p",
+      "esperado": "yuv420p (8-bit)"
+    },
+    {
+      "check": "Cor (tags)",
+      "status": "PASS",
+      "valor": "bt709/bt709/bt709",
+      "esperado": "bt709/bt709/bt709"
+    },
+    {
+      "check": "Codec áudio",
+      "status": "PASS",
+      "valor": "aac",
+      "esperado": "aac"
+    },
+    {
+      "check": "Sample rate",
+      "status": "PASS",
+      "valor": "48000",
+      "esperado": "48000"
+    },
+    {
+      "check": "Duração",
+      "status": "PASS",
+      "valor": "158.74s",
+      "esperado": "3–180 s"
+    },
+    {
+      "check": "Faststart (moov antes do mdat)",
+      "status": "PASS",
+      "valor": "ftyp > moov > free > mdat",
+      "esperado": "moov antes de mdat"
+    },
+    {
+      "check": "Tamanho",
+      "status": "PASS",
+      "valor": "163.5 MB",
+      "esperado": "≤ 300 MB"
+    },
+    {
+      "check": "Bitrate",
+      "status": "PASS",
+      "valor": "8.64 Mbps",
+      "esperado": "≤ 25 Mbps"
+    },
+    {
+      "check": "Loudness integrada",
+      "status": "PASS",
+      "valor": "-14.1 LUFS",
+      "esperado": "−14 ±1 LUFS"
+    },
+    {
+      "check": "True peak",
+      "status": "PASS",
+      "valor": "-1.9 dBTP",
+      "esperado": "≤ −1,5 dBTP"
+    },
+    {
+      "check": "Trechos pretos (≥0,5 s)",
+      "status": "PASS",
+      "valor": 0,
+      "esperado": "0 (revisar se houver)"
+    },
+    {
+      "check": "Congelados (≥2 s)",
+      "status": "PASS",
+      "valor": 0,
+      "esperado": "0 (ok se cartela estática)"
+    },
+    {
+      "check": "Duração vs EDL",
+      "status": "PASS",
+      "valor": "158.74 vs 158.68",
+      "esperado": "±0,2 s"
+    },
+    {
+      "check": "Cenas extras (nenhuma faltando)",
+      "status": "FAIL",
+      "valor": "E01, E04, E06 faltando",
+      "esperado": "0 faltando (placeholder no vídeo)"
+    },
+    {
+      "check": "Legendas vs roteiro",
+      "status": "WARN",
+      "valor": 56,
+      "esperado": "0 divergências"
+    }
+  ],
+  "pretos": [],
+  "congelados": [],
+  "loudness": {
+    "lufs": -14.1,
+    "true_peak": -1.9
+  },
+  "grafia": [
+    {
+      "linha": "L01",
+      "tipo": "delete",
+      "roteiro": "quase",
+      "legenda": ""
+    },
+    {
+      "linha": "L02",
+      "tipo": "replace",
+      "roteiro": "dar",
+      "legenda": "dá"
+    },
+    {
+      "linha": "L03",
+      "tipo": "grafia",
+      "roteiro": "Essa",
+      "legenda": "essa"
+    },
+    {
+      "linha": "L03",
+      "tipo": "replace",
+      "roteiro": "de",
+      "legenda": "do"
+    },
+    {
+      "linha": "L04",
+      "tipo": "replace",
+      "roteiro": "numa",
+      "legenda": "em uma"
+    },
+    {
+      "linha": "L05",
+      "tipo": "delete",
+      "roteiro": "do",
+      "legenda": ""
+    },
+    {
+      "linha": "L05",
+      "tipo": "replace",
+      "roteiro": "muita gente imagina,",
+      "legenda": "muitas pessoas imaginavam"
+    },
+    {
+      "linha": "L05",
+      "tipo": "replace",
+      "roteiro": "estudando",
+      "legenda": "a estudar os"
+    },
+    {
+      "linha": "L06",
+      "tipo": "replace",
+      "roteiro": "funciona",
+      "legenda": "funcionava"
+    },
+    {
+      "linha": "L07",
+      "tipo": "insert",
+      "roteiro": "",
+      "legenda": "ele"
+    },
+    {
+      "linha": "L07",
+      "tipo": "delete",
+      "roteiro": "naquela época:",
+      "legenda": ""
+    },
+    {
+      "linha": "L08",
+      "tipo": "replace",
+      "roteiro": "conseguisse criar máquinas capazes de aprender como o cérebro humano?",
+      "legenda": "criasse uma máquina que consegue imitar a mente humana"
+    },
+    {
+      "linha": "L09",
+      "tipo": "insert",
+      "roteiro": "",
+      "legenda": "Só que"
+    },
+    {
+      "linha": "L09",
+      "tipo": "grafia",
+      "roteiro": "O",
+      "legenda": "o"
+    },
+    {
+      "linha": "L09",
+      "tipo": "delete",
+      "roteiro": "é que",
+      "legenda": ""
+    },
+    {
+      "linha": "L09",
+      "tipo": "replace",
+      "roteiro": "nisso.",
+      "legenda": "nessa ideia"
+    },
+    {
+      "linha": "L10",
+      "tipo": "replace",
+      "roteiro": "Até",
+      "legenda": "O mais curioso"
+    },
+    {
+      "linha": "L10",
+      "tipo": "replace",
+      "roteiro": "que abandonasse",
+      "legenda": "ele a abandonar"
+    },
+    {
+      "linha": "L10",
+      "tipo": "replace",
+      "roteiro": "poderia destruir sua",
+      "legenda": "essa pesquisa pode comprometer a"
+    },
+    {
+      "linha": "L10",
+      "tipo": "insert",
+      "roteiro": "",
+      "legenda": "dele"
+    },
+    {
+      "linha": "L11",
+      "tipo": "replace",
+      "roteiro": "Mas Hinton",
+      "legenda": "Como o cara é fera ele simplesmente"
+    },
+    {
+      "linha": "L12",
+      "tipo": "replace",
+      "roteiro": "junto",
+      "legenda": "ele juntou"
+    },
+    {
+      "linha": "L13",
+      "tipo": "grafia",
+      "roteiro": "ele",
+      "legenda": "Ele"
+    },
+    {
+      "linha": "L13",
+      "tipo": "replace",
+      "roteiro": "imagens com uma precisão impressionante.",
+      "legenda": "imagem de forma precisa e impecável"
+    },
+    {
+      "linha": "L14",
+      "tipo": "replace",
+      "roteiro": "Aquilo mudou completamente",
+      "legenda": "Foi aí que ele acabou de mudar"
+    },
+    {
+      "linha": "L15",
+      "tipo": "replace",
+      "roteiro": "comprou",
+      "legenda": "acabou de comprar"
+    },
+    {
+      "linha": "L15",
+      "tipo": "replace",
+      "roteiro": "tinham criado.",
+      "legenda": "acabaram de criar"
+    },
+    {
+      "linha": "L16",
+      "tipo": "insert",
+      "roteiro": "",
+      "legenda": "o"
+    },
+    {
+      "linha": "L16",
+      "tipo": "insert",
+      "roteiro": "",
+      "legenda": "mais de"
+    },
+    {
+      "linha": "L16",
+      "tipo": "insert",
+      "roteiro": "",
+      "legenda": "junto"
+    },
+    {
+      "linha": "L16",
+      "tipo": "replace",
+      "roteiro": "a gigante",
+      "legenda": "gigantes"
+    },
+    {
+      "linha": "L17",
+      "tipo": "replace",
+      "roteiro": "Mas",
+      "legenda": "Agora"
+    },
+    {
+      "linha": "L17",
+      "tipo": "insert",
+      "roteiro": "",
+      "legenda": "só"
+    },
+    {
+      "linha": "L18",
+      "tipo": "replace",
+      "roteiro": "deixou",
+      "legenda": "acabou deixando"
+    },
+    {
+      "linha": "L19",
+      "tipo": "grafia",
+      "roteiro": "para",
+      "legenda": "Para"
+    },
+    {
+      "linha": "L20",
+      "tipo": "insert",
+      "roteiro": "",
+      "legenda": "ele"
+    },
+    {
+      "linha": "L20",
+      "tipo": "insert",
+      "roteiro": "",
+      "legenda": "e meia"
+    },
+    {
+      "linha": "L21",
+      "tipo": "insert",
+      "roteiro": "",
+      "legenda": "E a ligação"
+    },
+    {
+      "linha": "L21",
+      "tipo": "grafia",
+      "roteiro": "Era",
+      "legenda": "era"
+    },
+    {
+      "linha": "L22",
+      "tipo": "replace",
+      "roteiro": "ganhar o",
+      "legenda": "ganhado um"
+    },
+    {
+      "linha": "L22",
+      "tipo": "delete",
+      "roteiro": "de Física de 2024.",
+      "legenda": ""
+    },
+    {
+      "linha": "L23",
+      "tipo": "insert",
+      "roteiro": "",
+      "legenda": "E"
+    },
+    {
+      "linha": "L23",
+      "tipo": "grafia",
+      "roteiro": "Hoje",
+      "legenda": "hoje"
+    },
+    {
+      "linha": "L23",
+      "tipo": "insert",
+      "roteiro": "",
+      "legenda": "o"
+    },
+    {
+      "linha": "L24",
+      "tipo": "delete",
+      "roteiro": "é que",
+      "legenda": ""
+    },
+    {
+      "linha": "L25",
+      "tipo": "grafia",
+      "roteiro": "é",
+      "legenda": "É"
+    },
+    {
+      "linha": "L25",
+      "tipo": "replace",
+      "roteiro": "um dos",
+      "legenda": "o"
+    },
+    {
+      "linha": "L25",
+      "tipo": "replace",
+      "roteiro": "alertam",
+      "legenda": "alerta"
+    },
+    {
+      "linha": "L25",
+      "tipo": "delete",
+      "roteiro": "seus",
+      "legenda": ""
+    },
+    {
+      "linha": "L25",
+      "tipo": "insert",
+      "roteiro": "",
+      "legenda": "da inteligência artificial"
+    },
+    {
+      "linha": "L28",
+      "tipo": "insert",
+      "roteiro": "",
+      "legenda": "a palavra"
+    },
+    {
+      "linha": "L28",
+      "tipo": "insert",
+      "roteiro": "",
+      "legenda": "vou"
+    },
+    {
+      "linha": "L28",
+      "tipo": "replace",
+      "roteiro": "mando o link oficial da",
+      "legenda": "enviar a"
+    },
+    {
+      "linha": "L28",
+      "tipo": "replace",
+      "roteiro": "dele.",
+      "legenda": "completa"
+    },
+    {
+      "linha": "L29",
+      "tipo": "replace",
+      "roteiro": "manda",
+      "legenda": "também não esquece de mandar"
+    },
+    {
+      "linha": "L29",
+      "tipo": "replace",
+      "roteiro": "desistindo de uma",
+      "legenda": "querendo desistir duma grande"
+    }
+  ],
+  "frames": []
+}

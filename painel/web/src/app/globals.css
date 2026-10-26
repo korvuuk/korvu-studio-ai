@@ -1,0 +1,46 @@
+@import "tailwindcss";
+/* Design system "korvu. painel" v2 (painel/design/, APROVADO pelo PORTÃO-INTERFACE às 21:04 de 23/10), copiado SEM MUDAR
+   para ./design/ (confira com cmp contra painel/design/ — ver handoff.md §3).
+   Ordem das camadas do Tailwind v4: theme < base < components < utilities. Tokens em base vencem os padrões do Tailwind
+   (ex.: o --radius-sm dele); componentes em components deixam as utilidades do Tailwind ajustarem um caso pontual de
+   LAYOUT sem !important. Cor, fonte e raio nas páginas: nunca — só pelas classes k-* e kx-* da biblioteca. */
+@import "./design/tokens.css" layer(base);
+@import "./design/componentes.css" layer(components);
+@import "./design/acrescimos.css" layer(components);
+/* O que o app precisou e o sistema aprovado ainda não tem (barra do app, busca, avisos, campos…): */
+@import "./casca.css" layer(components);
+
+@theme inline {
+  /* cores com prefixo --color-*: bg-surface, text-ink-2, border-line-strong, fill-chart-1… */
+  --color-bg: var(--bg);
+  --color-surface: var(--surface);
+  --color-surface-sunken: var(--surface-sunken);
+  --color-surface-hover: var(--surface-hover);
+  --color-line: var(--line);
+  --color-line-strong: var(--line-strong);
+  --color-ink: var(--ink);
+  --color-ink-2: var(--ink-2);
+  --color-ink-3: var(--ink-3);
+  --color-sidebar: var(--sidebar);
+  --color-sidebar-raised: var(--sidebar-raised);
+  --color-sidebar-line: var(--sidebar-line);
+  --color-sidebar-ink: var(--sidebar-ink);
+  --color-sidebar-ink-2: var(--sidebar-ink-2);
+  --color-accent: var(--accent);
+  --color-accent-hover: var(--accent-hover);
+  --color-accent-soft: var(--accent-soft);
+  --color-accent-ink: var(--accent-ink);
+  --color-on-accent: var(--on-accent);
+  --color-positive: var(--positive);
+  --color-positive-soft: var(--positive-soft);
+  --color-danger: var(--danger);
+  --color-danger-soft: var(--danger-soft);
+  --color-chart-1: var(--chart-1);
+  --color-chart-2: var(--chart-2);
+  --color-chart-3: var(--chart-3);
+  --color-chart-4: var(--chart-4);
+  --color-chart-5: var(--chart-5);
+  --color-chart-grid: var(--chart-grid);
+  --color-focus: var(--focus);
+  --color-focus-on-dark: var(--focus-on-dark);
+}

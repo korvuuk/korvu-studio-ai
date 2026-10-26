@@ -1,0 +1,32 @@
+# Respostas automáticas aos comentários com palavra-chave (scripts/responder_comentarios.py).
+# Edite à vontade — o script relê este arquivo a cada execução.
+# Marcadores: {usuario} = @ de quem comentou · {material} = nome do material · {link} = link do material
+
+ativo: true                 # false = desliga tudo sem mexer em mais nada
+
+janela_dias: 7              # a Meta só deixa mandar o direct até 7 dias depois do comentário
+max_envios_por_execucao: 25
+max_envios_por_hora: 150    # a Meta limita mensagens automáticas por hora; fica abaixo disso
+intervalo_entre_envios_s: 4
+
+# Palavra "parecida" conta? false = só a palavra exata (sem diferença de maiúscula/acento/pontuação)
+aceitar_plural: true        # PROMPTS conta como PROMPT
+
+# Resposta PÚBLICA no comentário — sorteada, para não parecer spam
+respostas_publicas:
+  - "Recebido, @{usuario}! Já te mandei no direct 📩"
+  - "Pronto, @{usuario}! Dá uma olhada no seu direct 👊"
+  - "Feito! O material tá no seu direct, @{usuario} 🚀"
+  - "Acabei de te mandar no direct, @{usuario} ✅"
+  - "Tá no seu direct, @{usuario}! Aproveita 😉"
+
+# Mensagem no DIRECT (uma só: a Meta não deixa mandar a segunda se a pessoa não responder)
+mensagem_direct: |
+  Oi, @{usuario}! 👋 Aqui é o envio automático da Korvu.
+
+  Aqui está {material} que você pediu no vídeo:
+  {link}
+
+  Se o conteúdo te ajudou, deixa seu like no Reel e segue a @korvu_oficial — toda semana tem IA nova explicada do jeito simples 🚀
+
+material_padrao: "o material"   # usado quando o post.json não tem material.titulo

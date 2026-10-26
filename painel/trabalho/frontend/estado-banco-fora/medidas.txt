@@ -1,0 +1,6 @@
+# capturar.sh · 2026-10-22T23:13:33.490Z
+# alvo	largura pedida	innerWidth	scrollWidth	altura	HTTP	png	passa da borda
+/	1440	1440	1440	900	200	/Users/teste/Documents/CONTENT AI/painel/trabalho/frontend/estado-banco-fora/inicio-1440.png	
+/	375	375	375	812	200	/Users/teste/Documents/CONTENT AI/painel/trabalho/frontend/estado-banco-fora/inicio-375.png	
+/equipe/portao-imagem	1440	1440	1440	900	200	/Users/teste/Documents/CONTENT AI/painel/trabalho/frontend/estado-banco-fora/equipe-portao-imagem-1440.png	
+/equipe/portao-imagem	375	375	375	812	200	/Users/teste/Documents/CONTENT AI/painel/trabalho/frontend/estado-banco-fora/equipe-portao-imagem-375.png	

@@ -1,0 +1,19 @@
+{
+  "slug": "2026-10-21-golpes-com-ia",
+  "estado": "roteiro",
+  "atualizado": "2026-10-14T02:48:01+01:00",
+  "historico": [
+    {
+      "estado": "roteiro",
+      "em": "2026-10-14T02:48:01+01:00"
+    },
+    {
+      "estado": "roteiro",
+      "em": "2026-10-14T12:00:00+01:00",
+      "nota": "material PDF gerado (5-sinais-golpe-ia.pdf, 2 páginas)"
+    }
+  ],
+  "material": {
+    "youtube": "material/youtube/catalogo.md"
+  }
+}

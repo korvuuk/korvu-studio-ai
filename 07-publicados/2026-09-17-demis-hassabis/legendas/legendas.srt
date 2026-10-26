@@ -1,0 +1,151 @@
+1
+00:00:00,015 --> 00:00:01,675
+Aprendeu xadrez aos quatro
+
+2
+00:00:01,676 --> 00:00:03,119
+anos E ganhou um
+
+3
+00:00:03,120 --> 00:00:04,120
+Nobel com IA
+
+4
+00:00:04,125 --> 00:00:06,339
+Demis Hassabis nascido aqui
+
+5
+00:00:06,340 --> 00:00:07,020
+em Londres
+
+6
+00:00:07,075 --> 00:00:08,719
+Aos treze já era
+
+7
+00:00:08,720 --> 00:00:10,099
+mestre de xadrez Aos
+
+8
+00:00:10,100 --> 00:00:12,080
+dezessete criava videogame
+
+9
+00:00:12,105 --> 00:00:13,979
+Estudou computação em Cambridge
+
+10
+00:00:13,980 --> 00:00:15,800
+e depois neurociência
+
+11
+00:00:15,841 --> 00:00:16,179
+Em dois mil e
+
+12
+00:00:16,180 --> 00:00:18,119
+dez juntou tudo numa
+
+13
+00:00:18,120 --> 00:00:18,840
+empresa aqui em Londres
+
+14
+00:00:20,500 --> 00:00:21,140
+a DeepMind
+
+15
+00:00:21,400 --> 00:00:22,959
+Quatro anos depois o
+
+16
+00:00:22,960 --> 00:00:24,499
+Google comprou por cerca
+
+17
+00:00:24,500 --> 00:00:26,539
+de 400 milhões
+
+18
+00:00:26,540 --> 00:00:27,340
+de libras
+
+19
+00:00:27,431 --> 00:00:29,319
+Em dezesseis a IA
+
+20
+00:00:29,320 --> 00:00:31,039
+deles venceu um dos
+
+21
+00:00:31,040 --> 00:00:32,440
+maiores nomes do Go
+
+22
+00:00:32,560 --> 00:00:33,899
+Um jogo com mais
+
+23
+00:00:33,900 --> 00:00:34,979
+posições possíveis do que
+
+24
+00:00:34,980 --> 00:00:36,520
+átomos no universo
+
+25
+00:00:36,751 --> 00:00:37,779
+Mas o maior feito
+
+26
+00:00:37,780 --> 00:00:40,599
+veio depois o AlphaFold
+
+27
+00:00:40,600 --> 00:00:42,299
+passou a prever o
+
+28
+00:00:42,300 --> 00:00:43,780
+formato das proteínas
+
+29
+00:00:43,835 --> 00:00:45,459
+Um problema que travava
+
+30
+00:00:45,460 --> 00:00:46,279
+a ciência havia
+
+31
+00:00:46,280 --> 00:00:47,440
+cinquenta anos
+
+32
+00:00:47,560 --> 00:00:48,939
+Quer dizer o menino
+
+33
+00:00:48,940 --> 00:00:50,959
+do xadrez virou um
+
+34
+00:00:50,960 --> 00:00:52,839
+dos nomes mais importantes
+
+35
+00:00:52,840 --> 00:00:53,340
+da IA
+
+36
+00:00:53,715 --> 00:00:54,779
+Para mais vídeos como
+
+37
+00:00:54,780 --> 00:00:55,679
+esse é só
+
+38
+00:00:55,680 --> 00:00:56,160
+me seguir

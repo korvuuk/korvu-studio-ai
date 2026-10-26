@@ -1,0 +1,682 @@
+{
+  "slug": "2026-10-22-agente-3-passos",
+  "versao": 1,
+  "tema": "Agente de IA em 3 passos (pra quem nunca fez): um Gem do Gemini que escreve a resposta pro cliente no tom da casa",
+  "pilar": "tutoriais-rapidos",
+  "estrutura": "6-sistema-vs-vontade",
+  "hook_template": "resultado-primeiro",
+  "duracao_alvo": 70.0,
+  "wps_ref": 2.3,
+  "hooks": {
+    "A": {
+      "fala": "Olha isso: / o cliente pergunta, / e a resposta já sai pronta.",
+      "tela": "RESPOSTA PRONTA PRO CLIENTE",
+      "visual": "abre na tela: mensagem do cliente colada no Gem e a resposta aparecendo (E01)"
+    },
+    "B": {
+      "fala": "Seu primeiro agente de IA. / Grátis, / em três passos.",
+      "tela": "SEU 1º AGENTE EM 3 PASSOS",
+      "visual": "título gigante + tela do Gem respondendo atrás (E01)"
+    },
+    "C": {
+      "fala": "Você ainda responde cliente na mão? / Olha o que dá pra montar.",
+      "tela": "AINDA RESPONDE NA MÃO?",
+      "visual": "corte seco para a resposta pronta na tela (E01)"
+    }
+  },
+  "hook_escolhido": "A",
+  "titulo": {
+    "contexto": "Seu primeiro agente de IA",
+    "impacto": "em três passos",
+    "cinza": 2,
+    "rabisco": "três"
+  },
+  "pose_capa": "parado olhando para a câmera, expressão leve, boca fechada, sem gesto de mão",
+  "cta_tipo": "palavra-material",
+  "cta_palavra": "AGENTE",
+  "material": "material/agente-3-passos.pdf — o passo a passo de criar um Gem no Gemini (com prints e o link oficial da Central de Ajuda) + o texto de instruções do assistente de atendimento pronto pra copiar e adaptar",
+  "material_titulo": "o passo a passo do seu primeiro agente",
+  "total_palavras": 151,
+  "duracao_estimada": 69.1,
+  "extras": [
+    {
+      "id": "E01",
+      "tipo": "tela",
+      "descricao": "tela-01 — RESULTADO: no Gem \"Atendente do Café\", colar a mensagem \"Oi! Vocês abrem domingo? Quanto é o bolo de cenoura inteiro?\" e a resposta aparecendo, com horário e preço do arquivo; selo \"EXEMPLO\" na tela (café fictício)",
+      "fonte": "Carlos grava a tela (gemini.google.com, Gem já criado)",
+      "credito": null,
+      "som": false,
+      "linhas": [
+        "L01"
+      ]
+    },
+    {
+      "id": "E02",
+      "tipo": "animacao",
+      "descricao": "Card numerado \"1 · 2 · 3\" acendendo um por um (título \"SEU 1º AGENTE\"), no design system Korvu",
+      "fonte": "Claude Design (brief do animador)",
+      "credito": null,
+      "som": false,
+      "linhas": [
+        "L02"
+      ]
+    },
+    {
+      "id": "E11",
+      "tipo": "video",
+      "descricao": "Google Workspace, pequena equipe usando o Gemini no dia a dia (\"é como ter um time de milhões\"), mudo, ~6 s",
+      "fonte": "YouTube oficial (Google Workspace): `brutos/extras/E11-pequena-equipe-gemini.mp4` (tem legenda embutida em inglês: cobrir ou aceitar)",
+      "credito": "Google Workspace (YouTube)",
+      "som": false,
+      "linhas": [
+        "L03"
+      ]
+    },
+    {
+      "id": "E03",
+      "tipo": "animacao",
+      "descricao": "\"AGENTE = assistente + regras do seu negócio\" (caderninho com \"preços · horários · jeito de falar\") some e fica só o selo \"GRÁTIS · só conta Google\"",
+      "fonte": "Claude Design (brief do animador)",
+      "credito": null,
+      "som": false,
+      "linhas": [
+        "L04"
+      ]
+    },
+    {
+      "id": "E04",
+      "tipo": "tela",
+      "descricao": "tela-02 — PASSO 1 (selo \"1\" grande no topo): gemini.google.com → abrir barra lateral → Gems → Novo Gem",
+      "fonte": "Carlos grava a tela",
+      "credito": null,
+      "som": false,
+      "linhas": [
+        "L05"
+      ]
+    },
+    {
+      "id": "E05",
+      "tipo": "tela",
+      "descricao": "tela-03 — PASSO 2 (selo \"2\"): digitar o nome \"Atendente do Café\" e as instruções (\"Você atende o Café… responde curto e simpático… nunca inventa preço…\")",
+      "fonte": "Carlos grava a tela",
+      "credito": null,
+      "som": false,
+      "linhas": [
+        "L06",
+        "L07"
+      ]
+    },
+    {
+      "id": "E06",
+      "tipo": "tela",
+      "descricao": "tela-04 — PASSO 3 (selo \"3\"): Conhecimento → Adicionar arquivos → Anexar arquivos (PDF de preços e horários) → Salvar",
+      "fonte": "Carlos grava a tela",
+      "credito": null,
+      "som": false,
+      "linhas": [
+        "L08",
+        "L09"
+      ]
+    },
+    {
+      "id": "E07",
+      "tipo": "tela",
+      "descricao": "tela-05 — USO: abrir o Gem salvo, colar outra mensagem de cliente e a resposta pronta com os preços do arquivo; no fim, o mesmo Gem no app do Gemini no celular",
+      "fonte": "Carlos grava a tela do computador + do celular",
+      "credito": null,
+      "som": false,
+      "linhas": [
+        "L10"
+      ]
+    },
+    {
+      "id": "E08",
+      "tipo": "animacao",
+      "descricao": "Card animado em 3 tempos: \"você cola\" → \"ele escreve\" → \"você confere e envia\" (o Gem não envia sozinho)",
+      "fonte": "Claude Design (brief do animador)",
+      "credito": null,
+      "som": false,
+      "linhas": [
+        "L11"
+      ]
+    }
+  ],
+  "linhas": [
+    {
+      "id": "L01",
+      "secao": "hook",
+      "fala": "Olha isso: o cliente pergunta, e a resposta já sai pronta.",
+      "fala_original": "Olha isso: / o cliente pergunta, / e a resposta já sai **pronta**.",
+      "palavras": [
+        "olha",
+        "isso",
+        "o",
+        "cliente",
+        "pergunta",
+        "e",
+        "a",
+        "resposta",
+        "já",
+        "sai",
+        "pronta"
+      ],
+      "destaques": [
+        "pronta"
+      ],
+      "pausa_depois": "normal",
+      "tela": "",
+      "animacao": null,
+      "extras_ref": [
+        {
+          "id": "E01",
+          "modo": "split",
+          "in": null,
+          "out": null
+        }
+      ],
+      "alternativa_de": null,
+      "tempo_estimado": [
+        0.0,
+        4.98
+      ]
+    },
+    {
+      "id": "L02",
+      "secao": "promessa",
+      "fala": "Eu chamo de agente de IA. Você monta o seu em três passos.",
+      "fala_original": "Eu chamo de **agente** de IA. / Você monta o seu em **três passos**. [pausa]",
+      "palavras": [
+        "eu",
+        "chamo",
+        "de",
+        "agente",
+        "de",
+        "ia",
+        "você",
+        "monta",
+        "o",
+        "seu",
+        "em",
+        "três",
+        "passos"
+      ],
+      "destaques": [
+        "agente",
+        "três passos"
+      ],
+      "pausa_depois": "pausa",
+      "tela": "",
+      "animacao": null,
+      "extras_ref": [
+        {
+          "id": "E02",
+          "modo": "split",
+          "in": null,
+          "out": null
+        }
+      ],
+      "alternativa_de": null,
+      "tempo_estimado": [
+        4.98,
+        11.23
+      ]
+    },
+    {
+      "id": "L03",
+      "secao": "corpo",
+      "fala": "Agente aqui é um assistente, tipo funcionário novo que já leu as regras da sua loja.",
+      "fala_original": "Agente aqui é um assistente, / tipo funcionário novo / que já leu as **regras** da sua loja.",
+      "palavras": [
+        "agente",
+        "aqui",
+        "é",
+        "um",
+        "assistente",
+        "tipo",
+        "funcionário",
+        "novo",
+        "que",
+        "já",
+        "leu",
+        "as",
+        "regras",
+        "da",
+        "sua",
+        "loja"
+      ],
+      "destaques": [
+        "regras"
+      ],
+      "pausa_depois": "normal",
+      "tela": "",
+      "animacao": null,
+      "extras_ref": [
+        {
+          "id": "E11",
+          "modo": "split",
+          "in": null,
+          "out": null
+        }
+      ],
+      "alternativa_de": null,
+      "tempo_estimado": [
+        11.23,
+        18.39
+      ]
+    },
+    {
+      "id": "L04",
+      "secao": "corpo",
+      "fala": "E criar é grátis, só precisa de conta Google.",
+      "fala_original": "E criar é **grátis**, / só precisa de conta Google.",
+      "palavras": [
+        "e",
+        "criar",
+        "é",
+        "grátis",
+        "só",
+        "precisa",
+        "de",
+        "conta",
+        "google"
+      ],
+      "destaques": [
+        "grátis"
+      ],
+      "pausa_depois": "normal",
+      "tela": "",
+      "animacao": null,
+      "extras_ref": [
+        {
+          "id": "E03",
+          "modo": "split",
+          "in": null,
+          "out": null
+        }
+      ],
+      "alternativa_de": null,
+      "tempo_estimado": [
+        18.39,
+        22.5
+      ]
+    },
+    {
+      "id": "L05",
+      "secao": "corpo",
+      "fala": "Passo um: no computador, abre o Gemini, clica em Gems, Novo Gem.",
+      "fala_original": "**Passo um**: / no computador, / abre o Gemini, / clica em Gems, / Novo Gem.",
+      "palavras": [
+        "passo",
+        "um",
+        "no",
+        "computador",
+        "abre",
+        "o",
+        "gemini",
+        "clica",
+        "em",
+        "gems",
+        "novo",
+        "gem"
+      ],
+      "destaques": [
+        "Passo um"
+      ],
+      "pausa_depois": "normal",
+      "tela": "",
+      "animacao": null,
+      "extras_ref": [
+        {
+          "id": "E04",
+          "modo": "split",
+          "in": null,
+          "out": null
+        }
+      ],
+      "alternativa_de": null,
+      "tempo_estimado": [
+        22.5,
+        27.92
+      ]
+    },
+    {
+      "id": "L06",
+      "secao": "corpo",
+      "fala": "Passo dois: um nome e como ele tem que responder.",
+      "fala_original": "**Passo dois**: / um nome / e como ele tem que responder.",
+      "palavras": [
+        "passo",
+        "dois",
+        "um",
+        "nome",
+        "e",
+        "como",
+        "ele",
+        "tem",
+        "que",
+        "responder"
+      ],
+      "destaques": [
+        "Passo dois"
+      ],
+      "pausa_depois": "normal",
+      "tela": "",
+      "animacao": null,
+      "extras_ref": [
+        {
+          "id": "E05",
+          "modo": "split",
+          "in": null,
+          "out": null
+        }
+      ],
+      "alternativa_de": null,
+      "tempo_estimado": [
+        27.92,
+        32.47
+      ]
+    },
+    {
+      "id": "L07",
+      "secao": "corpo",
+      "fala": "Tipo: responde curto, simpático e nunca inventa preço.",
+      "fala_original": "Tipo: / responde curto, simpático / e nunca inventa preço.",
+      "palavras": [
+        "tipo",
+        "responde",
+        "curto",
+        "simpático",
+        "e",
+        "nunca",
+        "inventa",
+        "preço"
+      ],
+      "destaques": [],
+      "pausa_depois": "normal",
+      "tela": "",
+      "animacao": null,
+      "extras_ref": [
+        {
+          "id": "E05",
+          "modo": "split",
+          "in": null,
+          "out": null
+        }
+      ],
+      "alternativa_de": null,
+      "tempo_estimado": [
+        32.47,
+        36.15
+      ]
+    },
+    {
+      "id": "L08",
+      "secao": "corpo",
+      "fala": "Passo três, o pulo do gato: em Conhecimento, você sobe a sua lista de preços.",
+      "fala_original": "**Passo três**, / o pulo do gato: / em Conhecimento, / você sobe a sua lista de preços.",
+      "palavras": [
+        "passo",
+        "três",
+        "o",
+        "pulo",
+        "do",
+        "gato",
+        "em",
+        "conhecimento",
+        "você",
+        "sobe",
+        "a",
+        "sua",
+        "lista",
+        "de",
+        "preços"
+      ],
+      "destaques": [
+        "Passo três"
+      ],
+      "pausa_depois": "normal",
+      "tela": "",
+      "animacao": null,
+      "extras_ref": [
+        {
+          "id": "E06",
+          "modo": "split",
+          "in": null,
+          "out": null
+        }
+      ],
+      "alternativa_de": null,
+      "tempo_estimado": [
+        36.15,
+        42.87
+      ]
+    },
+    {
+      "id": "L09",
+      "secao": "corpo",
+      "fala": "Salvar. Pronto.",
+      "fala_original": "Salvar. / Pronto. [pausa]",
+      "palavras": [
+        "salvar",
+        "pronto"
+      ],
+      "destaques": [],
+      "pausa_depois": "pausa",
+      "tela": "",
+      "animacao": null,
+      "extras_ref": [
+        {
+          "id": "E06",
+          "modo": "split",
+          "in": null,
+          "out": null
+        }
+      ],
+      "alternativa_de": null,
+      "tempo_estimado": [
+        42.87,
+        44.34
+      ]
+    },
+    {
+      "id": "L10",
+      "secao": "payoff",
+      "fala": "Chegou mensagem? Você cola ali, até no celular, e ele escreve a resposta com os seus preços.",
+      "fala_original": "Chegou mensagem? / Você cola ali, até no celular, / e ele escreve a resposta com os **seus** preços.",
+      "palavras": [
+        "chegou",
+        "mensagem",
+        "você",
+        "cola",
+        "ali",
+        "até",
+        "no",
+        "celular",
+        "e",
+        "ele",
+        "escreve",
+        "a",
+        "resposta",
+        "com",
+        "os",
+        "seus",
+        "preços"
+      ],
+      "destaques": [
+        "seus"
+      ],
+      "pausa_depois": "normal",
+      "tela": "",
+      "animacao": null,
+      "extras_ref": [
+        {
+          "id": "E07",
+          "modo": "split",
+          "in": null,
+          "out": null
+        }
+      ],
+      "alternativa_de": null,
+      "tempo_estimado": [
+        44.34,
+        51.93
+      ]
+    },
+    {
+      "id": "L11",
+      "secao": "payoff",
+      "fala": "Ele não manda sozinho no WhatsApp, tá? Quem confere e envia é você.",
+      "fala_original": "Ele não manda sozinho no WhatsApp, tá? / Quem confere e envia é **você**.",
+      "palavras": [
+        "ele",
+        "não",
+        "manda",
+        "sozinho",
+        "no",
+        "whatsapp",
+        "tá",
+        "quem",
+        "confere",
+        "e",
+        "envia",
+        "é",
+        "você"
+      ],
+      "destaques": [
+        "você"
+      ],
+      "pausa_depois": "normal",
+      "tela": "",
+      "animacao": null,
+      "extras_ref": [
+        {
+          "id": "E08",
+          "modo": "split",
+          "in": null,
+          "out": null
+        }
+      ],
+      "alternativa_de": null,
+      "tempo_estimado": [
+        51.93,
+        57.78
+      ]
+    },
+    {
+      "id": "L12",
+      "secao": "cta",
+      "fala": "Comenta AGENTE que eu te mando o passo a passo no direct.",
+      "fala_original": "Comenta **AGENTE** / que eu te mando o passo a passo no direct.",
+      "palavras": [
+        "comenta",
+        "agente",
+        "que",
+        "eu",
+        "te",
+        "mando",
+        "o",
+        "passo",
+        "a",
+        "passo",
+        "no",
+        "direct"
+      ],
+      "destaques": [
+        "AGENTE"
+      ],
+      "pausa_depois": "normal",
+      "tela": "",
+      "animacao": null,
+      "extras_ref": [],
+      "alternativa_de": null,
+      "tempo_estimado": [
+        57.78,
+        63.2
+      ]
+    },
+    {
+      "id": "L13",
+      "secao": "cta",
+      "fala": "Com as instruções prontas pra copiar. Salva pra fazer no fim de semana.",
+      "fala_original": "Com as instruções prontas pra copiar. / Salva pra fazer no **fim de semana**.",
+      "palavras": [
+        "com",
+        "as",
+        "instruções",
+        "prontas",
+        "pra",
+        "copiar",
+        "salva",
+        "pra",
+        "fazer",
+        "no",
+        "fim",
+        "de",
+        "semana"
+      ],
+      "destaques": [
+        "fim de semana"
+      ],
+      "pausa_depois": "normal",
+      "tela": "",
+      "animacao": null,
+      "extras_ref": [],
+      "alternativa_de": null,
+      "tempo_estimado": [
+        63.2,
+        69.05
+      ]
+    },
+    {
+      "id": "L01B",
+      "secao": "hook-alt",
+      "fala": "Seu primeiro agente de IA. Grátis, em três passos.",
+      "fala_original": "Seu primeiro agente de IA. / Grátis, / em três passos.",
+      "palavras": [
+        "seu",
+        "primeiro",
+        "agente",
+        "de",
+        "ia",
+        "grátis",
+        "em",
+        "três",
+        "passos"
+      ],
+      "destaques": [],
+      "pausa_depois": "normal",
+      "tela": "",
+      "animacao": null,
+      "extras_ref": [],
+      "alternativa_de": "L01",
+      "tempo_estimado": null
+    },
+    {
+      "id": "L01C",
+      "secao": "hook-alt",
+      "fala": "Você ainda responde cliente na mão? Olha o que dá pra montar.",
+      "fala_original": "Você ainda responde cliente na mão? / Olha o que dá pra montar.",
+      "palavras": [
+        "você",
+        "ainda",
+        "responde",
+        "cliente",
+        "na",
+        "mão",
+        "olha",
+        "o",
+        "que",
+        "dá",
+        "pra",
+        "montar"
+      ],
+      "destaques": [],
+      "pausa_depois": "normal",
+      "tela": "",
+      "animacao": null,
+      "extras_ref": [],
+      "alternativa_de": "L01",
+      "tempo_estimado": null
+    }
+  ]
+}

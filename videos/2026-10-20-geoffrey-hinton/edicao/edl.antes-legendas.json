@@ -1,0 +1,3105 @@
+{
+  "versao": 24,
+  "slug": "2026-10-20-geoffrey-hinton",
+  "fps": 25,
+  "sr": 48000,
+  "largura": 1080,
+  "altura": 1920,
+  "aprovado": true,
+  "aprovado_em": "2026-10-15T01:35:23+01:00",
+  "fontes": {
+    "praq0978": "edicao/fontes/praq0978.mp4",
+    "praq0979": "edicao/fontes/praq0979.mp4",
+    "praq0980": "edicao/fontes/praq0980.mp4",
+    "praq0981": "edicao/fontes/praq0981.mp4",
+    "praq0982": "edicao/fontes/praq0982.mp4",
+    "praq0983": "edicao/fontes/praq0983.mp4",
+    "praq0984": "edicao/fontes/praq0984.mp4",
+    "praq0985": "edicao/fontes/praq0985.mp4",
+    "praq0986": "edicao/fontes/praq0986.mp4"
+  },
+  "segmentos": [
+    {
+      "n": 1,
+      "linha": "L01",
+      "take": "L01-T1",
+      "fonte": "praq0979",
+      "in": 13.36,
+      "out": 19.68,
+      "cortes_internos": [
+        [
+          15.64,
+          16.12
+        ]
+      ],
+      "saida_inicio": 0.0,
+      "saida_fim": 5.84,
+      "layout": "full",
+      "zoom": null,
+      "zoom_origem": "49.0% 30.0%",
+      "zoom_pecas": [
+        1.0,
+        1.12
+      ],
+      "voz_ia": 0.0
+    },
+    {
+      "n": 2,
+      "linha": "L02",
+      "take": "L02-T5",
+      "fonte": "praq0980",
+      "in": 45.0,
+      "out": 51.64,
+      "cortes_internos": [],
+      "saida_inicio": 5.84,
+      "saida_fim": 12.48,
+      "layout": "full",
+      "zoom": null,
+      "zoom_origem": "41.8% 31.8%",
+      "zoom_pecas": [
+        1.0
+      ],
+      "voz_ia": 0.0
+    },
+    {
+      "n": 3,
+      "linha": "L03",
+      "take": "L03-T2",
+      "fonte": "praq0980",
+      "in": 58.56,
+      "out": 62.56,
+      "cortes_internos": [],
+      "saida_inicio": 12.48,
+      "saida_fim": 16.48,
+      "layout": "split",
+      "zoom": null,
+      "zoom_origem": "52.2% 31.0%",
+      "zoom_pecas": [
+        1.06
+      ],
+      "voz_ia": 0.0
+    },
+    {
+      "n": 4,
+      "linha": "L04",
+      "take": "manual",
+      "fonte": "praq0980",
+      "in": 78.31,
+      "out": 81.6,
+      "cortes_internos": [],
+      "saida_inicio": 16.48,
+      "saida_fim": 19.76,
+      "layout": "split",
+      "zoom": {
+        "tipo": "punch",
+        "escala": 1.12
+      },
+      "zoom_origem": "50% 32%",
+      "zoom_pecas": [
+        1.12
+      ],
+      "voz_ia": 0.0
+    },
+    {
+      "n": 5,
+      "linha": "L04",
+      "take": "manual",
+      "fonte": "praq0981",
+      "in": 0.0,
+      "out": 2.62,
+      "cortes_internos": [],
+      "saida_inicio": 19.76,
+      "saida_fim": 22.4,
+      "layout": "split",
+      "zoom": {
+        "tipo": "punch",
+        "escala": 1.12
+      },
+      "zoom_origem": "50% 32%",
+      "zoom_pecas": [
+        1.12
+      ],
+      "voz_ia": 0.0
+    },
+    {
+      "n": 6,
+      "linha": "L05",
+      "take": "manual",
+      "fonte": "praq0982",
+      "in": 16.49,
+      "out": 23.44,
+      "cortes_internos": [
+        [
+          19.92,
+          20.4
+        ]
+      ],
+      "saida_inicio": 22.4,
+      "saida_fim": 28.88,
+      "layout": "full",
+      "zoom": null,
+      "zoom_origem": "49.7% 31.7%",
+      "zoom_pecas": [
+        1.0,
+        1.12
+      ],
+      "voz_ia": 0.0
+    },
+    {
+      "n": 7,
+      "linha": "L06",
+      "take": "L06-T1",
+      "fonte": "praq0982",
+      "in": 31.24,
+      "out": 35.52,
+      "cortes_internos": [],
+      "saida_inicio": 28.88,
+      "saida_fim": 33.16,
+      "layout": "full",
+      "zoom": null,
+      "zoom_origem": "49.7% 31.5%",
+      "zoom_pecas": [
+        1.0
+      ],
+      "voz_ia": 0.0
+    },
+    {
+      "n": 8,
+      "linha": "L07",
+      "take": "L07-T1",
+      "fonte": "praq0982",
+      "in": 51.8,
+      "out": 58.08,
+      "cortes_internos": [
+        [
+          53.36,
+          53.76
+        ],
+        [
+          56.12,
+          56.48
+        ]
+      ],
+      "saida_inicio": 33.16,
+      "saida_fim": 38.68,
+      "layout": "split",
+      "zoom": null,
+      "zoom_origem": "56.5% 32.1%",
+      "zoom_pecas": [
+        1.12,
+        1.0,
+        1.12
+      ],
+      "voz_ia": 0.0
+    },
+    {
+      "n": 9,
+      "linha": "L08",
+      "take": "manual",
+      "fonte": "praq0983",
+      "in": 14.33,
+      "out": 20.0,
+      "cortes_internos": [],
+      "saida_inicio": 38.68,
+      "saida_fim": 44.36,
+      "layout": "split",
+      "zoom": null,
+      "zoom_origem": "56.7% 34.5%",
+      "zoom_pecas": [
+        1.0
+      ],
+      "voz_ia": 0.0
+    },
+    {
+      "n": 10,
+      "linha": "L09",
+      "take": "manual",
+      "fonte": "praq0983",
+      "in": 46.95,
+      "out": 51.86,
+      "cortes_internos": [
+        [
+          48.08,
+          48.4
+        ]
+      ],
+      "saida_inicio": 44.36,
+      "saida_fim": 48.92,
+      "layout": "split",
+      "zoom": null,
+      "zoom_origem": "30.0% 34.0%",
+      "zoom_pecas": [
+        1.12,
+        1.0
+      ],
+      "voz_ia": 0.0
+    },
+    {
+      "n": 11,
+      "linha": "L10",
+      "take": "manual",
+      "fonte": "praq0983",
+      "in": 64.63,
+      "out": 76.06,
+      "cortes_internos": [
+        [
+          65.88,
+          66.32
+        ],
+        [
+          67.96,
+          68.4
+        ],
+        [
+          71.72,
+          72.16
+        ]
+      ],
+      "saida_inicio": 48.92,
+      "saida_fim": 59.04,
+      "layout": "split",
+      "zoom": null,
+      "zoom_origem": "41.7% 31.1%",
+      "zoom_pecas": [
+        1.12,
+        1.0,
+        1.12,
+        1.0
+      ],
+      "voz_ia": 0.0
+    },
+    {
+      "n": 12,
+      "linha": "L11",
+      "take": "manual",
+      "fonte": "praq0984",
+      "in": 12.38,
+      "out": 17.3,
+      "cortes_internos": [
+        [
+          14.04,
+          14.36
+        ]
+      ],
+      "saida_inicio": 59.04,
+      "saida_fim": 63.6,
+      "layout": "split",
+      "zoom": null,
+      "zoom_origem": "47.6% 32.3%",
+      "zoom_pecas": [
+        1.12,
+        1.0
+      ],
+      "voz_ia": 0.0
+    },
+    {
+      "n": 13,
+      "linha": "L12",
+      "take": "L12-T1",
+      "fonte": "praq0984",
+      "in": 26.48,
+      "out": 29.92,
+      "cortes_internos": [],
+      "saida_inicio": 63.6,
+      "saida_fim": 67.04,
+      "layout": "split",
+      "zoom": null,
+      "zoom_origem": "36.4% 35.5%",
+      "zoom_pecas": [
+        1.12
+      ],
+      "voz_ia": 0.0
+    },
+    {
+      "n": 14,
+      "linha": "L13",
+      "take": "manual",
+      "fonte": "praq0985",
+      "in": 8.38,
+      "out": 15.96,
+      "cortes_internos": [
+        [
+          13.08,
+          13.4
+        ]
+      ],
+      "saida_inicio": 67.04,
+      "saida_fim": 74.28,
+      "layout": "split",
+      "zoom": null,
+      "zoom_origem": "48.8% 33.2%",
+      "zoom_pecas": [
+        1.0,
+        1.12
+      ],
+      "voz_ia": 0.0
+    },
+    {
+      "n": 15,
+      "linha": "L14",
+      "take": "manual",
+      "fonte": "praq0985",
+      "in": 25.4,
+      "out": 32.32,
+      "cortes_internos": [
+        [
+          27.36,
+          27.92
+        ]
+      ],
+      "saida_inicio": 74.28,
+      "saida_fim": 80.64,
+      "layout": "full",
+      "zoom": null,
+      "zoom_origem": "36.7% 29.4%",
+      "zoom_pecas": [
+        1.0,
+        1.12
+      ],
+      "voz_ia": 0.0
+    },
+    {
+      "n": 16,
+      "linha": "L15",
+      "take": "manual",
+      "fonte": "praq0986",
+      "in": 8.78,
+      "out": 15.79,
+      "cortes_internos": [],
+      "saida_inicio": 80.64,
+      "saida_fim": 87.68,
+      "layout": "split",
+      "zoom": null,
+      "zoom_origem": "37.8% 33.2%",
+      "zoom_pecas": [
+        1.0
+      ],
+      "voz_ia": 0.0
+    },
+    {
+      "n": 17,
+      "linha": "L16",
+      "take": "L16-T1",
+      "fonte": "praq0986",
+      "in": 26.28,
+      "out": 33.44,
+      "cortes_internos": [],
+      "saida_inicio": 87.68,
+      "saida_fim": 94.84,
+      "layout": "full",
+      "zoom": null,
+      "zoom_origem": "50% 38%",
+      "zoom_pecas": [
+        1.12
+      ],
+      "voz_ia": 0.0
+    },
+    {
+      "n": 18,
+      "linha": "L17",
+      "take": "manual",
+      "fonte": "praq0986",
+      "in": 39.86,
+      "out": 42.94,
+      "cortes_internos": [],
+      "saida_inicio": 94.84,
+      "saida_fim": 97.96,
+      "layout": "full",
+      "zoom": null,
+      "zoom_origem": "62.8% 35.3%",
+      "zoom_pecas": [
+        1.0
+      ],
+      "voz_ia": 0.0
+    },
+    {
+      "n": 19,
+      "linha": "L18",
+      "take": "L18-T1",
+      "fonte": "praq0986",
+      "in": 52.76,
+      "out": 56.44,
+      "cortes_internos": [
+        [
+          54.36,
+          54.68
+        ]
+      ],
+      "saida_inicio": 97.96,
+      "saida_fim": 101.32,
+      "layout": "split",
+      "zoom": null,
+      "zoom_origem": "50% 38%",
+      "zoom_pecas": [
+        1.12,
+        1.0
+      ],
+      "voz_ia": 0.0
+    },
+    {
+      "n": 20,
+      "linha": "L19",
+      "take": "L19-T2",
+      "fonte": "praq0986",
+      "in": 144.88,
+      "out": 150.72,
+      "cortes_internos": [],
+      "saida_inicio": 101.32,
+      "saida_fim": 107.16,
+      "layout": "split",
+      "zoom": null,
+      "zoom_origem": "36.9% 31.9%",
+      "zoom_pecas": [
+        1.12
+      ],
+      "voz_ia": 0.0
+    },
+    {
+      "n": 21,
+      "linha": "L20",
+      "take": "L20-T2",
+      "fonte": "praq0986",
+      "in": 102.72,
+      "out": 110.8,
+      "cortes_internos": [
+        [
+          104.44,
+          105.2
+        ],
+        [
+          107.6,
+          108.16
+        ]
+      ],
+      "saida_inicio": 107.16,
+      "saida_fim": 113.92,
+      "layout": "split",
+      "zoom": null,
+      "zoom_origem": "39.8% 32.9%",
+      "zoom_pecas": [
+        1.0,
+        1.12,
+        1.0
+      ],
+      "voz_ia": 0.0
+    },
+    {
+      "n": 22,
+      "linha": "L21",
+      "take": "manual",
+      "fonte": "praq0986",
+      "in": 170.88,
+      "out": 175.3,
+      "cortes_internos": [
+        [
+          172.0,
+          172.44
+        ]
+      ],
+      "saida_inicio": 113.92,
+      "saida_fim": 117.88,
+      "layout": "split",
+      "zoom": null,
+      "zoom_origem": "56.2% 33.8%",
+      "zoom_pecas": [
+        1.12,
+        1.0
+      ],
+      "voz_ia": 0.0
+    },
+    {
+      "n": 23,
+      "linha": "L22",
+      "take": "L22-T2",
+      "fonte": "praq0986",
+      "in": 207.2,
+      "out": 211.16,
+      "cortes_internos": [
+        [
+          209.8,
+          210.12
+        ]
+      ],
+      "saida_inicio": 117.88,
+      "saida_fim": 121.52,
+      "layout": "split",
+      "zoom": null,
+      "zoom_origem": "48.3% 32.5%",
+      "zoom_pecas": [
+        1.12,
+        1.0
+      ],
+      "voz_ia": 0.0
+    },
+    {
+      "n": 24,
+      "linha": "L23",
+      "take": "manual",
+      "fonte": "praq0986",
+      "in": 222.24,
+      "out": 229.86,
+      "cortes_internos": [
+        [
+          225.0,
+          225.4
+        ]
+      ],
+      "saida_inicio": 121.52,
+      "saida_fim": 128.72,
+      "layout": "split",
+      "zoom": null,
+      "zoom_origem": "57.8% 32.6%",
+      "zoom_pecas": [
+        1.12,
+        1.0
+      ],
+      "voz_ia": 0.0
+    },
+    {
+      "n": 25,
+      "linha": "L24",
+      "take": "L24-T1",
+      "fonte": "praq0986",
+      "in": 240.2,
+      "out": 245.08,
+      "cortes_internos": [
+        [
+          241.4,
+          241.72
+        ]
+      ],
+      "saida_inicio": 128.72,
+      "saida_fim": 133.28,
+      "layout": "split",
+      "zoom": null,
+      "zoom_origem": "52.4% 33.8%",
+      "zoom_pecas": [
+        1.12,
+        1.0
+      ],
+      "voz_ia": 0.0
+    },
+    {
+      "n": 26,
+      "linha": "L25",
+      "take": "manual",
+      "fonte": "praq0986",
+      "in": 257.04,
+      "out": 262.9,
+      "cortes_internos": [],
+      "saida_inicio": 133.28,
+      "saida_fim": 139.12,
+      "layout": "split",
+      "zoom": null,
+      "zoom_origem": "51.8% 32.8%",
+      "zoom_pecas": [
+        1.12
+      ],
+      "voz_ia": 0.0
+    },
+    {
+      "n": 27,
+      "linha": "L26",
+      "take": "L26-T1",
+      "fonte": "praq0986",
+      "in": 269.4,
+      "out": 272.36,
+      "cortes_internos": [],
+      "saida_inicio": 139.12,
+      "saida_fim": 142.08,
+      "layout": "full",
+      "zoom": null,
+      "zoom_origem": "50.8% 34.1%",
+      "zoom_pecas": [
+        1.0
+      ],
+      "voz_ia": 0.0
+    },
+    {
+      "n": 28,
+      "linha": "L27",
+      "take": "L27-T1",
+      "fonte": "praq0986",
+      "in": 282.84,
+      "out": 289.16,
+      "cortes_internos": [
+        [
+          286.52,
+          287.16
+        ]
+      ],
+      "saida_inicio": 142.08,
+      "saida_fim": 147.76,
+      "layout": "full",
+      "zoom": null,
+      "zoom_origem": "45.5% 34.4%",
+      "zoom_pecas": [
+        1.12,
+        1.0
+      ],
+      "voz_ia": 0.0
+    },
+    {
+      "n": 29,
+      "linha": "L28",
+      "take": "manual",
+      "fonte": "praq0986",
+      "in": 299.48,
+      "out": 304.4,
+      "cortes_internos": [
+        [
+          302.44,
+          302.8
+        ]
+      ],
+      "saida_inicio": 147.76,
+      "saida_fim": 152.32,
+      "layout": "full",
+      "zoom": null,
+      "zoom_origem": "40.0% 34.4%",
+      "zoom_pecas": [
+        1.12,
+        1.0
+      ],
+      "voz_ia": 0.0
+    },
+    {
+      "n": 30,
+      "linha": "L29",
+      "take": "manual",
+      "fonte": "praq0986",
+      "in": 363.58,
+      "out": 369.95,
+      "cortes_internos": [],
+      "saida_inicio": 152.32,
+      "saida_fim": 158.68,
+      "layout": "full",
+      "zoom": null,
+      "zoom_origem": "53.8% 34.1%",
+      "zoom_pecas": [
+        1.12
+      ],
+      "voz_ia": 0.0
+    }
+  ],
+  "overlays": [
+    {
+      "linhas": [
+        "L03",
+        "L04"
+      ],
+      "tipo": "extra",
+      "extra": "E02",
+      "extra_tipo": "video",
+      "arquivo": "edicao/extras/E02.mp4",
+      "modo": "split",
+      "in": 0.0,
+      "out": 9.92,
+      "som": false,
+      "credito": "60 Minutes / CBS News",
+      "descricao": "Hinton de frente, calmo, respondendo no começo da entrevista (13 s), entra na hora do nome",
+      "faltando": false,
+      "saida_inicio": 12.48,
+      "saida_fim": 22.4
+    },
+    {
+      "linhas": [
+        "L07"
+      ],
+      "tipo": "extra",
+      "extra": "E03",
+      "extra_tipo": "video",
+      "arquivo": "edicao/extras/E03.mp4",
+      "modo": "split",
+      "in": 0.0,
+      "out": 5.52,
+      "som": false,
+      "credito": "60 Minutes / CBS News",
+      "descricao": "Fotos em preto e branco do jovem Hinton (anos 70, Edimburgo), enquanto a CBS conta a ideia do cérebro (9 s)",
+      "faltando": false,
+      "saida_inicio": 33.16,
+      "saida_fim": 38.68
+    },
+    {
+      "linhas": [
+        "L08",
+        "L09"
+      ],
+      "tipo": "extra",
+      "extra": "E04",
+      "extra_tipo": "animacao",
+      "arquivo": null,
+      "modo": "split",
+      "som": false,
+      "credito": null,
+      "componente": "E04",
+      "descricao": "A pergunta da L08 em imagem: pontos ligados em camadas, como neurônios; a cada exemplo a ligação certa engrossa e a errada some. Na L09, as ligações apagam devagar (ninguém acreditava). Sem escrever \"rede neural\" na tela",
+      "faltando": true,
+      "saida_inicio": 38.68,
+      "saida_fim": 48.92
+    },
+    {
+      "linhas": [
+        "L10"
+      ],
+      "tipo": "extra",
+      "extra": "E05",
+      "extra_tipo": "video",
+      "arquivo": "edicao/extras/E05.mp4",
+      "modo": "split",
+      "in": 0.0,
+      "out": 7.52,
+      "som": false,
+      "credito": "60 Minutes / CBS News",
+      "descricao": "Rosto do jovem Hinton e ele diante do computador; a CBS conta que o orientador mandou largar (7,5 s)",
+      "faltando": false,
+      "saida_inicio": 48.92,
+      "saida_fim": 56.44
+    },
+    {
+      "linhas": [
+        "L11"
+      ],
+      "tipo": "extra",
+      "extra": "E12",
+      "extra_tipo": "video",
+      "arquivo": "edicao/extras/E12.mp4",
+      "modo": "split",
+      "in": 0.0,
+      "out": 3.12,
+      "som": false,
+      "credito": "60 Minutes / CBS News",
+      "descricao": "Hinton: \"I always thought I was right\" (3,1 s, rosto dele na hora da frase) — casa com \"não desistiu\"",
+      "faltando": false,
+      "saida_inicio": 59.04,
+      "saida_fim": 62.16
+    },
+    {
+      "linhas": [
+        "L12",
+        "L13"
+      ],
+      "tipo": "extra",
+      "extra": "E06",
+      "extra_tipo": "animacao",
+      "arquivo": null,
+      "modo": "split",
+      "som": false,
+      "credito": "ImageNet / Stanford Vision Lab (dado)",
+      "componente": "E06",
+      "descricao": "Duas barras de erro na competição de 2012: segundo colocado 26,2 % × o sistema dele 15,3 %; a dele encolhe na fala \"precisão impressionante\" (os números só na tela, a fala não diz)",
+      "faltando": true,
+      "saida_inicio": 63.6,
+      "saida_fim": 74.28
+    },
+    {
+      "linhas": [
+        "L15"
+      ],
+      "tipo": "extra",
+      "extra": "E07",
+      "extra_tipo": "video",
+      "arquivo": "edicao/extras/E07.mp4",
+      "modo": "split",
+      "in": 0.0,
+      "out": 5.2,
+      "som": false,
+      "credito": "60 Minutes / CBS News",
+      "descricao": "Hinton de suéter verde e de pé na sala de servidores (5,2 s, sem logo do Google)",
+      "faltando": false,
+      "saida_inicio": 80.64,
+      "saida_fim": 85.84
+    },
+    {
+      "linhas": [
+        "L18",
+        "L19"
+      ],
+      "tipo": "extra",
+      "extra": "E08",
+      "extra_tipo": "video",
+      "arquivo": "edicao/extras/E08.mp4",
+      "modo": "split",
+      "in": 0.0,
+      "out": 9.2,
+      "som": false,
+      "credito": "BBC News",
+      "descricao": "Hinton, calmo, falando do ritmo do progresso da IA, entrevista à BBC quando saiu do Google (10 s; tarja da BBC no rodapé)",
+      "faltando": false,
+      "saida_inicio": 97.96,
+      "saida_fim": 107.16
+    },
+    {
+      "linhas": [
+        "L20"
+      ],
+      "tipo": "extra",
+      "extra": "E01",
+      "extra_tipo": "animacao",
+      "arquivo": null,
+      "modo": "split",
+      "som": false,
+      "credito": null,
+      "componente": "E01",
+      "descricao": "Tela de celular recebendo ligação de madrugada: \"02:00\", tocando, vibrando no escuro (toda a L20). Sem nome de pessoa nem número real na tela",
+      "faltando": true,
+      "saida_inicio": 107.16,
+      "saida_fim": 113.92
+    },
+    {
+      "linhas": [
+        "L21",
+        "L22"
+      ],
+      "tipo": "extra",
+      "extra": "E09",
+      "extra_tipo": "video",
+      "arquivo": "edicao/extras/E09.mp4",
+      "modo": "split",
+      "in": 0.0,
+      "out": 7.6,
+      "som": false,
+      "credito": "NobelPrize.org",
+      "descricao": "Hinton conta a ligação do Nobel: \"could be a prank\" (8 s), em corte seco depois do E01",
+      "faltando": false,
+      "saida_inicio": 113.92,
+      "saida_fim": 121.52
+    },
+    {
+      "linhas": [
+        "L23",
+        "L24"
+      ],
+      "tipo": "extra",
+      "extra": "E10",
+      "extra_tipo": "video",
+      "arquivo": "edicao/extras/E10.mp4",
+      "modo": "split",
+      "in": 0.0,
+      "out": 7.52,
+      "som": false,
+      "credito": "NobelPrize.org",
+      "descricao": "Hinton no discurso do banquete do Nobel, de casaca, no trecho da produtividade (7,5 s) — o \"padrinho\" no palco",
+      "faltando": false,
+      "saida_inicio": 121.52,
+      "saida_fim": 129.04
+    },
+    {
+      "linhas": [
+        "L25"
+      ],
+      "tipo": "extra",
+      "extra": "E11",
+      "extra_tipo": "video",
+      "arquivo": "edicao/extras/E11.mp4",
+      "modo": "split",
+      "in": 0.0,
+      "out": 5.84,
+      "som": false,
+      "credito": "NobelPrize.org",
+      "descricao": "Hinton no discurso do banquete, no trecho dos riscos/phishing (6 s), em corte seco depois do E10",
+      "faltando": false,
+      "saida_inicio": 133.28,
+      "saida_fim": 139.12
+    }
+  ],
+  "palavras_saida": [
+    {
+      "texto": "Imagina",
+      "inicio": 0.12,
+      "fim": 0.62,
+      "linha": "L01",
+      "destaque": false
+    },
+    {
+      "texto": "você",
+      "inicio": 0.64,
+      "fim": 0.9,
+      "linha": "L01",
+      "destaque": false
+    },
+    {
+      "texto": "passar",
+      "inicio": 0.94,
+      "fim": 1.26,
+      "linha": "L01",
+      "destaque": false
+    },
+    {
+      "texto": "quase",
+      "inicio": 1.26,
+      "fim": 1.58,
+      "linha": "L01",
+      "destaque": false
+    },
+    {
+      "texto": "50",
+      "inicio": 1.58,
+      "fim": 1.82,
+      "linha": "L01",
+      "destaque": false
+    },
+    {
+      "texto": "anos",
+      "inicio": 1.88,
+      "fim": 2.22,
+      "linha": "L01",
+      "destaque": false
+    },
+    {
+      "texto": "acreditando",
+      "inicio": 2.36,
+      "fim": 2.8,
+      "linha": "L01",
+      "destaque": false
+    },
+    {
+      "texto": "numa",
+      "inicio": 2.84,
+      "fim": 3.0,
+      "linha": "L01",
+      "destaque": false
+    },
+    {
+      "texto": "ideia",
+      "inicio": 3.06,
+      "fim": 3.535,
+      "linha": "L01",
+      "destaque": false
+    },
+    {
+      "texto": "que",
+      "inicio": 3.6,
+      "fim": 3.72,
+      "linha": "L01",
+      "destaque": false
+    },
+    {
+      "texto": "ninguém",
+      "inicio": 3.76,
+      "fim": 4.4,
+      "linha": "L01",
+      "destaque": false
+    },
+    {
+      "texto": "levava",
+      "inicio": 4.46,
+      "fim": 5.075,
+      "linha": "L01",
+      "destaque": false
+    },
+    {
+      "texto": "a",
+      "inicio": 5.12,
+      "fim": 5.22,
+      "linha": "L01",
+      "destaque": false
+    },
+    {
+      "texto": "sério…",
+      "inicio": 5.36,
+      "fim": 5.725,
+      "linha": "L01",
+      "destaque": true
+    },
+    {
+      "texto": "E,",
+      "inicio": 5.94,
+      "fim": 6.02,
+      "linha": "L02",
+      "destaque": false
+    },
+    {
+      "texto": "no",
+      "inicio": 6.04,
+      "fim": 6.16,
+      "linha": "L02",
+      "destaque": false
+    },
+    {
+      "texto": "final,",
+      "inicio": 6.22,
+      "fim": 6.6,
+      "linha": "L02",
+      "destaque": false
+    },
+    {
+      "texto": "essa",
+      "inicio": 6.96,
+      "fim": 7.18,
+      "linha": "L02",
+      "destaque": false
+    },
+    {
+      "texto": "ideia",
+      "inicio": 7.24,
+      "fim": 7.58,
+      "linha": "L02",
+      "destaque": false
+    },
+    {
+      "texto": "mudar",
+      "inicio": 7.7,
+      "fim": 8.12,
+      "linha": "L02",
+      "destaque": false
+    },
+    {
+      "texto": "o",
+      "inicio": 8.14,
+      "fim": 8.2,
+      "linha": "L02",
+      "destaque": false
+    },
+    {
+      "texto": "mundo",
+      "inicio": 8.28,
+      "fim": 8.62,
+      "linha": "L02",
+      "destaque": false
+    },
+    {
+      "texto": "e",
+      "inicio": 8.92,
+      "fim": 8.98,
+      "linha": "L02",
+      "destaque": false
+    },
+    {
+      "texto": "ainda",
+      "inicio": 9.0,
+      "fim": 9.36,
+      "linha": "L02",
+      "destaque": false
+    },
+    {
+      "texto": "te",
+      "inicio": 9.8,
+      "fim": 9.94,
+      "linha": "L02",
+      "destaque": false
+    },
+    {
+      "texto": "dar",
+      "inicio": 10.0,
+      "fim": 10.14,
+      "linha": "L02",
+      "destaque": false
+    },
+    {
+      "texto": "um",
+      "inicio": 10.7,
+      "fim": 10.885,
+      "linha": "L02",
+      "destaque": false
+    },
+    {
+      "texto": "Prêmio",
+      "inicio": 10.94,
+      "fim": 11.34,
+      "linha": "L02",
+      "destaque": true
+    },
+    {
+      "texto": "Nobel.",
+      "inicio": 11.6,
+      "fim": 11.98,
+      "linha": "L02",
+      "destaque": true
+    },
+    {
+      "texto": "Pois",
+      "inicio": 12.54,
+      "fim": 12.76,
+      "linha": "L03",
+      "destaque": false
+    },
+    {
+      "texto": "é.",
+      "inicio": 12.84,
+      "fim": 12.92,
+      "linha": "L03",
+      "destaque": false
+    },
+    {
+      "texto": "Essa",
+      "inicio": 13.54,
+      "fim": 13.88,
+      "linha": "L03",
+      "destaque": false
+    },
+    {
+      "texto": "é",
+      "inicio": 14.16,
+      "fim": 14.22,
+      "linha": "L03",
+      "destaque": false
+    },
+    {
+      "texto": "a",
+      "inicio": 14.2,
+      "fim": 14.26,
+      "linha": "L03",
+      "destaque": false
+    },
+    {
+      "texto": "história",
+      "inicio": 14.22,
+      "fim": 14.82,
+      "linha": "L03",
+      "destaque": false
+    },
+    {
+      "texto": "de",
+      "inicio": 14.82,
+      "fim": 15.22,
+      "linha": "L03",
+      "destaque": false
+    },
+    {
+      "texto": "Geoffrey",
+      "inicio": 15.22,
+      "fim": 15.72,
+      "linha": "L03",
+      "destaque": true
+    },
+    {
+      "texto": "Hinton.",
+      "inicio": 15.94,
+      "fim": 16.36,
+      "linha": "L03",
+      "destaque": true
+    },
+    {
+      "texto": "Hinton",
+      "inicio": 16.62,
+      "fim": 17.1,
+      "linha": "L04",
+      "destaque": false
+    },
+    {
+      "texto": "nasceu",
+      "inicio": 17.3,
+      "fim": 17.72,
+      "linha": "L04",
+      "destaque": false
+    },
+    {
+      "texto": "em",
+      "inicio": 17.76,
+      "fim": 17.9,
+      "linha": "L04",
+      "destaque": false
+    },
+    {
+      "texto": "Londres,",
+      "inicio": 17.92,
+      "fim": 18.36,
+      "linha": "L04",
+      "destaque": false
+    },
+    {
+      "texto": "em",
+      "inicio": 18.7,
+      "fim": 18.8,
+      "linha": "L04",
+      "destaque": false
+    },
+    {
+      "texto": "194",
+      "inicio": 18.84,
+      "fim": 19.74,
+      "linha": "L04",
+      "destaque": false
+    },
+    {
+      "texto": "47",
+      "inicio": 19.76,
+      "fim": 20.42,
+      "linha": "L04",
+      "destaque": false
+    },
+    {
+      "texto": "é",
+      "inicio": 20.6,
+      "fim": 20.66,
+      "linha": "L04",
+      "destaque": false
+    },
+    {
+      "texto": "uma",
+      "inicio": 20.68,
+      "fim": 20.82,
+      "linha": "L04",
+      "destaque": false
+    },
+    {
+      "texto": "família",
+      "inicio": 20.94,
+      "fim": 21.38,
+      "linha": "L04",
+      "destaque": false
+    },
+    {
+      "texto": "de",
+      "inicio": 21.4,
+      "fim": 21.5,
+      "linha": "L04",
+      "destaque": false
+    },
+    {
+      "texto": "cientistas",
+      "inicio": 21.52,
+      "fim": 22.18,
+      "linha": "L04",
+      "destaque": false
+    },
+    {
+      "texto": "Mas,",
+      "inicio": 22.56,
+      "fim": 22.92,
+      "linha": "L05",
+      "destaque": false
+    },
+    {
+      "texto": "diferente",
+      "inicio": 23.12,
+      "fim": 23.94,
+      "linha": "L05",
+      "destaque": false
+    },
+    {
+      "texto": "do",
+      "inicio": 23.94,
+      "fim": 24.12,
+      "linha": "L05",
+      "destaque": false
+    },
+    {
+      "texto": "que",
+      "inicio": 24.12,
+      "fim": 24.22,
+      "linha": "L05",
+      "destaque": false
+    },
+    {
+      "texto": "muita",
+      "inicio": 24.3,
+      "fim": 24.62,
+      "linha": "L05",
+      "destaque": false
+    },
+    {
+      "texto": "gente",
+      "inicio": 24.62,
+      "fim": 25.0,
+      "linha": "L05",
+      "destaque": false
+    },
+    {
+      "texto": "imagina,",
+      "inicio": 25.0,
+      "fim": 25.74,
+      "linha": "L05",
+      "destaque": false
+    },
+    {
+      "texto": "ele",
+      "inicio": 26.0,
+      "fim": 26.3,
+      "linha": "L05",
+      "destaque": false
+    },
+    {
+      "texto": "não",
+      "inicio": 26.72,
+      "fim": 26.94,
+      "linha": "L05",
+      "destaque": false
+    },
+    {
+      "texto": "começou",
+      "inicio": 26.96,
+      "fim": 27.42,
+      "linha": "L05",
+      "destaque": false
+    },
+    {
+      "texto": "estudando",
+      "inicio": 27.42,
+      "fim": 27.96,
+      "linha": "L05",
+      "destaque": false
+    },
+    {
+      "texto": "computadores.",
+      "inicio": 27.96,
+      "fim": 28.68,
+      "linha": "L05",
+      "destaque": true
+    },
+    {
+      "texto": "Ele",
+      "inicio": 29.02,
+      "fim": 29.34,
+      "linha": "L06",
+      "destaque": false
+    },
+    {
+      "texto": "queria",
+      "inicio": 29.58,
+      "fim": 29.899,
+      "linha": "L06",
+      "destaque": false
+    },
+    {
+      "texto": "entender",
+      "inicio": 29.939,
+      "fim": 30.48,
+      "linha": "L06",
+      "destaque": false
+    },
+    {
+      "texto": "como",
+      "inicio": 30.78,
+      "fim": 31.12,
+      "linha": "L06",
+      "destaque": false
+    },
+    {
+      "texto": "funciona",
+      "inicio": 31.24,
+      "fim": 31.98,
+      "linha": "L06",
+      "destaque": false
+    },
+    {
+      "texto": "a",
+      "inicio": 32.12,
+      "fim": 32.2,
+      "linha": "L06",
+      "destaque": false
+    },
+    {
+      "texto": "mente",
+      "inicio": 32.32,
+      "fim": 32.6,
+      "linha": "L06",
+      "destaque": true
+    },
+    {
+      "texto": "humana.",
+      "inicio": 32.62,
+      "fim": 33.08,
+      "linha": "L06",
+      "destaque": true
+    },
+    {
+      "texto": "Nos",
+      "inicio": 33.28,
+      "fim": 33.52,
+      "linha": "L07",
+      "destaque": false
+    },
+    {
+      "texto": "anos",
+      "inicio": 33.6,
+      "fim": 33.92,
+      "linha": "L07",
+      "destaque": false
+    },
+    {
+      "texto": "70,",
+      "inicio": 34.34,
+      "fim": 34.6,
+      "linha": "L07",
+      "destaque": false
+    },
+    {
+      "texto": "começou",
+      "inicio": 35.16,
+      "fim": 35.7,
+      "linha": "L07",
+      "destaque": false
+    },
+    {
+      "texto": "a",
+      "inicio": 35.72,
+      "fim": 35.78,
+      "linha": "L07",
+      "destaque": false
+    },
+    {
+      "texto": "defender",
+      "inicio": 35.82,
+      "fim": 36.18,
+      "linha": "L07",
+      "destaque": false
+    },
+    {
+      "texto": "uma",
+      "inicio": 36.22,
+      "fim": 36.46,
+      "linha": "L07",
+      "destaque": false
+    },
+    {
+      "texto": "ideia",
+      "inicio": 36.5,
+      "fim": 37.0,
+      "linha": "L07",
+      "destaque": false
+    },
+    {
+      "texto": "que",
+      "inicio": 37.14,
+      "fim": 37.335,
+      "linha": "L07",
+      "destaque": false
+    },
+    {
+      "texto": "parecia",
+      "inicio": 37.36,
+      "fim": 37.84,
+      "linha": "L07",
+      "destaque": false
+    },
+    {
+      "texto": "impossível",
+      "inicio": 37.88,
+      "fim": 38.54,
+      "linha": "L07",
+      "destaque": true
+    },
+    {
+      "texto": "naquela",
+      "inicio": 38.54,
+      "fim": 38.61,
+      "linha": "L07",
+      "destaque": false
+    },
+    {
+      "texto": "época:",
+      "inicio": 38.61,
+      "fim": 38.68,
+      "linha": "L07",
+      "destaque": false
+    },
+    {
+      "texto": "E",
+      "inicio": 38.84,
+      "fim": 38.9,
+      "linha": "L08",
+      "destaque": false
+    },
+    {
+      "texto": "se",
+      "inicio": 38.98,
+      "fim": 39.06,
+      "linha": "L08",
+      "destaque": false
+    },
+    {
+      "texto": "a",
+      "inicio": 39.08,
+      "fim": 39.14,
+      "linha": "L08",
+      "destaque": false
+    },
+    {
+      "texto": "gente",
+      "inicio": 39.2,
+      "fim": 39.52,
+      "linha": "L08",
+      "destaque": false
+    },
+    {
+      "texto": "conseguisse",
+      "inicio": 39.52,
+      "fim": 39.92,
+      "linha": "L08",
+      "destaque": false
+    },
+    {
+      "texto": "criar",
+      "inicio": 39.92,
+      "fim": 40.32,
+      "linha": "L08",
+      "destaque": false
+    },
+    {
+      "texto": "máquinas",
+      "inicio": 40.32,
+      "fim": 40.72,
+      "linha": "L08",
+      "destaque": false
+    },
+    {
+      "texto": "capazes",
+      "inicio": 40.72,
+      "fim": 41.173,
+      "linha": "L08",
+      "destaque": false
+    },
+    {
+      "texto": "de",
+      "inicio": 41.173,
+      "fim": 41.627,
+      "linha": "L08",
+      "destaque": false
+    },
+    {
+      "texto": "aprender",
+      "inicio": 41.627,
+      "fim": 42.08,
+      "linha": "L08",
+      "destaque": false
+    },
+    {
+      "texto": "como",
+      "inicio": 42.08,
+      "fim": 42.533,
+      "linha": "L08",
+      "destaque": false
+    },
+    {
+      "texto": "o",
+      "inicio": 42.533,
+      "fim": 42.987,
+      "linha": "L08",
+      "destaque": false
+    },
+    {
+      "texto": "cérebro",
+      "inicio": 42.987,
+      "fim": 43.44,
+      "linha": "L08",
+      "destaque": true
+    },
+    {
+      "texto": "humano?",
+      "inicio": 43.44,
+      "fim": 43.9,
+      "linha": "L08",
+      "destaque": true
+    },
+    {
+      "texto": "O",
+      "inicio": 44.48,
+      "fim": 44.58,
+      "linha": "L09",
+      "destaque": false
+    },
+    {
+      "texto": "problema",
+      "inicio": 44.58,
+      "fim": 44.907,
+      "linha": "L09",
+      "destaque": false
+    },
+    {
+      "texto": "é",
+      "inicio": 44.907,
+      "fim": 45.233,
+      "linha": "L09",
+      "destaque": false
+    },
+    {
+      "texto": "que",
+      "inicio": 45.233,
+      "fim": 45.56,
+      "linha": "L09",
+      "destaque": false
+    },
+    {
+      "texto": "quase",
+      "inicio": 45.56,
+      "fim": 46.08,
+      "linha": "L09",
+      "destaque": false
+    },
+    {
+      "texto": "ninguém",
+      "inicio": 46.22,
+      "fim": 46.8,
+      "linha": "L09",
+      "destaque": true
+    },
+    {
+      "texto": "acreditava",
+      "inicio": 47.12,
+      "fim": 47.9,
+      "linha": "L09",
+      "destaque": false
+    },
+    {
+      "texto": "nisso.",
+      "inicio": 48.0,
+      "fim": 48.3,
+      "linha": "L09",
+      "destaque": false
+    },
+    {
+      "texto": "o",
+      "inicio": 49.06,
+      "fim": 49.12,
+      "linha": "L10",
+      "destaque": false
+    },
+    {
+      "texto": "mais",
+      "inicio": 49.239,
+      "fim": 49.44,
+      "linha": "L10",
+      "destaque": false
+    },
+    {
+      "texto": "curioso,",
+      "inicio": 49.5,
+      "fim": 50.08,
+      "linha": "L10",
+      "destaque": false
+    },
+    {
+      "texto": "o",
+      "inicio": 50.24,
+      "fim": 50.3,
+      "linha": "L10",
+      "destaque": false
+    },
+    {
+      "texto": "próprio",
+      "inicio": 50.48,
+      "fim": 50.84,
+      "linha": "L10",
+      "destaque": false
+    },
+    {
+      "texto": "orientador",
+      "inicio": 50.88,
+      "fim": 51.28,
+      "linha": "L10",
+      "destaque": false
+    },
+    {
+      "texto": "dele",
+      "inicio": 51.36,
+      "fim": 51.7,
+      "linha": "L10",
+      "destaque": false
+    },
+    {
+      "texto": "aconselhou",
+      "inicio": 51.92,
+      "fim": 52.44,
+      "linha": "L10",
+      "destaque": false
+    },
+    {
+      "texto": "ele",
+      "inicio": 52.52,
+      "fim": 52.76,
+      "linha": "L10",
+      "destaque": false
+    },
+    {
+      "texto": "a",
+      "inicio": 53.04,
+      "fim": 53.14,
+      "linha": "L10",
+      "destaque": false
+    },
+    {
+      "texto": "abandonar",
+      "inicio": 53.44,
+      "fim": 54.14,
+      "linha": "L10",
+      "destaque": false
+    },
+    {
+      "texto": "essa",
+      "inicio": 54.16,
+      "fim": 54.38,
+      "linha": "L10",
+      "destaque": false
+    },
+    {
+      "texto": "pesquisa,",
+      "inicio": 54.42,
+      "fim": 55.0,
+      "linha": "L10",
+      "destaque": false
+    },
+    {
+      "texto": "porque",
+      "inicio": 55.18,
+      "fim": 55.74,
+      "linha": "L10",
+      "destaque": false
+    },
+    {
+      "texto": "essa",
+      "inicio": 55.78,
+      "fim": 55.92,
+      "linha": "L10",
+      "destaque": false
+    },
+    {
+      "texto": "pesquisa",
+      "inicio": 56.025,
+      "fim": 56.42,
+      "linha": "L10",
+      "destaque": false
+    },
+    {
+      "texto": "pode",
+      "inicio": 56.585,
+      "fim": 56.88,
+      "linha": "L10",
+      "destaque": false
+    },
+    {
+      "texto": "comprometer",
+      "inicio": 56.94,
+      "fim": 57.6,
+      "linha": "L10",
+      "destaque": false
+    },
+    {
+      "texto": "a",
+      "inicio": 57.96,
+      "fim": 58.02,
+      "linha": "L10",
+      "destaque": false
+    },
+    {
+      "texto": "carreira",
+      "inicio": 58.08,
+      "fim": 58.48,
+      "linha": "L10",
+      "destaque": false
+    },
+    {
+      "texto": "dele.",
+      "inicio": 58.54,
+      "fim": 58.82,
+      "linha": "L10",
+      "destaque": false
+    },
+    {
+      "texto": "Mas",
+      "inicio": 61.98,
+      "fim": 62.13,
+      "linha": "L11",
+      "destaque": false
+    },
+    {
+      "texto": "Hinton",
+      "inicio": 62.13,
+      "fim": 62.28,
+      "linha": "L11",
+      "destaque": false
+    },
+    {
+      "texto": "não",
+      "inicio": 62.28,
+      "fim": 62.46,
+      "linha": "L11",
+      "destaque": true
+    },
+    {
+      "texto": "desistiu.",
+      "inicio": 62.5,
+      "fim": 63.02,
+      "linha": "L11",
+      "destaque": true
+    },
+    {
+      "texto": "Em",
+      "inicio": 63.66,
+      "fim": 63.78,
+      "linha": "L12",
+      "destaque": false
+    },
+    {
+      "texto": "2012,",
+      "inicio": 63.98,
+      "fim": 64.74,
+      "linha": "L12",
+      "destaque": false
+    },
+    {
+      "texto": "junto",
+      "inicio": 65.4,
+      "fim": 65.84,
+      "linha": "L12",
+      "destaque": false
+    },
+    {
+      "texto": "com",
+      "inicio": 65.94,
+      "fim": 66.06,
+      "linha": "L12",
+      "destaque": false
+    },
+    {
+      "texto": "dois",
+      "inicio": 66.12,
+      "fim": 66.34,
+      "linha": "L12",
+      "destaque": false
+    },
+    {
+      "texto": "alunos,",
+      "inicio": 66.4,
+      "fim": 66.88,
+      "linha": "L12",
+      "destaque": false
+    },
+    {
+      "texto": "ele",
+      "inicio": 67.16,
+      "fim": 67.46,
+      "linha": "L13",
+      "destaque": false
+    },
+    {
+      "texto": "desenvolveu",
+      "inicio": 67.5,
+      "fim": 68.02,
+      "linha": "L13",
+      "destaque": false
+    },
+    {
+      "texto": "um",
+      "inicio": 68.06,
+      "fim": 68.18,
+      "linha": "L13",
+      "destaque": false
+    },
+    {
+      "texto": "sistema",
+      "inicio": 68.26,
+      "fim": 68.8,
+      "linha": "L13",
+      "destaque": false
+    },
+    {
+      "texto": "capaz",
+      "inicio": 69.12,
+      "fim": 69.9,
+      "linha": "L13",
+      "destaque": false
+    },
+    {
+      "texto": "de",
+      "inicio": 70.0,
+      "fim": 70.06,
+      "linha": "L13",
+      "destaque": false
+    },
+    {
+      "texto": "reconhecer",
+      "inicio": 70.08,
+      "fim": 70.72,
+      "linha": "L13",
+      "destaque": true
+    },
+    {
+      "texto": "imagens",
+      "inicio": 71.0,
+      "fim": 71.62,
+      "linha": "L13",
+      "destaque": true
+    },
+    {
+      "texto": "com",
+      "inicio": 71.62,
+      "fim": 72.02,
+      "linha": "L13",
+      "destaque": false
+    },
+    {
+      "texto": "uma",
+      "inicio": 72.02,
+      "fim": 72.42,
+      "linha": "L13",
+      "destaque": false
+    },
+    {
+      "texto": "precisão",
+      "inicio": 72.42,
+      "fim": 73.02,
+      "linha": "L13",
+      "destaque": false
+    },
+    {
+      "texto": "impressionante.",
+      "inicio": 73.02,
+      "fim": 73.32,
+      "linha": "L13",
+      "destaque": false
+    },
+    {
+      "texto": "Aquilo",
+      "inicio": 77.5,
+      "fim": 77.6,
+      "linha": "L14",
+      "destaque": false
+    },
+    {
+      "texto": "mudou",
+      "inicio": 77.6,
+      "fim": 77.7,
+      "linha": "L14",
+      "destaque": false
+    },
+    {
+      "texto": "completamente",
+      "inicio": 77.7,
+      "fim": 77.8,
+      "linha": "L14",
+      "destaque": false
+    },
+    {
+      "texto": "o",
+      "inicio": 77.8,
+      "fim": 77.92,
+      "linha": "L14",
+      "destaque": false
+    },
+    {
+      "texto": "rumo",
+      "inicio": 77.98,
+      "fim": 78.3,
+      "linha": "L14",
+      "destaque": false
+    },
+    {
+      "texto": "da",
+      "inicio": 78.66,
+      "fim": 78.78,
+      "linha": "L14",
+      "destaque": false
+    },
+    {
+      "texto": "inteligência",
+      "inicio": 78.84,
+      "fim": 79.58,
+      "linha": "L14",
+      "destaque": true
+    },
+    {
+      "texto": "artificial.",
+      "inicio": 79.765,
+      "fim": 80.445,
+      "linha": "L14",
+      "destaque": true
+    },
+    {
+      "texto": "Pouco",
+      "inicio": 80.8,
+      "fim": 81.12,
+      "linha": "L15",
+      "destaque": false
+    },
+    {
+      "texto": "depois,",
+      "inicio": 81.16,
+      "fim": 81.68,
+      "linha": "L15",
+      "destaque": false
+    },
+    {
+      "texto": "o",
+      "inicio": 82.12,
+      "fim": 82.18,
+      "linha": "L15",
+      "destaque": false
+    },
+    {
+      "texto": "Google",
+      "inicio": 82.28,
+      "fim": 82.7,
+      "linha": "L15",
+      "destaque": true
+    },
+    {
+      "texto": "comprou",
+      "inicio": 82.7,
+      "fim": 84.6,
+      "linha": "L15",
+      "destaque": false
+    },
+    {
+      "texto": "a",
+      "inicio": 84.6,
+      "fim": 84.66,
+      "linha": "L15",
+      "destaque": false
+    },
+    {
+      "texto": "empresa",
+      "inicio": 84.7,
+      "fim": 85.24,
+      "linha": "L15",
+      "destaque": false
+    },
+    {
+      "texto": "que",
+      "inicio": 85.68,
+      "fim": 85.74,
+      "linha": "L15",
+      "destaque": false
+    },
+    {
+      "texto": "eles",
+      "inicio": 85.82,
+      "fim": 86.145,
+      "linha": "L15",
+      "destaque": false
+    },
+    {
+      "texto": "tinham",
+      "inicio": 86.145,
+      "fim": 86.295,
+      "linha": "L15",
+      "destaque": false
+    },
+    {
+      "texto": "criado.",
+      "inicio": 86.295,
+      "fim": 86.445,
+      "linha": "L15",
+      "destaque": false
+    },
+    {
+      "texto": "E",
+      "inicio": 87.78,
+      "fim": 87.84,
+      "linha": "L16",
+      "destaque": false
+    },
+    {
+      "texto": "Hinton",
+      "inicio": 87.98,
+      "fim": 88.52,
+      "linha": "L16",
+      "destaque": false
+    },
+    {
+      "texto": "passou",
+      "inicio": 89.1,
+      "fim": 89.56,
+      "linha": "L16",
+      "destaque": false
+    },
+    {
+      "texto": "10",
+      "inicio": 90.42,
+      "fim": 90.72,
+      "linha": "L16",
+      "destaque": true
+    },
+    {
+      "texto": "anos",
+      "inicio": 90.84,
+      "fim": 91.1,
+      "linha": "L16",
+      "destaque": true
+    },
+    {
+      "texto": "trabalhando",
+      "inicio": 91.56,
+      "fim": 92.22,
+      "linha": "L16",
+      "destaque": false
+    },
+    {
+      "texto": "com",
+      "inicio": 92.22,
+      "fim": 92.73,
+      "linha": "L16",
+      "destaque": false
+    },
+    {
+      "texto": "a",
+      "inicio": 92.73,
+      "fim": 93.24,
+      "linha": "L16",
+      "destaque": false
+    },
+    {
+      "texto": "gigante",
+      "inicio": 93.24,
+      "fim": 93.78,
+      "linha": "L16",
+      "destaque": false
+    },
+    {
+      "texto": "da",
+      "inicio": 93.8,
+      "fim": 93.879,
+      "linha": "L16",
+      "destaque": false
+    },
+    {
+      "texto": "tecnologia.",
+      "inicio": 93.94,
+      "fim": 94.685,
+      "linha": "L16",
+      "destaque": false
+    },
+    {
+      "texto": "Agora,",
+      "inicio": 95.0,
+      "fim": 95.36,
+      "linha": "L17",
+      "destaque": false
+    },
+    {
+      "texto": "olha",
+      "inicio": 96.12,
+      "fim": 96.4,
+      "linha": "L17",
+      "destaque": false
+    },
+    {
+      "texto": "só",
+      "inicio": 96.44,
+      "fim": 96.56,
+      "linha": "L17",
+      "destaque": false
+    },
+    {
+      "texto": "que",
+      "inicio": 96.6,
+      "fim": 96.66,
+      "linha": "L17",
+      "destaque": false
+    },
+    {
+      "texto": "interessante.",
+      "inicio": 96.66,
+      "fim": 97.34,
+      "linha": "L17",
+      "destaque": false
+    },
+    {
+      "texto": "Em",
+      "inicio": 98.06,
+      "fim": 98.26,
+      "linha": "L18",
+      "destaque": false
+    },
+    {
+      "texto": "2023,",
+      "inicio": 98.5,
+      "fim": 99.5,
+      "linha": "L18",
+      "destaque": false
+    },
+    {
+      "texto": "ele",
+      "inicio": 99.64,
+      "fim": 99.84,
+      "linha": "L18",
+      "destaque": false
+    },
+    {
+      "texto": "deixou",
+      "inicio": 99.84,
+      "fim": 100.72,
+      "linha": "L18",
+      "destaque": true
+    },
+    {
+      "texto": "o",
+      "inicio": 100.72,
+      "fim": 100.78,
+      "linha": "L18",
+      "destaque": true
+    },
+    {
+      "texto": "Google",
+      "inicio": 100.84,
+      "fim": 101.18,
+      "linha": "L18",
+      "destaque": true
+    },
+    {
+      "texto": "para",
+      "inicio": 101.445,
+      "fim": 101.72,
+      "linha": "L19",
+      "destaque": false
+    },
+    {
+      "texto": "poder",
+      "inicio": 101.84,
+      "fim": 102.08,
+      "linha": "L19",
+      "destaque": false
+    },
+    {
+      "texto": "falar",
+      "inicio": 102.22,
+      "fim": 102.54,
+      "linha": "L19",
+      "destaque": false
+    },
+    {
+      "texto": "livremente",
+      "inicio": 102.96,
+      "fim": 103.76,
+      "linha": "L19",
+      "destaque": false
+    },
+    {
+      "texto": "sobre",
+      "inicio": 103.92,
+      "fim": 104.14,
+      "linha": "L19",
+      "destaque": false
+    },
+    {
+      "texto": "os",
+      "inicio": 104.38,
+      "fim": 104.5,
+      "linha": "L19",
+      "destaque": false
+    },
+    {
+      "texto": "riscos",
+      "inicio": 104.66,
+      "fim": 105.2,
+      "linha": "L19",
+      "destaque": true
+    },
+    {
+      "texto": "da",
+      "inicio": 105.36,
+      "fim": 105.44,
+      "linha": "L19",
+      "destaque": false
+    },
+    {
+      "texto": "inteligência",
+      "inicio": 105.58,
+      "fim": 106.24,
+      "linha": "L19",
+      "destaque": false
+    },
+    {
+      "texto": "artificial.",
+      "inicio": 106.32,
+      "fim": 107.025,
+      "linha": "L19",
+      "destaque": false
+    },
+    {
+      "texto": "E,",
+      "inicio": 107.3,
+      "fim": 107.36,
+      "linha": "L20",
+      "destaque": false
+    },
+    {
+      "texto": "um",
+      "inicio": 107.48,
+      "fim": 107.64,
+      "linha": "L20",
+      "destaque": false
+    },
+    {
+      "texto": "ano",
+      "inicio": 107.72,
+      "fim": 107.88,
+      "linha": "L20",
+      "destaque": false
+    },
+    {
+      "texto": "e",
+      "inicio": 107.9,
+      "fim": 107.96,
+      "linha": "L20",
+      "destaque": false
+    },
+    {
+      "texto": "meio",
+      "inicio": 108.02,
+      "fim": 108.22,
+      "linha": "L20",
+      "destaque": false
+    },
+    {
+      "texto": "depois,",
+      "inicio": 108.26,
+      "fim": 108.78,
+      "linha": "L20",
+      "destaque": false
+    },
+    {
+      "texto": "recebeu",
+      "inicio": 109.5,
+      "fim": 110.08,
+      "linha": "L20",
+      "destaque": false
+    },
+    {
+      "texto": "uma",
+      "inicio": 110.4,
+      "fim": 110.56,
+      "linha": "L20",
+      "destaque": false
+    },
+    {
+      "texto": "ligação",
+      "inicio": 110.6,
+      "fim": 111.16,
+      "linha": "L20",
+      "destaque": false
+    },
+    {
+      "texto": "às",
+      "inicio": 111.4,
+      "fim": 111.58,
+      "linha": "L20",
+      "destaque": false
+    },
+    {
+      "texto": "duas",
+      "inicio": 111.58,
+      "fim": 112.98,
+      "linha": "L20",
+      "destaque": true
+    },
+    {
+      "texto": "da",
+      "inicio": 112.98,
+      "fim": 113.04,
+      "linha": "L20",
+      "destaque": true
+    },
+    {
+      "texto": "manhã.",
+      "inicio": 113.12,
+      "fim": 113.485,
+      "linha": "L20",
+      "destaque": true
+    },
+    {
+      "texto": "Era",
+      "inicio": 115.18,
+      "fim": 115.46,
+      "linha": "L21",
+      "destaque": false
+    },
+    {
+      "texto": "o",
+      "inicio": 115.46,
+      "fim": 115.88,
+      "linha": "L21",
+      "destaque": false
+    },
+    {
+      "texto": "comitê",
+      "inicio": 115.88,
+      "fim": 116.44,
+      "linha": "L21",
+      "destaque": false
+    },
+    {
+      "texto": "do",
+      "inicio": 117.2,
+      "fim": 117.28,
+      "linha": "L21",
+      "destaque": false
+    },
+    {
+      "texto": "Nobel.",
+      "inicio": 117.34,
+      "fim": 117.685,
+      "linha": "L21",
+      "destaque": true
+    },
+    {
+      "texto": "Ele",
+      "inicio": 118.0,
+      "fim": 118.18,
+      "linha": "L22",
+      "destaque": false
+    },
+    {
+      "texto": "tinha",
+      "inicio": 118.36,
+      "fim": 118.82,
+      "linha": "L22",
+      "destaque": false
+    },
+    {
+      "texto": "acabado",
+      "inicio": 118.84,
+      "fim": 119.56,
+      "linha": "L22",
+      "destaque": false
+    },
+    {
+      "texto": "de",
+      "inicio": 119.74,
+      "fim": 119.82,
+      "linha": "L22",
+      "destaque": false
+    },
+    {
+      "texto": "ganhar",
+      "inicio": 119.86,
+      "fim": 120.4,
+      "linha": "L22",
+      "destaque": false
+    },
+    {
+      "texto": "o",
+      "inicio": 120.4,
+      "fim": 121.12,
+      "linha": "L22",
+      "destaque": false
+    },
+    {
+      "texto": "Nobel",
+      "inicio": 121.12,
+      "fim": 121.48,
+      "linha": "L22",
+      "destaque": true
+    },
+    {
+      "texto": "de",
+      "inicio": 121.48,
+      "fim": 121.54,
+      "linha": "L22",
+      "destaque": true
+    },
+    {
+      "texto": "Física",
+      "inicio": 121.54,
+      "fim": 121.6,
+      "linha": "L22",
+      "destaque": true
+    },
+    {
+      "texto": "de",
+      "inicio": 121.6,
+      "fim": 121.66,
+      "linha": "L22",
+      "destaque": false
+    },
+    {
+      "texto": "2024.",
+      "inicio": 121.66,
+      "fim": 121.72,
+      "linha": "L22",
+      "destaque": false
+    },
+    {
+      "texto": "Hoje,",
+      "inicio": 122.04,
+      "fim": 122.36,
+      "linha": "L23",
+      "destaque": false
+    },
+    {
+      "texto": "Geoffrey",
+      "inicio": 123.14,
+      "fim": 123.62,
+      "linha": "L23",
+      "destaque": false
+    },
+    {
+      "texto": "Hinton",
+      "inicio": 123.78,
+      "fim": 124.18,
+      "linha": "L23",
+      "destaque": false
+    },
+    {
+      "texto": "é",
+      "inicio": 124.36,
+      "fim": 124.44,
+      "linha": "L23",
+      "destaque": false
+    },
+    {
+      "texto": "conhecido",
+      "inicio": 124.48,
+      "fim": 125.12,
+      "linha": "L23",
+      "destaque": false
+    },
+    {
+      "texto": "como",
+      "inicio": 125.6,
+      "fim": 125.84,
+      "linha": "L23",
+      "destaque": false
+    },
+    {
+      "texto": "o",
+      "inicio": 125.9,
+      "fim": 125.96,
+      "linha": "L23",
+      "destaque": false
+    },
+    {
+      "texto": "padrinho",
+      "inicio": 126.04,
+      "fim": 126.66,
+      "linha": "L23",
+      "destaque": true
+    },
+    {
+      "texto": "da",
+      "inicio": 126.94,
+      "fim": 127.04,
+      "linha": "L23",
+      "destaque": true
+    },
+    {
+      "texto": "inteligência",
+      "inicio": 127.06,
+      "fim": 127.76,
+      "linha": "L23",
+      "destaque": true
+    },
+    {
+      "texto": "artificial.",
+      "inicio": 127.86,
+      "fim": 128.545,
+      "linha": "L23",
+      "destaque": true
+    },
+    {
+      "texto": "E",
+      "inicio": 128.84,
+      "fim": 128.9,
+      "linha": "L24",
+      "destaque": false
+    },
+    {
+      "texto": "o",
+      "inicio": 128.92,
+      "fim": 128.98,
+      "linha": "L24",
+      "destaque": false
+    },
+    {
+      "texto": "mais",
+      "inicio": 129.02,
+      "fim": 129.2,
+      "linha": "L24",
+      "destaque": false
+    },
+    {
+      "texto": "curioso",
+      "inicio": 129.28,
+      "fim": 129.82,
+      "linha": "L24",
+      "destaque": false
+    },
+    {
+      "texto": "é",
+      "inicio": 129.82,
+      "fim": 129.93,
+      "linha": "L24",
+      "destaque": false
+    },
+    {
+      "texto": "que",
+      "inicio": 129.93,
+      "fim": 130.04,
+      "linha": "L24",
+      "destaque": false
+    },
+    {
+      "texto": "o",
+      "inicio": 130.04,
+      "fim": 130.14,
+      "linha": "L24",
+      "destaque": false
+    },
+    {
+      "texto": "homem",
+      "inicio": 130.18,
+      "fim": 130.6,
+      "linha": "L24",
+      "destaque": false
+    },
+    {
+      "texto": "que",
+      "inicio": 130.92,
+      "fim": 131.02,
+      "linha": "L24",
+      "destaque": false
+    },
+    {
+      "texto": "ajudou",
+      "inicio": 131.08,
+      "fim": 131.66,
+      "linha": "L24",
+      "destaque": false
+    },
+    {
+      "texto": "a",
+      "inicio": 131.84,
+      "fim": 131.9,
+      "linha": "L24",
+      "destaque": false
+    },
+    {
+      "texto": "desenvolver",
+      "inicio": 131.9,
+      "fim": 132.34,
+      "linha": "L24",
+      "destaque": false
+    },
+    {
+      "texto": "essa",
+      "inicio": 132.34,
+      "fim": 132.46,
+      "linha": "L24",
+      "destaque": false
+    },
+    {
+      "texto": "tecnologia",
+      "inicio": 132.54,
+      "fim": 133.12,
+      "linha": "L24",
+      "destaque": false
+    },
+    {
+      "texto": "é",
+      "inicio": 133.42,
+      "fim": 133.5,
+      "linha": "L25",
+      "destaque": false
+    },
+    {
+      "texto": "também",
+      "inicio": 133.579,
+      "fim": 134.0,
+      "linha": "L25",
+      "destaque": false
+    },
+    {
+      "texto": "um",
+      "inicio": 134.0,
+      "fim": 134.2,
+      "linha": "L25",
+      "destaque": false
+    },
+    {
+      "texto": "dos",
+      "inicio": 134.2,
+      "fim": 134.4,
+      "linha": "L25",
+      "destaque": false
+    },
+    {
+      "texto": "que",
+      "inicio": 134.4,
+      "fim": 134.519,
+      "linha": "L25",
+      "destaque": false
+    },
+    {
+      "texto": "mais",
+      "inicio": 134.579,
+      "fim": 134.84,
+      "linha": "L25",
+      "destaque": false
+    },
+    {
+      "texto": "alertam",
+      "inicio": 135.18,
+      "fim": 135.6,
+      "linha": "L25",
+      "destaque": true
+    },
+    {
+      "texto": "sobre",
+      "inicio": 135.88,
+      "fim": 136.259,
+      "linha": "L25",
+      "destaque": false
+    },
+    {
+      "texto": "os",
+      "inicio": 136.6,
+      "fim": 136.74,
+      "linha": "L25",
+      "destaque": false
+    },
+    {
+      "texto": "seus",
+      "inicio": 136.74,
+      "fim": 136.84,
+      "linha": "L25",
+      "destaque": false
+    },
+    {
+      "texto": "riscos.",
+      "inicio": 136.84,
+      "fim": 137.28,
+      "linha": "L25",
+      "destaque": false
+    },
+    {
+      "texto": "A",
+      "inicio": 139.22,
+      "fim": 139.28,
+      "linha": "L26",
+      "destaque": false
+    },
+    {
+      "texto": "história",
+      "inicio": 139.26,
+      "fim": 139.6,
+      "linha": "L26",
+      "destaque": false
+    },
+    {
+      "texto": "dele",
+      "inicio": 139.66,
+      "fim": 139.96,
+      "linha": "L26",
+      "destaque": false
+    },
+    {
+      "texto": "mostra",
+      "inicio": 140.34,
+      "fim": 140.76,
+      "linha": "L26",
+      "destaque": false
+    },
+    {
+      "texto": "uma",
+      "inicio": 141.02,
+      "fim": 141.24,
+      "linha": "L26",
+      "destaque": false
+    },
+    {
+      "texto": "coisa:",
+      "inicio": 141.28,
+      "fim": 141.635,
+      "linha": "L26",
+      "destaque": false
+    },
+    {
+      "texto": "Às",
+      "inicio": 142.22,
+      "fim": 142.34,
+      "linha": "L27",
+      "destaque": false
+    },
+    {
+      "texto": "vezes,",
+      "inicio": 142.4,
+      "fim": 142.84,
+      "linha": "L27",
+      "destaque": false
+    },
+    {
+      "texto": "uma",
+      "inicio": 143.36,
+      "fim": 143.54,
+      "linha": "L27",
+      "destaque": false
+    },
+    {
+      "texto": "ideia",
+      "inicio": 143.58,
+      "fim": 144.1,
+      "linha": "L27",
+      "destaque": false
+    },
+    {
+      "texto": "que",
+      "inicio": 144.3,
+      "fim": 144.42,
+      "linha": "L27",
+      "destaque": false
+    },
+    {
+      "texto": "ninguém",
+      "inicio": 144.48,
+      "fim": 144.92,
+      "linha": "L27",
+      "destaque": false
+    },
+    {
+      "texto": "acredita",
+      "inicio": 144.98,
+      "fim": 145.62,
+      "linha": "L27",
+      "destaque": false
+    },
+    {
+      "texto": "pode",
+      "inicio": 145.82,
+      "fim": 146.24,
+      "linha": "L27",
+      "destaque": false
+    },
+    {
+      "texto": "mudar",
+      "inicio": 146.64,
+      "fim": 147.1,
+      "linha": "L27",
+      "destaque": true
+    },
+    {
+      "texto": "o",
+      "inicio": 147.12,
+      "fim": 147.18,
+      "linha": "L27",
+      "destaque": true
+    },
+    {
+      "texto": "mundo.",
+      "inicio": 147.28,
+      "fim": 147.585,
+      "linha": "L27",
+      "destaque": true
+    },
+    {
+      "texto": "Comenta",
+      "inicio": 147.92,
+      "fim": 148.36,
+      "linha": "L28",
+      "destaque": false
+    },
+    {
+      "texto": "NOBEL",
+      "inicio": 149.02,
+      "fim": 149.4,
+      "linha": "L28",
+      "destaque": true
+    },
+    {
+      "texto": "que",
+      "inicio": 149.8,
+      "fim": 149.86,
+      "linha": "L28",
+      "destaque": false
+    },
+    {
+      "texto": "eu",
+      "inicio": 149.86,
+      "fim": 149.94,
+      "linha": "L28",
+      "destaque": false
+    },
+    {
+      "texto": "te",
+      "inicio": 149.94,
+      "fim": 150.108,
+      "linha": "L28",
+      "destaque": false
+    },
+    {
+      "texto": "mando",
+      "inicio": 150.108,
+      "fim": 150.276,
+      "linha": "L28",
+      "destaque": false
+    },
+    {
+      "texto": "o",
+      "inicio": 150.276,
+      "fim": 150.444,
+      "linha": "L28",
+      "destaque": false
+    },
+    {
+      "texto": "link",
+      "inicio": 150.444,
+      "fim": 150.612,
+      "linha": "L28",
+      "destaque": false
+    },
+    {
+      "texto": "oficial",
+      "inicio": 150.612,
+      "fim": 150.78,
+      "linha": "L28",
+      "destaque": false
+    },
+    {
+      "texto": "da",
+      "inicio": 150.78,
+      "fim": 150.84,
+      "linha": "L28",
+      "destaque": false
+    },
+    {
+      "texto": "entrevista",
+      "inicio": 150.84,
+      "fim": 151.52,
+      "linha": "L28",
+      "destaque": false
+    },
+    {
+      "texto": "dele.",
+      "inicio": 151.52,
+      "fim": 151.82,
+      "linha": "L28",
+      "destaque": false
+    },
+    {
+      "texto": "E",
+      "inicio": 152.44,
+      "fim": 152.5,
+      "linha": "L29",
+      "destaque": false
+    },
+    {
+      "texto": "também",
+      "inicio": 152.56,
+      "fim": 152.9,
+      "linha": "L29",
+      "destaque": false
+    },
+    {
+      "texto": "não",
+      "inicio": 153.3,
+      "fim": 153.42,
+      "linha": "L29",
+      "destaque": false
+    },
+    {
+      "texto": "esquece",
+      "inicio": 153.44,
+      "fim": 153.96,
+      "linha": "L29",
+      "destaque": false
+    },
+    {
+      "texto": "de",
+      "inicio": 154.0,
+      "fim": 154.1,
+      "linha": "L29",
+      "destaque": false
+    },
+    {
+      "texto": "mandar",
+      "inicio": 154.16,
+      "fim": 154.44,
+      "linha": "L29",
+      "destaque": false
+    },
+    {
+      "texto": "pra",
+      "inicio": 154.66,
+      "fim": 154.8,
+      "linha": "L29",
+      "destaque": false
+    },
+    {
+      "texto": "alguém",
+      "inicio": 154.82,
+      "fim": 155.14,
+      "linha": "L29",
+      "destaque": false
+    },
+    {
+      "texto": "que",
+      "inicio": 155.42,
+      "fim": 155.52,
+      "linha": "L29",
+      "destaque": false
+    },
+    {
+      "texto": "tá",
+      "inicio": 155.56,
+      "fim": 155.7,
+      "linha": "L29",
+      "destaque": false
+    },
+    {
+      "texto": "querendo",
+      "inicio": 156.02,
+      "fim": 156.26,
+      "linha": "L29",
+      "destaque": false
+    },
+    {
+      "texto": "desistir",
+      "inicio": 156.28,
+      "fim": 156.74,
+      "linha": "L29",
+      "destaque": false
+    },
+    {
+      "texto": "duma",
+      "inicio": 157.1,
+      "fim": 157.3,
+      "linha": "L29",
+      "destaque": false
+    },
+    {
+      "texto": "grande",
+      "inicio": 157.34,
+      "fim": 157.6,
+      "linha": "L29",
+      "destaque": false
+    },
+    {
+      "texto": "ideia.",
+      "inicio": 157.66,
+      "fim": 158.055,
+      "linha": "L29",
+      "destaque": false
+    }
+  ],
+  "duracao_saida": 158.68,
+  "zoom_no_corte": true,
+  "audio": {
+    "loudnorm_lufs": -14,
+    "true_peak": -1.5,
+    "musica": null,
+    "ducking": true
+  },
+  "variantes": [
+    {
+      "linha": "L01B",
+      "alternativa_de": "L01",
+      "take": "L01B-T1",
+      "fonte": "praq0986",
+      "in": 379.6,
+      "out": 384.0,
+      "cortes_internos": [
+        [
+          380.72,
+          380.88
+        ]
+      ],
+      "status": "ok"
+    },
+    {
+      "linha": "L01C",
+      "alternativa_de": "L01",
+      "take": "L01C-T1",
+      "fonte": "praq0986",
+      "in": 393.0,
+      "out": 397.76,
+      "cortes_internos": [
+        [
+          395.76,
+          396.16
+        ]
+      ],
+      "status": "ok"
+    }
+  ],
+  "gerado_em": "2026-10-15T01:25:08+01:00"
+}

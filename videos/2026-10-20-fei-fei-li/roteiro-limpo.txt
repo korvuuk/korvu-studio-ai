@@ -1,0 +1,45 @@
+Quem é Fei-Fei Li: a adolescente que chegou sem falar inglês, era a voz da família na lavanderia e montou o banco de fotos que ajudou a IA a enxergar
+
+Pose da capa (antes de falar): mão em forma de telefone no ouvido, olhar sério. Segure 3 segundos, em silêncio.
+É daqui que sai a capa do feed.
+
+Imagina chegar adolescente num país novo, sem falar inglês…
+e, anos depois, ajudar as máquinas a enxergar o mundo.
+Essa é a história da Fei-Fei Li.
+Ela nasceu na China e chegou aos Estados Unidos ainda adolescente.
+Os pais praticamente não falavam inglês.
+Então, na lavanderia da família, quem atendia o telefone, resolvia cobrança e até falava com o fiscal?
+Ela.
+E foi assim, ela conta, que ajudou a pagar a faculdade.
+Fei-Fei estudou física em Princeton e depois entrou para o mundo da inteligência artificial.
+E ela começou a pensar numa coisa muito simples:
+Uma criança aprende a reconhecer o mundo vendo milhões de exemplos.
+Então por que um computador seria diferente?
+Em 2007, ela começou um projeto chamado ImageNet.
+A ideia era reunir milhões de imagens e dizer ao computador exatamente o que aparecia em cada uma delas.
+Segundo ela, quase 50 mil pessoas ajudaram pela internet a organizar e identificar essas imagens.
+E sabe o mais curioso?
+Ela disponibilizou tudo de graça para pesquisadores.
+Aí chega 2012.
+Um grupo da Universidade de Toronto usa o ImageNet para treinar uma rede neural numa competição de reconhecimento de imagens.
+E sabe quem estava nesse grupo?
+Geoffrey Hinton, de quem eu já falei aqui.
+O resultado foi tão superior aos concorrentes que aquele momento ajudou a mudar o rumo da inteligência artificial.
+Mas olha que interessante:
+A IA era deles.
+Os exemplos eram dela.
+Hoje, a imprensa chama Fei-Fei Li de madrinha da inteligência artificial.
+E a história dela mostra uma coisa muito importante:
+IA não aprende por mágica.
+Ela aprende porque alguém teve o trabalho de mostrar exemplos, organizar informação e ensinar o que cada coisa significa.
+E, às vezes, quem ajuda a mudar o futuro…
+é aquela adolescente que um dia precisou traduzir tudo para a própria família.
+Comenta AULA aqui embaixo que eu te mando a palestra dela.
+São 18 minutos, com legenda em português.
+E manda esse vídeo pra alguém que já foi o tradutor da família.
+
+Outras aberturas (gravar no fim):
+Imagina ouvir dos colegas que era melhor fazer algo mais útil…
+Imagina brincar que ia reabrir a lavanderia pra pagar a sua pesquisa…
+
+331 palavras · ~144 segundos

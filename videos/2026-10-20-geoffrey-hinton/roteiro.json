@@ -1,0 +1,1262 @@
+{
+  "slug": "2026-10-20-geoffrey-hinton",
+  "versao": 3,
+  "tema": "Quem é Geoffrey Hinton: quase 50 anos numa ideia que ninguém levava a sério, até ela mudar o mundo e virar um Nobel",
+  "pilar": "perfil",
+  "estrutura": "narrativo (00-marca/modelo-roteiro-narrativo.md): gancho → história → desafio → revolução → Nobel → reflexão → CTA",
+  "hook_template": "curiosity-gap",
+  "duracao_alvo": 90.0,
+  "wps_ref": 2.3,
+  "hooks": {
+    "A": {
+      "fala": "Imagina você passar quase 50 anos acreditando numa ideia que ninguém levava a sério…",
+      "tela": "50 ANOS NUMA IDEIA QUE NINGUÉM LEVAVA A SÉRIO",
+      "visual": "Carlos em tela cheia; o Hinton só aparece na L03"
+    },
+    "B": {
+      "fala": "Imagina ouvir que a sua ideia vai acabar com a sua carreira…",
+      "tela": "\"ISSO VAI ACABAR COM A SUA CARREIRA\"",
+      "visual": "Carlos em tela cheia; o Hinton só aparece na L03"
+    },
+    "C": {
+      "fala": "Imagina você defender uma ideia que todo mundo achava impossível…",
+      "tela": "TODO MUNDO ACHAVA IMPOSSÍVEL",
+      "visual": "Carlos em tela cheia; o Hinton só aparece na L03"
+    }
+  },
+  "hook_escolhido": "A",
+  "titulo": {
+    "contexto": "Ninguém levava a ideia dele a sério,",
+    "impacto": "e ela virou um Nobel",
+    "cinza": 2,
+    "rabisco": "Nobel"
+  },
+  "pose_capa": "braços cruzados, olhar firme na câmera",
+  "cta_tipo": "palavra-material",
+  "cta_palavra": "NOBEL",
+  "material": "PDF de 2 páginas com o link oficial da entrevista do Geoffrey Hinton ao 60 Minutes (CBS, 13 min, em inglês), como ligar a tradução automática da legenda no YouTube e o link da transcrição em inglês da CBS",
+  "material_titulo": "o link da entrevista do Hinton",
+  "total_palavras": 294,
+  "duracao_estimada": 137.1,
+  "extras": [
+    {
+      "id": "E02",
+      "tipo": "video",
+      "descricao": "Hinton de frente, calmo, respondendo no começo da entrevista (13 s), entra na hora do nome",
+      "fonte": "`brutos/extras/E02-hinton-abertura.mp4` (60 Minutes 0:50–1:03)",
+      "credito": "60 Minutes / CBS News",
+      "som": false,
+      "linhas": [
+        "L03",
+        "L04"
+      ]
+    },
+    {
+      "id": "E03",
+      "tipo": "video",
+      "descricao": "Fotos em preto e branco do jovem Hinton (anos 70, Edimburgo), enquanto a CBS conta a ideia do cérebro (9 s)",
+      "fonte": "`brutos/extras/E03-edimburgo-jovem.mp4` (60 Minutes 1:49–1:58)",
+      "credito": "60 Minutes / CBS News",
+      "som": false,
+      "linhas": [
+        "L07"
+      ]
+    },
+    {
+      "id": "E04",
+      "tipo": "animacao",
+      "descricao": "A pergunta da L08 em imagem: pontos ligados em camadas, como neurônios; a cada exemplo a ligação certa engrossa e a errada some. Na L09, as ligações apagam devagar (ninguém acreditava). Sem escrever \"rede neural\" na tela",
+      "fonte": "Claude Design (brief do animador, `00-marca/design-system/korvu-video.md`) — **refazer o brief**: a \"trilha no mato\" da v2 saiu do texto",
+      "credito": null,
+      "som": false,
+      "linhas": [
+        "L08",
+        "L09"
+      ]
+    },
+    {
+      "id": "E05",
+      "tipo": "video",
+      "descricao": "Rosto do jovem Hinton e ele diante do computador; a CBS conta que o orientador mandou largar (7,5 s)",
+      "fonte": "`brutos/extras/E05-orientador.mp4` (60 Minutes 2:04–2:12)",
+      "credito": "60 Minutes / CBS News",
+      "som": false,
+      "linhas": [
+        "L10"
+      ]
+    },
+    {
+      "id": "E12",
+      "tipo": "video",
+      "descricao": "Hinton: \"I always thought I was right\" (3,1 s, rosto dele na hora da frase) — casa com \"não desistiu\"",
+      "fonte": "`brutos/extras/E12-sempre-achei-certo.mp4` (60 Minutes 2:36–2:39)",
+      "credito": "60 Minutes / CBS News",
+      "som": false,
+      "linhas": [
+        "L11"
+      ]
+    },
+    {
+      "id": "E06",
+      "tipo": "animacao",
+      "descricao": "Duas barras de erro na competição de 2012: segundo colocado 26,2 % × o sistema dele 15,3 %; a dele encolhe na fala \"precisão impressionante\" (os números só na tela, a fala não diz)",
+      "fonte": "Claude Design; números da tabela oficial (ImageNet 2012: 0,15315 × 0,26172)",
+      "credito": "ImageNet / Stanford Vision Lab (dado)",
+      "som": false,
+      "linhas": [
+        "L12",
+        "L13"
+      ]
+    },
+    {
+      "id": "E07",
+      "tipo": "video",
+      "descricao": "Hinton de suéter verde e de pé na sala de servidores (5,2 s, sem logo do Google)",
+      "fonte": "`brutos/extras/E07-google-toronto.mp4` (60 Minutes 7:33–7:38)",
+      "credito": "60 Minutes / CBS News",
+      "som": false,
+      "linhas": [
+        "L15"
+      ]
+    },
+    {
+      "id": "E08",
+      "tipo": "video",
+      "descricao": "Hinton, calmo, falando do ritmo do progresso da IA, entrevista à BBC quando saiu do Google (10 s; tarja da BBC no rodapé)",
+      "fonte": "`brutos/extras/E08-riscos-bbc.mp4` (BBC News 1:19–1:29)",
+      "credito": "BBC News",
+      "som": false,
+      "linhas": [
+        "L18",
+        "L19"
+      ]
+    },
+    {
+      "id": "E01",
+      "tipo": "animacao",
+      "descricao": "Tela de celular recebendo ligação de madrugada: \"02:00\", tocando, vibrando no escuro (toda a L20). Sem nome de pessoa nem número real na tela",
+      "fonte": "Claude Design (brief do animador, `00-marca/design-system/korvu-video.md`) — **atualizar o brief**: na v2 era 1 s no hook, agora cobre a L20 inteira",
+      "credito": null,
+      "som": false,
+      "linhas": [
+        "L20"
+      ]
+    },
+    {
+      "id": "E09",
+      "tipo": "video",
+      "descricao": "Hinton conta a ligação do Nobel: \"could be a prank\" (8 s), em corte seco depois do E01",
+      "fonte": "`brutos/extras/E09-ligacao-trote.mp4` (Nobel Prize, entrevista oficial 0:57–1:05)",
+      "credito": "NobelPrize.org",
+      "som": false,
+      "linhas": [
+        "L21",
+        "L22"
+      ]
+    },
+    {
+      "id": "E10",
+      "tipo": "video",
+      "descricao": "Hinton no discurso do banquete do Nobel, de casaca, no trecho da produtividade (7,5 s) — o \"padrinho\" no palco",
+      "fonte": "`brutos/extras/E10-banquete-produtividade.mp4` (Nobel Prize, discurso 1:31–1:38)",
+      "credito": "NobelPrize.org",
+      "som": false,
+      "linhas": [
+        "L23",
+        "L24"
+      ]
+    },
+    {
+      "id": "E11",
+      "tipo": "video",
+      "descricao": "Hinton no discurso do banquete, no trecho dos riscos/phishing (6 s), em corte seco depois do E10",
+      "fonte": "`brutos/extras/E11-banquete-golpes.mp4` (Nobel Prize, discurso 2:03–2:09)",
+      "credito": "NobelPrize.org",
+      "som": false,
+      "linhas": [
+        "L25"
+      ]
+    }
+  ],
+  "linhas": [
+    {
+      "id": "L01",
+      "secao": "hook",
+      "bloco": "hook",
+      "fala": "Imagina você passar quase 50 anos acreditando numa ideia que ninguém levava a sério…",
+      "fala_original": "Imagina você passar quase 50 anos / acreditando numa ideia / que ninguém levava a **sério**…",
+      "palavras": [
+        "imagina",
+        "você",
+        "passar",
+        "quase",
+        "50",
+        "anos",
+        "acreditando",
+        "numa",
+        "ideia",
+        "que",
+        "ninguém",
+        "levava",
+        "a",
+        "sério"
+      ],
+      "destaques": [
+        "sério"
+      ],
+      "pausa_depois": "normal",
+      "tela": "",
+      "animacao": null,
+      "extras_ref": [],
+      "alternativa_de": null,
+      "tempo_estimado": [
+        0.0,
+        6.29
+      ]
+    },
+    {
+      "id": "L02",
+      "secao": "promessa",
+      "bloco": "promessa",
+      "fala": "E, no final, essa ideia mudar o mundo e ainda te dar um Prêmio Nobel.",
+      "fala_original": "E, no final, / essa ideia mudar o mundo / e ainda te dar um **Prêmio Nobel**. [pausa]",
+      "palavras": [
+        "e",
+        "no",
+        "final",
+        "essa",
+        "ideia",
+        "mudar",
+        "o",
+        "mundo",
+        "e",
+        "ainda",
+        "te",
+        "dar",
+        "um",
+        "prêmio",
+        "nobel"
+      ],
+      "destaques": [
+        "Prêmio Nobel"
+      ],
+      "pausa_depois": "pausa",
+      "tela": "",
+      "animacao": null,
+      "extras_ref": [],
+      "alternativa_de": null,
+      "tempo_estimado": [
+        6.29,
+        13.41
+      ]
+    },
+    {
+      "id": "L03",
+      "secao": "promessa",
+      "bloco": "promessa",
+      "fala": "Pois é. Essa é a história de Geoffrey Hinton.",
+      "fala_original": "Pois é. / Essa é a história de **Geoffrey Hinton**.",
+      "palavras": [
+        "pois",
+        "é",
+        "essa",
+        "é",
+        "a",
+        "história",
+        "de",
+        "geoffrey",
+        "hinton"
+      ],
+      "destaques": [
+        "Geoffrey Hinton"
+      ],
+      "pausa_depois": "normal",
+      "tela": "",
+      "animacao": null,
+      "extras_ref": [
+        {
+          "id": "E02",
+          "modo": "split",
+          "in": null,
+          "out": null
+        }
+      ],
+      "alternativa_de": null,
+      "tempo_estimado": [
+        13.41,
+        17.52
+      ]
+    },
+    {
+      "id": "L04",
+      "secao": "corpo",
+      "bloco": "corpo",
+      "fala": "Hinton nasceu em Londres, em 1947, numa família de cientistas.",
+      "fala_original": "Hinton nasceu em Londres, / em 1947, / numa família de **cientistas**.",
+      "palavras": [
+        "hinton",
+        "nasceu",
+        "em",
+        "londres",
+        "em",
+        "1947",
+        "numa",
+        "família",
+        "de",
+        "cientistas"
+      ],
+      "destaques": [
+        "cientistas"
+      ],
+      "pausa_depois": "normal",
+      "tela": "",
+      "animacao": null,
+      "extras_ref": [
+        {
+          "id": "E02",
+          "modo": "split",
+          "in": null,
+          "out": null
+        }
+      ],
+      "alternativa_de": null,
+      "tempo_estimado": [
+        17.52,
+        22.07
+      ]
+    },
+    {
+      "id": "L05",
+      "secao": "corpo",
+      "bloco": "corpo",
+      "fala": "Mas, diferente do que muita gente imagina, ele não começou estudando computadores.",
+      "fala_original": "Mas, diferente do que muita gente imagina, / ele não começou estudando **computadores**.",
+      "palavras": [
+        "mas",
+        "diferente",
+        "do",
+        "que",
+        "muita",
+        "gente",
+        "imagina",
+        "ele",
+        "não",
+        "começou",
+        "estudando",
+        "computadores"
+      ],
+      "destaques": [
+        "computadores"
+      ],
+      "pausa_depois": "normal",
+      "tela": "",
+      "animacao": null,
+      "extras_ref": [],
+      "alternativa_de": null,
+      "tempo_estimado": [
+        22.07,
+        27.49
+      ]
+    },
+    {
+      "id": "L06",
+      "secao": "corpo",
+      "bloco": "corpo",
+      "fala": "Ele queria entender como funciona a mente humana.",
+      "fala_original": "Ele queria entender / como funciona a **mente humana**.",
+      "palavras": [
+        "ele",
+        "queria",
+        "entender",
+        "como",
+        "funciona",
+        "a",
+        "mente",
+        "humana"
+      ],
+      "destaques": [
+        "mente humana"
+      ],
+      "pausa_depois": "normal",
+      "tela": "",
+      "animacao": null,
+      "extras_ref": [],
+      "alternativa_de": null,
+      "tempo_estimado": [
+        27.49,
+        31.17
+      ]
+    },
+    {
+      "id": "L07",
+      "secao": "corpo",
+      "bloco": "corpo",
+      "fala": "Nos anos 70, começou a defender uma ideia que parecia impossível naquela época:",
+      "fala_original": "Nos anos 70, / começou a defender uma ideia / que parecia **impossível** naquela época:",
+      "palavras": [
+        "nos",
+        "anos",
+        "70",
+        "começou",
+        "a",
+        "defender",
+        "uma",
+        "ideia",
+        "que",
+        "parecia",
+        "impossível",
+        "naquela",
+        "época"
+      ],
+      "destaques": [
+        "impossível"
+      ],
+      "pausa_depois": "normal",
+      "tela": "",
+      "animacao": null,
+      "extras_ref": [
+        {
+          "id": "E03",
+          "modo": "split",
+          "in": null,
+          "out": null
+        }
+      ],
+      "alternativa_de": null,
+      "tempo_estimado": [
+        31.17,
+        37.02
+      ]
+    },
+    {
+      "id": "L08",
+      "secao": "corpo",
+      "bloco": "corpo",
+      "fala": "E se a gente conseguisse criar máquinas capazes de aprender como o cérebro humano?",
+      "fala_original": "E se a gente conseguisse criar máquinas / capazes de aprender / como o **cérebro humano**? [pausa]",
+      "palavras": [
+        "e",
+        "se",
+        "a",
+        "gente",
+        "conseguisse",
+        "criar",
+        "máquinas",
+        "capazes",
+        "de",
+        "aprender",
+        "como",
+        "o",
+        "cérebro",
+        "humano"
+      ],
+      "destaques": [
+        "cérebro humano"
+      ],
+      "pausa_depois": "pausa",
+      "tela": "",
+      "animacao": null,
+      "extras_ref": [
+        {
+          "id": "E04",
+          "modo": "split",
+          "in": null,
+          "out": null
+        }
+      ],
+      "alternativa_de": null,
+      "tempo_estimado": [
+        37.02,
+        43.7
+      ]
+    },
+    {
+      "id": "L09",
+      "secao": "corpo",
+      "bloco": "corpo",
+      "fala": "O problema é que quase ninguém acreditava nisso.",
+      "fala_original": "O problema é que / quase **ninguém** acreditava nisso.",
+      "palavras": [
+        "o",
+        "problema",
+        "é",
+        "que",
+        "quase",
+        "ninguém",
+        "acreditava",
+        "nisso"
+      ],
+      "destaques": [
+        "ninguém"
+      ],
+      "pausa_depois": "normal",
+      "tela": "",
+      "animacao": null,
+      "extras_ref": [
+        {
+          "id": "E04",
+          "modo": "split",
+          "in": null,
+          "out": null
+        }
+      ],
+      "alternativa_de": null,
+      "tempo_estimado": [
+        43.7,
+        47.38
+      ]
+    },
+    {
+      "id": "L10",
+      "secao": "corpo",
+      "bloco": "corpo",
+      "fala": "Até o próprio orientador dele aconselhou que abandonasse essa pesquisa, porque poderia destruir sua carreira.",
+      "fala_original": "Até o próprio **orientador** dele / aconselhou que abandonasse essa pesquisa, / porque poderia destruir sua carreira.",
+      "palavras": [
+        "até",
+        "o",
+        "próprio",
+        "orientador",
+        "dele",
+        "aconselhou",
+        "que",
+        "abandonasse",
+        "essa",
+        "pesquisa",
+        "porque",
+        "poderia",
+        "destruir",
+        "sua",
+        "carreira"
+      ],
+      "destaques": [
+        "orientador"
+      ],
+      "pausa_depois": "normal",
+      "tela": "",
+      "animacao": null,
+      "extras_ref": [
+        {
+          "id": "E05",
+          "modo": "split",
+          "in": null,
+          "out": null
+        }
+      ],
+      "alternativa_de": null,
+      "tempo_estimado": [
+        47.38,
+        54.1
+      ]
+    },
+    {
+      "id": "L11",
+      "secao": "corpo",
+      "bloco": "corpo",
+      "fala": "Mas Hinton não desistiu.",
+      "fala_original": "Mas Hinton **não desistiu**. [pausa]",
+      "palavras": [
+        "mas",
+        "hinton",
+        "não",
+        "desistiu"
+      ],
+      "destaques": [
+        "não desistiu"
+      ],
+      "pausa_depois": "pausa",
+      "tela": "",
+      "animacao": null,
+      "extras_ref": [
+        {
+          "id": "E12",
+          "modo": "split",
+          "in": null,
+          "out": null
+        }
+      ],
+      "alternativa_de": null,
+      "tempo_estimado": [
+        54.1,
+        56.44
+      ]
+    },
+    {
+      "id": "L12",
+      "secao": "corpo",
+      "bloco": "corpo",
+      "fala": "Em 2012, junto com dois alunos,",
+      "fala_original": "Em 2012, / junto com dois alunos,",
+      "palavras": [
+        "em",
+        "2012",
+        "junto",
+        "com",
+        "dois",
+        "alunos"
+      ],
+      "destaques": [],
+      "pausa_depois": "normal",
+      "tela": "",
+      "animacao": null,
+      "extras_ref": [
+        {
+          "id": "E06",
+          "modo": "split",
+          "in": null,
+          "out": null
+        }
+      ],
+      "alternativa_de": null,
+      "tempo_estimado": [
+        56.44,
+        59.25
+      ]
+    },
+    {
+      "id": "L13",
+      "secao": "corpo",
+      "bloco": "corpo",
+      "fala": "ele desenvolveu um sistema capaz de reconhecer imagens com uma precisão impressionante.",
+      "fala_original": "ele desenvolveu um sistema capaz de **reconhecer imagens** / com uma precisão impressionante.",
+      "palavras": [
+        "ele",
+        "desenvolveu",
+        "um",
+        "sistema",
+        "capaz",
+        "de",
+        "reconhecer",
+        "imagens",
+        "com",
+        "uma",
+        "precisão",
+        "impressionante"
+      ],
+      "destaques": [
+        "reconhecer imagens"
+      ],
+      "pausa_depois": "normal",
+      "tela": "",
+      "animacao": null,
+      "extras_ref": [
+        {
+          "id": "E06",
+          "modo": "split",
+          "in": null,
+          "out": null
+        }
+      ],
+      "alternativa_de": null,
+      "tempo_estimado": [
+        59.25,
+        64.67
+      ]
+    },
+    {
+      "id": "L14",
+      "secao": "corpo",
+      "bloco": "corpo",
+      "fala": "Aquilo mudou completamente o rumo da inteligência artificial.",
+      "fala_original": "Aquilo mudou completamente / o rumo da **inteligência artificial**.",
+      "palavras": [
+        "aquilo",
+        "mudou",
+        "completamente",
+        "o",
+        "rumo",
+        "da",
+        "inteligência",
+        "artificial"
+      ],
+      "destaques": [
+        "inteligência artificial"
+      ],
+      "pausa_depois": "normal",
+      "tela": "",
+      "animacao": null,
+      "extras_ref": [],
+      "alternativa_de": null,
+      "tempo_estimado": [
+        64.67,
+        68.35
+      ]
+    },
+    {
+      "id": "L15",
+      "secao": "corpo",
+      "bloco": "corpo",
+      "fala": "Pouco depois, o Google comprou a empresa que eles tinham criado.",
+      "fala_original": "Pouco depois, / o **Google** comprou a empresa que eles tinham criado.",
+      "palavras": [
+        "pouco",
+        "depois",
+        "o",
+        "google",
+        "comprou",
+        "a",
+        "empresa",
+        "que",
+        "eles",
+        "tinham",
+        "criado"
+      ],
+      "destaques": [
+        "Google"
+      ],
+      "pausa_depois": "normal",
+      "tela": "",
+      "animacao": null,
+      "extras_ref": [
+        {
+          "id": "E07",
+          "modo": "split",
+          "in": null,
+          "out": null
+        }
+      ],
+      "alternativa_de": null,
+      "tempo_estimado": [
+        68.35,
+        73.33
+      ]
+    },
+    {
+      "id": "L16",
+      "secao": "corpo",
+      "bloco": "corpo",
+      "fala": "E Hinton passou 10 anos trabalhando com a gigante da tecnologia.",
+      "fala_original": "E Hinton passou **10 anos** / trabalhando com a gigante da tecnologia.",
+      "palavras": [
+        "e",
+        "hinton",
+        "passou",
+        "10",
+        "anos",
+        "trabalhando",
+        "com",
+        "a",
+        "gigante",
+        "da",
+        "tecnologia"
+      ],
+      "destaques": [
+        "10 anos"
+      ],
+      "pausa_depois": "normal",
+      "tela": "",
+      "animacao": null,
+      "extras_ref": [],
+      "alternativa_de": null,
+      "tempo_estimado": [
+        73.33,
+        78.31
+      ]
+    },
+    {
+      "id": "L17",
+      "secao": "corpo",
+      "bloco": "corpo",
+      "fala": "Mas olha que interessante…",
+      "fala_original": "Mas olha que interessante… [pausa]",
+      "palavras": [
+        "mas",
+        "olha",
+        "que",
+        "interessante"
+      ],
+      "destaques": [],
+      "pausa_depois": "pausa",
+      "tela": "",
+      "animacao": null,
+      "extras_ref": [],
+      "alternativa_de": null,
+      "tempo_estimado": [
+        78.31,
+        80.65
+      ]
+    },
+    {
+      "id": "L18",
+      "secao": "corpo",
+      "bloco": "corpo",
+      "fala": "Em 2023, ele deixou o Google",
+      "fala_original": "Em 2023, / ele **deixou o Google**",
+      "palavras": [
+        "em",
+        "2023",
+        "ele",
+        "deixou",
+        "o",
+        "google"
+      ],
+      "destaques": [
+        "deixou o Google"
+      ],
+      "pausa_depois": "normal",
+      "tela": "",
+      "animacao": null,
+      "extras_ref": [
+        {
+          "id": "E08",
+          "modo": "split",
+          "in": null,
+          "out": null
+        }
+      ],
+      "alternativa_de": null,
+      "tempo_estimado": [
+        80.65,
+        83.46
+      ]
+    },
+    {
+      "id": "L19",
+      "secao": "corpo",
+      "bloco": "corpo",
+      "fala": "para poder falar livremente sobre os riscos da inteligência artificial.",
+      "fala_original": "para poder falar livremente / sobre os **riscos** da inteligência artificial.",
+      "palavras": [
+        "para",
+        "poder",
+        "falar",
+        "livremente",
+        "sobre",
+        "os",
+        "riscos",
+        "da",
+        "inteligência",
+        "artificial"
+      ],
+      "destaques": [
+        "riscos"
+      ],
+      "pausa_depois": "normal",
+      "tela": "",
+      "animacao": null,
+      "extras_ref": [
+        {
+          "id": "E08",
+          "modo": "split",
+          "in": null,
+          "out": null
+        }
+      ],
+      "alternativa_de": null,
+      "tempo_estimado": [
+        83.46,
+        88.01
+      ]
+    },
+    {
+      "id": "L20",
+      "secao": "corpo",
+      "bloco": "corpo",
+      "fala": "E, um ano e meio depois, recebeu uma ligação às duas da manhã.",
+      "fala_original": "E, um ano e meio depois, / recebeu uma ligação / às **duas da manhã**. [pausa]",
+      "palavras": [
+        "e",
+        "um",
+        "ano",
+        "e",
+        "meio",
+        "depois",
+        "recebeu",
+        "uma",
+        "ligação",
+        "às",
+        "duas",
+        "da",
+        "manhã"
+      ],
+      "destaques": [
+        "duas da manhã"
+      ],
+      "pausa_depois": "pausa",
+      "tela": "",
+      "animacao": null,
+      "extras_ref": [
+        {
+          "id": "E01",
+          "modo": "split",
+          "in": null,
+          "out": null
+        }
+      ],
+      "alternativa_de": null,
+      "tempo_estimado": [
+        88.01,
+        94.26
+      ]
+    },
+    {
+      "id": "L21",
+      "secao": "corpo",
+      "bloco": "corpo",
+      "fala": "Era o comitê do Nobel.",
+      "fala_original": "Era o comitê do **Nobel**.",
+      "palavras": [
+        "era",
+        "o",
+        "comitê",
+        "do",
+        "nobel"
+      ],
+      "destaques": [
+        "Nobel"
+      ],
+      "pausa_depois": "normal",
+      "tela": "",
+      "animacao": null,
+      "extras_ref": [
+        {
+          "id": "E09",
+          "modo": "split",
+          "in": null,
+          "out": null
+        }
+      ],
+      "alternativa_de": null,
+      "tempo_estimado": [
+        94.26,
+        96.63
+      ]
+    },
+    {
+      "id": "L22",
+      "secao": "corpo",
+      "bloco": "corpo",
+      "fala": "Ele tinha acabado de ganhar o Nobel de Física de 2024.",
+      "fala_original": "Ele tinha acabado de ganhar / o **Nobel de Física** de 2024. [pausa]",
+      "palavras": [
+        "ele",
+        "tinha",
+        "acabado",
+        "de",
+        "ganhar",
+        "o",
+        "nobel",
+        "de",
+        "física",
+        "de",
+        "2024"
+      ],
+      "destaques": [
+        "Nobel de Física"
+      ],
+      "pausa_depois": "pausa",
+      "tela": "",
+      "animacao": null,
+      "extras_ref": [
+        {
+          "id": "E09",
+          "modo": "split",
+          "in": null,
+          "out": null
+        }
+      ],
+      "alternativa_de": null,
+      "tempo_estimado": [
+        96.63,
+        102.02
+      ]
+    },
+    {
+      "id": "L23",
+      "secao": "payoff",
+      "bloco": "payoff",
+      "fala": "Hoje, Geoffrey Hinton é conhecido como o padrinho da inteligência artificial.",
+      "fala_original": "Hoje, Geoffrey Hinton é conhecido / como o **padrinho da inteligência artificial**.",
+      "palavras": [
+        "hoje",
+        "geoffrey",
+        "hinton",
+        "é",
+        "conhecido",
+        "como",
+        "o",
+        "padrinho",
+        "da",
+        "inteligência",
+        "artificial"
+      ],
+      "destaques": [
+        "padrinho da inteligência artificial"
+      ],
+      "pausa_depois": "normal",
+      "tela": "",
+      "animacao": null,
+      "extras_ref": [
+        {
+          "id": "E10",
+          "modo": "split",
+          "in": null,
+          "out": null
+        }
+      ],
+      "alternativa_de": null,
+      "tempo_estimado": [
+        102.02,
+        107.0
+      ]
+    },
+    {
+      "id": "L24",
+      "secao": "payoff",
+      "bloco": "payoff",
+      "fala": "E o mais curioso é que o homem que ajudou a desenvolver essa tecnologia",
+      "fala_original": "E o mais curioso é que / o homem que ajudou a desenvolver essa tecnologia",
+      "palavras": [
+        "e",
+        "o",
+        "mais",
+        "curioso",
+        "é",
+        "que",
+        "o",
+        "homem",
+        "que",
+        "ajudou",
+        "a",
+        "desenvolver",
+        "essa",
+        "tecnologia"
+      ],
+      "destaques": [],
+      "pausa_depois": "normal",
+      "tela": "",
+      "animacao": null,
+      "extras_ref": [
+        {
+          "id": "E10",
+          "modo": "split",
+          "in": null,
+          "out": null
+        }
+      ],
+      "alternativa_de": null,
+      "tempo_estimado": [
+        107.0,
+        113.29
+      ]
+    },
+    {
+      "id": "L25",
+      "secao": "payoff",
+      "bloco": "payoff",
+      "fala": "é também um dos que mais alertam sobre os seus riscos.",
+      "fala_original": "é também um dos que mais **alertam** / sobre os seus riscos.",
+      "palavras": [
+        "é",
+        "também",
+        "um",
+        "dos",
+        "que",
+        "mais",
+        "alertam",
+        "sobre",
+        "os",
+        "seus",
+        "riscos"
+      ],
+      "destaques": [
+        "alertam"
+      ],
+      "pausa_depois": "normal",
+      "tela": "",
+      "animacao": null,
+      "extras_ref": [
+        {
+          "id": "E11",
+          "modo": "split",
+          "in": null,
+          "out": null
+        }
+      ],
+      "alternativa_de": null,
+      "tempo_estimado": [
+        113.29,
+        118.27
+      ]
+    },
+    {
+      "id": "L26",
+      "secao": "payoff",
+      "bloco": "payoff",
+      "fala": "A história dele mostra uma coisa:",
+      "fala_original": "A história dele mostra uma coisa: [pausa]",
+      "palavras": [
+        "a",
+        "história",
+        "dele",
+        "mostra",
+        "uma",
+        "coisa"
+      ],
+      "destaques": [],
+      "pausa_depois": "pausa",
+      "tela": "",
+      "animacao": null,
+      "extras_ref": [],
+      "alternativa_de": null,
+      "tempo_estimado": [
+        118.27,
+        121.48
+      ]
+    },
+    {
+      "id": "L27",
+      "secao": "payoff",
+      "bloco": "payoff",
+      "fala": "Às vezes, uma ideia que ninguém acredita pode mudar o mundo.",
+      "fala_original": "Às vezes, / uma ideia que ninguém acredita / pode **mudar o mundo**. [pausa longa]",
+      "palavras": [
+        "às",
+        "vezes",
+        "uma",
+        "ideia",
+        "que",
+        "ninguém",
+        "acredita",
+        "pode",
+        "mudar",
+        "o",
+        "mundo"
+      ],
+      "destaques": [
+        "mudar o mundo"
+      ],
+      "pausa_depois": "pausa_longa",
+      "tela": "",
+      "animacao": null,
+      "extras_ref": [],
+      "alternativa_de": null,
+      "tempo_estimado": [
+        121.48,
+        127.16
+      ]
+    },
+    {
+      "id": "L28",
+      "secao": "cta",
+      "bloco": "cta",
+      "fala": "Comenta NOBEL que eu te mando o link oficial da entrevista dele.",
+      "fala_original": "Comenta **NOBEL** / que eu te mando o link oficial da entrevista dele.",
+      "palavras": [
+        "comenta",
+        "nobel",
+        "que",
+        "eu",
+        "te",
+        "mando",
+        "o",
+        "link",
+        "oficial",
+        "da",
+        "entrevista",
+        "dele"
+      ],
+      "destaques": [
+        "NOBEL"
+      ],
+      "pausa_depois": "normal",
+      "tela": "",
+      "animacao": null,
+      "extras_ref": [],
+      "alternativa_de": null,
+      "tempo_estimado": [
+        127.16,
+        132.58
+      ]
+    },
+    {
+      "id": "L29",
+      "secao": "cta",
+      "bloco": "cta",
+      "fala": "E manda pra alguém que tá desistindo de uma ideia.",
+      "fala_original": "E manda pra alguém / que tá **desistindo** de uma ideia.",
+      "palavras": [
+        "e",
+        "manda",
+        "pra",
+        "alguém",
+        "que",
+        "tá",
+        "desistindo",
+        "de",
+        "uma",
+        "ideia"
+      ],
+      "destaques": [
+        "desistindo"
+      ],
+      "pausa_depois": "normal",
+      "tela": "",
+      "animacao": null,
+      "extras_ref": [],
+      "alternativa_de": null,
+      "tempo_estimado": [
+        132.58,
+        137.13
+      ]
+    },
+    {
+      "id": "L01B",
+      "secao": "hook-alt",
+      "bloco": "hook-alt",
+      "fala": "Imagina ouvir que a sua ideia vai acabar com a sua carreira…",
+      "fala_original": "Imagina ouvir que a sua ideia / vai acabar com a sua **carreira**…",
+      "palavras": [
+        "imagina",
+        "ouvir",
+        "que",
+        "a",
+        "sua",
+        "ideia",
+        "vai",
+        "acabar",
+        "com",
+        "a",
+        "sua",
+        "carreira"
+      ],
+      "destaques": [
+        "carreira"
+      ],
+      "pausa_depois": "normal",
+      "tela": "",
+      "animacao": null,
+      "extras_ref": [],
+      "alternativa_de": "L01",
+      "tempo_estimado": null
+    },
+    {
+      "id": "L01C",
+      "secao": "hook-alt",
+      "bloco": "hook-alt",
+      "fala": "Imagina você defender uma ideia que todo mundo achava impossível…",
+      "fala_original": "Imagina você defender uma ideia / que todo mundo achava **impossível**…",
+      "palavras": [
+        "imagina",
+        "você",
+        "defender",
+        "uma",
+        "ideia",
+        "que",
+        "todo",
+        "mundo",
+        "achava",
+        "impossível"
+      ],
+      "destaques": [
+        "impossível"
+      ],
+      "pausa_depois": "normal",
+      "tela": "",
+      "animacao": null,
+      "extras_ref": [],
+      "alternativa_de": "L01",
+      "tempo_estimado": null
+    }
+  ]
+}

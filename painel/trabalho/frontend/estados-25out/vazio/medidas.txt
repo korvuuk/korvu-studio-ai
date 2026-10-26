@@ -1,0 +1,16 @@
+# capturar.sh · 2026-10-25T21:33:44.124Z
+# alvo	largura pedida	innerWidth	scrollWidth	altura	HTTP	png	passa da borda
+/	1440	1440	1440	1772	200	/Users/teste/Documents/CONTENT AI/painel/trabalho/frontend/estados-25out/vazio/inicio-1440.png	
+/	375	375	375	2173	200	/Users/teste/Documents/CONTENT AI/painel/trabalho/frontend/estados-25out/vazio/inicio-375.png	
+/equipe	1440	1440	1440	900	200	/Users/teste/Documents/CONTENT AI/painel/trabalho/frontend/estados-25out/vazio/equipe-1440.png	
+/equipe	375	375	375	812	200	/Users/teste/Documents/CONTENT AI/painel/trabalho/frontend/estados-25out/vazio/equipe-375.png	
+/producao	1440	1440	1440	1157	200	/Users/teste/Documents/CONTENT AI/painel/trabalho/frontend/estados-25out/vazio/producao-1440.png	
+/producao	375	375	375	1435	200	/Users/teste/Documents/CONTENT AI/painel/trabalho/frontend/estados-25out/vazio/producao-375.png	
+/calendario	1440	1440	1440	1797	200	/Users/teste/Documents/CONTENT AI/painel/trabalho/frontend/estados-25out/vazio/calendario-1440.png	
+/calendario	375	375	375	1449	200	/Users/teste/Documents/CONTENT AI/painel/trabalho/frontend/estados-25out/vazio/calendario-375.png	
+/desempenho	1440	1440	1440	1555	200	/Users/teste/Documents/CONTENT AI/painel/trabalho/frontend/estados-25out/vazio/desempenho-1440.png	
+/desempenho	375	375	375	2011	200	/Users/teste/Documents/CONTENT AI/painel/trabalho/frontend/estados-25out/vazio/desempenho-375.png	
+/biblioteca	1440	1440	1440	1437	200	/Users/teste/Documents/CONTENT AI/painel/trabalho/frontend/estados-25out/vazio/biblioteca-1440.png	
+/biblioteca	375	375	375	2425	200	/Users/teste/Documents/CONTENT AI/painel/trabalho/frontend/estados-25out/vazio/biblioteca-375.png	
+/tokens	1440	1440	1440	1649	200	/Users/teste/Documents/CONTENT AI/painel/trabalho/frontend/estados-25out/vazio/tokens-1440.png	
+/tokens	375	375	375	2373	200	/Users/teste/Documents/CONTENT AI/painel/trabalho/frontend/estados-25out/vazio/tokens-375.png	

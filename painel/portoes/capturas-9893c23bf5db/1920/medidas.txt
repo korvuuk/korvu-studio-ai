@@ -1,0 +1,16 @@
+# capturar.sh · 2026-10-23T19:58:42.938Z
+# alvo	largura pedida	innerWidth	scrollWidth	altura	HTTP	png	passa da borda
+painel/design/telas/visao-geral.html	1920	1920	1920	4425	200	/Users/teste/Documents/CONTENT AI/painel/portoes/capturas-9893c23bf5db/1920/visao-geral-1920.png	
+painel/design/telas/visao-geral.html	1600	1600	1600	4533	200	/Users/teste/Documents/CONTENT AI/painel/portoes/capturas-9893c23bf5db/1920/visao-geral-1600.png	
+painel/design/telas/equipe.html	1920	1920	1920	3271	200	/Users/teste/Documents/CONTENT AI/painel/portoes/capturas-9893c23bf5db/1920/equipe-1920.png	
+painel/design/telas/equipe.html	1600	1600	1600	3654	200	/Users/teste/Documents/CONTENT AI/painel/portoes/capturas-9893c23bf5db/1920/equipe-1600.png	
+painel/design/telas/producao.html	1920	1920	1920	4422	200	/Users/teste/Documents/CONTENT AI/painel/portoes/capturas-9893c23bf5db/1920/producao-1920.png	
+painel/design/telas/producao.html	1600	1600	1600	4512	200	/Users/teste/Documents/CONTENT AI/painel/portoes/capturas-9893c23bf5db/1920/producao-1600.png	
+painel/design/telas/calendario.html	1920	1920	1920	3198	200	/Users/teste/Documents/CONTENT AI/painel/portoes/capturas-9893c23bf5db/1920/calendario-1920.png	
+painel/design/telas/calendario.html	1600	1600	1600	3658	200	/Users/teste/Documents/CONTENT AI/painel/portoes/capturas-9893c23bf5db/1920/calendario-1600.png	
+painel/design/telas/desempenho.html	1920	1920	1920	3089	200	/Users/teste/Documents/CONTENT AI/painel/portoes/capturas-9893c23bf5db/1920/desempenho-1920.png	
+painel/design/telas/desempenho.html	1600	1600	1600	3121	200	/Users/teste/Documents/CONTENT AI/painel/portoes/capturas-9893c23bf5db/1920/desempenho-1600.png	
+painel/design/telas/biblioteca.html	1920	1920	1920	2392	200	/Users/teste/Documents/CONTENT AI/painel/portoes/capturas-9893c23bf5db/1920/biblioteca-1920.png	
+painel/design/telas/biblioteca.html	1600	1600	1600	2659	200	/Users/teste/Documents/CONTENT AI/painel/portoes/capturas-9893c23bf5db/1920/biblioteca-1600.png	
+painel/design/telas/tokens-e-custos.html	1920	1920	1920	3781	200	/Users/teste/Documents/CONTENT AI/painel/portoes/capturas-9893c23bf5db/1920/tokens-e-custos-1920.png	
+painel/design/telas/tokens-e-custos.html	1600	1600	1600	3853	200	/Users/teste/Documents/CONTENT AI/painel/portoes/capturas-9893c23bf5db/1920/tokens-e-custos-1600.png	

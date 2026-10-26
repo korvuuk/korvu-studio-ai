@@ -1,0 +1,601 @@
+{
+  "slug": "2026-10-23-livro-chatgpt",
+  "versao": 2,
+  "tema": "Joga o livro no ChatGPT e escreve isso: mapa mental, anotação ilustrada, flashcards, fluxograma e quadrinhos de 5 livros conhecidos",
+  "pilar": "tutoriais-rapidos",
+  "estrutura": "comando-repetido (MESA §3 linha 2 · oluizsampaio DdUlEGnvo9n): 5 livros → 5 comandos → 5 resultados",
+  "hook_template": "resultado-primeiro",
+  "duracao_alvo": 35.0,
+  "wps_ref": 2.3,
+  "hooks": {
+    "A": {
+      "fala": "Joga o livro no ChatGPT e escreve barra mindmap.",
+      "tela": "JOGA O LIVRO NO CHATGPT",
+      "visual": "quadro 0: capa do livro + logo ChatGPT lado a lado (E01, ~1,5 s) → chat com a capa anexada e /mindmap digitado (E02) → o mapa mental pronto (E03) antes de 4 s. Par A/B (decisões 17/10): B = E01→E02→E03 em tela cheia do quadro 0 até o fim da L02, o Carlos entra na L03 (~7 s); A = o Carlos desde o quadro 0, com o extra em cima"
+    },
+    "B": {
+      "fala": "Tira foto da capa e escreve barra mindmap no ChatGPT.",
+      "tela": "FOTO DA CAPA → CHATGPT",
+      "visual": "a foto da capa sendo tirada com o celular (E02) e corte seco para o mapa mental (E03) antes de 3 s"
+    },
+    "C": {
+      "fala": "Você nunca mais vai ler um livro sem fazer isso no ChatGPT.",
+      "tela": "NUNCA MAIS SEM FAZER ISSO",
+      "visual": "os 5 resultados passando em cortes rápidos (E03, E05, E07, E09, E11) e parando no mapa mental"
+    }
+  },
+  "hook_escolhido": "A",
+  "titulo": {
+    "contexto": "Joga o livro no ChatGPT",
+    "impacto": "e escreve isso",
+    "cinza": 2,
+    "rabisco": "isso"
+  },
+  "pose_capa": "segurando um dos 5 livros fechado ao lado do rosto, sobrancelha erguida",
+  "cta_tipo": "palavra-material",
+  "cta_palavra": "LIVRO",
+  "material": "PDF com 50 comandos de barra para aprender com o ChatGPT a partir de qualquer livro, apostila ou artigo: os 5 do vídeo (/mindmap, /sketchnote, /flashcards, /fluxograma, /quadrinhos) + 45 (ex.: /resumo, /capitulos, /perguntas, /quiz, /planodeacao, /30dias, /explicapra10anos, /debate, /citacoes, /comparar, /podcast, /checklist, /erros, /exemplos, /glossario…), cada um em uma linha: comando + o que devolve + o pedido completo para colar; passo a passo no celular (foto da capa ou PDF do livro → colar o comando → pedir 'em imagem' na 1.ª vez → baixar); avisos: com a foto da capa o ChatGPT usa o que já sabe do livro e pode errar ou inventar (para ser fiel, mandar o PDF ou o texto do capítulo); o plano grátis limita imagens por dia; os comandos são atalhos que o ChatGPT interpreta, não botões; aceita /flashcard e /flashcards. Contagem exata: 50. Pedido-modelo geral + pedido curto por linha; 5–6 páginas",
+  "material_titulo": "a lista com os 50 comandos de aprendizado",
+  "total_palavras": 81,
+  "duracao_estimada": 37.4,
+  "extras": [
+    {
+      "id": "E01",
+      "tipo": "imagem",
+      "descricao": "Quadro 0: a capa de *Como Fazer Amigos e Influenciar Pessoas* (Dale Carnegie) e o logo \"ChatGPT\" lado a lado, como na referência — duas coisas conhecidas = o tema sem uma palavra de texto. **Na versão B é o quadro 0 do vídeo**",
+      "fonte": "`brutos/extras/E01-capa-logo.png` **PRONTO** (1920×1080: a capa `material/capas/01-…jpg` + logo do ChatGPT sobre branco — permitido para identificar a ferramenta, decisão 17/09)",
+      "credito": null,
+      "som": false,
+      "linhas": [
+        "L01",
+        "L01C"
+      ]
+    },
+    {
+      "id": "E02",
+      "tipo": "tela",
+      "descricao": "Gravação de ecrã do ChatGPT no celular: a foto da capa anexada e `/mindmap` sendo digitado. Mostra o \"como\" uma vez, inteiro, em ~2 s acelerado",
+      "fonte": "`brutos/extras/E02-tela-mindmap.mp4` **PRONTO** (cortado da gravação do Mac pela skill `tela-de-computador`, recorte 900×820 do campo, modo `card`: 24,5–25,6 s a capa aparece · 25,8–28,4 s digita /mindmap e envia; `edicao/tela.json`)",
+      "credito": null,
+      "som": false,
+      "linhas": [
+        "L01",
+        "L01B"
+      ]
+    },
+    {
+      "id": "E03",
+      "tipo": "imagem",
+      "descricao": "Resultado 1: o mapa mental de *Como Fazer Amigos e Influenciar Pessoas* gerado pelo ChatGPT, em tela cheia — a revelação",
+      "fonte": "`brutos/extras/E03-mindmap.png` **PRONTO** (1536×1024, deitada → `full` + `enquadrar`). Grafia conferida",
+      "credito": null,
+      "som": false,
+      "linhas": [
+        "L01",
+        "L02",
+        "L01B",
+        "L01C"
+      ]
+    },
+    {
+      "id": "E04",
+      "tipo": "tela",
+      "descricao": "Flash de `/sketchnote` sendo digitado, com a capa de *A Única Coisa* (Gary Keller) anexada (~0,7 s, acelerado)",
+      "fonte": "`brutos/extras/E04-tela-sketchnote.mp4` **PRONTO** (`card`: 81,0–82,1 capa · 95,0–98,4 digita e envia)",
+      "credito": null,
+      "som": false,
+      "linhas": [
+        "L03"
+      ]
+    },
+    {
+      "id": "E05",
+      "tipo": "imagem",
+      "descricao": "Resultado 2: a anotação ilustrada (sketchnote) de *A Única Coisa*",
+      "fonte": "`brutos/extras/E05-sketchnote.png` **PRONTO** (1024×1536)",
+      "credito": null,
+      "som": false,
+      "linhas": [
+        "L03"
+      ]
+    },
+    {
+      "id": "E06",
+      "tipo": "tela",
+      "descricao": "Flash de `/flashcards` com a capa de *Hábitos Atômicos* (James Clear) (~0,7 s)",
+      "fonte": "`brutos/extras/E06-tela-flashcards.mp4` **PRONTO** (`card`: 146,5–147,6 capa · 156,8–159,6 digita e envia)",
+      "credito": null,
+      "som": false,
+      "linhas": [
+        "L04"
+      ]
+    },
+    {
+      "id": "E07",
+      "tipo": "imagem",
+      "descricao": "Resultado 3: os cartões (pergunta/resposta) de *Hábitos Atômicos*",
+      "fonte": "`brutos/extras/E07-flashcards.png` **PRONTO** (1536×1024, deitada → `full` + `enquadrar`)",
+      "credito": null,
+      "som": false,
+      "linhas": [
+        "L04"
+      ]
+    },
+    {
+      "id": "E08",
+      "tipo": "tela",
+      "descricao": "Flash de `/fluxograma` com a capa de *O Poder do Hábito* (Charles Duhigg) (~0,7 s)",
+      "fonte": "`brutos/extras/E08-tela-fluxograma.mp4` **PRONTO** (`card`: 239,0–240,1 capa · 251,5–254,6 digita e envia)",
+      "credito": null,
+      "som": false,
+      "linhas": [
+        "L05"
+      ]
+    },
+    {
+      "id": "E09",
+      "tipo": "imagem",
+      "descricao": "Resultado 4: o fluxograma de *O Poder do Hábito*",
+      "fonte": "`brutos/extras/E09-fluxograma.png` **PRONTO** (1224×1285, quase quadrada → `full` + `enquadrar`)",
+      "credito": null,
+      "som": false,
+      "linhas": [
+        "L05"
+      ]
+    },
+    {
+      "id": "E10",
+      "tipo": "tela",
+      "descricao": "Flash de `/quadrinhos` com a capa de *Os Segredos da Mente Milionária* (T. Harv Eker) (~0,7 s)",
+      "fonte": "`brutos/extras/E10-tela-quadrinhos.mp4` **PRONTO** (`card`: 330,0–331,1 capa · 345,3–347,4 digita e envia)",
+      "credito": null,
+      "som": false,
+      "linhas": [
+        "L06"
+      ]
+    },
+    {
+      "id": "E11",
+      "tipo": "imagem",
+      "descricao": "Resultado 5: a tirinha com as ideias principais de *Os Segredos da Mente Milionária* (personagens desenhados, nenhuma pessoa real)",
+      "fonte": "`brutos/extras/E11-quadrinhos.png` **PRONTO** (1024×1536)",
+      "credito": null,
+      "som": false,
+      "linhas": [
+        "L06"
+      ]
+    }
+  ],
+  "linhas": [
+    {
+      "id": "L01",
+      "secao": "hook",
+      "bloco": "hook",
+      "fala": "Joga o livro no ChatGPT e escreve barra mindmap.",
+      "fala_original": "Joga o livro no ChatGPT / e escreve **barra mindmap**.",
+      "palavras": [
+        "joga",
+        "o",
+        "livro",
+        "no",
+        "chatgpt",
+        "e",
+        "escreve",
+        "barra",
+        "mindmap"
+      ],
+      "destaques": [
+        "barra mindmap"
+      ],
+      "pausa_depois": "normal",
+      "tela": "",
+      "animacao": null,
+      "extras_ref": [
+        {
+          "id": "E01",
+          "modo": "split",
+          "in": null,
+          "out": null
+        },
+        {
+          "id": "E02",
+          "modo": "split",
+          "in": null,
+          "out": null
+        },
+        {
+          "id": "E03",
+          "modo": "split",
+          "in": null,
+          "out": null
+        }
+      ],
+      "alternativa_de": null,
+      "tempo_estimado": [
+        0.0,
+        4.11
+      ]
+    },
+    {
+      "id": "L02",
+      "secao": "promessa",
+      "bloco": "promessa",
+      "fala": "Ele te devolve o mapa mental do livro.",
+      "fala_original": "Ele te devolve o **mapa mental** / do livro.",
+      "palavras": [
+        "ele",
+        "te",
+        "devolve",
+        "o",
+        "mapa",
+        "mental",
+        "do",
+        "livro"
+      ],
+      "destaques": [
+        "mapa mental"
+      ],
+      "pausa_depois": "normal",
+      "tela": "",
+      "animacao": null,
+      "extras_ref": [
+        {
+          "id": "E03",
+          "modo": "split",
+          "in": null,
+          "out": null
+        }
+      ],
+      "alternativa_de": null,
+      "tempo_estimado": [
+        4.11,
+        7.79
+      ]
+    },
+    {
+      "id": "L03",
+      "secao": "corpo",
+      "bloco": "corpo",
+      "fala": "Barra sketchnote: o resumo do livro em anotação ilustrada.",
+      "fala_original": "**Barra sketchnote**: / o resumo do livro / em anotação ilustrada.",
+      "palavras": [
+        "barra",
+        "sketchnote",
+        "o",
+        "resumo",
+        "do",
+        "livro",
+        "em",
+        "anotação",
+        "ilustrada"
+      ],
+      "destaques": [
+        "Barra sketchnote"
+      ],
+      "pausa_depois": "normal",
+      "tela": "",
+      "animacao": null,
+      "extras_ref": [
+        {
+          "id": "E04",
+          "modo": "split",
+          "in": null,
+          "out": null
+        },
+        {
+          "id": "E05",
+          "modo": "split",
+          "in": null,
+          "out": null
+        }
+      ],
+      "alternativa_de": null,
+      "tempo_estimado": [
+        7.79,
+        11.9
+      ]
+    },
+    {
+      "id": "L04",
+      "secao": "corpo",
+      "bloco": "corpo",
+      "fala": "Barra flashcards: ele te entrega cartões com o resumo do conteúdo.",
+      "fala_original": "**Barra flashcards**: / ele te entrega cartões / com o resumo do conteúdo.",
+      "palavras": [
+        "barra",
+        "flashcards",
+        "ele",
+        "te",
+        "entrega",
+        "cartões",
+        "com",
+        "o",
+        "resumo",
+        "do",
+        "conteúdo"
+      ],
+      "destaques": [
+        "Barra flashcards"
+      ],
+      "pausa_depois": "normal",
+      "tela": "",
+      "animacao": null,
+      "extras_ref": [
+        {
+          "id": "E06",
+          "modo": "split",
+          "in": null,
+          "out": null
+        },
+        {
+          "id": "E07",
+          "modo": "split",
+          "in": null,
+          "out": null
+        }
+      ],
+      "alternativa_de": null,
+      "tempo_estimado": [
+        11.9,
+        16.89
+      ]
+    },
+    {
+      "id": "L05",
+      "secao": "corpo",
+      "bloco": "corpo",
+      "fala": "Barra fluxograma: ele resume o livro num fluxo de aprendizado.",
+      "fala_original": "**Barra fluxograma**: / ele resume o livro / num fluxo de aprendizado.",
+      "palavras": [
+        "barra",
+        "fluxograma",
+        "ele",
+        "resume",
+        "o",
+        "livro",
+        "num",
+        "fluxo",
+        "de",
+        "aprendizado"
+      ],
+      "destaques": [
+        "Barra fluxograma"
+      ],
+      "pausa_depois": "normal",
+      "tela": "",
+      "animacao": null,
+      "extras_ref": [
+        {
+          "id": "E08",
+          "modo": "split",
+          "in": null,
+          "out": null
+        },
+        {
+          "id": "E09",
+          "modo": "split",
+          "in": null,
+          "out": null
+        }
+      ],
+      "alternativa_de": null,
+      "tempo_estimado": [
+        16.89,
+        21.43
+      ]
+    },
+    {
+      "id": "L06",
+      "secao": "corpo",
+      "bloco": "corpo",
+      "fala": "E barra quadrinhos: ele resume as ideias principais em quadrinhos.",
+      "fala_original": "E **barra quadrinhos**: / ele resume as ideias principais / em quadrinhos. [pausa]",
+      "palavras": [
+        "e",
+        "barra",
+        "quadrinhos",
+        "ele",
+        "resume",
+        "as",
+        "ideias",
+        "principais",
+        "em",
+        "quadrinhos"
+      ],
+      "destaques": [
+        "barra quadrinhos"
+      ],
+      "pausa_depois": "pausa",
+      "tela": "",
+      "animacao": null,
+      "extras_ref": [
+        {
+          "id": "E10",
+          "modo": "split",
+          "in": null,
+          "out": null
+        },
+        {
+          "id": "E11",
+          "modo": "split",
+          "in": null,
+          "out": null
+        }
+      ],
+      "alternativa_de": null,
+      "tempo_estimado": [
+        21.43,
+        26.38
+      ]
+    },
+    {
+      "id": "L07",
+      "secao": "cta",
+      "bloco": "cta",
+      "fala": "Comenta a palavra LIVRO que eu vou te enviar",
+      "fala_original": "Comenta a palavra **LIVRO** / que eu vou te enviar",
+      "palavras": [
+        "comenta",
+        "a",
+        "palavra",
+        "livro",
+        "que",
+        "eu",
+        "vou",
+        "te",
+        "enviar"
+      ],
+      "destaques": [
+        "LIVRO"
+      ],
+      "pausa_depois": "normal",
+      "tela": "",
+      "animacao": null,
+      "extras_ref": [],
+      "alternativa_de": null,
+      "tempo_estimado": [
+        26.38,
+        30.5
+      ]
+    },
+    {
+      "id": "L08",
+      "secao": "cta",
+      "bloco": "cta",
+      "fala": "mais 50 comandos no seu direct.",
+      "fala_original": "mais **50 comandos** / no seu direct.",
+      "palavras": [
+        "mais",
+        "50",
+        "comandos",
+        "no",
+        "seu",
+        "direct"
+      ],
+      "destaques": [
+        "50 comandos"
+      ],
+      "pausa_depois": "normal",
+      "tela": "",
+      "animacao": null,
+      "extras_ref": [],
+      "alternativa_de": null,
+      "tempo_estimado": [
+        30.5,
+        33.3
+      ]
+    },
+    {
+      "id": "L09",
+      "secao": "cta",
+      "bloco": "cta",
+      "fala": "E manda pra quem tem livro parado na estante.",
+      "fala_original": "E manda pra quem tem livro parado / na estante.",
+      "palavras": [
+        "e",
+        "manda",
+        "pra",
+        "quem",
+        "tem",
+        "livro",
+        "parado",
+        "na",
+        "estante"
+      ],
+      "destaques": [],
+      "pausa_depois": "normal",
+      "tela": "",
+      "animacao": null,
+      "extras_ref": [],
+      "alternativa_de": null,
+      "tempo_estimado": [
+        33.3,
+        37.42
+      ]
+    },
+    {
+      "id": "L01B",
+      "secao": "hook-alt",
+      "bloco": "hook-alt",
+      "fala": "Tira foto da capa e escreve barra mindmap no ChatGPT.",
+      "fala_original": "Tira foto da capa / e escreve **barra mindmap** no ChatGPT.",
+      "palavras": [
+        "tira",
+        "foto",
+        "da",
+        "capa",
+        "e",
+        "escreve",
+        "barra",
+        "mindmap",
+        "no",
+        "chatgpt"
+      ],
+      "destaques": [
+        "barra mindmap"
+      ],
+      "pausa_depois": "normal",
+      "tela": "",
+      "animacao": null,
+      "extras_ref": [
+        {
+          "id": "E02",
+          "modo": "split",
+          "in": null,
+          "out": null
+        },
+        {
+          "id": "E03",
+          "modo": "split",
+          "in": null,
+          "out": null
+        }
+      ],
+      "alternativa_de": "L01",
+      "tempo_estimado": null
+    },
+    {
+      "id": "L01C",
+      "secao": "hook-alt",
+      "bloco": "hook-alt",
+      "fala": "Você nunca mais vai ler um livro sem fazer isso no ChatGPT.",
+      "fala_original": "Você nunca mais vai ler um livro / sem fazer **isso** no ChatGPT.",
+      "palavras": [
+        "você",
+        "nunca",
+        "mais",
+        "vai",
+        "ler",
+        "um",
+        "livro",
+        "sem",
+        "fazer",
+        "isso",
+        "no",
+        "chatgpt"
+      ],
+      "destaques": [
+        "isso"
+      ],
+      "pausa_depois": "normal",
+      "tela": "",
+      "animacao": null,
+      "extras_ref": [
+        {
+          "id": "E01",
+          "modo": "split",
+          "in": null,
+          "out": null
+        },
+        {
+          "id": "E03",
+          "modo": "split",
+          "in": null,
+          "out": null
+        }
+      ],
+      "alternativa_de": "L01",
+      "tempo_estimado": null
+    }
+  ]
+}

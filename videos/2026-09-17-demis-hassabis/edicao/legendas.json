@@ -1,0 +1,1190 @@
+[
+  {
+    "text": " Aprendeu",
+    "startMs": 15,
+    "endMs": 756,
+    "timestampMs": 386,
+    "confidence": 1,
+    "linha": "L01",
+    "destaque": false
+  },
+  {
+    "text": " xadrez",
+    "startMs": 756,
+    "endMs": 1216,
+    "timestampMs": 986,
+    "confidence": 1,
+    "linha": "L01",
+    "destaque": false
+  },
+  {
+    "text": " aos",
+    "startMs": 1216,
+    "endMs": 1376,
+    "timestampMs": 1296,
+    "confidence": 1,
+    "linha": "L01",
+    "destaque": false
+  },
+  {
+    "text": " quatro",
+    "startMs": 1376,
+    "endMs": 1676,
+    "timestampMs": 1526,
+    "confidence": 1,
+    "linha": "L01",
+    "destaque": false
+  },
+  {
+    "text": " anos",
+    "startMs": 1676,
+    "endMs": 2016,
+    "timestampMs": 1846,
+    "confidence": 1,
+    "linha": "L01",
+    "destaque": false
+  },
+  {
+    "text": " E",
+    "startMs": 2016,
+    "endMs": 2500,
+    "timestampMs": 2258,
+    "confidence": 1,
+    "linha": "L01",
+    "destaque": false
+  },
+  {
+    "text": " ganhou",
+    "startMs": 2500,
+    "endMs": 2920,
+    "timestampMs": 2710,
+    "confidence": 1,
+    "linha": "L01",
+    "destaque": false
+  },
+  {
+    "text": " um",
+    "startMs": 2920,
+    "endMs": 3120,
+    "timestampMs": 3020,
+    "confidence": 1,
+    "linha": "L01",
+    "destaque": false
+  },
+  {
+    "text": " Nobel",
+    "startMs": 3120,
+    "endMs": 3420,
+    "timestampMs": 3270,
+    "confidence": 1,
+    "linha": "L01",
+    "destaque": true
+  },
+  {
+    "text": " com",
+    "startMs": 3420,
+    "endMs": 3760,
+    "timestampMs": 3590,
+    "confidence": 1,
+    "linha": "L01",
+    "destaque": false
+  },
+  {
+    "text": " IA",
+    "startMs": 3940,
+    "endMs": 4120,
+    "timestampMs": 4030,
+    "confidence": 1,
+    "linha": "L01",
+    "destaque": false
+  },
+  {
+    "text": " Demis",
+    "startMs": 4125,
+    "endMs": 4440,
+    "timestampMs": 4282,
+    "confidence": 1,
+    "linha": "L02",
+    "destaque": false
+  },
+  {
+    "text": " Hassabis",
+    "startMs": 4440,
+    "endMs": 5120,
+    "timestampMs": 4780,
+    "confidence": 1,
+    "linha": "L02",
+    "destaque": false
+  },
+  {
+    "text": " nascido",
+    "startMs": 5240,
+    "endMs": 5940,
+    "timestampMs": 5590,
+    "confidence": 1,
+    "linha": "L02",
+    "destaque": false
+  },
+  {
+    "text": " aqui",
+    "startMs": 5940,
+    "endMs": 6340,
+    "timestampMs": 6140,
+    "confidence": 1,
+    "linha": "L02",
+    "destaque": false
+  },
+  {
+    "text": " em",
+    "startMs": 6340,
+    "endMs": 6520,
+    "timestampMs": 6430,
+    "confidence": 1,
+    "linha": "L02",
+    "destaque": false
+  },
+  {
+    "text": " Londres",
+    "startMs": 6520,
+    "endMs": 7020,
+    "timestampMs": 6770,
+    "confidence": 1,
+    "linha": "L02",
+    "destaque": false
+  },
+  {
+    "text": " Aos",
+    "startMs": 7075,
+    "endMs": 7320,
+    "timestampMs": 7198,
+    "confidence": 1,
+    "linha": "L03",
+    "destaque": false
+  },
+  {
+    "text": " treze",
+    "startMs": 7320,
+    "endMs": 7580,
+    "timestampMs": 7450,
+    "confidence": 1,
+    "linha": "L03",
+    "destaque": false
+  },
+  {
+    "text": " já",
+    "startMs": 8000,
+    "endMs": 8440,
+    "timestampMs": 8220,
+    "confidence": 1,
+    "linha": "L03",
+    "destaque": false
+  },
+  {
+    "text": " era",
+    "startMs": 8440,
+    "endMs": 8720,
+    "timestampMs": 8580,
+    "confidence": 1,
+    "linha": "L03",
+    "destaque": false
+  },
+  {
+    "text": " mestre",
+    "startMs": 8720,
+    "endMs": 9280,
+    "timestampMs": 9000,
+    "confidence": 1,
+    "linha": "L03",
+    "destaque": false
+  },
+  {
+    "text": " de",
+    "startMs": 9280,
+    "endMs": 9400,
+    "timestampMs": 9340,
+    "confidence": 1,
+    "linha": "L03",
+    "destaque": false
+  },
+  {
+    "text": " xadrez",
+    "startMs": 9400,
+    "endMs": 9860,
+    "timestampMs": 9630,
+    "confidence": 1,
+    "linha": "L03",
+    "destaque": false
+  },
+  {
+    "text": " Aos",
+    "startMs": 9860,
+    "endMs": 10100,
+    "timestampMs": 9980,
+    "confidence": 1,
+    "linha": "L03",
+    "destaque": false
+  },
+  {
+    "text": " dezessete",
+    "startMs": 10100,
+    "endMs": 10540,
+    "timestampMs": 10320,
+    "confidence": 1,
+    "linha": "L03",
+    "destaque": false
+  },
+  {
+    "text": " criava",
+    "startMs": 11040,
+    "endMs": 11520,
+    "timestampMs": 11280,
+    "confidence": 1,
+    "linha": "L03",
+    "destaque": false
+  },
+  {
+    "text": " videogame",
+    "startMs": 11520,
+    "endMs": 12080,
+    "timestampMs": 11800,
+    "confidence": 1,
+    "linha": "L03",
+    "destaque": false
+  },
+  {
+    "text": " Estudou",
+    "startMs": 12105,
+    "endMs": 12620,
+    "timestampMs": 12362,
+    "confidence": 1,
+    "linha": "L04",
+    "destaque": false
+  },
+  {
+    "text": " computação",
+    "startMs": 12620,
+    "endMs": 13300,
+    "timestampMs": 12960,
+    "confidence": 1,
+    "linha": "L04",
+    "destaque": false
+  },
+  {
+    "text": " em",
+    "startMs": 13300,
+    "endMs": 13680,
+    "timestampMs": 13490,
+    "confidence": 1,
+    "linha": "L04",
+    "destaque": false
+  },
+  {
+    "text": " Cambridge",
+    "startMs": 13680,
+    "endMs": 13980,
+    "timestampMs": 13830,
+    "confidence": 1,
+    "linha": "L04",
+    "destaque": false
+  },
+  {
+    "text": " e",
+    "startMs": 13980,
+    "endMs": 14400,
+    "timestampMs": 14190,
+    "confidence": 1,
+    "linha": "L04",
+    "destaque": false
+  },
+  {
+    "text": " depois",
+    "startMs": 14400,
+    "endMs": 14760,
+    "timestampMs": 14580,
+    "confidence": 1,
+    "linha": "L04",
+    "destaque": false
+  },
+  {
+    "text": " neurociência",
+    "startMs": 15040,
+    "endMs": 15800,
+    "timestampMs": 15420,
+    "confidence": 1,
+    "linha": "L04",
+    "destaque": false
+  },
+  {
+    "text": " Em",
+    "startMs": 15841,
+    "endMs": 16180,
+    "timestampMs": 16010,
+    "confidence": 1,
+    "linha": "L05",
+    "destaque": false
+  },
+  {
+    "text": " dois",
+    "startMs": 16180,
+    "endMs": 16190,
+    "timestampMs": 16185,
+    "confidence": 1,
+    "linha": "L05",
+    "destaque": false
+  },
+  {
+    "text": " mil",
+    "startMs": 16180,
+    "endMs": 16190,
+    "timestampMs": 16185,
+    "confidence": 1,
+    "linha": "L05",
+    "destaque": false
+  },
+  {
+    "text": " e",
+    "startMs": 16180,
+    "endMs": 16190,
+    "timestampMs": 16185,
+    "confidence": 1,
+    "linha": "L05",
+    "destaque": false
+  },
+  {
+    "text": " dez",
+    "startMs": 16180,
+    "endMs": 16980,
+    "timestampMs": 16580,
+    "confidence": 1,
+    "linha": "L05",
+    "destaque": false
+  },
+  {
+    "text": " juntou",
+    "startMs": 17355,
+    "endMs": 17780,
+    "timestampMs": 17568,
+    "confidence": 1,
+    "linha": "L05",
+    "destaque": false
+  },
+  {
+    "text": " tudo",
+    "startMs": 17780,
+    "endMs": 18060,
+    "timestampMs": 17920,
+    "confidence": 1,
+    "linha": "L05",
+    "destaque": false
+  },
+  {
+    "text": " numa",
+    "startMs": 18060,
+    "endMs": 18120,
+    "timestampMs": 18090,
+    "confidence": 1,
+    "linha": "L05",
+    "destaque": false
+  },
+  {
+    "text": " empresa",
+    "startMs": 18120,
+    "endMs": 18130,
+    "timestampMs": 18125,
+    "confidence": 1,
+    "linha": "L05",
+    "destaque": false
+  },
+  {
+    "text": " aqui",
+    "startMs": 18060,
+    "endMs": 18260,
+    "timestampMs": 18160,
+    "confidence": 1,
+    "linha": "L05",
+    "destaque": false
+  },
+  {
+    "text": " em",
+    "startMs": 18260,
+    "endMs": 18420,
+    "timestampMs": 18340,
+    "confidence": 1,
+    "linha": "L05",
+    "destaque": false
+  },
+  {
+    "text": " Londres",
+    "startMs": 18420,
+    "endMs": 18840,
+    "timestampMs": 18630,
+    "confidence": 1,
+    "linha": "L05",
+    "destaque": false
+  },
+  {
+    "text": " a",
+    "startMs": 20500,
+    "endMs": 20520,
+    "timestampMs": 20510,
+    "confidence": 1,
+    "linha": "L05",
+    "destaque": false
+  },
+  {
+    "text": " DeepMind",
+    "startMs": 20520,
+    "endMs": 21140,
+    "timestampMs": 20830,
+    "confidence": 1,
+    "linha": "L05",
+    "destaque": true
+  },
+  {
+    "text": " Quatro",
+    "startMs": 21400,
+    "endMs": 21920,
+    "timestampMs": 21660,
+    "confidence": 1,
+    "linha": "L06",
+    "destaque": false
+  },
+  {
+    "text": " anos",
+    "startMs": 21920,
+    "endMs": 22200,
+    "timestampMs": 22060,
+    "confidence": 1,
+    "linha": "L06",
+    "destaque": false
+  },
+  {
+    "text": " depois",
+    "startMs": 22200,
+    "endMs": 22580,
+    "timestampMs": 22390,
+    "confidence": 1,
+    "linha": "L06",
+    "destaque": false
+  },
+  {
+    "text": " o",
+    "startMs": 22845,
+    "endMs": 22960,
+    "timestampMs": 22902,
+    "confidence": 1,
+    "linha": "L06",
+    "destaque": false
+  },
+  {
+    "text": " Google",
+    "startMs": 22960,
+    "endMs": 23280,
+    "timestampMs": 23120,
+    "confidence": 1,
+    "linha": "L06",
+    "destaque": false
+  },
+  {
+    "text": " comprou",
+    "startMs": 23280,
+    "endMs": 23960,
+    "timestampMs": 23620,
+    "confidence": 1,
+    "linha": "L06",
+    "destaque": false
+  },
+  {
+    "text": " por",
+    "startMs": 23960,
+    "endMs": 24230,
+    "timestampMs": 24095,
+    "confidence": 1,
+    "linha": "L06",
+    "destaque": false
+  },
+  {
+    "text": " cerca",
+    "startMs": 24230,
+    "endMs": 24500,
+    "timestampMs": 24365,
+    "confidence": 1,
+    "linha": "L06",
+    "destaque": false
+  },
+  {
+    "text": " de",
+    "startMs": 24500,
+    "endMs": 24880,
+    "timestampMs": 24690,
+    "confidence": 1,
+    "linha": "L06",
+    "destaque": false
+  },
+  {
+    "text": " 400",
+    "startMs": 25120,
+    "endMs": 25780,
+    "timestampMs": 25450,
+    "confidence": 1,
+    "linha": "L06",
+    "destaque": true
+  },
+  {
+    "text": " milhões",
+    "startMs": 25780,
+    "endMs": 26540,
+    "timestampMs": 26160,
+    "confidence": 1,
+    "linha": "L06",
+    "destaque": true
+  },
+  {
+    "text": " de",
+    "startMs": 26540,
+    "endMs": 26880,
+    "timestampMs": 26710,
+    "confidence": 1,
+    "linha": "L06",
+    "destaque": false
+  },
+  {
+    "text": " libras",
+    "startMs": 26880,
+    "endMs": 27340,
+    "timestampMs": 27110,
+    "confidence": 1,
+    "linha": "L06",
+    "destaque": false
+  },
+  {
+    "text": " Em",
+    "startMs": 27431,
+    "endMs": 27560,
+    "timestampMs": 27496,
+    "confidence": 1,
+    "linha": "L07",
+    "destaque": false
+  },
+  {
+    "text": " dezesseis",
+    "startMs": 27560,
+    "endMs": 28380,
+    "timestampMs": 27970,
+    "confidence": 1,
+    "linha": "L07",
+    "destaque": false
+  },
+  {
+    "text": " a",
+    "startMs": 28835,
+    "endMs": 28980,
+    "timestampMs": 28908,
+    "confidence": 1,
+    "linha": "L07",
+    "destaque": false
+  },
+  {
+    "text": " IA",
+    "startMs": 28980,
+    "endMs": 29320,
+    "timestampMs": 29150,
+    "confidence": 1,
+    "linha": "L07",
+    "destaque": false
+  },
+  {
+    "text": " deles",
+    "startMs": 29320,
+    "endMs": 29720,
+    "timestampMs": 29520,
+    "confidence": 1,
+    "linha": "L07",
+    "destaque": false
+  },
+  {
+    "text": " venceu",
+    "startMs": 29720,
+    "endMs": 30700,
+    "timestampMs": 30210,
+    "confidence": 1,
+    "linha": "L07",
+    "destaque": false
+  },
+  {
+    "text": " um",
+    "startMs": 30700,
+    "endMs": 30870,
+    "timestampMs": 30785,
+    "confidence": 1,
+    "linha": "L07",
+    "destaque": false
+  },
+  {
+    "text": " dos",
+    "startMs": 30870,
+    "endMs": 31040,
+    "timestampMs": 30955,
+    "confidence": 1,
+    "linha": "L07",
+    "destaque": false
+  },
+  {
+    "text": " maiores",
+    "startMs": 31040,
+    "endMs": 31340,
+    "timestampMs": 31190,
+    "confidence": 1,
+    "linha": "L07",
+    "destaque": false
+  },
+  {
+    "text": " nomes",
+    "startMs": 31340,
+    "endMs": 31820,
+    "timestampMs": 31580,
+    "confidence": 1,
+    "linha": "L07",
+    "destaque": false
+  },
+  {
+    "text": " do",
+    "startMs": 31820,
+    "endMs": 32200,
+    "timestampMs": 32010,
+    "confidence": 1,
+    "linha": "L07",
+    "destaque": false
+  },
+  {
+    "text": " Go",
+    "startMs": 32200,
+    "endMs": 32440,
+    "timestampMs": 32320,
+    "confidence": 1,
+    "linha": "L07",
+    "destaque": true
+  },
+  {
+    "text": " Um",
+    "startMs": 32560,
+    "endMs": 32760,
+    "timestampMs": 32660,
+    "confidence": 1,
+    "linha": "L08",
+    "destaque": false
+  },
+  {
+    "text": " jogo",
+    "startMs": 32760,
+    "endMs": 33180,
+    "timestampMs": 32970,
+    "confidence": 1,
+    "linha": "L08",
+    "destaque": false
+  },
+  {
+    "text": " com",
+    "startMs": 33180,
+    "endMs": 33520,
+    "timestampMs": 33350,
+    "confidence": 1,
+    "linha": "L08",
+    "destaque": false
+  },
+  {
+    "text": " mais",
+    "startMs": 33520,
+    "endMs": 33900,
+    "timestampMs": 33710,
+    "confidence": 1,
+    "linha": "L08",
+    "destaque": false
+  },
+  {
+    "text": " posições",
+    "startMs": 33900,
+    "endMs": 34680,
+    "timestampMs": 34290,
+    "confidence": 1,
+    "linha": "L08",
+    "destaque": false
+  },
+  {
+    "text": " possíveis",
+    "startMs": 34680,
+    "endMs": 34780,
+    "timestampMs": 34730,
+    "confidence": 1,
+    "linha": "L08",
+    "destaque": false
+  },
+  {
+    "text": " do",
+    "startMs": 34780,
+    "endMs": 34880,
+    "timestampMs": 34830,
+    "confidence": 1,
+    "linha": "L08",
+    "destaque": false
+  },
+  {
+    "text": " que",
+    "startMs": 34880,
+    "endMs": 34980,
+    "timestampMs": 34930,
+    "confidence": 1,
+    "linha": "L08",
+    "destaque": false
+  },
+  {
+    "text": " átomos",
+    "startMs": 34980,
+    "endMs": 35640,
+    "timestampMs": 35310,
+    "confidence": 1,
+    "linha": "L08",
+    "destaque": false
+  },
+  {
+    "text": " no",
+    "startMs": 35640,
+    "endMs": 35940,
+    "timestampMs": 35790,
+    "confidence": 1,
+    "linha": "L08",
+    "destaque": false
+  },
+  {
+    "text": " universo",
+    "startMs": 35940,
+    "endMs": 36520,
+    "timestampMs": 36230,
+    "confidence": 1,
+    "linha": "L08",
+    "destaque": false
+  },
+  {
+    "text": " Mas",
+    "startMs": 36751,
+    "endMs": 36880,
+    "timestampMs": 36816,
+    "confidence": 1,
+    "linha": "L09",
+    "destaque": false
+  },
+  {
+    "text": " o",
+    "startMs": 36880,
+    "endMs": 37060,
+    "timestampMs": 36970,
+    "confidence": 1,
+    "linha": "L09",
+    "destaque": false
+  },
+  {
+    "text": " maior",
+    "startMs": 37060,
+    "endMs": 37300,
+    "timestampMs": 37180,
+    "confidence": 1,
+    "linha": "L09",
+    "destaque": false
+  },
+  {
+    "text": " feito",
+    "startMs": 37300,
+    "endMs": 37780,
+    "timestampMs": 37540,
+    "confidence": 1,
+    "linha": "L09",
+    "destaque": false
+  },
+  {
+    "text": " veio",
+    "startMs": 37780,
+    "endMs": 38400,
+    "timestampMs": 38090,
+    "confidence": 1,
+    "linha": "L09",
+    "destaque": false
+  },
+  {
+    "text": " depois",
+    "startMs": 38400,
+    "endMs": 39060,
+    "timestampMs": 38730,
+    "confidence": 1,
+    "linha": "L09",
+    "destaque": false
+  },
+  {
+    "text": " o",
+    "startMs": 39480,
+    "endMs": 39980,
+    "timestampMs": 39730,
+    "confidence": 1,
+    "linha": "L09",
+    "destaque": false
+  },
+  {
+    "text": " AlphaFold",
+    "startMs": 39980,
+    "endMs": 40600,
+    "timestampMs": 40290,
+    "confidence": 1,
+    "linha": "L09",
+    "destaque": true
+  },
+  {
+    "text": " passou",
+    "startMs": 40600,
+    "endMs": 41260,
+    "timestampMs": 40930,
+    "confidence": 1,
+    "linha": "L09",
+    "destaque": false
+  },
+  {
+    "text": " a",
+    "startMs": 41260,
+    "endMs": 41740,
+    "timestampMs": 41500,
+    "confidence": 1,
+    "linha": "L09",
+    "destaque": false
+  },
+  {
+    "text": " prever",
+    "startMs": 41740,
+    "endMs": 42080,
+    "timestampMs": 41910,
+    "confidence": 1,
+    "linha": "L09",
+    "destaque": false
+  },
+  {
+    "text": " o",
+    "startMs": 42080,
+    "endMs": 42300,
+    "timestampMs": 42190,
+    "confidence": 1,
+    "linha": "L09",
+    "destaque": false
+  },
+  {
+    "text": " formato",
+    "startMs": 42300,
+    "endMs": 42880,
+    "timestampMs": 42590,
+    "confidence": 1,
+    "linha": "L09",
+    "destaque": false
+  },
+  {
+    "text": " das",
+    "startMs": 42880,
+    "endMs": 43200,
+    "timestampMs": 43040,
+    "confidence": 1,
+    "linha": "L09",
+    "destaque": false
+  },
+  {
+    "text": " proteínas",
+    "startMs": 43200,
+    "endMs": 43780,
+    "timestampMs": 43490,
+    "confidence": 1,
+    "linha": "L09",
+    "destaque": false
+  },
+  {
+    "text": " Um",
+    "startMs": 43835,
+    "endMs": 43960,
+    "timestampMs": 43898,
+    "confidence": 1,
+    "linha": "L10",
+    "destaque": false
+  },
+  {
+    "text": " problema",
+    "startMs": 43960,
+    "endMs": 44520,
+    "timestampMs": 44240,
+    "confidence": 1,
+    "linha": "L10",
+    "destaque": false
+  },
+  {
+    "text": " que",
+    "startMs": 44520,
+    "endMs": 44840,
+    "timestampMs": 44680,
+    "confidence": 1,
+    "linha": "L10",
+    "destaque": false
+  },
+  {
+    "text": " travava",
+    "startMs": 44840,
+    "endMs": 45460,
+    "timestampMs": 45150,
+    "confidence": 1,
+    "linha": "L10",
+    "destaque": false
+  },
+  {
+    "text": " a",
+    "startMs": 45460,
+    "endMs": 45680,
+    "timestampMs": 45570,
+    "confidence": 1,
+    "linha": "L10",
+    "destaque": false
+  },
+  {
+    "text": " ciência",
+    "startMs": 45680,
+    "endMs": 46180,
+    "timestampMs": 45930,
+    "confidence": 1,
+    "linha": "L10",
+    "destaque": false
+  },
+  {
+    "text": " havia",
+    "startMs": 46180,
+    "endMs": 46280,
+    "timestampMs": 46230,
+    "confidence": 1,
+    "linha": "L10",
+    "destaque": false
+  },
+  {
+    "text": " cinquenta",
+    "startMs": 46280,
+    "endMs": 46720,
+    "timestampMs": 46500,
+    "confidence": 1,
+    "linha": "L10",
+    "destaque": false
+  },
+  {
+    "text": " anos",
+    "startMs": 46720,
+    "endMs": 47440,
+    "timestampMs": 47080,
+    "confidence": 1,
+    "linha": "L10",
+    "destaque": false
+  },
+  {
+    "text": " Quer",
+    "startMs": 47560,
+    "endMs": 47700,
+    "timestampMs": 47630,
+    "confidence": 1,
+    "linha": "L12",
+    "destaque": false
+  },
+  {
+    "text": " dizer",
+    "startMs": 47700,
+    "endMs": 48080,
+    "timestampMs": 47890,
+    "confidence": 1,
+    "linha": "L12",
+    "destaque": false
+  },
+  {
+    "text": " o",
+    "startMs": 48360,
+    "endMs": 48440,
+    "timestampMs": 48400,
+    "confidence": 1,
+    "linha": "L12",
+    "destaque": false
+  },
+  {
+    "text": " menino",
+    "startMs": 48440,
+    "endMs": 48940,
+    "timestampMs": 48690,
+    "confidence": 1,
+    "linha": "L12",
+    "destaque": false
+  },
+  {
+    "text": " do",
+    "startMs": 48940,
+    "endMs": 49480,
+    "timestampMs": 49210,
+    "confidence": 1,
+    "linha": "L12",
+    "destaque": false
+  },
+  {
+    "text": " xadrez",
+    "startMs": 49480,
+    "endMs": 49980,
+    "timestampMs": 49730,
+    "confidence": 1,
+    "linha": "L12",
+    "destaque": false
+  },
+  {
+    "text": " virou",
+    "startMs": 49980,
+    "endMs": 50640,
+    "timestampMs": 50310,
+    "confidence": 1,
+    "linha": "L12",
+    "destaque": false
+  },
+  {
+    "text": " um",
+    "startMs": 50640,
+    "endMs": 50960,
+    "timestampMs": 50800,
+    "confidence": 1,
+    "linha": "L12",
+    "destaque": false
+  },
+  {
+    "text": " dos",
+    "startMs": 50960,
+    "endMs": 51100,
+    "timestampMs": 51030,
+    "confidence": 1,
+    "linha": "L12",
+    "destaque": false
+  },
+  {
+    "text": " nomes",
+    "startMs": 51100,
+    "endMs": 51600,
+    "timestampMs": 51350,
+    "confidence": 1,
+    "linha": "L12",
+    "destaque": false
+  },
+  {
+    "text": " mais",
+    "startMs": 51600,
+    "endMs": 52060,
+    "timestampMs": 51830,
+    "confidence": 1,
+    "linha": "L12",
+    "destaque": false
+  },
+  {
+    "text": " importantes",
+    "startMs": 52060,
+    "endMs": 52840,
+    "timestampMs": 52450,
+    "confidence": 1,
+    "linha": "L12",
+    "destaque": false
+  },
+  {
+    "text": " da",
+    "startMs": 52840,
+    "endMs": 53040,
+    "timestampMs": 52940,
+    "confidence": 1,
+    "linha": "L12",
+    "destaque": false
+  },
+  {
+    "text": " IA",
+    "startMs": 53040,
+    "endMs": 53340,
+    "timestampMs": 53190,
+    "confidence": 1,
+    "linha": "L12",
+    "destaque": false
+  },
+  {
+    "text": " Para",
+    "startMs": 53715,
+    "endMs": 53840,
+    "timestampMs": 53778,
+    "confidence": 1,
+    "linha": "L13",
+    "destaque": false
+  },
+  {
+    "text": " mais",
+    "startMs": 53840,
+    "endMs": 54080,
+    "timestampMs": 53960,
+    "confidence": 1,
+    "linha": "L13",
+    "destaque": false
+  },
+  {
+    "text": " vídeos",
+    "startMs": 54080,
+    "endMs": 54560,
+    "timestampMs": 54320,
+    "confidence": 1,
+    "linha": "L13",
+    "destaque": false
+  },
+  {
+    "text": " como",
+    "startMs": 54560,
+    "endMs": 54780,
+    "timestampMs": 54670,
+    "confidence": 1,
+    "linha": "L13",
+    "destaque": false
+  },
+  {
+    "text": " esse",
+    "startMs": 54780,
+    "endMs": 55080,
+    "timestampMs": 54930,
+    "confidence": 1,
+    "linha": "L13",
+    "destaque": false
+  },
+  {
+    "text": " é",
+    "startMs": 55375,
+    "endMs": 55500,
+    "timestampMs": 55438,
+    "confidence": 1,
+    "linha": "L13",
+    "destaque": false
+  },
+  {
+    "text": " só",
+    "startMs": 55500,
+    "endMs": 55680,
+    "timestampMs": 55590,
+    "confidence": 1,
+    "linha": "L13",
+    "destaque": false
+  },
+  {
+    "text": " me",
+    "startMs": 55680,
+    "endMs": 55820,
+    "timestampMs": 55750,
+    "confidence": 1,
+    "linha": "L13",
+    "destaque": false
+  },
+  {
+    "text": " seguir",
+    "startMs": 55820,
+    "endMs": 56160,
+    "timestampMs": 55990,
+    "confidence": 1,
+    "linha": "L13",
+    "destaque": true
+  }
+]

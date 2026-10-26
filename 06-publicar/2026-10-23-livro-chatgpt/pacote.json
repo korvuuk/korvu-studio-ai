@@ -1,0 +1,39 @@
+{
+  "slug": "2026-10-23-livro-chatgpt",
+  "criado_em": "2026-10-21T19:19:39+01:00",
+  "duracao": 34.44,
+  "qa": "PASS",
+  "arquivos": {
+    "video": "video/video-final.mp4",
+    "variantes": [],
+    "capa": "capa/capa.png",
+    "legendas": "legendas/legendas.srt",
+    "material": "material/50-comandos-de-aprendizado.pdf",
+    "roteiro": "roteiro.md",
+    "qa": "qa-relatorio.md"
+  },
+  "cta_palavra": "LIVRO",
+  "material_titulo": "a lista com os 50 comandos de aprendizado",
+  "tema": "Joga o livro no ChatGPT e escreve isso: mapa mental, anotação ilustrada, flashcards, fluxograma e quadrinhos de 5 livros conhecidos",
+  "pilar": "tutoriais-rapidos",
+  "capa_escolhida": {
+    "opcao": "A",
+    "headline": "Joga o livro no ChatGPT e escreve isso",
+    "escolhida_por": "Carlos",
+    "em": "2026-10-21"
+  },
+  "variantes_extra": {
+    "video/video-final.mp4": "B — conteúdo primeiro (capa+logo), hook L01 'Joga o livro no ChatGPT…', Carlos entra aos 7,08 s — 1.ª vaga, IG + FB",
+    "video/video-final-A-carlos-desde-0.mp4": "A — Carlos desde o quadro 0, hook L01 — vaga seguinte, só IG",
+    "video/video-final-L01C-hook-nunca-mais.mp4": "L01C-B — hook alternativo 'Você nunca mais vai ler um livro sem fazer isso no ChatGPT', conteúdo primeiro (34,8 s)",
+    "video/video-final-L01C-A-carlos-fala-o-hook.mp4": "L01C-A — o mesmo hook alternativo com o Carlos em tela desde o quadro 0, extras entram depois (34,8 s)"
+  },
+  "legendas_no_video": false,
+  "titulo_no_video": false,
+  "musica": {
+    "escolhida": 4,
+    "escolhida_por": "Carlos (21/10)",
+    "clima": "cinematográfico ambiente (cello e drone grave, pulso de cordas suave, sem vocal)",
+    "nivel_db": -12
+  }
+}

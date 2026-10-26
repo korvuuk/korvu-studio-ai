@@ -1,0 +1,10 @@
+# capturar.sh · 2026-10-23T19:42:54.573Z
+# alvo	largura pedida	innerWidth	scrollWidth	altura	HTTP	png	passa da borda
+/desempenho	1440	1440	1440	2803	200	/Users/teste/Documents/CONTENT AI/painel/portoes/capturas-e0add25326be/desempenho-1440.png	
+/desempenho	375	375	375	4503	200	/Users/teste/Documents/CONTENT AI/painel/portoes/capturas-e0add25326be/desempenho-375.png	
+/	1440	1440	1440	1738	200	/Users/teste/Documents/CONTENT AI/painel/portoes/capturas-e0add25326be/inicio-1440.png	
+/	375	375	375	3014	200	/Users/teste/Documents/CONTENT AI/painel/portoes/capturas-e0add25326be/inicio-375.png	
+/producao	1440	1440	1440	1594	200	/Users/teste/Documents/CONTENT AI/painel/portoes/capturas-e0add25326be/producao-1440.png	
+/producao	375	375	375	1634	200	/Users/teste/Documents/CONTENT AI/painel/portoes/capturas-e0add25326be/producao-375.png	
+/equipe	1440	1440	1440	1941	200	/Users/teste/Documents/CONTENT AI/painel/portoes/capturas-e0add25326be/equipe-1440.png	
+/equipe	375	375	375	4085	200	/Users/teste/Documents/CONTENT AI/painel/portoes/capturas-e0add25326be/equipe-375.png	

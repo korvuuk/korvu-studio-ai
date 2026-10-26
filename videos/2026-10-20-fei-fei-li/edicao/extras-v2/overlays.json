@@ -1,0 +1,684 @@
+{
+  "origem": "edicao/sequencia-extras.md",
+  "overlays": [
+    {
+      "linhas": [
+        "L03"
+      ],
+      "tipo": "extra",
+      "extra": "V01",
+      "extra_tipo": "imagem",
+      "arquivo": "edicao/extras-v2/CAPA-01.jpg",
+      "modo": "full",
+      "som": false,
+      "credito": "Stanford HAI / Queen Elizabeth Prize for Engineering",
+      "faltando": false,
+      "saida_inicio": 8.88,
+      "saida_fim": 11.28,
+      "enquadrar": {
+        "x": 0.5,
+        "y": 0.3,
+        "zoom": 1.04
+      },
+      "descricao": "v1 #1 CAPA-01"
+    },
+    {
+      "linhas": [
+        "L04"
+      ],
+      "tipo": "extra",
+      "extra": "V02",
+      "extra_tipo": "imagem",
+      "arquivo": "edicao/extras-v2/Y01.png",
+      "modo": "full",
+      "som": false,
+      "credito": "Bloomberg Originals — The Circuit",
+      "faltando": false,
+      "saida_inicio": 11.28,
+      "saida_fim": 13.9,
+      "enquadrar": {
+        "x": 0.5,
+        "y": 0.5,
+        "area": {
+          "x": 538,
+          "y": 108,
+          "largura": 882,
+          "altura": 950
+        }
+      },
+      "descricao": "v1 #2 Y01"
+    },
+    {
+      "linhas": [
+        "L04"
+      ],
+      "tipo": "extra",
+      "extra": "V03",
+      "extra_tipo": "imagem",
+      "arquivo": "edicao/extras-v2/Y03.png",
+      "modo": "full",
+      "som": false,
+      "credito": "Bloomberg Originals — The Circuit / Daily Record",
+      "faltando": false,
+      "saida_inicio": 13.9,
+      "saida_fim": 16.32,
+      "enquadrar": {
+        "x": 0.32,
+        "xFim": 0.6,
+        "y": 0.35,
+        "area": {
+          "x": 0,
+          "y": 70,
+          "largura": 1920,
+          "altura": 1010
+        }
+      },
+      "descricao": "v1 #3 Y03"
+    },
+    {
+      "linhas": [
+        "L05"
+      ],
+      "tipo": "extra",
+      "extra": "V04",
+      "extra_tipo": "video",
+      "arquivo": "edicao/extras-v2/V04-E02.mp4",
+      "modo": "full",
+      "som": false,
+      "credito": "San Francisco Public Library",
+      "faltando": false,
+      "saida_inicio": 16.32,
+      "saida_fim": 19.72,
+      "enquadrar": {
+        "x": 0.25,
+        "y": 0.45
+      },
+      "descricao": "v1 #4 E02",
+      "in": 0.0
+    },
+    {
+      "linhas": [
+        "L06"
+      ],
+      "tipo": "extra",
+      "extra": "V05",
+      "extra_tipo": "imagem",
+      "arquivo": "edicao/extras-v2/Y04.png",
+      "modo": "full",
+      "som": false,
+      "credito": "Bloomberg Originals — The Circuit",
+      "faltando": false,
+      "saida_inicio": 19.72,
+      "saida_fim": 24.23,
+      "enquadrar": {
+        "x": 0.72,
+        "y": 0.5,
+        "area": {
+          "x": 0,
+          "y": 70,
+          "largura": 1920,
+          "altura": 1010
+        }
+      },
+      "descricao": "v1 #5 Y04"
+    },
+    {
+      "linhas": [
+        "L06"
+      ],
+      "tipo": "extra",
+      "extra": "V06",
+      "extra_tipo": "video",
+      "arquivo": "edicao/extras-v2/V06-E04.mp4",
+      "modo": "full",
+      "som": false,
+      "credito": "TED2015 / Fei-Fei Li",
+      "faltando": false,
+      "saida_inicio": 24.23,
+      "saida_fim": 28.04,
+      "enquadrar": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "descricao": "v1 #6 E04",
+      "in": 5.0
+    },
+    {
+      "linhas": [
+        "L07",
+        "L08"
+      ],
+      "tipo": "extra",
+      "extra": "V07",
+      "extra_tipo": "imagem",
+      "arquivo": "edicao/extras-v2/CAPA-03.jpg",
+      "modo": "full",
+      "som": false,
+      "credito": "PD Soros Fellowship (divulgação)",
+      "faltando": false,
+      "saida_inicio": 28.04,
+      "saida_fim": 30.96,
+      "enquadrar": {
+        "x": 0.5,
+        "y": 0.42
+      },
+      "descricao": "v1 #7 CAPA-03"
+    },
+    {
+      "linhas": [
+        "L08"
+      ],
+      "tipo": "extra",
+      "extra": "V08",
+      "extra_tipo": "imagem",
+      "arquivo": "edicao/extras-v2/F03.jpg",
+      "modo": "full",
+      "som": false,
+      "credito": "Fei-Fei Li / Princeton (1999)",
+      "faltando": false,
+      "saida_inicio": 30.96,
+      "saida_fim": 33.44,
+      "enquadrar": {
+        "x": 0.33,
+        "y": 0.5,
+        "xFim": 0.4
+      },
+      "descricao": "v1 #8 F03"
+    },
+    {
+      "linhas": [
+        "L09"
+      ],
+      "tipo": "extra",
+      "extra": "V09",
+      "extra_tipo": "imagem",
+      "arquivo": "edicao/extras-v2/F04.jpg",
+      "modo": "full",
+      "som": false,
+      "credito": "Nassau Hall, Princeton — Wikimedia Commons (CC BY-SA)",
+      "faltando": false,
+      "saida_inicio": 33.44,
+      "saida_fim": 36.35,
+      "enquadrar": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "descricao": "v1 #9 F04"
+    },
+    {
+      "linhas": [
+        "L09"
+      ],
+      "tipo": "extra",
+      "extra": "V10",
+      "extra_tipo": "imagem",
+      "arquivo": "edicao/extras-v2/Y09.png",
+      "modo": "full",
+      "som": false,
+      "credito": "Bloomberg Originals — The Circuit",
+      "faltando": false,
+      "saida_inicio": 36.35,
+      "saida_fim": 40.48,
+      "enquadrar": {
+        "x": 0.33,
+        "y": 0.45,
+        "area": {
+          "x": 0,
+          "y": 70,
+          "largura": 1920,
+          "altura": 1010
+        }
+      },
+      "descricao": "v1 #10 Y09"
+    },
+    {
+      "linhas": [
+        "L10"
+      ],
+      "tipo": "extra",
+      "extra": "V11",
+      "extra_tipo": "video",
+      "arquivo": "edicao/extras-v2/V11-Y14.mp4",
+      "modo": "full",
+      "som": false,
+      "credito": "TED2015 / Fei-Fei Li",
+      "faltando": false,
+      "saida_inicio": 40.48,
+      "saida_fim": 45.44,
+      "enquadrar": {
+        "x": 0.5,
+        "y": 0.45
+      },
+      "descricao": "v1 #11 Y14",
+      "in": 0.0
+    },
+    {
+      "linhas": [
+        "L11"
+      ],
+      "tipo": "extra",
+      "extra": "V12",
+      "extra_tipo": "video",
+      "arquivo": "edicao/extras-v2/V12-Y12.mp4",
+      "modo": "full",
+      "som": false,
+      "credito": "TED2015 / Fei-Fei Li",
+      "faltando": false,
+      "saida_inicio": 45.44,
+      "saida_fim": 49.62,
+      "enquadrar": {
+        "x": 0.5,
+        "y": 0.55
+      },
+      "descricao": "v1 #12 Y12",
+      "in": 0.0
+    },
+    {
+      "linhas": [
+        "L11"
+      ],
+      "tipo": "extra",
+      "extra": "V13",
+      "extra_tipo": "video",
+      "arquivo": "edicao/extras-v2/V13-Y20.mp4",
+      "modo": "full",
+      "som": false,
+      "credito": "TED2015 / Fei-Fei Li",
+      "faltando": false,
+      "saida_inicio": 49.62,
+      "saida_fim": 52.36,
+      "enquadrar": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "descricao": "v1 #13 Y20",
+      "in": 0.0
+    },
+    {
+      "linhas": [
+        "L12"
+      ],
+      "tipo": "extra",
+      "extra": "V14",
+      "extra_tipo": "imagem",
+      "arquivo": "edicao/extras-v2/Y13.png",
+      "modo": "full",
+      "som": false,
+      "credito": "TED2015 / Fei-Fei Li",
+      "faltando": false,
+      "saida_inicio": 52.36,
+      "saida_fim": 56.56,
+      "enquadrar": {
+        "x": 0.45,
+        "xFim": 0.55,
+        "y": 0.5
+      },
+      "descricao": "v1 #14 Y13"
+    },
+    {
+      "linhas": [
+        "L13"
+      ],
+      "tipo": "extra",
+      "extra": "V15",
+      "extra_tipo": "imagem",
+      "arquivo": "edicao/extras-v2/CAPA-04.jpg",
+      "modo": "full",
+      "som": false,
+      "credito": "Frank Wojciechowski / Princeton (2007)",
+      "faltando": false,
+      "saida_inicio": 56.56,
+      "saida_fim": 58.39,
+      "enquadrar": {
+        "x": 0.5,
+        "y": 0.4
+      },
+      "descricao": "v1 #15 CAPA-04"
+    },
+    {
+      "linhas": [
+        "L13"
+      ],
+      "tipo": "extra",
+      "extra": "V16",
+      "extra_tipo": "imagem",
+      "arquivo": "edicao/extras-v2/F07.jpg",
+      "modo": "full",
+      "som": false,
+      "credito": "ImageNet (2011)",
+      "faltando": false,
+      "saida_inicio": 58.39,
+      "saida_fim": 60.96,
+      "enquadrar": {
+        "x": 0.3,
+        "y": 0.2,
+        "xFim": 0.45,
+        "yFim": 0.5
+      },
+      "descricao": "v1 #16 F07"
+    },
+    {
+      "linhas": [
+        "L14"
+      ],
+      "tipo": "extra",
+      "extra": "V17",
+      "extra_tipo": "video",
+      "arquivo": "edicao/extras-v2/V17-Y15.mp4",
+      "modo": "full",
+      "som": false,
+      "credito": "TED2015 / Fei-Fei Li",
+      "faltando": false,
+      "saida_inicio": 60.96,
+      "saida_fim": 64.89,
+      "enquadrar": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "descricao": "v1 #17 Y15",
+      "in": 0.0
+    },
+    {
+      "linhas": [
+        "L14"
+      ],
+      "tipo": "extra",
+      "extra": "V18",
+      "extra_tipo": "video",
+      "arquivo": "edicao/extras-v2/V18-Y59.mp4",
+      "modo": "full",
+      "som": false,
+      "credito": "TED2024 / Fei-Fei Li",
+      "faltando": false,
+      "saida_inicio": 64.89,
+      "saida_fim": 70.08,
+      "enquadrar": {
+        "x": 0.42,
+        "y": 0.45,
+        "area": {
+          "x": 0,
+          "y": 0,
+          "largura": 1920,
+          "altura": 980
+        }
+      },
+      "descricao": "v1 #18 Y59",
+      "in": 0.0
+    },
+    {
+      "linhas": [
+        "L15"
+      ],
+      "tipo": "extra",
+      "extra": "V19",
+      "extra_tipo": "imagem",
+      "arquivo": "edicao/extras-v2/Y23.png",
+      "modo": "full",
+      "som": false,
+      "credito": "TED2015 / Fei-Fei Li",
+      "faltando": false,
+      "saida_inicio": 70.08,
+      "saida_fim": 74.01,
+      "enquadrar": {
+        "x": 0.3,
+        "xFim": 0.7,
+        "y": 0.5
+      },
+      "descricao": "v1 #19 Y23"
+    },
+    {
+      "linhas": [
+        "L15"
+      ],
+      "tipo": "extra",
+      "extra": "V20",
+      "extra_tipo": "imagem",
+      "arquivo": "edicao/extras-v2/Y19.png",
+      "modo": "full",
+      "som": false,
+      "credito": "TED2015 / Fei-Fei Li",
+      "faltando": false,
+      "saida_inicio": 74.01,
+      "saida_fim": 78.96,
+      "enquadrar": {
+        "x": 0.42,
+        "y": 0.55
+      },
+      "descricao": "v1 #20 Y19"
+    },
+    {
+      "linhas": [
+        "L17"
+      ],
+      "tipo": "extra",
+      "extra": "V21",
+      "extra_tipo": "video",
+      "arquivo": "edicao/extras-v2/V21-E09.mp4",
+      "modo": "full",
+      "som": false,
+      "credito": "TED2015 / Fei-Fei Li",
+      "faltando": false,
+      "saida_inicio": 81.68,
+      "saida_fim": 86.64,
+      "enquadrar": {
+        "x": 0.6,
+        "y": 0.45
+      },
+      "descricao": "v1 #21 E09",
+      "in": 0.0
+    },
+    {
+      "linhas": [
+        "L18"
+      ],
+      "tipo": "extra",
+      "extra": "V22",
+      "extra_tipo": "imagem",
+      "arquivo": "edicao/extras-v2/Y25.png",
+      "modo": "full",
+      "som": false,
+      "credito": "Bloomberg Originals — The Circuit / Krizhevsky, Sutskever, Hinton (2012)",
+      "faltando": false,
+      "saida_inicio": 86.64,
+      "saida_fim": 89.36,
+      "enquadrar": {
+        "x": 0.5,
+        "y": 0.45,
+        "zoom": 1.02,
+        "area": {
+          "x": 0,
+          "y": 70,
+          "largura": 1920,
+          "altura": 1010
+        }
+      },
+      "descricao": "v1 #22 Y25"
+    },
+    {
+      "linhas": [
+        "L19"
+      ],
+      "tipo": "extra",
+      "extra": "V23",
+      "extra_tipo": "imagem",
+      "arquivo": "edicao/extras-v2/F21.jpg",
+      "modo": "full",
+      "som": false,
+      "credito": "University of Toronto / Computer History Museum",
+      "faltando": false,
+      "saida_inicio": 89.36,
+      "saida_fim": 94.72,
+      "enquadrar": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "descricao": "v1 #23 F21"
+    },
+    {
+      "linhas": [
+        "L19"
+      ],
+      "tipo": "extra",
+      "extra": "V24",
+      "extra_tipo": "video",
+      "arquivo": "edicao/extras-v2/V24-Y17.mp4",
+      "modo": "full",
+      "som": false,
+      "credito": "TED2015 / Fei-Fei Li",
+      "faltando": false,
+      "saida_inicio": 94.72,
+      "saida_fim": 99.08,
+      "enquadrar": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "descricao": "v1 #24 Y17",
+      "in": 0.0
+    },
+    {
+      "linhas": [
+        "L20",
+        "L21"
+      ],
+      "tipo": "extra",
+      "extra": "V25",
+      "extra_tipo": "imagem",
+      "arquivo": "edicao/extras-v2/Y24.png",
+      "modo": "full",
+      "som": false,
+      "credito": "Bloomberg Originals — The Circuit / Johnny Guatto, University of Toronto",
+      "faltando": false,
+      "saida_inicio": 99.08,
+      "saida_fim": 106.28,
+      "enquadrar": {
+        "x": 0.3,
+        "xFim": 0.5,
+        "y": 0.45,
+        "area": {
+          "x": 0,
+          "y": 70,
+          "largura": 1920,
+          "altura": 750
+        }
+      },
+      "descricao": "v1 #25 Y24"
+    },
+    {
+      "linhas": [
+        "L22"
+      ],
+      "tipo": "extra",
+      "extra": "V26",
+      "extra_tipo": "video",
+      "arquivo": "edicao/extras-v2/V26-Y60.mp4",
+      "modo": "full",
+      "som": false,
+      "credito": "TED2024 / Fei-Fei Li",
+      "faltando": false,
+      "saida_inicio": 106.28,
+      "saida_fim": 115.64,
+      "enquadrar": {
+        "x": 0.22,
+        "xFim": 0.5,
+        "y": 0.5,
+        "area": {
+          "x": 0,
+          "y": 0,
+          "largura": 1920,
+          "altura": 980
+        }
+      },
+      "descricao": "v1 #26 Y60",
+      "in": 0.0
+    },
+    {
+      "linhas": [
+        "L24"
+      ],
+      "tipo": "extra",
+      "extra": "V27",
+      "extra_tipo": "imagem",
+      "arquivo": "edicao/extras-v2/F20.jpg",
+      "modo": "full",
+      "som": false,
+      "credito": "Johnny Guatto / University of Toronto",
+      "faltando": false,
+      "saida_inicio": 118.0,
+      "saida_fim": 119.96,
+      "enquadrar": {
+        "x": 0.3,
+        "xFim": 0.75,
+        "y": 0.5
+      },
+      "descricao": "v1 #27 F20"
+    },
+    {
+      "linhas": [
+        "L25"
+      ],
+      "tipo": "extra",
+      "extra": "V28",
+      "extra_tipo": "video",
+      "arquivo": "edicao/extras-v2/V28-Y16.mp4",
+      "modo": "full",
+      "som": false,
+      "credito": "TED2015 / Fei-Fei Li",
+      "faltando": false,
+      "saida_inicio": 119.96,
+      "saida_fim": 123.0,
+      "enquadrar": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "descricao": "v1 #28 Y16",
+      "in": 0.0
+    },
+    {
+      "linhas": [
+        "L26"
+      ],
+      "tipo": "extra",
+      "extra": "V29",
+      "extra_tipo": "imagem",
+      "arquivo": "edicao/extras-v2/N14.jpg",
+      "modo": "full",
+      "som": false,
+      "credito": "Stanford HAI / QEPrize (2025)",
+      "faltando": false,
+      "saida_inicio": 123.0,
+      "saida_fim": 125.38,
+      "enquadrar": {
+        "x": 0.5,
+        "y": 0.45
+      },
+      "descricao": "v1 #29 N14"
+    },
+    {
+      "linhas": [
+        "L26"
+      ],
+      "tipo": "extra",
+      "extra": "V30",
+      "extra_tipo": "video",
+      "arquivo": "edicao/extras-v2/V30-Y66.mp4",
+      "modo": "full",
+      "som": false,
+      "credito": "National Geographic",
+      "faltando": false,
+      "saida_inicio": 125.38,
+      "saida_fim": 128.72,
+      "enquadrar": {
+        "x": 0.5,
+        "y": 0.4,
+        "area": {
+          "x": 557,
+          "y": 0,
+          "largura": 806,
+          "altura": 1080
+        }
+      },
+      "descricao": "v1 #30 Y66",
+      "in": 0.0
+    }
+  ]
+}

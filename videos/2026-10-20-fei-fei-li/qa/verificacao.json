@@ -1,0 +1,540 @@
+{
+  "resultado": "FALHOU",
+  "motivos": [
+    "2.78s de voz da IA detectados no áudio do corte (limite 0.2s)",
+    "WER geral 27.0% > 8%"
+  ],
+  "wer_geral": 0.27,
+  "linhas": [
+    {
+      "id": "L01",
+      "status": "presente",
+      "wer": 0.2222,
+      "esperado": "Imagina chegar adolescente num país novo, sem falar inglês…",
+      "ouvido": "Imagina chegar adolescente num país novo e sem falar o inglês.",
+      "S": 0,
+      "D": 0,
+      "I": 2
+    },
+    {
+      "id": "L02",
+      "status": "presente",
+      "wer": 0.1,
+      "esperado": "e, anos depois, ajudar as máquinas a enxergar o mundo.",
+      "ouvido": "E ano depois, ajudar as máquinas a enxergar o mundo.",
+      "S": 1,
+      "D": 0,
+      "I": 0
+    },
+    {
+      "id": "L03",
+      "status": "presente",
+      "wer": 0.0,
+      "esperado": "Essa é a história da Fei-Fei Li.",
+      "ouvido": "Essa é a história da Fei-Fei Li.",
+      "S": 0,
+      "D": 0,
+      "I": 0
+    },
+    {
+      "id": "L04",
+      "status": "presente",
+      "wer": 0.2727,
+      "esperado": "Ela nasceu na China e chegou aos Estados Unidos ainda adolescente.",
+      "ouvido": "Ela nasceu na China e chegou nos Estados Unidos, e ainda adolescente. E",
+      "S": 1,
+      "D": 0,
+      "I": 2
+    },
+    {
+      "id": "L05",
+      "status": "presente",
+      "wer": 0.0,
+      "esperado": "Os pais praticamente não falavam inglês.",
+      "ouvido": "os pais praticamente não falavam inglês.",
+      "S": 0,
+      "D": 0,
+      "I": 0
+    },
+    {
+      "id": "L06",
+      "status": "presente",
+      "wer": 0.6471,
+      "esperado": "Então, na lavanderia da família, quem atendia o telefone, resolvia cobrança e até falava com o fiscal?",
+      "ouvido": "Então, na lavanderia da família, ela atendia os telefones e fazia as cobranças e até atendia os fiscais.",
+      "S": 8,
+      "D": 1,
+      "I": 2
+    },
+    {
+      "id": "L07",
+      "status": "presente",
+      "wer": 0.0,
+      "esperado": "Ela.",
+      "ouvido": "Ela,",
+      "S": 0,
+      "D": 0,
+      "I": 0
+    },
+    {
+      "id": "L08",
+      "status": "presente",
+      "wer": 0.6364,
+      "esperado": "E foi assim, ela conta, que ajudou a pagar a faculdade.",
+      "ouvido": "e foi assim, ela contou, que foi assim que ela ajudou a pagar as faculdades.",
+      "S": 3,
+      "D": 0,
+      "I": 4
+    },
+    {
+      "id": "L09",
+      "status": "presente",
+      "wer": 0.2857,
+      "esperado": "Fei-Fei estudou física em Princeton e depois entrou para o mundo da inteligência artificial.",
+      "ouvido": "Fei-Fei estudou física em Princeton e foi aí que ela entrou para o mundo da inteligência artificial.",
+      "S": 1,
+      "D": 0,
+      "I": 3
+    },
+    {
+      "id": "L10",
+      "status": "presente",
+      "wer": 0.5556,
+      "esperado": "E ela começou a pensar numa coisa muito simples:",
+      "ouvido": "E a partir daí, ela começou a pensar em uma coisa muito simples:",
+      "S": 1,
+      "D": 0,
+      "I": 4
+    },
+    {
+      "id": "L11",
+      "status": "presente",
+      "wer": 0.0,
+      "esperado": "Uma criança aprende a reconhecer o mundo vendo milhões de exemplos.",
+      "ouvido": "uma criança aprende a reconhecer o mundo vendo milhões de exemplos.",
+      "S": 0,
+      "D": 0,
+      "I": 0
+    },
+    {
+      "id": "L12",
+      "status": "presente",
+      "wer": 0.4286,
+      "esperado": "Então por que um computador seria diferente?",
+      "ouvido": "Então, por que que um computador deveria ser diferente?",
+      "S": 1,
+      "D": 0,
+      "I": 2
+    },
+    {
+      "id": "L13",
+      "status": "presente",
+      "wer": 0.0,
+      "esperado": "Em 2007, ela começou um projeto chamado ImageNet.",
+      "ouvido": "Em 2007, ela começou um projeto chamado ImageNet.",
+      "S": 0,
+      "D": 0,
+      "I": 0
+    },
+    {
+      "id": "L14",
+      "status": "presente",
+      "wer": 0.3684,
+      "esperado": "A ideia era reunir milhões de imagens e dizer ao computador exatamente o que aparecia em cada uma delas.",
+      "ouvido": "A ideia era reunir milhões de imagens e passar para o computador reconhecer exatamente cada uma delas.",
+      "S": 5,
+      "D": 2,
+      "I": 0
+    },
+    {
+      "id": "L15",
+      "status": "presente",
+      "wer": 0.4,
+      "esperado": "Segundo ela, quase 50 mil pessoas ajudaram pela internet a organizar e identificar essas imagens.",
+      "ouvido": "Segundo ela, cinquenta mil pessoas pela internet ajudaram a organizar e identificar cada uma dessas imagens.",
+      "S": 1,
+      "D": 2,
+      "I": 3
+    },
+    {
+      "id": "L16",
+      "status": "presente",
+      "wer": 0.0,
+      "esperado": "E sabe o mais curioso?",
+      "ouvido": "E sabe o mais curioso?",
+      "S": 0,
+      "D": 0,
+      "I": 0
+    },
+    {
+      "id": "L17",
+      "status": "presente",
+      "wer": 0.1429,
+      "esperado": "Ela disponibilizou tudo de graça para pesquisadores.",
+      "ouvido": "Ela disponibilizou tudo de graça para os pesquisadores.",
+      "S": 0,
+      "D": 0,
+      "I": 1
+    },
+    {
+      "id": "L18",
+      "status": "presente",
+      "wer": 0.1667,
+      "esperado": "Aí chega 2012.",
+      "ouvido": "Aí chega o 2012.",
+      "S": 0,
+      "D": 0,
+      "I": 1
+    },
+    {
+      "id": "L19",
+      "status": "presente",
+      "wer": 0.3,
+      "esperado": "Um grupo da Universidade de Toronto usa o ImageNet para treinar uma rede neural numa competição de reconhecimento de imagens.",
+      "ouvido": "Um grupo da Universidade de Toronto usaram a ImageNet para treinar uma rede neurais em uma competição de reconhecimento das imagens.",
+      "S": 5,
+      "D": 0,
+      "I": 1
+    },
+    {
+      "id": "L20",
+      "status": "presente",
+      "wer": 0.0,
+      "esperado": "E sabe quem estava nesse grupo?",
+      "ouvido": "E sabe quem tava nesse grupo?",
+      "S": 0,
+      "D": 0,
+      "I": 0
+    },
+    {
+      "id": "L21",
+      "status": "presente",
+      "wer": 0.0,
+      "esperado": "Geoffrey Hinton, de quem eu já falei aqui.",
+      "ouvido": "Geoffrey Hinton, de quem eu já falei aqui",
+      "S": 0,
+      "D": 0,
+      "I": 0
+    },
+    {
+      "id": "L22",
+      "status": "presente",
+      "wer": 0.2778,
+      "esperado": "O resultado foi tão superior aos concorrentes que aquele momento ajudou a mudar o rumo da inteligência artificial.",
+      "ouvido": "O resultado foi tão superior ao concorrente e naquele momento começou a mudar o rumo da inteligência artificial.",
+      "S": 5,
+      "D": 0,
+      "I": 0
+    },
+    {
+      "id": "L23",
+      "status": "presente",
+      "wer": 0.25,
+      "esperado": "Mas olha que interessante:",
+      "ouvido": "Mas olha só que interessante:",
+      "S": 0,
+      "D": 0,
+      "I": 1
+    },
+    {
+      "id": "L24",
+      "status": "presente",
+      "wer": 0.25,
+      "esperado": "A IA era deles.",
+      "ouvido": "a AI era deles,",
+      "S": 1,
+      "D": 0,
+      "I": 0
+    },
+    {
+      "id": "L25",
+      "status": "presente",
+      "wer": 0.25,
+      "esperado": "Os exemplos eram dela.",
+      "ouvido": "os exemplos era dela.",
+      "S": 1,
+      "D": 0,
+      "I": 0
+    },
+    {
+      "id": "L26",
+      "status": "presente",
+      "wer": 0.1818,
+      "esperado": "Hoje, a imprensa chama Fei-Fei Li de madrinha da inteligência artificial.",
+      "ouvido": "Hoje, a imprensa chama a Fei-Fei Li da madrinha da inteligência artificial.",
+      "S": 1,
+      "D": 0,
+      "I": 1
+    },
+    {
+      "id": "L27",
+      "status": "presente",
+      "wer": 0.0,
+      "esperado": "E a história dela mostra uma coisa muito importante:",
+      "ouvido": "E a história dela mostra uma coisa muito importante:",
+      "S": 0,
+      "D": 0,
+      "I": 0
+    },
+    {
+      "id": "L28",
+      "status": "presente",
+      "wer": 0.6,
+      "esperado": "IA não aprende por mágica.",
+      "ouvido": "a inteligência artificial não aprende por mágica.",
+      "S": 1,
+      "D": 0,
+      "I": 2
+    },
+    {
+      "id": "L29",
+      "status": "presente",
+      "wer": 0.2105,
+      "esperado": "Ela aprende porque alguém teve o trabalho de mostrar exemplos, organizar informação e ensinar o que cada coisa significa.",
+      "ouvido": "Ela aprende porque alguém teve o trabalho de organizar informações, ensinar o que cada coisa significa.",
+      "S": 1,
+      "D": 3,
+      "I": 0
+    },
+    {
+      "id": "L30",
+      "status": "presente",
+      "wer": 0.0,
+      "esperado": "E, às vezes, quem ajuda a mudar o futuro…",
+      "ouvido": "E às vezes, quem ajuda a mudar o futuro",
+      "S": 0,
+      "D": 0,
+      "I": 0
+    },
+    {
+      "id": "L31",
+      "status": "presente",
+      "wer": 0.0769,
+      "esperado": "é aquela adolescente que um dia precisou traduzir tudo para a própria família.",
+      "ouvido": "é aquela adolescente que um dia precisou traduzir tudo para sua própria família.",
+      "S": 1,
+      "D": 0,
+      "I": 0
+    },
+    {
+      "id": "L32",
+      "status": "presente",
+      "wer": 1.0,
+      "esperado": "Comenta AULA aqui embaixo que eu te mando a palestra dela.",
+      "ouvido": "Comenta \"aula\" aqui embaixo, eu te envio no seu direct uma entrevista completa sobre a Fei-Fei Li.",
+      "S": 3,
+      "D": 1,
+      "I": 7
+    },
+    {
+      "id": "L33",
+      "status": "presente",
+      "wer": 0.2857,
+      "esperado": "São 18 minutos, com legenda em português.",
+      "ouvido": "São somente dezoito minutos com a legenda em português.",
+      "S": 0,
+      "D": 0,
+      "I": 2
+    },
+    {
+      "id": "L34",
+      "status": "presente",
+      "wer": 0.0,
+      "esperado": "E manda esse vídeo pra alguém que já foi o tradutor da família.",
+      "ouvido": "E manda esse vídeo pra alguém que já foi o tradutor da família.",
+      "S": 0,
+      "D": 0,
+      "I": 0
+    }
+  ],
+  "extras": [
+    {
+      "inicio": 105.26,
+      "fim": 105.82,
+      "texto": "no meu canal."
+    }
+  ],
+  "duracao": {
+    "video": 168.4,
+    "audio": 168.44,
+    "pecas": 168.44,
+    "edl": 168.44,
+    "alvo": 165.0
+  },
+  "av_ok": true,
+  "duracao_ok": true,
+  "engine": "scribe",
+  "voz_ia": {
+    "aplicavel": true,
+    "segundos": 2.78,
+    "trechos": [
+      [
+        11.361,
+        11.451
+      ],
+      [
+        20.851,
+        20.951
+      ],
+      [
+        22.321,
+        22.381
+      ],
+      [
+        26.511,
+        26.541
+      ],
+      [
+        34.801,
+        34.871
+      ],
+      [
+        40.671,
+        40.771
+      ],
+      [
+        45.271,
+        45.331
+      ],
+      [
+        52.131,
+        52.191
+      ],
+      [
+        52.461,
+        52.531
+      ],
+      [
+        53.34,
+        53.541
+      ],
+      [
+        54.141,
+        54.191
+      ],
+      [
+        59.401,
+        59.451
+      ],
+      [
+        60.761,
+        60.831
+      ],
+      [
+        66.711,
+        66.761
+      ],
+      [
+        67.811,
+        67.921
+      ],
+      [
+        69.841,
+        69.901
+      ],
+      [
+        70.731,
+        70.821
+      ],
+      [
+        79.24,
+        79.64
+      ],
+      [
+        85.151,
+        85.201
+      ],
+      [
+        85.331,
+        85.391
+      ],
+      [
+        86.151,
+        86.201
+      ],
+      [
+        86.711,
+        86.791
+      ],
+      [
+        98.881,
+        98.921
+      ],
+      [
+        99.391,
+        99.461
+      ],
+      [
+        100.151,
+        100.201
+      ],
+      [
+        115.901,
+        116.14
+      ],
+      [
+        117.481,
+        117.531
+      ],
+      [
+        123.081,
+        123.121
+      ],
+      [
+        128.861,
+        128.911
+      ],
+      [
+        136.691,
+        136.741
+      ],
+      [
+        141.401,
+        141.501
+      ],
+      [
+        163.861,
+        163.951
+      ],
+      [
+        164.181,
+        164.221
+      ]
+    ],
+    "palavras_ia": [
+      {
+        "texto": "por",
+        "inicio": 53.34,
+        "fim": 53.44,
+        "llr": 4.61
+      },
+      {
+        "texto": "sabe",
+        "inicio": 79.24,
+        "fim": 79.64,
+        "llr": 1.78
+      },
+      {
+        "texto": "olha",
+        "inicio": 115.94,
+        "fim": 116.14,
+        "llr": 9.33
+      }
+    ],
+    "limiar_llr": 1.5,
+    "segundos_edl": 0.0,
+    "limite": 0.2
+  },
+  "voz_ia_ok": false,
+  "fps": {
+    "video": 25.0,
+    "projeto": 25,
+    "ok": true,
+    "frame_s": 0.04
+  },
+  "formato": {
+    "largura": 1080,
+    "altura": 1920,
+    "pix_fmt": "yuv422p10le"
+  }
+}

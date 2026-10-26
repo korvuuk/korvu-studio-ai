@@ -1,0 +1,8 @@
+# capturar.sh · 2026-10-22T23:48:39.611Z
+# alvo	largura pedida	innerWidth	scrollWidth	altura	HTTP	png	passa da borda
+/desempenho	1440	1440	1440	2145	200	/Users/teste/Documents/CONTENT AI/painel/trabalho/frontend/v3-mais-de-mil-linhas/desempenho-1440.png	
+/desempenho	375	375	375	3532	200	/Users/teste/Documents/CONTENT AI/painel/trabalho/frontend/v3-mais-de-mil-linhas/desempenho-375.png	
+/equipe/portao-interface	1440	1440	1440	1675	200	/Users/teste/Documents/CONTENT AI/painel/trabalho/frontend/v3-mais-de-mil-linhas/equipe-portao-interface-1440.png	
+/equipe/portao-interface	375	375	375	2886	200	/Users/teste/Documents/CONTENT AI/painel/trabalho/frontend/v3-mais-de-mil-linhas/equipe-portao-interface-375.png	
+/	1440	1440	1440	1466	200	/Users/teste/Documents/CONTENT AI/painel/trabalho/frontend/v3-mais-de-mil-linhas/inicio-1440.png	
+/	375	375	375	2452	200	/Users/teste/Documents/CONTENT AI/painel/trabalho/frontend/v3-mais-de-mil-linhas/inicio-375.png	

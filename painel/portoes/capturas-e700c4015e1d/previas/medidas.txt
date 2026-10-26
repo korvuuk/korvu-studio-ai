@@ -1,0 +1,4 @@
+# capturar.sh · 2026-10-24T22:03:24.340Z
+# alvo	largura pedida	innerWidth	scrollWidth	altura	HTTP	png	passa da borda
+painel/design/previas/portao.html	1440	1440	1440	1676	200	/Users/teste/Documents/CONTENT AI/painel/portoes/capturas-e700c4015e1d/previas/portao-1440.png	
+painel/design/previas/portao.html	375	375	375	2092	200	/Users/teste/Documents/CONTENT AI/painel/portoes/capturas-e700c4015e1d/previas/portao-375.png	
